@@ -2,15 +2,15 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-07-12"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# How to Upgrade Evault Backup Agent for Windows 
+# Upgrading Evault Backup Agent for Windows 
 
-1. Remote into your SoftLayer server that is in need of an Evault upgrade, via RDP.
+1. Remote into your {{site.data.keyword.BluSoftlayer_full}} server that is in need of an Evault upgrade, via RDP.
 
 2. Open Internet Browser, and browse to below URL to download install files:
 

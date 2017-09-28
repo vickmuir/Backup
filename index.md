@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ Read more about this solution [here](access-evault-backup-storage-screen.html)
 
 ## R1Soft CDP
 
-Continuous Data Protection (CDP) is a high-performance backup software created by R1Soft that allows for backup of both physical and virtual devices. Idera CDP consists of three main components: the CDP server, the agent and the database plugins, which are available for purchase separately from the first two components.  Because R1Soft CDP is a third-party backup solution, interactions with CDP take place entirely outside of Bluemix's proprietary interfaces; however, R1Soft CDP passwords may be tracked and stored within [Bluemix's Customer Portal](http://control.softlayer.com/).  All other interactions with R1Soft CDP are documented on R1Soft's website.
+Continuous Data Protection (CDP) is a high-performance backup software created by R1Soft that allows for backup of both physical and virtual devices. Idera CDP consists of three main components: the CDP server, the agent and the database plugins, which are available for purchase separately from the first two components.  Because R1Soft CDP is a third-party backup solution, interactions with CDP take place entirely outside of {{site.data.keyword.BluSoftlayer_full}}'s proprietary interfaces; however, R1Soft CDP passwords may be tracked and stored within [{{site.data.keyword.slportal}}](http://control.softlayer.com/){:new_window}.  All other interactions with R1Soft CDP are documented on R1Soft's website.
 
 Read more about this solution [here](what-r1soft-cdp.html)
 

@@ -2,23 +2,23 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-01"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# How to Restore a Server with R1Soft CDP
+# Restoring a Server with R1Soft CDP
 
-Use this process to perform a [bare metal restore](http://wiki.r1soft.com/display/CDP/Bare-Metal+Restore) to a SoftLayer public or private virtual server (VSI) in the case of a server failure that causes data or OS loss.
+Use this process to perform a [bare metal restore](http://wiki.r1soft.com/display/CDP/Bare-Metal+Restore){:new_window} to a {{site.data.keyword.BluSoftlayer_full}} public or private virtual server (VSI) in the case of a server failure that causes data or OS loss.
 
-All file system blocks that have been backed up will be restored, including the OS and any files that were not excluded from backups. Do not follow this process if restoration of a subset of files is the objective; click [here](http://wiki.r1soft.com/display/CDP/Restoring+Files) for the steps on how to restore files only.
+All file system blocks that have been backed up will be restored, including the OS and any files that were not excluded from backups. Do not follow this process if restoration of a subset of files is the objective; click [here](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for the steps on how to restore files only.
 
 ## Preparing the R1Soft CDP Server
 
 ### Perform the following tasks on the R1Soft CDP server:
 
-1. Open a browser window and log into R1Soft CDP server (the IP and admin passwords are available via the Bluemix [Customer portal](http://www.control.softlayer.com/)).
+1. Open a browser window and log into R1Soft CDP server (the IP and admin passwords are available via the [{{site.data.keyword.slportal}}](http://www.control.softlayer.com/){:new_window}).
 2. Click **Recovery Points** on the bottom left-hand side of the R1Soft CDP management portal.
 3. Select the **Server** you wish to restore and the **Disk Safe** from which you wish to restore.
 4. Locate the point from which you want to restore from the recovery points list.
@@ -39,7 +39,7 @@ You should see a window with the status of the current restoration
 
 ### Perform the following steps to prepare the device to be restored:
 
-1. Open a browser window and access [Customer portal](http://www.control.softlayer.com/).
+1. Open a browser window and access [{{site.data.keyword.slportal}}](http://www.control.softlayer.com/){:new_window}.
 2. Click **Devices**, **Device List** and select the device to be restored.
 3. Click **Actions** and choose **Boot from image** to display a list of private images; choose **Public Images** from the drop-down menu at the top of the list.
 4. Choose the appropriate R1Soft agent boot image for your version of R1Soft server (*r1soft-cdp-bootcd-server-4.0.0.iso*) and click **Boot From This Image**.

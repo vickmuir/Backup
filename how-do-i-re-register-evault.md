@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-02"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# How do I Re-register an eVault?
+# Re-registering an eVault
 
 This is most commonly a step needed after reloading the OS of a server, but you can also use these steps to use backups for one server, to restore on another server.
 

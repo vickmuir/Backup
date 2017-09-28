@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-07-12"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
@@ -12,7 +12,7 @@ lastupdated: "2017-07-12"
 
 ## What kind of applications can I back up with EVault?
 
-EVault allows for backups of a variety of applications, however, Bluemix offers software agents for some of the more common software systems that are backed up, which include:
+EVault allows for backups of a variety of applications, however,  {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
 
 - Bare Metal Restore
 - Microsoft SharePoint
@@ -54,7 +54,7 @@ For example: `/opt/BUAgent/Install.log`
 If the installation fails and rolls back, the installation log will be in the `<Installation Failure directory>`.
 If it fails and does not roll back, the installation log will be in the `<Installation Kit directory>`.
 
-For more information, download the [VMware_Agent_User_Guide](http://downloads.service.softlayer.com/evault/Documentation/VMware_Agent_User_Guide.pdf). Be sure you are connected to the Bluemix VPN in order to view this link.
+For more information, download the [VMware_Agent_User_Guide](http://downloads.service.softlayer.com/evault/Documentation/VMware_Agent_User_Guide.pdf){:new_window}. Be sure you are connected to the  {{site.data.keyword.BluVPN}} in order to view this link.
 
 ## How Frequently Can I Back up My Data with EVault Backup?
 

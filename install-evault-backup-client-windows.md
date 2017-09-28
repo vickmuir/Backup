@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-02"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Install the EVault Backup Client in Windows
+# Installing the EVault Backup Client in Windows
 
 ## Overview
 

@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-02"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Find Instructions to Interact with EVault Backup in WebCC
+# Finding Instructions to Interact with EVault Backup in WebCC
 ## Overview
 
 Interaction with any EVault Backup service occurs within the web-based client for EVault, WebCC.  Within WebCC there is extensive documentation for all interactions that can take place with the EVault Backup services.  Follow the steps below to access WebCC's documentation for interacting with EVault Backup using WebCC.
