@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/backup/index.html"}
-IBM Bluemix Storage - Backup
+IBM Cloud Storage - Backup
 
     {: .navgroup id="learn"}
     index.md

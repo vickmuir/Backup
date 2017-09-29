@@ -18,7 +18,7 @@ All file system blocks that have been backed up will be restored, including the 
 
 ### Perform the following tasks on the R1Soft CDP server:
 
-1. Open a browser window and log into R1Soft CDP server (the IP and admin passwords are available via the [{{site.data.keyword.slportal}}](http://www.control.softlayer.com/){:new_window}).
+1. Open a browser window and log into R1Soft CDP server (the IP and admin passwords are available via the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}).
 2. Click **Recovery Points** on the bottom left-hand side of the R1Soft CDP management portal.
 3. Select the **Server** you wish to restore and the **Disk Safe** from which you wish to restore.
 4. Locate the point from which you want to restore from the recovery points list.
@@ -39,7 +39,7 @@ You should see a window with the status of the current restoration
 
 ### Perform the following steps to prepare the device to be restored:
 
-1. Open a browser window and access [{{site.data.keyword.slportal}}](http://www.control.softlayer.com/){:new_window}.
+1. Open a browser window and access [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Devices**, **Device List** and select the device to be restored.
 3. Click **Actions** and choose **Boot from image** to display a list of private images; choose **Public Images** from the drop-down menu at the top of the list.
 4. Choose the appropriate R1Soft agent boot image for your version of R1Soft server (*r1soft-cdp-bootcd-server-4.0.0.iso*) and click **Boot From This Image**.

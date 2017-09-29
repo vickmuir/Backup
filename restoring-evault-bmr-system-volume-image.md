@@ -15,7 +15,7 @@ In the event that you need to restore a Bare Metal image backup from Evault, you
 ## Initiating the Evault BMR Rescue Kernel system
 
 You can access the Evault BMR Rescue Kernel system via the {{site.data.keyword.slportal}}.
-1. Log into the [{{site.data.keyword.slportal}}](control.softlayer.com){:new_window}
+1. Log into the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Click **Storage** > **Backup** 
 3. Click the **Arrow** next to the vault
 4. Click **Initiate Bare Metal Restore**. This will start a transaction that will take a few minutes to complete at which time you can access it by following the steps detailed below. You will be emailed once the system completes the boot process.

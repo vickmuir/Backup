@@ -17,7 +17,7 @@ WebCentralControl (WebCC) is the client used when interacting with any EVault Ba
 
 1. Access the Private Network over VPN. <br/>
     **Note**: WebCC cannot be accessed over the public network. A VPN connection must be established in order to access WebCC.
-2. Access the EVault Backup Storage screen in the [{{site.data.keyword.slportal}}](http://control.softlayer.com/){:new_window}. Refer to [Access the EVault Backup Storage Screen](/docs/infrastructure/Backup/access-evault-backup-storage-screen.html).
+2. Access the EVault Backup Storage screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Refer to [Access the EVault Backup Storage Screen](/docs/infrastructure/Backup/access-evault-backup-storage-screen.html).
 3. Click anywhere on the row for the desired EVault Backup to expand the view.
 3. Click **WebCC Login** to launch the WebCC client in your browser.
 
