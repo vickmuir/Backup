@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-03"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Evault Port Information
+# EVault Port Information
 
 The EVault agent installed on your server needs to be able to communicate with the vault you have purchased. EVault Director host information for an EVault user account can be found in the customer portal. Here are some examples, the host name depends on the Data Center they are in:
 

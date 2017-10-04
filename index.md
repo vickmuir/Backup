@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2017
-lastupdated: "2017-10-03"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -29,7 +29,7 @@ Storage details regarding your EVault Backup service may be viewed using the {{s
 2. Click anywhere on the row for the desired EVault Backup to view its storage details. From this view, the Password is not viewable. Proceed to the next step to view the password associated with your EVault Backup service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected EVault Backup service.
 
-For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password and changes made to it within the {{site.data.keyword.slportal}} are not applied to the product or service. This is _not_ the case for EVault Backup. Changes made to the EVault Backup password within the {{site.data.keyword.slportal}} will be made to the service itself. Please make changes while keeping in mind that they will impact your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](change-password-evault-backup-service.html).
+For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password and changes made to it within the {{site.data.keyword.slportal}} are not applied to the product or service. This is _not_ the case for EVault Backup. Changes made to the EVault Backup password within the {{site.data.keyword.slportal}} will be made to the service itself. Please make changes while keeping in mind that they will impact your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](/docs/infrastructure/Backup/change-password-evault-backup-service.html).
 
 ### Accessing WebCentralControl (WebCC) for EVault Backup
 
@@ -43,7 +43,7 @@ WebCentralControl (WebCC) is the client used when interacting with any EVault Ba
 
 ### What Happens Next
 
-After accessing WebCC over the private network, actions may be taken on the EVault Backup service. WebCC's systems are fully documented and support for the application is accessible within WebCC. Refer to [Find Instructions to Interact with EVault Backup in WebCC](find-instructions-interact-evault-backup-webcc.html) for more information on accessing WebCC's support documentation.
+After accessing WebCC over the private network, actions may be taken on the EVault Backup service. WebCC's systems are fully documented and support for the application is accessible within WebCC. Refer to [Find Instructions to Interact with EVault Backup in WebCC](/docs/infrastructure/Backup/find-instructions-interact-evault-backup-webcc.html) for more information on accessing WebCC's support documentation.
 
 ## R1Soft CDP
 

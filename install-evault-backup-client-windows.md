@@ -19,6 +19,6 @@ Installing the EVault Backup client in Windows is completed through a series of 
 4. Enter the Network address: `ev-webcc01.service.softlayer.com`
 5. Enter the **EVault Backup Username** in the Username field. R
 6. Enter the **EVault Backup Password** in the Password field. <br/>
-   **Note**: Refer to the [Getting Started with Backup Services](index.html) article for instructions to view the EVault Backup Username and Password.
+   **Note**: Refer to the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) article for instructions to view the EVault Backup Username and Password.
 7. Click **Install Client** to complete the installation.
 

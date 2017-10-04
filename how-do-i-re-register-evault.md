@@ -2,17 +2,17 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Re-registering an eVault
+# Re-registering an EVault
 
 This is most commonly a step needed after reloading the OS of a server, but you can also use these steps to use backups for one server, to restore on another server.
 
-1. Login as the user on [WebCC](/docs/infrastructure/Backup/access-webcentralcontrol-webcc-evault-backup.html).
+1. Login as the user on WebCC. Refer to the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) document for more details.
 
 2. Click **All Agents** on the left under Views.
 
@@ -24,7 +24,7 @@ This is most commonly a step needed after reloading the OS of a server, but you 
 
 6. Fill out: Vault Name, Vault Address, Account, User Name, Password.
 
-**Note**: "Account" is the "Account Name" in the [eVault details](/docs/infrastructure/Backup/view-evault-backup-storage-details.html) page. Typically, it is "SLE[account id]"
+**Note**: "Account" is the "Account Name" in the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) page. Typically, it is "SLE[account id]"
 
 7. Click **Load Computers** and select which computers you wish to load.
 

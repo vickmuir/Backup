@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-07-12"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Evault Backup and Restore Terminology 
+# EVault Backup and Restore Terminology 
 
 ## Delta Technology:
 The first Backup is a “seed” (a complete, full Backup), the next and subsequent ones are deltas (i.e. changes only), but they are equivalent to, and still considered a “full” Backup. That is, you are able to restore all or any files from it. This technology allows for “Full Backups” to be made each session, but saves enormous amounts of space on the Vault and decreases the amount of time each subsequent backups take to complete.

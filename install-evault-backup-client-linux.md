@@ -33,5 +33,5 @@ After completing the procedure, the automated process will register the Agent se
     `Enter the WebCC password for this server:`
 3. Enter the **EVault Backup Username** as the input for the prompt requesting the WebCC username. 
 4. Enter the **EVault Backup Password** as the input for the prompt requesting the WebCC password. <br/>
-   **Note**: Refer to the [Getting Started with Backup Services](index.html) article for instructions to view the EVault Backup Username and Password.
+   **Note**: Refer to the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) article for instructions to view the EVault Backup Username and Password.
 
