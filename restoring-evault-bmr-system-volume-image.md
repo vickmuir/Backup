@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-10-03"
 
 ---
 {:new_window: target="_blank"}
@@ -23,7 +23,7 @@ You can access the Evault BMR Rescue Kernel system via the {{site.data.keyword.s
 
 ## Restoring from the Evault BMR Rescue Kernel
 
-Once the Evault BMR Rescue Kernel transaction has loaded you can chose to access it in 2 different ways. One way being a vnc client and the private/public ip address of your server and the password that is listed in the {{site.data.keyword.slportal}} and the other way being the KVM console of your ipmi card. Either of these ways will work out well. Upon logging into the Evault BMR Rescue Kernel for the first time, you are greeted with the language selection screen as shown below. 
+Once the Evault BMR Rescue Kernel transaction has loaded you can chose to access it in 2 different ways. One way being a vnc client and the private/public ip address of your server and the password that is listed in the {{site.data.keyword.slportal}} and the other way being the KVM console of your IPMI card. Either of these ways will work out well. Upon logging into the Evault BMR Rescue Kernel for the first time, you are greeted with the language selection screen as shown below. 
 
 1. Select the language of your choice and click **OK**.
 <br/>![Figure 1: BMR Language selection](/images/bmr1.png)<br/> This brings you to the license agreement for the software. 
@@ -55,6 +55,6 @@ Once the Evault BMR Rescue Kernel transaction has loaded you can chose to access
 15. On the final screen, check the box for reboot system and select **Finish** and the server boots into your restored volume image. 
 The restoration is now complete.
 
-## Notes:
+## Notes
 
 The first time this happens you will see the unexpected shutdown message. This is completely normal with this backup type and will go away after the first boot. 

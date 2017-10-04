@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-10-03"
 
 ---
 {:new_window: target="_blank"}
@@ -15,8 +15,6 @@ Use this process to perform a [bare metal restore](http://wiki.r1soft.com/displa
 All file system blocks that have been backed up will be restored, including the OS and any files that were not excluded from backups. Do not follow this process if restoration of a subset of files is the objective; click [here](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for the steps on how to restore files only.
 
 ## Preparing the R1Soft CDP Server
-
-### Perform the following tasks on the R1Soft CDP server:
 
 1. Open a browser window and log into R1Soft CDP server (the IP and admin passwords are available via the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}).
 2. Click **Recovery Points** on the bottom left-hand side of the R1Soft CDP management portal.
@@ -36,8 +34,6 @@ All file system blocks that have been backed up will be restored, including the 
 You should see a window with the status of the current restoration
 
 ## Preparing the device for restoration
-
-### Perform the following steps to prepare the device to be restored:
 
 1. Open a browser window and access [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Devices**, **Device List** and select the device to be restored.

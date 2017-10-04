@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-15"
+lastupdated: "2017-10-03"
 
 ---
 {:new_window: target="_blank"}
@@ -23,9 +23,9 @@ Fedpod Vaults:
     Dallas 8 ev-vaultdal0801.service.usgov.softlayer.com 100.100.6.30
     Ashburn, VA 3 ev-vaultwdc0301.service.usgov.softlayer.com 100.100.38.30
 
-Always register agents to the WebCC and the EVault directors using the FQDN as the IPs for these services could change. Your servers must communicate with the WebCC and all AMP proxy servers for WebCC to work correctly, regardless of the data center location: ev-webcc01.service.softlayer.com TCP 8086,8087. Additional AMP proxy servers may be added as needed to handle additional EVault agents registered to the WebCC. TCP Port 8086, 8087 should have access to 10.0.0.0/8. If you need to use more restrictive firewall rules you may loose access to the WebCC as the infrastructure is expanded. Currently at minimum, your servers should allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086,8087. Additional subnets may be used in the future as needed.
+Always register agents to the WebCC and the EVault directors using the FQDN as the IPs for these services could change. Your servers must communicate with the WebCC and all AMP proxy servers for WebCC to work correctly, regardless of the data center location: ev-webcc01.service.softlayer.com TCP 8086,8087. Additional AMP proxy servers may be added as needed to handle additional EVault agents registered to the WebCC. TCP Port 8086, 8087 should have access to 10.0.0.0/8. If you need to use more restrictive firewall rules you may lose access to the WebCC as the infrastructure is expanded. Currently at minimum, your servers should allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086,8087. Additional subnets may be used in the future as needed.
 
-Commercial:
+## Commercial:
 
 WebCC and AMP proxy servers:
 
@@ -43,19 +43,19 @@ Commercial AMP proxy servers:
     ev-webamp0908.service.softlayer.com [10.2.118.19] 8087
 
 
-Fedpod:
+## Fedpod:
 
 WebCC and AMP proxy:
 
     webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-Commercial ADN:
+## Commercial ADN:
 
 WebCC and AMP proxy:
 
     ev-webccadn.adn.networklayer.com [161.26.4.101] 8086, 8087
 
-Also, the agent must allow port TCP/2548 inbound on the private network. This allows CentralControl and WebCC to connect into the agent to manage it. Older versions of EVault used port 808.
+The agent must allow port TCP/2548 inbound on the private network. This allows CentralControl and WebCC to connect into the agent to manage it. Older versions of EVault used port 808.
 
 The EVault management port (2548) can be changed by updating registry key at:HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber (which is a dword) in Windows OS's.
 

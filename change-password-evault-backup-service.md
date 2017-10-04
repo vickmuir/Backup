@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-10-03"
 
 ---
 {:new_window: target="_blank"}
@@ -12,13 +12,14 @@ lastupdated: "2017-09-28"
 
 ## Overview
 
-Each EVault Backup service has an associated password used to access EVault within WebCC. For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} is used solely for storage or tracking of the password and changes made to it within the {{site.data.keyword.slportal}} are not applied to the product or service. This is not the case for EVault Backup. Changes made to the EVault Backup password within the {{site.data.keyword.slportal}} will be made to the service itself. Please make changes while keeping in mind that they will impact your service directly. Follow the steps below to change an EVault Backup password in the {{site.data.keyword.slportal}}.
+Each EVault Backup service has an associated password used to access EVault within WebCC. 
+
+For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password and changes made to it within the {{site.data.keyword.slportal}} are not applied to the product or service. This is **not** the case for EVault Backup. Changes made to the EVault Backup password within the {{site.data.keyword.slportal}} will be made to the service itself. Please make changes while keeping in mind that they will impact your service directly. Follow the steps below to change an EVault Backup password in the {{site.data.keyword.slportal}}.
 
 ## Change an EVault Backup Password
 
-1. Access the EVault Backup Storage screen on the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Refer to [Access the EVault Storage Backup Screen](/docs/infrastructure/Backup/access-evault-backup-storage-screen.html).
+1. Access the EVault Backup Storage screen on the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} by clicking **Storage** > **Backup**.
 2. Click anywhere on the row for the desired EVault Backup to expand the view.
 3. Click the **Show** check box to view the current password.
 4. Enter the new password in the **Password** field.
 5. Click **Update**.
-

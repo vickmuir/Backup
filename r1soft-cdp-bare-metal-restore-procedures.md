@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-10-03"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2017-09-28"
 
 # R1Soft CDP Bare Metal Restore Procedures
 
-Below is the process for completing a bare metal restore to public/private {{site.data.keyword.BluVirtServers_full}} or BluBareMetServers_full}}. This process would be followed in the case of a server failure that causes data/OS loss. This process will restore all file system blocks backed up (including the OS and any files that were not excluded from backups). This process should not be followed if the restoration of a subset of files is the objective (Refer to [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for restotration of the files only).
+Below is the process for completing a bare metal restore to public/private {{site.data.keyword.BluVirtServers_full}} or {{BluBareMetServers_full}}. This process would be followed in the case of a server failure that causes data/OS loss. This process will restore all file system blocks backed up (including the OS and any files that were not excluded from backups). This process should not be followed if the restoration of a subset of files is the objective (Refer to [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for restotration of the files only).
 
 ## R1Soft Server Tasks 
 
