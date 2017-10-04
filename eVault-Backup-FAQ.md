@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-03"
+lastupdated: "2017-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2017-10-03"
 
 # EVault Backup FAQ
 
-## What kind of applications can I back up with EVault?
+## What Kind of Applications Can I Back up with EVault?
 
 EVault allows for backups of a variety of applications, however,  {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
 
