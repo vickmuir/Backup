@@ -10,7 +10,7 @@ lastupdated: "2017-10-03"
 
 # Restoring a Server with R1Soft CDP
 
-Use this process to perform a [bare metal restore](http://wiki.r1soft.com/display/CDP/Bare-Metal+Restore){:new_window} to a {{site.data.keyword.BluSoftlayer_full}} public or private virtual server (VSI) in the case of a server failure that causes data or OS loss.
+Use this process to perform a [bare metal restore](http://wiki.r1soft.com/display/CDP/Bare-Metal+Restore){:new_window} to an {{site.data.keyword.BluSoftlayer_full}} public or private virtual server (VSI) in the case of a server failure that causes data or OS loss.
 
 All file system blocks that have been backed up will be restored, including the OS and any files that were not excluded from backups. Do not follow this process if restoration of a subset of files is the objective; click [here](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for the steps on how to restore files only.
 
