@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-03"
+  years: 1994, 2018
+lastupdated: "2018-01-22"
 
 ---
 {:new_window: target="_blank"}
@@ -21,4 +21,6 @@ Installing the EVault Backup client in Windows is completed through a series of 
 6. Enter the **EVault Backup Password** in the Password field. <br/>
    **Note**: Refer to the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) article for instructions to view the EVault Backup Username and Password.
 7. Click **Install Client** to complete the installation.
+
+**Note**: Windows 2016 is not supported currently.
 
