@@ -11,24 +11,16 @@ IBM Cloud Storage - Backup Services
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    {: .topicgroup}
-    EVault
-        find-instructions-interact-evault-backup-webcc.md
-        change-password-evault-backup-service.md
-        install-evault-backup-client-linux.md
-        install-evault-backup-client-windows.md
-        install-evault-backup-client-wmware.md
-        evault-mssql-plugin-installation.md
-        upgrade-evault-backup-agent-windows.md
-        how-do-i-re-register-evault.md
-        restoring-evault-bmr-system-volume-image.md
+    find-instructions-interact-evault-backup-webcc.md
+    change-password-evault-backup-service.md
+    install-evault-backup-client-linux.md
+    install-evault-backup-client-windows.md
+    install-evault-backup-client-wmware.md
+    evault-mssql-plugin-installation.md
+    upgrade-evault-backup-agent-windows.md
+    how-do-i-re-register-evault.md
+    restoring-evault-bmr-system-volume-image.md
         
-    {: .topicgroup}
-    R1Soft
-        how-to-restore-server-r1soft-cdp.md
-        r1soft-cdp-bare-metal-restore-procedures.md
-    {: .navgroup-end}
-
     {: .navgroup id="help"}
     eVault-Backup-FAQ.md
     {: .navgroup-end}
