@@ -6,21 +6,37 @@ IBM Cloud Storage - Backup Services
 
     {: .navgroup id="learn"}
     index.md
-    evault-port-information.md
-    evault-backup-and-restore-terminology.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    find-instructions-interact-evault-backup-webcc.md
-    change-password-evault-backup-service.md
-    install-evault-backup-client-linux.md
-    install-evault-backup-client-windows.md
-    install-evault-backup-client-wmware.md
-    evault-mssql-plugin-installation.md
-    upgrade-evault-backup-agent-windows.md
-    how-do-i-re-register-evault.md
-    restoring-evault-bmr-system-volume-image.md
+    {: .topicgroup}
+    Configuration
+        install-evault-backup-client-linux.md
+        configure-simple-file-backup-linux.md
+        install-evault-backup-client-windows.md
+        configure-bmr-backup-windows.md
+        upgrade-evault-backup-agent-windows.md
+        install-evault-windows2016.md
+        how-do-i-re-register-evault.md
+        multivaulting.md
+        canceling-backup-service.md
         
+    {: .topicgroup}
+    Restores
+        restore-backup.md
+        restore-from-another-computer.md
+        restore-from-another-computer-windows2016.md
+        restoring-evault-bmr-system-volume-image.md
+    
+    {: .topicgroup}
+    Plugins 
+        evault-mssql-plugin-installation.md
+        evault-bmr-plugin.md
+        configure-bmr-backup-windows.md
+    {: .navgroup-end}
+    
     {: .navgroup id="help"}
-    eVault-Backup-FAQ.md
+    evault-backup-faq.md
+    evault-port-information.md
+    change-password-evault-backup-service.md
     {: .navgroup-end}

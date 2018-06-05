@@ -1,35 +1,37 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-28"
+  years: 1994, 2018
+lastupdated: "2018-05-14"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:pre: .pre}
 
-# Upgrading Evault Backup Agent for Windows 
+# Upgrading EVault Software Agent for Windows 
 
-1. Remote into your {{site.data.keyword.BluSoftlayer_full}} server that is in need of an Evault upgrade, via RDP.
+1. Remote control your {{site.data.keyword.BluSoftlayer_full}} server that is in need of an EVault upgrade through RDP.
 
-2. Open Internet Browser, and browse to below URL to download install files:
+2. Open a browser, and go to:
+   ```
+   http://downloads.service.softlayer.com/evault/
+   ```
+   {:pre}
+  
+3. Click the file you want. (For example: Agent-Windows-x64-6-72-1072a.exe)
 
-   - http://downloads.service.softlayer.com/evault/
+   **Note**: The version number is in the file name. Choose the most recent. <br/>
+   Also, there are separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
 
-3. Click the desired file. (For example: Agent-Windows-x64-6-72-1072a.exe)
+4. Click **Run** at the download screen, and again after it's downloaded.
 
-   **Note**: The version number is in the filename. Most likely you will want the latest. Also there are separate 32 bit and 64 bit installers, if you have a 64 bit Operating System you will want to download the file with x64 in it.
-
-4. Click **Run** at the download screen, and again after it is downloaded.
-
-5. Click **Yes** to perform an upgrade of **Evault Software Agent**.
+5. Click **Yes** to upgrade **EVault Software Agent**.
 
    **Note**: installer may disappear for a minute while its loading.
 
-6. With **Keep my current registration** selected, click **next**.
+6. Select **Keep my current registration** and click **next**.
 
-7. Click **next** to continue.
+7. Click **next**. At this point, the agent begins the upgrade process. It may take a few minutes.
 
-   At this point the agent will begin the upgrade process. May take a few minutes.
-
-8. Click **Finish** at the completion screen.
+8. At the completion screen, click **Finish**.

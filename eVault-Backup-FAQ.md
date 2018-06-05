@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-21"
+lastupdated: "2018-05-31"
 
 ---
 {:new_window: target="_blank"}
@@ -24,6 +24,8 @@ Each agent is available as an add-on to your EVault backup service. To add an ag
 
 You can back up your data as frequently as you like. Within WebCC, backups can be made manually or can be scheduled as a single instance or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
+**Note**: Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupt. This occurs because the vault might not be able to remove old safesets or perform other required background tasks.
+
 ## How do the retention schemes work?
 
 EVault allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out and the first "delta backup" that was made becomes the oldest available restore point. 
@@ -34,13 +36,18 @@ The first backup is a "seed" (a complete, full backup), the next and subsequent 
 
 ## Are my backups secure?
 
-By default all encryption over the wire (OTW) is encrypted with AES 128-bit encryption. If you want the data stored in an encrypted format, you have several options as part of the backup process. Note that if you lose your password you won't be able to get your data back. 
+By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted 
+format using AES 256-bit. 
 
-EVault offers six types of encryption solutions for your data: DES 56-bit, Blowfish 56-bit, Triple DES 112-bit, Blowfish 128-bit, AES 128-bit, and AES 256-bit. Compression ratios allow for zero compression to a maximum ratios compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
+**Note**: You must remember your encryption password. Your data can't be restored without your password. If you lose your password you won't be able to get your data back. 
+
+Compression ratios allow for zero compression to a maximum ratios compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
 
 ## What information is stored with system state backups?
 
-The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It is all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. Including the system files allows you to recover from corrupted system files, or if you accidentally uninstall some service packs, or want to recover with a bare-metal restore. It allows you to return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately. 
+The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. Including the system files allows you to recover from corrupted system files, or if you accidentally uninstall some service packs, or want to recover with a bare-metal restore. It allows you to return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
+
+**Note**: No user data file is included in System state backup. A system state backup job should be configured as a standalone job. There should be no other data source included in System State backup job.
 
 ## What happens to open files?
 
