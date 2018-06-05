@@ -13,7 +13,7 @@ lastupdated: "2018-05-30"
 
 EVault BMR is a disaster recovery solution for Microsoft Windows that enables you to completely restore your server from a bare metal state when a disaster such as an operating system or hardware failure occurred. This system allows you to quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.BluSoftlayer_full}}.
 
-**Note**: BMR is a Microsoft Windows only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux distributions aren't supported. BMR is only supported with EVault Agent 8.30 or lower. (30 June 2018).
+**Note**: BMR is a Microsoft Windows only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux distributions aren't supported. BMR is only supported by EVault Agent 8.30 or lower. (30 June 2018).
 
 ## Capabilities provided
 
@@ -31,7 +31,7 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that enables yo
 
 ## User Guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the [EVault BMR 1.0 User Guide pdf](http://downloads.service.softlayer.com/evault/Documentation/Evault_BMR_1.0_User_Guide.pdf).
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault System Restore v8.3 - User Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
 ## Frequently asked questions
 
@@ -49,7 +49,7 @@ This isn't a disk image, but a system volume image backup system. This system is
 
 ### Can I use BMR for my database backups?
 
-Database backups should be made separately with the normal EVault backup methods. BMR doesn't replace the need for SQL/Oracle/Sharepoint plug-ins. Though BMR uses the VSS technology to backup open files, we can't always guarantee that the backed-up files will be transaction consistent. Our recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the far end of the BMR user guide.
+Database backups should be made separately with the normal EVault backup methods. BMR doesn't replace the need for SQL/Oracle plug-ins. Though BMR uses the VSS technology to backup open files, we can't always guarantee that the backed-up files will be transaction consistent. Our recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the far end of the BMR user guide.
 
 ### What kind of restore jobs can I perform with BMR?
 
@@ -57,7 +57,7 @@ You can either do a whole system restore, or you can pick individual files from 
 
 ### Does BMR have open file backup capabilities?
 
-BMR has open file back up capabilities per Seagate. However, they recommend that the open file plug-in is used regardless. BMR doesn't replace the need for SQL/Oracle/Sharepoint plug-ins. Click [here](evault-mssql-plugin-installation.html) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin-installation.html) for the MSSQL plug-in installation instructions.
 
 ### How much disk space and time does a BMR restore take?
 
