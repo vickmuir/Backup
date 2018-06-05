@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-05"
 
 ---
 {:screen: .screen}
@@ -31,10 +31,11 @@ Currently, EVault WebCC isn't officially supported on Windows 2016. Servers that
 ## Installing the EVault Software CentralControl
 
 1. On the target server, open a browser session and enter the following URL to download the executable file.
-```
-http://downloads.service.softlayer.com/evault/CentralControl/
-```
-{:pre}
+
+   ```
+   http://downloads.service.softlayer.com/evault/CentralControl/
+   ```
+   {:pre}
 
 2. Double-click the downloaded file and click **Run** in the pop-up box that appears.
 3. Follow the installation steps for a Typical setup.
