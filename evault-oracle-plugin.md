@@ -2,26 +2,35 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-06-06"
 
 ---
-{:codeblock: .codeblock}
-{:pre: .pre}
 {:new_window: target="_blank"}
 
 # Installing the EVault Oracle plug-in
 
-The Oracle Plug-in is installed with the Windows Agent on the Oracle database host. Using the WebCC portal you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle Plug-in integrates into the existing architecture.
+The Oracle plug-in is installed with the Windows Agent on the Oracle database host. Using the WebCC portal you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
 ## Capabilities provided
 
 - Support for Oracle database backup and recovery.
-- The Oracle Plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary tablespaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
+- The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary tablespaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
 - Full and partial databases are restored through normal user-managed Oracle recovery mechanisms.
 
-## Install the MSSQL Plug-in
+## Order the plug-in
 
-The Oracle Plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle Plug-in for Windows, run the Agent installation kit. The Oracle Plug-in appears as an option on the **Custom Setup** page.
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+2. Click **Storage** > **Backup**.
+3. Select your EVault account and click **Order Plugins**.
+4. Select **EVault Plugin - Oracle** and click **Continue**.
+5. Enter your Promo Code if you have one and click **Recalculate**.
+6. The updated charges are displayed. Review your order.
+7. Check the boxes to indicate that you read the Master Service Agreement and accept the 3rd Party Software Terms. 
+8. Click **Place Order**.
+
+## Install the Oracle plug-in
+
+The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle plug-in for Windows, run the Agent installation kit. The Oracle Plug-in appears as an option on the **Custom Setup** page.
 
 **Note**: Before installing the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
 

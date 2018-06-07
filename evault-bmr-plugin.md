@@ -2,11 +2,9 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-06-06"
 
 ---
-{:codeblock: .codeblock}
-{:pre: .pre}
 {:new_window: target="_blank"}
 
 # Installing the EVault Bare Metal Restore plug-in
@@ -22,14 +20,18 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that enables yo
 - Restore your system from backups that are stored on the EVault.
 - A launchable recovery transaction that will allow you to restore your data without a bootable system.
 
-## Ordering BMR
+## Order the plug-in
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Click **Private Network** > **Backup**
-3. Select your EVault account and click **Add Services** > **Add Plug-in** > **EVault Plug-in - BMR (Bare Metal Restore)**.
-4. The plug-in is installed by default, and it's registered at the director upon it being ordered.
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+2. Click **Storage** > **Backup**.
+3. Select your EVault account and click **Order Plugins**.
+4. Select **EVault Plugin - BMR (Bare Metal Restore)** and click **Continue**.
+5. Enter your Promo Code if you have one and click **Recalculate**.
+6. The updated charges are displayed. Review your order.
+7. Check the boxes to indicate that you read the Master Service Agreement and accept the 3rd Party Software Terms. 
+8. Click **Place Order**.
 
-## User Guide
+## User guide
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault System Restore v8.3 - User Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
@@ -49,7 +51,7 @@ This isn't a disk image, but a system volume image backup system. This system is
 
 ### Can I use BMR for my database backups?
 
-Database backups should be made separately with the normal EVault backup methods. BMR doesn't replace the need for SQL/Oracle plug-ins. Though BMR uses the VSS technology to backup open files, we can't always guarantee that the backed-up files will be transaction consistent. Our recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the far end of the BMR user guide.
+Database backups should be made separately with the normal EVault backup methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, we can't always guarantee that the backed-up files will be transaction consistent. Our recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the far end of the BMR user guide.
 
 ### What kind of restore jobs can I perform with BMR?
 

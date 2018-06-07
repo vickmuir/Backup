@@ -30,9 +30,11 @@ IBM Cloud Storage - Backup Services
     
     {: .topicgroup}
     Plugins 
-        evault-mssql-plugin-installation.md
         evault-bmr-plugin.md
         configure-bmr-backup-windows.md
+        evault-exchange-plugin.md
+        evault-mssql-plugin.md
+        evault-oracle-plugin.md
     {: .navgroup-end}
     
     {: .navgroup id="help"}
