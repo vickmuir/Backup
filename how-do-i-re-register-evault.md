@@ -22,13 +22,13 @@ This task is most commonly a step needed after reloading the OS of a server, but
 
 5. Click **Reregister**.
 
-6. Complete: 
+6. Complete:
   - Vault name
   - Vault address
   - Account
   - User name
   - Password. <br/>
-  **Note**: "Account" is the equivalent of the "Account Name" in the [Getting Started with Backup Services](index.html) page. Typically, it looks like "SLE[account ID]"
+  **Note**: "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
 
 7. Click **Load Computers** and select which computers you want to load.
 
@@ -36,7 +36,7 @@ This task is most commonly a step needed after reloading the OS of a server, but
 
 9. Refresh Website to restore previous backup jobs.
 
-10. Synchronize each backup job to restore safeset history. 
+10. Synchronize each backup job to restore safeset history.
 
 11. If the the backup jobs were created using an encryption password, you must enter the encryption password to restore data or continue with backups.
 
