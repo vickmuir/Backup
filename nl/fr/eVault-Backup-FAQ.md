@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ EVault permet la sauvegarde d'applications diverses. Toutefois, {{site.data.keyw
 - Microsoft SQL
 - Oracle
 
-Chaque agent est disponible en tant que module complémentaire pour votre service de sauvegarde EVault. Pour ajouter un agent à votre service, contactez dès maintenant un membre de notre équipe commerciale. Notez que les plug-ins répertoriés ici ne sont compatibles qu'avec des serveurs Windows. 
+Chaque agent est disponible en tant que module complémentaire pour votre service de sauvegarde EVault. Pour ajouter un agent à votre service, contactez dès maintenant un membre de notre équipe commerciale. Notez que les plug-ins répertoriés ici ne sont compatibles qu'avec des serveurs Windows.
 
 ## A quelle fréquence puis-je sauvegarder mes données avec une sauvegarde EVault ?
 
@@ -28,7 +28,7 @@ Vous pouvez sauvegarder vos données aussi souvent que vous le souhaitez. Dans W
 
 ## Fonctionnement des schémas de conservation ?
 
-EVault permet une conservation des données en fonction du délai jusqu'auquel vous désirez pouvoir remonter. Le schéma de conservation **Quotidienne** conserve les données pendant 7 jours, tandis que les schémas **Hebdomadaire** les conservent pendant 1 mois et les schémas **Mensuelle** pendant 1 an. A la fin de chaque période, les données les plus anciennes sont expurgées et la première "sauvegarde delta" effectuée devient le point de restauration le plus éloigné disponible. 
+EVault permet une conservation des données en fonction du délai jusqu'auquel vous désirez pouvoir remonter. Le schéma de conservation **Quotidienne** conserve les données pendant 7 jours, tandis que les schémas **Hebdomadaire** les conservent pendant 1 mois et les schémas **Mensuelle** pendant 1 an. A la fin de chaque période, les données les plus anciennes sont expurgées et la première "sauvegarde delta" effectuée devient le point de restauration le plus éloigné disponible.
 
 ## En quoi consiste la technologie Delta ?
 
@@ -36,9 +36,9 @@ La toute première sauvegarde est une sauvegarde "de départ" (complète et int�
 
 ## Mes sauvegardes sont-elles sécurisées ?
 
-Par défaut, tous les chiffrements en ligne (OTW) utilisent un chiffrement AES 256 bits. Vous pouvez également indiquer de stocker les données sous un format chiffré avec le protocole AES 256 bits. 
+Par défaut, tous les chiffrements en ligne (OTW) utilisent un chiffrement AES 256 bits. Vous pouvez également indiquer de stocker les données sous un format chiffré avec le protocole AES 256 bits.
 
-**Remarque **: vous devez mémoriser votre mot de passe de chiffrement. Vos données ne peuvent pas être restaurées sans votre mot de passe. Si vous perdez votre mot de passe, vous ne pourrez pas récupérer vos données. 
+**Remarque **: vous devez mémoriser votre mot de passe de chiffrement. Vos données ne peuvent pas être restaurées sans votre mot de passe. Si vous perdez votre mot de passe, vous ne pourrez pas récupérer vos données.
 
 Les ratios de compression admettent une compression allant de 0 % jusqu'à une compression maximale pouvant aller, selon le type de fichier, de 20 à 30 %.
 

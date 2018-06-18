@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -28,7 +28,7 @@ EVault BMR è una soluzione di ripristino di emergenza per Microsoft Windows che
 4. Seleziona **EVault Plugin - BMR (Bare Metal Restore)** e fai clic su **Continue**.
 5. Se ne hai uno, immetti il tuo codice promozionale e fai clic su **Recalculate**.
 6. Vengono visualizzati i costi aggiornati. Riesamina l'ordine.
-7. Seleziona le caselle per indicare che hai letto l'accordo di servizio principale e accetti i termini del software di terze parti. 
+7. Seleziona le caselle per indicare che hai letto l'accordo di servizio principale e accetti i termini del software di terze parti.
 8. Fai clic su **Place Order**.
 
 ## Guida per l'utente
@@ -59,7 +59,7 @@ Puoi eseguire un ripristino dell'intero sistema oppure selezionare singoli file 
 
 ### BMR ha capacità di backup dei file aperti?
 
-BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](evault-mssql-plugin-installation.html) per le istruzioni di installazione del plug-in MSSQL.
+BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](evault-mssql-plugin.html) per le istruzioni di installazione del plug-in MSSQL.
 
 ### Quanto spazio su disco e tempo sono necessari per un ripristino BMR?
 

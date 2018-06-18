@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ EVault permite hacer copias de seguridad de diversas aplicaciones. Sin embargo, 
 - Microsoft SQL
 - Oracle
 
-Cada agente está disponible como un complemento del servicio de copia de seguridad EVault. Para añadir un agente al servicio, póngase en contacto hoy mismo con nuestro equipo de ventas. Tenga en cuenta que los plugins que se muestran aquí solo son compatibles con servidores Windows. 
+Cada agente está disponible como un complemento del servicio de copia de seguridad EVault. Para añadir un agente al servicio, póngase en contacto hoy mismo con nuestro equipo de ventas. Tenga en cuenta que los plugins que se muestran aquí solo son compatibles con servidores Windows.
 
 ## ¿Con qué frecuencia puedo hacer copia de seguridad de mis datos con el servicio de copia de seguridad EVault?
 
@@ -28,7 +28,7 @@ Puede hacer copia de seguridad de sus datos con la frecuencia que desee. En WebC
 
 ## ¿Cómo funcionan los esquemas de retención?
 
-EVault permite la retención de datos en función del tiempo al que desee retrotraer. Los esquemas de retención **diarios** conservan los datos durante siete días, mientras que los esquemas **semanales** conservan los datos durante un mes y los esquemas **mensuales** los conservan durante un año. Al final de cada período, el conjunto de datos más antiguo queda apartado y la primera "copia de seguridad delta" realizada se convierte en punto de restauración más antiguo disponible. 
+EVault permite la retención de datos en función del tiempo al que desee retrotraer. Los esquemas de retención **diarios** conservan los datos durante siete días, mientras que los esquemas **semanales** conservan los datos durante un mes y los esquemas **mensuales** los conservan durante un año. Al final de cada período, el conjunto de datos más antiguo queda apartado y la primera "copia de seguridad delta" realizada se convierte en punto de restauración más antiguo disponible.
 
 ## ¿Qué es la tecnología delta?
 
@@ -36,9 +36,9 @@ La primera copia de seguridad es un “inicio” (una copia de seguridad complet
 
 ## ¿Son seguras mis copias de seguridad?
 
-De forma predeterminada, todo el cifrado sobre cable (OTW) se cifra con el tipo de cifrado AES de 256 bits. También puede optar por almacenar los datos en formato cifrado utilizando AES de 256 bits. 
+De forma predeterminada, todo el cifrado sobre cable (OTW) se cifra con el tipo de cifrado AES de 256 bits. También puede optar por almacenar los datos en formato cifrado utilizando AES de 256 bits.
 
-**Nota**: debe recordar su contraseña de cifrado. Los datos no se pueden restaurar sin esta contraseña. Si pierde la contraseña, no podrá recuperar sus datos. 
+**Nota**: debe recordar su contraseña de cifrado. Los datos no se pueden restaurar sin esta contraseña. Si pierde la contraseña, no podrá recuperar sus datos.
 
 Las proporciones de compresión permiten entre compresión cero y proporciones máximas de compresión que, en función del tipo de archivo, pueden ser de entre el 20 por ciento y el 30 por ciento.
 

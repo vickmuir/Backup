@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -28,7 +28,7 @@ EVault BMR es una solución de recuperación tras desastre para Microsoft Window
 4. Seleccione **Plugin de EVault - BMR (Bare Metal Restore)** y pulse **Continuar**.
 5. Escriba su código de promoción si lo tiene y pulse **Recalcular**.
 6. Se muestran los cargos actualizados. Revise el pedido.
-7. Marque los recuadros para indicar que ha leído el Acuerdo de servicio maestro y que acepta los Términos de software de terceros. 
+7. Marque los recuadros para indicar que ha leído el Acuerdo de servicio maestro y que acepta los Términos de software de terceros.
 8. Pulse **Realizar pedido**.
 
 ## Guía del usuario
@@ -59,7 +59,7 @@ Puede realizar una restauración completa del sistema o puede seleccionar archiv
 
 ### ¿Tiene BMR capacidad de copia de seguridad de archivos abiertos?
 
-BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](evault-mssql-plugin-installation.html) para ver instrucciones de instalación del plugin MSSQL.
+BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](evault-mssql-plugin.html) para ver instrucciones de instalación del plugin MSSQL.
 
 ### ¿Cuánto espacio de disco y tiempo requiere una restauración de BMR?
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -27,8 +27,8 @@ EVault BMR désigne une solution de reprise après incident pour Microsoft Windo
 3. Sélectionnez votre compte EVault et cliquez sur **Commander Plug-ins**.
 4. Sélectionnez **Plug-in EVault - BMR (Bare Metal Restore)** et cliquez sur **Continuer**.
 5. Entrez votre code promotionnel si vous en avez un et cliquez sur **Recalculer**.
-6. Les frais mis à jour sont affichés. Passez en revue votre commande. 
-7. Cochez les cases indiquant que vous avez lu le Contrat cadre de service et acceptez les conditions de logiciel tiers. 
+6. Les frais mis à jour sont affichés. Passez en revue votre commande.
+7. Cochez les cases indiquant que vous avez lu le Contrat cadre de service et acceptez les conditions de logiciel tiers.
 8. Cliquez sur **Valider la commande**.
 
 ## Guide d'utilisation
@@ -59,7 +59,7 @@ Vous pouvez effectuer une restauration intégrale du système ou bien sélection
 
 ### BMR dispose-t-il de fonctionnalités de sauvegarde de fichiers ouverts ?
 
-BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](evault-mssql-plugin-installation.html) pour les instructions d'installation du plug-in MSSQL.
+BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](evault-mssql-plugin.html) pour les instructions d'installation du plug-in MSSQL.
 
 ### Combien d'espace disque et de temps sont-ils nécessaires pour une restauration BMR ?
 

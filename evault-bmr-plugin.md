@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -59,7 +59,7 @@ You can either do a whole system restore, or you can pick individual files from 
 
 ### Does BMR have open file backup capabilities?
 
-BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin-installation.html) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin.html) for the MSSQL plug-in installation instructions.
 
 ### How much disk space and time does a BMR restore take?
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-18"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ EVault consente il backup di varie applicazioni. Tuttavia, {{site.data.keyword.B
 - Microsoft SQL
 - Oracle
 
-Ogni agent è disponibile come componente aggiuntivo per il tuo servizio EVault Backup. Per aggiungere un agent al tuo servizio, contatta oggi un membro del nostro team di vendita. Nota che i plug-in qui elencati sono compatibili solo con i server Windows. 
+Ogni agent è disponibile come componente aggiuntivo per il tuo servizio EVault Backup. Per aggiungere un agent al tuo servizio, contatta oggi un membro del nostro team di vendita. Nota che i plug-in qui elencati sono compatibili solo con i server Windows.
 
 ## Con che frequenza posso eseguire il backup dei miei dati con EVault Backup?
 
@@ -28,7 +28,7 @@ Puoi eseguire il backup dei dati tutte le volte che vuoi. All'interno di WebCC, 
 
 ## Come funzionano gli schemi di conservazione?
 
-EVault consente la conservazione dei dati a seconda del tempo in cui vuoi eseguire il ripristino. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile. 
+EVault consente la conservazione dei dati a seconda del tempo in cui vuoi eseguire il ripristino. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile.
 
 ## Cos'è la tecnologia delta?
 
@@ -37,9 +37,9 @@ Il primo backup è un "seed" (un backup completo), quelli successivi sono "delta
 ## I miei backup sono sicuri?
 
 Per impostazione predefinita, tutta la crittografia trasmessa è codificata con la crittografia AES a 256 bit. Puoi anche scegliere di memorizzare i dati nel formato crittografato
-con AES a 256 bit. 
+con AES a 256 bit.
 
-**Nota**: non devi dimenticare la tua password di crittografia. Non è possibile ripristinare i tuoi dati senza la password. Se perdi la tua password non sarai in grado di recuperare i tuoi dati. 
+**Nota**: non devi dimenticare la tua password di crittografia. Non è possibile ripristinare i tuoi dati senza la password. Se perdi la tua password non sarai in grado di recuperare i tuoi dati.
 
 I rapporti di compressione consentono una compressione da zero a un rapporto massimo che, a seconda del tipo file, potrebbe comprimere dal 20 al 30 per cento.
 
