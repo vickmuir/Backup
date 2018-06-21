@@ -18,7 +18,7 @@ You need to purchase BMR plug-in to create a BMR backup. BMR is available only f
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
 2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the WebCC client in your browser.
-  **Note**: If WebCC doesn't start, there might be a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It’s expected - proceed by sending the form.
+  **Note**: If WebCC doesn't start, there might be a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
   
 ## Configure a BMR Backup Job
 
@@ -28,10 +28,10 @@ You need to purchase BMR plug-in to create a BMR backup. BMR is available only f
 4. For **Backup Source Type**, select the file system type you want to back up from the pull-down menu, then click **Next**
 5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore** and click **Next** to continue.
 6. Click **Yes** on the Confirmation windows.
-7. The screen shows that the new job is now in the Backup set. Click **Next**.
+7. The screen shows that the new job is now in the backup set. Click **Next**.
 8. The screen displays encryption options and advanced backup options. Normally these options aren't needed. Click **Next**.   
 9. On the **Create a schedule** page, you have two choices. 
-   - click **Next** to create a manual job, and proceed to running your new job
+   - Click **Next** to create a manual job, and proceed to running your new job
    - Click **Add** to schedule a time-based backup job. 
      1. Select the days and the time of day to run your backups.
      2. Select your Retention Scheme. Read more about Retention Schemes [here](evault-backup-faq.html#how-do-the-retention-schemes-work-)
