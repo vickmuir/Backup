@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-04"
+  years: 1994, 2018
+lastupdated: "2018-06-21"
 
 ---
 {:new_window: target="_blank"}
@@ -10,9 +10,10 @@ lastupdated: "2017-10-04"
 
 # Finding Instructions to Interact with EVault Backup in WebCC
 
-Interaction with any EVault Backup service occurs within the web-based client for EVault, WebCC.  Within WebCC there is extensive documentation for all interactions that can take place with the EVault Backup services.  Follow the steps below to access WebCC's documentation for interacting with EVault Backup using WebCC.
+You can interact with your EVault backup service within the web-based client for EVault, called WebCC. Within WebCC, there is extensive documentation for all interactions that can take place with the EVault backup service.
 
-1. Access WebCC.  Refer to [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html).
-2. Click the **Help** icon in the upper right-hand corner, indicated by a white question mark in a blue circle.
-3. Click any article or topic in the navigation bar on the left side of the pop-up box to view more information on any WebCC/EVault topic.
+Follow these steps to access WebCC's documentation:
 
+1. Access WebCC through the {{site.data.keyword.slportal}}. Refer to [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) for help with this step.
+2. In the upper right corner, click the white question mark in a blue circle. The **Help** menu displays.
+3. Click any article or topic in the navigation bar on the left side to view more information.
