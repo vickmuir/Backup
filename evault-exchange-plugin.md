@@ -9,7 +9,7 @@ lastupdated: "2018-06-06"
 
 # Installing the EVault Exchange plug-in
 
-The Exchange plug-in is installed with the Windows Agent on the host. Using the WebCC portal you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle Plug-in integrates into the existing architecture.
+The Exchange plug-in is installed with the Windows Agent on the host. Using the WebCC portal you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
 ## Capabilities provided
 
@@ -28,7 +28,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Using the 
 
 ## Install the Exchange plug-in
 
-The Exchange Plug-in is installed during the Windows Agent 64-bit installation. The Plug-in can be installed when installing the Agent or it can be installed later, by re-running the installation with the Modify selection.
+The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed when installing the Agent or it can be installed later, by re-running the installation with the Modify selection.
 
 **Note**: Before installing the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
 
@@ -45,6 +45,6 @@ The Exchange Plug-in is installed during the Windows Agent 64-bit installation. 
 
 ## User guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange Plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. This guide describes how to back up and restore Microsoft Exchange databases using the Exchange plug-in. This guide also describes how to share a DR backup safeset so you can restore specific mailboxes, messages or other objects to a .pst file using the Granular Restore for Microsoft Exchange application.
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. This guide describes how to back up and restore Microsoft Exchange databases using the Exchange plug-in. This guide also describes how to share a DR backup safeset so you can restore specific mailboxes, messages or other objects to a .pst file using the Granular Restore for Microsoft Exchange application.
 
 
