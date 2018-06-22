@@ -9,7 +9,7 @@ lastupdated: "2018-06-22"
 
 # Restoring an EVault BMR System Volume Image 
 
-If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from our EVault BMR Rescue Kernel system. It allows you to restore the system without the need of a bootable operating system. This is very useful if the operating system is no longer usable or the drives in the system were replaced.
+If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from our EVault BMR Rescue Kernel system. It allows you to restore the system without the need of a bootable operating system. It's very useful if the operating system is no longer usable or the drives in the system were replaced.
 
 ## Initiating the EVault BMR Rescue Kernel system
 
