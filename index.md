@@ -26,9 +26,9 @@ There are two ways to purchase EVault backup service:
 3. You are redirected to the manage portal to complete the order. <br/>
   **Note**: EVault backup service isn't available when ordering an hourly billed server. However, the service can be added later as an upgrade. 
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
-6. At the bottom of the page, click **Add to Order**. The Checkout page is displayed.
-7. On the **CHECKOUT** page, find the Host and Domain Names section and enter host and domain names. You can choose any host name and Domain you like.
-8. On the right-hand-side of the **CHECKOUT** page, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
+6. At the bottom of the page, click **Add to Order**. The check-out page is displayed.
+7. On the check-out page, find the Host and Domain Names section and enter host and domain names. You can choose any host name and Domain you like.
+8. On the right-hand-side of the check-out page, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
 9. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt. <br/>**Note**: You can also save this order without purchasing by clicking **Save as Quote**.
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
@@ -58,13 +58,13 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 **Confirm the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
-2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note**: If the EVault storage size continues to show a capacity of zero, a second page refresh may be needed. 
+2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note**: If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed. 
 
 ## Accessing and viewing EVault Backup storage details in {{site.data.keyword.slportal}}
 
-The storage details of your EVault backup service can be viewed using the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service. 
+The storage details of your EVault backup service can be viewed on the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service. 
 
-1. To access the **EVault Backup Storage** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} log in by using your unique credentials.
+1. To access the **EVault Backup Storage** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} log in with your unique credentials.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row for the EVault backup vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your EVault backup service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected EVault backup service.
