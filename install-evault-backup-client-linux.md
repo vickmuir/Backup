@@ -75,7 +75,7 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
   {: codeblock}
    
 ## Verify that the Installation Succeeded
-1. Verify that the message "Registered to The Portal." appears in the installation output. The varification can be done by looking for the message on screen or by inspecting the output of the following command:
+1. Verify that the message "Registered to The Portal." appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command:
   ```
   grep 'Registered'  /opt/BUAgent/Install.log
   ```
