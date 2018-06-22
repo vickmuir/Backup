@@ -24,7 +24,7 @@ This article provides the steps that are needed to complete a File restore by us
 1. In the navigational pane on the left, click **All Agents**
 2. Click the Agent to display the Jobs.
 3. Click the Job containing the backup that you want.
-4. Click **Run Restore**
+4. Click **Run Restore**.
 5. Select a restore source.
 6. Select **Restore from a single safeset** or **Restore from the safeset entered in the textbox below**. Both options have the same effect.
 7. Select a backup version or enter the safeset number (The safeset number is the first number in the drop-down selection)
