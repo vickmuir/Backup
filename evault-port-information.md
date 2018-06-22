@@ -19,7 +19,7 @@ evregister.service.softlayer.com TCP 8086,8087
 
 Extra AMP proxy servers can be added as needed to handle more EVault agents that are registered to the WebCC. 
 
-TCP Port 8086, 8087 should have access to 10.0.0.0/8. 
+TCP Port 8086, 8087 must have access to 10.0.0.0/8. 
 
 If you need to use more restrictive firewall rules, you might lose access to the WebCC as the infrastructure is expanded. Currently, at minimum, your servers must allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086, 8087. Other subnets might be used in the future as needed.
 
