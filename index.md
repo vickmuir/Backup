@@ -10,21 +10,21 @@ lastupdated: "2018-06-21"
 
 # Getting started with EVault Backup services
 
-Backups ensure that your data is safely stored outside of your device and protected if it's lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility, providing users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow an hourly, daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins allow for compatibility with software like Microsoft Exchange and Microsoft SQL, as well as other types of third-party software and enables users to complete a Bare Metal Restore, when necessary.
+Backups ensure that your data is safely stored outside of your device and protected if it's lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility, providing users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow an hourly, daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins allow for compatibility with software like Microsoft Exchange and Microsoft SQL, and other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
 ## Ordering EVault 
 
 There are two ways to purchase EVault backup service:
 
-- Purchase EVault when Ordering a Server
+- Purchase EVault when you Order a Server
 - Purchase EVault as an Upgrade
 
-### Purchase EVault when ordering a server
+### Purchase EVault when you order a server
 
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. You can learn more about ordering bare metal servers [here](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
 3. You are redirected to the manage portal to complete the order. <br/>
-  **Note**: EVault backup service isn't available when ordering an hourly billed server. However, the service can be added later as an upgrade. 
+  **Note**: EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
 6. At the bottom of the page, click **Add to Order**. The check-out page is displayed.
 7. On the check-out page, find the Host and Domain Names section and enter host and domain names. You can choose any host name and Domain you like.
@@ -51,10 +51,12 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 **Add (purchase) EVault service**
 1. Click the **Storage** tab, and locate the EVault section near the bottom of the page.
 2. Click the **Add** link.
-3. In the window, select a location or accept the default, and select a size.
-4. Click **Continue**
-5. Click the check box if you agree with the terms and conditions.
-6. Click **Place Order**.
+3. In the window, select a location, and select a size.
+4. Select Payment type, and click **Continue**
+5. Enter the **Promo Code** if you have one, and click **Recalculate**.
+6. Review your order and click the link to read the terms and conditions.
+7. Click the check box if you agree with the terms and conditions.
+7. Click **Place Order**.
 
 **Confirm the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
@@ -94,7 +96,7 @@ EVault Agent is supported on the following OS:
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
-Please follow the instructions appropriate for your OS:
+Follow the instructions appropriate for your OS:
 - [Installing the EVault Backup Client in Linux](install-evault-backup-client-linux.html)
 - [Installing the EVault Backup Client in Windows](install-evault-backup-client-windows.html)
 - [Installing the EVault Backup Client for Windows 2016](install-evault-windows2016.html)
