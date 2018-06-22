@@ -14,7 +14,7 @@ This article provides the steps that are required to complete a file restore fro
 2. Open CentralControl.
 3. Right-click **Agent**, and click **Agent Configuration**.
 4. Remove current Vault settings from CentralControl by selecting the entry and clicking **Delete**.
-5. Click **New**, and on the next screen, select **Re-register previously registered computer**. Click **Next**
+5. Click **New**, and on the next screen, select **Re-register previously registered computer**. Click **Next**.
 6. Enter network address, and click **Add**, then click **Next**.
 7. Enter the new port values, and click **Add**, then **Next**.
 8. In the Connection Settings screen, enter the number of seconds/minutes that you want. 
