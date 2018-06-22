@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-30"
+lastupdated: "2018-06-21"
 
 ---
 {:new_window: target="_blank"}
@@ -10,9 +10,9 @@ lastupdated: "2018-05-30"
 
 # Reregistering an EVault
 
-This task is most commonly a step needed after reloading the OS of a server, but you can also use these steps to [use backups for one server, to restore on another server](restore-from-another-computer.html).
+This task is most commonly used after reloading the OS of a server. You  can also use these steps to [use backups of one server to restore data on another server](restore-from-another-computer.html).
 
-1. Log in as the user on WebCC. Refer to the [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html) for instructions. Remember, WebCC is only accessible through {{site.data.keyword.BluVPN}}.
+1. Start WebCC and log in. Refer to the [Getting started with backup services](/docs/infrastructure/Backup/index.html) for instructions. <br/>Remember, WebCC is only accessible through {{site.data.keyword.BluVPN}}.
 
 2. On the left, click **All Agents**.
 
@@ -21,23 +21,23 @@ This task is most commonly a step needed after reloading the OS of a server, but
 4. Select **Vault Settings**.
 
 5. Click **Reregister**.
-
-6. Complete:
+ 
+6. Complete the form by entering the following information:
   - Vault name
   - Vault address
-  - Account
+  - Account <br/>**Note**: "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
   - User name
-  - Password. <br/>
-  **Note**: "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
+  - Password
+  
 
-7. Click **Load Computers** and select which computers you want to load.
+7. Click **Load Computers**, and select which computers you want to load.
 
 8. Click **Save Changes**.
 
-9. Refresh Website to restore previous backup jobs.
+9. Refresh website to restore previous backup jobs.
 
 10. Synchronize each backup job to restore safeset history.
 
-11. If the the backup jobs were created using an encryption password, you must enter the encryption password to restore data or continue with backups.
+11. If the backup jobs were created by using an encryption password, you must enter the encryption password to restore data or continue with backups.
 
-12. Click **Close** and you're all done.
+12. Click **Close**.
