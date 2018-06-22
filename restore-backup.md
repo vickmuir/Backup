@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-22"
 
 ---
 {:new_window: target="_blank"}
@@ -32,7 +32,7 @@ This article provides the steps that are needed to complete a File restore by us
 9. Click **Next** to continue.
 10. Select the check boxes next to the files and directories that you want to include, then click **Include** to save your choices.
 11. You can further filter your selections by using the window that appears, or click **OK** to use the selections you made as-is. <br/>
-After you included your file and directory choices, the files can no longer be selected in the **Data Files** pane. They are displayed in the **Backup Set** pane on the right-hand-side of the screen. <br/>**Note**: You can repeat step 10 to add more files or to remove files you added previosly (by using **Exclude**). <br/>You can also use **Remove** to delete any line item from the **Backup Set** pane.
+After you included your file and directory choices, the files can no longer be selected in the **Data Files** pane. They are displayed in the **Backup Set** pane on the right-hand-side of the screen. <br/>**Note**: You can repeat step 10 to add more files or to remove files you added previously (by using **Exclude**). <br/>You can also use **Remove** to delete any line item from the **Backup Set** pane.
 12. When your backup set is configured the way that you want it, click **Next** to continue.
 13. Leave the default settings in the next pane or customize the restore to your preference, then click **Run Restore**.
 14. The files are fully restored when the Status displays **Restore completed** on the **Process Details** screen.
