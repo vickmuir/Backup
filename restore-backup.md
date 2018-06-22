@@ -21,7 +21,7 @@ This article provides the steps that are needed to complete a File restore by us
 
 ## Restore your data
 
-1. In the navigational pane on the left, click **All Agents**
+1. In the navigational pane on the left, click **All Agents**.
 2. Click the Agent to display the Jobs.
 3. Click the Job containing the backup that you want.
 4. Click **Run Restore**.
