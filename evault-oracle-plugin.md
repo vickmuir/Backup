@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-25"
 
 ---
 {:new_window: target="_blank"}
@@ -17,18 +17,18 @@ The Oracle plug-in is installed with the Windows Agent on the Oracle database ho
 - The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
 - Full and partial databases are restored through normal user-managed Oracle recovery mechanisms.
 
-## Order the Plug-in
+## Ordering the Plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup**.
-3. Select your EVault account, and click **Order plug-ins**.
-4. Select **EVault plug-in - Oracle**, and click **Continue**.
+3. Select your EVault account, and click **Order Plugins**.
+4. Select **EVault Plugin - Oracle**, and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
 7. Check the boxes to indicate that you read the Master Service Agreement and accept the 3rd Party Software Terms. 
 8. Click **Place Order**.
 
-## Install the Oracle Plug-in
+## Installing the Oracle Plug-in
 
 The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle plug-in for Windows, run the Agent installation kit. The Oracle plug-in appears as an option on the **Custom Setup** page.
 
@@ -39,7 +39,7 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 3. At the welcome screen, click **Next**
 4. Select the **Modify installation**, and click **Next**.
 5. Select the **Leave Unchanged**, and click **Next**.
-6. At the custom setup screen, select each plug-in you have purchased and select **This feature will be installed on ...**, then click **Next**.
+6. At the custom setup screen, select each plug-in that you purchased, and select **This feature will be installed on ...**, then click **Next**.
 7. Select **Keep my current registration**, and click **Next**.
 8. Click **Install**.
 9. When the installation is complete, check to ensure that both services are enabled and running.
@@ -49,7 +49,7 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
-## Frequently asked questions
+## Frequently Asked Questions
 
 ### What are the limitations of the Oracle Plug-in?
 - Only local, single-instance, disk-based databases are backed up.
