@@ -20,7 +20,7 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that enables yo
 - Restore your system from backups that are stored on the EVault.
 - A launchable recovery transaction that will allow you to restore your data without a bootable system.
 
-## Order the Plug-in
+## Ordering the Plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup**.
