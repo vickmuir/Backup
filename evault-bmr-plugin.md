@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-22"
+lastupdated: "2018-06-25"
 
 ---
 {:new_window: target="_blank"}
@@ -26,7 +26,7 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that enables yo
 2. Click **Storage** > **Backup**.
 3. Select your EVault account and click **Order Plugins**.
 4. Select **EVault Plugin - BMR (Bare Metal Restore)** and click **Continue**.
-5. Enter your Promo Code if you have one and click **Recalculate**.
+5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
 7. Check the boxes to indicate that you read the **Master Service Agreement** and accept the **3rd Party Software Terms**. 
 8. Click **Place Order**.
@@ -35,15 +35,15 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that enables yo
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault System Restore v8.3 - User Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
-## Frequently asked questions
+## Frequently Asked Questions
 
-### Can I migrate from a single disk to a raid array?
+### Can I move from a single disk to a raid array?
 
 Yes, it will work. However, you need to select a large capacity device due to the size decrease the raid array will cause.
 
 ### What happens when I restore the image to a larger disk than the original volume?
 
-If you restore the image to a larger disk than the original volume, the left over space is deallocated. So for example - if you have a 500 GB drive and restore its data to a 1 TB disk, there will be 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, there isn’t a similar built-in capability in windows 2003, so you must allocate the space another way.
+If you restore the image to a larger disk than the original volume, the left over space is deallocated. So for example - when you have a 500 GB drive and restore its data to a 1 TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, there isn’t a similar built-in capability in windows 2003, so you must allocate the space another way.
 
 ### Can I use BMR for my regular Backup?
 
@@ -63,4 +63,4 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 
 ### How much disk space and time does a BMR restore take?
 
-A backup that is made from a default installation will use about 6 GB. Such a restore would take around 15 minutes on a 1 GB port. This process is also affected by private port speed. If you need faster backups/restores a port speed increase might be needed.
+A backup that is made from a default installation will use about 6 GB. Such a restore would take around 15 minutes on a 1 GB port. This process is also affected by private port speed. If you need faster backups/restores, a port speed increase might be needed.
