@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-25"
 
 ---
 {:new_window: target="_blank"}
@@ -15,18 +15,18 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 
 - Ability to back up and restore Microsoft Exchange databases.
 
-## Order the Plug-in
+## Ordering the Plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup**.
-3. Select your EVault account and click **Order plug-ins**.
-4. Select **EVault plug-in - Exchange** and click **Continue**.
+3. Select your EVault account and click **Order Plugins**.
+4. Select **EVault Plugin - Exchange** and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
 7. Check the boxes to indicate that you read the Master Service Agreement and accept the 3rd Party Software Terms. 
 8. Click **Place Order**.
 
-## Install the Exchange Plug-in
+## Installing the Exchange Plug-in
 
 The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
