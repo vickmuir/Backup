@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-22"
+lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -10,20 +10,20 @@ lastupdated: "2018-06-22"
 
 # Upgrading EVault Software Agent for Windows 
 
-This article provides step-by-step instructions for upgrading the EVault Agent on a Windows server.
+Use these step-by-step instructions to upgrade the EVault Agent on a Windows server.
 
 1. Remote control your {{site.data.keyword.BluSoftlayer_full}} server that is in need of an EVault upgrade through RDP.
 
-2. Open a browser, and go to:
+2. Open a browser, and go to the following address.
    ```
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
   
-3. Click the file that you want. (For example: Agent-Windows-x64-6-72-1072a.exe)
+3. Click the file that you want. (For example, Agent-Windows-x64-6-72-1072a.exe)
 
    **Note**: The version number is in the file name. Choose the most recent. <br/>
-   Also, there are separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
+   There are separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
 
 4. Click **Run** at the download screen, and again after it is downloaded.
 
@@ -33,6 +33,6 @@ This article provides step-by-step instructions for upgrading the EVault Agent o
 
 6. Select **Keep my current registration** and click **next**.
 
-7. Click **next**. At this point, the agent begins the upgrade process. It can take a few minutes.
+7. Click **next**. The agent begins the upgrade process. It can take a few minutes.
 
 8. At the completion screen, click **Finish**.
