@@ -7,7 +7,7 @@ lastupdated: "2018-06-26"
 ---
 {:new_window: target="_blank"}
 
-# EVault Port Information
+# Configuring EVault Port Information
 
 The EVault agent that is installed on your server needs to be able to communicate with the vault that you purchased. EVault Director host information for an EVault user account can be found in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Always register agents to the WebCC and the EVault directors by using the FQDN because the IP addresses for these services might change. 
 
