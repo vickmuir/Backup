@@ -77,7 +77,7 @@ The process includes reregistering the EVault agent on the second server to acce
   
 3. Compare the output.
   
-## Resuming normal backup schedule.
+## Resuming normal Backup schedule.
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from. 
 2. Enter the current server2 registration and enable Schedule tasks.
