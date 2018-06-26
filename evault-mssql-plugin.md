@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-25"
+lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 - You can restore SQL databases to the same SQL instance or to a different SQL instance,
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
 
-## Order the Plug-in
+## Ordering the Plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Click **Storage** > **Backup**.
@@ -29,7 +29,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 7. Check the boxes to indicate that you read the **Master Service Agreement** and accept the **3rd Party Software Terms**. 
 8. Click **Place Order**.
 
-## Install the MSSQL Plug-in
+## Installing the MSSQL Plug-in
 
 To install the SQL plug-in for Windows, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
@@ -47,7 +47,7 @@ To install the SQL plug-in for Windows, run the Agent installation kit. The plug
 10. When installed, check to ensure that both services are enabled and running.
 11. If WebCC is able to access/view the database, then the installation was successful. 
 
-## User guide
+## Downloading user guide
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent for Microsoft Windows v8.0 - SQL Server plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
