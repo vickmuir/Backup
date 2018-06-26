@@ -32,5 +32,5 @@ By default all encryption over the wire (OTW) is encrypted with AES 128-bit encr
 
 The system state backups include, but are not limited to COM + Class Registration database, Registry, Boot Files, System Files, Performance Counter all dependent on your System. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. Including the system files allows you to recover from corrupted system files, or if you accidentally uninstall some service packs, or want to recover with a bare-metal restore. It allows you to return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately. 
 
-## Open Files
+**Open Files**
 By default the base client has state-of-the-art technology to handle most open files that are running on the OS.
