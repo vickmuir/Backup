@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-26"
 
 ---
 {:pre: .pre}
@@ -10,18 +10,18 @@ lastupdated: "2018-06-21"
 
 # Installing the EVault Backup Client in Windows
 
-Installing the EVault backup client in Windows is completed through a series of interactions on the server that is designated for the EVault backup service. Follow the steps below to install the EVault backup client in Windows.
+Installing the EVault backup client in Windows is completed through a series of interactions on the server that is designated for the EVault backup service.
 
 **Note**: Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016](install-evault-windows2016.html)
 
-## Log in to the target device server
+## Logging in to the target device server
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, and select **Devices** > **Device List** from the main menu to see the list of available servers.
 2. Find the device for which you purchased the EVault service, and make note of its public IP address.
 3. Click the right-pointing arrow to expand and show more information about the device, including the user name and password. If the password isn't displayed, clicking **Show Password** reveals it. 
 4. Log in to the target device by using Remote Desktop Connection.
 
-## Download the EVault client
+## Downloading the EVault client
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the EVault backup client. <br/>
   ```
@@ -33,7 +33,7 @@ Installing the EVault backup client in Windows is completed through a series of 
 3. Click **Run**.
 
 
-## Install and Register the EVault Agent
+## Installing and Registering the EVault Agent
  
 1. Enter the Network address: <br />
   ```
@@ -46,6 +46,6 @@ Installing the EVault backup client in Windows is completed through a series of 
 6. Click **Next** 
 7. Click **Install** to complete the installation.
 
-## Next steps
+## Configuring Backup Agents
 
 Log in to WebCC to configure and manage your backup agents. Refer to the [Getting started tutorial](index.html#configuring-evault-agent-in-webcc) for instructions.
