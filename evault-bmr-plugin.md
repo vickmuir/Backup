@@ -31,7 +31,7 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that you can us
 7. Check the boxes to indicate that you read the **Master Service Agreement** and accept the **3rd Party Software Terms**. 
 8. Click **Place Order**.
 
-## User guide
+## Downloading the user guide
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault System Restore v8.3 - User Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
