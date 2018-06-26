@@ -51,4 +51,4 @@ The agent must allow the port TCP/2548 inbound on the private network. This sett
 
 The EVault management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows operating systems.
 
-**Clarification**: When it comes to connection settings, the difference between desktop CentralControl and the Agent is often a point of confusion. The server-resident Agent connects to our EVault servers, while the desktop-utilized CentralControl actually connects to your server, by using its address and the server's credentials to access it.
+**Clarification**. When it comes to connection settings, the difference between desktop CentralControl and the Agent is often a point of confusion. The server-resident Agent connects to the EVault servers, while the desktop-utilized CentralControl connects to your server, by using its address and the server's credentials to access it.
