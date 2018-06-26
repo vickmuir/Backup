@@ -23,14 +23,14 @@ TCP Port 8086, 8087 must have access to 10.0.0.0/8.
 
 If you need to use more restrictive firewall rules, you might lose access to the WebCC as the infrastructure is expanded. Currently, at minimum, your servers must allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086, 8087. Other subnets might be used in the future as needed.
 
-## Commercial:
+## Commercial
 
-### WebCC and AMP proxy servers:
+### WebCC and AMP proxy servers
 
 - ev-webcc01.service.softlayer.com [10.0.82.12] 8086, 8087
 - evregister.service.softlayer.com [10.0.82.12] 8086, 8087
 
-### Commercial AMP proxy servers:
+### Commercial AMP proxy servers
 
 - evwebamp0901.service.softlayer.com [10.2.118.12] 8087
 - evwebamp0902.service.softlayer.com [10.2.118.13] 8087
@@ -41,9 +41,9 @@ If you need to use more restrictive firewall rules, you might lose access to the
 - evwebamp0907.service.softlayer.com [10.2.118.18] 8087
 - evwebamp0908.service.softlayer.com [10.2.118.19] 8087
 
-## Federal:
+## Federal
 
-### WebCC and AMP proxy:
+### WebCC and AMP proxy
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
  
