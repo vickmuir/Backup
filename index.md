@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -14,12 +14,12 @@ Backups ensure that your data is safely stored outside of your device and protec
 
 ## Ordering EVault 
 
-There are two ways to purchase EVault backup service:
+There are two ways to purchase EVault backup service.
 
 - Purchase EVault when you Order a Server
 - Purchase EVault as an Upgrade
 
-### Purchase EVault when you order a server
+### Purchasing EVault when you order a server
 
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. You can learn more about ordering bare metal servers [here](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
@@ -33,7 +33,7 @@ There are two ways to purchase EVault backup service:
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
-**Confirm the EVault service purchase**
+**Confirming the EVault service purchase**
 1. In the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, select **Devices** > **Device List** from the main menu. 
 2. Locate the new server that you ordered.
   - If there's clock icon next to the url, you'll need to wait to continue with the EVault purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the EVault service purchase.
@@ -41,7 +41,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 3. Click the **Storage** tab to display the EVault information.
 4. Inspect the EVault section, and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
 
-### Purchase EVault as an upgrade
+### Purchasing EVault as an upgrade
 
 **Select a server on which to install EVault**
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
@@ -79,13 +79,13 @@ It is _not_ the case for EVault backup. Changes that are made to the EVault back
 
 EVault Agent is supported on the following OS:
 
-### Windows
+**Windows**
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
  - Windows Server 2008
 
-### Linux
+**Linux**
  - CentOS 7.x
  - CentOS 6.x
  - Debian GNU/Linux 9.x
