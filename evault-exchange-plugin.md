@@ -19,11 +19,11 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup**.
-3. Select your EVault account and click **Order Plugins**.
-4. Select **EVault Plugin - Exchange** and click **Continue**.
+3. Select your EVault account and click **Order plug-ins**.
+4. Select **EVault plug-in - Exchange** and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
-7. Check the boxes to indicate that you read the Master Service Agreement and accept the 3rd Party Software Terms. 
+7. Check the box to indicate that you read and accept the Third-party Service Agreements. 
 8. Click **Place Order**.
 
 ## Installing the Exchange Plug-in
