@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-25"
+lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -45,7 +45,7 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 9. When the installation is complete, check to ensure that both services are enabled and running.
 10. If WebCC is able to access/view the database, then the installation was successful. 
 
-## User guide
+## Downloading user guide
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
