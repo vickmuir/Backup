@@ -23,7 +23,7 @@ Use these step-by-step instructions to upgrade the EVault Agent on a Windows ser
 3. Click the file that you want. (For example, Agent-Windows-x64-6-72-1072a.exe)
 
    **Note**: The version number is in the file name. Choose the most recent. <br/>
-   There are separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
+   Separate 32-bit and 64-bit installers are available. If you have a 64-bit Operating System, download the file with x64 in its name.
 
 4. Click **Run** at the download screen, and again after it is downloaded.
 
