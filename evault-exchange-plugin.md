@@ -11,7 +11,7 @@ lastupdated: "2018-06-26"
 
 The Exchange plug-in is installed with the Windows Agent on the host. Through the WebCC portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
-## Capabilities provided
+**Capabilities provided**
 
 - Ability to back up and restore Microsoft Exchange databases.
 
