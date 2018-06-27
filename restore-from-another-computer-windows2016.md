@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-22"
+lastupdated: "2018-06-27"
 
 ---
 
-# Restore a job from another computer on Windows 2016 
+# Restoring a job from another computer on Windows 2016 
 
-This article provides the steps that are required to complete a file restore from another computer by using EVault Windows Central Control in Windows 2016.
+Use these steps to complete a file restore from another computer by using EVault Windows Central Control in Windows 2016.
 
 1. Remote control your Windows 2016 server through RDP.
 2. Open CentralControl.
