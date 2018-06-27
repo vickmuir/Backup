@@ -2,19 +2,18 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
 # Getting started with EVault Backup services
 
-Backups ensure that your data is safely stored outside of your device and protected if it's lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility, providing users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow an hourly, daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins allow for compatibility with software like Microsoft Exchange and Microsoft SQL, and other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
+Backups ensure that your data is safely stored outside of your device and protected if it gets lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility. EVault provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow an hourly, daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
 ## Ordering EVault 
 
-There are two ways to purchase EVault backup service.
+You can purchase EVault backup service in two ways.
 
 - Purchase EVault when you Order a Server
 - Purchase EVault as an Upgrade
@@ -26,9 +25,9 @@ There are two ways to purchase EVault backup service.
 3. You are redirected to the manage portal to complete the order. <br/>
   **Note**: EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
-6. At the bottom of the page, click **Add to Order**. The check-out page is displayed.
-7. On the check-out page, find the Host and Domain Names section and enter host and domain names. You can choose any host name and Domain you like.
-8. On the right-hand-side of the check-out page, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
+6. Scroll down, and click **Add to Order**.
+7. On the check-out page, find the Host and Domain Names section, then enter host and domain names. You can choose any host name and domain you like.
+8. On the right, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
 9. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt. <br/>**Note**: You can also save this order without purchasing by clicking **Save as Quote**.
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
@@ -36,7 +35,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 **Confirming the EVault service purchase**
 1. In the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, select **Devices** > **Device List** from the main menu. 
 2. Locate the new server that you ordered.
-  - If there's clock icon next to the url, you'll need to wait to continue with the EVault purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the EVault service purchase.
+  - If there's clock icon next to the url, you need to wait to continue with the EVault purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the EVault service purchase.
   - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page. 
 3. Click the **Storage** tab to display the EVault information.
 4. Inspect the EVault section, and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
@@ -49,12 +48,12 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 3. Click the Device name to go to the Device Details page.
 
 **Adding (purchasing) EVault service**
-1. Click the **Storage** tab, and locate the EVault section near the bottom of the page.
+1. Click the **Storage** tab, and scroll down to locate the EVault section.
 2. Click the **Add** link.
 3. In the window, select a location, and select a size.
 4. Select Payment type, and click **Continue**
 5. Enter the **Promo Code** if you have one, and click **Recalculate**.
-6. Review your order and click the link to read the terms and conditions.
+6. Review your order, and click the link to read the terms and conditions.
 7. Click the check box if you agree with the terms and conditions.
 7. Click **Place Order**.
 
@@ -66,7 +65,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 The storage details of your EVault backup service can be viewed on the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service. 
 
-1. To access the **EVault Backup Storage** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} log in with your unique credentials.
+1. To access the **EVault Backup Storage** screen, log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} with your unique credentials.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row for the EVault backup vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your EVault backup service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected EVault backup service.
@@ -103,10 +102,9 @@ Follow the instructions appropriate for your OS:
 
 ## Accessing WebCentralControl (WebCC) for EVault Backup
 
-WebCentralControl (WebCC) is the client that is used to interact with any EVault backup service that is offered by  {{site.data.keyword.BluSoftlayer_full}}. WebCC is a browser-based client that runs on our private network and allows full control of any EVault backup service, including configuration and restores. Follow these steps to access WebCC for EVault backup.
+WebCentralControl (WebCC) is the client that is used to interact with any EVault backup service that is offered by {{site.data.keyword.BluSoftlayer_full}}. WebCC is a browser-based client that runs on the {{site.data.keyword.BluSoftlayer_full}} private network and allows full control of any EVault backup service, including configuration and restores. Follow these steps to access WebCC for EVault backup.
 
-1. Access the Private Network over VPN. <br/>
-    **Note**: WebCC can't be accessed over the public network. A VPN connection must be established first.
+1. Access the Private Network over VPN.<br/>**Note**: WebCC can't be accessed over the public network. A VPN connection must be established first.
 2. Access the EVault backup storage screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 3. Click anywhere on the row for the wanted EVault backup to expand the view.
 4. Click **WebCC Login** to start the WebCC client in your browser.
@@ -143,6 +141,6 @@ After you ordered your EVault service and the agent is installed on the server, 
 
 ## Getting online help
 
-WebCC's systems are fully documented and support for the application is accessible within WebCC. Click the white question mark in a blue circle that is located in the upper right corner for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
+WebCC's systems are fully documented and support for the application is accessible within WebCC. Click the white question mark in a blue circle that is located in the upper right for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
 
 
