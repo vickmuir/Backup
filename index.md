@@ -48,7 +48,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add EVault service.
 3. Click the Device name to go to the Device Details page.
 
-**Add (purchase) EVault service**
+**Adding (purchasing) EVault service**
 1. Click the **Storage** tab, and locate the EVault section near the bottom of the page.
 2. Click the **Add** link.
 3. In the window, select a location, and select a size.
@@ -58,7 +58,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 7. Click the check box if you agree with the terms and conditions.
 7. Click **Place Order**.
 
-**Confirm the EVault upgrade purchase**
+**Confirming the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
 2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note**: If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed. 
 
@@ -141,7 +141,7 @@ After you ordered your EVault service and the agent is installed on the server, 
    
 **Note**: Read more about how you can configure simple File-level backups on Linux [here](configure-simple-file-backup-linux.html).
 
-## What happens next
+## Getting online help
 
 WebCC's systems are fully documented and support for the application is accessible within WebCC. Click the white question mark in a blue circle that is located in the upper right corner for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
 
