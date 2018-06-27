@@ -29,7 +29,7 @@ EVault offers six types of encryption solutions for your data: DES 56-bit, Blowf
 
 **Encryption**
 
-By default all encryption over the wire (OTW) is encrypted with AES 128-bit encryption. If you want to store your data in an encrypted format, you have several options as part of the backup process. Note that if you lose your password you can't get your data back.
+By default all encryption over the wire (OTW) is encrypted with AES 128-bit encryption. If you want to store your data in an encrypted format, you have several options as part of the backup process. If you lose your password you can't get your data back.
 
 
 **Special backups**
