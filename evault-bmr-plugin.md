@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -13,7 +13,7 @@ EVault BMR is a disaster recovery solution for Microsoft Windows that you can us
 
 **Note**: BMR is a Microsoft Windows only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux distributions aren't supported. BMR is only supported by EVault Agent 8.30 or earlier versions. (30 June 2018).
 
-## Capabilities provided
+**Capabilities provided**
 
 - Restore your system to a select point-in-time.
 - Restore your system from image or file-based backups.
