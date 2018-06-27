@@ -22,10 +22,10 @@ You need to purchase BMR plug-in to create a BMR backup. BMR is available only f
   
 ## Configuring a BMR Backup Job
 
-1. In the left navigation pane, click **All Agents** to display current EVault Agents
+1. In the left navigation pane, click **All Agents** to display current EVault Agents.
 2. Click **This is a new Agent I would like to configure**.
 3. Enter a Job Name and a Job Description for the job you're configuring/creating.
-4. For **Backup Source Type**, select the file system type you want to back up from the pull-down menu, then click **Next**
+4. For **Backup Source Type**, select the file system type you want to back up from the list, then click **Next**
 5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore** and click **Next** to continue.
 6. Click **Yes** on the Confirmation windows.
 7. The screen shows that the new job is now in the backup set. Click **Next**.
@@ -41,5 +41,5 @@ You need to purchase BMR plug-in to create a BMR backup. BMR is available only f
 
 ## Running a BMR Backup Job
 
-  - If you scheduled a time-based backup job, you don't need to do anything else.  Your job runs automatically as scheduled.
+  - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
   - If you set up a manual job (without a time-based schedule), you can run it by selecting its row in the job list and click **Run backup**. <br/> As with time-based jobs, you can choose the **Retention Scheme** and the **Advanced backup options**. After you made your configuration choices, click **Start backup** to start the job.
