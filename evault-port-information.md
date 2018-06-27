@@ -9,15 +9,16 @@ lastupdated: "2018-06-26"
 
 # Configuring Ports to allow Communication between the EVault Agent and WebCC
 
-The EVault agent that is installed on your server needs to be able to communicate with the vault that you purchased. EVault Director host information for an EVault user account can be found in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Always register agents to the WebCC and the EVault directors by using the FQDN because the IP addresses for these services might change. 
+The EVault agent that is installed on your server needs to be able to communicate with the vault that you purchased. EVault Director host information for an EVault user account can be found in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 
-Your servers must communicate with the WebCC and all AMP proxy servers for WebCC to work correctly, regardless of the data center location.
+Always register agents to the WebCC and the EVault directors by using the FQDN because the IP addresses for these services might change. 
+
 
 ```
 evregister.service.softlayer.com TCP 8086,8087
 ```
 
-Extra AMP proxy servers can be added as needed to handle more EVault agents that are registered to the WebCC. 
+Your servers must communicate with the WebCC and all AMP proxy servers for WebCC to work correctly, regardless of the data center location. Extra AMP proxy servers can be added as needed to handle more EVault agents that are registered to the WebCC. 
 
 TCP Port 8086, 8087 must have access to 10.0.0.0/8. 
 
