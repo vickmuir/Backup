@@ -30,7 +30,7 @@ IBM Cloud Storage - Backup Services
         restoring-evault-bmr-system-volume-image.md
     
     {: .topicgroup}
-    Plugins 
+    Plug-ins 
         evault-bmr-plugin.md
         configure-bmr-backup-windows.md
         evault-exchange-plugin.md
