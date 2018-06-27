@@ -11,7 +11,7 @@ lastupdated: "2018-06-26"
 
 The Oracle plug-in is installed with the Windows Agent on the Oracle database host. Through the WebCC portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
-## Capabilities provided
+**Capabilities provided**
 
 - Support for Oracle database backup and recovery.
 - The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
