@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ After you ordered your EVault service and the agent is installed on the server, 
 2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the WebCC link.
 3. Start your VPN connection to get access to the IBM private network.
 4. Click the WebCC Login link to start the WebCC client in your browser.<br/>
-  **Note**: If WebCC doesn't start, there might be a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
+  **Note**: If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
   
 ## Configuring a Backup Job
 
@@ -43,11 +43,11 @@ After you ordered your EVault service and the agent is installed on the server, 
   - If you choose to create a manual job, proceed to Step 15.
   - If you choose to schedule a time-based job, select the days and the time of day to run your backups.
   - Select your Retention Scheme. Read more about Retention Schemes [here](evault-backup-faq.html#how-do-the-retention-schemes-work-)
-  - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times. When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time and commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously backed up are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item (for example, file, database, volume, vSphere VMDK, or Hyper-V VM) is being backed up, the backup for that item is incomplete and data from the item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.
+  - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times. When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time. It commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously saved are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item (for example, file, database, volume, vSphere VMDK, or Hyper-V VM) is being backed up, the backup for that item is incomplete and data from the item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.
 13. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs. 
   - You can repeat step 12 to schedule more backups. 
   - To update to an existing backup job, select the job by clicking its row, then click **Edit** and make your changes.
 14. Select a vault for your backup job, and click **Save Changes**.
 15. Run a backup job
-  - If you scheduled a time-based backup job, there are no further steps. Your job runs automatically as scheduled.
+  - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
   - If you set up a manual job (without a time-based schedule), you can run it now by selecting its row in the job list and clicking **Run backup**. <br/> As with time-based jobs, you can choose the Retention Scheme and the Advanced Backup Options. After you made your configuration choices, click **Start backup** to start the job.
