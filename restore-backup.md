@@ -2,18 +2,18 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 
 # Restoring from a Backup
 
-This article provides the steps that are needed to complete a File restore by using EVault. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
+Use these steps to complete a File restore with EVault. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
 
 ## Starting WebCC
 
-**Note**: Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link won't work.
+**Note**: Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network. The WebCC link doesn't work otherwise.
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
 2. Select the server where the files to be restored are located. Click the arrow to reveal the WebCC link.
@@ -27,7 +27,7 @@ This article provides the steps that are needed to complete a File restore by us
 4. Click **Run Restore**.
 5. Select a restore source.
 6. Select **Restore from a single safeset** or **Restore from the safeset entered in the textbox below**. Both options have the same effect.
-7. Select a backup version or enter the safeset number (The safeset number is the first number in the drop-down selection)
+7. Select a backup version or enter the safeset number (The safeset number is the first number in the list)
 8. Enter the encryption password.
 9. Click **Next** to continue.
 10. Select the check boxes next to the files and directories that you want to include, then click **Include** to save your choices.
