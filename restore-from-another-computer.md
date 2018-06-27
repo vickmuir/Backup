@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-06-27"
 
 ---
 {:pre: .pre}
@@ -47,10 +47,10 @@ The process includes reregistering the EVault agent on the second server to acce
 
 1. Click **All Agents**. <br/> **Note**: You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
 2. Hover over **Advanced** and select **Restore from another Computer**.
-3. On the **Restore From Another Computer** screen, make the following selections:
-  - Vault: this entry defaults to Server1's EVault
-  - Computer: select Server1 as the backup computer to restore from. 
-  - Job: select the backup job from Server1.
+3. On the **Restore From Another Computer** screen, make the following selections.
+  - Vault - This entry defaults to Server1's EVault
+  - Computer - Select Server1 as the backup computer to restore from. 
+  - Job - Select the backup job from Server1.
 4. Click **Next**
 5. Confirm Source information
   - **Safeset location** is the Vault location for Server1.
@@ -81,11 +81,3 @@ The process includes reregistering the EVault agent on the second server to acce
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from. 
 2. Enter the current server2 registration and enable Schedule tasks.
- 
-
-  
-
- 
- 
-  
-  
