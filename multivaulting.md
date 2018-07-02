@@ -11,11 +11,17 @@ lastupdated: "2018-07-02"
 
 Multivaulting is the ability for a client/server to connect to more than one EVault location. It provides redundancy and peace of mind that backups are available even if one site fails. 
 
-## Keypoints
+**Keypoints**
 
 1. Multiple EVaults can be managed through the same WebCC and they are handled the same way. The only difference is that you have different vault choices.
 2. Plug-in licensing is on a per vault basis - for example, if you purchased the MSSQL plug-in for a vault in Washington DC, it won't work on the Seattle vault.
 3. The new vault needs to be manually added to the WebCC after each purchase.
+
+**EVault Director locations**
+
+Multi Vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured following steps that are mentioned in this document, all the configured vaults appear in vault settings.
+
+>**Note**: Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
 
 ## Adding a Remote Vault to an Account
 
@@ -50,10 +56,3 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
   5. Click **Save Changes**.
 
 In a few seconds, the new vault is usable. If you get a connection failure, check your settings, and try again. Keep in mind that adding an extra vault just presents you with an extra destination to choose for a job. It doesn't automatically run jobs against both vaults. You need to set up jobs to use the extra vault. Refer to the [Getting Started Tutorial](index.html#getting-started-with-evault-backup-services) for instructions.
-
-## EVault Director locations
-
-Multi Vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured following steps that are mentioned in this document, all the configured vaults appear in vault settings.
-
->**Note**: Backing up to remote data center locations can take longer than backups to the same data center your server is located.
-
