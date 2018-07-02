@@ -18,7 +18,7 @@ EVault can be used to back up various applications. However, {{site.data.keyword
 - Microsoft SQL
 - Oracle
 
-Each agent is available as an add-on to your EVault backup service. To add an agent to your service, contact a member of our Sales team today. The plug-ins that are listed here are only compatible with Windows servers. 
+The plug-ins that are listed here are only compatible with Windows servers. Each agent is available as an add-on to your EVault backup service. To add an agent to your service, contact a member of theSales team today. 
 
 <hr>
 
