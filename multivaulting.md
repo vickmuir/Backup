@@ -50,7 +50,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 6. In the **Vault Settings" window click **Add**.
 7. In the **New Vault** dialog box,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it won't work.
-  2. The vault name can't be the same as the other vault name. We suggest adding a -2 tag to the end of it. <br/> 
+  2. The vault name can't be the same as the other vault name. Try adding a -2 tag to the end of it. <br/> 
      >**Note** - This field has a 15 character limit.
   3. The IP address field is populated with the EVault director location information. For example, `ev-director301.service.softlayer.com` has the IP address 10.1.114.46 and is located in WDC.
   4. In the credentials field, enter the account ID, the EVault user name for the selected vault, and the password for the selected vault.
