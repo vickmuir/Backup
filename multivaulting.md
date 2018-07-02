@@ -47,8 +47,8 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
    >**Note** - WebCC is only accessible through {{site.data.keyword.BluVPN}}.
 4. In the left navigational pane, click **All Agents**.
 5. In the upper right, click **Edit** and select **Vault Settings**.
-6. In the **Vault Settings" window click **Add**.
-7. In the **New Vault** dialog box,
+6. In the **Vault Settings** window, click **Add**.
+7. In the **New Vault** window,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
   2. The vault name can't be the same as the other vault name. Try adding a -2 tag to the end of it. <br/> 
      >**Note** - This field has a 15 character limit.
