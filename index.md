@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -129,7 +129,7 @@ After you ordered your EVault service and the agent is installed on the server, 
    3. Complete your retention details.
    4. Click **OK**.
    5. Click **Save**.
-   **Note** - Read more about how Retention Schemes work [here](evault-backup-faq.html#how-do-the-retention-schemes-work-)
+   **Note** - Read more about how Retention Schemes work [here](evault-backup-faq.html)
 5. Run the agent and start a backup.
    1. Click **All Agents**, then select the agent that you configured.
    2. Click **Run Backup**.
