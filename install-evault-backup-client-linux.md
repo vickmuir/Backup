@@ -19,7 +19,7 @@ Installing the EVault backup client on a Linux-based operating system can be don
 
 After you completed the procedure, the automated process registers the Agent service with WebCC, then download and install the files that are needed to run the service.
 
->**Note** - If you purchased EVault when Ordering a Server in the {{site.data.keyword.slportal}}, then the software is automatically installed for you and you don't need to use the procedures that are described in this document.
+>**Note** - If you purchased EVault when Ordering a Server in the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 
 If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
 
