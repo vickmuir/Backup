@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -16,6 +16,14 @@ The Oracle plug-in is installed with the Windows Agent on the Oracle database ho
 - Support for Oracle database backup and recovery.
 - The Oracle plug-in provides ARCHIVELOG-based, non-RMAN backups of whole online database instances. All non-temporary table spaces and instance parameter files are automatically backed up. Oracle Corporation recommends that backups take place in periods of low database activity.
 - Full and partial databases are restored through normal user-managed Oracle recovery mechanisms.
+
+**Limitations**
+- Only local, single-instance, disk-based databases are backed up.
+- Database clusters are not backed up.
+- Raw devices are not backed up.
+- Remote databases are not backed up.
+- The database must run in ARCHIVELOG mode, and the user under which the backup is configured must have SYSDBA privileges.
+- Database passwords are encrypted for enhanced security over script-based methods.
 
 ## Ordering the Plug-in
 
@@ -32,7 +40,7 @@ The Oracle plug-in is installed with the Windows Agent on the Oracle database ho
 
 The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle plug-in for Windows, run the Agent installation kit. The Oracle plug-in appears as an option on the **Custom Setup** page.
 
-**Note**: Before you install the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
+>**Note** - Before you install the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
 
 1. Browse to `c:\installs\evault` folder and run the .exe file with the higher revision number.
 2. At the language screen, click **OK**
@@ -49,12 +57,6 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
-## Frequently Asked Questions
 
-### What are the limitations of the Oracle Plug-in?
-- Only local, single-instance, disk-based databases are backed up.
-- Database clusters are not backed up.
-- Raw devices are not backed up.
-- Remote databases are not backed up.
-- The database must run in ARCHIVELOG mode, and the user under which the backup is configured must have SYSDBA privileges.
-- Database passwords are encrypted for enhanced security over script-based methods.
+
+
