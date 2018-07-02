@@ -26,7 +26,7 @@ You can purchase EVault backup service in two ways.
    >**Note** - EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
 6. Scroll down, and click **Add to Order**.
-7. Find the Host and Domain Names section, then enter host and domain names. You can choose any host name and domain that you like.
+7. Find the Host and Domain Names section, and enter host and domain names. You can choose any host name and domain that you like.
 8. On the right, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
 9. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt. <br/>**Note**: You can also save this order without purchasing by clicking **Save as Quote**.
 
