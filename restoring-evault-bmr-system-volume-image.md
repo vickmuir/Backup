@@ -9,7 +9,7 @@ lastupdated: "2018-07-02"
 
 # Restoring an EVault BMR System Volume Image 
 
-If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from our EVault BMR Rescue Kernel system. It allows you to restore the system without the need of a bootable operating system. It's very useful if the operating system is no longer usable or the drives in the system were replaced.
+If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from our EVault BMR Rescue Kernel system. With EVault BMR, you can restore the system without the need of a bootable operating system. It's very useful when the operating system is no longer usable or the drives in the system were replaced.
 
 ## Initiating the EVault BMR Rescue Kernel system
 
@@ -31,7 +31,7 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
 3. If you accept the terms, select the check box, and click **Next** to continue. <br/> This brings up the main EVault system restore menu. 
 4. For this operation, select **Restore My System**.
 <br/>![Figure 2 - BMR Main menu](/images/bmr2.png)
-5. The EVault system restore wizard appears. It gives a general overview of what will be done and the steps needed. Select **Next** to continue
+5. The EVault system restore wizard appears. Select **Next** to continue
 <br/>![Figure 3 - BMR Wizard](/images/bmr3.png)
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
 7. On the **backup location** screen, select the vault, and enter in the vault address, EVault Account number, the user name, and password. Then, click **Next** to continue.
@@ -44,7 +44,7 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
 <br/>![Figure 8 - Choose Restore Point](/images/bmr8.png)
 11. Select the source and destination volumes. To restore the source to the destination, drag the source volume onto the destination volume.
 <br/>![Figure 9 - Select Source and Destination Volumes](/images/bmr9.png)
-12. On the format or merge data confirmation box, there are two options. For this article, we select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
+12. On the format or merge data confirmation box, there are two options. Select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
 <br/>![Figure 10 - Choose Merge](/images/bmr10.png)
 13. On the main source and destination volume screen, click **Next**.
 14. On the restore plan summary screen, check the box to accept the plan and click **Next**.
