@@ -9,7 +9,7 @@ lastupdated: "2018-07-02"
 
 # Restoring an EVault BMR System Volume Image 
 
-If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from the EVault BMR Rescue Kernel system. With EVault BMR, you can restore the system without the need of a bootable operating system. It's very useful when the operating system is no longer usable or the drives in the system were replaced.
+If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from the EVault BMR Rescue Kernel system. With EVault BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
 
 ## Initiating the EVault BMR Rescue Kernel system
 
@@ -44,7 +44,7 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
 <br/>![Figure 8 - Choose Restore Point](/images/bmr8.png)
 11. Select the source and destination volumes. To restore the source to the destination, drag the source volume onto the destination volume.
 <br/>![Figure 9 - Select Source and Destination Volumes](/images/bmr9.png)
-12. On the format or merge data confirmation box, there are two options. Select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
+12. On the format or merge data confirmation box, you can select from two options. Select **Format** for a clean restore that formats the disk. If you want to merge the data on the destination volume, select **Merge**.
 <br/>![Figure 10 - Choose Merge](/images/bmr10.png)
 13. On the main source and destination volume screen, click **Next**.
 14. On the restore plan summary screen, check the box to accept the plan and click **Next**.
@@ -55,4 +55,4 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
 17. On the restore progress screen. Click **Next**.
 18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image. 
   The restoration is now complete. <br/>
-    >**Note** - The first time this happens you might see the unexpected shutdown message. It's completely normal with this backup type and goes away after the first boot. 
+    >**Note** - The first time this happens you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot. 
