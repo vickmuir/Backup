@@ -14,7 +14,7 @@ Multivaulting is the ability for a client/server to connect to more than one EVa
 **Keypoints**
 
 1. Multiple EVaults can be managed through the same WebCC and they are handled the same way. The only difference is that you have different vault choices.
-2. Plug-in licensing is on a per vault basis - for example, if you purchased the MSSQL plug-in for a vault in Washington DC, it won't work on the Seattle vault.
+2. Plug-in licensing is on a per vault basis - for example, if you purchased the MSSQL plug-in for a vault in Washington DC, it doesn't work on the Seattle vault.
 3. The new vault needs to be manually added to the WebCC after each purchase.
 
 **EVault Director locations**
@@ -49,7 +49,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 5. In the right upper corner, click **Edit** and select **Vault Settings**.
 6. In the **Vault Settings" window click **Add**.
 7. In the **New Vault** dialog box,
-  1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it won't work.
+  1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
   2. The vault name can't be the same as the other vault name. Try adding a -2 tag to the end of it. <br/> 
      >**Note** - This field has a 15 character limit.
   3. The IP address field is populated with the EVault director location information. For example, `ev-director301.service.softlayer.com` has the IP address 10.1.114.46 and is located in WDC.
