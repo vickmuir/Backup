@@ -55,5 +55,5 @@ In a few seconds, the new vault is usable. If you get a connection failure, chec
 
 Multi Vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured following steps that are mentioned in this document, all the configured vaults appear in vault settings.
 
-**Note**: Backing up to remote data center locations can take longer than backups to the same data center your server is located.
+>**Note**: Backing up to remote data center locations can take longer than backups to the same data center your server is located.
 
