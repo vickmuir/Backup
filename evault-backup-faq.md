@@ -10,7 +10,7 @@ lastupdated: "2018-07-02"
 
 # EVault Backup - Frequently Asked Questions
 
-** kind of applications can be backed up with EVault?**
+**What kind of applications can be backed up with EVault?**
 
 EVault can be used to back up various applications. However, {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
 
