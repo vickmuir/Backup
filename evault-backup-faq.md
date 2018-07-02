@@ -45,7 +45,7 @@ The first backup is a "seed" (a complete, full backup), the next and subsequent 
 By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted 
 format by using AES 256-bit. 
 
->**Note** - You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you won't be able to get your data back. 
+>**Note** - You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back. 
 
 Compression ratios allow for zero compression to a maximum ratios compression that, depending on file type, might be compressed anywhere from 20 percent to 30 percent.
 
