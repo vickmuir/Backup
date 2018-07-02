@@ -32,7 +32,7 @@ You must add the new remote EVault storage vault to the account before a new bac
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
 5. When the Storage section opens up, scroll down to **EVault**, and click **Add**.
-6. In the **Order EVault** dialog box that opens, select the remote vault location by clicking its entry in the pull-down list.
+6. In the **Order EVault** window, select the remote vault location by clicking its entry in the pull-down list.
 7. Select the size of the storage amount, then click **Continue**
 8. Check the **I have read the Master...** box and click **Place Order**.
 
@@ -46,7 +46,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 3. Click the **WebCC Login** link to start the WebCC client in your browser.
    >**Note** - WebCC is only accessible through {{site.data.keyword.BluVPN}}.
 4. In the left navigational pane, click **All Agents**.
-5. In the right upper corner, click **Edit** and select **Vault Settings**.
+5. In the upper right, click **Edit** and select **Vault Settings**.
 6. In the **Vault Settings" window click **Add**.
 7. In the **New Vault** dialog box,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
