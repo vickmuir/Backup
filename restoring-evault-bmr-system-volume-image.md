@@ -27,11 +27,11 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
   - The KVM console of your IPMI card. 
   Both of these ways work well. 
 2. Upon logging in to the EVault BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
-<br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> This brings you to the license agreement for the software. 
-3. If you accept the terms, select the check box, and click **Next** to continue. <br/> This brings up the main EVault system restore menu. 
-4. For this operation, select **Restore My System**.
+<br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> The license agreement for the software is displayed. 
+3. If you accept the terms, select the check box, and click **Next** to continue. <br/> The main EVault system restore menu is presented. 
+4. Select **Restore My System**.
 <br/>![Figure 2 - BMR Main menu](/images/bmr2.png)
-5. The EVault system restore wizard appears. Select **Next** to continue
+5. The EVault system restore wizard appears. Select **Next** to continue.
 <br/>![Figure 3 - BMR Wizard](/images/bmr3.png)
 6. Select a backup type to restore from. Select **EVault software** then click **Next** to continue.
 7. On the **backup location** screen, select the vault, and enter in the vault address, EVault Account number, the user name, and password. Then, click **Next** to continue.
