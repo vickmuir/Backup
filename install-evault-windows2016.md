@@ -2,13 +2,13 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-07-02"
 
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
 
-# Configure EVault on Windows 2016
+# Configuring EVault on Windows 2016
 
 Currently, EVault WebCC isn't officially supported on Windows 2016. Servers that are running on Windows 2016 must use the Windows Central Control software.
 
