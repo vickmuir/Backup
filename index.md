@@ -23,7 +23,7 @@ You can purchase EVault backup service in two ways.
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. You can learn more about ordering bare metal servers [here](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
 3. You are redirected to the manage portal to complete the order. <br/>
-  **Note**: EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
+   >**Note** - EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
 6. Scroll down, and click **Add to Order**.
 7. Find the Host and Domain Names section, then enter host and domain names. You can choose any host name and domain that you like.
@@ -59,7 +59,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 **Confirming the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
-2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note**: If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed. 
+2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note** - If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed. 
 
 ## Accessing and viewing EVault Backup storage details in {{site.data.keyword.slportal}}
 
@@ -95,7 +95,7 @@ EVault Agent is supported on the following OS:
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
-Follow the instructions appropriate for your OS:
+Follow the instructions appropriate for your OS,
 - [Installing the EVault Backup Client in Linux](install-evault-backup-client-linux.html)
 - [Installing the EVault Backup Client in Windows](install-evault-backup-client-windows.html)
 - [Installing the EVault Backup Client for Windows 2016](install-evault-windows2016.html)
@@ -123,7 +123,7 @@ After you ordered your EVault service and the agent is installed on the server, 
    5. Schedule - click **Add** to create a schedule, click **Next**.
    6. Select the default vault, click **OK**.
    7. Click **Save**.
-4. Create a retention schedule:
+4. Create a retention schedule.
    1. Select **Edit** > **Agent Settings**.
    2. Click **Add**.
    3. Complete your retention details.
@@ -137,7 +137,7 @@ After you ordered your EVault service and the agent is installed on the server, 
    4. Click **Start Backup**. You can view the backup details while the process is running.
    5. When the backup is complete, click **Close**.
    
-**Note**: Read more about how you can configure simple File-level backups on Linux [here](configure-simple-file-backup-linux.html).
+>**Note** - Read more about how you can configure simple File-level backups on Linux [here](configure-simple-file-backup-linux.html).
 
 ## Getting online help
 
