@@ -24,7 +24,7 @@ The process includes reregistering the EVault agent on the second server to acce
 
 ## Starting WebCC of Server2
 
-**Note**: Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link doesn't work.
+>**Note** - Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link doesn't work.
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
 2. Select Server2. Click the right-pointing expansion arrow to reveal the WebCC link.
@@ -44,7 +44,8 @@ The process includes reregistering the EVault agent on the second server to acce
 
 ## Running the Backup Job from Server1 as the Restore Job on Server2
 
-1. Click **All Agents**. <br/> **Note**: You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
+1. Click **All Agents**.
+   >**Note** - You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
 2. Hover over **Advanced** and select **Restore from another Computer**.
 3. On the **Restore From Another Computer** screen, make the following selections.
   - Vault - This entry defaults to Server1's EVault
@@ -59,8 +60,8 @@ The process includes reregistering the EVault agent on the second server to acce
 7. Select which files need to be restored from the Server1 backup. Check the boxes next to the files, and directories that you want to restore, then click **Include** to save your choices.
 8. Click **Next** to move to the restore options.
 9. In Options
-  - Destination: Select **Restore to original location**
-  - File Overwrite: Select **Overwrite existing files**
+  - Destination - Select **Restore to original location**
+  - File Overwrite - Select **Overwrite existing files**
 10. Click **Run Restore**.
 11. The Process Detail screen displays the status of the restore job.
 
