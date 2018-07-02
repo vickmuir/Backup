@@ -30,7 +30,7 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
   - This IP address is to be used in following steps when you log in to the device from a UNIX or Linux command line. Replace <publicIpAddress> with the actual public IP address in the command that is shown in Step 4. 
 3. Click the right-pointing arrow to display more information about the device, including the user name and password. 
   - If the password is not displayed, you can reveal it by clicking the **Show Password**. The user name and password are used in the next step to log in to the test device.  Replace `<user name>` with the actual user name.
-4. Log in to the target device by entering the following command from a UNIX or Linux command line:
+4. Log in to the target device by entering the following command from a UNIX or Linux command line.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -42,7 +42,7 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
 ## Updating Linux to prepare for installing the EVault client (RedHat Linux only)
 >**Note** - This step is required for RedHat Linux, but optional for other Linux distributions.
 
-- Run the following command at the server prompt:
+- Run the following command at the server prompt.
   ```
   yum update
   ```
@@ -52,7 +52,7 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
 
 ## Getting the EVault Install Script
 
-- Run the following command at the server prompt:
+- Run the following command at the server prompt.
   ```
   wget -N http://downloads.service.softlayer.com/evault/evault_manual.sh
   ```
