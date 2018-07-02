@@ -21,7 +21,7 @@ Multivaulting is the ability for a client/server to connect to more than one EVa
 
 Multi Vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured following steps that are mentioned in this document, all the configured vaults appear in vault settings.
 
->**Note**: Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
+>**Note** - Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
 
 ## Adding a Remote Vault to an Account
 
@@ -30,8 +30,8 @@ You must add the new remote EVault storage vault to the account before a new bac
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Click **Devices**
 3. Locate and click the link for the server in question.
-4. Under **Device Details**, click **Storage**
-5. When the Storage section opens up, scroll down to **EVault**, and click **Add**
+4. Under **Device Details**, click **Storage**.
+5. When the Storage section opens up, scroll down to **EVault**, and click **Add**.
 6. In the **Order EVault** dialog box that opens, select the remote vault location by clicking its entry in the pull-down list.
 7. Select the size of the storage amount, then click **Continue**
 8. Check the **I have read the Master...** box and click **Place Order**.
@@ -43,14 +43,15 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
 2. Select the server where the files to be restored are located. Click the right-pointing arrow to reveal the WebCC link.
-3. Click the **WebCC Login** link to start the WebCC client in your browser. <br/>**Note**: WebCC is only accessible through {{site.data.keyword.BluVPN}}.
+3. Click the **WebCC Login** link to start the WebCC client in your browser.
+   >**Note** - WebCC is only accessible through {{site.data.keyword.BluVPN}}.
 4. In the left navigational pane, click **All Agents**.
 5. In the right upper corner, click **Edit** and select **Vault Settings**.
 6. In the **Vault Settings" window click **Add**.
-7. In the **New Vault** dialog box:
+7. In the **New Vault** dialog box,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it won't work.
   2. The vault name can't be the same as the other vault name. We suggest adding a -2 tag to the end of it. <br/> 
-     >**Note**: This field has a 15 character limit.
+     >**Note** - This field has a 15 character limit.
   3. The IP address field is populated with the EVault director location information. For example, `ev-director301.service.softlayer.com` has the IP address 10.1.114.46 and is located in WDC.
   4. In the credentials field, enter the account ID, the EVault user name for the selected vault, and the password for the selected vault.
   5. Click **Save Changes**.
