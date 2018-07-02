@@ -97,7 +97,7 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
    ```
    {: codeblock}
    
-  >**Note** - The process IDs represented above by `xxxxx` will vary with each installation. 
+  >**Note** - The process IDs represented above by `xxxxx` varies with each installation. 
   
 **Next steps**
 
