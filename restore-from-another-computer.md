@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:pre: .pre}
@@ -14,8 +14,7 @@ Sometimes you want to restore data to a different server in the same data center
 
 The process includes reregistering the EVault agent on the second server to access the EVault location of the first server and completing a **Restore from another Computer**.
 
-
-## Pre-requisites
+**Pre-requisites**
 
 - Server1 and Server 2 must have the same OS. Cross-platform restores aren't supported.
 - Server1 and Server2 must have EVAult agents that were configured previously. To learn how to configure the EVault agents, click [here](index.html#configuring-evault-agent-in-webcc)
