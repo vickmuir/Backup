@@ -55,11 +55,7 @@ Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.
 
 **What does VSS (Volume Shadow Copy Services) do?**
 
-The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in:
-- Effectively backs up SQL databases, even SQL databases that span volumes, 
-- Allows backups to be completed while applications continue to write to a volume, and 
-- Provides data consistency within and across databases. 
-VSS allows multiple backups to run at the same time.
+The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
 
 **What are the main features of the SQL Plug-in?**
 
@@ -75,6 +71,6 @@ VSS allows multiple backups to run at the same time.
 - Alternate restore includes the ability to direct the restore of one database into another even when the logical database names are not matching. For mismatched objects, the plug-in creates databases in the default database location for the instance.
 - Support for Transparent Data Encryption (TDE) with 64-bit SQL Server 2008 R2 (SP1) and SQL Server 2012.
 - If an SQL Server host is lost, the SQL Server software can be installed, and the database can be restored. (The Master database must be restored first.)
-- When the backup starts, the backup occurs with or without the database services running.
+- When the backup starts, the backup occurs with or without running database services.
 - Restores are supported to original database names (with or without overwrite existing databases), Restore over an existing database, or to files on disk.
 
