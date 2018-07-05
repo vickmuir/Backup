@@ -27,6 +27,7 @@ IBM Cloud Storage - Backup Services
         restore-backup.md
         restore-from-another-computer.md
         restore-from-another-computer-windows2016.md
+        restore-from-another-server-in-another-dc.md
         restoring-evault-bmr-system-volume-image.md
     
     {: .topicgroup}
