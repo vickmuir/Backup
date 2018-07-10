@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-07-10"
 
 ---
 {:new_window: target="_blank"}
@@ -17,6 +17,8 @@ You can purchase EVault backup service in two ways.
 
 - Purchase EVault when you Order a Server
 - Purchase EVault as an Upgrade
+
+For information about pricing, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Purchasing EVault when you order a server
 
