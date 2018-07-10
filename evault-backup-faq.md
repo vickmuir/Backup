@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-07-10"
 
 ---
 {:new_window: target="_blank"}
@@ -64,3 +64,9 @@ The system state backups include, but aren't limited to COM + class registration
 **What happens to open files?**
 
 By default the base client has a state-of-the-art technology to handle most open files that are running on the OS.
+
+<hr>
+
+**Where can I find information about pricing?**
+
+For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
