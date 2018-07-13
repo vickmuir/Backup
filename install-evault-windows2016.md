@@ -68,7 +68,7 @@ This task is completed through a series of interactions while logged in to the s
 3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
 4. Click the **Retentions** tab. The Retention Wizard appears, click **Next**.
 5. Enter the retention name. Click **Next**.<br/>
-   **Note** - The entry can be a maximum of 32 alphanumeric characters. Spaces are not allowed, but underscores (`_`) and dashes (`-`) are permitted.
+   **Note** - The entry can be a maximum of 32 alphanumeric characters. Spaces are not allowed, but underscores (`_`) and dashes (`-`) can be used.
 6. Enter the online retention days and copies for this retention type. Then, click **Next**.<br/>
    **Note** - The combination of retention days and copies is used to ensure that a minimum duration and a number of backups are retained.
 7. Select **I do not want to create any archive backup copies**. Click **Next**.
@@ -81,7 +81,7 @@ This task is completed through a series of interactions while logged in to the s
 2. Start CentralControl.
 3. In the workspace, right-click **MyAgent** and select **New Job**. 
 4. On the welcome screen, click **Next**.
-5. Select the backup source type from the drop-down list.
+5. Select the backup source type.
 6. Select **Unicode** for encoding. Click **Next**.
 7. Select the destination where this job is targeted. Click **Next**.
 8. Enter the name for the job and its description.<br/>
@@ -102,4 +102,4 @@ This task is completed through a series of interactions while logged in to the s
 5. Select the backup destination or an alternative location to seed the backup job. Click **Next**.<br/>
    *Tip* - For more information about multiple vaults, see [Multivaulting](multivaulting.html)
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
-7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the current status of the backup jon. When the backup job is done, click **Close**.
+7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup jon. When the backup job is done, click **Close**.
