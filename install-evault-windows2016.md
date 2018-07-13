@@ -85,7 +85,7 @@ This task is completed through a series of interactions while logged in to the s
 6. Select **Unicode** for encoding. Click **Next**.
 7. Select the destination where this job is targeted. Click **Next**.
 8. Enter the name for the job and its description.<br/>
-   **Note** - the name must be 1-30 characters long. The name can contain letters, numbers, underscores, hyphens and dollar signs.
+   **Note** - The name must be 1-30 characters long. The name can contain letters, numbers, underscores (`_`), hyphens (`-`) and dollar signs (`$`).
 9. Select the data sources. The options are Data files, Bare Metal Restore, System State. Click **Add**.
 10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
 11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**
