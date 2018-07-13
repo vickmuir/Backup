@@ -99,7 +99,7 @@ This task is completed through a series of interactions while logged in to the s
 2. Start CentralControl.
 3. In the workspace, right-click **MyAgent** and select the agent you created.
 4. On the welcome screen, click **Next**.
-5. Select the backup destination or an alternate safeset location to seed the backup job. Click **Next**.
+5. Select the backup destination or an alternate safeset location to seed the backup job. Click **Next**.<br/>
    *Tip* - For more information on multiple vaults, see [Multivaulting](multivaulting.html)
 6. Select the Quick file scanning option to avoid reading files that have not changed. Click **Next**.
 7. Click **Finish** to complete the configuration and start the backup. A process information windown appears that shows the current status of the backup jon. When the backup job is done, click **Close**.
