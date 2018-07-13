@@ -75,6 +75,26 @@ This task is completed through a series of interactions while logged in to the s
 8. Click **Finish** to complete the configuration of the retention scheme.
 
 
+## Setting up the EVault Job
+
+1. Remote control your server through RDP.
+2. Start CentralControl.
+3. In the workspace, right-click **MyAgent** and select **New Job**. 
+4. On the welcome screen, click **next**.
+5. Select the backup source type from the drop-down list.
+6. Select **Unicode** for encoding. Click **Next**.
+7. Select the destination where this job is targeted. Click **Next**.
+8. Enter the name for the job and its description.
+   **Note** - the name must be 1-30 characters long. The name can contain letters, numbers, underscores, hyphens and dollar signs.
+9. Select the data sources. The options are Data files, Bare Metal Restore, System State. Click **Add**.
+10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
+11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**
+12. Select log options for your job. Check **Create log file**, and select **Automatically purge expired log files only**. Then, click **Next**
+13. Select **Just exit from this wizard**, and click **Finish** to complete the configuraion. The new job now appears under MyAgent.
+
+
+   
+
 
 
 
