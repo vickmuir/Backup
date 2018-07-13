@@ -67,9 +67,9 @@ This task is completed through a series of interactions while logged in to the s
 2. Start CentralControl.
 3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
 4. Click the **Retentions** tab. The Retention Wizard appears, click **Next**.
-5. Enter the retention name. Click **Next**.
+5. Enter the retention name. Click **Next**.<br/>
    **Note** - The entry can be a maximum of 32 alphanumeric characters. Spaces are not allowed, but underscores (`_`) and dashes (`-`) are permitted.
-6. Enter the online retention days and copies for this retention type. Then, click **Next**.
+6. Enter the online retention days and copies for this retention type. Then, click **Next**.<br/>
    **Note** - The combination of retention days and copies is used to ensure that a minimum duration and a number of backups are retained.
 7. Select **I do not want to create any archive backup copies**. Click **Next**.
 8. Click **Finish** to complete the configuration of the retention scheme.
@@ -84,7 +84,7 @@ This task is completed through a series of interactions while logged in to the s
 5. Select the backup source type from the drop-down list.
 6. Select **Unicode** for encoding. Click **Next**.
 7. Select the destination where this job is targeted. Click **Next**.
-8. Enter the name for the job and its description.
+8. Enter the name for the job and its description.<br/>
    **Note** - the name must be 1-30 characters long. The name can contain letters, numbers, underscores, hyphens and dollar signs.
 9. Select the data sources. The options are Data files, Bare Metal Restore, System State. Click **Add**.
 10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
