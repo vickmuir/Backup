@@ -70,3 +70,15 @@ By default the base client has a state-of-the-art technology to handle most open
 **Where can I find information about pricing?**
 
 For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+
+<hr>
+
+**Can I increase/decrease my EVault capacity without compromising my backups?**
+
+You can increase or decrease the size of your EVault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the EVault capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding EVault Capacity](expanding-evault-capacity.html).
+
+<hr>
+
+**What happens when I exceed my EVault capacity?**
+
+You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. Please note that you're going to be charged extra for every additional GB used.

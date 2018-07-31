@@ -42,4 +42,5 @@ IBM Cloud Storage - Backup Services
     {: .navgroup id="help"}
     evault-backup-faq.md
     change-password-evault-backup-service.md
+    expanding-evault-capacity.md
     {: .navgroup-end}
