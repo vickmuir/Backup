@@ -8,7 +8,7 @@ lastupdated: "2018-08-08"
 {:new_window: target="_blank"}
 
 
-# EVault Backup - Frequently Asked Questions
+# FAQs
 
 ## **What kind of applications can be backed up with EVault?**
 
