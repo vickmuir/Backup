@@ -42,7 +42,7 @@ The first backup is a "seed" (a complete, full backup), the next and subsequent 
 
 <hr>
 
-## **Are the Backups secure?**
+## **Are the backups secure?**
 
 By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted 
 format by using AES 256-bit. 
@@ -53,7 +53,7 @@ Compression ratios allow for zero compression to a maximum ratios compression th
 
 <hr>
 
-## **What information is stored with system state Backups?**
+## **What information is stored with system state backups?**
 
 The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. By including the system files, you can recover from corrupted system files, or if you accidentally uninstall some service packs, or want to recover with a bare-metal restore. You can return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
 
