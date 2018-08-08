@@ -73,12 +73,12 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 
 <hr>
 
-## **Can I increase/decrease my EVault capacity without compromising my backups?**
+## **Can the EVault capacity be increase/decrease without compromising the backups?**
 
 You can increase or decrease the size of your EVault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the EVault capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding EVault Capacity](expanding-evault-capacity.html).
 
 <hr>
 
-## **What happens when I exceed my EVault capacity?**
+## **What happens when the EVault capacity is exceeded?**
 
 You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. Please note that you're going to be charged extra for every additional GB used.
