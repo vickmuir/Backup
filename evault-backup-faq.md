@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-08-10"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ EVault can be used to back up various applications. However, {{site.data.keyword
 - Microsoft SQL
 - Oracle
 
-The plug-ins that are listed here are only compatible with Windows servers. Each agent is available as an add-on to your EVault backup service. To add an agent to your service, contact a member of theSales team today. 
+The plug-ins that are listed here are only compatible with Windows servers, with the exception of the Oracle plug-in. Each agent is available as an add-on to your EVault backup service. To add an agent to your service, contact a member of the Sales team today. 
 
 <hr>
 
@@ -82,3 +82,9 @@ You can increase or decrease the size of your EVault through the [{{site.data.ke
 ## **What happens when the EVault capacity is exceeded?**
 
 You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. However, please note that there is going to be an extra charge for every additional GB used in the billing statement.
+
+<hr>
+
+## **How can I set up notifications in WebCC to let me know if my backups fail?**
+
+Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in WebCC.
