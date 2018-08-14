@@ -2,17 +2,16 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-30"
+lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
 # 重新注册 EVault
 
-此任务是重新装入服务器的操作系统后最常需要执行的步骤，但您也可以使用这些步骤来[使用一个服务器的备份在另一个服务器上复原](restore-from-another-computer.html)。
+这是重新装入服务器的操作系统后最常用的任务。您还可以使用这些步骤来[使用一个服务器的备份在另一个服务器上复原数据](restore-from-another-computer.html)。
 
-1. 在 WebCC 上以用户身份登录。有关指示信息，请参阅[备份服务入门](/docs/infrastructure/Backup/index.html)。请记住，WebCC 只能通过 {{site.data.keyword.BluVPN}} 进行访问。
+1. 启动 WebCC 并登录。有关指示信息，请参阅[备份服务入门](/docs/infrastructure/Backup/index.html)。<br/>请记住，WebCC 只能通过 {{site.data.keyword.BluVPN}} 进行访问。
 
 2. 单击左侧的**所有代理程序**。
 
@@ -21,14 +20,13 @@ lastupdated: "2018-05-30"
 4. 选择**保险库设置**。
 
 5. 单击**重新注册**。
-
-6. 填写： 
+ 
+6. 填写表单。
   - 保险库名称
   - 保险库地址
-  - 帐户
+  - 帐户<br/>**注**：“帐户”相当于 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 中的“帐户名称”。通常，这类似于“SLE[account ID]”。
   - 用户名
-  - 密码。<br/>
-  **注**：“帐户”相当于[备份服务入门](index.html)页面中的“帐户名称”。通常，这类似于“SLE[account ID]”。
+  - 密码
 
 7. 单击**装入计算机**，然后选择要装入的计算机。
 
@@ -36,8 +34,8 @@ lastupdated: "2018-05-30"
 
 9. 刷新 Web 站点以复原先前的备份作业。
 
-10. 同步每个备份作业以复原安全集历史记录。 
+10. 同步每个备份作业以复原安全集历史记录。
 
 11. 如果备份作业是使用加密密码创建的，那么必须输入加密密码才能复原数据或继续进行备份。
 
-12. 单击**关闭**，此时已完成所有操作。
+12. 单击**关闭**。

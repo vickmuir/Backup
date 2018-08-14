@@ -2,22 +2,22 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-27"
 
 ---
 
-# Ripristina un lavoro da un altro computer su Windows 2016 
+# Ripristino di un lavoro da un altro computer su Windows 2016 
 
-Questo articolo fornisce i passi necessari per eseguire un ripristino di file utilizzando Evault Windows Central Control in Windows 2016 da un altro computer. 
+Utilizza questa procedura per completare il ripristino di un file da un altro computer utilizzando EVault Windows Central Control in Windows 2016.
 
-1. Esegui il controllo remoto del tuo server tramite RDP.
+1. Esegui il controllo remoto del tuo server Windows 2016 tramite RDP.
 2. Apri CentralControl.
-3. Fai clic con il tasto destro del mouse su **Agent** e seleziona **Agent Configuration**.
+3. Fai clic con il tasto destro su **Agent** e seleziona **Agent Configuration**.
 4. Rimuovi le impostazioni correnti dell'archivio da CentralControl selezionando la voce e facendo clic su **Delete**.
-5. Fai clic su **New** e, sulla schermata successiva, seleziona **Re-register previously registered computer**. Fai clic su **Next**
+5. Fai clic su **New** e, sulla schermata successiva, seleziona **Re-register previously registered computer**. Fai clic su **Next**.
 6. Immetti l'indirizzo di rete, fai clic su **Add** e quindi su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.
-8. Nella schermata delle impostazioni di connessione, immetti il numero di secondi/minuti desiderato. 
+8. Nella schermata delle impostazioni di connessione, immetti il numero di secondi/minuti desiderato.  
 9. Nella schermata di autenticazione, immetti le tue credenziali e fai clic su **Next**.
 10. Viene visualizzata la finestra dei computer registrati che visualizza il nome host del tuo server. Fai clic su **Next**.
 11.	La procedura guidata di configurazione dell'archivio ha terminato la raccolta delle tue informazioni, fai clic su **Finish** per completare la registrazione.

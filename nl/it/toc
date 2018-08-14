@@ -17,6 +17,7 @@ IBM Cloud Storage - Servizi di backup
         configure-bmr-backup-windows.md
         upgrade-evault-backup-agent-windows.md
         install-evault-windows2016.md
+        evault-port-information.md
         how-do-i-re-register-evault.md
         multivaulting.md
         canceling-backup-service.md
@@ -26,6 +27,7 @@ IBM Cloud Storage - Servizi di backup
         restore-backup.md
         restore-from-another-computer.md
         restore-from-another-computer-windows2016.md
+        restore-from-another-server-in-another-dc.md
         restoring-evault-bmr-system-volume-image.md
     
     {: .topicgroup}
@@ -39,6 +41,6 @@ IBM Cloud Storage - Servizi di backup
     
     {: .navgroup id="help"}
     evault-backup-faq.md
-    evault-port-information.md
     change-password-evault-backup-service.md
+    expanding-evault-capacity.md
     {: .navgroup-end}
