@@ -2,23 +2,22 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-07-05"
 
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
 
-# Criando um backup e restaurando dados de um VSI para outro dentro do mesmo data center
+# Criando um backup e restaurando dados de um VSI para outro em um data center diferente
 
-Às vezes você deseja restaurar dados para um servidor diferente no mesmo data center. Este procedimento se aplica somente a restaurações de nível de arquivo de arquivos não S.O. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](restoring-evault-bmr-system-volume-image.html).
+Às vezes, você deseja restaurar dados para um servidor diferente. Este procedimento se aplica somente a restaurações de nível de arquivo de arquivos não S.O. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](restoring-evault-bmr-system-volume-image.html).
 
 O processo inclui registrar novamente o agente do EVault no segundo servidor para acessar o local do EVault do primeiro servidor e concluir uma **Restauração de outro computador**.
 
 **Pré-requisitos**
 
 - O Server1 e o Server2 devem ter o mesmo S.O. Restaurações de plataforma cruzada não são suportados.
-- O Server1 e o Server2 devem ter agentes do EVAult que foram configurados anteriormente. Para saber como configurar os agentes
-do EVault, clique [aqui](index.html#configuring-evault-agent-in-webcc)
+- O Server1 e o Server2 devem ter agentes do EVAult que foram configurados anteriormente. Para aprender como configurar os agentes do EVault, clique [aqui](index.html#configuring-evault-agent-in-webcc).
 - Uma tarefa de backup para o Server1 que produziu um backup para o local de EVault do Server1.
 
 **Nota**: desative todas as tarefas de Planejamento em ambos os servidores para
@@ -50,23 +49,25 @@ evitar quaisquer conflitos.
    >**Nota**: você pode precisar atualizar a página para ver as tarefas que estão definidas no Server1 como acessíveis/sincronizadas na guia **Tarefas** do Server2
 2. Passe o mouse sobre **Avançado** e selecione **Restaurar por meio de
 outro computador**.
-3. Na tela **Restaurar de outro computador**, faça as seleções a seguir.
-  - Área Segura: essa entrada é padronizada para o EVault do Server1
+3. Na tela **Restaurar de outro computador**, clique em **Incluir**. Os campos são preenchidos automaticamente com valores padrão, portanto, mude-os.
+4. Clique no campo Área segura e selecione **Inserir configurações de área segura** e digite o endereço IP da área segura do Server1. Clique em **Incluir**.
+5. Atualize as credenciais para as credenciais do Server1.
+6. Clique em **Salvar mudanças**. Essa ação conecta você à área segura do Server1.
+7. Volte para a tela **Restaurar de outro computador**, atualize os campos Computador e Tarefa.
   - Computador: selecione Server1 como o computador de backup do qual restaurar. 
   - Tarefa: selecione a tarefa de backup de Server1.
-4. Clique em **Avançar**
-5. Confirme as informações de Origem
-  - O **Local do conjunto de segurança** é o local de Área segura para o Server1.
-  - Na seção **Selecionar uma versão de backup**, especifique seu backup do Server1 como a versão de backup.
-  - A senha de criptografia é a senha que você usou quando criou o backup do Server1.
-6. Clique em **Avançar**
-7. Selecione quais arquivos precisam ser restaurados do backup do Server1. Marque as caixas próximas aos arquivos e diretórios que deseja restaurar e, em seguida, clique em **Incluir** para salvar suas opções.
-8. Clique em **Avançar** para mover para as opções de restauração.
-9. Em Opções
-  - Destino: selecione **Restaurar para o local original**
-  - Sobrescrição do arquivo: selecione **Sobrescrever arquivos existentes**
-10. Clique em **Executar restauração**.
-11. A tela Detalhe do processo exibe o status da tarefa de restauração.
+8. Clique em **Avançar** para iniciar o processo de restauração para o server2 em outro Data center.
+9. No prompt, insira a senha de backup e clique em **Avançar**.
+10. Confirme se a tarefa de backup correta está selecionada e clique em **Avançar**. A tarefa de restauração agora está configurada no server2. 
+11. Selecione a tarefa recém-configurada e clique em **Executar restauração**.
+12. Selecione os arquivos que você deseja restaurar. 
+13. Clique no sinal de mais para expandir a seleção de arquivo.
+14. Clique na caixa de seleção dos arquivos ou pastas individuais a serem restauradas de server1 para server2. Em seguida, clique em **Incluir**.
+15. Os arquivos preenchem a janela Conjunto de backup à direita. Clique em **Avançar**. 
+16. Depois de concluir a seleção de dados, continue com a seleção de suas opções.
+    - Selecione **Restaurar para o local original**.
+    - Selecione **Sobrescrever arquivos existentes**.
+17. Clique em **Executar restauração**. A janela Detalhes do processo fornece o status da tarefa de backup em execução. Após o backup ser concluído, clique em **Fechar**.
 
 
 ## Verificando a restauração

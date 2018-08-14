@@ -2,17 +2,17 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-07-10"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
-# -backup do EVault perguntas mais frequentes
 
-## De que tipo de aplicativos posso fazer backup com o EVault?
+# Backup do EVault - Perguntas mais frequentes
 
-O EVault permite backups de vários aplicativos. No entanto,
+**Quais tipos de aplicativos podem ser submetidos a backup com o EVault?**
+
+O EVault pode ser usado para fazer backup de vários aplicativos. No entanto,
 o {{site.data.keyword.BluSoftlayer_full}} oferece agentes de software para alguns dos sistemas de
 software mais comuns que são submetidos a backup, que incluem:
 
@@ -20,32 +20,31 @@ software mais comuns que são submetidos a backup, que incluem:
 - Microsoft SQL
 - Oracle
 
-Cada agente está disponível como um complemento para o seu serviço EVault Backup. Para incluir um
-agente em seu serviço, entre em contato com um membro de nossa equipe de Vendas hoje. Observe que os plug-ins
-que estão listados aqui são compatíveis somente com servidores Windows. 
+Os plug-ins que estão listados aqui são compatíveis apenas com servidores Windows. Cada agente está disponível como um complemento para o seu serviço EVault Backup. Para incluir um agente em seu serviço, entre em contato com um membro da equipe de Vendas hoje. 
 
-## Com que frequência posso fazer backup de meus dados com o EVault Backup?
+<hr>
+
+**Com que frequência os dados podem ser submetidos a backup com o EVault?**
 
 É possível fazer backup dos dados com a frequência que desejar. No WebCC, os backups podem ser feitos
 manualmente ou podem ser planejados como uma única instância ou para serem recorrentes. Os backups recorrentes podem
 ser feitos diariamente, semanalmente, mensalmente ou em uma programação customizada e podem ser atualizados ou
 cancelados a qualquer momento.
 
-**Nota**: backups altamente frequentes que são executados várias vezes por dia ou por
-hora podem fazer com que as tarefas de backup se tornem corrompidas. Isso ocorre porque a área segura pode não
-ser capaz de remover os conjuntos de segurança antigos ou de executar outras tarefas em segundo plano
-necessárias.
+>**Nota**: backups altamente frequentes que são executados várias vezes por dia ou por hora podem fazer com que as tarefas de backup se tornem corrompidas. Essa distorção ocorre porque a área segura pode não ser capaz de remover os conjuntos de segurança antigos ou de concluir outras tarefas em segundo plano necessárias entre as execuções.
 
-## Como os esquemas de retenção funciona?
+<hr>
+
+**Como os esquemas de retenção funciona?**
 
 O EVault permite a retenção de dados, dependendo de até quanto tempo você deseja recuperá-los. Os esquemas de
 retenção **Diariamente** retêm os dados por
 sete dias, enquanto que os esquemas **Semanalmente** retêm os dados por um mês e
-os esquemas **Mensalmente** retêm os dados por um ano. No término de cada período, o
-conjunto de dados mais antigo é descartado e o primeiro "backup delta" que foi feito se torna o ponto
-de restauração mais antigo disponível. 
+os esquemas **Mensalmente** retêm os dados por um ano. No término de cada período, o conjunto de dados mais antigo é rotacionado e o primeiro "backup delta" que foi feito se torna o ponto de restauração mais antigo disponível. 
 
-## O que é Tecnologia Delta?
+<hr>
+
+**O que é Tecnologia Delta?**
 
 O primeiro backup é um "valor inicial" (um backup completo) e o próximo backup e os subsequentes
 são "deltas" (ou seja, somente mudanças), no entanto, eles são equivalentes a um
@@ -53,31 +52,49 @@ são "deltas" (ou seja, somente mudanças), no entanto, eles são equivalentes a
 "backups completos" sejam feitos em cada sessão, economizando, no entanto, enormes quantidades de espaço na
 Área segura e diminuindo a quantia de tempo que cada backup subsequente leva para ser concluído.
 
-## Meus backups estão seguros?
+<hr>
 
-Por padrão, toda a criptografia "over the wire" (OTW) é codificada com a criptografia AES de 256 bits.
-Também é possível optar por armazenar dados em formato criptografado usando o AES 256 bits. 
+** Os Backups são seguros? **
 
-**Nota**: você deverá se lembrar da sua senha de criptografia. Seus dados não podem ser
-restaurados sem sua senha. Se você perder sua senha, não será possível recuperar seus dados. 
+Por padrão, toda a criptografia "over the wire" (OTW) é codificada com a criptografia AES de 256 bits. Também é possível optar por armazenar dados em formato
+criptografado usando o AES de 256 bits. 
+
+>**Nota**: lembre-se de sua senha de criptografia. Seus dados não podem ser
+restaurados sem sua senha. Se você a perder, não será possível obter seus dados de volta. 
 
 As proporções de compactação permitem compactação zero até uma compactação de proporções máximas que,
 dependendo do tipo de arquivo, pode atingir de 20 a 30 por cento.
 
+<hr>
 
-## Quais informações são armazenadas com backups de estado do sistema?
+**Quais informações são armazenadas com os Backups de estado do sistema?**
 
 Os backups de estado do sistema incluem o banco de dados de registro de classe do COM +,
-o registro, os arquivos de inicialização, os arquivos de sistema e o contador de desempenho, mas não se limitam a eles. Está tudo dependente de seu sistema. Arquivos de sistema variam por S.O. de sistema e service packs. Geralmente há milhares delas. O MS Windows fará uma lista dinâmica dessas DLLs quando você as incluir no backup. A inclusão dos arquivos do sistema permite que você recupere arquivos de sistema corrompidos e alguns pacotes de serviço acidentalmente desinstalados ou recupere com uma restauração bare metal. Ela permite retornar ao estado do backup sem precisar reinstalar o S.O. por meio do kit de instalação e, em seguida, instalar cada pacote de serviço separadamente.
+o registro, os arquivos de inicialização, os arquivos de sistema e o contador de desempenho, mas não se limitam a eles. Está tudo dependente de seu sistema. Arquivos de sistema variam por S.O. de sistema e service packs. Geralmente há milhares delas. O MS Windows fará uma lista dinâmica dessas DLLs quando você as incluir no backup. Ao incluir os arquivos do sistema, é possível fazer a recuperação no caso de arquivos de sistema corrompidos, de pacotes de serviço desinstalados acidentalmente ou se recuperar usando uma restauração bare metal. É possível retornar para o estado do backup sem precisar reinstalar o S.O. do kit de instalação e, em seguida, instalar cada pacote de serviços separadamente.
 
-**Nota**: nenhum arquivo de dados do usuário é incluído no backup de estado do
-sistema. Uma tarefa de backup de estado do sistema deve ser configurada como uma tarefa independente. Nenhuma
-outra origem de dados deverá ser incluída na tarefa de backup de Estado do Sistema.
+>**Nota**: nenhum arquivo de dados do usuário é incluído no backup de estado do Sistema. Uma tarefa de backup de estado do sistema deve ser configurada como uma tarefa independente. Não deve haver nenhuma outra origem de dados que esteja incluída na tarefa de backup de Estado do Sistema.
 
-## O que acontece abrir arquivos?
+<hr>
 
-Por padrão, o cliente base tem uma tecnologia de última geração para manipular a maioria dos arquivos
-abertos em execução no S.O. Em casos raros, caso os backups falhem devido a limitações de arquivos abertos,
-existem plug-ins secundários que podem ser comprados para uma melhor manipulação de arquivos abertos. 
-Geralmente, o plug-in de arquivo aberto não é necessário, a menos que ocorram erros em seus backups de arquivos
-abertos, caso em que é possível solicitar os plug-ins.
+**O que acontece ao abrir arquivos?**
+
+Por padrão, o cliente de base tem uma tecnologia de última geração para manipular a maioria dos arquivos abertos que estão em execução no S.O.
+
+<hr>
+
+**Onde posso encontrar informações sobre precificação?**
+
+Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+
+<hr>
+
+**Posso aumentar/diminuir minha capacidade do EVault sem comprometer meus backups?**
+
+É possível aumentar ou diminuir o tamanho de seu EVault por meio do
+[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. A modificação na capacidade do EVault não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais informações, consulte [Expandindo a capacidade do EVault](expanding-evault-capacity.html).
+
+<hr>
+
+**O que acontece quando excedo a minha capacidade do EVault?**
+
+Ainda é possível salvar e recuperar seus backups, mesmo que você tenha atingido o limite da capacidade que comprou anteriormente. Observe que você receberá uma cobrança extra para cada GB adicional usado.
