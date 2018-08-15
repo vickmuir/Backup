@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
@@ -39,10 +39,10 @@ You must add the new remote EVault storage vault to the account before a new bac
 The newly ordered vault is automatically added to the account. If not, contact Sales for help.
 When the ordering process is complete, go to the **Storage** > **Backup** to see the new vault listed.
 
-## Adding an Additional Vault to WebCC
+## Adding an Extra Vault in WebCC
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
-2. Select the server where the files to be restored are located. Click the right-pointing arrow to reveal the WebCC link.
+2. Select the server that you want to be able to back up to multiple vaults. Click the right-pointing arrow to reveal the WebCC link.
 3. Click the **WebCC Login** link to start the WebCC client in your browser.
    >**Note** - WebCC is only accessible through {{site.data.keyword.BluVPN}}.
 4. In the left navigational pane, click **All Agents**.
