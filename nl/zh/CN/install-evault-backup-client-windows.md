@@ -10,7 +10,7 @@ lastupdated: "2018-06-26"
 
 # 在 Windows 中安装 EVault Backup 客户机
 
-要在 Windows 中安装 EVault Backup 客户机，可通过在 EVault Backup 服务指定的服务器上进行一系列交互操作来完成。
+要在 Windows 中安装 EVault Backup 客户机，可通过在为 EVault Backup 服务指定的服务器上进行一系列交互操作来完成。
 
 **注**：当前不支持 Windows 2016。请参阅 [Windows 2016](install-evault-windows2016.html) 的指示信息。
 

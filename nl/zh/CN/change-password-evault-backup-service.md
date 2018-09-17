@@ -11,7 +11,7 @@ lastupdated: "2018-07-02"
 
 每个 EVault Backup 服务都有一个关联的密码，用于在 WebCC 内访问 EVault。 
 
-对于许多 {{site.data.keyword.BluSoftlayer_full}} 产品和服务，{{site.data.keyword.slportal}} 内的密码存储功能仅用于跟踪密码。对于其他产品和服务，对 {{site.data.keyword.slportal}} 中的密码进行的更改不会应用于这些产品或服务。 
+对于许多 {{site.data.keyword.BluSoftlayer_full}} 产品和服务，{{site.data.keyword.slportal}} 内的密码存储功能仅用于跟踪密码。对于其他产品和服务，对 {{site.data.keyword.slportal}} 中的密码进行的更改不会应用于相应产品或服务。 
 
 但对于 EVault Backup，情况**并非**如此。对 {{site.data.keyword.slportal}} 内的 EVault Backup 密码进行的更改将应用于该服务本身。更改密码时，请记住这会直接影响服务。
 

@@ -11,14 +11,14 @@ lastupdated: "2018-06-26"
 
 服务器上安装的 EVault 代理程序需要能够与购买的保险库进行通信。EVault 用户帐户的 EVault Director 主机信息可以在 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 中找到。 
 
-务必使用 FQDN 向 WebCC 和 EVault Director 注册代理程序，因为这些服务的 IP 可能会更改。 
+务必使用 FQDN 向 WebCC 和 EVault Director 注册代理程序，因为这些服务的 IP 地址可能会更改。 
 
 
 ```
 evregister.service.softlayer.com TCP 8086,8087
 ```
 
-无论数据中心位置如何，服务器都必须与 WebCC 及 WebCC 的所有 AMP 代理服务器进行通信。可以根据需要添加额外的 AMP 代理服务器，用于处理向 WebCC 注册的更多 EVault 代理程序。 
+无论数据中心位置如何，服务器都必须与 WebCC 及所有 AMP 代理服务器进行通信，WebCC 才能正确运行。可以根据需要添加额外的 AMP 代理服务器，用于处理向 WebCC 注册的更多 EVault 代理程序。 
 
 TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。 
 
@@ -52,4 +52,4 @@ TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。
 
 通过在 Windows 操作系统中更新注册表键 `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber`（这是一个 `dword`），可以更改 EVault 管理端口 (2548)。
 
-**说明**：使用桌面 CentralControl 和使用代理程序在连接设置方面有差异，这通常是让人混淆的地方。使用其地址和服务器的凭证进行访问时，服务器常驻代理程序将连接到 EVault 服务器，而利用桌面的 CentralControl 是连接到您的服务器。
+**说明**：使用桌面 CentralControl 和使用代理程序在连接设置方面有差异，这通常是让人混淆的地方。在利用桌面的 CentralControl 连接到您的服务器时，服务器常驻代理程序连接到 EVault 服务器，方法是使用其地址和服务器的凭证进行访问。

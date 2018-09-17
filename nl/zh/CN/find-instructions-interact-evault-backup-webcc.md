@@ -9,7 +9,7 @@ lastupdated: "2018-06-26"
 
 # 查找在 WebCC 中与 EVault Backup 交互的指示信息
 
-您可以在 EVault 的基于 Web 的客户机（即 WebCC）与任何 EVault backup 服务进行交互。在 WebCC 中，有大量内置文档详尽说明了 EVault Backup 服务可以执行的所有交互。
+您可以在 EVault 的基于 Web 的客户机（称为 WebCC）中与 EVault Backup 服务进行交互。WebCC 的详尽内置文档说明了使用 EVault Backup 服务时可以执行的所有交互。
 
 ## 访问 WebCC 的文档
 

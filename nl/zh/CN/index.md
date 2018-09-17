@@ -18,7 +18,7 @@ lastupdated: "2018-07-10"
 - 订购服务器时购买 EVault
 - 作为升级购买 EVault
 
-有关定价的信息，请参阅[备份存储器](https://www.ibm.com/cloud/backup-and-restore){:new_window}和 [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+有关定价的信息，请参阅 [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 ### 订购服务器时购买 EVault
 

@@ -14,7 +14,7 @@ lastupdated: "2018-06-26"
 
 1. 远程控制需要通过 RDP 进行 EVault 升级的 {{site.data.keyword.BluSoftlayer_full}} 服务器。
 
-2. 打开浏览器，然后转至以下地址：
+2. 打开浏览器，然后转至以下地址。
    ```
    http://downloads.service.softlayer.com/evault/
    ```

@@ -11,13 +11,13 @@ lastupdated: "2018-07-02"
 
 # 在 Linux 中安装 EVault Backup 客户机 
 
-要在基于 Linux 的操作系统上安装 EVault Backup 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。下面列出了在以下任何基于 Linux 的操作系统上安装 EVault Backup 客户机所需的步骤：
+要在基于 Linux 的操作系统上安装 EVault Backup 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装 EVault Backup 客户机所需的步骤：
 
 - RedHat Enterprise Linux
 - CentOS
 - CloudLinux
 
-完成这些步骤后，自动进程会自动向 WebCC 注册代理程序服务，然后下载并安装运行该服务所需的文件。
+完成此过程后，自动进程会自动向 WebCC 注册代理程序服务，然后下载并安装运行该服务所需的文件。
 
 >**注** - 如果在 {{site.data.keyword.slportal}} 中订购服务器时购买了 EVault，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
 
@@ -101,4 +101,4 @@ lastupdated: "2018-07-02"
   
 **后续步骤**
 
-登录到 WebCC 以配置和管理备份代理程序。相关指示信息请参阅[入门教程](index.html#configuring-evault-agent-in-webcc)。
+登录到 WebCC 以配置和管理备份代理程序。有关指示信息，请参阅[入门教程](index.html#configuring-evault-agent-in-webcc)。

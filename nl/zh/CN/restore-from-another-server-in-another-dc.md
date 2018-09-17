@@ -8,7 +8,7 @@ lastupdated: "2018-07-05"
 {:pre: .pre}
 {:new_window: target="_blank"}
 
-# 创建不同数据中心内从一个 VSI 到另一个 VSI 的备份和复原
+# 在不同数据中心内的 VSI 之间创建备份并复原数据
 
 有时，您会希望将数据复原到其他服务器。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](restoring-evault-bmr-system-volume-image.html) 指示信息。
 
@@ -17,14 +17,14 @@ lastupdated: "2018-07-05"
 **先决条件**
 
 - Server1 和 Server2 必须具有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须先前已配置 EVAult 代理程序。要了解如何配置 EVault 代理程序，请单击[此处](index.html#configuring-evault-agent-in-webcc)。
+- Server1 和 Server2 必须拥有先前已配置的 EVAult 代理程序。要了解如何配置 EVault 代理程序，请单击[此处](index.html#configuring-evault-agent-in-webcc)。
 - Server1 的备份作业已在 Server1 EVault 位置生成了备份。
 
 **注**：禁用这两台服务器上的所有调度任务以避免发生任何冲突。 
 
 ## 启动 Server2 的 WebCC
 
->**注** - 请记住，启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 WebCC 链接将不起作用。
+>**注** - 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 WebCC 链接将不起作用。
 
 1. 登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}，然后单击主菜单中的**存储** > **备份**，以显示具有 EVault Backup 服务的服务器。 
 2. 选择 Server2。单击指向右方的展开箭头以显示 WebCC 链接。
