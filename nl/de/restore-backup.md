@@ -30,7 +30,7 @@ Verwenden Sie die nachfolgenden Schritte, um mit EVault eine Dateiwiederherstell
 7. Geben Sie das Verschlüsselungskennwort ein.
 8. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 9. Wählen Sie die Kontrollkästchen neben den Dateien und Verzeichnissen aus, die Sie einbeziehen wollen, und klicken Sie anschließend auf **Einschließen**, um Ihre Auswahl zu speichern.
-10. Sie können Ihre Auswahl mit dem aufgerufenen Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden.<br/>
+10. Sie können Ihre Auswahl mit dem aufgerufenen Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden. <br/>
 Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, können die Dateien nicht mehr im Fenster **Datendateien** ausgewählt werden. Sie werden im Fenster **Sicherungsgruppe** auf der rechten Seite angezeigt. <br/>**Hinweis**: Sie können Schritt 10 wiederholen, um weitere Dateien hinzuzufügen oder um bereits hinzugefügte Dateien (mithilfe von **Ausschließen**) zu entfernen. <br/>Mit der Schaltfläche **Entfernen** können Sie außerdem jede Position im Fenster **Sicherungsgruppe** löschen.
 11. Sobald Ihre Sicherungsgruppe wie von Ihnen gewünscht konfiguriert ist, klicken Sie auf **Weiter**, um fortzufahren.
 12. Behalten Sie im nächsten Fenster die Standardeinstellungen bei oder passen Sie die Wiederherstellung an Ihre Vorgaben an. Klicken Sie anschließend auf **Wiederherstellung durchführen**.

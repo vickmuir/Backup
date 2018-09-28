@@ -2,14 +2,15 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-10"
 
 ---
+{:pre: .pre}
 {:new_window: target="_blank"}
 
 # EVault-Plug-in für Oracle installieren
 
-Das Plug-in für Oracle wird mit dem Windows-Agenten auf dem Host der Oracle-Datenbank installiert. Mit dem WebCC-Portal können Sie Jobs konfigurieren, Oracle-Datenbanken in einer sicheren fernen Vault sichern und Oracle-Datenbanken wiederherstellen. Das Plug-in für Oracle wird in die vorhandene Architektur integriert.
+Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agenten oder dem Linux-Agenten auf dem Oracle-Datenbankhost installiert wird. Mit dem WebCC-Portal können Sie Jobs konfigurieren, Oracle-Datenbanken in einer sicheren fernen Vault sichern und Oracle-Datenbanken wiederherstellen. Das Plug-in für Oracle wird in die vorhandene Architektur integriert.
 
 **Bereitgestelltes Leistungsspektrum**
 
@@ -36,7 +37,7 @@ Das Plug-in für Oracle wird mit dem Windows-Agenten auf dem Host der Oracle-Dat
 7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren. 
 8. Klicken Sie auf **Bestellung aufgeben**.
 
-## Plug-in für Oracle installieren
+## Oracle-Plug-in für Windows installieren
 
 Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Oracle-Plug-ins für Windows führen Sie das Agenteninstallationskit aus. Das Oracle-Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
 
@@ -53,9 +54,45 @@ Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten
 9. Stellen Sie nach Abschluss der Installation sicher, dass beide Services aktiviert und in Betrieb sind.
 10. Falls WebCC in der Lage ist, auf die Datenbank zuzugreifen bzw. die Datenbank anzuzeigen, war die Installation erfolgreich. 
 
+## Oracle-Plug-in für UNIX installieren
+
+Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Oracle-Plug-ins installiert werden. Der Linux-Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen zur Installation des Linux-Agenten finden Sie in [EVault Backup-Client unter Linux installieren](install-evault-backup-client-linux.html).
+
+Das Installationskit für das Oracle-Plug-in steht in einer 'tar.gz'-Datei zur Verfügung. 
+
+1. Laden Sie auf dem Host das Installationspaket herunter.
+   ```
+   http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
+   ```
+   {: pre}
+   
+2. Extrahieren Sie die Dateien aus dem Paket. 
+   ```
+   # cd /tmp
+   # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
+   ```
+   {: pre}
+   
+3. Rufen Sie den Ordner auf.
+   ```
+   # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
+   ```
+   {: pre}
+   
+4. Führen Sie das Installationsscript aus.
+   ```
+   # ./install.sh
+   ```
+   {: pre}
+   
+5. Gehen Sie den angezeigten Anweisungen entsprechend vor.
+   
+>**Hinweis** - Das Oracle-Plug-in führt eine "inkonsistente" Datenbankgesamtsicherung durch, die es erforderlich macht, dass die Datenbank im Modus ARCHIVELOG ausgeführt wird. Der Datenbankadministrator muss sicherstellen, dass sich die Datenbank im Modus ARCHIVELOG befindet, bevor die Sicherungen gestartet werden. Weitere Informationen finden Sie in der Veröffentlichung 'EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide'.
+
+
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie die PDF-Datei mit dem Handbuch 'EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide' von der Seite [Für den Download verfügbare EVault-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
+Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie die PDF-Datei mit den Veröffentlichungen 'EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide' und 'EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide' von der Seite mit der [für den Download verfügbaren EVault-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
 
 
 

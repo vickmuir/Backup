@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
@@ -42,7 +42,7 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
 ## Zusätzliche Vault zu WebCC hinzufügen
 
 1. Melden Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} an und klicken Sie im Hauptmenü auf **Speicher** > **Sicherung**, um die Server mit EVault Backup-Service anzuzeigen. 
-2. Wählen Sie den Server aus, auf dem sich die wiederherzustellenden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Pfeil, um den Link zu WebCC sichtbar zu machen.
+2. Wählen Sie den Server aus, für den Sicherungen mit mehreren Vaults möglich sein sollen. Klicken Sie auf den nach rechts zeigenden Pfeil, um den Link zu WebCC sichtbar zu machen.
 3. Klicken Sie auf den Link **WebCC-Anmeldung**, um den WebCC-Client in Ihrem Browser zu starten.
    >**Hinweis** - Auf WebCC kann nur über {{site.data.keyword.BluVPN}} zugegriffen werden.
 4. Klicken Sie im linken Navigationsbereich auf **Alle Agenten**.
@@ -50,7 +50,7 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
 6. Klicken Sie im Fenster **Vaulteinstellungen** auf **Hinzufügen**.
 7. Führen Sie im Fenster **Neue Vault** folgende Schritte aus.
   1. Wählen Sie im Menü 'Vaultprofil' die Option **Vaulteinstellungen eingeben** aus, um einen neuen Eintrag zu erstellen. Aktualisieren Sie den vorhandenen Eintrag nicht.
-  2. Der Vaultname darf nicht mit dem Namen des anderen Vaults identisch sein. Es empfiehlt sich, die Kennzeichnung '-2' am Ende des Namens hinzuzufügen.<br/> 
+  2. Der Vaultname darf nicht mit dem Namen des anderen Vaults identisch sein. Es empfiehlt sich, die Kennzeichnung '-2' am Ende des Namens hinzuzufügen. <br/> 
      >**Hinweis** - Die Länge dieses Feldes ist auf 15 Zeichen begrenzt.
   3. Das Feld für die IP-Adresse wird mit den EVault Director-Positionsinformationen gefüllt. Beispiel: `ev-director301.service.softlayer.com` hat die IP-Adresse 10.1.114.46 und befindet sich in WDC.
   4. Geben Sie im Feld 'Berechtigungsnachweise' die Konto-ID, den EVault-Benutzernamen für die ausgewählte Vault und das Kennwort für die ausgewählte Vault ein.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -17,6 +17,7 @@ lastupdated: "2018-07-13"
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**注**：请安装 V8.30 和更高版本的代理程序。
 2. 双击下载的文件，然后在显示的窗口中单击**运行**。
 3. 选择用于安装的语言，然后单击**确定**。
 4. 单击**下一步**以开始。

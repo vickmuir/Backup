@@ -53,6 +53,6 @@ Auf das Rescue-Kernel-System von EVault BMR können Sie über das {{site.data.ke
 <br/>![Abbildung 12 - Verarbeitungsfortschritt der Wiederherstellung](/images/bmr12.png)
 16. Nach der Fertigstellung wird ein Benachrichtigungsfenster ausgegeben, in dem angegeben ist, dass die Wiederherstellung erfolgreich abgeschlossen wurde. Klicken Sie auf **OK**.
 17. Klicken Sie in der Fortschrittsanzeige für die Wiederherstellung auf **Weiter**.
-18. Wählen Sie in der Abschlussanzeige das Kontrollkästchen für den Neustart des Systems und dann **Fertigstellen** aus. Der Server lädt jetzt das wiederhergestellte Datenträgerimage.
+18. Wählen Sie in der Abschlussanzeige das Kontrollkästchen für den Neustart des Systems und dann **Fertigstellen** aus. Der Server lädt jetzt das wiederhergestellte Datenträgerimage. 
   Die Wiederherstellung ist hiermit abgeschlossen. <br/>
     >**Hinweis** - Beim ersten Durchlaufen dieses Vorgangs wird möglicherweise eine Nachricht über eine unerwartete Beendigung ausgegeben. Dies ist bei diesem Sicherungstyp normal; nach dem ersten Boot wird die Nachricht nicht mehr angezeigt. 

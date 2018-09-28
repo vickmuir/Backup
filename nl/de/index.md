@@ -2,14 +2,14 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-07-10"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
 
 # Einführung in EVault Backup-Services
 
-Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. EVault Backup ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte Verwaltungsdienstprogramm EVault WebCC verwaltet wird. EVault bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren des Netzes von {{site.data.keyword.BluSoftlayer_full}}. Administratoren können für Sicherungen einen stündlichen, täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Es stehen zusätzliche Plug-ins zur Verfügung, die die Kompatibilität mit Software wie Microsoft Exchange und Microsoft SQL sowie weiteren Typen von Software anderer Anbieter sicherstellen und Benutzer in die Lage versetzen, bei Bedarf eine Bare-Metal-Wiederherstellung durchzuführen.
+Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. EVault Backup ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte Verwaltungsdienstprogramm EVault WebCC verwaltet wird. EVault bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren des Netzes von {{site.data.keyword.BluSoftlayer_full}}. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Es stehen zusätzliche Plug-ins zur Verfügung, die die Kompatibilität mit Software wie Microsoft Exchange und Microsoft SQL sowie weiteren Typen von Software anderer Anbieter sicherstellen und Benutzer in die Lage versetzen, bei Bedarf eine Bare-Metal-Wiederherstellung durchzuführen.
 
 ## EVault bestellen 
 
@@ -61,7 +61,7 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
 **EVault-Kauf im Rahmen eines Upgrades bestätigen**
 1. Aktualisieren Sie die Seite **Gerätedetails** und achten Sie darauf, dass die Registerkarte **Speicher** ausgewählt ist.
-2. Prüfen Sie den Abschnitt für EVault und vergewissern Sie sich, dass neben dem EVault-Link die Größe angezeigt wird, die Sie während des EVault-Kaufprozesses ausgewählt haben.<br /> **Hinweis** - Falls für die Größe des EVault-Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren. 
+2. Prüfen Sie den Abschnitt für EVault und vergewissern Sie sich, dass neben dem EVault-Link die Größe angezeigt wird, die Sie während des EVault-Kaufprozesses ausgewählt haben. <br /> **Hinweis** - Falls für die Größe des EVault-Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren. 
 
 ## Im {{site.data.keyword.slportal}} auf Speicherdetails für EVault Backup zugreifen und Details anzeigen
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
@@ -38,10 +38,10 @@ lastupdated: "2018-07-02"
 
 新订购的保险库会自动添加到帐户中。如果没有，请联系销售人员以寻求帮助。订购过程完成后，可以转至**存储** > **备份**来查看新保险库是否已列出。
 
-## 向 WebCC 添加其他保险库
+## 在 WebCC 中添加其他保险库
 
 1. 登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}，然后单击主菜单中的**存储** > **备份**，以显示具有 EVault Backup 服务的服务器。 
-2. 选择要复原的文件所在的服务器。单击向右箭头以显示 WebCC 链接。
+2. 选择您希望能够备份到多个保险库的服务器。单击向右箭头以显示 WebCC 链接。
 3. 单击 **WebCC 登录**链接，以在浏览器中启动 WebCC 客户机。
    >**注** - WebCC 只能通过 {{site.data.keyword.BluVPN}} 进行访问。
 4. 在左侧导航窗格中，单击**所有代理程序**。

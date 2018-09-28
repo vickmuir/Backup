@@ -46,5 +46,5 @@ Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插�
 
 ## 下载用户指南
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 EVault 文档](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下载 EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf。此指南描述了如何使用 Exchange 插件来备份和复原 Microsoft Exchange 数据库。此指南还描述了如何共享 DR 备份安全集。通过 DR 备份安全集，可以使用 Granular Restore for Microsoft Exchange 应用程序将特定邮箱、消息或其他对象复原到 .pst 文件。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便从[可下载的 EVault 文档](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下载 EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf。此指南描述了如何使用 Exchange 插件来备份和复原 Microsoft Exchange 数据库。此指南还描述了如何共享 DR 备份安全集。通过 DR 备份安全集，可以使用 Granular Restore for Microsoft Exchange 应用程序将特定邮箱、消息或其他对象复原到 .pst 文件。
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -17,6 +17,7 @@ lastupdated: "2018-07-13"
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**Hinweis** - Installieren Sie den Agenten der Version 8.30 oder einer höheren Version.
 2. Doppelklicken Sie auf die heruntergeladene Datei und klicken Sie im daraufhin aufgerufenen Fenster auf **Ausführen**.
 3. Wählen Sie die Sprache für Ihre Installation aus und klicken Sie auf **OK**.
 4. Klicken Sie auf **Weiter**, um den Vorgang zu starten.

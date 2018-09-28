@@ -29,7 +29,7 @@ Falls Sie EVault als Upgrade im {{site.data.keyword.slportal}} gekauft haben, f�
 2. Suchen Sie nach dem Gerät, für das Sie den EVault-Service gekauft haben, und notieren Sie sich seine öffentliche IP-Adresse. 
   - Sie verwenden diese IP-Adresse in den folgenden Schritten, wenn Sie sich über eine UNIX- oder Linux-Befehlszeile beim Gerät anmelden. Ersetzen Sie in dem in Schritt 4 dargestellten Befehl die Variable <öffentliche_ip-adresse> durch die tatsächliche öffentliche IP-Adresse. 
 3. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen. 
-  - Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird. Der Benutzername und das Kennwort werden im nächsten Schritt zur Anmeldung beim Testgerät verwendet. Ersetzen Sie `<user name>` durch den tatsächlichen Benutzernamen.
+  - Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird. Der Benutzername und das Kennwort werden im nächsten Schritt zur Anmeldung beim Testgerät verwendet.  Ersetzen Sie `<user name>` durch den tatsächlichen Benutzernamen.
 4. Melden Sie sich beim Zielgerät an, indem Sie den folgenden Befehl in einer UNIX oder Linux-Befehlszeile eingeben.
    ```
    ssh <user name>@<öffentliche_ip-adresse>
