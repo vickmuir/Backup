@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -17,6 +17,7 @@ lastupdated: "2018-07-13"
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**附註** - 請安裝 8.30 版及更新版本的代理程式。
 2. 按兩下已下載的檔案，然後在出現的視窗中按一下**執行**。
 3. 選取安裝的語言，然後按一下**確定**。
 4. 按**下一步**以開始。

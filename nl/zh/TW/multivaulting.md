@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
@@ -38,10 +38,10 @@ lastupdated: "2018-07-02"
 
 新訂購的儲存庫會自動新增至帳戶。如果沒有，請與業務代表聯絡以取得協助。當訂購程序完成時，請移至**儲存空間** > **備份**，以查看列出的新儲存庫。
 
-## 將其他儲存庫新增至 WebCC
+## 在 WebCC 中新增額外儲存庫
 
 1. 登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}，並從主功能表中按一下**儲存空間** > **備份**，以顯示具有 EVault 備份服務的伺服器。 
-2. 選取要還原之檔案所在的伺服器。按一下指向右方的箭頭來顯示 WebCC 鏈結。
+2. 選取您要可以備份至多個儲存庫的伺服器。按一下指向右方的箭頭來顯示 WebCC 鏈結。
 3. 按一下 **WebCC 登入**鏈結，在瀏覽器中啟動 WebCC 用戶端。
    >**附註**：WebCC 只能透過 {{site.data.keyword.BluVPN}} 來存取。
 4. 在左導覽窗格中，按一下**所有代理程式**。

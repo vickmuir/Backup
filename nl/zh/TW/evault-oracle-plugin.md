@@ -2,14 +2,15 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-10"
 
 ---
+{:pre: .pre}
 {:new_window: target="_blank"}
 
 # 安裝 EVault Oracle 外掛程式
 
-Oracle 外掛程式會與「Windows 代理程式」一起安裝在 Oracle 資料庫主機上。透過 WebCC 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
+Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或「Linux 代理程式」一起安裝在 Oracle 資料庫主機上。透過 WebCC 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
 
 **提供的功能**
 
@@ -36,7 +37,7 @@ Oracle 外掛程式會與「Windows 代理程式」一起安裝在 Oracle 資料
 7. 勾選此方框，指出您已閱讀並接受「協力廠商服務合約」。 
 8. 按一下**下訂單**。
 
-## 安裝 Oracle 外掛程式
+## 安裝適用於 Windows 的 Oracle 外掛程式
 
 適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝適用於 Windows 的 Oracle 外掛程式，請執行「代理程式」安裝套件。Oracle 外掛程式會以選項形式出現在**自訂設定**頁面上。
 
@@ -53,9 +54,45 @@ Oracle 外掛程式會與「Windows 代理程式」一起安裝在 Oracle 資料
 9. 安裝完成後，請檢查以確定這兩個服務都已啟用且在執行中。
 10. 如果 WebCC 能夠存取/檢視資料庫，即表示安裝成功。 
 
+## 安裝適用於 Unix 的 Oracle 外掛程式
+
+Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行 Oracle 外掛程式安裝。「Linux 代理程式」提供為 32 位元應用程式及 64 位元應用程式。如需「Linux 代理程式安裝」的相關資訊，請參閱[在 Linux 中安裝 EVault 備份用戶端](install-evault-backup-client-linux.html)。
+
+Oracle 外掛程式安裝套件是以 tar.gz 檔案提供。 
+
+1. 在主機上，下載安裝套件。
+   ```
+   http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
+   ```
+   {: pre}
+   
+2. 從套件解壓縮檔案。 
+   ```
+   # cd /tmp
+   # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
+   ```
+   {: pre}
+   
+3. 移至資料夾。
+   ```
+   # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
+   ```
+   {: pre}
+   
+4. 執行安裝 Script。
+   ```
+   # ./install.sh
+   ```
+   {: pre}
+   
+5. 遵循畫面上的安裝指示。
+   
+>**附註** - Oracle 外掛程式會執行「不一致」的整個資料庫備份，這需要以 ARCHIVELOG 模式執行資料庫。DBA 需要先確定資料庫處於 ARCHIVELOG 模式，再啟動備份。如需相關資訊，請參閱 EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide。
+
+
 ## 下載使用手冊
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，您就可以從[可下載的 EVault 文件](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下載 EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf。
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，您就可以從[可下載的 EVault 文件](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下載 EVault Agent v8.0 for Microsoft Windows - Oracle Plug-in Guide.pdf 及 EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.pdf。
 
 
 
