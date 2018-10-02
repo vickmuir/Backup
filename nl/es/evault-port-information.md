@@ -9,7 +9,7 @@ lastupdated: "2018-06-26"
 
 # Configuración de puertos para permitir la comunicación entre el agente de EVault y WebCC
 
-El agente de EVault instalado en el servidor debe ser capaz de comunicarse con el almacén que ha adquirido. Encontrará la información de host de EVault Director para una cuenta de usuario de EVault en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+El agente de EVault instalado en el servidor debe ser capaz de comunicarse con la caja fuerte que ha adquirido. Encontrará la información de host de EVault Director para una cuenta de usuario de EVault en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 
 Registre siempre los agentes en los directores de WebCC y de EVault mediante FQDN, ya que las direcciones IP correspondientes a estos servicios pueden cambiar. 
 

@@ -10,7 +10,7 @@ lastupdated: "2018-07-31"
 
 # Ampliación de la capacidad de EVault
 
-Los usuarios actuales de {{site.data.keyword.BluSoftlayer_full}} pueden ampliar el tamaño de su almacén hasta un máximo de 4000 GB. No es necesario que creen un duplicado ni que migren los datos manualmente a un volumen más grande. No hay interrupción ni falta de acceso al almacén mientras el aumento del límite entra en vigor.
+Los usuarios actuales de {{site.data.keyword.BluSoftlayer_full}} pueden ampliar el tamaño de su caja fuerte hasta un máximo de 4000 GB. No es necesario que creen un duplicado ni que migren los datos manualmente a un volumen más grande. No hay interrupción ni falta de acceso a la caja fuerte mientras el aumento del límite entra en vigor.
 
 ## Solicitud de un aumento
 

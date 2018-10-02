@@ -9,7 +9,7 @@ lastupdated: "2018-06-27"
 
 # Instalación del plugin EVault Exchange
 
-El plugin Exchange se instala con el agente Windows en el host. Mediante el portal de WebCC, puede configurar trabajos, hacer copia de seguridad de bases de datos Oracle en un almacén remoto seguro y restaurar bases de datos Oracle. El plugin Oracle se integra en la arquitectura existente.
+El plugin Exchange se instala con el agente Windows en el host. Mediante el portal de WebCC, puede configurar trabajos, hacer copia de seguridad de bases de datos Oracle en una caja fuerte remota segura y restaurar bases de datos Oracle. El plugin Oracle se integra en la arquitectura existente.
 
 **Funciones que se proporcionan**
 

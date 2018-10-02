@@ -28,17 +28,17 @@ El proceso incluye el registro del agente de EVault en el segundo servidor para 
 
 1. Inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} y pulse **Almacenamiento** > **Copia de seguridad** en el menú principal para visualizar los servidores con el servicio de copia de seguridad de EVault. 
 2. Seleccione Servidor2. Pulse la flecha de expansión que apunta a la derecha para visualizar el enlace WebCC.
-3. Pulse **Inicio de sesión de WebCC** para iniciar el cliente WebCC en el navegador.
+3. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
 
 ## Registro del EVault
 
 1. Pulse **Todos los agentes** y abra el agente específico que desea modificar.
-2. Pulse **Editar** y seleccione **Valores de almacén**.
+2. Pulse **Editar** y seleccione **Valores de caja fuerte**.
 3. Pulse **Volver a registrar** para conectar el Servidor1 con el Servidor2.
-4. En la pantalla **Volver a registrar almacén** correspondiente a la entrada **Utilizar un perfil de almacén**, seleccione **Especificar valores de almacén**.
-5. Especifique el nombre de almacén, que coincide con el nombre de EVault de Servidor1.
+4. En la pantalla **Volver a registrar caja fuerte** correspondiente a la entrada **Utilizar un perfil de caja fuerte**, seleccione **Especificar valores de caja fuerte**.
+5. Especifique el nombre de caja fuerte, que coincide con el nombre de EVault de Servidor1.
 6. Especifique las credenciales de Servidor1 para iniciar una sesión en el EVault de Servidor1.
-7. Pulse **Cargar sistemas**; se mostrarán los servidores que están conectados a la ubicación del almacén.
+7. Pulse **Cargar sistemas**; se mostrarán los servidores que están conectados a la ubicación de la caja fuerte.
 8. Pulse **Guardar cambios**.
 9. Cuando se le solicite, pulse **Sí** para confirmar el nuevo registro de EVault.
 
@@ -48,9 +48,9 @@ El proceso incluye el registro del agente de EVault en el segundo servidor para 
    >**Nota**: es posible que tenga que renovar la página para ver los trabajos definidos en Servidor1 como accesibles/sincronizados en el separador **Trabajos** del Servidor2
 2. Mueva el cursor sobre **Avanzado** y seleccione **Restaurar desde otro sistema**.
 3. En la pantalla **Restaurar desde otro sistema**, pulse **Añadir**. Los campos contienen valores predeterminados, por lo debe modificarlos.
-4. Pulse el campo Almacén, seleccione **Especificar valores de almacén** y escriba la dirección IP del almacén de Servidor1. Pulse **Añadir**.
+4. Pulse el campo Caja fuerte, seleccione **Especificar valores de caja fuerte** y escriba la dirección IP de la caja fuerte lmacén de Servidor1. Pulse **Añadir**.
 5. Actualice las credenciales con las credenciales de Servidor1.
-6. Pulse **Guardar cambios**. Esta acción le conecta con el almacén de Servidor1.
+6. Pulse **Guardar cambios**. Esta acción le conecta con la caja fuerte de Servidor1.
 7. En la pantalla **Restaurar desde otro sistema**, actualice los campos Sistema y Trabajo.
   - Sistema: seleccione el Servidor1 como sistema de copia de seguridad desde el que realizar la restauración. 
   - Trabajo: seleccione el trabajo de copia de seguridad de Servidor1.

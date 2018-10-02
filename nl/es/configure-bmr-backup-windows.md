@@ -17,7 +17,7 @@ Debe adquirir el plugin BMR para crear una copia de seguridad de BMR. BMR solo e
 **Nota**: debe estar conectado a la red privada de {{site.data.keyword.BluSoftlayer_full}} para poder iniciar WebCC.
 1. Inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} y pulse **Almacenamiento** > **Copia de seguridad** en el menú principal para visualizar los servidores con el servicio de copia de seguridad de EVault. 
 2. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión que apunta a la derecha para visualizar el enlace WebCC.
-4. Pulse **Inicio de sesión de WebCC** para iniciar el cliente WebCC en el navegador.
+4. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
   **Nota**: si WebCC no se inicia, es posible que tenga un problema con la conexión VPN. También puede ver un mensaje que indique que el método de envío no es seguro. Esto es normal; continúe con el envío del formulario.
   
 ## Configuración de un trabajo de copia de seguridad de BMR
@@ -36,7 +36,7 @@ Debe adquirir el plugin BMR para crear una copia de seguridad de BMR. BMR solo e
      1. Seleccione los días y la hora del día en que desea ejecutar las copias de seguridad.
      2. Seleccione el esquema de retención. [Aquí](evault-backup-faq.html) encontrará más información sobre los esquemas de retención
      3. Después de haber configurado la planificación de copia de seguridad, pulse **Aceptar** para guardarla. El trabajo planificado se añade a la lista de trabajos planificados. 
-10. Seleccione un almacén para el trabajo de seguridad y pulse **Guardar cambios**.
+10. Seleccione una caja fuerte para el trabajo de seguridad y pulse **Guardar cambios**.
 
 
 ## Ejecución de un trabajo de copia de seguridad de BMR

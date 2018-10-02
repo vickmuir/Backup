@@ -16,7 +16,7 @@ Si necesita restaurar una copia de seguridad de una imagen nativa desde EVault, 
 Puede acceder al sistema EVault BMR Rescue Kernel a través del {{site.data.keyword.slportal}}.
 1. Inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad**. 
-3. Pulse la **Flecha** que hay junto al almacén.
+3. Pulse la **Flecha** que hay junto a la caja fuerte.
 4. Pulse **Iniciar restauración nativa**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.
 
 
@@ -34,7 +34,7 @@ Puede acceder al sistema EVault BMR Rescue Kernel a través del {{site.data.keyw
 5. Aparece el asistente de restauración del sistema de EVault. Seleccione **Siguiente** para continuar.
 <br/>![Figura 3 - Asistente de BMR](/images/bmr3.png)
 6. Seleccione un tipo de copia de seguridad desde la que realizar la restauración. Seleccione **Software de EVault** y pulse **Siguiente** para continuar.
-7. En la pantalla **ubicación de copia de seguridad**, seleccione el almacén y especifique la dirección del almacén, el número de cuenta de EVault, el nombre de usuario y la contraseña. Luego pulse **Siguiente** para continuar.
+7. En la pantalla **ubicación de copia de seguridad**, seleccione la caja fuerte y especifique la dirección de la caja fuerte, el número de cuenta de EVault, el nombre de usuario y la contraseña. Luego pulse **Siguiente** para continuar.
 <br/>![Figura 4 - Elegir ubicación de copia de seguridad](/images/bmr4.png)
 8. La pantalla siguiente muestra el sistema en la lista. Asegúrese de que esté resaltado y pulse **Siguiente**.
 <br/>![Figura 5 - Elegir el sistema](/images/bmr5.png)

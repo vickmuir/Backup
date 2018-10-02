@@ -17,13 +17,13 @@ Esta tarea se suele realizar después de volver a cargar el sistema operativo de
 
 3. En la parte superior derecha, mueva el ratón sobre **Editar**.
 
-4. Seleccione **Valores de almacén**.
+4. Seleccione **Valores de caja fuerte**.
 
 5. Pulse **Volver a registrar**.
  
 6. Complete el formulario.
-  - Nombre de almacén
-  - Dirección de almacén
+  - Nombre de caja fuerte
+  - Dirección de caja fuerte
   - Cuenta <br/>**Nota**: "Cuenta" es el equivalente de "Nombre de cuenta" en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Generalmente tiene el formato "SLE[ID cuenta]"
   - Nombre de usuario
   - Contraseña

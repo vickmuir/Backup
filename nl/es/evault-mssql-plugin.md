@@ -9,7 +9,7 @@ lastupdated: "2018-07-02"
 
 # Instalación del plugin EVault SQL Server
 
-El plugin SQL Server se instala con el agente de Windows en el host de la base de datos SQL. Mediante el portal de WebCC, puede configurar trabajos, hacer copia de seguridad de bases de datos SQL en un almacén remoto seguro y restaurar bases de datos SQL.
+El plugin SQL Server se instala con el agente Windows en el host de la base de datos SQL. Mediante el portal de WebCC, puede configurar trabajos, hacer copia de seguridad de bases de datos SQL en una caja fuerte remota segura y restaurar bases de datos SQL.
 
 **Funciones que se proporcionan**
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -17,6 +17,7 @@ lastupdated: "2018-07-13"
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**Nota**: Instale el agente versión 8.30 y posterior.
 2. Realice una doble pulsación en el archivo descargado y pulse **Ejecutar** en la ventana que aparece.
 3. Seleccione el idioma de la instalación y pulse **Aceptar**.
 4. Pulse **Siguiente** para comenzar.
@@ -50,12 +51,12 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 1. Controle de forma remota el servidor mediante RDP.
 2. Inicie CentralControl.
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Configuración del agente**.
-4. En el separador Almacenes, pulse **Nuevo**. Aparece el asistente para la configuración del almacén. Pulse **Siguiente**.
+4. En el separador Cajas fuertes, pulse **Nueva**. Aparece el asistente para la configuración de la caja fuerte. Pulse **Siguiente**.
 5. Seleccione **Registrar como un sistema nuevo** y pulse **Siguiente**.
-6. Especifique el nombre de almacén en el campo Nombre de perfil. Puede obtener el nombre de almacén del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
-6. Escriba la dirección de red (la dirección IP del almacén asignado) y pulse **Añadir**. A continuación, pulse **Siguiente**.
+6. Especifique el nombre de caja fuerte en el campo Nombre de perfil. Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+6. Escriba la dirección de red (la dirección IP de la caja fuerte asignada) y pulse **Añadir**. A continuación, pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.
-8. En la pantalla de configuración de la conexión, escriba el número de segundos/minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a/desde el almacén**. Pulse **Siguiente**.
+8. En la pantalla de configuración de la conexión, escriba el número de segundos/minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a/desde la caja fuerte**. Pulse **Siguiente**.
 9. En la pantalla de autenticación, especifique sus credenciales y pulse **Siguiente**.
 10. La ventana de sistemas registrados muestra el nombre de host de su servidor. Pulse **Siguiente**.
 11.	Pulse **Finalizar** para completar la configuración.
@@ -100,6 +101,6 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione el agente que ha creado.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
 5. Seleccione el destino de copia de seguridad o una ubicación alternativa para inicializar el trabajo de copia de seguridad. Pulse **Siguiente**.<br/>
-   *Consejo*: para obtener más información sobre varios almacenes, consulte [Multivaulting (varios almacenes)](multivaulting.html)
+   *Consejo*: para obtener más información sobre varias cajas fuertes, consulte [Multivaulting (varias cajas fuertes)](multivaulting.html)
 6. Seleccione la opción Exploración rápida de archivos para no leer los archivos que no se han modificado. Pulse **Siguiente**.
 7. Pulse **Finalizar** para completar la configuración e iniciar la copia de seguridad. Aparece una ventana de información del proceso que muestra el estado del trabajo de copia de seguridad. Cuando finalice el trabajo de copia de seguridad, pulse **Cerrar**.

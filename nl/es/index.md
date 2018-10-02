@@ -2,14 +2,14 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-07-10"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
 
 # Iniciación a los servicios de copia de seguridad de EVault
 
-Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. La copia de seguridad de EVault es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador WebCC de EVault. EVault proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación horaria, diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
+Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. La copia de seguridad de EVault es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador WebCC de EVault. EVault proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
 
 ## Solicitud de EVault 
 
@@ -69,7 +69,7 @@ Los detalles de almacenamiento del servicio de copia de seguridad de EVault se p
 
 1. Para acceder a la pantalla **Almacenamiento de copia de seguridad de EVault**, inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
-2. Pulse en cualquier lugar de la fila correspondiente a la copia de seguridad de EVault cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de copia de seguridad de EVault.
+2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte de copia de seguridad de EVault cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de copia de seguridad de EVault.
 3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de copia de seguridad de EVault seleccionado.
 
 Para muchos productos y servicios de {{site.data.keyword.BluSoftlayer_full}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para almacenamiento o para realizar el seguimiento de las contraseñas. Para dichas ofertas, los cambios que se realizan en las mismas dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio. 
@@ -109,7 +109,7 @@ WebCentralControl (WebCC) es el cliente que se utiliza para interactuar con el s
 1. Acceda a la red privada a través de VPN.<br/>**Nota**: no se puede acceder a WebCC a través de la red pública. En primer lugar se debe establecer una conexión VPN.
 2. Acceda a la pantalla de almacenamiento de copia de seguridad de EVault en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 3. Pulse en cualquier lugar de la fila correspondiente a la copia de seguridad de EVault que desee para ampliar la vista.
-4. Pulse **Inicio de sesión de WebCC** para iniciar el cliente WebCC en el navegador.
+4. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
 
 ## Configuración del agente de EVault en WebCC
 
@@ -123,7 +123,7 @@ Después de haber solicitado el servicio EVault y de haber instalado el agente e
    3. Selección: seleccione los directorios y pulse **Incluir...**
    4. Opciones: especifique contraseñas
    5. Planificación: pulse **Añadir** para crear una planificación y pulse **Siguiente**.
-   6. Seleccione el almacén predeterminado y pulse **Aceptar**.
+   6. Seleccione la caja fuerte predeterminada y pulse **Aceptar**.
    7. Pulse **Guardar**.
 4. Cree una planificación de retención.
    1. Seleccione **Editar** > **Configuración del agente**.
