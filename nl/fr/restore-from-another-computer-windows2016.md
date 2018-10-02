@@ -21,7 +21,7 @@ Procédez comme indiqué ci-après pour effectuer une restauration de fichier de
 9. Sur l'écran d'authentification, entrez vos données d'identification, puis cliquez sur **Suivant**.
 10. La fenêtre Ordinateurs enregistrés indique le nom d'hôte de votre serveur. Cliquez sur **Suivant**.
 11.	L'assistant Configuration du coffre a fini de collecter vos informations. Cliquez sur **Terminer** pour achever l'enregistrement.
-12. A l'invite, confirmez que vous désirez poursuivre l'enregistrement. 
+12. A l'invite, confirmez que vous désirez poursuivre l'enregistrement.
 13. Lorsque l'enregistrement est terminé, cliquez sur **Restaurer** dans la barre de menus. 
 9.	Sélectionnez le jeu sécurisé approprié et entrez le mot de passe de chiffrement. Cliquez sur **Suivant**.
 10.	Sélectionnez les fichiers que vous désirez restaurer, sélectionnez les options par défaut, puis cliquez sur **Terminer**. 

@@ -53,5 +53,6 @@ Vous pouvez accéder au système EVault BMR Rescue Kernel via le portail {{site.
 <br/>![Figure 12 - Progression de la restauration](/images/bmr12.png)
 16. A son terme, une fenêtre de notification vous avise que la restauration a abouti. Cliquez sur **OK**.
 17. Sur l'écran de progression de la restauration, cliquez sur **Suivant**.
-18. Sur l'écran final, cochez la case de redémarrage du système et sélectionnez **Terminer**. Le serveur charge votre image de volume restaurée. La restauration est à présent terminée. <br/>
+18. Sur l'écran final, cochez la case de redémarrage du système et sélectionnez **Terminer**. Le serveur charge votre image de volume restaurée. 
+  La restauration est à présent terminée. <br/>
     >**Remarque** : la première fois que cela se produit, un message d'arrêt inattendu s'affiche. Cela est tout à fait normal avec ce type de sauvegarde , ce message disparaît après le premier amorçage. 

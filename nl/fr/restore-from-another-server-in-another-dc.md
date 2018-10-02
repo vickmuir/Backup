@@ -33,7 +33,7 @@ Cette procédure inclut le réenregistrement de l'agent EVault sur le second ser
 ## Réenregistrement d'EVault
 
 1. Cliquez sur **Tous les agents** et ouvrez l'agent spécifique que vous désirez modifier.
-2. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**. 
+2. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**.
 3. Cliquez sur **Réenregistrer** pour connecter Serveur1 à Serveur2.
 4. Sur l'écran **Réenregistrer le coffre** pour l'entrée **Utiliser un profil de coffre**, sélectionnez **Entrer les paramètres du coffre**.
 5. Entrez le nom du coffre, lequel est le même que le nom EVault de Serveur1.
@@ -47,19 +47,19 @@ Cette procédure inclut le réenregistrement de l'agent EVault sur le second ser
 1. Cliquez sur **Tous les agents**.
    >**Remarque** : vous devrez éventuellement actualiser la page afin que les travaux définis sur Serveur1 indiquent qu'ils sont accessibles/synchronisés sous l'onglet **Travaux** de Serveur2.
 2. Survolez **Avancé** et sélectionnez **Restaurer à partir d'un autre ordinateur**.
-3. Sur l'écran **Restaurer à partir d'un autre ordinateur**, cliquez sur **Ajouter**. Les zones sont déjà renseignées avec des valeurs par défaut ; vous pouvez les modifier. 
+3. Sur l'écran **Restaurer à partir d'un autre ordinateur**, cliquez sur **Ajouter**. Les zones sont déjà renseignées avec des valeurs par défaut ; vous pouvez les modifier.
 4. Cliquez dans la zone Coffre, sélectionnez **Entrer les paramètres du coffre** et entrez l'adresse IP du coffre de Serveur1. Cliquez sur **Ajouter**.
-5. Mettez à jour les données d'identification avec celles de Serveur1. 
-6. Cliquez sur **Enregistrer les modifications**. Cette action a pour conséquence de vous connecter au coffre de Serveur1. 
-7. De retour sur l'écran **Restaurer à partir d'un autre ordinateur**, mettez à jour les zones Ordinateur et Travail. 
+5. Mettez à jour les données d'identification avec celles de Serveur1.
+6. Cliquez sur **Enregistrer les modifications**. Cette action a pour conséquence de vous connecter au coffre de Serveur1.
+7. De retour sur l'écran **Restaurer à partir d'un autre ordinateur**, mettez à jour les zones Ordinateur et Travail.
   - Ordinateur - sélectionnez Serveur1 comme ordinateur de sauvegarde à partir duquel effectuer la restauration. 
   - Travail - sélectionnez le travail de sauvegarde de Serveur1.
-8. Cliquez sur **Suivant** pour démarrer le processus de restauration sur Serveur2 dans un autre centre de données. 
+8. Cliquez sur **Suivant** pour démarrer le processus de restauration sur Serveur2 dans un autre centre de données.
 9. A l'invite, entrez le mot de passe de sauvegarde et cliquez sur **Suivant**.
 10. Vérifiez que le travail de sauvegarde approprié est sélectionné, puis cliquez sur **Suivant**. Le travail de restauration est maintenant configuré sur Serveur2. 
 11. Sélectionnez le travail qui vient d'être configuré, puis cliquez sur **Exécuter la restauration**.
-12. Sélectionnez les fichiers que vous souhaitez restaurer.  
-13. Cliquez sur le signe Plus pour développer la sélection de fichiers. 
+12. Sélectionnez les fichiers que vous souhaitez restaurer. 
+13. Cliquez sur le signe Plus pour développer la sélection de fichiers.
 14. Cochez la case en regard de chacun des fichiers ou dossiers que vous souhaitez restaurer depuis Serveur1 sur Serveur2. Cliquez ensuite sur **Inclure**.
 15. Les fichiers apparaissent dans la fenêtre Groupe de sauvegarde sur la droite. Cliquez sur **Suivant**. 
 16. Après avoir sélectionné vos données, passez à la sélection de vos options.

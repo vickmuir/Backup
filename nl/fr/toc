@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup/index.html"}
+{: .toc subcollection="Backup" audience="services" arm="4052115" href="/docs/infrastructure/Backup/index.html"}
 Stockage IBM Cloud - Services de sauvegarde
 
     {: .navgroup id="learn"}
@@ -30,7 +30,7 @@ Stockage IBM Cloud - Services de sauvegarde
         restoring-evault-bmr-system-volume-image.md
 
     {: .topicgroup}
-    Plug-ins
+    Plug-ins 
         evault-bmr-plugin.md
         configure-bmr-backup-windows.md
         evault-exchange-plugin.md

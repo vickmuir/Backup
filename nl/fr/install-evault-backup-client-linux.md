@@ -17,19 +17,19 @@ L'installation du client de sauvegarde EVault sur un système d'exploitation Lin
 - CentOS
 - CloudLinux
 
-A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès de WebCC. Téléchargez et installez ensuite les fichiers nécessaires à l'exécution du service. 
+A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès de WebCC. Téléchargez et installez ensuite les fichiers nécessaires à l'exécution du service.
 
->**Remarque** : si vous avez fait l'acquisition d'EVault lors de la commande d'un serveur depuis le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document. 
+>**Remarque** : si vous avez fait l'acquisition d'EVault lors de la commande d'un serveur depuis le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
 
 Si vous avez fait l'acquisition d'EVault en tant que mise à niveau dans le portail {{site.data.keyword.slportal}}, procédez comme suit pour installer le logiciel.
 
 ## Connexion au serveur de l'unité cible
 
 1. Connectez-vous au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} et sélectionnez dans le menu principal **Unités** > **Liste des unités** pour afficher la liste des unités serveur disponibles.
-2. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service EVault et notez son adresse IP publique.  
-  - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 4.  
-3. Cliquez sur la flèche pointant vers la droite pour afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe.  
-  - Si le mot de passe n'est pas affiché, cochez la case **Afficher mot de passe** pour l'afficher. Le nom d'utilisateur et le mot de passe seront utilisés à l'étape suivante pour la connexion au dispositif de test. Remplacez `<user name>` par le nom de l'utilisateur réel. 
+2. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service EVault et notez son adresse IP publique. 
+  - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 4. 
+3. Cliquez sur la flèche pointant vers la droite pour afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe. 
+  - Si le mot de passe n'est pas affiché, cochez la case **Afficher mot de passe** pour l'afficher. Le nom d'utilisateur et le mot de passe seront utilisés à l'étape suivante pour la connexion au dispositif de test.  Remplacez `<user name>` par le nom de l'utilisateur réel.
 4. Connectez-vous à l'unité cible en exécutant la commande suivante à partir d'une ligne de commande UNIX ou Linux :
    ```
    ssh <user name>@<publicIpAddress>
@@ -48,7 +48,7 @@ Si vous avez fait l'acquisition d'EVault en tant que mise à niveau dans le port
   ```
   {: pre}
    
-  Si vous y êtes invité, confirmez que la taille de téléchargement est correcte. La mise à jour est lancée et affiche un message "Terminé" lorsqu'elle est terminée. 
+  Si vous y êtes invité, confirmez que la taille de téléchargement est correcte. La mise à jour est lancée et affiche un message "Terminé" lorsqu'elle est terminée.
 
 ## Obtention du script d'installation EVault
 

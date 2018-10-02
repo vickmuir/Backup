@@ -15,6 +15,6 @@ Vous pouvez annuler votre EVault service n'importe quand. L'annulation supprime 
 2. Accédez à **Stockage** > **Sauvegarde**. 
 3. Sélectionnez **Actions** > **Annuler EVault**.
 4. Choisissez d'annuler EVault **Immédiatement** où à la **Date anniversaire**.
-   >**Remarque** : vous pouvez annuler le service n'importe quand. Toutefois, aucun remboursement n'est possible lorsqu'un coffre de sauvegarde est supprimé avant la fin  du cycle de facturation mensuel.
+   >**Remarque** : vous pouvez annuler le service n'importe quand. Toutefois, aucun remboursement n'est possible lorsqu'un coffre de sauvegarde est supprimé avant la fin du cycle de facturation mensuel.
 5. Sélectionnez **Continuer**.
 6. Cochez la case **Je comprends les risques de perte de données liés à cette annulation**. Sélectionnez ensuite **Annuler EVault**.

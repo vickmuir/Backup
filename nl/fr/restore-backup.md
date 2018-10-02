@@ -13,7 +13,7 @@ Procédez comme indiqué ci-après pour effectuer une restauration de fichier à
 
 ## Démarrage de WebCC
 
-**Remarque** : prenez soin de démarrer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}. Sinon, le lien WebCC ne fonctionnera pas. 
+**Remarque** : prenez soin de démarrer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}. Sinon, le lien WebCC ne fonctionnera pas.
 
 1. Connectez-vous au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} et cliquez sur **Stockage** > **Sauvegarde** dans le menu principal pour afficher les serveurs jouissant du service de sauvegarde EVault.
 2. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche pour afficher le lien WebCC.
@@ -26,7 +26,7 @@ Procédez comme indiqué ci-après pour effectuer une restauration de fichier à
 3. Cliquez sur le travail contenant la sauvegarde désirée.
 4. Cliquez sur **Exécuter la restauration**.
 5. Sélectionnez une source de restauration.
-6. Sélectionnez une version de sauvegarde. 
+6. Sélectionnez une version de sauvegarde.
 7. Entrez le mot de passe de chiffrement.
 8. Cliquez sur **Suivant** pour continuer.
 9. Cochez les cases en regard des fichiers et des répertoires que vous désirez inclure, puis cliquez sur **Inclure** pour enregistrer vos sélections.

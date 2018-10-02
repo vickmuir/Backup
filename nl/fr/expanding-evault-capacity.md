@@ -10,12 +10,12 @@ lastupdated: "2018-07-31"
 
 # Extension de la capacité EVault
 
-Les utilisateurs {{site.data.keyword.BluSoftlayer_full}} peuvent étendre la taille de leur coffre jusqu'à 4 000 Go. Ils n'ont pas besoin de créer un double ou de faire migrer manuellement leurs données vers un volume plus grand. Aucune indisponibilité ou problème d'accès au coffre ne se produit lorsque l'extension de la limite devient effective. 
+Les utilisateurs {{site.data.keyword.BluSoftlayer_full}} peuvent étendre la taille de leur coffre jusqu'à 4 000 Go. Ils n'ont pas besoin de créer un double ou de faire migrer manuellement leurs données vers un volume plus grand. Aucune indisponibilité ou problème d'accès au coffre ne se produit lorsque l'extension de la limite devient effective.
 
 ## Commande d'une extension
 
 1. Accédez à l'écran de sauvegarde EVault sur le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} en cliquant sur **Stockage** > **Sauvegarde**.
-2. Sélectionnez l'EVault que vous souhaitez étendre. 
+2. Sélectionnez l'EVault que vous souhaitez étendre.
 3. Cliquez sur **Actions** et sélectionnez **Modifier EVault**.
 4. Sur l'écran suivant, sélectionnez la nouvelle taille et cliquez sur **Mettre à niveau**.
 

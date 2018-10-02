@@ -10,7 +10,7 @@ lastupdated: "2018-06-26"
 
 # Mise à niveau de l'agent de logiciel EVault pour Windows 
 
-Utilisez les instructions détaillées décrites ci-après pour mettre à niveau l'agent EVault sur un serveur windows.
+Utilisez les instructions détaillées décrites ci-après pour mettre à niveau l'agent EVault sur un serveur Windows.
 
 1. Prenez le contrôle à distance via RDP de votre serveur {{site.data.keyword.BluSoftlayer_full}} ayant besoin d'une mise à niveau d'EVault.
 
@@ -33,6 +33,6 @@ Utilisez les instructions détaillées décrites ci-après pour mettre à niveau
 
 6. Sélectionnez **Conserver mon enregistrement actuel** et cliquez sur **Suivant**.
 
-7. Cliquez sur **Suivant**. L'agent entame la mise à niveau. Cette opération peut prendre quelques minutes. 
+7. Cliquez sur **Suivant**. L'agent entame la mise à niveau. Cette opération peut prendre quelques minutes.
 
 8. Sur l'écran de fin, cliquez sur **Terminer**.

@@ -39,11 +39,11 @@ Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.da
 
 **Puis-je passer d'un disque unique à une grappe RAID ?**
 
-Oui, c'est tout à fait possible. Cependant, vous devez sélectionner une unité de grande capacité en raison de la réduction de taille provoquée par la grappe RAID. 
+Oui, c'est tout à fait possible. Cependant, vous devez sélectionner une unité de grande capacité en raison de la réduction de taille provoquée par la grappe RAID.
 
 **Que se passe-t-il lorsque l'image est restaurée sur un disque plus grand que le volume d'origine ?**
 
-Si vous restaurez l'image sur un disque de plus grande capacité que le volume d'origine, l'espace excédentaire est désaffecté. Si, par exemple, vous disposez d'une unité de 500 Go et que vous restaurez ses données sur un disque de 1 To, un espace disque de 500 Go est désaffecté. Avec Windows 2008, vous pouvez utiliser l'utilitaire disque intégré pour étendre la partition principale. Toutefois, il n'existe pas de fonction intégrée similaire dans windows 2003, par conséquent, vous devez allouer l'espace d'une autre façon.
+Si vous restaurez l'image sur un disque de plus grande capacité que le volume d'origine, l'espace excédentaire est désaffecté. Si, par exemple, vous disposez d'une unité de 500 Go et que vous restaurez ses données sur un disque de 1 To, un espace disque de 500 Go est désaffecté. Avec Windows 2008, vous pouvez utiliser l'utilitaire disque intégré pour étendre la partition principale. Toutefois, il n'existe pas de fonction intégrée similaire dans Windows 2003, par conséquent, vous devez allouer l'espace d'une autre façon.
 
 **BMR peut-il être utilisé pour une sauvegarde régulière ?**
 
@@ -63,4 +63,4 @@ BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BM
 
 **Combien d'espace disque et de temps sont-ils nécessaires pour une restauration BMR ?**
 
-Une sauvegarde qui est réalisée à partir d'une installation par défaut utilise environ 6 Go. Une restauration de ce type  dure environ 15 minutes sur un port 1 Go. Cette procédure est également affectée par la vitesse du port privé. Si vous avez besoin de sauvegardes/restaurations plus rapides, vous devrez éventuellement utiliser un port plus véloce.
+Une sauvegarde qui est réalisée à partir d'une installation par défaut utilise environ 6 Go. Une restauration de ce type dure environ 15 minutes sur un port 1 Go. Cette procédure est également affectée par la vitesse du port privé. Si vous avez besoin de sauvegardes/restaurations plus rapides, vous devrez éventuellement utiliser un port plus véloce.

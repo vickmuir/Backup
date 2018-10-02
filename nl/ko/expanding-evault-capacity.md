@@ -15,7 +15,7 @@ lastupdated: "2018-07-31"
 ## 증가 주문
 
 1. **스토리지** > **백업**을 클릭하여
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에서 EVault 백업 화면에 액세스하십시오. 
+[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에서 EVault 백업 화면에 액세스하십시오.
 2. 확장할 EVault를 선택하십시오.
 3. **조치**를 클릭하고 **EVault 수정**을 선택하십시오.
 4. 다음 화면에서 새 크기를 선택하고 **업그레이드**를 클릭하십시오.

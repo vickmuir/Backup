@@ -28,7 +28,7 @@ Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du 
 
 ## Installation du plug-in Exchange
 
-Le plug-in Exchange est installé avec l'agent Windows 64 bits. Il peut être installé en même temps que l'agent ou bien ultérieurement, en ré-exécutant l'installation et en sélectionnant l'option **Modifier**. 
+Le plug-in Exchange est installé avec l'agent Windows 64 bits. Il peut être installé en même temps que l'agent ou bien ultérieurement, en ré-exécutant l'installation et en sélectionnant l'option **Modifier**.
 
 **Remarque** : avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les deux services EVault dans `services.msc`.  
 
@@ -37,8 +37,8 @@ Le plug-in Exchange est installé avec l'agent Windows 64 bits. Il peut être in
 3. Sur l'écran d'accueil, cliquez sur **Suivant**.
 4. Sélectionnez l'option **Modifier l'installation** et cliquez sur **Suivant**.
 5. Sélectionnez l'option **Laisser inchangé** et cliquez sur **Suivant**.
-6. Sur l'écran de configuration personnalisée, sélectionnez chaque plug-in dont vous avez fait l'acquisition.  
-7. Sélectionnez **Cette fonction sera installée sur ...**, puis cliquez sur **Suivant**. 
+6. Sur l'écran de configuration personnalisée, sélectionnez chaque plug-in dont vous avez fait l'acquisition. 
+7. Sélectionnez **Cette fonction sera installée sur ...**, puis cliquez sur **Suivant**.
 8. Sélectionnez **Conserver mon enregistrement actuel** et cliquez sur **Suivant**.
 9. Cliquez sur **Installer**.
 10. Une fois l'installation terminée, vérifiez que les deux services sont activés et opérationnels.
@@ -46,5 +46,5 @@ Le plug-in Exchange est installé avec l'agent Windows 64 bits. Il peut être in
 
 ## Téléchargement du guide d'utilisation
 
-Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le fichier Guide.pdf du plug-in Exchange de l'agent EVault v8.0 pour Microsoft Windows (64 bits) depuis la [documentation EVault téléchargeable](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. Ce guide décrit comment réaliser une sauvegarde et une restauration de bases de données Microsoft Exchange à l'aide du plug-in Exchange. Il explique également comment partager un jeu sécurisé de sauvegarde DR. Un jeu sécurisé de sauvegarde DR permet de restaurer des boîtes aux lettres spécifiques, des messages ou d'autres objets dans un fichier .pst à l'aide de l'application Granular Restore for Microsoft Exchange.  
+Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le fichier Guide.pdf du plug-in Exchange de l'agent EVault v8.0 pour Microsoft Windows (64 bits) depuis la [documentation EVault téléchargeable](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. Ce guide décrit comment réaliser une sauvegarde et une restauration de bases de données Microsoft Exchange à l'aide du plug-in Exchange. Il explique également comment partager un jeu sécurisé de sauvegarde DR. Un jeu sécurisé de sauvegarde DR permet de restaurer des boîtes aux lettres spécifiques, des messages ou d'autres objets dans un fichier .pst à l'aide de l'application Granular Restore for Microsoft Exchange.
 

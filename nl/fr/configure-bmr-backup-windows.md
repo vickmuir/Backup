@@ -22,7 +22,7 @@ Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disp
   
 ## Configuration d'un travail de sauvegarde BMR
 
-1. Dans le panneau de navigation de gauche, cliquez sur **Tous les agents** pour afficher les agents EVault en cours. 
+1. Dans le panneau de navigation de gauche, cliquez sur **Tous les agents** pour afficher les agents EVault en cours.
 2. Cliquez sur **Il s'agit d'un nouvel agent que je désire configurer**.
 3. Entrez un nom et une description du travail que vous configurez ou créez.
 4. Pour **Type de source de sauvegarde**, sélectionnez dans la liste le type de système de fichiers que vous désirez sauvegarder, puis cliquez sur **Suivant**
@@ -30,10 +30,10 @@ Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disp
 6. Cliquez sur **Oui** dans la fenêtre de confirmation.
 7. L'écran indique que le nouveau travail fait à présent partie du groupe de sauvegarde. Cliquez sur **Suivant**.
 8. L'écran affiche les options de chiffrement et les options de sauvegarde avancées. Normalement, vous ne devriez pas en avoir besoin. Cliquez sur **Suivant**.   
-9. Sur la page **Créer un planning**, vous avez deux possibilités.  
-   - Vous pouvez cliquer sur **Suivant** pour créer un travail manuel et passer à l'exécution de votre nouveau travail. 
-   - Vous pouvez cliquer sur **Ajouter** pour planifier un travail de sauvegarde basé calendrier.  
-     1. Sélectionnez les jours et l'heure d'exécution de vos sauvegardes. 
+9. Sur la page **Créer un planning**, vous avez deux possibilités. 
+   - Vous pouvez cliquer sur **Suivant** pour créer un travail manuel et passer à l'exécution de votre nouveau travail.
+   - Vous pouvez cliquer sur **Ajouter** pour planifier un travail de sauvegarde basé calendrier. 
+     1. Sélectionnez les jours et l'heure d'exécution de vos sauvegardes.
      2. Sélectionnez votre schéma de conservation. Cliquez [ici](evault-backup-faq.html) pour plus d'informations sur les schémas de conservation.
      3. Après avoir configuré votre planning de sauvegarde, cliquez sur **OK** pour l'enregistrer. Votre travail planifié est ajouté à la liste de ces travaux. 
 10. Sélectionnez un coffre pour votre travail de sauvegarde, puis cliquez sur **Enregistrer les modifications**.

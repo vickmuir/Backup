@@ -33,11 +33,11 @@ Cette procédure inclut le réenregistrement de l'agent EVault sur le second ser
 ## Réenregistrement d'EVault
 
 1. Cliquez sur **Tous les agents** et ouvrez l'agent spécifique que vous désirez modifier.
-2. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**. 
+2. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**.
 3. Cliquez sur **Réenregistrer** pour connecter Serveur1 à Serveur2.
 4. Sur l'écran **Réenregistrer le coffre** pour l'entrée **Utiliser un profil de coffre**, sélectionnez **Entrer les paramètres du coffre**.
 5. Entrez le nom du coffre, lequel est le même que le nom EVault de Serveur1.
-6. Entrez les données d'identification de Serveur 1 pour vous connecter au EVault de ce serveur.
+6. Entrez les données d'identification de Serveur1 pour vous connecter au EVault de ce serveur.
 7. Cliquez sur **Charger les ordinateurs**. Les serveurs rattachés à l'emplacement du coffre s'affichent.
 8. Cliquez sur **Enregistrer les modifications**.
 9. A l'invite, cliquez sur **Oui** pour confirmer le réenregistrement d'EVault.
@@ -54,7 +54,7 @@ Cette procédure inclut le réenregistrement de l'agent EVault sur le second ser
 4. Cliquez sur **Suivant**.
 5. Confirmez les informations sur la source.
   - **Emplacement du jeu sécurisé** : correspond à l'emplacement du coffre pour Serveur1.
-  - Dans la section **Sélectionner une version de sauvegarde**, spécifiez votre sauvegarde depuis Serveur1 comme version de sauvegarde. 
+  - Dans la section **Sélectionner une version de sauvegarde**, spécifiez votre sauvegarde depuis Serveur1 comme version de sauvegarde.
   - Le mot de passe de chiffrement est le mot de passe que vous avez utilisé lors de la création de la sauvegarde de serveur1.
 6. Cliquez sur **Suivant**.
 7. Sélectionnez les fichiers devant être restaurés depuis la sauvegarde de Serveur1. Cochez les cases en regard des fichiers et des répertoires que vous désirez restaurer, puis cliquez sur **Inclure** pour enregistrer vos sélections.
