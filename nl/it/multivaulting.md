@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
 
 # Multiarchivio
 
-Il multiarchivio consente a un client/server di connettersi a più di una ubicazione EVault. Fornisce ridondanza e la sicurezza che i backup sono disponibili anche in caso di guasto di un sito.  
+Il multiarchivio consente a un client/server di connettersi a più di una ubicazione EVault. Fornisce ridondanza e la sicurezza che i backup sono disponibili anche in caso di guasto di un sito. 
 
 **Punti chiave**
 
@@ -21,7 +21,7 @@ Il multiarchivio consente a un client/server di connettersi a più di una ubicaz
 
 Il multiarchivio è disponibile in tutti i data center e non vi è alcun limite geografico nella selezione di un archivio remoto. Quando gli archivi vengono configurati seguendo i passi indicati in questo documento, tutti gli archivi configurati vengono visualizzati nelle impostazioni dell'archivio.
 
->**Nota** - Il backup nelle ubicazioni di data center remoti potrebbe richiedere più tempo rispetto al backup nello stesso data center in cui si trova il tuo server. 
+>**Nota** - Il backup nelle ubicazioni di data center remoti potrebbe richiedere più tempo rispetto al backup nello stesso data center in cui si trova il tuo server.
 
 ## Aggiunta di un archivio remoto a un account
 
@@ -39,11 +39,11 @@ Devi aggiungere il nuovo archivio di memorizzazione EVault remoto all'account pr
 L'archivio appena ordinato viene aggiunto automaticamente all'account. Se ciò non avviene, contatta il settore vendite per assistenza.
 Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere il nuovo archivio elencato.
 
-## Aggiunta di un ulteriore archivio a WebCC
+## Aggiunta di un archivio supplementare in WebCC
 
 1. Accedi al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} e fai clic su **Storage** > **Backup** dal menu principale per visualizzare i server con il servizio EVault Backup. 
-2. Seleziona il server in cui si trovano i file di cui eseguire il ripristino. Fai clic sulla freccia rivolta verso destra per visualizzare il link WebCC.
-3. Fai clic sul link **WebCC Login** per avviare il client WebCC nel tuo browser. 
+2. Seleziona il server per cui vuoi essere in grado di eseguire il backup in più archivi. Fai clic sulla freccia rivolta verso destra per visualizzare il link WebCC.
+3. Fai clic sul link **WebCC Login** per avviare il client WebCC nel tuo browser.
    >**Nota** - WebCC è accessibile solo tramite {{site.data.keyword.BluVPN}}.
 4. Nel riquadro di navigazione a sinistra, fai clic su **All Agents**.
 5. In alto a destra, fai clic su **Edit** e seleziona **Vault Settings**.
@@ -52,7 +52,7 @@ Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere i
   1. Nel menu Vault Profile, scegli **Enter Vault Settings** per creare una nuova voce. Non aggiornare la voce esistente, non funziona.
   2. Il nome dell'archivio non può essere uguale a quello di un altro archivio. Prova ad aggiungere una tag -2 alla fine del nome. <br/> 
      >**Nota** - Questo campo ha un limite di 15 caratteri.
-  3. Il campo dell'indirizzo IP viene popolato con le informazioni sull'ubicazione dei selettori di EVault. Ad esempio, `ev-director301.service.softlayer.com` ha l'indirizzo IP 10.1.114.46 e si trova a WDC. 
+  3. Il campo dell'indirizzo IP viene popolato con le informazioni sull'ubicazione dei selettori di EVault. Ad esempio, `ev-director301.service.softlayer.com` ha l'indirizzo IP 10.1.114.46 e si trova a WDC.
   4. Nel campo delle credenziali, immetti l'ID account, il nome utente EVault per l'archivio selezionato e la password per l'archivio selezionato.
   5. Fai clic su **Save Changes**.
 

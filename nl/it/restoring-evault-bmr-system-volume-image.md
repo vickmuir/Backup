@@ -28,7 +28,7 @@ Puoi accedere al sistema EVault BMR Rescue Kernel attraverso il {{site.data.keyw
   Entrambi questi modi funzionano correttamente. 
 2. Dopo aver effettuato l'accesso a EVault BMR Rescue Kernel per la prima volta, verrà visualizzata la schermata iniziale per la selezione della lingua. Seleziona la lingua che preferisci e fai clic su **Next**.
 <br/>![Figura 1: selezione della lingua BMR](/images/bmr1.png)<br/> Viene visualizzato l'accordo di licenza per il software. 
-3. Se accetti i termini, seleziona la casella di spunta e fai clic su **Next** per continuare. <br/> Viene visualizzo il menu principale di ripristino del sistema EVault.  
+3. Se accetti i termini, seleziona la casella di spunta e fai clic su **Next** per continuare. <br/> Viene visualizzo il menu principale di ripristino del sistema EVault. 
 4. Seleziona **Restore My System**.
 <br/>![Figura 2: menu principale BMR](/images/bmr2.png)
 5. Viene visualizzata la procedura guidata di ripristino del sistema EVault. Seleziona **Next** per continuare.
@@ -53,6 +53,6 @@ Puoi accedere al sistema EVault BMR Rescue Kernel attraverso il {{site.data.keyw
 <br/>![Figura 12: avanzamento del ripristino](/images/bmr12.png)
 16. Al termine, viene visualizzata una finestra di notifica in cui viene indicato che il ripristino è stato completato correttamente. Fai clic su **OK**.
 17. Nella schermata di avanzamento del ripristino. Fai clic su **Next**.
-18. Nella schermata finale, seleziona la casella per riavviare il sistema, quindi seleziona **Finish** e il server carica la tua immagine del volume ripristinata.
+18. Nella schermata finale, seleziona la casella per riavviare il sistema, quindi seleziona **Finish** e il server carica la tua immagine del volume ripristinata. 
   Il ripristino è ora completo. <br/>
     >**Nota** - La prima volta che questo accadrà, potresti vedere il messaggio di arresto imprevisto. È normale con questo tipo di backup e va via dopo il primo avvio. 

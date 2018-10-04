@@ -9,7 +9,7 @@ lastupdated: "2018-07-02"
 
 # Installazione del plug-in SQL Server per EVault
 
-Il plug-in SQL Server viene installato con l'agent Windows sull'host del database SQL. Tramite il portale WebCC puoi configurare i lavori, eseguire il backup dei database SQL in un archivio remoto protetto e ripristinare i database SQL. 
+Il plug-in SQL Server viene installato con l'agent Windows sull'host del database SQL. Tramite il portale WebCC puoi configurare i lavori, eseguire il backup dei database SQL in un archivio remoto protetto e ripristinare i database SQL.
 
 **Capacità fornite**
 
@@ -40,7 +40,7 @@ Per installare il plug-in SQL per Windows, esegui il kit di installazione dell'a
 3. Nella schermata di benvenuto, fai clic su **Next**.
 4. Seleziona **Modify installation** e fai clic su **Next**.
 5. Seleziona **Leave Unchanged** e fai clic su **Next**.
-6. Nella schermata di configurazione personalizzata, seleziona ciascun plug-in che hai acquistato. 
+6. Nella schermata di configurazione personalizzata, seleziona ciascun plug-in che hai acquistato.
 7. Seleziona **This feature will be installed on ...** e fai clic su **Next**.
 8. Seleziona **Keep my current registration** e fai clic su **Next**.
 9. Fai clic su **Install**.

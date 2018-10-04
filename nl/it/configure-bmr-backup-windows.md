@@ -33,7 +33,7 @@ Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo 
 9. Nella pagina **Create a schedule**, hai due scelte. 
    - Fai clic su **Next** per creare un lavoro manuale e procedi all'esecuzione del nuovo lavoro
    - Fai clic su **Add** per pianificare un lavoro di backup basato sul tempo. 
-     1. Seleziona i giorni e l'ora del giorno per eseguire i tuoi backup. 
+     1. Seleziona i giorni e l'ora del giorno per eseguire i tuoi backup.
      2. Seleziona il tuo schema di conservazione. Per ulteriori informazioni sugli schemi di conservazione, fai clic [qui](evault-backup-faq.html)
      3. Dopo aver configurato la tua pianificazione di backup, fai clic su **Ok** per salvarla. Il tuo lavoro pianificato viene aggiunto all'elenco di lavori pianificati. 
 10. Seleziona un archivio per il tuo lavoro di backup e fai clic su **Save Changes**.

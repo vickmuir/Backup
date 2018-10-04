@@ -9,7 +9,7 @@ lastupdated: "2018-06-26"
 
 # Nuova registrazione di un EVault
 
-Questa attività è la più comunemente utilizzata dopo che viene ricaricato il sistema operativo di un server. Puoi anche utilizzare questa procedura per [usare i backup di un server per ripristinare i dati su un altro server](restore-from-another-computer.html). 
+Questa attività è la più comunemente utilizzata dopo che viene ricaricato il sistema operativo di un server. Puoi anche utilizzare questa procedura per [usare i backup di un server per ripristinare i dati su un altro server](restore-from-another-computer.html).
 
 1. Avvia WebCC e accedi. Per istruzioni, fai riferimento a [Introduzione ai servizi di backup](/docs/infrastructure/Backup/index.html). <br/>Ricorda che WebCC è accessibile solo tramite {{site.data.keyword.BluVPN}}.
 

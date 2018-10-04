@@ -24,7 +24,7 @@ Una volta che hai ordinato il servizio EVault e che l'agent è installato sul se
 1. Nel riquadro di navigazione a sinistra, fai clic su **All Agents** per visualizzare gli agent EVault correnti
 2. Fai clic su **This is a new Agent I would like to configure**.
 3. Immetti un nome e una descrizione per il lavoro che stai configurando o creando.
-4. Per **Backup Source Type**, seleziona il tipo di file system di cui vuoi eseguire il backup dal menu. 
+4. Per **Backup Source Type**, seleziona il tipo di file system di cui vuoi eseguire il backup dal menu.
 5. Fai clic su **Next** per continuare. 
 6. Nel riquadro **Data Files**, passa ai file e alle directory che vuoi includere nel backup facendo clic sui simboli **+** e **-** accanto alle icone cartella.
 7. Seleziona le caselle di spunta accanto ai file e alle directory che vuoi includere, quindi fai clic su **Include** per salvare le tue scelte.

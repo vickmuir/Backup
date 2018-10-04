@@ -17,7 +17,7 @@ L'installazione del client EVault Backup su un sistema operativo basato su Linux
 - CentOS
 - CloudLinux
 
-Dopo aver completato la procedura, il processo automatizzato registra il servizio Agent con WebCC, quindi scaricherà e installerà i file necessari per eseguire il servizio. 
+Dopo aver completato la procedura, il processo automatizzato registra il servizio Agent con WebCC, quindi scaricherà e installerà i file necessari per eseguire il servizio.
 
 >**Nota** - Se hai acquistato EVault durante l'ordine di un server nel {{site.data.keyword.slportal}}, il software viene installato automaticamente. Non hai bisogno di utilizzare le procedure descritte in questo documento.
 
@@ -28,7 +28,7 @@ Se hai acquistato EVault come aggiornamento nel {{site.data.keyword.slportal}}, 
 1. Accedi al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} e seleziona **Devices** > **Device List** dal menu principale per vedere l'elenco dei dispositivi server disponibili.
 2. Trova il dispositivo per il quale hai acquistato il servizio EVault e prendi nota del suo indirizzo IP pubblico. 
   - Questo indirizzo IP deve essere utilizzato nei seguenti passi quando si accede al dispositivo da una riga di comando UNIX o Linux. Sostituisci <publicIpAddress> con l'indirizzo IP pubblico reale nel comando illustrato nel passo 4. 
-3. Fai clic sulla freccia rivolta verso destra per visualizzare ulteriori informazioni sul dispositivo, incluso il nome utente e la password.  
+3. Fai clic sulla freccia rivolta verso destra per visualizzare ulteriori informazioni sul dispositivo, incluso il nome utente e la password. 
   - Se la password non viene visualizzata, fai clic su **Show Password**. Il nome utente e la password vengono utilizzati nel passo successivo per accedere al dispositivo di test.  Sostituisci `<user name>` con il nome utente effettivo.
 4. Accedi al dispositivo di destinazione immettendo il seguente comando da una riga di comando UNIX o Linux.
    ```

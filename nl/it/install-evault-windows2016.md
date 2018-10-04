@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -10,13 +10,14 @@ lastupdated: "2018-07-13"
 
 # Configurazione di EVault su Windows 2016
 
-## Installazione di EVault Software agent
+## Installazione dell'agent EVault Software
 
 1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile
    ```
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**Nota** - installa l'agent versione 8.30 e successive.
 2. Fai doppio clic sul file scaricato e seleziona **Run** nella finestra che viene visualizzata.
 3. Seleziona la lingua per l'installazione e fai clic su **OK**.
 4. Fai clic su **Next** per iniziare.
@@ -40,7 +41,7 @@ lastupdated: "2018-07-13"
    1. Quando ti viene richiesto di aggiungere un collegamento sul desktop, seleziona **Yes**. Fai clic su **Next**.
    2. Dopo che hai letto l'accordo di licenza software, seleziona **ACCEPT**. Fai clic su **Next**.
    3. Mantieni la cartella di destinazione predefinita e fai clic su **Next**.
-4. Al termine dell'installazione, seleziona **Launch EVault Software Central Control**. Fai clic su **Finish**. 
+4. Al termine dell'installazione, seleziona **Launch EVault Software Central Control**. Fai clic su **Finish**.
 
 
 ## Configurazione di CentralControl
@@ -97,7 +98,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre si 
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia CentralControl.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona l'agent che hai creato. 
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona l'agent che hai creato.
 4. Sul pannello di benvenuto, fai clic su **Next**.
 5. Seleziona la destinazione di backup o un'ubicazione alternativa per eseguire il seeding del lavoro di backup. Fai clic su **Next**.<br/>
    *Suggerimento* - Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](multivaulting.html)

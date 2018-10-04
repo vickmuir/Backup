@@ -17,7 +17,7 @@ Utilizza questa procedura per completare il ripristino di un file da un altro co
 5. Fai clic su **New** e, sulla schermata successiva, seleziona **Re-register previously registered computer**. Fai clic su **Next**.
 6. Immetti l'indirizzo di rete, fai clic su **Add** e quindi su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.
-8. Nella schermata delle impostazioni di connessione, immetti il numero di secondi/minuti desiderato.  
+8. Nella schermata delle impostazioni di connessione, immetti il numero di secondi/minuti desiderato. 
 9. Nella schermata di autenticazione, immetti le tue credenziali e fai clic su **Next**.
 10. Viene visualizzata la finestra dei computer registrati che visualizza il nome host del tuo server. Fai clic su **Next**.
 11.	La procedura guidata di configurazione dell'archivio ha terminato la raccolta delle tue informazioni, fai clic su **Finish** per completare la registrazione.

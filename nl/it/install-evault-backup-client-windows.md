@@ -10,7 +10,7 @@ lastupdated: "2018-06-26"
 
 # Installazione del client EVault Backup in Windows
 
-L'installazione del client EVault backup in Windows viene completata attraverso una serie di interazioni  sul server designato per il servizio EVault Backup. 
+L'installazione del client EVault backup in Windows viene completata attraverso una serie di interazioni  sul server designato per il servizio EVault Backup.
 
 **Nota**: Windows 2016 non è attualmente supportato. Fai riferimento alle istruzioni per [Windows 2016](install-evault-windows2016.html)
 

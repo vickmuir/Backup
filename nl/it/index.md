@@ -2,14 +2,14 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-07-10"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
 
 # Introduzione ai servizi EVault Backup
 
-I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. EVault backup è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser WebCC di EVault. EVault fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.BluSoftlayer_full}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione oraria, giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi assicurano la compatibilità con software come Microsoft Exchange e Microsoft SQL, con altri tipi di software di terze parti e consentono agli utenti di completare un ripristino bare metal laddove necessario.
+I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. EVault backup è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser WebCC di EVault. EVault fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.BluSoftlayer_full}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi assicurano la compatibilità con software come Microsoft Exchange e Microsoft SQL, con altri tipi di software di terze parti e consentono agli utenti di completare un ripristino bare metal laddove necessario.
 
 ## Ordine di EVault 
 
@@ -29,7 +29,7 @@ Per informazioni sui prezzi, consulta [Backup storage](https://www.ibm.com/cloud
 4. Nella sezione **Add-ons**, scegli una della opzioni di EVault (diversa da "None").
 6. Scorri verso il basso e fai clic su **Add to Order**.
 7. Trova la sezione relativa ai nomi host e di dominio e inserisci i nomi corrispondenti. Puoi scegliere il nome host e dominio che preferisci.
-8. Fai clic sulle caselle di spunta **Cloud Service terms** e **Third-Party Service Agreement**. 
+8. Fai clic sulle caselle di spunta **Cloud Service terms** e **Third-Party Service Agreement**.
 9. Conferma o immetti le informazioni di pagamento e fai clic su **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero dell'ordine di provisioning. Puoi stampare la schermata in quanto è anche la tua ricevuta dell'ordine di provisioning. <br/>**Nota**: puoi anche salvare questo ordine senza completare l'acquisto facendo clic su **Save as Quote**.
 
 Al tuo amministratore viene inviata una serie di e-mail relative alla conferma di ricezione dell'ordine di provisioning, all'approvazione ed elaborazione dell'ordine di Provisioning e al completamento del Provisioning. L'e-mail sul completamento del Provisioning include un link alla tua pagina *Device Details* a cui puoi accedere dopo l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
@@ -40,7 +40,7 @@ Al tuo amministratore viene inviata una serie di e-mail relative alla conferma d
   - Se accanto all'URL c'è l'icona dell'orologio, devi aspettare per continuare con la conferma dell'acquisto di EVault. Puoi aggiornare la pagina per vedere uno stato aggiornato sul nuovo server. Quando l'icona dell'orologio non è più presente, puoi procedere con i passi successivi per confermare l'acquisto del servizio EVault.
   - Quando l'icona dell'orologio non viene più visualizzata per il tuo server, fai clic sul link (l'URL del server) per accedere alla pagina **Device Details**. 
 3. Fai clic sulla scheda **Storage** per visualizzare le informazioni su EVault.
-4. Esamina la sezione EVault e verifica che la dimensione selezionata durante il processo di acquisto di EVault sia visualizzata accanto al link EVault. 
+4. Esamina la sezione EVault e verifica che la dimensione selezionata durante il processo di acquisto di EVault sia visualizzata accanto al link EVault.
 
 ### Acquisto di EVault come aggiornamento
 
@@ -72,7 +72,7 @@ I dettagli di archiviazione del tuo servizio EVault Backup possono essere visual
 2. Fai clic in qualsiasi punto della riga per il servizio EVault backup per visualizzare i suoi dettagli di archiviazione. Da questa vista, la password non è visibile. Procedi al passo successivo per visualizzare la password associata al tuo servizio EVault backup.
 3. Fai clic sulla casella di spunta **Show** accanto al campo **Password** per visualizzare la password per il servizio EVault backup selezionato.
 
-Per molti prodotti e servizi {{site.data.keyword.BluSoftlayer_full}}, la funzione di archiviazione della password disponibile nel {{site.data.keyword.slportal}} viene utilizzata esclusivamente per l'archiviazione o il tracciamento della password. Per tali offerte, le modifiche apportate nel {{site.data.keyword.slportal}} non vengono applicate al prodotto o al servizio.  
+Per molti prodotti e servizi {{site.data.keyword.BluSoftlayer_full}}, la funzione di archiviazione della password disponibile nel {{site.data.keyword.slportal}} viene utilizzata esclusivamente per l'archiviazione o il tracciamento della password. Per tali offerte, le modifiche apportate nel {{site.data.keyword.slportal}} non vengono applicate al prodotto o al servizio. 
 
 Questo _non_ è il caso di EVault backup. Le modifiche apportate alla password di EVault Backup all'interno del {{site.data.keyword.slportal}} vengono apportate al servizio stesso. Quando modifichi la tua password, tieni presente che influisce direttamente sul tuo servizio. Per reimpostare la tua password, segui la procedura in [Come modificare una password di EVault Backup nel {{site.data.keyword.slportal}}](/docs/infrastructure/Backup/change-password-evault-backup-service.html).
 

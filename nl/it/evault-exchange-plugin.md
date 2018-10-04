@@ -37,7 +37,7 @@ Il plug-in Exchange viene installato durante l'installazione dell'agent Windows 
 3. Nella schermata di benvenuto, fai clic su **Next**
 4. Seleziona **Modify installation** e fai clic su **Next**.
 5. Seleziona **Leave Unchanged** e fai clic su **Next**.
-6. Nella schermata di configurazione personalizzata, seleziona ciascun plug-in che hai acquistato.  
+6. Nella schermata di configurazione personalizzata, seleziona ciascun plug-in che hai acquistato. 
 7. Seleziona **This feature will be installed on ...** e fai clic su **Next**.
 8. Seleziona **Keep my current registration** e fai clic su **Next**.
 9. Fai clic su **Install**.
