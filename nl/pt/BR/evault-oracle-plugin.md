@@ -2,14 +2,15 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-10"
 
 ---
+{:pre: .pre}
 {:new_window: target="_blank"}
 
 # Instalando o EVault Oracle Plug-in
 
-O plug-in do Oracle é instalado com o Windows Agent no host do banco de dados Oracle. Por meio do portal do WebCC, é possível configurar tarefas, fazer backup dos bancos de dados Oracle para uma área segura remota e restaurar bancos de dados Oracle. O plug-in do Oracle se integra à arquitetura existente.
+O plug-in do Oracle é um complemento e é instalado com o Agente do Windows ou com o Agente Linux no host do banco de dados Oracle. Por meio do portal do WebCC, é possível configurar tarefas, fazer backup dos bancos de dados Oracle para uma área segura remota e restaurar bancos de dados Oracle. O plug-in do Oracle se integra à arquitetura existente.
 
 **Recursos fornecidos**
 
@@ -41,7 +42,7 @@ script.
 7. Marque a caixa para indicar que você leu e aceitou os Contratos de Prestação de Serviços de Terceiros. 
 8. Clique em **Fazer pedido**.
 
-## Instalando o Plug-in do Oracle
+## Instalando o plug-in do Oracle para Windows
 
 O plug-in do Oracle para Windows é instalado com o Windows Agent de 32 ou 64 bits. Para instalar o plug-in do Oracle para Windows, execute o kit de instalação do agente. O plug-in do Oracle aparece como uma opção na página **Configuração customizada**.
 
@@ -59,9 +60,45 @@ revisão maior.
 9. Quando a instalação estiver concluída, verifique para assegurar que ambos os serviços estejam ativados e em execução.
 10. Se o WebCC puder acessar/visualizar o banco de dados, a instalação foi bem-sucedida. 
 
+## Instalando o plug-in do Oracle para Unix
+
+O plug-in do Oracle é um complemento para o Agente Linux e é instalado com o agente no host do banco de dados. O aplicativo Agente Linux deve ser instalado antes da instalação do plug-in do Oracle. O aplicativo Agente Linux está disponível nas versões de 32 bits e de 64 bits. Para obter mais informações sobre a Instalação do Agente Linux, consulte [Instalando o EVault Backup Client no Linux](install-evault-backup-client-linux.html).
+
+O kit de instalação do plug-in do Oracle está disponível em um arquivo tar.gz. 
+
+1. No host, faça o download do pacote de instalação.
+   ```
+   http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
+   ```
+   {: pre}
+   
+2. Extraia os arquivos do pacote. 
+   ```
+   # cd /tmp
+   # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
+   ```
+   {: pre}
+   
+3. Acesse a pasta.
+   ```
+   # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
+   ```
+   {: pre}
+   
+4. Execute o script de instalação.
+   ```
+   # ./install.sh
+   ```
+   {: pre}
+   
+5. Siga as instruções de instalação exibidas na tela.
+   
+>**Observação** - O plug-in do Oracle executa um backup de banco de dados completo "inconsistente", que requer que o banco de dados seja executado no modo ARCHIVELOG. O DBA precisa assegurar que o banco de dados esteja no modo ARCHIVELOG antes de os backups serem iniciados. Para obter mais informações, veja o EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.
+
+
 ## Fazendo download do guia do usuário
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com {{site.data.keyword.BluVPN}} para que seja possível fazer download do EVault Agent v8.0 for Microsoft Windows - Guia do Plug-in do Oracle.pdf por meio da [Documentação do EVault transferível por download](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível fazer download do EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf e do EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.pdf em [Documentação do EVault para download](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
 
 

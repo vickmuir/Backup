@@ -31,7 +31,7 @@ instalar o software.
   - Esse endereço IP deve ser usado nas etapas a seguir quando você efetuar login no dispositivo em uma linha de comandos do UNIX ou Linux. Substitua
 <publicIpAddress> pelo endereço IP público real no comando que é mostrado na Etapa 4. 
 3. Clique na seta que aponta para a direita para exibir mais informações sobre o dispositivo, incluindo o nome do usuário e a senha. 
-  - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste. Substitua `<user name>` pelo nome do usuário real.
+  - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste.  Substitua `<user name>` pelo nome do usuário real.
 4. Efetue login no dispositivo de destino inserindo o comando a seguir em uma linha de comandos UNIX ou Linux.
    ```
    ssh <user name>@<publicIpAddress>

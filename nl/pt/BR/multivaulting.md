@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-15"
 
 ---
 {:new_window: target="_blank"}
@@ -19,8 +19,7 @@ A Criação de múltiplas áreas seguras é a capacidade de um cliente/servidor 
 
 **Locais do EVault Director**
 
-A Criação de múltiplas áreas seguras está disponível em todos os data centers e
-não há limitação geográfica na seleção de uma área segura remota. Quando as áreas seguras são configuradas seguindo as etapas mencionadas neste documento, todas as áreas seguras configuradas aparecem nas configurações de área segura.
+A Criação de múltiplas áreas seguras está disponível em todos os data centers e não há limitação geográfica na seleção de uma área segura remota. Quando as áreas seguras são configuradas seguindo as etapas mencionadas neste documento, todas as áreas seguras configuradas aparecem nas configurações de área segura.
 
 >**Nota**: o backup para locais de data center remoto pode levar mais tempo do que os backups para o mesmo data center no qual seu servidor está localizado.
 
@@ -44,10 +43,10 @@ A área segura recém-solicitada é incluída automaticamente na conta. Se não,
 Quando o processo do pedido for concluído, acesse **Armazenamento** >
 **Backup** para ver a nova área segura listada.
 
-## Incluindo um WebCC de Segurança Adicionais
+## Incluindo uma área segura extra no WebCC
 
 1. Efetue login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} e clique em **Armazenamento** > **Backup** no menu principal para exibir os servidores com o serviço de backup do EVault. 
-2. Selecione o servidor no qual os arquivos a serem restaurados estão localizados. Clique na seta que aponta para a direita para revelar o link do WebCC.
+2. Selecione o servidor do qual deseja poder fazer backup em múltiplas áreas seguras. Clique na seta que aponta para a direita para revelar o link do WebCC.
 3. Clique no link **Login do WebCC** para iniciar o cliente WebCC em seu navegador.
    >**Nota**: o WebCC está acessível apenas por meio do {{site.data.keyword.BluVPN}}.
 4. Na área de janela de navegação esquerda, clique em **Todos os agentes**.

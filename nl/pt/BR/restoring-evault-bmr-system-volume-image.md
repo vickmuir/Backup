@@ -26,7 +26,7 @@ que leva alguns minutos para ser concluída. Em seguida, é possível acessar o 
 1. Quando a transação do EVault BMR Rescue Kernel for carregada, será possível optar por acessá-la de duas maneiras diferentes. 
   - Um cliente VNC e o endereço IP público/privado de seu servidor e a senha que é listada no
 {{site.data.keyword.slportal}} 
-  - O console KVM do seu cartão de IPMI.
+  - O console KVM do seu cartão de IPMI. 
   Ambas as formas funcionam bem. 
 2. Ao efetuar login no EVault BMR Rescue Kernel pela primeira vez, você é saudado com a tela
 de seleção de idioma. Selecione o idioma de sua escolha e clique em **Avançar**.
@@ -61,5 +61,6 @@ mesclar os dados no volume de destino, selecione **Mesclar**.
 16. Quando concluída, é exibida uma janela de notificação informando que a restauração foi
 concluída com sucesso. Clique em **OK**.
 17. Na tela de progresso de restauração. Clique em **Avançar**.
-18. Na tela final, marque a caixa para reiniciar o sistema e selecione **Concluir** e o servidor carregará a imagem do volume restaurado. A restauração está agora concluída. <br/>
+18. Na tela final, marque a caixa para reiniciar o sistema e selecione **Concluir** e o servidor carregará a imagem do volume restaurado. 
+  A restauração está agora concluída. <br/>
     >**Nota**: na primeira vez que isso acontece, é possível ver a mensagem de encerramento inesperada. É normal com esse tipo de backup e desaparece após a primeira inicialização. 

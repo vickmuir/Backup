@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-13"
+lastupdated: "2018-08-13"
 
 ---
 {:pre: .pre}
@@ -12,12 +12,12 @@ lastupdated: "2018-07-13"
 
 ## Instalando o agente do Software EVault
 
-1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do
-arquivo executável
+1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do arquivo executável
    ```
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
+   >**Observação** - Instale o agente da versão 8.30 ou mais recente.
 2. Clique duas vezes no arquivo transferido por download e clique em **Executar** na janela que aparece.
 3. Selecione seu idioma para a instalação e clique em **OK**.
 4. Clique em **Avançar** para começar.

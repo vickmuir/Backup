@@ -2,14 +2,14 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-07-10"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
 
 # Introdução aos serviços de Backup do EVault
 
-Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O backup do EVault é um sistema de backup baseado em agente automatizado que é gerenciado por meio do utilitário de gerenciamento baseado em navegador WebCC do EVault. O EVault fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na Rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir um planejamento por hora, diário, semanal ou customizado que é destinado a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
+Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O backup do EVault é um sistema de backup baseado em agente automatizado que é gerenciado por meio do utilitário de gerenciamento baseado em navegador WebCC do EVault. O EVault fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na Rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
 
 ## Solicitando EVault 
 

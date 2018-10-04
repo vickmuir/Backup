@@ -20,7 +20,7 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 1. Efetue login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} e clique em **Armazenamento** > **Backup** no menu principal para exibir os servidores com o serviço de backup do EVault. 
 2. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para exibir o link do WebCC.
 4. Clique em **Login do WebCC** para iniciar o cliente do WebCC em seu navegador.
-**Nota**: se o WebCC não iniciar, você poderá ter um problema com a conexão VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
+  **Nota**: se o WebCC não iniciar, você poderá ter um problema com a conexão VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
   
 ## Configurando uma tarefa de backup de BMR
 
