@@ -2,14 +2,15 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-08-10"
 
 ---
+{:pre: .pre}
 {:new_window: target="_blank"}
 
 # EVault Oracle プラグインのインストール
 
-Oracle プラグインは、Windows エージェントとともに Oracle データベース・ホスト上にインストールされます。 WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。Oracle プラグインは、既存のアーキテクチャーに統合されます。
+Oracle プラグインはアドオンで、Windows エージェントまたは Linux エージェントとともに Oracle データベース・ホスト上にインストールされます。WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。 Oracle プラグインは、既存のアーキテクチャーに統合されます。
 
 **提供されている機能**
 
@@ -36,7 +37,7 @@ Oracle プラグインは、Windows エージェントとともに Oracle デー
 7. サード・パーティー・サービス契約を読んで同意することを示すため、このボックスにチェック・マークを付けます。 
 8. **「注文」**をクリックします。
 
-## Oracle プラグインのインストール
+## Windows 用 Oracle プラグインのインストール
 
 Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 Windows 用の Oracle プラグインをインストールするには、エージェント・インストール・キットを実行します。 Oracle プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
 
@@ -53,9 +54,45 @@ Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの
 9. インストールが完了したら、両方のサービスが有効で実行中であることを確認してください。
 10. WebCC がデータベースにアクセスできる (つまり、WebCC にデータベースが表示される) 場合、インストールは正常に完了しています。 
 
+## Unix 用 Oracle プラグインのインストール
+
+Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。Linux エージェント・アプリケーションは、Oracle プラグインより前にインストールしておく必要があります。Linux エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。Linux エージェントのインストールについて詳しくは、[Linux での EVault バックアップ・クライアントのインストール](install-evault-backup-client-linux.html)を参照してください。
+
+Oracle プラグインのインストール・キットは tar.gz ファイル形式です。 
+
+1. ホストで、インストール・パッケージをダウンロードします。
+   ```
+   http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
+   ```
+   {: pre}
+   
+2. パッケージからファイルを抽出します。 
+   ```
+   # cd /tmp
+   # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
+   ```
+   {: pre}
+   
+3. フォルダーに移動します。
+   ```
+   # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
+   ```
+   {: pre}
+   
+4. インストレーション・スクリプトを実行します。
+   ```
+   # ./install.sh
+   ```
+   {: pre}
+   
+5. 画面に表示されるインストールの指示に従います。
+   
+>**注** - Oracle プラグインはデータベース全体のバックアップを不整合な状態で実行するため、ARCHIVELOG モードでデータベースを実行する必要があります。DBA は、バックアップ開始前にデータベースが ARCHIVELOG モードであることを確認する必要があります。詳しくは、「EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide」を参照してください。
+
+
 ## ユーザー・ガイドのダウンロード
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な EVault 資料](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}から、EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf をダウンロードできます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な EVault 資料](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}から EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf と EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.pdf をダウンロードできます。
 
 
 

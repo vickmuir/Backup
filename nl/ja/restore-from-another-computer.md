@@ -10,14 +10,14 @@ lastupdated: "2018-07-02"
 
 # 同じデータ・センター内の VSI 間でのバックアップの作成およびデータのリストア
 
-同じデータ・センターの別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。システム・イメージをリストアするには、[Windows BMR](restoring-evault-bmr-system-volume-image.html) の手順に従ってください。
+同じデータ・センターの別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。 システム・イメージをリストアするには、[Windows BMR](restoring-evault-bmr-system-volume-image.html) の手順に従ってください。
 
 このプロセスには、1 番目のサーバーの EVault の場所にアクセスするために 2 番目のサーバーに EVault エージェントを再登録する作業と、**「別のコンピューターからのリストア (Restore from another Computer)」**の実行が伴います。
 
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 で EVAult エージェントが構成済みであること。EVault エージェントの構成方法について詳しくは、[ここ](index.html#configuring-evault-agent-in-webcc)をクリックしてください。
+- Server1 と Server2 で EVAult エージェントが構成済みであること。 EVault エージェントの構成方法について詳しくは、[ここ](index.html#configuring-evault-agent-in-webcc)をクリックしてください。
 - Server1 のバックアップ・ジョブにより、Server1 EVault の場所にバックアップが作成されていること。
 
 **注**: 競合を回避するために、両方のサーバーですべてのスケジュール・タスクを無効にしてください。 

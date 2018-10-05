@@ -9,7 +9,7 @@ lastupdated: "2018-07-12"
 
 # バックアップからのリストア
 
-EVault でファイル・リストアを実行するには、以下の手順に従います。システム・イメージをリストアするには、[Windows BMR](restoring-evault-bmr-system-volume-image.html) の手順に従ってください。
+EVault でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](restoring-evault-bmr-system-volume-image.html) の手順に従ってください。
 
 ## WebCC の開始
 

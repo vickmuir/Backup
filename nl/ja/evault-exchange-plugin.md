@@ -9,7 +9,7 @@ lastupdated: "2018-06-27"
 
 # EVault Exchange プラグインのインストール
 
-Exchange プラグインは、Windows エージェントとともにホスト上にインストールされます。 WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。Oracle プラグインは、既存のアーキテクチャーに統合されます。
+Exchange プラグインは、Windows エージェントとともにホスト上にインストールされます。 WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。 Oracle プラグインは、既存のアーキテクチャーに統合されます。
 
 **提供されている機能**
 
@@ -46,5 +46,5 @@ Exchange プラグインは、Windows エージェント 64 ビットのイン�
 
 ## ユーザー・ガイドのダウンロード
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な EVault 資料](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}から EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf をダウンロードできます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、またはその他のオブジェクトを .pst ファイルにリストアできます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な EVault 資料](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}から EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf をダウンロードできます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、またはその他のオブジェクトを .pst ファイルにリストアできます。
 
