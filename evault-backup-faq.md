@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-10"
+lastupdated: "2018-10-10"
 
 ---
 {:new_window: target="_blank"}
@@ -24,15 +24,17 @@ The plug-ins that are listed here are only compatible with Windows servers, with
 
 ## **How frequently can the data be backed up with EVault?**
 
-You can back up your data as frequently as you like. Within WebCC, backups can be made manually or can be scheduled as a single instance or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
+Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
->**Note** - Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because the vault might not be able to remove old safesets or complete other required background tasks in between runs.
+>**Note** - Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Because Backup Jobs take precedence over maintenance tasks, in case of highly frequent backups, the vault continues to run the backup jobs and cause the number of safesets to grow.
 
 <hr>
 
 ## **How do the retention schemes work?**
 
-EVault allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point. 
+EVault allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
+
+>**Note** – You can modify default retention schemes and can create custom retention schemes. However, it's highly recommended to use default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 
 <hr>
 
