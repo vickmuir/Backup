@@ -16,6 +16,7 @@ IBM Cloud Storage - Backup Services
         install-evault-backup-client-windows.md
         upgrade-evault-backup-agent-windows.md
         install-evault-windows2016.md
+        [Installing EVault Backup Client for VMware](https://console.bluemix.net/docs/infrastructure/vmware/install-evault-backup-client-vmware.html) 
         evault-port-information.md
         how-do-i-re-register-evault.md
         multivaulting.md
