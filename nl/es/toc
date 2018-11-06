@@ -39,7 +39,7 @@ IBM Cloud Storage - Servicios de copia de seguridad
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    evault-backup-faq.md
+    faqs.md
     change-password-evault-backup-service.md
     expanding-evault-capacity.md
     {: .navgroup-end}

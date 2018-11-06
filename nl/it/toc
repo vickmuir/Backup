@@ -31,7 +31,7 @@ IBM Cloud Storage - Servizi di backup
 
     {: .topicgroup}
     Plug-in
-        evault-bmr-plugin.md
+        faqs.md
         configure-bmr-backup-windows.md
         evault-exchange-plugin.md
         evault-mssql-plugin.md
