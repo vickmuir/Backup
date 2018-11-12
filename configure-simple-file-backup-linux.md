@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-11-12"
 
 ---
 {:new_window: target="_blank"}
@@ -42,7 +42,7 @@ After you ordered your EVault service and the agent is installed on the server, 
 12. On the Create a schedule page, click **Add** to schedule a time-based backup job, or click **Next** to create a manual job.
   - If you choose to create a manual job, proceed to Step 15.
   - If you choose to schedule a time-based job, select the days and the time of day to run your backups.
-  - Select your Retention Scheme. Read more about Retention Schemes [here](evault-backup-faq.html)
+  - Select your Retention Scheme. Read more about Retention Schemes [here](faqs.html)
   - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times. When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time. It commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously saved are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item is being backed up, the backup for that item is incomplete and data from that item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.
 13. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs. 
   - You can repeat step 12 to schedule more backups. 
