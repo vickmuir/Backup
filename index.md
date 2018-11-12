@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-09-12"
+lastupdated: "2018-11-12"
 
 ---
 {:new_window: target="_blank"}
@@ -41,7 +41,6 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
   - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page. 
 3. Click the **Storage** tab to display the EVault information.
 4. Inspect the EVault section, and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
-
 ### Purchasing EVault as an upgrade
 
 **Select a server on which to install EVault**
@@ -74,7 +73,7 @@ The storage details of your EVault backup service can be viewed on the {{site.da
 
 For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password. For those offerings, the changes that are made to them within the {{site.data.keyword.slportal}} aren't applied to the product or service. 
 
-It is _not_ the case for EVault backup. Changes that are made to the EVault backup password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](/docs/infrastructure/Backup/change-password-evault-backup-service.html).
+It is _not_ the case for EVault backup. Changes that are made to the EVault backup password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](change-password-evault-backup-service.html).
 
 ## Installing the EVault agent
 
@@ -131,7 +130,7 @@ After you ordered your EVault service and the agent is installed on the server, 
    3. Complete your retention details.
    4. Click **OK**.
    5. Click **Save**.
-   **Note** - Read more about how Retention Schemes work [here](evault-backup-faq.html)
+   **Note** - Read more about how Retention Schemes work [here](faqs.html)
 5. Run the agent and start a backup.
    1. Click **All Agents**, then select the agent that you configured.
    2. Click **Run Backup**.
@@ -144,5 +143,3 @@ After you ordered your EVault service and the agent is installed on the server, 
 ## Getting online help
 
 WebCC's systems are fully documented and support for the application is accessible within WebCC. Click the white question mark in a blue circle that is located in the upper right for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
-
-
