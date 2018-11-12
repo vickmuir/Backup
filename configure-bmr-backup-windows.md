@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-11-12"
 
 ---
 {:new_window: target="_blank"}
@@ -34,7 +34,7 @@ You need to purchase BMR plug-in to create a BMR backup. BMR is available only f
    - Click **Next** to create a manual job, and proceed to running your new job
    - Click **Add** to schedule a time-based backup job. 
      1. Select the days and the time of day to run your backups.
-     2. Select your Retention Scheme. Read more about Retention Schemes [here](evault-backup-faq.html)
+     2. Select your Retention Scheme. Read more about Retention Schemes [here](faqs.html)
      3. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs. 
 10. Select a vault for your backup job, and click **Save Changes**.
 
