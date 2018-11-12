@@ -95,7 +95,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 ## Can the IBM Cloud Backup capacity be increased or decreased without compromising the backups?
 {: faq}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-capacity.html).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
 
 <hr>
 
