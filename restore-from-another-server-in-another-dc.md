@@ -6,6 +6,9 @@ lastupdated: "2018-07-05"
 
 ---
 {:pre: .pre}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Creating a Backup and Restoring Data from one VSI to another in a different Data Center
@@ -20,13 +23,15 @@ The process includes reregistering the EVault agent on the second server to acce
 - Server1 and Server2 must have EVault agents that were configured previously. To learn how to configure the EVault agents, click [here](index.html#configuring-evault-agent-in-webcc).
 - A backup job for Server1 that produced a backup to the Server1 EVault location.
 
-**Note**: Disable all Schedule tasks on both servers to avoid any conflicts. 
+Disable all Schedule tasks on both servers to avoid any conflicts.
+{:important}
 
 ## Starting WebCC of Server2
 
->**Note** - Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link doesn't work.
+Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link doesn't work.
+{:tip}
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
 2. Select Server2. Click the right-pointing expansion arrow to reveal the WebCC link.
 3. Click **WebCC Login** to start the WebCC client in your browser.
 
@@ -45,23 +50,25 @@ The process includes reregistering the EVault agent on the second server to acce
 ## Running the Backup Job from Server1 as the Restore Job on Server2
 
 1. Click **All Agents**.
-   >**Note** - You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
+
+   You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab.
+   {:tip}
 2. Hover over **Advanced** and select **Restore from another Computer**.
 3. On the **Restore From Another Computer** screen, click **Add**. The fields are autopopulated with default values, so change them.
 4. Click the Vault field, and select **Enter Vault Settings**, and type in the IP address of Server1's vault. Click **Add**.
 5. Update the credentials to the credentials of Server1.
 6. Click **Save Changes**. This action connects you to Server1's vault.
 7. Back on the **Restore From Another Computer** screen, update the Computer and Job fields.
-  - Computer - Select Server1 as the backup computer to restore from. 
+  - Computer - Select Server1 as the backup computer to restore from.
   - Job - Select the backup job from Server1.
 8. Click **Next** start the restore process to the server2 in another Datacenter.
 9. At the prompt, enter the backup password and click **Next**.
-10. Confirm that the right backup job is selected, and click **Next**. The restore job is now configured on server2. 
+10. Confirm that the right backup job is selected, and click **Next**. The restore job is now configured on server2.
 11. Select the newly configured job, and click **Run Restore**.
-12. Select the files that you want to restore. 
+12. Select the files that you want to restore.
 13. Click the plus sign to expand file selection.
 14. Click the check box of the individual files or folders to be restored from server1 to server2. Then, click **Include**.
-15. The files populate the Backup Set window on the right. Click **Next**. 
+15. The files populate the Backup Set window on the right. Click **Next**.
 16. After you completed the data selection, proceed to select your options.
     - Select **Restore to the original location**.
     - Select **Overwrite existing files**.
@@ -76,10 +83,10 @@ The process includes reregistering the EVault agent on the second server to acce
   ls -la
   ```
   {: pre}
-  
+
 3. Compare the output.
-  
+
 ## Resuming normal Backup schedule.
 
-1. When the restore is complete, remove the registration information of server1, where the data was restored from. 
+1. When the restore is complete, remove the registration information of server1, where the data was restored from.
 2. Enter the current server2 registration and enable Schedule tasks.

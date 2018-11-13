@@ -6,11 +6,14 @@ lastupdated: "2018-07-31"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 
-# Expanding EVault Capacity
+# Expanding Vault Capacity
 
-Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the size of their Vault up to 4000 GB. They don't need to create a duplicate or manually migrate data to a larger volume. There’s no outage or lack of access to the vault while the limit increase takes effect.
+Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the size of their vault up to 4000 GB. They don't need to create a duplicate or manually migrate data to a larger volume. There’s no outage or lack of access to the vault while the limit increase takes effect.
 
 ## Ordering an increase
 
@@ -23,4 +26,5 @@ Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the siz
 
 Billing for the volume is automatically updated to add the pro-rated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
 
-**Note**: the same process can be used to downsize your EVault.
+The same process can be used to downsize your EVault.
+{:tip}

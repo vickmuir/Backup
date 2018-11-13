@@ -2,10 +2,13 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-11-12"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Installing the EVault SQL Server Plug-in
 
@@ -14,11 +17,11 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 **Capabilities provided**
 
 - You can run full database backups, full database with transaction logs backups, or transaction logs only backup.
-- You can run multiple backups at the same time. 
+- You can run multiple backups at the same time.
 - You can restore SQL databases to the same SQL instance or to a different SQL instance,
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
 
-## Ordering the Plug-in
+## Ordering the plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Click **Storage** > **Backup**.
@@ -26,10 +29,10 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 4. Select **EVault plug-in - MSSQL** and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
-7. Check the box to indicate that you read and accept the Third-party Service Agreements. 
+7. Check the box to indicate that you read and accept the Third-party Service Agreements.
 8. Click **Place Order**.
 
-## Installing the MSSQL Plug-in
+## Installing the MSSQL plug-in
 
 To install the SQL plug-in for Windows, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
@@ -45,7 +48,7 @@ To install the SQL plug-in for Windows, run the Agent installation kit. The plug
 8. Select **Keep my current registration** and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If WebCC is able to access/view the database, then the installation was successful. 
+11. If WebCC is able to access/view the database, then the installation was successful.
 
 ## Downloading user guide
 
@@ -59,7 +62,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 
 **What are the main features of the SQL Plug-in?**
 
-- Ability to specify the names of databases to include and exclude in SQL Server backup jobs by using wildcard characters (asterisks and question marks). New databases with names that match a backup job's filters are automatically included or excluded when the job runs. 
+- Ability to specify the names of databases to include and exclude in SQL Server backup jobs by using wildcard characters (asterisks and question marks). New databases with names that match a backup job's filters are automatically included or excluded when the job runs.
 - Ability to protect secondary databases in AlwaysOn Availability Groups by using the 64-bit Agent and SQL Server plug-in.
 - Ability to share SQL safesets that contain SharePoint 2010/2013 content databases for use with the Granular Restore for Microsoft SharePoint application. After the safeset is shared, the Granular Restore application can be used to restore site collections, websites, lists, libraries, folders, list items, or documents.
 - Support for Delta-friendly backup of databases that are on spanned volumes.
@@ -73,4 +76,3 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 - If an SQL Server host is lost, the SQL Server software can be installed, and the database can be restored. (The Master database must be restored first.)
 - When the backup starts, the backup occurs with or without running database services.
 - Restores are supported to original database names (with or without overwrite existing databases), Restore over an existing database, or to files on disk.
-

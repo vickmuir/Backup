@@ -8,7 +8,7 @@ lastupdated: "2018-08-10"
 {:pre: .pre}
 {:new_window: target="_blank"}
 
-# Installing the EVault Oracle Plug-in
+# Installing the EVault Oracle plug-in
 
 The Oracle plug-in is an add-on and is installed with the Windows Agent or the Linux Agent on the Oracle database host. Through the WebCC portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
@@ -26,7 +26,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 - The database must run in ARCHIVELOG mode, and the user under which the backup is configured must have SYSDBA privileges.
 - Database passwords are encrypted for enhanced security over script-based methods.
 
-## Ordering the Plug-in
+## Ordering the plug-in
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup**.
@@ -34,14 +34,15 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 4. Select **EVault plug-in - Oracle**, and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
-7. Check the box to indicate that you read and accept the Third-party Service Agreements. 
+7. Check the box to indicate that you read and accept the Third-party Service Agreements.
 8. Click **Place Order**.
 
-## Installing the Oracle Plug-in for Windows
+## Installing the Oracle plug-in for Windows
 
 The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle plug-in for Windows, run the Agent installation kit. The Oracle plug-in appears as an option on the **Custom Setup** page.
 
->**Note** - Before you install the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
+Before you install the plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.
+{:important}
 
 1. Browse to `c:\installs\evault` folder and run the .exe file with the higher revision number.
 2. At the language screen, click **OK**
@@ -52,48 +53,45 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 7. Select **Keep my current registration**, and click **Next**.
 8. Click **Install**.
 9. When the installation is complete, check to ensure that both services are enabled and running.
-10. If WebCC is able to access/view the database, then the installation was successful. 
+10. If WebCC is able to access/view the database, then the installation was successful.
 
-## Installing the Oracle Plug-in for Unix
+## Installing the Oracle plug-in for Unix
 
 The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the Oracle plug-in installation occurs. The Linux Agent is available as a 32-bit application and a 64-bit application. For more information about the Linux Agent Installation, see [Installing the EVault Backup Client in Linux](install-evault-backup-client-linux.html).
 
-The Oracle plug-in installation kit is available in a tar.gz file. 
+The Oracle plug-in installation kit is available in a tar.gz file.
 
 1. On the host, download the installation package.
    ```
    http://downloads.softlayer.com/evault/Oracle-Plugin-Linux-x64-8.10.5249.tar.gz
    ```
    {: pre}
-   
-2. Extract the files from the package. 
+
+2. Extract the files from the package.
    ```
    # cd /tmp
    # tar xvf Oracle-Plugin-Linux-x64-8.10.5249.tar
    ```
    {: pre}
-   
+
 3. Go to the folder.
    ```
    # cd Oracle-Plugin-Linux-x64-8.10.5249.xxxx
    ```
    {: pre}
-   
+
 4. Run the installation script.
    ```
    # ./install.sh
    ```
    {: pre}
-   
+
 5. Follow the installation instructions on the screen.
-   
->**Note** - The Oracle plug-in performs an "inconsistent" whole database backup, that requires that the database runs in ARCHIVELOG mode. The DBA needs to ensure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.
+
+The Oracle plug-in performs an "inconsistent" whole database backup, that requires that the database runs in ARCHIVELOG mode. The DBA needs to ensure that the database is in ARCHIVELOG mode before the backups are started. For more information, see the EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.
+{:important}
 
 
 ## Downloading user guide
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows - Oracle plug-in Guide.pdf and the EVault Agent v8.0 for Linux and Oracle Plug-in - User Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
-
-
-
-

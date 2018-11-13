@@ -6,29 +6,32 @@ lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
-# Restoring an EVault BMR System Volume Image 
+# Restoring an BMR System Volume Image
 
 If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from the EVault BMR Rescue Kernel system. With EVault BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
 
-## Initiating the EVault BMR Rescue Kernel system
+## Initiating the BMR Rescue Kernel system
 
-You can access the EVault BMR Rescue Kernel system through the {{site.data.keyword.slportal}}.
+You can access the BMR Rescue Kernel system through the {{site.data.keyword.slportal}}.
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Click **Storage** > **Backup** 
+2. Click **Storage** > **Backup**
 3. Click the **Arrow** next to the vault.
 4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed here. You're going to be emailed when the system completes the boot process.
 
 
 ## Restoring from the EVault BMR Rescue Kernel
 
-1. When the EVault BMR Rescue Kernel transaction loads, you can choose to access it in two different ways. 
-  - A VNC client and the private/public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}} 
-  - The KVM console of your IPMI card. 
-  Both of these ways work well. 
+1. When the EVault BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
+  - A VNC client and the private/public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
+  - The KVM console of your IPMI card.
+  Both of these ways work well.
 2. Upon logging in to the EVault BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
-<br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> The license agreement for the software is displayed. 
-3. If you accept the terms, select the check box, and click **Next** to continue. <br/> The main EVault system restore menu is presented. 
+<br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> The license agreement for the software is displayed.
+3. If you accept the terms, select the check box, and click **Next** to continue. <br/> The main EVault system restore menu is presented.
 4. Select **Restore My System**.
 <br/>![Figure 2 - BMR Main menu](/images/bmr2.png)
 5. The EVault system restore wizard appears. Select **Next** to continue.
@@ -53,6 +56,8 @@ You can access the EVault BMR Rescue Kernel system through the {{site.data.keywo
 <br/>![Figure 12 - Restore Progress](/images/bmr12.png)
 16. When complete, you receive a notification window that states that the restore was completed successfully. Click **OK**.
 17. On the restore progress screen. Click **Next**.
-18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image. 
+18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image.
   The restoration is now complete. <br/>
-    >**Note** - The first time this happens you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot. 
+
+  The first time this happens you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot.
+  {:note}

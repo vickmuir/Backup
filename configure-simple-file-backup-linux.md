@@ -6,46 +6,51 @@ lastupdated: "2018-11-12"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
-# Configuring Simple File-level Backup on Linux
+# Configuring a simple file-level backup on Linux
 
 After you ordered your EVault service and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
 
 ## Starting WebCC
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service. 
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
 2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the WebCC link.
 3. Start your VPN connection to get access to the IBM private network.
 4. Click the WebCC Login link to start the WebCC client in your browser.<br/>
-  **Note**: If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
-  
+
+  If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
+  {:tip}
+
 ## Configuring a Backup Job
 
 1. In the navigation pane on the left, click **All Agents** to display current EVault Agents
 2. Click **This is a new Agent I would like to configure**.
 3. Enter a Job Name and a Job Description for the job you're configuring/creating.
 4. For **Backup Source Type**, select the file system type you want to back up from the menu.
-5. Click **Next** to continue. 
+5. Click **Next** to continue.
 6. In the **Data Files** pane, go to the files and directories you want included in your backup by clicking the **+** and **-** symbols next to the folder icons.
 7. Select the check boxes next to the files and directories you want to include, then click **Include** to save your choices.
 8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. <br /> After you included your file and directory choices, your chosen files, and directories are displayed in the **Backup Set** pane on the right-hand-side of the screen. You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the **Backup Set** pane. After your Backup Set is configured the way that you want it, click **Next** to continue.
-9. Select the Encryption type that you want. 
+9. Select the Encryption type that you want.
   - If you don't want to encrypt your backup, select **None**.
   - If you want encryption, select **AES 256 bit** and enter a password into the Password and Verify Password fields. If wanted, you can add a Password Hint. <br/> **Note**: you need this password to restore files from the backup. There's no way to recover a lost password or to restore an encrypted backup without knowing the password.
 10. You can use any of the **Advanced Options**.
   - **Retention** - You can manage your data usage with this option. The retention period determines how long your backup is retained. After the retention period is reached, the backup is automatically removed. The built-in choices are Daily, Weekly, or Monthly.
-  - **Compression** - You can use this option to reduce the capacity that is used for saving backups. 
+  - **Compression** - You can use this option to reduce the capacity that is used for saving backups.
   - **Backup files that are opened for write** - This option allows files to be backed up, even if they are opened by an application when the backup job runs.
-  - **Create log file** - You to create and manage the content and retention of log files that are generated during the backup process with this option. 
+  - **Create log file** - You to create and manage the content and retention of log files that are generated during the backup process with this option.
   - **Back up a single instance of all selected hard linked files**. This option applies only to UNIX style systems. If you're using hard links to create multiple file names for some content, this option causes only one copy of the content to be saved. Upon restoration, all of the hard links are restored. This option requires a pre-scan pass through the file selection, which can take a significant amount of time and memory.
 11. After y0u made your encryption choice, click **Next** to proceed to the **Create a schedule** screen.
 12. On the Create a schedule page, click **Add** to schedule a time-based backup job, or click **Next** to create a manual job.
   - If you choose to create a manual job, proceed to Step 15.
   - If you choose to schedule a time-based job, select the days and the time of day to run your backups.
-  - Select your Retention Scheme. Read more about Retention Schemes [here](faqs.html)
+  - Select your Retention Scheme. For more information Retention Schemes, see the [FAQ](faqs.html).
   - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times. When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time. It commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously saved are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item is being backed up, the backup for that item is incomplete and data from that item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.
-13. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs. 
-  - You can repeat step 12 to schedule more backups. 
+13. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs.
+  - You can repeat step 12 to schedule more backups.
   - To update to an existing backup job, select the job by clicking its row, then click **Edit** and make your changes.
 14. Select a vault for your backup job, and click **Save Changes**.
 15. Run a backup job

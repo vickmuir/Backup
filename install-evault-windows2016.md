@@ -2,10 +2,13 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-12"
 
 ---
 {:pre: .pre}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Configuring EVault on Windows 2016
@@ -17,7 +20,9 @@ lastupdated: "2018-08-13"
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
-   >**Note** - Install the agent of version 8.30 and later.
+
+   Install the agent of version 8.30 and later.
+   {:note}
 2. Double-click the downloaded file and click **Run** in the window that appears.
 3. Select your language for the installation and click **OK**.
 4. Click **Next** to begin.
@@ -69,9 +74,13 @@ This task is completed through a series of interactions while logged in to the s
 3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
 4. Click the **Retentions** tab. The Retention Wizard appears, click **Next**.
 5. Enter the retention name. Click **Next**.<br/>
-   **Note** - The entry can be a maximum of 32 alphanumeric characters. Spaces are not allowed, but underscores (`_`) and dashes (`-`) can be used.
+
+   The entry can be a maximum of 32 alphanumeric characters. Spaces are not allowed, but underscores (`_`) and dashes (`-`) can be used.
+   {:tip}
 6. Enter the online retention days and copies for this retention type. Then, click **Next**.<br/>
-   **Note** - The combination of retention days and copies is used to ensure that a minimum duration and a number of backups are retained.
+
+   The combination of retention days and copies is used to ensure that a minimum duration and a number of backups are retained.
+   {:note}
 7. Select **I do not want to create any archive backup copies**. Click **Next**.
 8. Click **Finish** to complete the configuration of the retention scheme.
 
@@ -80,13 +89,15 @@ This task is completed through a series of interactions while logged in to the s
 
 1. Remote control your server through RDP.
 2. Start CentralControl.
-3. In the workspace, right-click **MyAgent** and select **New Job**. 
+3. In the workspace, right-click **MyAgent** and select **New Job**.
 4. On the welcome screen, click **Next**.
 5. Select the backup source type.
 6. Select **Unicode** for encoding. Click **Next**.
 7. Select the destination where this job is targeted. Click **Next**.
 8. Enter the name for the job and its description.<br/>
-   **Note** - The name must be 1 - 30 characters long. The name can contain letters, numbers, underscores (`_`), hyphens (`-`), and dollar signs (`$`).
+
+   The name must be 1 - 30 characters long. The name can contain letters, numbers, underscores (`_`), hyphens (`-`), and dollar signs (`$`).
+   {:important}
 9. Select the data sources. Click **Add**.
 10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
 11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**
@@ -101,6 +112,8 @@ This task is completed through a series of interactions while logged in to the s
 3. In the workspace, right-click **MyAgent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or an alternative location to seed the backup job. Click **Next**.<br/>
-   *Tip* - For more information about multiple vaults, see [Multivaulting](multivaulting.html)
+
+   For more information about multiple vaults, see [Multi-vaulting](multivaulting.html)
+   {:tip}
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
 7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup jon. When the backup job is done, click **Close**.

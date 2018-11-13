@@ -6,6 +6,9 @@ lastupdated: "2018-06-26"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Reregistering an EVault
 
@@ -20,11 +23,14 @@ This task is most commonly used after the Operating System of a server is reload
 4. Select **Vault Settings**.
 
 5. Click **Reregister**.
- 
+
 6. Complete the form.
   - Vault name
   - Vault address
-  - Account <br/>**Note**: "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
+  - Account
+
+    "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
+    {:tip}
   - User name
   - Password
 
