@@ -11,7 +11,7 @@ lastupdated: "2018-11-12"
 
 Backups ensure that your data is safely stored outside of your device and protected if it gets lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility. EVault provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
-## Ordering EVault 
+## Ordering EVault
 
 You can purchase EVault backup service in two ways.
 
@@ -25,7 +25,7 @@ For information about pricing, see [Backup storage](https://www.ibm.com/cloud/ba
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. You can learn more about ordering bare metal servers [here](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
 3. You are redirected to the manage portal to complete the order. <br/>
-   >**Note** - EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade. 
+   >**Note** - EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
 6. Scroll down, and click **Add to Order**.
 7. Find the Host and Domain Names section, and enter host and domain names. You can choose any host name and domain that you like.
@@ -35,10 +35,10 @@ For information about pricing, see [Backup storage](https://www.ibm.com/cloud/ba
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 **Confirming the EVault service purchase**
-1. In the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, select **Devices** > **Device List** from the main menu. 
+1. In the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, select **Devices** > **Device List** from the main menu.
 2. Locate the new server that you ordered.
   - If there's clock icon next to the url, you need to wait to continue with the EVault purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the EVault service purchase.
-  - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page. 
+  - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page.
 3. Click the **Storage** tab to display the EVault information.
 4. Inspect the EVault section, and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
 ### Purchasing EVault as an upgrade
@@ -60,18 +60,18 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 **Confirming the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
-2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note** - If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed. 
+2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note** - If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed.
 
 ## Accessing and viewing EVault Backup storage details in {{site.data.keyword.slportal}}
 
-The storage details of your EVault backup service can be viewed on the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service. 
+The storage details of your EVault backup service can be viewed on the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service.
 
 1. To access the **EVault Backup Storage** screen, log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} with your unique credentials.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row for the EVault backup vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your EVault backup service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected EVault backup service.
 
-For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password. For those offerings, the changes that are made to them within the {{site.data.keyword.slportal}} aren't applied to the product or service. 
+For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password. For those offerings, the changes that are made to them within the {{site.data.keyword.slportal}} aren't applied to the product or service.
 
 It is _not_ the case for EVault backup. Changes that are made to the EVault backup password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](change-password-evault-backup-service.html).
 
@@ -97,9 +97,9 @@ EVault Agent is supported on the following OS:
  - Ubuntu Linux 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the EVault Backup Client in Linux](install-evault-backup-client-linux.html)
-- [Installing the EVault Backup Client in Windows](install-evault-backup-client-windows.html)
-- [Installing the EVault Backup Client for Windows 2016](install-evault-windows2016.html)
+- [Installing the backup client in Linux](install-evault-backup-client-linux.html)
+- [Installing the backup client in Windows](install-evault-backup-client-windows.html)
+- [Installing the backup client for Windows 2016](install-evault-windows2016.html)
 
 ## Accessing WebCentralControl (WebCC) for EVault Backup
 
@@ -110,11 +110,11 @@ WebCentralControl (WebCC) is the client that is used to interact with any EVault
 3. Click anywhere on the row for the wanted EVault backup to expand the view.
 4. Click **WebCC Login** to start the WebCC client in your browser.
 
-## Configuring EVault agent in WebCC
+## Configuring backup agent in WebCC
 
 After you ordered your EVault service and the agent is installed on the server, you can start creating backups of your data. Follow these steps to configure your agent, retention schedule and start your first backup job.
 
-1. Log in to WebCc.
+1. Log in to WebCC.
 2. Click **All Agents**> **Unconfigured Agents**.
 3. Click **This is a new Agent I would like to configure** link. Step through the process and enter the following information:
    1. Agent configuration - provide agent description, click **Next**.
@@ -137,8 +137,9 @@ After you ordered your EVault service and the agent is installed on the server, 
    3. Confirm Destination and select a retention scheme.
    4. Click **Start Backup**. You can view the backup details while the process is running.
    5. When the backup is complete, click **Close**.
-   
->**Note** - Read more about how you can configure simple File-level backups on Linux [here](configure-simple-file-backup-linux.html).
+
+Read more about how you can configure simple File-level backups on Linux [here](configure-simple-file-backup-linux.html).
+{:tip}
 
 ## Getting online help
 
