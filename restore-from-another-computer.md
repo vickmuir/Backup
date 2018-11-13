@@ -19,7 +19,7 @@ The process includes reregistering the EVault agent on the second server to acce
 **Pre-requisites**
 
 - Server1 and Server2 must have the same OS. Cross-platform restores aren't supported.
-- Server1 and Server2 must have EVault agents that were configured previously. To learn how to configure the EVault agents, click [here](index.html#configuring-evault-agent-in-webcc)
+- Server1 and Server2 must have EVault agents that were configured previously. To learn how to configure the EVault agents, click [here](index.html#configuring-backup-agent-in-webcc)
 - A backup job for Server1 that produced a backup to the Server1 EVault location.
 
 Disable all Schedule tasks on both servers to avoid any conflicts.

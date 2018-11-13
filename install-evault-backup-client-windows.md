@@ -52,4 +52,4 @@ Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016]
 
 ## Configuring Backup Agents
 
-Log in to WebCC to configure and manage your backup agents. Refer to the [Getting started tutorial](index.html#configuring-evault-agent-in-webcc) for instructions.
+Log in to WebCC to configure and manage your backup agents. Refer to the [Getting started tutorial](index.html#configuring-backup-agent-in-webcc) for instructions.

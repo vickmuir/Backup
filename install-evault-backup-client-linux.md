@@ -112,4 +112,4 @@ This step is required for RedHat Linux, but optional for other Linux distributio
 
 **Next steps**
 
-Log in to WebCC to configure and manage your backup agents. Refer to the [Getting Started Tutorial](index.html#configuring-evault-agent-in-webcc) for instructions.
+Log in to WebCC to configure and manage your backup agents. Refer to the [Getting Started Tutorial](index.html#configuring-backup-agent-in-webcc) for instructions.
