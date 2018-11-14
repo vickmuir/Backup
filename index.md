@@ -2,12 +2,16 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:pre: .pre}
 
-# Getting started with EVault Backup services
+# Getting started with EVault backup services
 
 Backups ensure that your data is safely stored outside of your device and protected if it gets lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility. EVault provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
@@ -18,7 +22,7 @@ You can purchase EVault backup service in two ways.
 - Purchase EVault when you Order a Server
 - Purchase EVault as an Upgrade
 
-For information about pricing, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+For information about pricing, see [backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Purchasing EVault when you order a server
 
@@ -41,6 +45,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
   - When the clock icon is no longer showing for your server, click the link (the server's url) to go to the **Device Details** page.
 3. Click the **Storage** tab to display the EVault information.
 4. Inspect the EVault section, and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
+
 ### Purchasing EVault as an upgrade
 
 **Select a server on which to install EVault**
@@ -62,7 +67,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
 2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note** - If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed.
 
-## Accessing and viewing EVault Backup storage details in {{site.data.keyword.slportal}}
+## Accessing and viewing backup storage details in {{site.data.keyword.slportal}}
 
 The storage details of your EVault backup service can be viewed on the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected EVault backup service.
 
@@ -73,7 +78,8 @@ The storage details of your EVault backup service can be viewed on the {{site.da
 
 For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password. For those offerings, the changes that are made to them within the {{site.data.keyword.slportal}} aren't applied to the product or service.
 
-It is _not_ the case for EVault backup. Changes that are made to the EVault backup password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an EVault Backup password in the {{site.data.keyword.slportal}}](change-password-evault-backup-service.html).
+It is _not_ the case for EVault backup. Changes that are made to the EVault backup password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an EVault backup password in the {{site.data.keyword.slportal}}](change-password-evault-backup-service.html).
+{:important}
 
 ## Installing the EVault agent
 
@@ -101,7 +107,7 @@ Follow the instructions appropriate for your OS,
 - [Installing the backup client in Windows](install-evault-backup-client-windows.html)
 - [Installing the backup client for Windows 2016](install-evault-windows2016.html)
 
-## Accessing WebCentralControl (WebCC) for EVault Backup
+## Accessing WebCentralControl (WebCC)
 
 WebCentralControl (WebCC) is the client that is used to interact with any EVault backup service that is offered by {{site.data.keyword.BluSoftlayer_full}}. WebCC is a browser-based client that runs on the {{site.data.keyword.BluSoftlayer_full}} private network and allows full control of any EVault backup service, including configuration and restores. Follow these steps to access WebCC for EVault backup.
 

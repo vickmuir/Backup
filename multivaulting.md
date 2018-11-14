@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -21,7 +21,8 @@ Multi-vaulting is the ability for a client/server to connect to more than one EV
 
 Multi-vaulting is available across all data centers and there's no geographical limitation in selecting a remote vault. When vaults are configured following steps that are mentioned in this document, all the configured vaults appear in vault settings.
 
->**Note** - Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
+Backing up to remote data center locations can take longer than backups to the same data center where your server is located.
+{:note}
 
 ## Adding a Remote Vault to an Account
 

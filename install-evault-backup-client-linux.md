@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-11-13"
 
 ---
 {:codeblock: .codeblock}
@@ -12,11 +12,11 @@ lastupdated: "2018-07-02"
 {:important: .important}
 {:new_window: target="_blank"}
 
-# Installing the EVault Backup Client in Linux
+# Installing the EVault backup Client in Linux
 
 Installing the EVault backup client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the EVault backup client on any of the following Linux-based operating systems:
 
-- RedHat Enterprise Linux
+- RHEL
 - CentOS
 - CloudLinux
 
@@ -45,9 +45,9 @@ If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, fol
    {:note}
 5. You are prompted to enter the password unless you set up ssh keys for accessing this server before.
 
-## Updating Linux to prepare for installing the EVault client (RedHat Linux only)
+## Updating Linux to prepare for installing the EVault client (RHEL only)
 
-This step is required for RedHat Linux, but optional for other Linux distributions.
+This step is required for RHEL, but optional for other Linux distributions.
 {:note}
 
 - Run the following command at the server prompt.

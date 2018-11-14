@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-05"
+lastupdated: "2018-11-13"
 
 ---
 {:pre: .pre}
@@ -11,7 +11,7 @@ lastupdated: "2018-07-05"
 {:important: .important}
 {:new_window: target="_blank"}
 
-# Creating a Backup and Restoring Data from one VSI to another in a different Data Center
+# Restoring data from one VSI to another in a different Data Center
 
 Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -24,7 +24,7 @@ After you ordered your EVault service and the agent is installed on the server, 
   If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
   {:tip}
 
-## Configuring a Backup Job
+## Configuring a backup job
 
 1. In the navigation pane on the left, click **All Agents** to display current EVault Agents
 2. Click **This is a new Agent I would like to configure**.
@@ -33,7 +33,7 @@ After you ordered your EVault service and the agent is installed on the server, 
 5. Click **Next** to continue.
 6. In the **Data Files** pane, go to the files and directories you want included in your backup by clicking the **+** and **-** symbols next to the folder icons.
 7. Select the check boxes next to the files and directories you want to include, then click **Include** to save your choices.
-8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. <br /> After you included your file and directory choices, your chosen files, and directories are displayed in the **Backup Set** pane on the right-hand-side of the screen. You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the **Backup Set** pane. After your Backup Set is configured the way that you want it, click **Next** to continue.
+8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. <br /> After you included your file and directory choices, your chosen files, and directories are displayed in the **Backup Set** pane on the right-hand-side of the screen. You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the **Backup Set** pane. After your backup set is configured the way that you want it, click **Next** to continue.
 9. Select the Encryption type that you want.
   - If you don't want to encrypt your backup, select **None**.
   - If you want encryption, select **AES 256 bit** and enter a password into the Password and Verify Password fields. If wanted, you can add a Password Hint. <br/> **Note**: you need this password to restore files from the backup. There's no way to recover a lost password or to restore an encrypted backup without knowing the password.
@@ -55,4 +55,4 @@ After you ordered your EVault service and the agent is installed on the server, 
 14. Select a vault for your backup job, and click **Save Changes**.
 15. Run a backup job
   - If you scheduled a time-based backup job, you don't need to do anything else. Your job runs automatically as scheduled.
-  - If you set up a manual job (without a time-based schedule), you can run it now by selecting its row in the job list and clicking **Run backup**. <br/> As with time-based jobs, you can choose the Retention Scheme and the Advanced Backup Options. After you made your configuration choices, click **Start backup** to start the job.
+  - If you set up a manual job (without a time-based schedule), you can run it now by selecting its row in the job list and clicking **Run backup**. <br/> As with time-based jobs, you can choose the retention scheme and the Advanced backup options. After you made your configuration choices, click **Start backup** to start the job.

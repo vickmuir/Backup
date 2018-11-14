@@ -2,15 +2,16 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-13"
 
 ---
-{:pre: .pre}{:tip: .tip}
+{:pre: .pre}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:new_window: target="_blank"}
 
-# Creating a Backup and Restoring Data from one VSI to another within the same data center
+# Restoring data from one VSI to another within the same data center
 
 Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
 
@@ -46,7 +47,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 8. Click **Save Changes**.
 9. When prompted, click **Yes** to confirm the reregistration of the EVault.
 
-## Running the Backup Job from Server1 as the Restore Job on Server2
+## Running the backup job from Server1 as the restore job on Server2
 
 1. Click **All Agents**.
    >**Note** - You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
@@ -81,7 +82,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 3. Compare the output.
 
-## Resuming normal Backup schedule.
+## Resuming normal backup schedule.
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from.
 2. Enter the current server2 registration and enable Schedule tasks.

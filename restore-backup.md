@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-12"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2018-07-12"
 {:note: .note}
 {:important: .important}
 
-# Restoring from a Backup
+# Restoring from a backup
 
 Use these steps to complete a File restore with EVault. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
 

@@ -2,9 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-10"
+lastupdated: "2018-11-13"
 
 ---
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:pre: .pre}
 {:new_window: target="_blank"}
 
@@ -57,7 +60,7 @@ Before you install the plug-in for your Microsoft Windows server, stop both EVau
 
 ## Installing the Oracle plug-in for Unix
 
-The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the Oracle plug-in installation occurs. The Linux Agent is available as a 32-bit application and a 64-bit application. For more information about the Linux Agent Installation, see [Installing the EVault Backup Client in Linux](install-evault-backup-client-linux.html).
+The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the Oracle plug-in installation occurs. The Linux Agent is available as a 32-bit application and a 64-bit application. For more information about the Linux Agent Installation, see [Installing the EVault backup client in Linux](install-evault-backup-client-linux.html).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 

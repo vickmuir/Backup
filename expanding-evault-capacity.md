@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the siz
 ## Ordering an increase
 
 1. Access the EVault backup screen on the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} by clicking **Storage** > **Backup**.
-2. Select the EVault you want to extend.
+2. Select the vault you want to extend.
 3. Click **Actions**, and select **Modify EVault**.
 4. On the next screen, select the new size and click **Upgrade**.
 
@@ -26,5 +26,5 @@ Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the siz
 
 Billing for the volume is automatically updated to add the pro-rated difference of the new price to the current billing cycle. Then, the full new amount is billed in the next billing cycle.
 
-The same process can be used to downsize your EVault.
+The same process can be used to downsize your vault.
 {:tip}

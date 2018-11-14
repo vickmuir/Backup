@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-13"
 
 ---
 {:pre: .pre}
@@ -11,7 +11,7 @@ lastupdated: "2018-11-12"
 {:important: .important}
 {:new_window: target="_blank"}
 
-# Installing the EVault Backup Client in Windows
+# Installing the EVault backup Client in Windows
 
 Installing the EVault backup client in Windows is completed through a series of interactions on the server that is designated for the EVault backup service.
 
@@ -50,6 +50,6 @@ Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016]
 6. Click **Next**
 7. Click **Install** to complete the installation.
 
-## Configuring Backup Agents
+## Configuring backup Agents
 
 Log in to WebCC to configure and manage your backup agents. Refer to the [Getting started tutorial](index.html#configuring-backup-agent-in-webcc) for instructions.

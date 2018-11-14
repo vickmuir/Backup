@@ -2,13 +2,15 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:pre: .pre}
+
 
 # Restoring an BMR System Volume Image
 
