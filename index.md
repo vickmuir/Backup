@@ -94,6 +94,7 @@ It is _not_ the case for EVault backup. Changes that are made to the EVault back
 EVault Agent is supported on the following OS:
 
 **Windows**
+ - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
