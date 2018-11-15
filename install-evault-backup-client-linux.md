@@ -78,15 +78,18 @@ This step is required for RHEL, but optional for other Linux distributions.
 
    Refer to the [Getting started with backup services](/docs/infrastructure/Backup/index.html) article for instructions to view the EVault backup user name and Password.
    {:tip}
-3. After the user name and password, no further input is required, even though there are some prompts that are written to the screen as the installation proceeds. These prompts can be safely ignored. They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
-4. When messages similar to the following appear, the installation is complete:
+3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
+
+   They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
+   {:note}
+4. The installation is complete When messages similar to the following ones appear.
    ```
    Starting VVAgent: [  OK  ]
    Starting buagent: [  OK  ]
    ```
    {: codeblock}
 
-## Verifying that the Installation Succeeded
+## Verifying that the Installation succeeded
 
 1. Verify that the message "Registered to The Portal." appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command:
    ```
@@ -107,7 +110,7 @@ This step is required for RHEL, but optional for other Linux distributions.
    ```
    {: codeblock}
 
-   The process IDs represented by `xxxxx` varies with each installation.
+   The process IDs represented by `xxxxx` vary with each installation.
    {:note}
 
 **Next steps**

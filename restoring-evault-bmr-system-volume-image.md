@@ -12,7 +12,7 @@ lastupdated: "2018-11-13"
 {:pre: .pre}
 
 
-# Restoring an BMR System Volume Image
+# Restoring a BMR System Volume Image
 
 If you need to restore a Bare Metal image backup from EVault, you can quickly restore it from the EVault BMR Rescue Kernel system. With EVault BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
 
@@ -28,10 +28,10 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.slpo
 ## Restoring from the EVault BMR Rescue Kernel
 
 1. When the EVault BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
-  - A VNC client and the private/public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
+  - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
   - The KVM console of your IPMI card.
   Both of these ways work well.
-2. Upon logging in to the EVault BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
+2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
 <br/>![Figure 1 - BMR Language selection](/images/bmr1.png)<br/> The license agreement for the software is displayed.
 3. If you accept the terms, select the check box, and click **Next** to continue. <br/> The main EVault system restore menu is presented.
 4. Select **Restore My System**.
@@ -61,5 +61,5 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.slpo
 18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image.
   The restoration is now complete. <br/>
 
-  The first time this happens you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot.
+  The first time your server loads the restored image, you might see the unexpected shutdown message. It's normal with this restore type and goes away after the first boot.
   {:note}

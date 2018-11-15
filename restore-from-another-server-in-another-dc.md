@@ -47,11 +47,11 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 8. Click **Save Changes**.
 9. When prompted, click **Yes** to confirm the reregistration of the EVault.
 
-## Running the Backup Job from Server1 as the Restore Job on Server2
+## Running the backup job from Server1 as the restore job on Server2
 
 1. Click **All Agents**.
 
-   You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab.
+   You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {:tip}
 2. Hover over **Advanced** and select **Restore from another Computer**.
 3. On the **Restore From Another Computer** screen, click **Add**. The fields are autopopulated with default values, so change them.
@@ -86,7 +86,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 3. Compare the output.
 
-## Resuming normal Backup schedule.
+## Resuming normal backup schedule.
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from.
 2. Enter the current server2 registration and enable Schedule tasks.
