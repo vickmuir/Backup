@@ -144,7 +144,7 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 
 A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
 
-## What does VSS (Volume Shadow Copy Services) do?**
+## What does VSS (Volume Shadow Copy Services) do?
 {: faq}
 
 The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. The backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
