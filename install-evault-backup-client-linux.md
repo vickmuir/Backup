@@ -14,7 +14,7 @@ lastupdated: "2018-11-15"
 
 # Installing the EVault backup Client in Linux
 
-Installing the EVault backup client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the EVault backup client on any of the following Linux-based operating systems:
+Installing the backup client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the EVault backup client on any of the following Linux-based operating systems:
 
 - RHEL
 - CentOS
@@ -22,7 +22,7 @@ Installing the EVault backup client on a Linux-based operating system can be don
 
 After you completed the procedure, the automated process registers the Agent service with WebCC, then download and install the files that are needed to run the service.
 
-If you purchased EVault when Ordering a Server in the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
+If you purchased EVault when you ordered a server in the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {:important}
 
 If you purchased EVault as an Upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
