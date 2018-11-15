@@ -111,38 +111,54 @@ You can still save and retrieve your backups even if you reached the limit of th
 
 Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in WebCC.
 
+<hr>
+
 ## When we use the BMR plug-in, can we move from a single disk to a raid array?
 
 Yes, that works. However, you need to select a large capacity device due to the size decrease the raid array causes.
+
+<hr>
 
 ## When we use the BMR plug-in, what happens when the image is restored to a larger disk than the original volume?
 {: faq}
 
 If you restore the image to a larger disk than the original volume, the left over space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, Windows 2003 does not have a similar built-in capability, so you must allocate the space another way.
 
+<hr>
+
 ## Can we use BMR for regular backup?
 {: faq}
 
 BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.  
+
+<hr>
 
 ## Can we use BMR for database backups?
 {: faq}
 
 Backups of databases must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
 
+<hr>
+
 ## What kind of restore jobs can be run with BMR?
 
 You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current files backup job. The restore process is done inside the OS, just like a traditional backup job.
+
+<hr>
 
 ## Does BMR have open file back up capabilities?
 {: faq}
 
 BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin.html) for the MSSQL plug-in installation instructions.
 
+<hr>
+
 ## How much disk space and time does a BMR restore take?
 {: faq}
 
 A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
+
+<hr>
 
 ## What does VSS (Volume Shadow Copy Services) do?
 {: faq}
