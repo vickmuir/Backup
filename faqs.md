@@ -28,7 +28,7 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 
 <hr>
 
-## How frequently can backups run?
+## How frequently can I back up data?
 {: faq}
 
 Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
@@ -43,7 +43,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 
 Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
-You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that the default retentions are used as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
+You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that the default retentions are used as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is cleared. Archiving is not supported.
 {:tip}
 
 <hr>
@@ -88,7 +88,7 @@ By default the base client has a state-of-the-art technology to handle most open
 ## Where can I find information about pricing?
 {: faq}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+For more information, see [backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -120,15 +120,15 @@ Yes, that works. However, you need to select a large capacity device due to the 
 
 If you restore the image to a larger disk than the original volume, the left over space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, Windows 2003 does not have a similar built-in capability, so you must allocate the space another way.
 
-## Can BMR be used for regular backup?
+## Can we use BMR for regular backup?
 {: faq}
 
 BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.  
 
-##Can BMR be used for Database backups?
+## Can we use BMR for database backups?
 {: faq}
 
-Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
+Backups of databases must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
 
 ## What kind of restore jobs can be run with BMR?
 
@@ -147,4 +147,4 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 ## What does VSS (Volume Shadow Copy Services) do?**
 {: faq}
 
-The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
+The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. The backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
