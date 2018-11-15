@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-05"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -33,7 +33,7 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 
 Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
-Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So in case of highly frequent backups, the vault continues to run the backup jobs and cause the number of safesets to grow.
+Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safesets to grow.
 {:note}
 
 <hr>
