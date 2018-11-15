@@ -27,7 +27,7 @@ Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016]
 
 ## Downloading the EVault client
 
-1. On the target server, open a browser session and enter the following URL to download the executable file for the EVault backup client. <br/>
+1. On the target server, open a browser session and enter the following URL to download the executable file for the backup client. <br/>
   ```
   http://downloads.service.softlayer.com/evault/
   ```
@@ -45,10 +45,9 @@ Windows 2016 isn't supported currently. Refer to instructions for [Windows 2016]
   ```
   {: pre}
 
-2. Enter the EVault user name in the **User name** field.
-3. Enter the EVault password in the **Password** field.
-6. Click **Next**
-7. Click **Install** to complete the installation.
+2. Enter the EVault user name and password.
+3. Click **Next**
+4. Click **Install** to complete the installation.
 
 ## Configuring backup Agents
 
