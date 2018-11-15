@@ -29,7 +29,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 7. Check the box to indicate that you read and accept the Third-party Service Agreements.
 8. Click **Place Order**.
 
-## Installing the Exchange plug-in
+## Installing the plug-in
 
 The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
