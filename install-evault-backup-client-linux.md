@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-15"
 
 ---
 {:codeblock: .codeblock}
@@ -82,7 +82,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
    They are being produced by a subscript, which is started by the `evault_manual.sh` script. The `evault_manual.sh` script provides the input for these prompts.
    {:note}
-4. The installation is complete When messages similar to the following ones appear.
+4. The installation is complete when the following messages appear.
    ```
    Starting VVAgent: [  OK  ]
    Starting buagent: [  OK  ]
