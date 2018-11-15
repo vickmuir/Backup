@@ -115,9 +115,9 @@ Follow the instructions appropriate for your OS,
 - [Installing the backup client in Windows](install-evault-backup-client-windows.html)
 - [Installing the backup client for Windows 2016](install-evault-windows2016.html)
 
-## Accessing WebCentralControl (WebCC)
+## Accessing Web Central Control (WebCC)
 
-WebCentralControl (WebCC) is the client that is used to interact with any EVault backup service that is offered by {{site.data.keyword.BluSoftlayer_full}}. WebCC is a browser-based client that runs on the {{site.data.keyword.BluSoftlayer_full}} private network and allows full control of any EVault backup service, including configuration and restores. Follow these steps to access WebCC for EVault backup.
+Web Central Control (WebCC) is the client that is used to interact with any EVault backup service that is offered by {{site.data.keyword.BluSoftlayer_full}}. WebCC is a browser-based client that runs on the {{site.data.keyword.BluSoftlayer_full}} private network and allows full control of any EVault backup service, including configuration and restores. Follow these steps to access WebCC for EVault backup.
 
 1. Access the Private Network over VPN.<br/>**Note**: WebCC can't be accessed over the public network. A VPN connection must be established first.
 2. Access the EVault backup storage screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
