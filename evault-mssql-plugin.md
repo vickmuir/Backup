@@ -10,7 +10,7 @@ lastupdated: "2018-11-12"
 {:note: .note}
 {:important: .important}
 
-# Installing the SQL Server Plug-in
+# Installing the SQL Server plug-in
 
 The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the WebCC portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
 
