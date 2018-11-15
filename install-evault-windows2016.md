@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-15"
 
 ---
 {:pre: .pre}
@@ -49,12 +49,12 @@ lastupdated: "2018-11-12"
 4. When the installation is complete, check **Launch EVault Software Central Control**. Click **Finish**.
 
 
-## Configuring CentralControl
+## Configuring Central Control
 
 This task is completed through a series of interactions while logged in to the server designated for the EVault backup service.
 
 1. Remote control your server through RDP.
-2. Start CentralControl.
+2. Start Central Control.
 3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
 4. On the Vaults tab, click **New**. The Vault Configuration Wizard appears. Click **Next**.
 5. Select **Register as a new computer** and click **Next**.
@@ -67,10 +67,10 @@ This task is completed through a series of interactions while logged in to the s
 11.	Click **Finish** to complete the configuration.
 
 
-## Creating EVault Retention Schemes
+## Creating the Retention Schemes
 
 1. Remote control your server through RDP.
-2. Start CentralControl.
+2. Start Central Control.
 3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
 4. Click the **Retentions** tab. The Retention Wizard appears, click **Next**.
 5. Enter the retention name. Click **Next**.<br/>
@@ -85,10 +85,10 @@ This task is completed through a series of interactions while logged in to the s
 8. Click **Finish** to complete the configuration of the retention scheme.
 
 
-## Setting up the EVault Job
+## Setting up the backup job
 
 1. Remote control your server through RDP.
-2. Start CentralControl.
+2. Start Central Control.
 3. In the workspace, right-click **MyAgent** and select **New Job**.
 4. On the welcome screen, click **Next**.
 5. Select the backup source type.
@@ -108,7 +108,7 @@ This task is completed through a series of interactions while logged in to the s
 ## Running the EVault job
 
 1. Remote control your server through RDP.
-2. Start CentralControl.
+2. Start Central Control.
 3. In the workspace, right-click **MyAgent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or an alternative location to seed the backup job. Click **Next**.<br/>
