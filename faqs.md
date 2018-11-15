@@ -1,4 +1,4 @@
-{{site.data.keyword.backup_notm}}---
+---
 
 copyright:
   years: 1994, 2018
@@ -17,7 +17,7 @@ lastupdated: "2018-11-05"
 ## What kind of applications can be backed up?
 {: faq}
 
-{{site.data.keyword.backup_full}} can be used to back up various applications. However, {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
+{{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.BluSoftlayer_full}} also offers software agents for some of the more common software systems that are backed up, which include
 
 - Bare Metal Restore
 - Microsoft Exchange
