@@ -28,7 +28,7 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 
 <hr>
 
-## How frequently can the data be backed up?
+## How frequently can backups run?
 {: faq}
 
 Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
@@ -43,7 +43,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 
 Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
-You can modify default retention schemes and can create custom retention schemes. However, IBM recommends using the default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
+You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that the default retentions are used as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 {:tip}
 
 <hr>
