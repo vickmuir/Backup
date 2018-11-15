@@ -61,7 +61,7 @@ This task is completed through a series of interactions while logged in to the s
 6. Enter the vault name in the Profile name field. The vault name can be obtained from the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 6. Enter network address (the IP address of the assigned vault) and click **Add**. Then, click **Next**.
 7. Enter the new port values and click **Add**, then **Next**.
-8. In the Connection Settings screen, enter the number of seconds/minutes you want. Keep the **Enable over the wire encryption for transmissions to/from the vault** box checked. Click **Next**.
+8. In the Connection Settings screen, enter the number of seconds/minutes you want. Keep the **Enable over the wire encryption for transmissions to and from the vault** box checked. Click **Next**.
 9. In the Authentication screen, enter your credentials and click **Next**.
 10. Registered computers window displays the host name of your server. Click **Next**.
 11.	Click **Finish** to complete the configuration.
