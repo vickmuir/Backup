@@ -1,4 +1,4 @@
----
+{{site.data.keyword.backup_notm}}---
 
 copyright:
   years: 1994, 2018
@@ -17,14 +17,14 @@ lastupdated: "2018-11-05"
 ## What kind of applications can be backed up?
 {: faq}
 
-IBM Cloud Backup can be used to back up various applications. However, {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
+{{site.data.keyword.backup_full}} can be used to back up various applications. However, {{site.data.keyword.BluSoftlayer_full}} offers software agents for some of the more common software systems that are backed up, which include:
 
 - Bare Metal Restore
 - Microsoft Exchange
 - Microsoft SQL
 - Oracle
 
-The plug-ins that are listed here are only compatible with Windows servers, with the exception of the Oracle plug-in. Each agent is available as an add-on to your backup service. To add an agent to your service, contact a member of the Sales team today.
+The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle plug-in. Each agent is available as an add-on to your backup service. To add an agent to your service, contact a member of the Sales team today.
 
 <hr>
 
@@ -41,9 +41,9 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 ## How do the retention schemes work?
 {: faq}
 
-IBM Cloud Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
+Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
-You can modify default retention schemes and can create custom retention schemes. However, it's highly recommended to use default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
+You can modify default retention schemes and can create custom retention schemes. However, IBM recommends to use default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 {:tip}
 
 <hr>
@@ -92,21 +92,59 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 
 <hr>
 
-## Can the IBM Cloud Backup capacity be increased or decreased without compromising the backups?
+## Can the {{site.data.keyword.backup_full}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
 You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
 
 <hr>
 
-## What happens when the IBM Cloud Backup capacity is exceeded?
+## What happens when the {{site.data.keyword.backup_notm}} capacity is exceeded?
 {: faq}
 
-You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. However, please note that there is going to be an extra charge for every additional GB used in the billing statement.
+You can still save and retrieve your backups even if you reached the limit of the capacity that you purchased previously. However, you are going to receive an extra charge for every additional GB that was used in the next billing statement.
 
 <hr>
 
-## How can I set up notifications in WebCC to let me know if my backups fail?
+## How can I set up notifications in WebCC to let me know whether my backups fail?
 {: faq}
 
 Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in WebCC.
+
+## When we use the BMR plug-in, can we move from a single disk to a raid array?
+
+Yes, that works. However, you need to select a large capacity device due to the size decrease the raid array causes.
+
+## When we use the BMR plug-in, what happens when the image is restored to a larger disk than the original volume?
+{: faq}
+
+If you restore the image to a larger disk than the original volume, the left over space is deallocated. So for example - when you have a 500-GB drive and restore its data to a 1-TB disk, you end up with 500 GB of deallocated disk space. With windows 2008, you can use the built-in disk utility to grow the primary partition. However, Windows 2003 does not have a similar built-in capability, so you must allocate the space another way.
+
+## Can BMR be used for regular backup?
+{: faq}
+
+BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.  
+
+##Can BMR be used for Database backups?
+{: faq}
+
+Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
+
+## What kind of restore jobs can be run with BMR?
+
+You can either do a whole system restore, or you can pick individual files from the backup to restore. The BMR backup job can replace your current files backup job. The restore process is done inside the OS, just like a traditional backup job.
+
+## Does BMR have open file back up capabilities?
+{: faq}
+
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin.html) for the MSSQL plug-in installation instructions.
+
+## How much disk space and time does a BMR restore take?
+{: faq}
+
+A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restores, a port speed increase might be needed.
+
+## What does VSS (Volume Shadow Copy Services) do?**
+{: faq}
+
+The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.

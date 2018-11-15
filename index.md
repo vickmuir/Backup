@@ -11,16 +11,16 @@ lastupdated: "2018-11-13"
 {:important: .important}
 {:pre: .pre}
 
-# Getting started with EVault backup services
+# Getting started with backup services
 
-Backups ensure that your data is safely stored outside of your device and protected if it gets lost. EVault backup is an automated agent-based backup system that is managed through the EVault WebCC browser-based management utility. EVault provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
+Backups ensure that your data is safely stored outside of your device and protected if it gets lost. EVault backup is an automated agent-based backup system that is managed through the WebCC browser-based management utility. EVault provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} Network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
 ## Ordering EVault
 
 You can purchase EVault backup service in two ways.
 
-- Purchase EVault when you Order a Server
-- Purchase EVault as an Upgrade
+- Purchase the service when you Order a Server
+- Purchase the service as an Upgrade
 
 For information about pricing, see [backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
@@ -29,16 +29,21 @@ For information about pricing, see [backup storage](https://www.ibm.com/cloud/ba
 1. Log in to [The IBM Cloud catalog](https://console.bluemix.net/catalog/){:new_window} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. You can learn more about ordering bare metal servers [here](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
 3. You are redirected to the manage portal to complete the order. <br/>
-   >**Note** - EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
+
+   EVault backup service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
+   {:important}
 4. Under **Add-ons** section, choose one of the EVault options (other than "None").
 6. Scroll down, and click **Add to Order**.
 7. Find the Host and Domain Names section, and enter host and domain names. You can choose any host name and domain that you like.
 8. On the right, click the **Cloud Service terms** and the **Third-Party Service Agreement** check boxes.
-9. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt. <br/>**Note**: You can also save this order without purchasing by clicking **Save as Quote**.
+9. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+
+You can also save this order without purchasing by clicking **Save as Quote**.
+{:tip}
 
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
-**Confirming the EVault service purchase**
+**Confirming the purchase**
 1. In the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, select **Devices** > **Device List** from the main menu.
 2. Locate the new server that you ordered.
   - If there's clock icon next to the url, you need to wait to continue with the EVault purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the EVault service purchase.
@@ -65,7 +70,10 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 **Confirming the EVault upgrade purchase**
 1. Refresh the **Device Details** page, and ensure that the **Storage** tab is selected.
-2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link. <br /> **Note** - If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed.
+2. Inspect the EVault section and verify that the size that was selected during the EVault purchase process is displayed next to the EVault link.
+
+If the EVault storage size continues to show a capacity of zero, a second page refresh might be needed.
+{:tip}
 
 ## Accessing and viewing backup storage details in {{site.data.keyword.slportal}}
 

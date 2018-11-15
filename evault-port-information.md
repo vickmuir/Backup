@@ -52,7 +52,7 @@ If you need to use more restrictive firewall rules, you might lose access to the
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-The agent must allow the port TCP/2548 inbound on the private network. This setting allows CentralControl and WebCC to connect into the agent to manage it. Older versions of EVault used port 808.
+The agent must allow the TCP port 2548 inbound on the private network. This setting allows CentralControl and WebCC to connect into the agent to manage it. Older versions of EVault used port 808.
 
 The EVault management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows operating systems.
 

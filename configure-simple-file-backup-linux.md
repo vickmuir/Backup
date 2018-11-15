@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -12,23 +12,23 @@ lastupdated: "2018-11-13"
 
 # Configuring a simple file-level backup on Linux
 
-After you ordered your EVault service and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
+After you ordered your backup service and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
 
 ## Starting WebCC
 
 1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
 2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the WebCC link.
 3. Start your VPN connection to get access to the IBM private network.
-4. Click the WebCC Login link to start the WebCC client in your browser.<br/>
+4. Click the WebCC Login link to start the client in your browser.<br/>
 
   If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
   {:tip}
 
 ## Configuring a backup job
 
-1. In the navigation pane on the left, click **All Agents** to display current EVault Agents
+1. In the navigation pane on the left, click **All Agents** to display current backup Agents
 2. Click **This is a new Agent I would like to configure**.
-3. Enter a Job Name and a Job Description for the job you're configuring/creating.
+3. Enter a Job Name and a Job Description for the job you're creating.
 4. For **Backup Source Type**, select the file system type you want to back up from the menu.
 5. Click **Next** to continue.
 6. In the **Data Files** pane, go to the files and directories you want included in your backup by clicking the **+** and **-** symbols next to the folder icons.
@@ -43,11 +43,11 @@ After you ordered your EVault service and the agent is installed on the server, 
   - **Backup files that are opened for write** - This option allows files to be backed up, even if they are opened by an application when the backup job runs.
   - **Create log file** - You to create and manage the content and retention of log files that are generated during the backup process with this option.
   - **Back up a single instance of all selected hard linked files**. This option applies only to UNIX style systems. If you're using hard links to create multiple file names for some content, this option causes only one copy of the content to be saved. Upon restoration, all of the hard links are restored. This option requires a pre-scan pass through the file selection, which can take a significant amount of time and memory.
-11. After y0u made your encryption choice, click **Next** to proceed to the **Create a schedule** screen.
+11. After you made your encryption choice, click **Next** to proceed to the **Create a schedule** screen.
 12. On the Create a schedule page, click **Add** to schedule a time-based backup job, or click **Next** to create a manual job.
   - If you choose to create a manual job, proceed to Step 15.
   - If you choose to schedule a time-based job, select the days and the time of day to run your backups.
-  - Select your Retention Scheme. For more information Retention Schemes, see the [FAQ](faqs.html).
+  - Select your Retention Scheme. For more information about Retention Schemes, see the [FAQ](faqs.html).
   - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times. When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time. It commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously saved are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item is being backed up, the backup for that item is incomplete and data from that item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.
 13. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs.
   - You can repeat step 12 to schedule more backups.

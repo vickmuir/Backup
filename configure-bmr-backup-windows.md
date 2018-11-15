@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -34,7 +34,7 @@ You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private 
 
 1. In the left navigation pane, click **All Agents** to display current backup agents.
 2. Click **This is a new Agent I would like to configure**.
-3. Enter a Job Name and a Job Description for the job you're configuring/creating.
+3. Enter a Job Name and a Job Description for the job you're creating.
 4. For **Backup Source Type**, select the file system type you want to back up from the list, then click **Next**
 5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore** and click **Next** to continue.
 6. Click **Yes** on the Confirmation windows.

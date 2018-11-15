@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ You can cancel your EVault service at any time. The cancellation deletes your va
 3. Select **Actions** > **Cancel EVault**.
 4. Choose to cancel **Immediately** or on the **Anniversary Date**.
 
-   You can cancel the service anytime. However, when a backup vault is deleted before the end of the monthly billing cycle, there is no refund.
+   You can cancel the service anytime. However, when a backup vault is deleted before the end of the monthly billing cycle, a refund is not given.
    {:note}
 5. Select **Continue**.
 6. Check that **I acknowledge that due to cancellation data loss may occur**. Then, select **Cancel EVault**.

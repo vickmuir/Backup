@@ -10,7 +10,7 @@ lastupdated: "2018-06-27"
 {:note: .note}
 {:important: .important}
 
-# Installing the EVault Exchange plug-in
+# Installing the Exchange plug-in
 
 The Exchange plug-in is installed with the Windows Agent on the host. Through the WebCC portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
 
@@ -46,8 +46,8 @@ Before you install the plug-in for your Microsoft Windows server, stop both EVau
 8. Select **Keep my current registration**, and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If WebCC is able to access/view the database, then the installation was successful.
+11. If WebCC is able to access and view the database, then the installation was successful.
 
 ## Downloading the user guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safeset. With a DR backup safeset, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent v8.0 for Microsoft Windows (64-bit) - Exchange plug-in Guide.pdf from [Downloadable Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safeset. With a DR backup safeset, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.

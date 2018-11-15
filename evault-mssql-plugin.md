@@ -10,7 +10,7 @@ lastupdated: "2018-11-12"
 {:note: .note}
 {:important: .important}
 
-# Installing the EVault SQL Server Plug-in
+# Installing the SQL Server Plug-in
 
 The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the WebCC portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
 
@@ -20,6 +20,8 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 - You can run multiple backups at the same time.
 - You can restore SQL databases to the same SQL instance or to a different SQL instance,
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
+
+For more information, see the [Main features](#main-features) section.
 
 ## Ordering the plug-in
 
@@ -36,7 +38,8 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 
 To install the SQL plug-in for Windows, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
-**Note**: Before you install the MSSQL EVault plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.  
+Before you install the MSSQL plug-in for your Microsoft Windows server, stop both EVault services in `services.msc`.
+{:important}
 
 1. Browse to `c:\installs\evault` folder and run the .exe file with the higher revision number.
 2. At the language screen, click **OK**.
@@ -48,19 +51,13 @@ To install the SQL plug-in for Windows, run the Agent installation kit. The plug
 8. Select **Keep my current registration** and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If WebCC is able to access/view the database, then the installation was successful.
+11. If WebCC is able to access and view the database, then the installation was successful.
 
 ## Downloading user guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent for Microsoft Windows v8.0 - SQL Server plug-in Guide.pdf from [Downloadable EVault Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the EVault Agent for Microsoft Windows v8.0 - SQL Server plug-in Guide.pdf from [Downloadable Documentation](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
 
-## Frequently Asked Questions
-
-**What does VSS (Volume Shadow Copy Services) do?**
-
-The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
-
-**What are the main features of the SQL Plug-in?**
+## Main features
 
 - Ability to specify the names of databases to include and exclude in SQL Server backup jobs by using wildcard characters (asterisks and question marks). New databases with names that match a backup job's filters are automatically included or excluded when the job runs.
 - Ability to protect secondary databases in AlwaysOn Availability Groups by using the 64-bit Agent and SQL Server plug-in.
