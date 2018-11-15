@@ -32,7 +32,7 @@ lastupdated: "2018-11-15"
 8. On the next screen, click **Install**.
 9. When the installation is complete, click **Finish**.
 
-## Installing the EVault Software CentralControl 8.30
+## Installing the EVault Software Central Control 8.30
 
 1. On the target server, open a browser session and enter the following URL to download the executable file.
 
