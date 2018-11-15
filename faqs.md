@@ -43,7 +43,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 
 Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
-You can modify default retention schemes and can create custom retention schemes. However, IBM recommends to use default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
+You can modify default retention schemes and can create custom retention schemes. However, IBM recommends using the default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 {:tip}
 
 <hr>
@@ -142,7 +142,7 @@ BMR has open file back up capabilities. However, BMR doesn't replace the need fo
 ## How much disk space and time does a BMR restore take?
 {: faq}
 
-A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restores, a port speed increase might be needed.
+A backup that is made from a default installation uses about 6 GB. Such a restore takes around 15 minutes on a 1-GB port. This process is also affected by private port speed. If you need faster backups and restore, a port speed increase might be needed.
 
 ## What does VSS (Volume Shadow Copy Services) do?**
 {: faq}
