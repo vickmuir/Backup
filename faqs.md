@@ -92,7 +92,7 @@ For more information, see [backup storage](https://www.ibm.com/cloud/backup-and-
 
 <hr>
 
-## Can the {{site.data.keyword.backup_full}} capacity be increased or decreased without compromising the backups?
+## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
 You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
