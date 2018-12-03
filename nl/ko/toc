@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" arm="4052115" href="/docs/infrastructure/Backup/index.html"}
-IBM Cloud Storage - 백업 서비스
+{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup/index.html" path="infrastructure/Backup"}
+IBM Cloud 스토리지 - IBM Cloud 백업
 
     {: .navgroup id="learn"}
     index.md
@@ -11,13 +11,15 @@ IBM Cloud Storage - 백업 서비스
     {: .navgroup id="howto"}
     {: .topicgroup}
     구성
-        install-evault-backup-client-linux.md
+        install-backup-client-linux.md
         configure-simple-file-backup-linux.md
-        install-evault-backup-client-windows.md
-        upgrade-evault-backup-agent-windows.md
-        install-evault-windows2016.md
-        evault-port-information.md
-        how-do-i-re-register-evault.md
+        install-backup-client-windows.md
+        configure-bmr-backup-windows.md
+        upgrade-backup-agent-windows.md
+        install-backup-client-windows2016.md
+        [VMware용 백업 클라이언트 설치](infrastructure/vmware/install-evault-backup-client-vmware.html)
+        port-information.md
+        reregister.md
         multivaulting.md
         canceling-backup-service.md
 
@@ -27,19 +29,18 @@ IBM Cloud Storage - 백업 서비스
         restore-from-another-computer.md
         restore-from-another-computer-windows2016.md
         restore-from-another-server-in-another-dc.md
-        restoring-evault-bmr-system-volume-image.md
+        restore-bmr-system-volume-image.md
 
     {: .topicgroup}
     플러그인
-        evault-bmr-plugin.md
-        configure-bmr-backup-windows.md
-        evault-exchange-plugin.md
-        evault-mssql-plugin.md
-        evault-oracle-plugin.md
+        bmr-plugin.md
+        exchange-plugin.md
+        mssql-plugin.md
+        oracle-plugin.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     faqs.md
-    change-password-evault-backup-service.md
-    expanding-evault-capacity.md
+    change-password.md
+    expanding-capacity.md
     {: .navgroup-end}
