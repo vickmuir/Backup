@@ -54,9 +54,9 @@ If you need to use more restrictive firewall rules, you might lose access to the
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-The agent must allow the TCP port 2548 inbound on the private network. This setting allows CentralControl and {{site.data.keyword.backup_notm}} portal to connect into the agent to manage it. Older versions of EVault used port 808.
+The agent must allow the TCP port 2548 inbound on the private network. This setting allows Central Control and {{site.data.keyword.backup_notm}} portal to connect into the agent to manage it. Older versions of EVault used port 808.
 
 The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows operating systems.
 
-When it comes to connection settings, the difference between desktop CentralControl and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the desktop-utilized CentralControl connects to your server, by using its address and the server's credentials to access it.
+When it comes to connection settings, the difference between desktop Central Control and the Agent is often a point of confusion. The server-resident Agent connects to the {{site.data.keyword.backup_notm}} servers, while the desktop-utilized Central Control connects to your server, by using its address and the server's credentials to access it.
 {:tip}

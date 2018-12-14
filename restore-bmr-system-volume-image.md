@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Restoring an BMR system volume image
 
-If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from th BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
+If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
 
 ## Initiating the BMR Rescue Kernel system
 

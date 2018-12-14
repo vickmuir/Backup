@@ -11,7 +11,7 @@ lastupdated: "2018-12-14"
 Use these steps to complete a file restore from another computer by using the Windows Central Control in Windows 2016.
 
 1. Remote control your Windows 2016 server through RDP.
-2. Open CentralControl.
+2. Open Central Control.
 3. Right-click **Agent**, and click **Agent Configuration**.
 4. Remove current Vault settings from CentralControl by selecting the entry and clicking **Delete**.
 5. Click **New**, and on the next screen, select **Re-register previously registered computer**. Click **Next**.
