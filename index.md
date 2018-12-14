@@ -35,7 +35,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}} stora
       {:tip}
    2. Select location.
    3. Select Server configuration and OS Image type. You can also choose multiple add-ons.
-   4. Under the **Storage Disks** section, click on **Add-ons** and select **{{site.data.keyword.backup_notm}} Backup**. Choose the option that matches what you need.
+   4. Under the **Storage Disks** section, click **Add-ons** and select **{{site.data.keyword.backup_notm}} Backup**. Choose the option that matches what you need.
    5. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
 3. On the right, review your order summary.
 4. After you reviewed the terms and conditions, check the **I have read and agree to the Third-Party Service Agreements** box.
@@ -60,8 +60,8 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 #### Select a server on which to install {{site.data.keyword.backup_notm}}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **Menu** icon on the top left. Select **Classic Infrastructure**.</br>
-   Alternatively, you can log into the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.</br>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add {{site.data.keyword.cloud_notm}} Backup service.
 3. Click the Device name to go to the **Device Details** page.
 
@@ -86,8 +86,8 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 The storage details of your {{site.data.keyword.backup_notm}} service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **Menu** icon on the top left. Select **Classic Infrastructure**.</br>
-   Alternatively, you can log into the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.</br>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your {{site.data.keyword.backup_notm}} service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
