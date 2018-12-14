@@ -9,6 +9,8 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # BMR 시스템 볼륨 이미지 복원
 
@@ -17,23 +19,23 @@ lastupdated: "2018-12-14"
 ## BMR Rescue Kernel 시스템 시작
 
 {{site.data.keyword.slportal}}을 통해 BMR Rescue Kernel 시스템에 액세스할 수 있습니다.
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. 
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오. 
+   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 저장소 옆의 **화살표**를 클릭하십시오.
 4. **Bare Metal Restore 시작**을 클릭하십시오. 이 조치는 완료하는 데 수 분이 걸리는 트랜잭션을 시작합니다. 이후에 여기서 자세히 설명한 단계에 따라 서버에 액세스할 수 있습니다. 시스템이 부트 프로세스를 완료하면 사용자에게 이메일이 발송됩니다.
 
 
 ## BMR Rescue Kernel에서 복원
 
-1. BMR Rescue Kernel 트랜잭션 로드 시에 두 가지 상이한 방법으로 이에 액세스하도록 선택할 수 있습니다. 
+1. BMR Rescue Kernel 트랜잭션 로드 시에 두 가지 상이한 방법으로 이에 액세스하도록 선택할 수 있습니다.
   - {{site.data.keyword.slportal}}에 나열된 비밀번호 및 서버의 사설/공인 IP 주소 및 VNC 클라이언트
   - IPMI 카드의 KVM 콘솔.
   이러한 방법은 둘 다 잘 작동됩니다.
 2. 처음으로 BMR Rescue Kernel에 로그인하면 언어 선택 화면이 나타납니다. 원하는 언어를 선택하고 **다음**을 클릭하십시오.
 <br/>![그림 1 - BMR 언어 선택](/images/bmr1.png)<br/> 소프트웨어의 라이센스 계약이 표시됩니다.
-3. 이용 약관에 동의하면 선택란을 선택하고 **다음**을 클릭하여 계속하십시오. <br/> 기본 {{site.data.keyword.backup_notm}} 시스템 복원 메뉴가 표시됩니다. 
+3. 이용 약관에 동의하면 선택란을 선택하고 **다음**을 클릭하여 계속하십시오. <br/> 기본 {{site.data.keyword.backup_notm}} 시스템 복원 메뉴가 표시됩니다.
 4. **내 시스템 복원**을 선택하십시오.
 <br/>![그림 2 - BMR 기본 메뉴](/images/bmr2.png)
 5. 시스템 복원 마법사가 나타납니다. **다음**을 선택하여 계속하십시오.

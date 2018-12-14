@@ -38,7 +38,7 @@ WebCC 내에서 백업은 수동으로 이루어지거나 단일 인스턴스로
 
 <hr>
 
-## 보유 스킴은 어떻게 작동됩니까? 
+## 보유 스킴은 어떻게 작동됩니까?
 {: faq}
 
 {{site.data.keyword.backup_notm}}에서는 원하는 롤백 기간에 따른 데이터 보유를 허용합니다. **일별** 보유 스킴은 7일 동안 데이터를 보유하고, **주별** 스킴은 1개월 동안 데이터를 보유하며, **월별** 스킴은 1년 동안 데이터를 보유합니다. 각 기간이 종료되면 가장 오래된 데이터 세트부터 차례로 제거되며 첫 번째 작성된 "델타 백업"이 가장 오래된 사용 가능한 복원 지점이 됩니다.
@@ -48,7 +48,7 @@ WebCC 내에서 백업은 수동으로 이루어지거나 단일 인스턴스로
 
 <hr>
 
-## 델타 기술은 무엇입니까? 
+## 델타 기술은 무엇입니까?
 {: faq}
 
 첫 번째 백업은 "시드"(완전한 전체 백업)이고 다음의 후속 백업은 "델타"(즉, 변경사항만 백업)이지만, 이 둘은 동일하며 여전히 "전체 백업"으로 간주됩니다. 즉, 모두를 복원하거나 그 중에서 임의의 파일을 복원할 수 있습니다. 이 기술을 사용하면 각 세션마다 "전체 백업"의 수행이 허용되지만, 저장소에서 상당한 양의 공간이 절감되며 각 후속 백업을 완료하는 데 걸리는 시간이 감소됩니다.
@@ -88,14 +88,14 @@ WebCC 내에서 백업은 수동으로 이루어지거나 단일 인스턴스로
 ## 가격에 대한 정보를 어디서 찾을 수 있습니까?
 {: faq}
 
-자세한 정보는 [백업 스토리지](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [{{site.data.keyword.backup_notm}} on IBM Cloud: 가격](https://www.ibm.com/cloud/evault/pricing){:new_window}을 참조하십시오. 
+자세한 정보는 [백업 스토리지](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [{{site.data.keyword.backup_notm}} on IBM Cloud: 가격](https://www.ibm.com/cloud/evault/pricing){:new_window}을 참조하십시오.
 
 <hr>
 
 ## 백업을 조정하지 않고 {{site.data.keyword.backup_notm}} 용량을 늘리거나 줄일 수 있습니까?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](expanding-capacity.html)을 참조하십시오.
+[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](expanding-capacity.html)을 참조하십시오.
 
 <hr>
 

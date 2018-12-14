@@ -2,19 +2,28 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-12-14"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
-# EVault-Service stornieren
+# {{site.data.keyword.backup_notm}}-Service stornieren
 
-Sie können Ihren EVault-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten EVault-Service bei WebCC anmelden.
+Sie können Ihren {{site.data.keyword.backup_full}}-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten {{site.data.keyword.backup_notm}}-Service bei WebCC anmelden.
 
-1. Melden Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
-2. Navigieren Sie zu **Speicher** > **Sicherung**. 
-3. Wählen Sie **Aktionen** > **EVault stornieren** aus.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
+
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
+3. Wählen Sie **Aktionen** > **Abbrechen{{site.data.keyword.backup_notm}}** aus.
 4. Wählen Sie für die Stornierung die Einstellung **Sofortig** oder **Rechnungsstichtag** aus.
-   >**Hinweis** - Sie können den Service jederzeit stornieren. Falls eine Sicherungsvault vor dem Ende des monatlichen Abrechnungszyklus gelöscht wird, erhalten Sie jedoch keine Rückerstattung.
+
+   Sie können den Service jederzeit stornieren. Falls eine Sicherungsvault vor dem Ende des monatlichen Abrechnungszyklus gelöscht wird, erhalten Sie jedoch keine Rückerstattung.
+   {:important}
 5. Wählen Sie **Weiter** aus.
-6. Wählen Sie das Kontrollkästchen **Ich habe zur Kenntnis genommen, dass es aufgrund der Stornierung zu einem Datenverlust kommen kann** aus. Wählen Sie anschließend **EVault stornieren** aus.
+6. Wählen Sie das Kontrollkästchen **Ich habe zur Kenntnis genommen, dass es aufgrund der Stornierung zu einem Datenverlust kommen kann** aus. Wählen Sie anschließend **{{site.data.keyword.backup_notm}} stornieren** aus.

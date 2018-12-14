@@ -9,6 +9,8 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # 백업에서 복원
 
@@ -19,10 +21,10 @@ lastupdated: "2018-12-14"
 반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면 WebCC 링크가 작동하지 않습니다.
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. 
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오. 
+   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 복원할 파일이 있는 서버를 선택하십시오. 화살표를 클릭하여 WebCC 링크를 표시하십시오.
 4. **WebCC**를 클릭하여 브라우저에서 WebCC 클라이언트를 시작하십시오.
 

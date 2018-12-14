@@ -2,55 +2,72 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-09-12"
+lastupdated: "2018-12-14"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
-# Iniciación a los servicios de copia de seguridad de EVault
+# Iniciación a los servicios de {{site.data.keyword.backup_notm}}
 
-Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. La copia de seguridad de EVault es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador WebCC de EVault. EVault proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
+Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador WebCC. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
 
-## Solicitud de EVault 
+## Pedido de {{site.data.keyword.backup_notm}}
 
-Puede adquirir el servicio de copia de seguridad de EVault de dos maneras.
+Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 
-- Adquirir EVault cuando se solicita un servidor
-- Adquirir EVault como actualización
+- [Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server)
+- [Adquisición de {{site.data.keyword.backup_notm}} como actualización](#purchasing-ibm-cloud-backup-as-an-upgrade)
 
-Para obtener información sobre los precios, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [EVault en IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
-### Adquisición de EVault cuando se solicita un servidor
+### Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 
-1. Inicie una sesión en el [catálogo de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} o en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Solicite un servidor nativo mensual. [Aquí](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window} encontrará más información sobre cómo solicitar servidores nativos.
-3. Se le redirigirá al portal de gestión para completar el pedido. <br/>
-   >**Nota**: el servicio de copia de seguridad de EVault no está disponible cuando se solicita un servidor de facturación por hora. Sin embargo, el servicio se puede añadir posteriormente como una actualización. 
-4. En la sección **Complementos**, elija una de las opciones de EVault (que no sea "Ninguno").
-6. Desplácese hacia abajo y pulse **Añadir a pedido**.
-7. Busque la sección Nombres de host y de dominio y especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
-8. En la parte derecha, pulse los recuadros de selección **Términos del servicio de nube** y **Acuerdo de servicio de terceros**.
-9. Confirme o especifique la información sobre el pago y pulse **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro. <br/>**Nota**: también puede guardar este pedido sin adquirirlo pulsando **Guardar como presupuesto**.
+1. Inicie una sesión en el [catálogo de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} o en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](bare-metal/baremetal-provision.html){:new_window}.
+   1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
+
+   El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.
+   {:tip}
+
+   2. Seleccione la ubicación.
+   3. Seleccione Configuración de servidor y tipo de imagen de SO. También puede elegir varios complementos.
+   4. En la sección **Discos de almacenamiento**, pulse en **Complementos** y seleccione **Copia de seguridad de {{site.data.keyword.backup_notm}}**. Elija la opción que coincida con lo que necesita.
+   5. En **Interfaz de red**, seleccione la Velocidad de puerto de enlace ascendente y los complementos que desee.
+3. A la derecha, revise el resumen de su pedido.
+4. Después de revisar los términos y condiciones, marque el recuadro de selección **He leído y acepto los acuerdos de servicio de terceros**.
+5. Pulse **Suministrar**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla, ya que también es su recibo del pedido de suministro.
+
+   También puede guardar este pedido sin adquirirlo pulsando **Guardar como presupuesto**.
+   {:tip}
 
 Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
-**Confirmación de la adquisición del servicio EVault**
-1. En el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. 
+#### Confirmación de la compra de {{site.data.keyword.backup_notm}}
+1. En la consola de [{{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:new_window}, pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
-  - Si hay un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de EVault. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio EVault.
-  - Cuando deje de mostrarse el icono de reloj para el servidor, pulse el enlace (el url del servidor) para ir a la página **Detalles del dispositivo**. 
-3. Pulse el separador **Almacenamiento** para ver la información de EVault.
-4. Examine la sección EVault y verifique que se muestra el tamaño seleccionado durante el proceso de adquisición de EVault junto al enlace EVault.
+  - Si hay un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
+  - Cuando deje de mostrarse el icono de reloj para el servidor, pulse el enlace (el url del servidor) para ir a la página **Detalles del dispositivo**.
+3. Pulse el separador **Almacenamiento** para ver la información de {{site.data.keyword.backup_notm}}.
+4. Examine la sección {{site.data.keyword.backup_notm}} y verifique que se muestra el tamaño seleccionado durante el proceso de adquisición.
 
-### Adquisición de EVault como actualización
+### Adquisición de {{site.data.keyword.backup_notm}} como actualización
 
-**Seleccione el servidor en el que desea instalar EVault**
-1. Inicie una sesión en el [catálogo de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} o en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio EVault.
-3. Pulse el nombre del dispositivo para ir a la página de detalles del dispositivo.
+#### Seleccione el servidor en el que desea instalar {{site.data.keyword.backup_notm}}
 
-**Adición (adquisición) del servicio EVault**
-1. Pulse el separador **Almacenamiento** y desplácese hacia abajo para localizar la sección EVault.
+1. Inicie la sesión en la consola de [ {{site.data.keyword.cloud_notm}} ](https://console.bluemix.net/catalog/){:new_window} y pulse el icono ** Menú ** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio {{site.data.keyword.cloud_notm}}.
+3. Pulse el nombre del dispositivo para ir a la página **Detalles del dispositivo**.
+
+#### Adición (adquisición) del servicio {{site.data.keyword.backup_notm}}
+1. Pulse el separador **Almacenamiento** y desplácese hacia abajo para localizar la sección {{site.data.keyword.backup_notm}}.
 2. Pulse el enlace **Añadir**.
 3. En la ventana, seleccione una ubicación y un tamaño.
 4. Seleccione el tipo de pago y pulse **Continuar**
@@ -59,26 +76,32 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
 7. Pulse el recuadro de selección si está de acuerdo con los términos y condiciones.
 7. Pulse **Realizar pedido**.
 
-**Confirmación de la adquisición de actualización de EVault**
+#### Confirmación de la compra de la actualización de {{site.data.keyword.backup_notm}}
 1. Renueve la página **Detalles del dispositivo** y asegúrese de que el separador **Almacenamiento** está seleccionado.
-2. Examine la sección EVault y verifique que se muestra el tamaño seleccionado durante el proceso de adquisición de EVault junto al enlace EVault. <br /> **Nota**: si el tamaño de almacenamiento de EVault sigue mostrando la capacidad cero, es posible que tenga que volver a renovar la página. 
+2. Examine la sección {{site.data.keyword.backup_notm}} y verifique que se muestra el tamaño seleccionado durante el proceso de adquisición.
 
-## Acceso y visualización de los detalles de almacenamiento de copia de seguridad de EVault en el {{site.data.keyword.slportal}}
+   Si el tamaño de almacenamiento de copia de seguridad sigue mostrando la capacidad cero, es posible que tenga que volver a renovar la página.
+   {:tip}
 
-Los detalles de almacenamiento del servicio de copia de seguridad de EVault se pueden ver mediante el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de copia de seguridad de EVault seleccionado. 
+## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}}
 
-1. Para acceder a la pantalla **Almacenamiento de copia de seguridad de EVault**, inicie una sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
+Los detalles de almacenamiento del servicio {{site.data.keyword.backup_notm}} se pueden ver en la [consola de {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:new_window} y en el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
+
+1. Inicie la sesión en la consola de [ {{site.data.keyword.cloud_notm}} ](https://console.bluemix.net/catalog/){:new_window} y pulse el icono ** Menú ** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
-2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte de copia de seguridad de EVault cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de copia de seguridad de EVault.
-3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de copia de seguridad de EVault seleccionado.
+2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de {{site.data.keyword.backup_notm}}.
+3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
-Para muchos productos y servicios de {{site.data.keyword.BluSoftlayer_full}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para almacenamiento o para realizar el seguimiento de las contraseñas. Para dichas ofertas, los cambios que se realizan en las mismas dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio. 
+Para muchos productos y servicios de {{site.data.keyword.BluSoftlayer_full}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para almacenamiento o para realizar el seguimiento de las contraseñas. Para dichas ofertas, los cambios que se realizan en las mismas dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio.
 
-Este _no_ es el caso del servicio de copia de seguridad de EVault. Los cambios realizados en la contraseña de la copia de seguridad de EVault en el {{site.data.keyword.slportal}} se realizan en el propio servicio. Cuando cambie la contraseña, tenga en cuenta que afecta directamente a su servicio. Para restablecer la contraseña, siga los pasos del apartado sobre [Cómo cambiar una contraseña de copia de seguridad de EVault en el {{site.data.keyword.slportal}}](/docs/infrastructure/Backup/change-password-evault-backup-service.html).
+Este _no_ es el caso de {{site.data.keyword.backup_notm}}. Los cambios realizados en la contraseña de la copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}} se realizan en el propio servicio. Cuando cambie la contraseña, tenga en cuenta que afecta directamente a su servicio. Para restablecer la contraseña, siga los pasos del apartado sobre [Cómo cambiar una contraseña de copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}}](change-password.html).
+{:important}
 
-## Instalación del agente de EVault
+## Instalación del agente de {{site.data.keyword.backup_notm}}
 
-El agente de EVault recibe soporte en los siguientes sistemas operativos:
+El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas operativos siguientes:
 
 **Windows**
  - Windows Server 2012 R2
@@ -98,22 +121,25 @@ El agente de EVault recibe soporte en los siguientes sistemas operativos:
  - Ubuntu Linux 14.04
 
 Siga las instrucciones adecuadas para su sistema operativo,
-- [Instalación del cliente de copia de seguridad de EVault en Linux](install-evault-backup-client-linux.html)
-- [Instalación del cliente de copia de seguridad de EVault en Windows](install-evault-backup-client-windows.html)
-- [Instalación del cliente de copia de seguridad de EVault en Windows 2016](install-evault-windows2016.html)
+- [Instalación del cliente de copia de seguridad en Linux](install-backup-client-linux.html)
+- [Instalación del cliente de copia de seguridad en Windows](install-backup-client-windows.html)
+- [Instalación del cliente de copia de seguridad en Windows 2016](install-windows2016.html)
 
-## Acceso a WebCentralControl (WebCC) para copia de seguridad de EVault
+## Acceso a WebCentralControl (WebCC)
 
-WebCentralControl (WebCC) es el cliente que se utiliza para interactuar con el servicio de copia de seguridad de EVault que ofrece {{site.data.keyword.BluSoftlayer_full}}. WebCC es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de copia de seguridad de EVault, incluidas operaciones de configuración y de restauración. Siga estos pasos para acceder a WebCC de copia de seguridad de EVault.
+WebCentralControl (WebCC) es el cliente que se utiliza para interactuar con el servicio de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. WebCC es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración. Siga estos pasos para acceder a WebCC.
 
-1. Acceda a la red privada a través de VPN.<br/>**Nota**: no se puede acceder a WebCC a través de la red pública. En primer lugar se debe establecer una conexión VPN.
-2. Acceda a la pantalla de almacenamiento de copia de seguridad de EVault en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
-3. Pulse en cualquier lugar de la fila correspondiente a la copia de seguridad de EVault que desee para ampliar la vista.
+1. Acceda a la red privada a través de VPN.
+
+   No se puede acceder a WebCC a través de la red pública. En primer lugar se debe establecer una conexión VPN.
+   {:important}
+2. Acceda a la pantalla de almacenamiento de copia de seguridad en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+3. Pulse en cualquier lugar de la fila del servicio de {{site.data.keyword.backup_notm}} que desea ver para expandir la vista.
 4. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
 
-## Configuración del agente de EVault en WebCC
+## Configuración del agente de copia de seguridad en WebCC
 
-Después de haber solicitado el servicio EVault y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Siga estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
+Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Siga estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
 
 1. Inicie una sesión en WebCc.
 2. Pulse **Todos los agentes**> **Agentes no configurados**.
@@ -131,18 +157,19 @@ Después de haber solicitado el servicio EVault y de haber instalado el agente e
    3. Especifique los detalles de retención.
    4. Pulse **Aceptar**.
    5. Pulse **Guardar**.
-   **Nota**: [aquí](evault-backup-faq.html) encontrará más información sobre cómo funcionan los esquemas de retención
+
+      Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](faqs.html)
+      {:tip}
 5. Ejecute el agente e inicie una copia de seguridad.
    1. Pulse **Todos los agentes** y seleccione el agente que ha configurado.
    2. Pulse **Ejecutar copia de seguridad**.
    3. Confirme el destino y seleccione un esquema de retención.
    4. Pulse **Iniciar copia de seguridad**. Puede ver los detalles de la copia de seguridad mientras se está ejecutando el proceso.
    5. Cuando finalice la copia de seguridad, pulse **Cerrar**.
-   
->**Nota**: [aquí](configure-simple-file-backup-linux.html) encontrará más información sobre cómo puede configurar copias de seguridad simples a nivel de archivo en Linux.
+
+Para obtener más información sobre las copias de seguridad a nivel de archivo en Linux, consulte [ Configuración de la copia de seguridad simple a nivel de archivos en Linux](configure-simple-file-backup-linux.html).
+{:tip}
 
 ## Obtención de ayuda en línea
 
 Los sistemas WebCC están plenamente documentados y se puede acceder a soporte para la aplicación dentro de WebCC. Pulse el signo de interrogación blanco dentro de un círculo azul que se encuentra en la parte superior derecha para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación de la parte izquierda para ver más información.
-
-

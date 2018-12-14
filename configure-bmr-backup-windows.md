@@ -2,49 +2,53 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-12-14"
 
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Configuring BMR backup job on Windows
 
-**Prerequisite**
-
-You need to purchase BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI.
+You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI.
 {:important}
 
-## Starting WebCC
+## Starting {{site.data.keyword.backup_notm}} portal
 
-You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private network to be able to start WebCC.
+You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
-2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the WebCC link.
-4. Click **WebCC Login** to start the WebCC client in your browser.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Click **Storage** > **Backup** to display the servers with backup services.
+3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
 
-
-  If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
-  {:tip}
+   If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
+   {:tip}
 
 ## Configuring a BMR backup job
 
-1. In the left navigation pane, click **All Agents** to display current backup agents.
+1. In the left navigation pane, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents.
 2. Click **This is a new Agent I would like to configure**.
-3. Enter a Job Name and a Job Description for the job you're creating.
-4. For **Backup Source Type**, select the file system type you want to back up from the list, then click **Next**
-5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore** and click **Next** to continue.
+3. Enter a Job Name and a Job Description for the job that you're creating.
+4. For **Backup Source Type**, select the file system type, then click **Next**
+5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore**, and click **Next** to continue.
 6. Click **Yes** on the Confirmation windows.
 7. The screen shows that the new job is now in the backup set. Click **Next**.
 8. The screen displays encryption options and advanced backup options. Normally these options aren't needed. Click **Next**.   
 9. On the **Create a schedule** page, you have two choices.
-   - Click **Next** to create a manual job, and proceed to running your new job
+   - Click **Next** to create a manual job, and proceed to running your new job.
    - Click **Add** to schedule a time-based backup job.
      1. Select the days and the time of day to run your backups.
-     2. Select your Retention Scheme. For more information about Retention Schemes, see [the FAQ](faqs.html).
+     2. Select your Retention Scheme.
+
+        For more information about Retention Schemes, see the [FAQ](faqs.html#how-do-the-retention-schemes-work-).
+        {:tip}
      3. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs.
 10. Select a vault for your backup job, and click **Save Changes**.
 

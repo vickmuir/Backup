@@ -10,6 +10,8 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Oracle 플러그인 설치
 
@@ -31,12 +33,12 @@ Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트�
 
 ## 플러그인 주문
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. 
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오. 
+   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
-4. **{{site.data.keyword.backup_notm}} 플러그인 - Oracle**을 선택하고 **계속**을 클릭하십시오. 
+4. **{{site.data.keyword.backup_notm}} 플러그인 - Oracle**을 선택하고 **계속**을 클릭하십시오.
 5. 프로모션 코드가 있으면 이를 입력하고 **재계산**을 클릭하십시오.
 6. 업데이트된 비용이 표시됩니다. 주문을 검토하십시오.
 7. 서드파티 서비스 계약을 읽고 동의한다고 표시하려면 상자를 선택하십시오.
@@ -62,7 +64,7 @@ Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`�
 
 ## Unix용 Oracle 플러그인 설치
 
-Oracle 플러그인은 Linux Agent에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. Oracle 플러그인을 설치하기 전에 Linux Agent 애플리케이션을 설치해야 합니다. Linux Agent는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. Linux Agent 설치에 대한 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](install-backup-client-linux.html)를 참조하십시오. 
+Oracle 플러그인은 Linux Agent에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. Oracle 플러그인을 설치하기 전에 Linux Agent 애플리케이션을 설치해야 합니다. Linux Agent는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. Linux Agent 설치에 대한 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](install-backup-client-linux.html)를 참조하십시오.
 
 Oracle 플러그인 설치 킷은 tar.gz 파일로 사용 가능합니다.
 
@@ -99,4 +101,4 @@ Oracle 플러그인은 데이터베이스가 ARCHIVELOG 모드로 실행되도�
 
 ## 사용자 안내서 다운로드
 
-[다운로드 가능한 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}으로 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오. 
+[다운로드 가능한 {{site.data.keyword.backup_notm}} 문서 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}으로 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.

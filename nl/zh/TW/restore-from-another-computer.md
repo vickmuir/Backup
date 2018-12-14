@@ -2,54 +2,66 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-12-14"
 
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # 在相同的資料中心內建立將資料從某個 VSI 備份及還原到另一個 VSI
 
-有時，您想要將資料還原至相同資料中心內的不同伺服器。此程序僅適用於非作業系統檔案的檔案層次還原。若要還原系統映像檔，請遵循 [Windows BMR](restoring-evault-bmr-system-volume-image.html) 指示。
+有時，您想要將資料還原至相同資料中心內的不同伺服器。此程序僅適用於非作業系統檔案的檔案層次還原。若要還原系統映像檔，請遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示。
 
-此處理程序包括在第二部伺服器上重新登錄 EVault 代理程式，以存取第一部伺服器的 EVault 位置，以及完成**從另一部電腦還原**。
+此處理程序包括在第二部伺服器上重新登錄備份代理程式，以存取第一部伺服器的儲存庫位置，以及完成**從另一部電腦還原**。
 
 **必要條件**
 
-- Server1 和 Server 2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的 EVAult 代理程式。若要瞭解如何配置 EVault 代理程式，請按一下[這裡](index.html#configuring-evault-agent-in-webcc)。
-- 已對 Server1 EVault 位置產生備份的 Server1 備份工作。
+- Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 WebCC 中配置備份代理程式](index.html#configuring-the-backup-agent-in-webcc)。
+- 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
-**附註**：請停用這兩部伺服器上的所有「排程」工作，以避免發生任何衝突。 
+請停用這兩部伺服器上的所有「排程」工作，以避免發生任何衝突。
+{:important}
 
 ## 啟動 Server2 的 WebCC
 
->**附註**：請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 WebCC 鏈結將無法運作。
+請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 WebCC 鏈結將無法運作。
+{:tip}
 
-1. 登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}，並從主功能表中按一下**儲存空間** > **備份**，以顯示具有 EVault 備份服務的伺服器。 
-2. 選取 Server2。按一下指向右方的展開箭頭來顯示 WebCC 鏈結。
-3. 按一下 **WebCC 登入**，在瀏覽器中啟動 WebCC 用戶端。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 
-## 重新登錄 EVault
+   或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
+2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
+3. 選取 Server2。按一下指向右方的展開箭頭來顯示 WebCC 鏈結。
+4. 按一下 **WebCC 登入**，在瀏覽器中啟動 WebCC 用戶端。
+
+## 重新登錄儲存庫
 
 1. 按一下**所有代理程式**，然後開啟您要修改的特定代理程式。
 2. 按一下**編輯**，然後選取**儲存庫設定**。
 3. 按一下**重新登錄**，將 Server1 連接至 Server2。
 4. 在**使用儲存庫設定檔**項目的**重新登錄儲存庫**畫面上，選取**輸入儲存庫設定**。
-5. 輸入「儲存庫名稱」，其與 Server1 的 EVault 名稱相同。
-6. 輸入 Server1 的認證以登入 Server1 的 EVault。
+5. 輸入「儲存庫名稱」，其與 Server1 的儲存庫名稱相同。
+6. 輸入 Server1 的認證以登入 Server1 的儲存庫。
 7. 按一下**載入電腦**，此動作會顯示連接至儲存庫位置的伺服器。
 8. 按一下**儲存變更**。
-9. 出現提示時，請按一下**是**以確認重新登錄 EVault。
+9. 出現提示時，請按一下**是**以確認重新登錄儲存庫。
 
 ## 從 Server1 執行備份工作，以作為 Server2 上的還原工作
 
 1. 按一下**所有代理程式**。
-   >**附註**：您可能需要重新整理頁面，才能在 Server2 的**工作**標籤下，看到在 Server1 上定義為可存取/已同步的工作。
+
+   您可能需要重新整理頁面，才能在 Server2 的**工作**標籤下，看到在 Server1 上定義為可存取/已同步的工作。
+   {:tip}
 2. 將滑鼠移至**進階**上，並選取**從另一部電腦還原**。
 3. 在**從另一部電腦還原**畫面上，選取下列各項。
-  - 儲存庫 - 此項目預設為 Server1 的 EVault。
-  - 電腦 - 選取 Server1 作為要從該處還原的備份電腦。 
+  - 儲存庫 - 此項目預設為 Server1 的儲存庫。
+  - 電腦 - 選取 Server1 作為要從該處還原的備份電腦。
   - 工作 - 選取來自 Server1 的備份工作。
 4. 按**下一步**。
 5. 確認來源資訊
@@ -74,10 +86,10 @@ lastupdated: "2018-07-02"
   ls -la
   ```
   {: pre}
-  
+
 3. 比較輸出。
-  
+
 ## 繼續一般「備份」排程。
 
-1. 當還原完成時，請移除 server1（資料還原的來源）的登錄資訊。 
+1. 當還原完成時，請移除 server1（資料還原的來源）的登錄資訊。
 2. 輸入現行 server2 登錄並啟用「排程」作業。

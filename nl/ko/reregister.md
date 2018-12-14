@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 이 태스크는 일반적으로 서버의 운영 체제가 다시 로드된 후에 사용됩니다. 또한 다음 단계를 사용하여 [한 서버의 백업으로 다른 서버에서 데이터를 복원](restore-from-another-computer.html)할 수도 있습니다.
 
-1. WebCC를 시작하고 로그인하십시오. 자세한 정보는 [시작하기 튜토리얼](index.html)을 참조하십시오. 
+1. WebCC를 시작하고 로그인하십시오. 자세한 정보는 [시작하기 튜토리얼](index.html)을 참조하십시오.
 
    WebCC는 {{site.data.keyword.BluVPN}}을 통해서만 액세스가 가능하다는 점을 유념하십시오.
    {:tip}
@@ -27,7 +27,7 @@ lastupdated: "2018-12-14"
   - 저장소 주소
   - 계정
 
-    "계정"은 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에서의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
+    "계정"은 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에서의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
     {:tip}
   - 사용자 이름
   - 비밀번호

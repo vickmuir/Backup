@@ -28,10 +28,10 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 
 <hr>
 
-## How frequently can I back up data?
+## How frequently can the data be backed up?
 {: faq}
 
-Within WebCC, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
+Within {{site.data.keyword.backup_notm}} portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
 
 Highly frequent backups that run several times daily or hourly can cause backup jobs to become corrupted. This corruption occurs because backup vault does not get enough time to run required background maintenance tasks. Backup Jobs take precedence over maintenance tasks. So when backups are done with high frequency, the vault continues to run the backup jobs and cause the number of safesets to grow.
 {:note}
@@ -43,7 +43,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 
 Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
-You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that the default retentions are used as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is cleared. Archiving is not supported.
+You can modify default retention schemes and can create custom retention schemes. However, IBM recommends using the default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 {:tip}
 
 <hr>
@@ -88,14 +88,14 @@ By default the base client has a state-of-the-art technology to handle most open
 ## Where can I find information about pricing?
 {: faq}
 
-For more information, see [backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
-## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
+## Can the {{site.data.keyword.backup_full}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
 
 <hr>
 
@@ -106,10 +106,10 @@ You can still save and retrieve your backups even if you reached the limit of th
 
 <hr>
 
-## How can I set up notifications in WebCC to let me know whether my backups fail?
+## How can I set up notifications in {{site.data.keyword.backup_notm}} portal to let me know whether my backups fail?
 {: faq}
 
-Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in WebCC.
+Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in {{site.data.keyword.backup_notm}} portal.
 
 <hr>
 
@@ -126,17 +126,17 @@ If you restore the image to a larger disk than the original volume, the left ove
 
 <hr>
 
-## Can we use BMR for regular backup?
+## Can BMR be used for regular backup?
 {: faq}
 
 BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.  
 
 <hr>
 
-## Can we use BMR for database backups?
+##Can BMR be used for Database backups?
 {: faq}
 
-Backups of databases must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
+Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
 
 <hr>
 
@@ -163,4 +163,4 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 ## What does VSS (Volume Shadow Copy Services) do?
 {: faq}
 
-The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. The backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
+The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.

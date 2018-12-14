@@ -9,6 +9,8 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Linux에서 단순 파일 레벨 백업 구성
 
@@ -16,10 +18,10 @@ lastupdated: "2018-12-14"
 
 ## WebCC 시작
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. 
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오. 
+   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 2. 백업할 파일이 있는 서버를 선택하십시오. 오른쪽을 지시하는 확장 화살표를 클릭하여 WebCC 링크를 표시하십시오.
 3. VPN 연결을 시작하여 IBM 사설 네트워크에 액세스하십시오.
 4. WebCC 로그인 링크를 클릭하여 브라우저에서 WebCC 클라이언트를 시작하십시오.<br/>
@@ -55,7 +57,7 @@ lastupdated: "2018-12-14"
 12. 스케줄 작성 페이지에서 **추가**를 클릭하여 시간 기반 백업 작업을 스케줄하거나 **다음**을 클릭하여 수동 작업을 작성하십시오.
   - 수동 작업 작성을 선택한 경우에는 15단계를 진행하십시오.
   - 시간 기반 작업 스케줄링을 선택한 경우에는 백업을 실행할 날의 날짜와 시간을 선택하십시오.
-  - 보유 스킴을 선택하십시오. 보유 스킴에 대한 자세한 정보는 [FAQ](faqs.html#-how-do-the-retention-schemes-work-)를 참조하십시오. 
+  - 보유 스킴을 선택하십시오. 보유 스킴에 대한 자세한 정보는 [FAQ](faqs.html#-how-do-the-retention-schemes-work-)를 참조하십시오.
   - 추가 구성 선택을 위해 **고급 스케줄 옵션**을 클릭하십시오. **지연 사용**을 선택하여 최대 네트워크 시간에 대규모 백업이 실행되지 않도록 방지할 수 있습니다.
 
 지연 옵션이 사용되는 경우, 백업 작업은 지정된 기간이 지나도 새 데이터를 백업하지 않습니다. 작업의 일부 데이터가 백업되지 않았어도 safeset를 저장소에 커미트합니다. 이전에 저장된 데이터에 대한 변경사항은 지정된 기간과는 무관하게 백업됩니다. <br/> 작업을 다시 실행할 때 에이전트는 이전에 백업된 데이터의 변경사항을 검사하고 해당 변경사항을 백업한 후에 나머지 데이터를 백업합니다. 항목을 백업하는 동안 백업 작업이 연기된 경우, 해당 항목에 대한 백업은 불완전하며 해당 항목의 데이터를 복원할 수 없습니다. 하지만 작업이 연기되기 전에 작업에서 백업된 항목은 복원할 수 있습니다.

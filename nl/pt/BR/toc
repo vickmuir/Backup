@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup/index.html" path="infrastructure/Backup"}
-IBM Cloud Storage-Backup Services
+IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
     Index.md
@@ -11,13 +11,15 @@ IBM Cloud Storage-Backup Services
     {: .navgroup id="howto"}
     {: .topicgroup}
     Configuração
-        install-evault-backup-client-linux.md
+        install-backup-client-linux.md
         configure-simple-file-backup-linux.md
-        install-evault-backup-client-windows.md
-        upgrade-evault-backup-agent-windows.md
-        install-evault-windows2016.md
-        evault-port-information.md
-        how-do-i-re-register-evault.md
+        install-backup-client-windows.md
+        configure-bmr-backup-windows.md
+        upgrade-backup-agent-windows.md
+        install-backup-client-windows2016.md
+        [Instalando o cliente de backup para o VMware](infrastructure/vmware/install-evault-backup-client-vmware.html)
+        port-information.md
+        reregister.md
         multivaulting.md
         canceling-backup-service.md
 
@@ -27,19 +29,18 @@ IBM Cloud Storage-Backup Services
         restore-from-another-computer.md
         restore-from-another-computer-windows2016.md
         restore-from-another-server-in-another-dc.md
-        restoring-evault-bmr-system-volume-image.md
+        restore-bmr-system-volume-image.md
 
     {: .topicgroup}
     Plug-ins
-        evault-bmr-plugin.md
-        configure-bmr-backup-windows.md
-        evault-exchange-plugin.md
-        evault-mssql-plugin.md
-        evault-oracle-plugin.md
+        bmr-plugin.md
+        exchange-plugin.md
+        mssql-plugin.md
+        oracle-plugin.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     faqs.md
-    change-password-evault-backup-service.md
-    expanding-evault-capacity.md
+    change-password.md
+    expanding-capacity.md
     {: .navgroup-end}

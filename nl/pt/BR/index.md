@@ -2,63 +2,74 @@
 
 copyright:
   years: 2014, 2018
-lastupdated: "2018-09-12"
+lastupdated: "2018-12-14"
 
 ---
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
-# Introdução aos serviços de Backup do EVault
+# Introdução aos serviços do {{site.data.keyword.backup_notm}}
 
-Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O backup do EVault é um sistema de backup baseado em agente automatizado que é gerenciado por meio do utilitário de gerenciamento baseado em navegador WebCC do EVault. O EVault fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na Rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
+Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O {{site.data.keyword.backup_full}} é um sistema de backup baseado em agente automatizado gerenciado por meio do utilitário de gerenciamento baseado em navegador do WebCC. O {{site.data.keyword.backup_notm}} fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
 
-## Solicitando EVault 
+## Solicitando o {{site.data.keyword.backup_notm}}
 
-É possível comprar o serviço de backup do EVault de duas maneiras.
+É possível comprar o serviço do {{site.data.keyword.backup_notm}} de duas maneiras.
 
-- Comprar EVault quando você solicita um servidor
-- Comprar EVault como um upgrade
+- [Comprar o {{site.data.keyword.backup_notm}} ao solicitar um servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server)
+- [Comprar o {{site.data.keyword.backup_notm}} como um upgrade](#purchasing-ibm-cloud-backup-as-an-upgrade)
 
-Para obter informações sobre precificação, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} no IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
-### Comprando o EVault quando você solicita um servidor
+### Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 
-1. Efetue login no [Catálogo do IBM Cloud](https://console.bluemix.net/catalog/){:new_window} ou no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Solicite um servidor bare metal mensal. É possível saber mais sobre como solicitar servidores bare metal
-[aqui](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html){:new_window}.
-3. Você é redirecionado para o portal de gerenciamento para concluir o pedido. <br/>
-   >**Nota**: o serviço de backup do EVault não está disponível quando você está solicitando um servidor faturado por hora. No entanto, o serviço pode ser incluído posteriormente como um upgrade. 
-4. Na seção **Complementos**, escolha uma das opções do EVault (exceto "Nenhuma").
-6. Role para baixo e clique em **Incluir no pedido**.
-7. Localize a seção Nomes de host e domínio e insira os nomes de host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
-8. À direita, clique nos **Termos do serviço de nuvem** e nas caixas de seleção **Contrato de serviço de terceiro**.
-9. Confirme ou insira suas informações de pagamento e clique em **Enviar pedido**. Você é redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento. <br/>**Nota**: também é possível salvar esse pedido sem efetuar a compra clicando em
-**Salvar como cotação**.
+1. Efetue login no [catálogo do IBM Cloud](https://{DomainName}/catalog/){:new_window} ou no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](bare-metal/baremetal-provision.html){:new_window}.
+   1. Selecione a opção Quantidade, Faturamento. Insira os nomes do host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
+
+   O serviço do {{site.data.keyword.backup_notm}} não está disponível quando você solicita um servidor faturado por hora. No entanto, o serviço pode ser incluído posteriormente como um upgrade.
+   {:tip}
+
+   2. Selecione o local.
+   3. Selecione Configuração do servidor e Tipo de imagem do S.O. Também é possível escolher múltiplos complementos.
+   4. Na seção **Discos de armazenamento**, clique em **Complementos** e selecione **Backup do {{site.data.keyword.backup_notm}}**. Escolha a opção que corresponde ao que você precisa.
+   5. Em **Interface de rede**, selecione a Velocidade da porta de uplink e quaisquer complementos que desejar.
+3. À direita, revise o resumo do pedido.
+4. Depois de ter revisado os termos e as condições, marque a caixa **Eu li e concordo com os Contratos de Prestação de Serviços de terceiro**.
+5. Clique em  ** Provisão **. Você é redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
+
+   Também é possível salvar esse pedido sem comprar clicando em **Salvar como cotação**.
+   {:tip}
 
 Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível registrar-se diretamente no {{site.data.keyword.slportal}}.
 
-** Confirmando a compra do serviço do EVault **
-1. No
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window},
-selecione **Dispositivos** > **Lista de dispositivos** no menu principal. 
+#### Confirmando a compra do {{site.data.keyword.backup_notm}}
+1. No [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Clique em **Dispositivo** > **Lista de dispositivos**.
 2. Localize o novo servidor que você solicitou.
-  - Se houver um ícone de relógio ao lado da URL, será necessário esperar para continuar com a confirmação de compra do EVault. É possível atualizar a página para ver um status atualizado em seu novo
-servidor. Quando o ícone de relógio não estiver mais sendo exibido, será possível continuar com as próximas etapas
-para confirmar a compra do serviço EVault.
-  - Quando o ícone de relógio não estiver mais sendo exibido para seu servidor, clique no link (a URL do
-servidor) para acessar a página **Detalhes**. 
-3. Clique na guia **Armazenamento** para exibir as informações do EVault.
-4. Inspecione a seção EVault e verifique se o tamanho que foi selecionado durante o processo de compra do EVault é exibido ao lado do link do EVault.
+  - Se houver um ícone de relógio ao lado da URL, será necessário aguardar para continuar com a confirmação da compra do {{site.data.keyword.backup_notm}}. É possível atualizar a página para ver um status atualizado em seu novo servidor. Quando o ícone de relógio não estiver mais presente, será possível continuar com as próximas etapas para confirmar a compra do serviço do {{site.data.keyword.backup_notm}}
+  - Quando o ícone de relógio não estiver mais sendo exibido para seu servidor, clique no link (a URL do servidor) para acessar a página **Detalhes**.
+3. Clique na guia **Armazenamento** para exibir as informações do {{site.data.keyword.backup_notm}}.
+4. Inspecione a seção do {{site.data.keyword.backup_notm}} e verifique se o tamanho que foi selecionado durante o processo de compra é exibido.
 
-### Comprando EVault como um upgrade
+### Comprando o {{site.data.keyword.backup_notm}} como um upgrade
 
-**Selecione um servidor no qual instalar o EVault**
-1. Efetue login no [Catálogo do IBM Cloud](https://console.bluemix.net/catalog/){:new_window} ou no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
-2. Selecione **Dispositivos** > **Lista de dispositivos** no menu
-principal. Localize o dispositivo para o qual você deseja incluir o serviço EVault.
-3. Clique no Nome do dispositivo para acessar a página Detalhes do dispositivo.
+#### Selecione um servidor no qual instalar o {{site.data.keyword.backup_notm}}
 
-**Incluindo (comprando) serviço do EVault**
-1. Clique na guia **Armazenamento** e role para baixo para localizar a seção EVault.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal. Localize o dispositivo para o qual deseja incluir o serviço de backup do {{site.data.keyword.cloud_notm}}.
+3. Clique em Nome do dispositivo para acessar a página **Detalhes do dispositivo**.
+
+#### Incluindo (comprando) o serviço do {{site.data.keyword.backup_notm}}
+1. Clique na guia **Armazenamento** e role para baixo para localizar a seção do {{site.data.keyword.backup_notm}}.
 2. Clique no link **Incluir**.
 3. Na janela, selecione um local e selecione um tamanho.
 4. Selecione o tipo de Pagamento e clique em **Continuar**
@@ -67,30 +78,32 @@ principal. Localize o dispositivo para o qual você deseja incluir o serviço EV
 7. Clique na caixa de seleção, caso você concorde com os termos e condições.
 7. Clique em **Fazer pedido**.
 
-** Confirmando a compra de upgrade do EVault **
-1. Atualize a página **Detalhes do dispositivo** e assegure-se de que a
-guia **Armazenamento** esteja selecionada.
-2. Inspecione a seção EVault e verifique se o tamanho que foi selecionado durante o processo de compra do EVault é exibido ao lado do link do EVault. <br /> **Nota**: se o tamanho de armazenamento do EVault continuar mostrando uma capacidade zero, uma segunda atualização de página poderá ser necessária. 
+#### Confirmando a compra de upgrade do {{site.data.keyword.backup_notm}}
+1. Atualize a página **Detalhes do dispositivo** e assegure-se de que a guia **Armazenamento** esteja selecionada.
+2. Inspecione a seção do {{site.data.keyword.backup_notm}} e verifique se o tamanho que foi selecionado durante o processo de compra é exibido.
 
-## Acessando e visualizando detalhes do armazenamento de Backup do EVault no {{site.data.keyword.slportal}}
+   Se o tamanho do armazenamento de backup continuar a mostrar uma capacidade de zero, uma segunda atualização de página poderá ser necessária.
+   {:tip}
 
-Os detalhes de armazenamento de seu serviço de backup do EVault podem ser visualizados no {{site.data.keyword.slportal}} a qualquer momento. Detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que está associado ao serviço de backup do EVault selecionado. 
+## Acessando e visualizando os detalhes de armazenamento do {{site.data.keyword.backup_notm}}
 
-1. Para acessar a tela **Armazenamento de backup do EVault**, efetue login no
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} com suas credenciais exclusivas.
+Os detalhes de armazenamento do serviço do {{site.data.keyword.backup_notm}} podem ser visualizados no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e no {{site.data.keyword.slportal}} ou a qualquer momento. Os detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que estão associados ao serviço do {{site.data.keyword.backup_notm}} selecionado.
+
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** e selecione **Backup** na lista.
-2. Clique em qualquer lugar na linha para a área segura de backup do EVault desejada para visualizar seus detalhes de armazenamento. Nessa visualização, a Senha não está visível. Continue com a próxima etapa para visualizar a senha que está associada ao seu serviço de backup do EVault.
-3. Clique na caixa de seleção **Mostrar** ao lado do campo **Senha** para visualizar a senha para o serviço de backup do EVault selecionado.
+2. Clique em qualquer lugar na linha da área segura da qual deseja visualizar os detalhes de armazenamento. Nessa visualização, a Senha não está visível. Prossiga para a próxima etapa para visualizar a senha que está associada ao serviço do {{site.data.keyword.backup_notm}}.
+3. Clique na caixa de seleção **Mostrar** ao lado do campo **Senha** para visualizar a senha para o serviço do {{site.data.keyword.backup_notm}} selecionado.
 
-Para muitos produtos e serviços {{site.data.keyword.BluSoftlayer_full}}, o recurso de armazenamento de senha dentro do {{site.data.keyword.slportal}} é usado exclusivamente para armazenamento ou rastreamento da senha. Para essas ofertas, as mudanças que são feitas neles dentro do {{site.data.keyword.slportal}} não são aplicadas ao produto ou serviço. 
+Para muitos produtos e serviços {{site.data.keyword.BluSoftlayer_full}}, o recurso de armazenamento de senha dentro do {{site.data.keyword.slportal}} é usado exclusivamente para armazenamento ou rastreamento da senha. Para essas ofertas, as mudanças que são feitas neles dentro do {{site.data.keyword.slportal}} não são aplicadas ao produto ou serviço.
 
-Esse _não_ é o caso para o backup do EVault. As mudanças feitas na senha de backup do EVault dentro do {{site.data.keyword.slportal}} são feitas no próprio serviço. Quando você mudar sua senha, tenha em mente que ela afeta seu serviço diretamente. Para reconfigurar sua senha, siga as etapas
-em [Como mudar uma senha
-do EVault Backup no {{site.data.keyword.slportal}}](/docs/infrastructure/Backup/change-password-evault-backup-service.html).
+_Não_ é o caso para o {{site.data.keyword.backup_notm}}. As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentro do {{site.data.keyword.slportal}} são feitas no próprio serviço. Quando você mudar sua senha, tenha em mente que ela afeta seu serviço diretamente. Para reconfigurar a senha, siga as etapas em [Como mudar uma senha do {{site.data.keyword.backup_notm}} no {{site.data.keyword.slportal}}](change-password.html).
+{:important}
 
-## Instalando o agente do EVault
+## Instalando o agente do {{site.data.keyword.backup_notm}}
 
-O EVault Agent é suportado nos S.O. a seguir:
+O agente do {{site.data.keyword.backup_notm}} é suportado no S.O. a seguir:
 
 **Windows**
  - Windows Server 2012 R2
@@ -110,27 +123,25 @@ O EVault Agent é suportado nos S.O. a seguir:
  - Ubuntu Linux 14,04
 
 Siga as instruções apropriadas para o seu S.O.
-- [Instalando o EVault Backup Client no
-Linux](install-evault-backup-client-linux.html)
-- [Instalando o EVault Backup Client no
-Windows](install-evault-backup-client-windows.html)
-- [Instalando o EVault Backup Client para Windows
-2016](install-evault-windows2016.html)
+- [Instalando o cliente de backup no Linux](install-backup-client-linux.html)
+- [Instalando o cliente de backup no Windows](install-backup-client-windows.html)
+- [Instalando o cliente de backup para o Windows 2016](install-windows2016.html)
 
-## Acessando o WebCentralControl (WebCC) para o EVault Backup
+## Acessando o WebCentralControl (WebCC)
 
-O WebCentralControl (WebCC) é o cliente usado para interagir com qualquer serviço de backup do EVault oferecido pelo {{site.data.keyword.BluSoftlayer_full}}. O WebCC é um cliente baseado em navegador que é executado na rede privada do {{site.data.keyword.BluSoftlayer_full}} e permite o controle total de qualquer serviço de backup do EVault, incluindo configuração e restaurações. Siga estas etapas para acessar o WebCC para backup do EVault.
+O WebCentralControl (WebCC) é o cliente usado para interagir com qualquer serviço do {{site.data.keyword.backup_notm}} oferecido pelo {{site.data.keyword.BluSoftlayer_full}}. O WebCC é um cliente baseado em navegador que é executado na rede privada do {{site.data.keyword.BluSoftlayer_full}} e permite o controle total de qualquer serviço do {{site.data.keyword.backup_notm}}, incluindo a configuração e as restaurações. Siga essas etapas para acessar o WebCC.
 
-1. Acesse a rede privada por meio de VPN.<br/>**Nota**: o WebCC não pode ser acessado pela rede pública. Uma conexão VPN deve ser estabelecida primeiro.
-2. Acesse a tela de armazenamento de backup do EVault no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
-3. Clique em qualquer lugar na linha do EVault Backup desejado para expandir a
-visualização.
+1. Acesse a rede privada por meio de VPN.
+
+   O WebCC não pode ser acessado por meio da rede pública. Uma conexão VPN deve ser estabelecida primeiro.
+   {:important}
+2. Acesse a tela Armazenamento de backup no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+3. Clique em qualquer lugar na linha do serviço do {{site.data.keyword.backup_notm}} que você deseja ver para expandir a visualização.
 4. Clique em **Login do WebCC** para iniciar o cliente do WebCC em seu navegador.
 
-## Configurando o agente do EVault no WebCC
+## Configurando o agente de backup no WebCC
 
-Depois de ter pedido seu serviço EVault e o agente ser instalado no servidor, é possível iniciar a criação de backups de seus dados. Siga estas etapas para configurar seu agente e
-o planejamento de retenção e iniciar sua primeira tarefa de backup.
+Depois de ter solicitado o {{site.data.keyword.backup_notm}} e o agente estiver instalado no servidor, será possível iniciar a criação de backups dos dados. Siga estas etapas para configurar seu agente e o planejamento de retenção e iniciar sua primeira tarefa de backup.
 
 1. Efetue login no WebCC.
 2. Clique em **Todos os Agentes**> **Agentes Configurado**.
@@ -149,19 +160,19 @@ o planejamento de retenção e iniciar sua primeira tarefa de backup.
    3. Conclua os detalhes de retenção.
    4. Clique em **OK**.
    5. Clique em **Salvar**.
-   **Nota**: leia mais sobre como os Esquemas de retenção funcionam [aqui](evault-backup-faq.html)
+
+      Para obter mais informações sobre os esquemas de retenção, consulte as [Perguntas mais frequentes](faqs.html)
+      {:tip}
 5. Execute o agente e inicie um backup.
    1. Clique em **Todos os agentes** e, em seguida, selecione o agente que você configurou.
    2. Clique em **Executar backup**.
    3. Confirme o Destino e selecione um esquema de retenção.
-   4. Clique em **Iniciar Backup**. É possível visualizar os detalhes de backups
-enquanto o processo está em execução.
+   4. Clique em **Iniciar Backup**. É possível visualizar os detalhes de backups enquanto o processo está em execução.
    5. Quando o backup estiver concluído, clique em **Fechar**.
-   
->**Nota**: leia mais sobre como é possível configurar backups no nível do arquivo simples no Linux [aqui](configure-simple-file-backup-linux.html).
+
+Para obter mais informações sobre os backups no nível de arquivo no Linux, consulte [Configurando o backup de nível de arquivo simples no Linux](configure-simple-file-backup-linux.html).
+{:tip}
 
 ## Obtendo ajuda on-line
 
 Os sistemas de WebCC são totalmente documentados e o suporte para o aplicativo é acessível no WebCC. Clique no ponto de interrogação branco em um círculo azul que está localizado no canto superior direito para obter **Ajuda**. Clique em qualquer artigo ou tópico na barra de navegação no lado esquerdo para visualizar mais informações.
-
-

@@ -2,40 +2,45 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-12-14"
 
 ---
 {:pre: .pre}
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
-# Restoring data from one VSI to another within the same data center
+# Restoring Data from one VSI to another within the same data center
 
-Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restoring-evault-bmr-system-volume-image.html) instructions.
+Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restore-bmr-system-volume-image.html) instructions.
 
-The process includes reregistering the EVault agent on the second server to access the EVault location of the first server and completing a **Restore from another Computer**.
+The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
 **Pre-requisites**
 
 - Server1 and Server2 must have the same OS. Cross-platform restores aren't supported.
-- Server1 and Server2 must have EVault agents that were configured previously. To learn how to configure the EVault agents, click [here](index.html#configuring-backup-agent-in-webcc)
-- A backup job for Server1 that produced a backup to the Server1 EVault location.
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in {{site.data.keyword.backup_notm}} portal](index.html#configuring-the-backup-agent-in-webcc).
+- A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Schedule tasks on both servers to avoid any conflicts.
 {:important}
 
-## Starting WebCC of Server2
+## Starting {{site.data.keyword.backup_notm}} portal of Server2
 
-Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the WebCC link doesn't work.
+Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the {{site.data.keyword.backup_notm}} portal link doesn't work.
 {:tip}
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and click **Storage** > **Backup** from the main menu to display the servers with EVault backup service.
-2. Select Server2. Click the right-pointing expansion arrow to reveal the WebCC link.
-3. Click **WebCC Login** to start the WebCC client in your browser.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.
 
-## Reregistering the EVault
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Click **Storage** > **Backup** to display the servers with backup service.
+3. Select Server2. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
+
+## Reregistering the vault
 
 1. Click **All Agents** and open the specific agent that you want to modify.
 2. Click **Edit** and select **Vault Settings**.
@@ -45,12 +50,14 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 6. Enter credentials for Server1 to log in to the vault for Server1.
 7. Click **Load Computers**, this action displays the servers that are attached to the vault location.
 8. Click **Save Changes**.
-9. When prompted, click **Yes** to confirm the reregistration of the EVault.
+9. When prompted, click **Yes** to confirm the reregistration of the vault.
 
 ## Running the backup job from Server1 as the restore job on Server2
 
 1. Click **All Agents**.
-   >**Note** - You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab
+
+   You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab.
+   {:tip}
 2. Hover over **Advanced** and select **Restore from another Computer**.
 3. On the **Restore From Another Computer** screen, make the following selections.
   - Vault - This entry defaults to Server1's vault.

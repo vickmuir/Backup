@@ -10,18 +10,20 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # 백업 작성 및 하나의 VSI에서 다른 데이터 센터의 다른 VSI로 데이터 복원
 
 종종 다른 서버로 데이터를 복원하고자 할 수도 있습니다. 이 프로시저는 비OS 파일의 파일 레벨 복원에만 적용됩니다. 시스템 이미지를 복원하려면 [Windows BMR](restore-bmr-system-volume-image.html) 지시사항을 따르십시오.
 
-이 프로세스에는 첫 번째 서버의 저장소 위치에 액세스하기 위한 두 번째 서버의 백업 에이전트 재등록 및 **다른 컴퓨터에서의 복원** 완료가 포함됩니다. 
+이 프로세스에는 첫 번째 서버의 저장소 위치에 액세스하기 위한 두 번째 서버의 백업 에이전트 재등록 및 **다른 컴퓨터에서의 복원** 완료가 포함됩니다.
 
 **전제조건**
 
 - Server1 및 Server2는 동일한 OS를 보유해야 합니다. 크로스 플랫폼 복원은 지원되지 않습니다.
-- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [WebCC에서 백업 에이전트 구성](index.html#configuring-the-backup-agent-in-webcc)을 참조하십시오. 
-- Server1 저장소 위치로의 백업을 생성한 Server1에 대한 백업 작업. 
+- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [WebCC에서 백업 에이전트 구성](index.html#configuring-the-backup-agent-in-webcc)을 참조하십시오.
+- Server1 저장소 위치로의 백업을 생성한 Server1에 대한 백업 작업.
 
 충돌을 피하려면 두 서버 모두의 모든 스케줄 태스크를 중지하십시오.
 {:important}
@@ -31,10 +33,10 @@ lastupdated: "2018-12-14"
 반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면, WebCC 링크가 작동하지 않습니다.
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://console.bluemix.net/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. 
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오. 
+   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. Server2를 선택하십시오. 오른쪽을 지시하는 확장 화살표를 클릭하여 WebCC 링크를 표시하십시오.
 4. **WebCC 로그인**을 클릭하여 브라우저에서 WebCC 클라이언트를 시작하십시오.
 
@@ -64,7 +66,7 @@ lastupdated: "2018-12-14"
 7. **다른 컴퓨터에서 복원** 화면으로 돌아가 컴퓨터 및 작업 필드를 업데이트하십시오.
   - 컴퓨터 - 복원되는 백업 컴퓨터로서 Server1을 선택하십시오.
   - 작업 - Server1의 백업 작업을 선택하십시오.
-8. **다음**을 클릭하여 다른 데이터 센터에 있는 server2로의 복원 프로세스를 시작하십시오. 
+8. **다음**을 클릭하여 다른 데이터 센터에 있는 server2로의 복원 프로세스를 시작하십시오.
 9. 프롬프트에서 백업 비밀번호를 입력하고 **다음**을 클릭하십시오.
 10. 오른쪽 백업 작업이 선택되어 있는지 확인하고 **다음**을 클릭하십시오. 이제 server2에서 복원 작업이 구성됩니다.
 11. 새로 구성된 작업을 선택하고 **복원 실행**을 클릭하십시오.
