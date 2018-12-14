@@ -33,7 +33,7 @@ Backing up to remote data center locations can take longer than backups to the s
 
 ## Adding a Remote Vault to an Account
 
-You must add the new remote {{site.data.keyword.backup_notm}} vault to the account before a new backup location can be added in the {{site.data.keyword.backup_notm}} portal.
+You must add the new remote vault to the account before a new backup location can be added in the {{site.data.keyword.backup_notm}} portal.
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window}, and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
@@ -56,7 +56,7 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select the server that you want to be able to back up to multiple vaults. Click the right-pointing arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click the **{{site.data.keyword.backup_notm}} portal Login** link to start the {{site.data.keyword.backup_notm}} portal client in your browser.
+4. Click the **{{site.data.keyword.backup_notm}} portal Login** link to start the portal client in your browser.
 
    {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}

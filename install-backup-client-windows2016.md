@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Configuring {{site.data.keyword.backup_notm}} on Windows 2016
 
-## Installing the {{site.data.keyword.backup_notm}} Software agent
+## Installing the backup agent
 
 1. On the target server, open a browser session and enter the following URL to download the executable file.
    ```
@@ -85,7 +85,7 @@ This task is completed through a series of interactions while you are logged in 
 8. Click **Finish** to complete the configuration of the retention scheme.
 
 
-## Setting up the {{site.data.keyword.backup_notm}} Job
+## Setting up the backup job
 
 1. Remote control your server through RDP.
 2. Start Central Control.
@@ -105,7 +105,7 @@ This task is completed through a series of interactions while you are logged in 
 13. Select **Just exit from this wizard**, and click **Finish** to complete the configuration. The new job now appears under My Agent.
 
 
-## Running the {{site.data.keyword.backup_notm}} job
+## Running the backup job
 
 1. Remote control your server through RDP.
 2. Start Central Control.

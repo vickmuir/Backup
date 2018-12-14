@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installing the Backup Client in Windows
+# Installing the backup client in Windows
 
 Installing the {{site.data.keyword.backup_full}} client in Windows is completed through a series of interactions on the server that is designated for the {{site.data.keyword.backup_notm}} service.
 
@@ -29,7 +29,7 @@ For information about backups for Windows 2016 servers, see [Configuring {{site.
 4. Click the right-pointing arrow to expand and show more information about the device, including the user name and password. If the password isn't displayed, clicking **Show Password** reveals it.
 5. Log in to the target device by using Remote Desktop Connection.
 
-## Downloading the Backup client
+## Downloading the backup client
 
 1. On the target server, open a browser session and enter the following URL to download the executable file for the {{site.data.keyword.backup_notm}} client. <br/>
   ```
@@ -54,6 +54,6 @@ For information about backups for Windows 2016 servers, see [Configuring {{site.
 6. Click **Next**
 7. Click **Install** to complete the installation.
 
-## Configuring Backup Agents
+## Configuring backup agents
 
 Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](index.html#configuring-the-backup-agent-and-the-backup-schedule).

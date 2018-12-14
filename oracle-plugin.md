@@ -43,9 +43,9 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 7. Check the box to indicate that you read and accept the Third-party Service Agreements.
 8. Click **Place Order**.
 
-## Installing the Oracle plug-in for Windows
+## Installing the plug-in for Windows
 
-The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the Oracle plug-in, run the Agent installation kit. The Oracle plug-in appears as an option on the **Custom Setup** page.
+The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
 Before you install the plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
@@ -61,9 +61,9 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 9. When the installation is complete, check to ensure that both services are enabled and running.
 10. If {{site.data.keyword.backup_notm}} portal is able to access or view the database, then the installation was successful.
 
-## Installing the Oracle plug-in for Linux
+## Installing the plug-in for Linux
 
-The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the Oracle plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](install-backup-client-linux.html).
+The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](install-backup-client-linux.html).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 
@@ -100,4 +100,4 @@ The Oracle plug-in performs an "inconsistent" whole database backup that require
 
 ## Downloading the user guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guides from [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

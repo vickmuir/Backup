@@ -39,7 +39,7 @@ For more information, see the [Main features](#main-featues) section.
 
 ## Installing the MSSQL plug-in
 
-To install the SQL plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
+To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
 Before you install the MSSQL plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}

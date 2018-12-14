@@ -28,7 +28,7 @@ The plug-ins that are listed here are only compatible with Windows servers, exce
 
 <hr>
 
-## How frequently can the data be backed up?
+## How frequently can we back up the data?
 {: faq}
 
 Within {{site.data.keyword.backup_notm}} portal, backups can be made manually, or can be scheduled as a single instance, or to be recurring. Recurring backups can be made daily, weekly, monthly or on a custom schedule and can be updated or canceled at any time.
@@ -41,7 +41,7 @@ Highly frequent backups that run several times daily or hourly can cause backup 
 ## How do the retention schemes work?
 {: faq}
 
-Evault Backup allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
+{{site.data.keyword.backup_notm}} allows for data-retention depending on how long you want to roll back to. **Daily** retention schemes hold data for seven days, while **weekly** schemes hold data for one month and **monthly** schemes hold data for one year. At the end of each period, the oldest data set gets rotated out, and the first "delta backup" that was made becomes the oldest available restore point.
 
 You can modify default retention schemes and can create custom retention schemes. However, IBM recommends that you use the default retentions as a starting point. When you create a new retention scheme or modify an existing retention, make sure that the Archiving option is unchecked. Archiving is not supported.
 {:tip}
@@ -51,15 +51,14 @@ You can modify default retention schemes and can create custom retention schemes
 ## What is Delta Technology?
 {: faq}
 
-The first backup is a "seed" (a complete, full backup), the next and subsequent ones are "deltas" (that is, changes only), but they are equivalent to, and still considered a "full backup". That is, you're able to restore all or any files from it. This technology allows for "full backups" to be made each session, but saves enormous amounts of space on the Vault and decreases the amount of time each subsequent backup takes to complete.
+The first backup is a "seed" (a complete, full backup), the next and subsequent ones are "deltas" (that is, changes only), but they are equivalent to, and still considered a "full backup". That is, you're able to restore all or any files from it. With this technology, "full backups" are created at each session, but it saves enormous amounts of space on the vault and decreases the amount of time each subsequent backup takes to complete.
 
 <hr>
 
 ## Are the backups secure?
 {: faq}
 
-By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted
-format by using AES 256-bit.
+By default all encryption over the wire (OTW) is encrypted with AES 256-bit encryption. You can also choose to store data in encrypted format by using AES 256-bit.
 
 You must remember your encryption password. Your data can't be restored without your password. If you lose your password, you can't get your data back.
 {:important}
@@ -71,7 +70,7 @@ Compression ratios allow for zero compression to a maximum ratios compression th
 ## What information is stored with system state backups?
 {: faq}
 
-The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. By including the system files, you can recover from corrupted system files, or if you accidentally uninstall some service packs, or want to recover with a bare-metal restore. You can return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
+The system state backups include, but aren't limited to COM + class registration database, registry, boot files, system files, performance counter. It's all dependent on your system. System files vary by system O/S and service packs. Usually there are several thousand of them. MS Windows makes a dynamic list of these DLLs when you include them in the backup. By including the system files, you can recover from corrupted system files, or if you accidentally remove some service packs, or want to recover with a bare-metal restore. You can return to the state of the backup without having to reinstall the O/S from the installation kit, and then installing each service pack separately.
 
 No user data file is included in System state backup. A system state backup job must be configured as a stand-alone job. There mustn't be any other data source that is included in the System State backup job
 {:important}
@@ -81,7 +80,7 @@ No user data file is included in System state backup. A system state backup job 
 ## What happens to open files?
 {: faq}
 
-By default the base client has a state-of-the-art technology to handle most open files that are running on the OS.
+By default, the base client has a state-of-the-art technology to handle most open files that are running on the OS.
 
 <hr>
 
@@ -115,7 +114,7 @@ Notifications can be set up on the Advanced tab. Follow the instructions that yo
 
 ## When we use the BMR plug-in, can we move from a single disk to a raid array?
 
-Yes, that works. However, you need to select a large capacity device due to the size decrease the raid array causes.
+Yes, that works. However, you need to select a large capacity device due to the size decrease that the raid array causes.
 
 <hr>
 
@@ -136,7 +135,7 @@ BMR backup isn't a disk image, but a system volume image backup system. The syst
 ##Can BMR be used for Database backups?
 {: faq}
 
-Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data. There's a note to this effect at the end of the BMR user guide.
+Database backups must be made separately with the normal {{site.data.keyword.backup_notm}} methods. BMR doesn't replace the need for SQL or Oracle plug-ins. Though BMR uses the VSS technology to backup open files, it can't always be guaranteed that the backed-up files are transaction consistent. The recommendation for these types of specialized applications is that you create two backup jobs: one to back up OS and application binary files and another one for application data.
 
 <hr>
 
@@ -163,4 +162,4 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 ## What does VSS (Volume Shadow Copy Services) do?
 {: faq}
 
-The current version of the SQL Server plug-in for {{site.data.keyword.backup_notm}} uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
+The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.

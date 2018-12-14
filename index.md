@@ -20,8 +20,8 @@ Backups ensure that your data is safely stored outside of your device and protec
 
 You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 
-- [Purchase {{site.data.keyword.backup_notm}} when you Order a Server](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Purchase {{site.data.keyword.backup_notm}} as an Upgrade](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Purchase backups when you Order a Server](#purchasing-ibm-cloud-backup-when-you-order-a-server).
+- [Purchase backups as an Upgrade](#purchasing-ibm-cloud-backup-as-an-upgrade).
 
 For more information about pricing, see [{{site.data.keyword.backup_notm}} storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
@@ -62,7 +62,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.</br>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
-2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add {{site.data.keyword.cloud_notm}} Backup service.
+2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add the backup service.
 3. Click the Device name to go to the **Device Details** page.
 
 #### Adding (purchasing) {{site.data.keyword.backup_notm}} service
@@ -84,15 +84,15 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details
 
-The storage details of your {{site.data.keyword.backup_notm}} service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.</br>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage**, and select **Backup** from the list.
-2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your {{site.data.keyword.backup_notm}} service.
+2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an {{site.data.keyword.backup_notm}} password in the {{site.data.keyword.slportal}}](change-password.html).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, it impacts your service directly. To reset your password, follow the steps in [Changing the password for the backup service](change-password.html).
 {:important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
@@ -131,12 +131,12 @@ Follow the instructions appropriate for your OS,
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
 2. Access the Backup storage screen in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
-3. Click anywhere on the row of the {{site.data.keyword.backup_notm}} service that you want see to expand the view.
+3. Click anywhere on the row of the {{site.data.keyword.backup_notm}} service that you want to see to expand the view.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
 
 ## Configuring the Backup agent and the backup schedule
 
-After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. You can follow these steps to configure your agent, retention schedule and start your first backup job.
+After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Follow these steps to configure your agent, retention schedule and start your first backup job.
 
 1. Log in to the {{site.data.keyword.backup_notm}} portal.
 2. Click **All Agents**> **Unconfigured Agents**.
@@ -164,7 +164,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
    4. Click **Start Backup**. You can view the backup details while the process is running.
    5. When the backup is complete, click **Close**.
 
-For more information about File-level backups on Linux, see [Configuring Simple File-level Backup on Linux](configure-simple-file-backup-linux.html).
+For more information, see [Configuring simple file-level backup on Linux](configure-simple-file-backup-linux.html).
 {:tip}
 
 ## Getting online help

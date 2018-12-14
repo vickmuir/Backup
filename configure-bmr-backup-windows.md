@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Configuring BMR backup job on Windows
 
-You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI.
+You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Installing the Bare Metal Restore plug-in](bmr-plugin.html)
 {:important}
 
 ## Starting {{site.data.keyword.backup_notm}} portal
@@ -26,7 +26,7 @@ You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private 
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
+4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
    If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {:tip}

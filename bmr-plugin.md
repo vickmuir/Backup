@@ -35,9 +35,9 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 4. Select **{{site.data.keyword.backup_notm}} plug-in - BMR (Bare Metal Restore)** and click **Continue**.
 5. Enter your Promo Code if you have one, and click **Recalculate**.
 6. The updated charges are displayed. Review your order.
-7. Check the box to indicate that you read and accept the Third-party Service Agreements.
+7. Check the box to indicate that you read and accepted the Third-party Service Agreements.
 8. Click **Place Order**.
 
 ## Downloading the user guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

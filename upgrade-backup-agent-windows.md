@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Upgrading backup software agent for Windows
 
-The latest {{site.data.keyword.backup_notm}} agent can be downloaded from your {{site.data.keyword.backup_notm}} portal Dashboard quick links section.
+The most recent backup agent can be downloaded from your {{site.data.keyword.backup_notm}} portal Dashboard quick links section.
 {:tip}
 
 1. Remote control your {{site.data.keyword.BluSoftlayer_full}} server that is in need of an {{site.data.keyword.backup_notm}} upgrade.

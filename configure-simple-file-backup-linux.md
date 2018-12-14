@@ -23,7 +23,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 2. Click **Storage** > **Backup** to display the servers with backup service.
 2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 3. Start your VPN connection to get access to the IBM private network.
-4. Click the {{site.data.keyword.backup_notm}} portal Login link to start the {{site.data.keyword.backup_notm}} portal client in your browser.<br/>
+4. Click the {{site.data.keyword.backup_notm}} portal Login link to start the portal client in your browser.<br/>
 
   If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
   {:tip}
@@ -44,8 +44,9 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 9. Select the Encryption type that you want.
   - If you don't want to encrypt your backup, select **None**.
   - If you want encryption, select **AES 256 bit** and enter a password into the Password and Verify Password fields. You can also add a Password Hint.
+
     You need this password to restore files from the backup. Without the password, you can't restore an encrypted back and there's no way to recover a lost password.
-  {:important}
+    {:important}
 10. You can use any of the **Advanced Options**.
   - **Retention** - You can manage your data usage with this option. The retention period determines how long your backup is retained. After the retention period is reached, the backup is automatically removed. The built-in choices are Daily, Weekly, or Monthly.
   - **Compression** - You can use this option to reduce the capacity that is used for saving backups.
