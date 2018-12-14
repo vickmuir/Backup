@@ -12,7 +12,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Restoring an BMR system volume image
+# Restoring a BMR system volume image
 
 If you need to restore a Bare Metal image backup from {{site.data.keyword.backup_full}}, you can quickly restore it from the BMR Rescue Kernel system. With BMR, you can restore the system without the need of a bootable operating system. It's useful when the operating system is no longer usable or the drives in the system were replaced.
 
@@ -63,5 +63,5 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.slpo
 18. On the final screen, check the box for restart system and select **Finish** and the server loads your restored volume image.
   The restoration is now complete. <br/>
 
-  The first time this happens you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot.
+  The first time the server restarts you might see the unexpected shutdown message. It's normal with this backup type and goes away after the first boot.
   {:tip}
