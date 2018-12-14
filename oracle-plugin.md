@@ -59,7 +59,7 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 7. Select **Keep my current registration**, and click **Next**.
 8. Click **Install**.
 9. When the installation is complete, check to ensure that both services are enabled and running.
-10. If {{site.data.keyword.backup_notm}} portal is able to access/view the database, then the installation was successful.
+10. If {{site.data.keyword.backup_notm}} portal is able to access or view the database, then the installation was successful.
 
 ## Installing the Oracle plug-in for Linux
 
