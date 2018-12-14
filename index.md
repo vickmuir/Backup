@@ -100,6 +100,7 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 {{site.data.keyword.backup_notm}} Agent is supported on the following OS.
 
 **Windows**
+ - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
