@@ -24,7 +24,7 @@ Installing the {{site.data.keyword.backup_full}} client on a Linux-based operati
 
 After you completed the procedure, the automated process registers the Agent service with {{site.data.keyword.backup_notm}} portal, then download and install the files that are needed to run the service.
 
-If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/){:new_window} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
+If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/){:new_window} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {:tip}
 
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
