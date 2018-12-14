@@ -95,7 +95,7 @@ For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-
 ## Can the {{site.data.keyword.backup_full}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-evault-capacity.html).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-capacity.html).
 
 <hr>
 
@@ -149,7 +149,7 @@ You can either do a whole system restore, or you can pick individual files from 
 ## Does BMR have open file back up capabilities?
 {: faq}
 
-BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](evault-mssql-plugin.html) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](mssql-plugin.html) for the MSSQL plug-in installation instructions.
 
 <hr>
 
