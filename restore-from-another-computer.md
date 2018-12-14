@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Restoring Data from one VSI to another within the same data center
+# Restoring data from one VSI to another within the same data center
 
 Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restore-bmr-system-volume-image.html) instructions.
 
