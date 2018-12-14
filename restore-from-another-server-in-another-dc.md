@@ -55,7 +55,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 1. Click **All Agents**.
 
-   You might need to refresh the page to see the jobs that are defined on Server1 as accessible/synchronized under the Server2 **Jobs** tab.
+   You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {:tip}
 2. Hover over **Advanced** and select **Restore from another Computer**.
 3. On the **Restore From Another Computer** screen, click **Add**. The fields are auto-populated with default values, so change them.
