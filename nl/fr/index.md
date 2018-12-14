@@ -28,7 +28,7 @@ Pour plus d'informations sur la tarification, voir [{{site.data.keyword.backup_n
 ### Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 
 1. Connectez-vous au [catalogue IBM Cloud](https://{DomainName}/catalog/){:new_window} ou au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](bare-metal/baremetal-provision.html){:new_window}.
+2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Sélectionnez l'option de facturation par quantité. Entrez les noms d'hôte et de domaine. Vous pouvez choisir n'importe quel nom d'hôte et de domaine.
 
    Le service {{site.data.keyword.backup_notm}} n'est pas disponible si vous commandez un serveur facturé sur une base horaire. Toutefois, vous pouvez ajouter ultérieurement le service sous forme de mise à niveau.

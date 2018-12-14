@@ -26,7 +26,7 @@ lastupdated: "2018-12-14"
 ### サーバーの注文時における {{site.data.keyword.backup_notm}} の購入
 
 1. [IBM Cloud カタログ](https://console.bluemix.net/catalog/){:new_window}または [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
-2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](bare-metal/baremetal-provision.html){:new_window}を参照してください。
+2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}を参照してください。
    1. 数量と課金オプションを選択してください。ホストとドメインの名前を入力します。任意のホスト名とドメイン名を選択できます。
 
    {{site.data.keyword.backup_notm}} サービスは、時間課金サーバーを注文する際には選択できません。ただし、アップグレードとして後からサービスを追加できます。

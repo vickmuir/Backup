@@ -28,7 +28,7 @@ Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} s
 ### Acquisto {{site.data.keyword.backup_notm}} quando ordini un server
 
 1. Accedi al [catalogo IBM Cloud](https://{DomainName}/catalog/){:new_window} oppure al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Ordina un server bare metal mensile. Per ulteriori informazioni sull'ordinazione di server bare metal, vedi [Creazione di un server bare metal personalizzato](bare-metal/baremetal-provision.html){:new_window}.
+2. Ordina un server bare metal mensile. Per ulteriori informazioni sull'ordinazione di server bare metal, vedi [Creazione di un server bare metal personalizzato](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Seleziona la quantità e l'opzione di fatturazione. Immetti i nomi di host e dominio. Puoi scegliere il nome host e dominio che preferisci.
 
    Il servizio {{site.data.keyword.backup_notm}} non è disponibile quando stai ordinando un server con fatturazione oraria. Tuttavia, il servizio può essere aggiunto successivamente come aggiornamento.

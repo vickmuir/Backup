@@ -28,7 +28,7 @@ lastupdated: "2018-12-14"
 ### 서버 주문 시 {{site.data.keyword.backup_notm}} 구매
 
 1. [IBM Cloud 카탈로그](https://{DomainName}/catalog/){:new_window} 또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인하십시오.
-2. 월별 베어메탈 서버를 주문하십시오. 베어메탈 서버 주문에 대한 자세한 정보는 [사용자 정의 베어메탈 서버 빌드](bare-metal/baremetal-provision.html){:new_window}를 참조하십시오.
+2. 월별 베어메탈 서버를 주문하십시오. 베어메탈 서버 주문에 대한 자세한 정보는 [사용자 정의 베어메탈 서버 빌드](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}를 참조하십시오.
    1. 수량, 청구 옵션을 선택하십시오. 호스트 및 도메인 이름을 입력하십시오. 원하는 호스트 이름과 도메인을 선택할 수 있습니다.
 
    시간별 비용 청구되는 서버를 주문할 때는 {{site.data.keyword.backup_notm}} 서비스를 사용할 수 없습니다. 그러나 이 서비스는 나중에 업그레이드로서 추가될 수 있습니다.

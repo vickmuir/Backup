@@ -28,7 +28,7 @@ lastupdated: "2018-12-14"
 ### 订购服务器时购买 {{site.data.keyword.backup_notm}}
 
 1. 登录到 [IBM Cloud 目录](https://{DomainName}/catalog/){:new_window}或 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](bare-metal/baremetal-provision.html){:new_window}。
+2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
    1. 选择数量和计费选项。输入主机和域名。您可以选择所需的任何主机名和域。
 
    订购按小时计费的服务器时，{{site.data.keyword.backup_notm}} 服务不可用。但是，日后可以作为升级添加该服务。

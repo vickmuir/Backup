@@ -26,7 +26,7 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 ### Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 
 1. Inicie una sesión en el [catálogo de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} o en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](bare-metal/baremetal-provision.html){:new_window}.
+2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
    El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.
