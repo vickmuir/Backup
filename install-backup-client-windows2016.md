@@ -52,7 +52,7 @@ This task is completed through a series of interactions while you are logged in 
 
 1. Remote control your server through RDP.
 2. Start Central Control.
-3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
+3. In the workspace, right-click **My Agent** and select **Agent Configuration**.
 4. On the Vaults tab, click **New**. The Vault Configuration Wizard appears. Click **Next**.
 5. Select **Register as a new computer** and click **Next**.
 6. Enter the vault name in the Profile name field.
@@ -71,7 +71,7 @@ This task is completed through a series of interactions while you are logged in 
 
 1. Remote control your server through RDP.
 2. Start Central Control.
-3. In the workspace, right-click **MyAgent** and select **Agent Configuration**.
+3. In the workspace, right-click **My Agent** and select **Agent Configuration**.
 4. Click the **Retentions** tab. The Retention Wizard appears, click **Next**.
 5. Enter the retention name. Click **Next**.<br/>
 
@@ -89,7 +89,7 @@ This task is completed through a series of interactions while you are logged in 
 
 1. Remote control your server through RDP.
 2. Start Central Control.
-3. In the workspace, right-click **MyAgent** and select **New Job**.
+3. In the workspace, right-click **My Agent** and select **New Job**.
 4. On the welcome screen, click **Next**.
 5. Select the backup source type.
 6. Select **Unicode** for encoding. Click **Next**.
@@ -102,14 +102,14 @@ This task is completed through a series of interactions while you are logged in 
 10. Specify processing and backup time options. Check **Quick file scanning** and enter the hours or minutes you want as your backup time window. Then, click **Next**.
 11. Select encryption type (default setting is AES 256-bit) and enter your encryption password. Click **Next**
 12. Select log options for your job. Check **Create log file**, and select **Automatically purge expired log files only**. Then, click **Next**
-13. Select **Just exit from this wizard**, and click **Finish** to complete the configuration. The new job now appears under MyAgent.
+13. Select **Just exit from this wizard**, and click **Finish** to complete the configuration. The new job now appears under My Agent.
 
 
 ## Running the {{site.data.keyword.backup_notm}} job
 
 1. Remote control your server through RDP.
 2. Start Central Control.
-3. In the workspace, right-click **MyAgent** and select the agent that you created.
+3. In the workspace, right-click **My Agent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or an another location to seed the backup job. Click **Next**.<br/>
    For more information about multiple vaults, see [Multi-vaulting](multivaulting.html)
