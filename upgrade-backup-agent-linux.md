@@ -30,12 +30,12 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
    ```
    tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
    ```
-4. Go to recently installation directory
+4. Go to the recent installation directory
    ```
    cd Agent-Linux-x64-8.11.5251/4.
    ```
 
-5. Run install script.
+5. Run installation script.
    ```
    ./install.sh
    ```

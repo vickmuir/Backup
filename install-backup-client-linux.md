@@ -70,7 +70,7 @@ This step is required for RHEL, but optional for other Linux distributions.
   ```
   {: pre}
 
-## Running the Install Script
+## Running the installation Script
 
 1. Run the following command at the server prompt.
    ```

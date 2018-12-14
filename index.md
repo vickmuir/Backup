@@ -35,7 +35,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}} stora
       {:tip}
    2. Select location.
    3. Select Server configuration and OS Image type. You can also choose multiple add-ons.
-   4. Under the **Storage Disks** section, click **Add-ons** and select **{{site.data.keyword.backup_notm}} Backup**. Choose the option that matches what you need.
+   4. Under the **Storage Disks** section, click **Add-ons** and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
    5. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
 3. On the right, review your order summary.
 4. After you reviewed the terms and conditions, check the **I have read and agree to the Third-Party Service Agreements** box.
