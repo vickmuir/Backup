@@ -24,7 +24,7 @@ The latest {{site.data.keyword.backup_notm}} agent can be downloaded from your {
    {:pre}
 3. Click the file that you want. (For example, Agent-Windows-x64-6-72-1072a.exe)
 
-   The version number is in the file name. Choose the most recent. <br/>There are separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
+   The version number is in the file name. Choose the most recent. <br/>{{site.data.keyword.BluSoftlayer_full}} offers separate 32-bit and 64-bit installers. If you have a 64-bit Operating System, download the file with x64 in its name.
    {:tip}
 4. Click **Run** at the download screen, and again after it is downloaded.
 5. Click **Yes** to upgrade **{{site.data.keyword.backup_notm}} Software Agent**.
