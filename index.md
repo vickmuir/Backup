@@ -92,7 +92,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, it directly impacts your service. To reset your password, follow the steps in [Changing the password for the backup service](change-password.html).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](change-password.html).
 {:important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
