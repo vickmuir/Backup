@@ -28,7 +28,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}} stora
 ### Purchasing {{site.data.keyword.backup_notm}} when you order a server
 
 1. Log in to the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} or the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](bare-metal/baremetal-provision.html){:new_window}.
+2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](https://{DomainName}/docs/infrastructure/bare-metal/baremetal-provision.html){:new_window}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any host name and domain that you like.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
@@ -121,7 +121,7 @@ It is _not_ the case for {{site.data.keyword.backup_notm}}. Changes that are mad
 Follow the instructions appropriate for your OS,
 - [Installing the Backup Client in Linux](install-backup-client-linux.html)
 - [Installing the Backup Client in Windows](install-backup-client-windows.html)
-- [Installing the Backup Client in Windows 2016](install-windows2016.html)
+- [Installing the Backup Client in Windows 2016](install-backup-client-windows2016.html)
 - [Installing the Backup Client in VMware](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## Accessing {{site.data.keyword.backup_notm}} portal (formerly WebCC)
