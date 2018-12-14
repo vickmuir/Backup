@@ -22,7 +22,7 @@ Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the siz
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
-3. Select the vault you want to extend.
+3. Select the vault that you want to extend.
 4. Click **Actions**, and select **Modify {{site.data.keyword.backup_notm}}**.
 5. On the next screen, select the new size and click **Upgrade**.
 
