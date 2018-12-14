@@ -37,7 +37,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select Server2. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
+4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
 ## Reregistering the vault
 

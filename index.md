@@ -132,7 +132,7 @@ Follow the instructions appropriate for your OS,
    {:important}
 2. Access the Backup storage screen in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 3. Click anywhere on the row of the {{site.data.keyword.backup_notm}} service that you want to see to expand the view.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the {{site.data.keyword.backup_notm}} portal client in your browser.
+4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
 ## Configuring the Backup agent and the backup schedule
 
