@@ -30,7 +30,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.slpo
 ## Restoring from the BMR Rescue Kernel
 
 1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
-  - A VNC client and the private/public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
+  - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
   - The KVM console of your IPMI card.
   Both of these ways work well.
 2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
