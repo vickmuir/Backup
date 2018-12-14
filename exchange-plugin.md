@@ -20,7 +20,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 
 - Ability to back up and restore Microsoft Exchange databases.
 
-## Ordering the Plug-in
+## Ordering the plug-in
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -32,7 +32,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 7. Check the box to indicate that you read and accept the Third-party Service Agreements.
 8. Click **Place Order**.
 
-## Installing the Exchange Plug-in
+## Installing the plug-in
 
 The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
