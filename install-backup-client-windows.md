@@ -45,7 +45,7 @@ For information regarding backups for Windows 2016 servers, see [Configuring {{s
 
 1. Enter the Network address: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
