@@ -17,7 +17,7 @@ lastupdated: "2018-12-14"
 
 Installing the {{site.data.keyword.backup_full}} client in Windows is completed through a series of interactions on the server that is designated for the {{site.data.keyword.backup_notm}} service.
 
-For information about backups for Windows 2016 servers, see [Configuring {{site.data.keyword.backup_notm}} on Windows 2016](install-backup-client-windows2016.html).
+For more information about backups for Windows 2016 servers, see [Configuring {{site.data.keyword.backup_notm}} on Windows 2016](install-backup-client-windows2016.html).
 {:tip}
 
 ## Logging in to the target device server
