@@ -12,7 +12,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installing the Bare Metal Restore Plug-in
+# Installing the Bare Metal Restore plug-in
 
 BMR is a disaster recovery solution for Microsoft Windows. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.BluSoftlayer_full}}.
 
@@ -26,9 +26,9 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 - Restore your system from backups that are stored on the {{site.data.keyword.backup_notm}}.
 - A launchable recovery transaction that you can use to restore your data without a bootable system.
 .
-## Ordering the Plug-in
+## Ordering the plug-in
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select your account and click **Order plug-ins**.

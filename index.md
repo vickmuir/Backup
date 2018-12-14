@@ -140,7 +140,7 @@ Follow the instructions appropriate for your OS,
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. You can follow these steps to configure your agent, retention schedule and start your first backup job.
 
-1. Log in to WebCc.
+1. Log in to the {{site.data.keyword.backup_notm}} portal.
 2. Click **All Agents**> **Unconfigured Agents**.
 3. Click **This is a new Agent I would like to configure** link. Step through the process and enter the following information:
    1. Agent configuration - provide agent description, click **Next**.
