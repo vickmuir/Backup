@@ -49,8 +49,8 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 8. Select **Keep my current registration**, and click **Next**.
 9. Click **Install**.
 10. When installed, check to ensure that both services are enabled and running.
-11. If {{site.data.keyword.backup_notm}} portal is able to access/view the database, then the installation was successful.
+11. If {{site.data.keyword.backup_notm}} portal is able to access or view the database, then the installation was successful.
 
 ## Downloading the user guide
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safeset. With a DR backup safeset, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safeset. With a DR backup safeset, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
