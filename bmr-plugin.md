@@ -25,7 +25,7 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 - Restore your system from image or file-based backups.
 - Restore your system from backups that are stored on the {{site.data.keyword.backup_notm}}.
 - A launchable recovery transaction that you can use to restore your data without a bootable system.
-.
+
 ## Ordering the plug-in
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
