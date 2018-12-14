@@ -92,9 +92,7 @@ The storage details of your {{site.data.keyword.backup_notm}} service can be vie
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible. Proceed to the next step to view the password that is associated with your {{site.data.keyword.backup_notm}} service.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for storage or tracking of the password. For those offerings, the changes that are made to them within the {{site.data.keyword.slportal}} aren't applied to the product or service.
-
-It is _not_ the case for {{site.data.keyword.backup_notm}}. Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an {{site.data.keyword.backup_notm}} password in the {{site.data.keyword.slportal}}](change-password.html).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly. To reset your password, follow the steps in [How to Change an {{site.data.keyword.backup_notm}} password in the {{site.data.keyword.slportal}}](change-password.html).
 {:important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
