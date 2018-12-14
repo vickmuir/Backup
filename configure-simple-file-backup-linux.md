@@ -35,11 +35,11 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 3. Enter a Job Name and a Job Description for the job that you're creating.
 4. For **Backup Source Type**, select the file system type that you want to back up.
 5. Click **Next** to continue.
-6. In the **Data Files** pane, go to the files and directories that you want to include in your backup by clicking the **+** and **-** symbols next to the folder icons.
+6. In the data files pane, go to the files and directories that you want to include in your backup by clicking the **+** and **-** symbols next to the folder icons.
 7. Select the check boxes next to the files and directories that you want to include, then click **Include** to save your choices.
-8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. After you included your file and directory choices, your chosen files, and directories are displayed in the **Backup Set** pane on the right-hand-side of the screen. Click **Next** to continue.
+8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. After you included your file and directory choices, your chosen files, and directories are displayed in the backup set pane on the right-hand-side of the screen. Click **Next** to continue.
 
-   You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the **Backup Set** pane. After your backup set is configured the way that you want it,
+   You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the backup set pane. After your backup set is configured the way that you want it,
    {:tip}
 9. Select the Encryption type that you want.
   - If you don't want to encrypt your backup, select **None**.
