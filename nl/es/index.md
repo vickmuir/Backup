@@ -9,29 +9,30 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Iniciación a los servicios de {{site.data.keyword.backup_notm}}
 
-Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador WebCC. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
+Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador del portal de {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
 
 ## Pedido de {{site.data.keyword.backup_notm}}
 
 Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 
-- [Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server)
-- [Adquisición de {{site.data.keyword.backup_notm}} como actualización](#purchasing-ibm-cloud-backup-as-an-upgrade)
+- [Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server).
+- [Adquisición de {{site.data.keyword.backup_notm}} como actualización](#purchasing-ibm-cloud-backup-as-an-upgrade).
 
-Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 
-1. Inicie una sesión en el [catálogo de IBM Cloud](https://console.bluemix.net/catalog/){:new_window} o en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
+1. Inicie sesión en el [Catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
+2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](bare-metal/baremetal-provision.html){:new_window}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
-   El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.
-   {:tip}
-
+      El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.
+      {:tip}
    2. Seleccione la ubicación.
    3. Seleccione Configuración de servidor y tipo de imagen de SO. También puede elegir varios complementos.
    4. En la sección **Discos de almacenamiento**, pulse en **Complementos** y seleccione **Copia de seguridad de {{site.data.keyword.backup_notm}}**. Elija la opción que coincida con lo que necesita.
@@ -46,12 +47,11 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 #### Confirmación de la compra de {{site.data.keyword.backup_notm}}
-1. En la consola de [{{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:new_window}, pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
-  - Si hay un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
+  - Si ve un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
   - Cuando deje de mostrarse el icono de reloj para el servidor, pulse el enlace (el url del servidor) para ir a la página **Detalles del dispositivo**.
 3. Pulse el separador **Almacenamiento** para ver la información de {{site.data.keyword.backup_notm}}.
 4. Examine la sección {{site.data.keyword.backup_notm}} y verifique que se muestra el tamaño seleccionado durante el proceso de adquisición.
@@ -60,9 +60,8 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
 
 #### Seleccione el servidor en el que desea instalar {{site.data.keyword.backup_notm}}
 
-1. Inicie la sesión en la consola de [ {{site.data.keyword.cloud_notm}} ](https://console.bluemix.net/catalog/){:new_window} y pulse el icono ** Menú ** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio {{site.data.keyword.cloud_notm}}.
 3. Pulse el nombre del dispositivo para ir a la página **Detalles del dispositivo**.
 
@@ -85,11 +84,10 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
 
 ## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}}
 
-Los detalles de almacenamiento del servicio {{site.data.keyword.backup_notm}} se pueden ver en la [consola de {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:new_window} y en el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
+Los detalles de almacenamiento del servicio {{site.data.keyword.backup_notm}} se pueden ver en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y en el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
-1. Inicie la sesión en la consola de [ {{site.data.keyword.cloud_notm}} ](https://console.bluemix.net/catalog/){:new_window} y pulse el icono ** Menú ** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
 2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de {{site.data.keyword.backup_notm}}.
 3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de {{site.data.keyword.backup_notm}} seleccionado.
@@ -115,8 +113,8 @@ El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas o
  - Debian GNU/Linux 9.x
  - Debian GNU/Linux 8.x
  - Debian GNU/Linux 7.x
- - Red Hat Enterprise Linux 7.x
- - Red Hat Enterprise Linux 6.x
+ - RHEL 7.x
+ - RHEL 6.x
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
@@ -124,22 +122,23 @@ Siga las instrucciones adecuadas para su sistema operativo,
 - [Instalación del cliente de copia de seguridad en Linux](install-backup-client-linux.html)
 - [Instalación del cliente de copia de seguridad en Windows](install-backup-client-windows.html)
 - [Instalación del cliente de copia de seguridad en Windows 2016](install-windows2016.html)
+- [Instalación del cliente de copia de seguridad en VMware](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
-## Acceso a WebCentralControl (WebCC)
+## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
 
-WebCentralControl (WebCC) es el cliente que se utiliza para interactuar con el servicio de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. WebCC es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración. Siga estos pasos para acceder a WebCC.
+El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración. 
 
 1. Acceda a la red privada a través de VPN.
 
-   No se puede acceder a WebCC a través de la red pública. En primer lugar se debe establecer una conexión VPN.
+   No se puede acceder al portal de {{site.data.keyword.backup_notm}} a través de la red pública. En primer lugar se debe establecer una conexión VPN.
    {:important}
-2. Acceda a la pantalla de almacenamiento de copia de seguridad en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+2. Acceda a la pantalla de almacenamiento de copia de seguridad en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 3. Pulse en cualquier lugar de la fila del servicio de {{site.data.keyword.backup_notm}} que desea ver para expandir la vista.
-4. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
+4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal de {{site.data.keyword.backup_notm}} en su navegador.
 
-## Configuración del agente de copia de seguridad en WebCC
+## Configuración del agente de copia de seguridad y de la planificación de copias de seguridad
 
-Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Siga estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
+Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Puede seguir estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
 
 1. Inicie una sesión en WebCc.
 2. Pulse **Todos los agentes**> **Agentes no configurados**.
@@ -158,7 +157,7 @@ Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber ins
    4. Pulse **Aceptar**.
    5. Pulse **Guardar**.
 
-      Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](faqs.html)
+      Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](faqs.html).
       {:tip}
 5. Ejecute el agente e inicie una copia de seguridad.
    1. Pulse **Todos los agentes** y seleccione el agente que ha configurado.
@@ -172,4 +171,4 @@ Para obtener más información sobre las copias de seguridad a nivel de archivo 
 
 ## Obtención de ayuda en línea
 
-Los sistemas WebCC están plenamente documentados y se puede acceder a soporte para la aplicación dentro de WebCC. Pulse el signo de interrogación blanco dentro de un círculo azul que se encuentra en la parte superior derecha para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación de la parte izquierda para ver más información.
+Los sistemas del portal de {{site.data.keyword.backup_notm}} están plenamente documentados y se puede acceder a soporte para la aplicación dentro del propio portal de {{site.data.keyword.backup_notm}}. Pulse el signo de interrogación blanco dentro de un círculo azul que se encuentra en la parte superior derecha para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación de la parte izquierda para ver más información.

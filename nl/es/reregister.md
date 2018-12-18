@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # Volver a registrar una caja fuerte
 
 Esta tarea se suele realizar después de volver a cargar el sistema operativo de un servidor. También puede seguir estos pasos para [utilizar copias de seguridad de un servidor para restaurar datos en otro servidor](restore-from-another-computer.html).
+{:tip}
 
-1. Inicie WebCC e inicie una sesión. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](index.html).
+1. Inicie el portal de {{site.data.keyword.backup_notm}} e inicie una sesión. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](index.html).
 
-   Recuerde que solo se puede acceder a WebCC a través de {{site.data.keyword.BluVPN}}.
+   Recuerde que el portal de {{site.data.keyword.backup_notm}} solamente es accesible a través de {{site.data.keyword.BluVPN}}.
    {:tip}
 2. En la parte izquierda, pulse **Todos los agentes**.
 3. En la parte superior derecha, mueva el ratón sobre **Editar**.
@@ -27,7 +28,7 @@ Esta tarea se suele realizar después de volver a cargar el sistema operativo de
   - Dirección de caja fuerte
   - Cuenta
 
-    "Cuenta" es el equivalente de "Nombre de cuenta" en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. Generalmente tiene el formato "SLE[ID cuenta]"
+    "Cuenta" es el equivalente del "Nombre de cuenta" en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. Generalmente tiene el formato "SLE[ID cuenta]"
     {:tip}
   - Nombre de usuario
   - Contraseña

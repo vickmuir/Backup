@@ -10,8 +10,10 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
-# Creación de una copia de seguridad y restauración de datos entre una VSI y otra en otro centro de datos
+# Restauración de datos entre una VSI y otra en otro centro de datos
 
 Es posible que desee restaurar datos en otro servidor. Este procedimiento solo se aplica a las restauraciones a nivel de archivo de archivos que no son de sistema operativo. Para restaurar una imagen del sistema, siga las instrucciones de [Windows BMR](restore-bmr-system-volume-image.html).
 
@@ -20,23 +22,23 @@ El proceso incluye el registro del agente de copia de seguridad en el segundo se
 **Requisitos previos**
 
 - Servidor1 y Servidor2 deben tener el mismo sistema operativo. No se da soporte a las restauraciones entre plataformas.
-- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en WebCC](index.html#configuring-the-backup-agent-in-webcc).
+- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-in-webcc).
 - Un trabajo de copia de seguridad para el Servidor1 que ha generado una copia de seguridad en la ubicación de la caja fuerte del Servidor1.
 
 Inhabilite todas las tareas planificadas en ambos servidores para evitar conflictos.
 {:important}
 
-## Inicio de WebCC de Servidor2
+## Inicio del portal de {{site.data.keyword.backup_notm}} de Servidor2
 
-Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.BluSoftlayer_full}}; de lo contrario, el enlace WebCC no funciona.
+Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.BluSoftlayer_full}}; de lo contrario, el enlace del portal de {{site.data.keyword.backup_notm}} no funciona.
 {:tip}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://console.bluemix.net/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Haga clic en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-3. Seleccione Servidor2. Pulse la flecha de expansión que apunta a la derecha para visualizar el enlace WebCC.
-4. Pulse **Inicio de sesión en WebCC** para iniciar el cliente WebCC en el navegador.
+3. Seleccione Servidor2. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal {{site.data.keyword.backup_notm}}.
+4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal de {{site.data.keyword.backup_notm}} en su navegador.
 
 ## Volver a registrar la caja fuerte
 
@@ -50,7 +52,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
 8. Pulse **Guardar cambios**.
 9. Cuando se le solicite, pulse **Sí** para confirmar el nuevo registro de caja fuerte.
 
-## Ejecución del trabajo de copia de seguridad desde Servidor1 como un trabajo de restauración en Servidor2
+## Ejecución del trabajo de copia de seguridad de Servidor1 como un trabajo de restauración en Servidor2
 
 1. Pulse **Todos los agentes**.
 

@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Instalación del plug-in de SQL Server
 
-El plugin SQL Server se instala con el agente Windows en el host de la base de datos SQL. Mediante el portal de WebCC, puede configurar trabajos, hacer copia de seguridad de bases de datos SQL en una caja fuerte remota segura y restaurar bases de datos SQL.
+El plugin SQL Server se instala con el agente Windows en el host de la base de datos SQL. Mediante el portal de {{site.data.keyword.backup_notm}}, puede configurar trabajos, hacer copia de seguridad de bases de datos SQL en una caja fuerte remota segura y restaurar bases de datos SQL.
 
 **Funciones que se proporcionan**
 
@@ -23,11 +23,12 @@ El plugin SQL Server se instala con el agente Windows en el host de la base de d
 - Puede restaurar bases de datos SQL en la misma instancia de SQL o en otra instancia de SQL,
 - Puede restaurar bases de datos con los nombres de base de datos originales, sobrescribir las bases de datos existentes y restaurar utilizando la opción de no recuperación.
 
+Para obtener más información, consulte la sección [Características principales](#main-featues).
+
 ## Solicitud del plugin
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Haga clic en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.
 4. Seleccione **Plugin de {{site.data.keyword.backup_notm}} - MSSQL** y pulse **Continuar**.
@@ -36,9 +37,9 @@ El plugin SQL Server se instala con el agente Windows en el host de la base de d
 7. Marque el recuadro para indicar que ha leído y que acepta los acuerdos de servicio de terceros.
 8. Pulse **Realizar pedido**.
 
-## Instalación del plugin MSSQL
+## Instalación del plugin de MSSQL
 
-Para instalar el plugin SQL para Windows, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**.
+Para instalar el plugin de SQL, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**.
 
 Antes de instalar el plugin de MSSQL para el servidor Microsoft Windows, detenga ambos servicios de {{site.data.keyword.backup_notm}} en `services.msc`.
 {:tip}
@@ -53,19 +54,13 @@ Antes de instalar el plugin de MSSQL para el servidor Microsoft Windows, detenga
 8. Seleccione **Conservar mi registro actual** y pulse **Siguiente**.
 9. Pulse **Instalar**.
 10. Una vez instalados, compruebe que ambos servicios están habilitados y en ejecución.
-11. Si WebCC puede ver y acceder a la base de datos, significa que la instalación se ha realizado correctamente.
+11. Si el portal de {{site.data.keyword.backup_notm}} puede ver y acceder a la base de datos, significa que la instalación se ha realizado correctamente.
 
 ## Descarga de la guía del usuario
 
-Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
-## Preguntas más frecuentes
-
-**¿Qué hace VSS (Volume Shadow Copy Services)?**
-
-La versión actual del plugin de SQL Server utiliza VSS (Volume Shadow Copy Services) para hacer copias de seguridad. Al utilizar VSS, el plugin de SQL Server realiza una copia de seguridad de las bases de datos SQL, incluidas las bases de datos SQL que abarcan volúmenes. Las copias de seguridad se pueden completar mientras las aplicaciones siguen escribiendo en un volumen. El plugin de SQL Server proporciona coherencia de datos dentro de las bases de datos y entre ellas. VSS permite ejecutar varias copias de seguridad a la vez.
-
-**¿Cuáles son las características principales del plugin SQL? **
+## Características principales
 
 - Posibilidad de especificar los nombres de las bases de datos para incluirlas y excluirlas en trabajos de copia de seguridad de SQL Server mediante caracteres comodín (asteriscos y signos de interrogación). Las bases de datos nuevas con nombres que coinciden con los filtros de un trabajo de copia de seguridad se incluyen o excluyen automáticamente cuando se ejecuta el trabajo.
 - Posibilidad de proteger las bases de datos secundarias en grupos de disponibilidad AlwaysOn utilizando el agente de 64 bits y el plugin de SQL Server.

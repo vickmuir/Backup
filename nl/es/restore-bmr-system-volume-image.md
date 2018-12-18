@@ -21,7 +21,7 @@ Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.d
 Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slportal}}.
 1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
 2. Haga clic en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse la **Flecha** que hay junto a la caja fuerte.
 4. Pulse **Iniciar restauración nativa**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.

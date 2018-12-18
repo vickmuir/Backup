@@ -29,7 +29,7 @@ lastupdated: "2018-12-14"
 8. En la pantalla siguiente, pulse **Instalar**.
 9. Cuando termine la instalación, pulse **Finalizar**.
 
-## Instalación de CentralControl 8.30
+## Instalación de Central Control 8.30
 
 1. En el servidor de destino, abra una sesión de navegador y especifique el siguiente URL para descargar el archivo ejecutable.
 
@@ -46,22 +46,22 @@ lastupdated: "2018-12-14"
 4. Cuando finalice la instalación, marque **Iniciar EVault Software Central Control**. Pulse **Finalizar**.
 
 
-## Configuración de CentralControl
+## Configuración de Central Control
 
 Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario conectado al servidor designado para el servicio de {{site.data.keyword.backup_notm}}.
 
 1. Controle de forma remota el servidor mediante RDP.
-2. Inicie CentralControl.
+2. Inicie Central Control.
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Configuración del agente**.
 4. En el separador Cajas fuertes, pulse **Nueva**. Aparece el asistente para la configuración de la caja fuerte. Pulse **Siguiente**.
 5. Seleccione **Registrar como un sistema nuevo** y pulse **Siguiente**.
 6. Especifique el nombre de caja fuerte en el campo Nombre de perfil.
 
-   Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
    {:tip}
 6. Escriba la dirección de red (la dirección IP de la caja fuerte asignada) y pulse **Añadir**. A continuación, pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.
-8. En la pantalla de configuración de la conexión, escriba el número de segundos/minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a/desde la caja fuerte**. Pulse **Siguiente**.
+8. En la pantalla de configuración de la conexión, escriba el número de segundos y minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a/desde la caja fuerte**. Pulse **Siguiente**.
 9. En la pantalla de autenticación, especifique sus credenciales y pulse **Siguiente**.
 10. La ventana de sistemas registrados muestra el nombre de host de su servidor. Pulse **Siguiente**.
 11.	Pulse **Finalizar** para completar la configuración.
@@ -70,7 +70,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 ## Creación de esquemas de retención
 
 1. Controle de forma remota el servidor mediante RDP.
-2. Inicie CentralControl.
+2. Inicie Central Control.
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Configuración del agente**.
 4. Pulse el separador **Retenciones**. Cuando aparezca el asistente para retención, pulse **Siguiente**.
 5. Escriba el nombre de la retención. Pulse **Siguiente**.<br/>
@@ -88,7 +88,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 ## Configuración del trabajo de {{site.data.keyword.backup_notm}}
 
 1. Controle de forma remota el servidor mediante RDP.
-2. Inicie CentralControl.
+2. Inicie Central Control.
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Nuevo trabajo**.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
 5. Seleccione el tipo de origen de copia de seguridad.
@@ -108,10 +108,10 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 ## Ejecución del trabajo de {{site.data.keyword.backup_notm}}
 
 1. Controle de forma remota el servidor mediante RDP.
-2. Inicie CentralControl.
+2. Inicie Central Control.
 3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione el agente que ha creado.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
-5. Seleccione el destino de copia de seguridad o una ubicación alternativa para inicializar el trabajo de copia de seguridad. Pulse **Siguiente**.<br/>
+5. Seleccione el destino de copia de seguridad u otra ubicación para inicializar el trabajo de copia de seguridad. Pulse **Siguiente**.<br/>
    Para obtener más información sobre varias cajas fuertes, consulte [Multivaulting](multivaulting.html)
    {:tip}
 6. Seleccione la opción Exploración rápida de archivos para no leer los archivos que no se han modificado. Pulse **Siguiente**.
