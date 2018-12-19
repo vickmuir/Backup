@@ -12,49 +12,44 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Configurando o Arquivo Simples no nível de backup no Linux
+# Configurando o backup em nível de arquivo simples no Linux
 
 Depois de ter solicitado o {{site.data.keyword.backup_full}} e o agente estiver instalado no
 servidor, será possível iniciar a criação de backups dos dados. O artigo fornece as etapas para configurar seu agente
 e o planejamento de retenção e iniciar sua primeira tarefa de backup.
 
-## Iniciando o WebCC
+## Iniciando o portal do {{site.data.keyword.backup_notm}}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e
-clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
-2. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para exibir o link do WebCC.
+2. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 3. Inicie sua conexão VPN para obter acesso à rede privada IBM.
-4. Clique no link de Login do WebCC para iniciar o cliente do WebCC em seu navegador.<br/>
+4. Clique no link Login do portal do {{site.data.keyword.backup_notm}} para iniciar o cliente do portal do {{site.data.keyword.backup_notm}} em seu navegador.<br/>
 
-  Se o WebCC não for iniciado, você poderá ter um problema com a conexão VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
+  Se o portal do {{site.data.keyword.backup_notm}} não for iniciado, talvez você tenha um problema com a sua conexão de VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
   {:tip}
 
-## Configurando uma Tarefa de Backup
+## Configurando uma tarefa de backup
 
-1. Na área de janela de navegação à esquerda, clique em **Todos os agentes** para exibir
-os agentes de backup do IBM Cloud atuais
+1. Na área de janela de navegação, clique em **Todos os agentes** para exibir os Agentes atuais do {{site.data.keyword.backup_notm}}
 2. Clique em **Este é um novo Agente que eu gostaria de configurar**.
-3. Insira um Nome e uma Descrição para a tarefa que você estiver configurando/criando.
-4. Para **Tipo de origem de backup**, selecione o tipo de sistema de arquivos do qual você deseja fazer backup no menu.
+3. Insira um Nome da tarefa e uma Descrição da tarefa para a tarefa que você estiver criando.
+4. Para **Tipo de origem de backup**, selecione o tipo de sistema de arquivos que você deseja submeter a backup.
 5. Clique em **Avançar** para continuar.
-6. Na área de janela **Arquivos de dados**, acesse os arquivos e diretórios que você deseja incluir em seu backup clicando nos símbolos **+** e **-** ao lado dos ícones de pasta.
-7. Marque as caixas de seleção próximas aos arquivos e diretórios que deseja incluir e, em seguida, clique em **Incluir** para salvar as suas opções.
+6. Na área de janela **Arquivos de dados**, acesse os arquivos e os diretórios que você deseja incluir no backup clicando nos símbolos **+** e **-** próximos aos ícones de pasta.
+7. Selecione as caixas de seleção próximas aos arquivos e diretórios que você deseja incluir, em seguida, clique em **Incluir** para salvar suas opções.
 8. Filtre ainda mais suas seleções usando a tela pop-up que aparece ou clique em **OK** para usar as seleções feitas no estado em que se encontram. Depois de incluir suas opções de arquivo e de diretório, os arquivos escolhidos e os diretórios são exibidos na área de janela **Conjunto de backup** no lado direito da tela. Clique em **Avançar** para continuar.
 
    É possível repetir as etapas de 6 a 8 para incluir mais arquivos ou para remover arquivos que você incluiu anteriormente (usando **Excluir**). Também é possível usar **Remover** para excluir qualquer
-item de linha da área de janela **Conjunto de backup**. Após o conjunto de backup ser configurado da
-maneira que você deseja,
+item de linha da área de janela **Conjunto de backup**. Depois que seu conjunto de backup estiver configurado da maneira desejada,
    {:tip}
 9. Selecione o tipo de Criptografia desejado.
   - Se você não deseja criptografar seu backup, selecione **Nenhuma**.
   - Se você deseja criptografia, selecione **AES de 256 bits** e insira uma senha
-nos campos Senha e Verificar senha. Se desejar, será possível incluir uma sugestão de senha.
-    Essa senha é necessária para restaurar os arquivos por meio do backup. Não é possível
-recuperar uma senha perdida nem restaurar um backup criptografado sem saber a senha.
+nos campos Senha e Verificar senha. Também é possível incluir uma Sugestão de senha.
+    Essa senha é necessária para restaurar os arquivos por meio do backup. Sem a senha, não é possível restaurar um backup criptografado e não há nenhuma maneira de recuperar uma senha perdida.
   {:important}
 10. É possível usar qualquer uma das **Opções avançadas**.
   - **Retenção**: é possível gerenciar seu uso de dados com essa opção. O período de retenção determina por quanto tempo seu backup é retido. Depois que o período de retenção é atingido, o backup é removido automaticamente. As opções integradas são Diariamente, Semanalmente ou Mensalmente.
@@ -69,8 +64,8 @@ na tela **Criar um planejamento**.
 12. Na página Criar um planejamento, clique em **Incluir** para planejar uma tarefa de backup baseada em tempo ou clique em **Avançar** para criar uma tarefa manual.
   - Se você optar por criar uma tarefa manual, continue na Etapa 15.
   - Se você escolher planejar uma tarefa baseada em tempo, selecione os dias e o horário do dia para executar os seus backups.
-  - Selecione o seu Esquema de retenção. Para obter mais informações sobre os esquemas de retenção, consulte as
-[Perguntas mais frequentes](faqs.html#-how-do-the-retention-schemes-work-).
+  - Selecione o seu Esquema de retenção. Para obter mais informações sobre os esquemas de retenção, consulte as [Perguntas mais
+frequentes](faqs.html#how-do-the-retention-schemes-work-).
   - Clique em **Opções avançadas de planejamento** para obter mais opções de configuração. É possível selecionar **Usar o adiamento** para evitar que grandes backups sejam executados em horários de pico da rede.
 
     Quando a opção de adiamento for ativada, a tarefa de backup não fará backup de nenhum dado novo após a quantidade de tempo especificada. Ela confirma o conjunto de segurança na área segura, mesmo que alguns dados na tarefa não sejam submetidos a backup. As mudanças nos dados que foram salvos anteriormente são submetidas a backup, independentemente da quantidade de tempo especificada. <br/> Quando a tarefa é executada novamente, o agente verifica as mudanças nos dados que foram

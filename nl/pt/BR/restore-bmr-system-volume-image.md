@@ -12,7 +12,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Restaurando uma imagem do volume do sistema de BMR
+# Restaurando uma imagem de volume do sistema BMR
 
 Se for necessário restaurar um backup de imagem do Bare Metal do {{site.data.keyword.backup_full}}, será
 possível restaurá-lo rapidamente por meio do sistema kernel de resgate de BMR. Com a BMR, é possível restaurar
@@ -21,10 +21,9 @@ o sistema sem a necessidade de um sistema operacional inicializável. Isso é ú
 ## Iniciando o sistema kernel de resgate de BMR
 
 É possível acessar o sistema kernel de resgate de BMR por meio do {{site.data.keyword.slportal}}.
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e
-clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Clique na **Seta** ao lado da área segura.
@@ -43,8 +42,7 @@ acessá-la de duas maneiras diferentes.
 2. Ao efetuar login no kernel de resgate de BMR pela primeira vez, você é recebido com a tela
 de seleção de idioma. Selecione o idioma de sua escolha e clique em **Avançar**.
 <br/>![Figura 1 - Seleção de idioma do BMR](/images/bmr1.png)<br/> O contrato de licença para o software é exibido.
-3. Se você aceitar os termos, marque a caixa de seleção e clique em **Avançar** para continuar. <br/>
-O menu principal de restauração do sistema do {{site.data.keyword.backup_notm}} é apresentado.
+3. Se você aceitar os termos, marque a caixa de seleção e clique em **Avançar** para continuar. <br/> O menu principal de restauração do sistema do {{site.data.keyword.backup_notm}} é apresentado.
 4. Selecione **Restaurar meu sistema**.
 <br/>![Figura 2 - Menu principal do BMR](/images/bmr2.png)
 5. O assistente de restauração do sistema aparece. Selecione **Avançar** para continuar.

@@ -12,9 +12,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Instalando o plug-in do SQL Server
+# Instalando o plug-in SQL Server
 
-O plug-in SQL Server é instalado com o Windows Agent no host do banco de dados SQL. Por meio do portal do WebCC, é possível configurar tarefas, fazer backup de bancos de dados SQL para uma área segura remota protegida e restaurar bancos de dados SQL.
+O plug-in SQL Server é instalado com o Windows Agent no host do banco de dados SQL. Por meio do portal do {{site.data.keyword.backup_notm}}, é possível configurar tarefas, fazer backup de bancos de dados SQL para uma área segura remota e restaurar bancos de dados SQL.
 
 **Recursos fornecidos**
 
@@ -25,12 +25,12 @@ logs de transações ou backup somente de logs de transação.
 diferente,
 - É possível restaurar bancos de dados com os nomes de banco de dados originais, sobrescrever bancos de dados existentes e restaurar usando a opção Sem recuperação.
 
-## Solicitando o plug-in
+Para obter mais informações, consulte a seção [Principais recursos](#main-featues).
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e
-clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+## Pedindo o plug-in
 
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione a conta e clique em **Solicitar plug-ins**.
@@ -41,9 +41,9 @@ servidores com o serviço de backup.
 7. Marque a caixa para indicar que você leu e aceitou os Contratos de Prestação de Serviços de Terceiros.
 8. Clique em **Fazer pedido**.
 
-## Instalando o Plug-in MSSQL
+## Instalando o plug-in MSSQL
 
-Para instalar o plug-in SQL para Windows, execute o kit de instalação do Agente. O plug-in aparece
+Para instalar o plug-in SQL, execute o kit de instalação do Agente. O plug-in aparece
 como uma opção na página **Configuração customizada**.
 
 Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare ambos os serviços do {{site.data.keyword.backup_notm}} em `services.msc`.
@@ -59,19 +59,13 @@ Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare amb
 8. Selecione **Manter meu registro atual** e clique em **Avançar**.
 9. Clique em **Instalar**.
 10. Quando instalado, verifique para assegurar que ambos os serviços estejam ativados e em execução.
-11. Se o WebCC é capaz de visualizar e acessar o banco de dados, a instalação foi bem-sucedida.
+11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de visualizar e acessar o banco de dados, a instalação foi bem-sucedida.
 
 ## Fazendo download do guia do usuário
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível fazer download do guia do usuário por meio da [Documentação do {{site.data.keyword.backup_notm}} que pode ser transferida por download](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
-## Perguntas Mais Frequentes
-
-**O que o VSS (Serviço de Cópia de Sombra de Volume) faz?**
-
-A versão atual do plug-in SQL Server usa o VSS (Serviço de Cópia de Sombra de Volume) para concluir os backups. Usando o VSS, o plug-in SQL Server faz efetivamente o backup dos bancos de dados SQL, mesmo os bancos de dados SQL que estendem volumes. Os backups podem ser concluídos enquanto os aplicativos continuam a gravar em um volume. O plug-in SQL Server fornece consistência de dados dentro e entre bancos de dados. O VSS permite que múltiplos backups sejam executados ao mesmo tempo.
-
-**Quais são os principais recursos do Plug-in SQL?**
+## Principais recursos
 
 - Capacidade para especificar os nomes de bancos de dados a serem incluídos e excluídos em tarefas de backup do SQL Server usando caracteres curingas (asteriscos e pontos de interrogação). Os novos bancos de dados
 com nomes que correspondem aos filtros de uma tarefa de backup são incluídos ou excluídos automaticamente quando
@@ -82,8 +76,7 @@ a tarefa é executada.
 - Capacidade para proteger bancos de dados no modelo de recuperação integral com uma entrada única de
 planejamento. Essa opção permite proteger bancos de dados e gerenciar o truncamento de logs de transações em uma
 entrada única de planejamento.
-- O plug-in SQL Server suporta os backups Completo, Completo com Inclusão de Logs de Transações e de Log de Transações (terminologia atualizada para alinhar-se com a terminologia do SQL Server).
-O aplicativo continua a suportar a função Restauração de passagem única que permite que o cliente selecione um backup de
+- O plug-in SQL Server suporta os backups Completo, Completo com Inclusão de Logs de Transações e de Log de Transações (terminologia atualizada para alinhar-se com a terminologia do SQL Server). O aplicativo continua a suportar a função Restauração de passagem única que permite que o cliente selecione um backup de
 "log de transações" no momento. O {{site.data.keyword.backup_notm}} restaura o banco de dados completo e todos
 os logs de transações necessários para restaurar o banco de dados para o momento selecionado.
 - Uma tarefa de backup pode conter um ou mais bancos de dados na mesma instância única do SQL

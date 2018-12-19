@@ -21,14 +21,13 @@ Linux pode ser feita por meio de uma série de comandos no shell ou no terminal 
 as etapas que são necessárias para instalar o cliente do {{site.data.keyword.backup_notm}} em qualquer
 um dos seguintes sistemas operacionais baseados em Linux:
 
-- RedHat Enterprise Linux
+- RHEL
 - CentOS
 - CloudLinux
 
-Depois de concluir o procedimento, o processo automatizado registra o serviço de Agente com o WebCC e, em seguida, faz download e instala os arquivos necessários para executar o serviço.
+Depois que você conclui o procedimento, o processo automatizado registra o serviço do Agente com o portal do {{site.data.keyword.backup_notm}} e, em seguida, faz download e instala os arquivos necessários para executar o serviço.
 
-Se você comprou o {{site.data.keyword.backup_notm}} quando solicitou um servidor por meio do catálogo do [{{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente para
-você. Não é necessário usar os procedimentos que estão descritos neste documento.
+Se você comprou o {{site.data.keyword.backup_notm}} quando solicitou um servidor por meio do [catálogo do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente para você. Não é necessário usar os procedimentos que estão descritos neste documento.
 {:tip}
 
 Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no
@@ -36,16 +35,14 @@ Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no
 
 ## Efetuando login no servidor de dispositivo de destino
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda.
-Selecione **Infraestrutura clássica**.
-
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de dispositivos do servidor disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote seu endereço IP público.
   - Esse endereço IP deve ser usado nas etapas a seguir quando você efetuar login no dispositivo em uma linha de comandos do UNIX ou Linux. Substitua
 <publicIpAddress> pelo endereço IP público real no comando que é mostrado na Etapa 4.
 4. Clique na seta que aponta para a direita para exibir mais informações sobre o dispositivo, incluindo o nome do usuário e a senha.
-  - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste.  Substitua `<user name>` pelo nome do usuário real.
+  - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste. Substitua `<user name>` pelo nome do usuário real.
 5. Efetue login no dispositivo de destino inserindo o comando a seguir em uma linha de comandos UNIX ou Linux.
    ```
    ssh <user name>@<publicIpAddress>
@@ -54,11 +51,13 @@ Selecione **Infraestrutura clássica**.
 
    Se você não efetuou login nesse servidor com esse nome de usuário antes, uma mensagem sobre a autenticidade do host será apresentada. Também será perguntado se você deseja continuar. Responda com **sim** para continuar.
    {:note}
+
 6. Será solicitado para você inserir a senha, a menos que você configure as chaves SSH para acessar esse servidor antes.
 
-## Atualizando o Linux para preparar a instalação do cliente de backup (apenas RedHat Linux)
-Essa etapa é necessária para o RedHat Linux, mas é opcional para outras distribuições Linux.
-{:important}
+## Atualizando o S.O. para se preparar para a instalação (somente RHEL)
+
+Esta etapa é necessária para o RHEL, mas opcional para outras distribuições Linux.
+{:tip}
 
 - Execute o comando a seguir no prompt do servidor.
   ```
@@ -84,13 +83,19 @@ Essa etapa é necessária para o RedHat Linux, mas é opcional para outras distr
    ```
    {: pre}
 
-2. Insira seu nome do usuário e senha do WebCC.
+2. Insira seu nome de usuário e senha do portal do {{site.data.keyword.backup_notm}}.
 
    Para obter mais informações sobre como visualizar o nome do usuário e a senha do {{site.data.keyword.backup_notm}}, consulte [Introdução aos serviços de backup](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details).
    {:tip}
-3. Após o nome do usuário e a senha, nenhuma entrada adicional será necessária, embora alguns prompts sejam escritos na tela conforme a instalação continua. Esses avisos podem ser ignorados com segurança. Eles estão sendo produzidos por um subscript, que é iniciado pelo script `evault_manual.sh`. O
+
+3. Após o nome do usuário e a senha, nenhuma entrada adicional é necessária. Os prompts gravados na tela à medida que a instalação continua podem ser ignorados com segurança.
+
+   Eles estão sendo produzidos por um subscript, que é iniciado pelo script `evault_manual.sh`. O
 script `evault_manual.sh` fornece a entrada para esses prompts.
-4. Quando mensagens semelhantes às seguintes aparecem, a instalação foi concluída:
+   {:note}
+
+4. A instalação será concluída quando as mensagens a seguir aparecerem.
+
    ```
    Starting VVAgent: [  OK  ]
    Starting buagent: [  OK  ]
@@ -99,7 +104,7 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
 
 ## Verificando se a Instalação foi Bem-sucedida
 
-1. Verifique se a mensagem "Registrado no portal." aparece na saída de instalação. A verificação pode ser feita procurando a mensagem na tela ou inspecionando a saída do comando a seguir:
+1. Verifique se a mensagem "Registrado no portal" aparece na saída de instalação. A verificação pode ser feita procurando a mensagem na tela ou inspecionando a saída do comando a seguir.
    ```
    grep 'Registered'  /opt/BUAgent/Install.log
    ```
@@ -123,5 +128,4 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
 
 **Etapas seguintes**
 
-Efetue login no WebCC para configurar e gerenciar seus agentes de backup. Para obter mais informações, consulte o
-[Tutorial de introdução](index.html#configuring-the-backup-agent-in-webcc).
+Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de Introdução](index.html#configuring-the-backup-agent-and-the-backup-schedule) e [Configurando o backup de nível de arquivo simples no Linux](configure-simple-file-backup-linux.html).

@@ -23,10 +23,8 @@ Para obter informações sobre os backups para os servidores Windows 2016, consu
 
 ## Efetuando login no servidor de dispositivo de destino
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e
-clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de servidores disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote
 seu endereço IP público.
@@ -60,4 +58,4 @@ seu endereço IP público.
 
 ## Configurando os agentes de backup
 
-Efetue login no WebCC para configurar e gerenciar seus agentes de backup. Para obter mais informações, consulte o [Tutorial de introdução](index.html#configuring-the-backup-agent-in-webcc).
+Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de introdução](index.html#configuring-the-backup-agent-and-the-backup-schedule).

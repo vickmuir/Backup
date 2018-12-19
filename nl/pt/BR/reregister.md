@@ -10,13 +10,14 @@ lastupdated: "2018-12-14"
 {:note: .note}
 {:important: .important}
 
-# Registando novamente uma área segura
+# Registrando novamente uma área segura
 
 Esta tarefa será usada mais comumente depois que o Sistema Operacional de um servidor for recarregado. Também é possível usar essas etapas para [usar backups de um servidor para restaurar dados em outro servidor](restore-from-another-computer.html).
+{:tip}
 
-1. Inicie o WebCC e efetue login. Para obter mais informações, consulte o [Tutorial de introdução](index.html).
+1. Inicie o portal do {{site.data.keyword.backup_notm}} e efetue login. Para obter mais informações, consulte o [Tutorial de introdução](index.html).
 
-   Lembre-se, WebCC é acessível apenas por meio do {{site.data.keyword.BluVPN}}.
+   Lembre-se, o portal do {{site.data.keyword.backup_notm}} é acessível apenas por meio do {{site.data.keyword.BluVPN}}.
    {:tip}
 2. À esquerda, clique em **Todos os Agentes**.
 3. No canto superior direito, passe o mouse sobre **Editar**.
@@ -27,7 +28,7 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
   - Endereço da área segura
   - Conta
 
-    "Conta" é o equivalente a "Nome da conta" no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. Normalmente, é semelhante a "SLE[ID da conta]"
+    "Conta" é o equivalente do "Nome da conta" no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. Normalmente, é semelhante a "SLE[ID da conta]"
     {:tip}
   - Nome do Usuário
   - Senha

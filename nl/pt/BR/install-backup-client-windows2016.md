@@ -10,14 +10,13 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
 
 # Configurando o {{site.data.keyword.backup_notm}} no Windows 2016
 
 ## Instalando o agente do software {{site.data.keyword.backup_notm}}
 
-1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do arquivo executável
+1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do
+arquivo executável.
    ```
    http://downloads.service.softlayer.com/evault/
    ```
@@ -26,12 +25,12 @@ lastupdated: "2018-12-14"
 3. Selecione seu idioma para a instalação e clique em **OK**.
 4. Clique em **Avançar** para começar.
 5. Leia os Termos e condições e selecione **Eu aceito os termos no contrato de licença**. Em seguida, clique em **Avançar**.
-6. Selecione **Típica** para o Tipo de configuração. Clique em **Avançar**.
+6. Selecione **Típica** como o Tipo de configuração. Clique em **Avançar**.
 7. Na tela Registrar o agente com o portal, selecione **Ignorar registro**. Clique em **Avançar**
 8. Na próxima tela, clique em **Instalar**.
 9. Quando a instalação estiver concluída, clique em **Concluir**.
 
-## Instalando o CentralControl 8.30
+## Instalando o Central Control 8.30
 
 1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do
 arquivo executável.
@@ -49,24 +48,23 @@ arquivo executável.
 4. Quando a instalação estiver completa, marque **Ativar o EVault Software Central Control**. Clique em **Concluir**.
 
 
-## Configurando o CentralControl
+## Configurando o Central Control
 
-Essa tarefa é concluída por meio de uma série de interações enquanto o login está efetuado no servidor
-designado para o serviço do {{site.data.keyword.backup_notm}}.
+Esta tarefa é concluída por meio de uma série de interações enquanto você está conectado ao servidor designado ao serviço {{site.data.keyword.backup_notm}}.
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
-2. Inicie o CentralControl.
+2. Inicie o controle central.
 3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Configuração do agente**.
 4. Na guia Áreas seguras, clique em **Novo**. O Assistente de Configuração de Área Segura aparece. Clique em **Avançar**.
 5. Selecione **Registrar como um novo computador** e clique em
 **Avançar**.
 6. Insira o nome da área segura no campo Nome do perfil.
 
-   O nome da área segura pode ser obtido no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   O nome da área segura pode ser obtido do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
    {:tip}
 6. Insira o endereço de rede (o endereço IP da área segura designada) e clique em **Incluir**. Em seguida, clique em **Avançar**.
 7. Insira os novos valores de porta e clique em **Incluir** e, em seguida, em **Avançar**.
-8. Na tela Configurações de conexão, insira o número de segundos/minutos que você deseja. Mantenha a caixa **Ativar sobre a criptografia de ligação para transmissões para/a partir da área segura** marcada. Clique em **Avançar**.
+8. Na tela Configurações de conexão, insira o número de segundos e minutos desejados. Mantenha a caixa **Ativar sobre a criptografia de ligação para transmissões para/a partir da área segura** marcada. Clique em **Avançar**.
 9. Na tela de autenticação, insira as suas credenciais e clique em **Avançar**.
 10. A janela Computadores registrados exibe o nome do host de seu servidor. Clique em **Avançar**.
 11.	Clique em **Concluir** para concluir a configuração.
@@ -75,7 +73,7 @@ designado para o serviço do {{site.data.keyword.backup_notm}}.
 ## Criando os esquemas de retenção
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
-2. Inicie o CentralControl.
+2. Inicie o controle central.
 3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Configuração do agente**.
 4. Clique na guia **Retenções**. O Assistente de retenção aparece; clique em **Avançar**.
 5. Insira o nome de retenção. Clique em **Avançar**.<br/>
@@ -94,7 +92,7 @@ backups sejam retidos.
 ## Configurando a tarefa do {{site.data.keyword.backup_notm}}
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
-2. Inicie o CentralControl.
+2. Inicie o controle central.
 3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Nova tarefa**.
 4. Na tela de boas-vindas, clique em **Avançar**.
 5. Selecione o tipo de origem de backup.
@@ -114,10 +112,10 @@ backups sejam retidos.
 ## Executando a tarefa do {{site.data.keyword.backup_notm}}
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
-2. Inicie o CentralControl.
+2. Inicie o controle central.
 3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione o agente que você criou.
 4. Na tela de boas-vindas, clique em **Avançar**.
-5. Selecione o destino de backup ou um local alternativo para definir o valor inicial da tarefa de backup. Clique em **Avançar**.<br/>
+5. Selecione o destino de backup ou outro local para iniciar a tarefa de backup. Clique em **Avançar**.<br/>
    Para obter mais informações sobre múltiplas áreas seguras, consulte
 [Criação de múltiplas áreas seguras](multivaulting.html)
    {:tip}

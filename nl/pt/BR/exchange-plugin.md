@@ -14,9 +14,7 @@ lastupdated: "2018-12-14"
 
 # Instalando o Plug-in do Exchange
 
-O plug-in do Exchange é instalado com o Windows Agent no host. Por meio do portal do WebCC, é possível configurar
-tarefas, fazer backup de bancos de dados do Exchange para uma área segura remota segura e restaurar os bancos de dados
-do Exchange. O plug-in integra-se à arquitetura existente.
+O plug-in do Exchange é instalado com o Windows Agent no host. Por meio do portal do {{site.data.keyword.backup_notm}}, é possível configurar tarefas, fazer backup de bancos de dados do Exchange para uma área segura remota e restaurar bancos de dados do Exchange. O plug-in integra-se à arquitetura existente.
 
 **Recursos fornecidos**
 
@@ -24,10 +22,8 @@ do Exchange. O plug-in integra-se à arquitetura existente.
 
 ## Solicitando o plug-in
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e
-clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione a sua conta e clique em **Solicitar plug-ins**.
@@ -57,9 +53,8 @@ com o número de revisão mais alto.
 8. Selecione **Manter meu registro atual** e clique em **Avançar**.
 9. Clique em **Instalar**.
 10. Quando instalado, verifique para assegurar que ambos os serviços estejam ativados e em execução.
-11. Se o WebCC puder acessar/visualizar o banco de dados, a instalação foi bem-sucedida.
+11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de acessar/visualizar o banco de dados, a instalação foi bem-sucedida.
 
 ## Fazendo download do guia do usuário
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com a {{site.data.keyword.BluVPN}}
-para que seja possível acessar e fazer download do guia do usuário por meio da [Documentação do {{site.data.keyword.backup_notm}} que pode ser transferida por download ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. O guia descreve como fazer backup e restaurar bancos de dados do Microsoft Exchange usando o plug-in do Exchange. O guia também descreve como compartilhar um conjunto de segurança de backup DR. Com um conjunto de segurança de backup DR, é possível restaurar caixas de correio, mensagens ou outros objetos específicos para um arquivo .pst usando o aplicativo Granular Restore for Microsoft Exchange.
+Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} O guia descreve como fazer backup e restaurar bancos de dados do Microsoft Exchange usando o plug-in do Exchange. O guia também descreve como compartilhar um conjunto de segurança de backup DR. Com um conjunto de segurança de backup DR, é possível restaurar caixas de correio, mensagens ou outros objetos específicos para um arquivo .pst usando o aplicativo Granular Restore for Microsoft Exchange.
