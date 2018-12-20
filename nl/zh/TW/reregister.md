@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # 重新登錄儲存庫
 
 重新載入伺服器的「作業系統」之後，最常使用此作業。您也可以使用下列步驟，[使用某部伺服器的備份，在另一部伺服器上還原資料](restore-from-another-computer.html)。
+{:tip}
 
-1. 啟動 WebCC，並登入。如需相關資訊，請參閱[入門指導教學](index.html)。
+1. 啟動 {{site.data.keyword.backup_notm}} 入口網站並登入。如需相關資訊，請參閱[入門指導教學](index.html)。
 
-   請記住，只能透過 {{site.data.keyword.BluVPN}} 來存取 WebCC。
+   請記得，只能透過 {{site.data.keyword.BluVPN}} 來存取 {{site.data.keyword.backup_notm}} 入口網站。
    {:tip}
 2. 在左邊，按一下**所有代理程式**。
 3. 在右上角，將滑鼠移至**編輯**上方。
@@ -27,7 +28,7 @@ lastupdated: "2018-12-14"
   - 儲存庫位址。
   - 帳戶。
 
-    「帳戶」等同於 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
+    「帳戶」等同於 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
     {:tip}
   - 使用者名稱。
   - 密碼

@@ -16,25 +16,24 @@ lastupdated: "2018-12-14"
 
 Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. In diesem Artikel sind die Schritte beschrieben, mit denen Sie den Agenten sowie den Aufbewahrungszeitplan konfigurieren und Ihren ersten Sicherungsjob starten.
 
-## WebCC starten
+## Das {{site.data.keyword.backup_notm}}-Portal starten
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus. <br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-2. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zu WebCC sichtbar zu machen.
+2. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 3. Starten Sie Ihre VPN-Verbindung, um Zugang zum privaten IBM Netz zu erhalten.
-4. Klicken Sie auf den Anmeldelink für WebCC, um den WebCC-Client in Ihrem Browser zu starten.<br/>
+4. Klicken Sie auf den Link zur {{site.data.keyword.backup_notm}}-Portalanmeldung, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.<br/>
 
-  Falls WebCC nicht gestartet wird, liegt möglicherweise ein Problem mit Ihrer VPN-Verbindung vor. Außerdem wird möglicherweise die Nachricht ausgegeben, dass das Formular, das Sie senden, nicht sicher ist. Dies entspricht dem erwarteten Verhalten; fahren Sie mit dem Senden des Formulars fort.
+  Falls das {{site.data.keyword.backup_notm}}-Portal nicht gestartet wird, liegt möglicherweise ein Problem mit Ihrer VPN-Verbindung vor. Außerdem wird möglicherweise die Nachricht ausgegeben, dass das Formular, das Sie senden, nicht sicher ist. Dies entspricht dem erwarteten Verhalten; fahren Sie mit dem Senden des Formulars fort.
   {:tip}
 
 ## Sicherungsjob konfigurieren
 
-1. Klicken Sie auf der linken Seite im Navigationsbereich auf **Alle Agenten**, um die aktuellen IBM Cloud-Sicherungsagenten anzuzeigen.
+1. Klicken Sie im Navigationsbereich auf **Alle Agenten**, um die aktuellen {{site.data.keyword.backup_notm}}-Agenten anzuzeigen. 
 2. Klicken Sie auf **Neuer Agent, der konfiguriert werden soll**.
-3. Geben Sie einen Jobnamen und eine Jobbeschreibung für den Job ein, den Sie konfigurieren bzw. erstellen.
-4. Wählen Sie bei **Sicherungsquellentyp** im Menü den Typ des Dateisystems aus, für den die Sicherung ausgeführt werden soll.
+3. Geben Sie einen Jobnamen und eine Jobbeschreibung für den Job ein, den Sie erstellen.
+4. Wählen Sie bei **Sicherungsquellentyp** den Typ des Dateisystems aus, für den die Sicherung ausgeführt werden soll.
 5. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 6. Navigieren Sie im Fenster **Datendateien** zu den Dateien und Verzeichnissen, die Sie in Ihre Sicherung einbeziehen wollen, indem Sie auf die Zeichen **+** und **-** neben den Ordnersymbolen klicken.
 7. Wählen Sie die Kontrollkästchen neben den Dateien und Verzeichnissen aus, die Sie einbeziehen wollen, und klicken Sie anschließend auf **Einschließen**, um Ihre Auswahl zu speichern.
@@ -44,8 +43,8 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
    {:tip}
 9. Wählen Sie den gewünschten Verschlüsselungstyp aus.
   - Wählen Sie **Ohne** aus, wenn Ihre Sicherung nicht verschlüsselt werden soll.
-  - Falls Ihre Sicherung verschlüsselt werden soll, wählen Sie **AES 256-Bit** aus und geben Sie in den Feldern 'Kennwort' und 'Kennwort überprüfen' ein Kennwort ein. Auf Wunsch können Sie einen Kennworthinweis hinzufügen.
-    Sie benötigen dieses Kennwort, um Dateien aus der Sicherung wiederherzustellen. Ein vergessenes Kennwort kann ebensowenig wiederhergestellt werden wie eine verschlüsselte Sicherung, deren Kennwort nicht bekannt ist.
+  - Falls Ihre Sicherung verschlüsselt werden soll, wählen Sie **AES 256-Bit** aus und geben Sie in den Feldern 'Kennwort' und 'Kennwort überprüfen' ein Kennwort ein. Sie können auch einen Kennworthinweis hinzufügen.
+    Sie benötigen dieses Kennwort, um Dateien aus der Sicherung wiederherzustellen. Ohne das Passwort können Sie kein verschlüsseltes Backup wiederherstellen und es gibt keine Möglichkeit, ein verlorenes Passwort wiederherzustellen.
   {:important}
 10. Sie können jede der **erweiterten Optionen** verwenden.
   - **Aufbewahrung** - Mit dieser Option können Sie Ihre Datennutzung verwalten. Die Aufbewahrungsdauer legt fest, wie lange Ihre Sicherung aufbewahrt wird. Nach Ablauf der Aufbewahrungsdauer wird die Sicherung automatisch entfernt. Die integrierten Auswahlmöglichkeiten sind 'Täglich', 'Wöchentlich' und 'Monatlich'.
@@ -57,8 +56,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
 12. Klicken Sie auf der Seite 'Zeitplan erstellen' auf **Hinzufügen**, um einen zeitbasierten Sicherungsjob zu planen, oder klicken Sie auf **Weiter**, um einen manuellen Job zu erstellen.
   - Falls Sie einen manuellen Job erstellen wollen, fahren Sie mit Schritt 15 fort.
   - Falls Sie einen zeitbasierten Job planen wollen, wählen Sie die Tage und die Uhrzeit für die Ausführung der Sicherungen aus.
-  - Wählen Sie das Aufbewahrungsschema aus. Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html#-how-do-the-retention-schemes-work-).
-
+  - Wählen Sie das Aufbewahrungsschema aus. Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html#how-do-the-retention-schemes-work-).
   - Klicken Sie auf **Erweiterte Zeitplanoptionen**, um zusätzliche Konfigurationseinstellungen anzuzeigen. Durch Auswahl von **Verzögerung verwenden** können Sie verhindern, dass umfangreiche Sicherungen zu Zeiten mit einer hohen Netzauslastung ausgeführt werden.
 
     Wenn die Verzögerung aktiviert ist, sichert der Sicherungsjob nach dem angegebenen Zeitraum keine neuen Daten. Die Sicherungsgruppe wird in der Vault festgeschrieben, auch wenn einige Daten im Job nicht gesichert wurden. Änderungen an zuvor gesicherten Daten werden unabhängig vom angegebenen Zeitraum gesichert. <br/> Wenn der Job erneut ausgeführt wird, prüft der Agent die zuvor gesicherten Daten auf Änderungen, sichert diese Änderungen und sichert anschließend die übrigen Daten. Falls ein Sicherungsjob verzögert wird, während ein Element gesichert wird, ist die Sicherung für dieses Element unvollständig und Daten aus dem Element können nicht wiederhergestellt werden. Elemente, die im Job vor seiner Verzögerung gesichert wurden, können Sie jedoch wiederherstellen.

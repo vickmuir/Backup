@@ -29,7 +29,7 @@ lastupdated: "2018-12-14"
 8. Klicken Sie in der nächsten Anzeige auf **Installieren**.
 9. Klicken Sie nach Abschluss der Installation auf **Fertigstellen**.
 
-## CentralControl 8.30 installieren
+## Central Control 8.30 installieren
 
 1. Öffnen Sie auf dem Zielserver eine Browsersitzung und geben Sie die folgende URL ein, um die ausführbare Datei herunterzuladen:
 
@@ -46,12 +46,12 @@ lastupdated: "2018-12-14"
 4. Aktivieren Sie nach Abschluss der Installation das Kontrollkästchen **EVault Software Central Control starten**. Klicken Sie auf **Fertigstellen**.
 
 
-## CentralControl konfigurieren
+## Central Control konfigurieren
 
 Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Server angemeldet sind, der für den {{site.data.keyword.backup_notm}}-Service bestimmt ist.
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
-2. Starten Sie CentralControl.
+2. Starten Sie Central Control.
 3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Agentenkonfiguration** aus.
 4. Klicken Sie auf der Registerkarte 'Vaults' auf **Neu**. Daraufhin wird der Assistent für die Vaultkonfiguration aufgerufen. Klicken Sie auf **Weiter**.
 5. Wählen Sie **Als neuer Computer registrieren** aus und klicken Sie auf **Weiter**.
@@ -61,7 +61,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
    {:tip}
 6. Geben Sie die Netzadresse (IP-Adresse der zugewiesenen Vault) ein und klicken Sie anschließend auf **Hinzufügen**. Klicken Sie anschließend auf **Weiter**.
 7. Geben Sie die neuen Portwerte ein, klicken Sie auf **Hinzufügen** und klicken Sie dann auf **Weiter**.
-8. Geben Sie in der Anzeige 'Verbindungseinstellungen' die gewünschte Anzahl der Sekunden/Minuten ein. Behalten Sie die Auswahl des Kontrollkästchens zum **Aktivieren über die Verbindungsverschlüsselung für Übertragungen zur/von der Vault** bei. Klicken Sie auf **Weiter**.
+8. Geben Sie in der Anzeige "Verbindungseinstellungen" die gewünschte Anzahl der Sekunden und Minuten. Behalten Sie die Auswahl des Kontrollkästchens zum **Aktivieren über die Verbindungsverschlüsselung für Übertragungen zur/von der Vault** bei. Klicken Sie auf **Weiter**.
 9. Geben Sie in der Anzeige 'Authentifizierung' Ihre Berechtigungsnachweise ein und klicken Sie auf **Weiter**.
 10. Im Fenster 'Registrierte Computer' wird nun der Hostname Ihres Servers angezeigt. Klicken Sie auf **Weiter**.
 11.	Klicken Sie auf **Fertigstellen**, um die Konfiguration abzuschließen.
@@ -70,7 +70,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 ## Aufbewahrungschemas erstellen
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
-2. Starten Sie CentralControl.
+2. Starten Sie Central Control.
 3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Agentenkonfiguration** aus.
 4. Klicken Sie auf die Registerkarte **Aufbewahrungen**. Klicken Sie im daraufhin aufgerufenen Aufbewahrungsassistenten auf **Weiter**.
 5. Geben Sie den Aufbewahrungsnamen ein. Klicken Sie auf **Weiter**.<br/>
@@ -79,7 +79,8 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
    {:important}
 6. Geben Sie die Anzahl der Tage für die Onlineaufbewahrung und die Anzahl der Kopien für diesen Aufbewahrungstyp ein. Klicken Sie anschließend auf **Weiter**.<br/>
 
-   Die Kombination aus Aufbewahrungszeitraum und Kopien wird verwendet, um sicherzustellen, dass eine Mindestdauer und eine bestimmte Anzahl von Sicherungen aufbewahrt werden.    {:tip}
+   Die Kombination aus Aufbewahrungszeitraum und Kopien wird verwendet, um sicherzustellen, dass eine Mindestdauer und eine bestimmte Anzahl von Sicherungen aufbewahrt werden.
+   {:tip}
 7. Wählen Sie **Ich will keine Archivierungssicherungskopien erstellen** aus. Klicken Sie auf **Weiter**.
 8. Klicken Sie auf **Fertigstellen**, um die Konfiguration des Aufbewahrungsschemas abzuschließen.
 
@@ -87,7 +88,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 ## {{site.data.keyword.backup_notm}}-Job konfigurieren
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
-2. Starten Sie CentralControl.
+2. Starten Sie Central Control.
 3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Neuer Job** aus.
 4. Klicken Sie in der Eingangsanzeige auf **Weiter**.
 5. Wählen Sie den Sicherungsquellentyp aus.
@@ -107,10 +108,10 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 ## {{site.data.keyword.backup_notm}}-Job ausführen
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
-2. Starten Sie CentralControl.
+2. Starten Sie Central Control.
 3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie dann den von Ihnen erstellten Agenten aus.
 4. Klicken Sie in der Eingangsanzeige auf **Weiter**.
-5. Wählen Sie das Sicherungsziel oder eine alternative Speicherposition für den Seed-Sicherungsjob (vollständige Gesamtsicherung) aus. Klicken Sie auf **Weiter**.<br/>
+5. Wählen Sie das Sicherungsziel oder eine andere Speicherposition für den Seed-Sicherungsjob (vollständige Gesamtsicherung) aus. Klicken Sie auf **Weiter**.<br/>
    Weitere Informationen zur Verwendung mehrerer Vaults finden Sie unter [Multi-Vaulting](multivaulting.html)
    {:tip}
 6. Wählen Sie die Option für das Quick File Scanning aus, um zu vermeiden, dass Dateien, die nicht geändert wurden, gelesen werden. Klicken Sie auf **Weiter**.

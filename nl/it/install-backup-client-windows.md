@@ -22,9 +22,8 @@ Per informazioni sui backup per i server Windows 2016, vedi [Configurazione di {
 
 ## Accesso al server del dispositivo di destinazione
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
-
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Seleziona **Devices** > **Device List** dal menu principale per visualizzare l'elenco di server disponibili.
 3. Trova il dispositivo per cui hai acquistato il servizio {{site.data.keyword.backup_notm}} e prendi nota del suo indirizzo IP pubblico.
 4. Fai clic sulla freccia rivolta verso destra per espandere ulteriori informazioni sul dispositivo, incluso il nome utente e la password. Se la password non viene visualizzata, fai clic su **Show Password**.
@@ -50,11 +49,11 @@ Per informazioni sui backup per i server Windows 2016, vedi [Configurazione di {
   ```
   {: pre}
 
-2. Immetti il nome utente nel campo **User name**.
-3. Immetti la password nel campo **Password**.
+2. Immetti il nome utente nel campo **user name**.
+3. Immetti la password nel campo **password**.
 6. Fai clic su **Next**
 7. Fai clic su **Install** per completare l'installazione.
 
-## Configurazione degli agent di backup
+## Configurazione degli agent Backup
 
-Accedi a WebCC per configurare e gestire i tuoi agent di backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html#configuring-the-backup-agent-in-webcc).
+Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html#configuring-the-backup-agent-and-the-backup-schedule).

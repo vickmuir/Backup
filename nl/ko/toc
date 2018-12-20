@@ -13,15 +13,15 @@ IBM Cloud 스토리지 - IBM Cloud 백업
     구성
         install-backup-client-linux.md
         configure-simple-file-backup-linux.md
+        upgrade-backup-agent-linux.md
         install-backup-client-windows.md
         configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        [VMware용 백업 클라이언트 설치](infrastructure/vmware/install-evault-backup-client-vmware.html)
+        [VMware용 백업 클라이언트 설치](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md
-        canceling-backup-service.md
 
     {: .topicgroup}
     복원
@@ -43,4 +43,5 @@ IBM Cloud 스토리지 - IBM Cloud 백업
     faqs.md
     change-password.md
     expanding-capacity.md
+    canceling-backup-service.md
     {: .navgroup-end}

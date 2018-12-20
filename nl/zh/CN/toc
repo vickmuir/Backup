@@ -13,15 +13,15 @@ IBM Cloud Storage - IBM Cloud Backup
     配置
         install-backup-client-linux.md
         configure-simple-file-backup-linux.md
+        upgrade-backup-agent-linux.md
         install-backup-client-windows.md
         configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        [安装适用于 VMware 的备份客户机](infrastructure/vmware/install-evault-backup-client-vmware.html)
+        [安装适用于 VMware 的备份客户机](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md
-        canceling-backup-service.md
 
     {: .topicgroup}
     复原
@@ -43,4 +43,5 @@ IBM Cloud Storage - IBM Cloud Backup
     faqs.md
     change-password.md
     expanding-capacity.md
+    canceling-backup-service.md
     {: .navgroup-end}

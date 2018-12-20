@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Erste Schritte mit {{site.data.keyword.backup_notm}}-Services
 
-Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte WebCC-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.BluSoftlayer_full}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Es stehen zusätzliche Plug-ins zur Verfügung, die die Kompatibilität mit Software wie Microsoft Exchange und Microsoft SQL sowie weiteren Typen von Software anderer Anbieter sicherstellen und Benutzer in die Lage versetzen, bei Bedarf eine Bare-Metal-Wiederherstellung durchzuführen.
+Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte {{site.data.keyword.backup_notm}}-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.BluSoftlayer_full}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Es stehen zusätzliche Plug-ins zur Verfügung, die die Kompatibilität mit Software wie Microsoft Exchange und Microsoft SQL sowie weiteren Typen von Software anderer Anbieter sicherstellen und Benutzer in die Lage versetzen, bei Bedarf eine Bare-Metal-Wiederherstellung durchzuführen.
 
 ## {{site.data.keyword.backup_notm}} bestellen
 
@@ -23,17 +23,16 @@ Sie können den {{site.data.keyword.backup_notm}}-Service auf zwei Arten erwerbe
 - [{{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen](#purchasing-ibm-cloud-backup-when-you-order-a-server)
 - [{{site.data.keyword.backup_notm}} als Upgrade kaufen](#purchasing-ibm-cloud-backup-as-an-upgrade)
 
-Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 
-1. Melden Sie sich beim [IBM Cloud-Katalog](https://{DomainName}/catalog/){:new_window} oder dem [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} an.
-2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
+1. Melden Sie sich beim [IBM Cloud-Katalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} an. 
+2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](bare-metal/baremetal-provision.html){:new_window}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 
-   Der {{site.data.keyword.backup_notm}}-Service ist nicht verfügbar, wenn Sie einen Server bestellen, der auf Stundenbasis abgerechnet wird. Der Service kann jedoch später als Upgrade hinzugefügt werden.
-   {:tip}
-
+      Der {{site.data.keyword.backup_notm}}-Service ist nicht verfügbar, wenn Sie einen Server bestellen, der auf Stundenbasis abgerechnet wird. Der Service kann jedoch später als Upgrade hinzugefügt werden.
+      {:tip}
    2. Wählen Sie die Position aus.
    3. Wählen Sie die Serverkonfiguration und einen Betriebssystemimagetyp aus. Sie können auch mehrere Add-ons auswählen.
    4. Klicken Sie im Abschnitt **Speicherplatten** auf **Add-ons** und wählen Sie **{{site.data.keyword.backup_notm}}-Sicherung** aus. Wählen Sie die Option aus, die Ihren Anforderungen am besten entspricht.
@@ -42,14 +41,14 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 4. Danach markieren Sie das Kontrollkästchen **Die im Folgenden aufgeführten Servicevereinbarungen anderer Anbieter habe ich gelesen und stimme ihnen zu:**.
 5. Klicken Sie auf **Bereitstellung**. Sie werden zu einer Anzeige geführt, der Sie die Bestellnummer für Ihre Bereitstellung entnehmen können. Sie können die Anzeige ausdrucken, weil es sich hierbei auch um die Bestätigung des Bestelleingangs für Ihre Bereitstellung handelt.
 
-   Sie können diese Bestellung auch ohne Einkauf speichern, indem Sie auf **Als Angebot speichern** klicken. {:tip}
+   Sie können diese Bestellung auch ohne Einkauf speichern, indem Sie auf **Als Angebot speichern** klicken.
+   {:tip}
 
 An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestätigung der Bereitstellungsbestellung, zur Genehmigung und Verarbeitung der Bereitstellungsbestellung sowie zur Fertigstellung der Bereitstellung. Die E-Mail zur Fertigstellung der Bereitstellung enthält einen Link zu Ihrer Seite *Gerätedetails*, auf die Sie zugreifen können, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 #### {{site.data.keyword.backup_notm}}-Einkauf bestätigen
-1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Gerät** > **Geräteliste**.
 2. Suchen Sie nach dem neuen Server, den Sie bestellt haben.
   - Wenn das Uhrsymbol neben der URL angezeigt wird, müssen Sie warten, bevor Sie mit der Kaufbestätigung für {{site.data.keyword.backup_notm}} fortfahren können. Sie können die Seite aktualisieren und so einen aktualisierten Status Ihres neuen Servers anzeigen. Wenn das Uhrsymbol nicht mehr angezeigt wird, können Sie mit den nächsten Schritten fortfahren, um den Kauf des {{site.data.keyword.backup_notm}}-Service zu bestätigen.
@@ -61,9 +60,8 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
 #### Wählen Sie einen Server aus, auf dem Sie {{site.data.keyword.backup_notm}} installieren möchten.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Wählen Sie im Hauptmenü die Optionen **Geräte** > **Geräteliste** aus. Suchen Sie nach dem Gerät, für das Sie den {{site.data.keyword.cloud_notm}}-Sicherungsservice hinzufügen möchten.
 3. Klicken Sie auf den Gerätenamen, um zu der Seite **Gerätedetails** zu gelangen.
 
@@ -81,15 +79,15 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 1. Aktualisieren Sie die Seite **Gerätedetails** und achten Sie darauf, dass die Registerkarte **Speicher** ausgewählt ist.
 2. Überprüfen Sie den Abschnitt {{site.data.keyword.backup_notm}} und vergewissern Sie sich, dass die Größe angezeigt wird, die Sie während des Kaufvorgangs ausgewählt haben.
 
-   Falls für die Größe des Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren. {:tip}
+   Falls für die Größe des Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren.
+   {:tip}
 
 ## Auf Speicherdetails von {{site.data.keyword.backup_notm}} zugreifen und diese anzeigen
 
 Die Speicherdetails Ihres {{site.data.keyword.backup_notm}}-Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen. Fahren Sie mit dem nächsten Schritt fort, um das Kennwort anzuzeigen, das Ihrem {{site.data.keyword.backup_notm}}-Service zugeordnet ist.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
@@ -101,7 +99,7 @@ Dies gilt _nicht_ für {{site.data.keyword.backup_notm}}. Änderungen, die Sie a
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
 
-Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt:
+Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt: 
 
 **Windows**
  - Windows Server 2012 R2
@@ -115,29 +113,30 @@ Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssyste
  - Debian GNU/Linux 9.x
  - Debian GNU/Linux 8.x
  - Debian GNU/Linux 7.x
- - Red Hat Enterprise Linux 7.x
- - Red Hat Enterprise Linux 6.x
+ - RHEL 7.x
+ - RHEL 6.x
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
 Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
 - [Backup-Client unter Linux installieren](install-backup-client-linux.html)
 - [Backup-Client unter Windows installieren](install-backup-client-windows.html)
-- [Backup-Client für Windows 2016 installieren](install-windows2016.html)
+- [Backup-Client unter Windows 2016 installieren](install-windows2016.html)
+- [Backup-Client unter VMware installieren](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
-## Auf WebCentralControl (WebCC) zugreifen
+## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 
-WebCentralControl (WebCC) ist der Client, der für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet wird, der von {{site.data.keyword.BluSoftlayer_full}} angeboten wird. WebCC ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.BluSoftlayer_full}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht. Führen Sie die folgenden Schritte aus, um auf WebCC zuzugreifen.
+Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet, der von {{site.data.keyword.BluSoftlayer_full}} angeboten wird. Das {{site.data.keyword.backup_notm}}-Portal ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.BluSoftlayer_full}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht. 
 
 1. Greifen Sie über ein VPN auf das private Netz zu.
 
-   WebCC kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
+   Das {{site.data.keyword.backup_notm}}-Portal kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
    {:important}
 2. Greifen Sie auf die Anzeige des Sicherungsspeichers im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} zu.
 3. Klicken Sie auf eine beliebige Stelle in der Zeile des {{site.data.keyword.backup_notm}}-Service, den Sie in der Ansicht erweitern möchten.
-4. Klicken Sie auf **WebCC-Anmeldung**, um den WebCC-Client in Ihrem Browser zu starten.
+4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
 
-## Sicherungsagenten in WebCC konfigurieren
+## Backup-Client und Sicherungszeitplan konfigurieren
 
 Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie die folgenden Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren und Ihren ersten Sicherungsjob zu starten.
 
@@ -158,7 +157,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent
    4. Klicken Sie auf **OK**.
    5. Klicken Sie auf **Speichern**.
 
-      Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html)
+      Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html).
       {:tip}
 5. Führen Sie den Agenten aus und starten Sie eine Sicherung.
    1. Klicken Sie auf **Alle Agenten** und wählen Sie dann den soeben konfigurierten Agenten aus.
@@ -172,4 +171,4 @@ Weitere Informationen zu Sicherungen auf Dateiebene unter Linux finden Sie unter
 
 ## Onlinehilfe anfordern
 
-Die WebCC-Systeme sind vollständig dokumentiert und die Unterstützung für die Anwendung ist in WebCC zugänglich. Klicken Sie auf das weiße Fragezeichen in dem blauen Kreis, das sich in der oberen rechten Ecke befindet, wenn Sie **Hilfe** benötigen. Klicken Sie in der Navigationsleiste auf der linken Seite auf einen beliebigen Artikel oder Abschnitt, um weitere Informationen anzuzeigen.
+Die Systeme des {{site.data.keyword.backup_notm}}-Portals sind vollständig dokumentiert und die Unterstützung für die Anwendung ist im {{site.data.keyword.backup_notm}}-Portal zugänglich. Klicken Sie auf das weiße Fragezeichen in dem blauen Kreis, das sich in der oberen rechten Ecke befindet, wenn Sie **Hilfe** benötigen. Klicken Sie in der Navigationsleiste auf der linken Seite auf einen beliebigen Artikel oder Abschnitt, um weitere Informationen anzuzeigen.

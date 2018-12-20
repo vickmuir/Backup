@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # SQL Server プラグインのインストール
 
-SQL Server プラグインは、Windows エージェントとともに SQL データベース・ホスト上にインストールされます。 WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの SQL データベースのバックアップ、および SQL データベースのリストアを行うことができます。
+SQL Server プラグインは、Windows エージェントとともに SQL データベース・ホスト上にインストールされます。 {{site.data.keyword.backup_notm}} ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの SQL データベースのバックアップ、および SQL データベースのリストアを行うことができます。
 
 **提供されている機能**
 
@@ -23,11 +23,12 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 - SQL データベースを同じ SQL インスタンスまたは異なる SQL インスタンスにリストアできます。
 - 元のデータベース名でデータベースをリストアしたり、既存のデータベースを上書きしたり、リカバリーなしオプションを使用してリストアしたりできます。
 
+詳しくは、[主な機能](#main-featues)セクションを参照してください。
+
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
 4. **「{{site.data.keyword.backup_notm}} プラグイン - MSSQL」**を選択し、**「続行」**をクリックします。
@@ -38,7 +39,7 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 
 ## MSSQL プラグインのインストール
 
-Windows 用の SQL プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
+SQL プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
 
 Microsoft Windows サーバー用の MSSQL プラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
@@ -53,19 +54,13 @@ Microsoft Windows サーバー用の MSSQL プラグインをインストール�
 8. **「現在の登録を保持する (Keep my current registration)」**を選択して、**「次へ」**をクリックします。
 9. **「インストール (Install)」**をクリックします。
 10. インストール後、両方のサービスが有効で実行中であることを確認してください。
-11. WebCC がデータベースを表示してそこにアクセスできる場合、インストールは正常に完了しています。
+11. {{site.data.keyword.backup_notm}} ポータルがデータベースを表示してそこにアクセスできる場合、インストールは正常に完了しています。
 
 ## ユーザー・ガイドのダウンロード
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}からユーザーズ・ガイドをダウンロードすることができます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドをダウンロードすることができます。
 
-## よくあるご質問
-
-**VSS (ボリューム・シャドー・コピー・サービス) では何か行われますか。**
-
-現行バージョンの SQL Server プラグインでは、VSS (ボリューム・シャドー・コピー・サービス) を使用してバックアップを実行します。 VSS を使用すると、SQL Server プラグインは、SQL データベースが複数ボリュームにまたがっている場合でも、SQL データベースを効果的にバックアップできます。 バックアップは、アプリケーションがボリュームへの書き込みを続行中に完了することがあります。 SQL Server プラグインにより、データベース内とデータベース間のデータの一貫性が実現します。 VSS により、同時に複数のバックアップを実行できます。
-
-**SQL プラグインの主な機能は何ですか。**
+## 主な機能
 
 - ワイルドカード文字 (アスタリスクと疑問符) を使用して、SQL Server のバックアップ・ジョブに対して含めるデータベースと除外するデータベースの名前を指定する機能。 バックアップ・ジョブのフィルターと一致する名前の新規データベースは、ジョブの実行時に自動的に含められるか、または除外されます。
 - 64 ビットのエージェントおよび SQL Server プラグインを使用して、AlwaysOn 可用性グループ内の 2 次データベースを保護する機能。

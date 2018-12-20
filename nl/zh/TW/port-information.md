@@ -12,27 +12,27 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 配置埠以容許在備份代理程式與 WebCC 之間進行通訊
+# 配置「埠」，讓備份代理程式與 {{site.data.keyword.backup_notm}} 入口網站之間能夠進行通訊
 
-安裝在伺服器上的 {{site.data.keyword.backup_full}} 代理程式必須能夠與您所購買的儲存庫通訊。您可以在 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 及 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window} 找到 {{site.data.keyword.backup_notm}} 使用者帳戶的 {{site.data.keyword.backup_notm}} Director 主機資訊。
+安裝在伺服器上的 {{site.data.keyword.backup_full}} 代理程式必須能夠與您所購買的儲存庫通訊。您可以在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 和 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}中找到 {{site.data.keyword.backup_notm}} 使用者帳戶的 {{site.data.keyword.backup_notm}} Director 主機資訊。
 
-請一律使用 FQDN 將代理程式登錄至 WebCC 及 {{site.data.keyword.backup_notm}} Director，因為這些服務的 IP 位址可能會變更。
+請一律使用 FQDN 將代理程式登錄至 {{site.data.keyword.backup_notm}} 入口網站和 {{site.data.keyword.backup_notm}} Director，因為這些服務的 IP 位址可能會變更。
 
-您的伺服器必須與 WebCC 和所有 AMP Proxy 伺服器通訊，WebCC 才能正確運作，不論資料中心位置為何。
+不論資料中心位置為何，您的伺服器必須與 {{site.data.keyword.backup_notm}} 入口網站和所有 AMP Proxy 伺服器通訊，{{site.data.keyword.backup_notm}} 入口網站才能正確運作。
 
 ```
 evregister.service.softlayer.com TCP 8086,8087
 ```
 
-可以視需要新增額外的 AMP Proxy 伺服器，以處理更多登錄至 WebCC 的 {{site.data.keyword.backup_notm}} 代理程式。
+您可以視需要新增額外的 AMP Proxy 伺服器，以處理更多登錄至 {{site.data.keyword.backup_notm}} 入口網站的 {{site.data.keyword.backup_notm}} 代理程式。
 
 TCP 埠 8086、8087 必須有權存取 10.0.0.0/8。
 
-如果您需要使用限制更嚴格的防火牆規則，則可能會在擴充基礎架構時失去 WebCC 的存取權。目前，您的伺服器至少必須容許 TCP 埠 8086、8087 存取 10.0.82.0/24 和 10.2.118.0/24 子網路。未來可能會視需要使用其他子網路。
+如果您需要使用限制更嚴格的防火牆規則，可能會隨著基礎架構擴充，而失去 {{site.data.keyword.backup_notm}} 入口網站的存取權。目前，您的伺服器至少必須容許 TCP 埠 8086、8087 存取 10.0.82.0/24 和 10.2.118.0/24 子網路。未來可能會視需要使用其他子網路。
 
 ## 商業
 
-*WebCC 及 AMP Proxy 伺服器*
+*{{site.data.keyword.backup_notm}} 入口網站和 AMP Proxy 伺服器*
 
 - ev-webcc01.service.softlayer.com [10.0.82.12] 8086, 8087
 - evregister.service.softlayer.com [10.0.82.12] 8086, 8087
@@ -50,11 +50,11 @@ TCP 埠 8086、8087 必須有權存取 10.0.0.0/8。
 
 ## 聯邦政府
 
-*WebCC 及 AMP Proxy*
+*{{site.data.keyword.backup_notm}} 入口網站和 AMP Proxy*
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-代理程式必須在專用網路上容許入埠的埠 TCP/2548。此設定可讓 CentralControl 和 WebCC 連接至代理程式，以進行管理。舊版 EVault 使用埠 808。
+代理程式必須在專用網路上容許 TCP 埠 2548 入埠。此設定可讓 CentralControl 和 {{site.data.keyword.backup_notm}} 入口網站連接至代理程式，以進行管理。舊版 EVault 使用埠 808。
 
 可以變更 {{site.data.keyword.backup_notm}} 管理埠 (2548)，方法為在 Windows 作業系統中更新登錄機碼：`HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber`（這是一個 `dword`）。
 

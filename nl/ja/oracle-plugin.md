@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 
 # Oracle プラグインのインストール
 
-Oracle プラグインはアドオンで、Windows エージェントまたは Linux エージェントとともに Oracle データベース・ホスト上にインストールされます。 WebCC ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。 Oracle プラグインは、既存のアーキテクチャーに統合されます。
+Oracle プラグインはアドオンで、Windows エージェントまたは Linux エージェントとともに Oracle データベース・ホスト上にインストールされます。 {{site.data.keyword.backup_notm}} ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。 Oracle プラグインは、既存のアーキテクチャーに統合されます。
 
 **提供されている機能**
 
@@ -33,9 +33,8 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
 4. **「{{site.data.keyword.backup_notm}} プラグイン - Oracle」**を選択し、**「続行」**をクリックします。
@@ -46,7 +45,7 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 
 ## Windows 用 Oracle プラグインのインストール
 
-Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 Windows 用の Oracle プラグインをインストールするには、エージェント・インストール・キットを実行します。 Oracle プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
+Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 Oracle プラグインをインストールするには、エージェント・インストール・キットを実行します。 Oracle プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
 
 Microsoft Windows サーバー用のプラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
@@ -60,11 +59,11 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 7. **「現在の登録を保持する (Keep my current registration)」**を選択し、**「次へ」**をクリックします。
 8. **「インストール (Install)」**をクリックします。
 9. インストールが完了したら、両方のサービスが有効で実行中であることを確認してください。
-10. WebCC がデータベースにアクセスできる (つまり、WebCC にデータベースが表示される) 場合、インストールは正常に完了しています。
+10. {{site.data.keyword.backup_notm}} ポータルがデータベースにアクセスできる (つまり、{{site.data.keyword.backup_notm}} ポータルにデータベースが表示される) 場合、インストールは正常に完了しています。
 
-## Unix 用 Oracle プラグインのインストール
+## Linux 用 Oracle プラグインのインストール
 
-Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。 Linux エージェント・アプリケーションは、Oracle プラグインより前にインストールしておく必要があります。 Linux エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。 Linux エージェントのインストールについて詳しくは、[Linux での {{site.data.keyword.backup_notm}} クライアントのインストール](install-backup-client-linux.html)を参照してください。
+Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。 Linux エージェント・アプリケーションは、Oracle プラグインより前にインストールしておく必要があります。 エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。 詳しくは、[Linux での {{site.data.keyword.backup_notm}} クライアントのインストール](install-backup-client-linux.html)を参照してください。
 
 Oracle プラグインのインストール・キットは tar.gz ファイル形式です。
 
@@ -101,4 +100,4 @@ Oracle プラグインはデータベース全体のバックアップを不整�
 
 ## ユーザー・ガイドのダウンロード
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}からユーザーズ・ガイドをダウンロードすることができます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドをダウンロードすることができます。

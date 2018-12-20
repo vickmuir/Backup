@@ -12,15 +12,15 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
+
 # 扩展保险库容量
 
-当前 {{site.data.keyword.BluSoftlayer_full}} 用户可以将其保险库的大小扩展到 4000 GB。他们无需创建重复项或手动将数据迁移到更大的卷。在限制增加量生效期间，不会中断或失去对保险库的访问。
+当前 {{site.data.keyword.BluSoftlayer_full}} 用户可以将其保险库的大小扩展到 4000 GB。他们无需创建重复项或手动将数据迁移到更大的卷。限制增加的过程不会导致任何中断和访问权缺乏的问题。
 
 ## 订购增加量
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要扩展的保险库。
 4. 单击**操作**，然后选择**修改 {{site.data.keyword.backup_notm}}**。

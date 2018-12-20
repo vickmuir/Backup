@@ -14,16 +14,15 @@ lastupdated: "2018-12-14"
 
 # Annullamento di un servizio {{site.data.keyword.backup_notm}}
 
-Puoi annullare il tuo servizio {{site.data.keyword.backup_full}} in qualsiasi momento. L'annullamento elimina il tuo archivio con i dati di backup e non potrai accedere a WebCC con le credenziali {{site.data.keyword.backup_notm}} annullate.
+Puoi annullare il tuo servizio {{site.data.keyword.backup_full}} in qualsiasi momento. L'annullamento elimina il tuo archivio con i dati di backup e non potrai accedere a {{site.data.keyword.backup_notm}} con le credenziali {{site.data.keyword.backup_notm}} annullate.
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
-
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.<br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona **Actions** > **Cancel {{site.data.keyword.backup_notm}}**.
 4. Scegli di effettuare l'annullamento **Immediately** o nella **Anniversary Date**.
 
-   Puoi annullare il servizio in qualsiasi momento. Tuttavia, quando un vault di backup viene eliminato prima della fine del ciclo di fatturazione mensile, non è presente alcun rimborso.
+   Puoi annullare il servizio in qualsiasi momento. Tuttavia, quando un archivio di backup viene eliminato prima della fine del ciclo di fatturazione mensile, non ricevi un rimborso.
    {:important}
 5. Seleziona **Continue**.
 6. Seleziona **I acknowledge that due to cancellation data loss may occur**. Seleziona quindi **Cancel {{site.data.keyword.backup_notm}}**.

@@ -24,12 +24,12 @@ lastupdated: "2018-12-14"
 3. インストールの言語を選択し、**「OK」**をクリックします。
 4. **「次へ」**をクリックして開始します。
 5. ご利用条件を読み、**「使用条件の条項に同意します」**を選択します。 次に、**「次へ」**をクリックします。
-6. 「セットアップ・タイプ (Setup Type)」で**「標準 (Typical)」**を選択します。 **「次へ」**をクリックします。
+6. 「セットアップ・タイプ (Setup Type)」として**「標準 (Typical)」**を選択します。 **「次へ」**をクリックします。
 7. 「ポータルにエージェントを登録 (Register Agent with Portal)」画面で、**「登録をスキップ (Skip Registration)」**を選択します。 **「次へ」**をクリックします。
 8. 次の画面で、**「インストール (Install)」**をクリックします。
 9. インストールが完了したら、**「完了」**をクリックします。
 
-## CentralControl 8.30 のインストール
+## Central Control 8.30 のインストール
 
 1. ターゲット・サーバーでブラウザー・セッションを開き、以下の URL を入力して実行可能ファイルをダウンロードします。
 
@@ -46,18 +46,18 @@ lastupdated: "2018-12-14"
 4. インストールが完了したら、**「EVault ソフトウェア Central Control を起動する (Launch EVault Software Central Control)」**にチェック・マークを付けます。 **「完了」**をクリックします。
 
 
-## CentralControl の構成
+## Central Control の構成
 
-このタスクは、{{site.data.keyword.backup_notm}} サービス用に指定されているサーバーにログイン中に、一連の対話を介して完了します。
+このタスクは、{{site.data.keyword.backup_notm}}・サービス用に指定されているサーバーにログインしている間に一連の対話式作業を行うことによって完了します。
 
 1. RDP を介してサーバーをリモート制御します。
-2. CentralControl を開始します。
+2. Central Control を開始します。
 3. ワークスペースで**「MyAgent」**を右クリックし、**「エージェント構成 (Agent Configuration)」**を選択します。
 4. 「ボールト (Vaults)」タブで**「新規」**をクリックします。 「ボールト構成ウィザード (Vault Configuration Wizard)」が表示されます。 **「次へ」**をクリックします。
 5. **「新規コンピューターとして登録 (Register as a new computer)」**を選択し、**「次へ」**をクリックします。
 6. 「プロファイル名 (Profile name)」フィールドにボールト名を入力します。
 
-   ボールト名は [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}で確認できます。
+   ボールト名は [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} で確認できます。
    {:tip}
 6. ネットワーク・アドレス (割り当てられたボールトの IP アドレス) を入力し、**「追加」**をクリックします。 次に、**「次へ」**をクリックします。
 7. 新規ポート値を入力し、**「追加」**、**「次へ」**の順にクリックします。
@@ -70,7 +70,7 @@ lastupdated: "2018-12-14"
 ## 保存スキームの作成
 
 1. RDP を介してサーバーをリモート制御します。
-2. CentralControl を開始します。
+2. Central Control を開始します。
 3. ワークスペースで**「MyAgent」**を右クリックし、**「エージェント構成 (Agent Configuration)」**を選択します。
 4. **「保存 (Retentions)」**タブをクリックします。 「保存ウィザード (Retention Wizard)」が表示されます。**「次へ」**をクリックします。
 5. 保存名を入力します。 **「次へ」**をクリックします。<br/>
@@ -88,7 +88,7 @@ lastupdated: "2018-12-14"
 ## {{site.data.keyword.backup_notm}} ジョブのセットアップ
 
 1. RDP を介してサーバーをリモート制御します。
-2. CentralControl を開始します。
+2. Central Control を開始します。
 3. ワークスペースで**「MyAgent」**を右クリックし、**「新しいジョブ (New Job)」**を選択します。
 4. 初期画面で、**「次へ」**をクリックします。
 5. バックアップ・ソース・タイプを選択します。
@@ -108,10 +108,10 @@ lastupdated: "2018-12-14"
 ## {{site.data.keyword.backup_notm}} ジョブの実行
 
 1. RDP を介してサーバーをリモート制御します。
-2. CentralControl を開始します。
+2. Central Control を開始します。
 3. ワークスペースで**「MyAgent」**を右クリックし、作成したエージェントを選択します。
 4. 初期画面で、**「次へ」**をクリックします。
-5. バックアップの宛先またはバックアップ・ジョブをシードする代替ロケーションを選択します。 **「次へ」**をクリックします。<br/>
+5. バックアップの宛先またはバックアップ・ジョブをシードする別のロケーションを選択します。 **「次へ」**をクリックします。<br/>
    複数のボールトについて詳しくは、「[マルチボールト処理](multivaulting.html)」を参照してください。
    {:tip}
 6. 未変更のファイルを読み取らないようにするため、「クイック・ファイル・スキャン (Quick file scanning)」オプションを選択します。 **「次へ」**をクリックします。

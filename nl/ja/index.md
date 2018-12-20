@@ -9,10 +9,12 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # {{site.data.keyword.backup_notm}} サービス入門
 
-バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、WebCC ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインにより、Microsoft Exchange や Microsoft SQL などのソフトウェアや、その他のタイプのサード・パーティー・ソフトウェアとの互換性が確保され、ユーザーは必要に応じてベアメタル・リストアを実行できるようになります。
+バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインにより、Microsoft Exchange や Microsoft SQL などのソフトウェアや、その他のタイプのサード・パーティー・ソフトウェアとの互換性が確保され、ユーザーは必要に応じてベアメタル・リストアを実行できるようになります。
 
 ## {{site.data.keyword.backup_notm}} の注文
 
@@ -21,24 +23,23 @@ lastupdated: "2018-12-14"
 - [サーバーの注文時における {{site.data.keyword.backup_notm}} の購入](#purchasing-ibm-cloud-backup-when-you-order-a-server)
 - [アップグレードとしての {{site.data.keyword.backup_notm}} の購入](#purchasing-ibm-cloud-backup-as-an-upgrade)
 
-価格設定について詳しくは、[{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window} を参照してください。
+価格設定について詳しくは、[{{site.data.keyword.backup_notm}} ストレージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/evault/pricing){:new_window} を参照してください。
 
 ### サーバーの注文時における {{site.data.keyword.backup_notm}} の購入
 
-1. [IBM Cloud カタログ](https://console.bluemix.net/catalog/){:new_window}または [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
-2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}を参照してください。
-   1. 数量と課金オプションを選択してください。ホストとドメインの名前を入力します。任意のホスト名とドメイン名を選択できます。
+1. [IBM Cloud カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/){:new_window} または [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](bare-metal/baremetal-provision.html){:new_window}を参照してください。
+   1. 数量と課金オプションを選択してください。 ホストとドメインの名前を入力します。 任意のホスト名とドメイン名を選択できます。
 
-   {{site.data.keyword.backup_notm}} サービスは、時間課金サーバーを注文する際には選択できません。ただし、アップグレードとして後からサービスを追加できます。
-   {:tip}
-
+      {{site.data.keyword.backup_notm}} サービスは、時間課金サーバーを注文する際には選択できません。 ただし、アップグレードとして後からサービスを追加できます。
+      {:tip}
    2. 場所を選択します。
-   3. サーバー構成と OS イメージのタイプを選択します。複数のアドオンを選択することもできます。
-   4. **「ストレージ・ディスク」**セクションで**「アドオン」**をクリックし、**「{{site.data.keyword.backup_notm}} バックアップ」**を選択します。必要な条件に一致するオプションを選択します。
+   3. サーバー構成と OS イメージのタイプを選択します。 複数のアドオンを選択することもできます。
+   4. **「ストレージ・ディスク」**セクションで**「アドオン」**をクリックし、**「{{site.data.keyword.backup_notm}} バックアップ」**を選択します。 必要な条件に一致するオプションを選択します。
    5. **「ネットワーク・インターフェース」**の下から、必要なアップリンク・ポート速度とアドオンを選択します。
 3. 右側で、注文の要約を確認します。
 4. ご使用条件を確認した後、**「サード・パーティー・サービス契約を読み、同意します」**ボックスにチェック・マークを付けます。
-5. **「プロビジョン」**をクリックします。プロビジョニング注文番号が表示された画面にリダイレクトされます。 これはプロビジョニング注文の受信も兼ねているので、画面を印刷することができます。
+5. **「プロビジョン」**をクリックします。 プロビジョニング注文番号が表示された画面にリダイレクトされます。 これはプロビジョニング注文の受信も兼ねているので、画面を印刷することができます。
 
    **「見積もりとして保存」**をクリックして購入せずにこの注文を保存することもできます。
    {:tip}
@@ -46,12 +47,11 @@ lastupdated: "2018-12-14"
 プロビジョニング注文の受領確認、プロビジョニング注文の承認と処理、およびプロビジョニングの完了といった一連の E メールが管理者に送信されます。 プロビジョニングの完了 E メールには、*[デバイスの詳細」*ページへのリンクが記載されています。このページには、{{site.data.keyword.cloud_notm}} にログインした後にアクセスできます。 また、{{site.data.keyword.slportal}}に直接ログインすることもできます。
 
 #### {{site.data.keyword.backup_notm}} 購入の確認
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://console.bluemix.net/catalog/){:new_window}で、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} で、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「デバイス」**>**「デバイス・リスト」**をクリックします。
 2. 注文した新規サーバーを見つけます。
-  - URL の横に時計アイコンがある場合は、{{site.data.keyword.backup_notm}} の購入確認に進むまで待つ必要があります。 ページを最新表示して、新規サーバーに関する状況が更新されるか確認します。 時計アイコンが表示されなくなったら、{{site.data.keyword.backup_notm}} サービスの購入を確認する以降のステップに進むことができます。
+  - URL の横に時計アイコンがある場合は、{{site.data.keyword.backup_notm}} の購入確認に進む前に待つ必要があります。ページを最新表示して、新規サーバーに関する状況が更新されるか確認します。 時計アイコンが表示されなくなったら、{{site.data.keyword.backup_notm}} サービスの購入を確認する以降のステップに進むことができます。
   - 該当のサーバーに対して時計アイコンが表示されなくなったら、リンク (サーバーの URL) をクリックして、**「デバイスの詳細」**ページに進みます。
 3. **「ストレージ」**タブをクリックし、{{site.data.keyword.backup_notm}} の情報を表示します。
 4. 「{{site.data.keyword.backup_notm}}」セクションを検査し、購入処理時に選択したサイズが表示されていることを確認します。
@@ -60,9 +60,8 @@ lastupdated: "2018-12-14"
 
 #### {{site.data.keyword.backup_notm}} をインストールするサーバーの選択
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://console.bluemix.net/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. メインメニューから**「デバイス」** > **「デバイス・リスト」**を選択します。 {{site.data.keyword.cloud_notm}} バックアップ・サービスを追加するデバイスを検索します。
 3. デバイス名をクリックして、**「デバイスの詳細」**ページに進みます。
 
@@ -85,11 +84,10 @@ lastupdated: "2018-12-14"
 
 ## {{site.data.keyword.backup_notm}} ストレージの詳細へのアクセスと表示
 
-{{site.data.keyword.backup_notm}} サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://console.bluemix.net/catalog/){:new_window}と {{site.data.keyword.slportal}}で確認できます。確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
+{{site.data.keyword.backup_notm}} サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}と {{site.data.keyword.slportal}}で確認できます。確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://console.bluemix.net/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**をクリックし、リストから**「バックアップ」**を選択します。
 2. ストレージの詳細を確認するボールトの行の任意の位置をクリックします。 このビューでは「パスワード」は表示可能ではありません。 次のステップに進み、{{site.data.keyword.backup_notm}} サービスに関連付けられているパスワードを表示します。
 3. **「パスワード」**フィールドの横にある**「表示」**チェック・ボックスをクリックし、選択した {{site.data.keyword.backup_notm}} サービスのパスワードを表示します。
@@ -115,31 +113,32 @@ lastupdated: "2018-12-14"
  - Debian GNU/Linux 9.x
  - Debian GNU/Linux 8.x
  - Debian GNU/Linux 7.x
- - Red Hat Enterprise Linux 7.x
- - Red Hat Enterprise Linux 6.x
+ - RHEL 7.x
+ - RHEL 6.x
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
 ご使用の OS に適切な説明に従ってください。
 - [Linux でのバックアップ・クライアントのインストール](install-backup-client-linux.html)
 - [Windows でのバックアップ・クライアントのインストール](install-backup-client-windows.html)
-- [Windows 2016 版バックアップ・クライアントのインストール](install-windows2016.html)
+- [Windows 2016 でのバックアップ・クライアントのインストール](install-windows2016.html)
+- [VMware でのバックアップ・クライアントのインストール](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
-## WebCentralControl (WebCC) へのアクセス
+## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
 
-WebCentralControl (WebCC) は、{{site.data.keyword.BluSoftlayer_full}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話に使用するクライアントです。 WebCC は、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。 WebCC にアクセスするには、以下のステップに従ってください。
+{{site.data.keyword.backup_notm}}・ポータルは、{{site.data.keyword.BluSoftlayer_full}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
 
 1. VPN 経由でプライベート・ネットワークにアクセスします。
 
-   パブリック・ネットワーク上で WebCC にアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
+   パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}のバックアップ・ストレージ画面にアクセスします。
+2. [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} のバックアップ・ストレージ画面にアクセスします。
 3. 表示する {{site.data.keyword.backup_notm}} サービスの行の任意の場所をクリックし、ビューを展開します。
-4. **「WebCC ログイン」**をクリックし、ブラウザーで WebCC クライアントを開始します。
+4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーで {{site.data.keyword.backup_notm}} ポータル・クライアントを開始します。
 
-## WebCC でのバックアップ・エージェントの構成
+## バックアップ・エージェントとバックアップ・スケジュールの構成
 
-{{site.data.keyword.backup_notm}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。 エージェント、保存スケジュールを構成し、最初のバックアップ・ジョブを開始するには、以下のステップに従ってください。
+{{site.data.keyword.backup_notm}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。 エージェントと保存スケジュールを構成し、最初のバックアップ・ジョブを開始するには、以下のステップに従うことができます。
 
 1. WebCC にログインします。
 2. **「すべてのエージェント」** > **「未構成のエージェント (Unconfigured Agents)」**をクリックします。
@@ -158,7 +157,7 @@ WebCentralControl (WebCC) は、{{site.data.keyword.BluSoftlayer_full}} が提�
    4. **「OK」**をクリックします。
    5. **「保存」**をクリックします。
 
-      保存スキームについて詳しくは、[FAQ](faqs.html) を参照してください
+      保存スキームについて詳しくは、[FAQ](faqs.html) を参照してください。
       {:tip}
 5. エージェントを実行し、バックアップを開始します。
    1. **「すべてのエージェント」**をクリックしてから、構成したエージェントを選択します。
@@ -172,4 +171,4 @@ Linux でのファイル・レベルのバックアップについて詳しく�
 
 ## オンライン・ヘルプの表示
 
-WebCC のシステムは完全に文書化されており、アプリケーションのサポートには WebCC 内からアクセス可能です。 **「ヘルプ」**を表示するには、右上にある青い円の中の白い疑問符をクリックします。 左側にあるナビゲーション・バーで任意の記事やトピックをクリックすると、詳細情報が表示されます。
+{{site.data.keyword.backup_notm}} ポータルのシステムは完全に文書化されており、アプリケーションのサポートには {{site.data.keyword.backup_notm}} ポータル内からアクセス可能です。 **「ヘルプ」**を表示するには、右上にある青い円の中の白い疑問符をクリックします。 左側にあるナビゲーション・バーで任意の記事やトピックをクリックすると、詳細情報が表示されます。

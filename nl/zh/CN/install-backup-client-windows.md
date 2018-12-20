@@ -22,9 +22,8 @@ lastupdated: "2018-12-14"
 
 ## 登录到目标设备服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
 4. 单击向右箭头以展开并显示有关设备的更多信息，包括用户名和密码。如果未显示密码，可单击**显示密码**来显示密码。
@@ -57,4 +56,4 @@ lastupdated: "2018-12-14"
 
 ## 配置备份代理程序
 
-登录到 WebCC 以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-in-webcc)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-and-the-backup-schedule)。

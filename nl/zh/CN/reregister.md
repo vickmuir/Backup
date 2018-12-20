@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # 重新注册保险库
 
 这是重新装入服务器的操作系统后最常用的任务。您还可以使用这些步骤来[使用一个服务器的备份在另一个服务器上复原数据](restore-from-another-computer.html)。
+{:tip}
 
-1. 启动 WebCC 并登录。有关更多信息，请参阅[入门教程](index.html)。
+1. 启动 {{site.data.keyword.backup_notm}} 门户网站并登录。有关更多信息，请参阅[入门教程](index.html)。
 
-   请记住，WebCC 只能通过 {{site.data.keyword.BluVPN}} 进行访问。
+   请记住，{{site.data.keyword.backup_notm}} 门户网站只能通过 {{site.data.keyword.BluVPN}} 进行访问。
    {:tip}
 2. 单击左侧的**所有代理程序**。
 3. 将鼠标悬停在右上角的**编辑**。
@@ -27,7 +28,7 @@ lastupdated: "2018-12-14"
   - 保险库地址
   - 帐户
 
-   “帐户”相当于 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 中的“帐户名称”。通常，这类似于“SLE[account ID]”。
+    “帐户”相当于 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中的“帐户名称”。通常，这类似于“SLE[account ID]”。
     {:tip}
   - 用户名
   - 密码

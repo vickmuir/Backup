@@ -14,26 +14,25 @@ lastupdated: "2018-12-14"
 
 # 開始使用 {{site.data.keyword.backup_notm}} 服務
 
-備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，其管理方式是透過以 WebCC 瀏覽器為基礎的管理公用程式進行。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 Microsoft Exchange 和 Microsoft SQL 這類軟體以及其他類型的協力廠商軟體相容，並在必要時讓使用者完成 Bare Metal Restore。
+備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 Microsoft Exchange 和 Microsoft SQL 這類軟體以及其他類型的協力廠商軟體相容，並在必要時讓使用者完成 Bare Metal Restore。
 
 ## 訂購 {{site.data.keyword.backup_notm}}
 
 您可以使用兩種方式來購買 {{site.data.keyword.backup_notm}} 服務。
 
-- [訂購伺服器時購買 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-when-you-order-a-server)
-- [以升級方式購買 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-as-an-upgrade)
+- [訂購伺服器時購買 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-when-you-order-a-server)。
+- [以升級方式購買 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-as-an-upgrade)。
 
-如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} 及 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} 儲存空間 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 ### 訂購伺服器時購買 {{site.data.keyword.backup_notm}}
 
-1. 登入 [IBM Cloud 型錄](https://{DomainName}/catalog/){:new_window}或 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
-2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
+1. 登入 [IBM Cloud 型錄 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}
+2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](bare-metal/baremetal-provision.html){:new_window}。
    1. 選取數量、計費選項。輸入主機及網域名稱。您可以選擇喜歡的任何主機名稱及網域。
 
-   訂購按小時計費的伺服器時，無法使用 {{site.data.keyword.backup_notm}} 服務。不過，稍後可用升級方式新增此服務。
+      訂購按小時計費的伺服器時，無法使用 {{site.data.keyword.backup_notm}} 服務。不過，稍後可用升級方式新增此服務。
    {:tip}
-
    2. 選取位置。
    3. 選取伺服器配置及 OS 映像檔類型。您也可以選擇多個附加程式。
    4. 在**儲存空間磁碟**區段下，按一下**附加程式**，然後選取 **{{site.data.keyword.backup_notm}} Backup**。選擇符合您需要的選項。
@@ -48,12 +47,11 @@ lastupdated: "2018-12-14"
 一系列電子郵件會傳送給您的管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結，而您可以在登入 {{site.data.keyword.cloud_notm}} 之後存取該頁面。您也可以直接登入 {{site.data.keyword.slportal}}。
 
 #### 確認 {{site.data.keyword.backup_notm}} 購買
-1. 在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}中，按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 在 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window} 中，按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**裝置** > **裝置清單**。
 2. 找出您已訂購的新伺服器。
-  - 如果 URL 旁邊有時鐘圖示，則您需要等待，以繼續進行 {{site.data.keyword.backup_notm}} 購買確認。您可以重新整理頁面，以查看新伺服器的更新狀態。不再出現時鐘圖示時，您便可以繼續進行接下來的步驟，以確認 {{site.data.keyword.backup_notm}} 服務購買。
+  - 如果您看到 URL 旁邊有時鐘圖示，則您需要等待，以繼續進行 {{site.data.keyword.backup_notm}} 購買確認。您可以重新整理頁面，以查看新伺服器的更新狀態。不再出現時鐘圖示時，您便可以繼續進行接下來的步驟，以確認 {{site.data.keyword.backup_notm}} 服務購買。
   - 當您的伺服器不再顯示時鐘圖示時，請按一下鏈結（伺服器的 URL），移至**裝置詳細資料**頁面。
 3. 按一下**儲存空間**標籤，以顯示 {{site.data.keyword.backup_notm}} 資訊。
 4. 檢查 {{site.data.keyword.backup_notm}} 區段，並驗證有顯示購買處理程序期間所選取的大小。
@@ -62,9 +60,8 @@ lastupdated: "2018-12-14"
 
 #### 選取要安裝 {{site.data.keyword.backup_notm}} 的伺服器
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 從主功能表中選取**裝置** > **裝置清單**。尋找您要為其新增 {{site.data.keyword.cloud_notm}} Backup 服務的裝置。
 3. 按一下「裝置」名稱，以移至**裝置詳細資料**頁面。
 
@@ -87,11 +84,10 @@ lastupdated: "2018-12-14"
 
 ## 存取及檢視 {{site.data.keyword.backup_notm}} 儲存空間詳細資料
 
-您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}及 {{site.data.keyword.slportal}} 上檢視 {{site.data.keyword.backup_notm}} 服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
+您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}和 {{site.data.keyword.slportal}} 上檢視 {{site.data.keyword.backup_notm}} 服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間**，然後從清單中選取**備份**。
 2. 按一下您要檢視其儲存空間詳細資料的儲存庫列的任何位置。從這個視圖中，看不到「密碼」。繼續進行下一步，以檢視與 {{site.data.keyword.backup_notm}} 服務相關聯的密碼。
 3. 按一下**密碼**欄位旁邊的**顯示**勾選框，以檢視所選取 {{site.data.keyword.backup_notm}} 服務的密碼。
@@ -103,7 +99,7 @@ lastupdated: "2018-12-14"
 
 ## 安裝 {{site.data.keyword.backup_notm}} 代理程式
 
-下列作業系統支援「{{site.data.keyword.backup_notm}} 代理程式」：
+下列作業系統可支援「{{site.data.keyword.backup_notm}} 代理程式」。
 
 **Windows**
  - Windows Server 2012 R2
@@ -117,8 +113,8 @@ lastupdated: "2018-12-14"
  - Debian GNU/Linux 9.x
  - Debian GNU/Linux 8.x
  - Debian GNU/Linux 7.x
- - Red Hat Enterprise Linux 7.x
- - Red Hat Enterprise Linux 6.x
+ - RHEL 7.x
+ - RHEL 6.x
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
@@ -126,22 +122,23 @@ lastupdated: "2018-12-14"
 - [在 Linux 中安裝備份用戶端](install-backup-client-linux.html)
 - [在 Windows 中安裝備份用戶端](install-backup-client-windows.html)
 - [在 Windows 2016 中安裝備份用戶端](install-windows2016.html)
+- [在 VMware 中安裝備份用戶端](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
-## 存取 WebCentralControl (WebCC)
+## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
 
-WebCentralControl (WebCC) 是用來與 {{site.data.keyword.BluSoftlayer_full}} 所提供之任何 {{site.data.keyword.backup_notm}} 服務互動的用戶端。WebCC 是一種瀏覽器型用戶端，可在 {{site.data.keyword.BluSoftlayer_full}} 專用網路上執行，並容許完全控制任何 {{site.data.keyword.backup_notm}} 服務（包括配置及還原）。請遵循下列步驟來存取 WebCC。
+{{site.data.keyword.backup_notm}} 入口網站可用來與 {{site.data.keyword.BluSoftlayer_full}} 所提供之任何 {{site.data.keyword.backup_notm}} 服務互動。{{site.data.keyword.backup_notm}} 入口網站是一種瀏覽器型用戶端，其執行於 {{site.data.keyword.BluSoftlayer_full}} 專用網路，可供完全控制任何 {{site.data.keyword.backup_notm}} 服務，包括配置和還原。
 
 1. 透過 VPN 存取「專用網路」。
 
-   無法透過公用網路存取 WebCC。必須先建立 VPN 連線。
+   無法透過公用網路存取 {{site.data.keyword.backup_notm}} 入口網站。必須先建立 VPN 連線。
    {:important}
-2. 在 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 中，存取 Backup storage 畫面。
+2. 在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 中，存取「備份儲存空間」畫面。
 3. 按一下想要的 {{site.data.keyword.backup_notm}} 服務列上的任何位置，來展開視圖。
-4. 按一下 **WebCC 登入**，在瀏覽器中啟動 WebCC 用戶端。
+4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動 {{site.data.keyword.backup_notm}} 入口網站用戶端。
 
-## 在 WebCC 中配置備份代理程式
+## 配置備份代理程式和備份排程
 
-在您訂購 {{site.data.keyword.backup_notm}} 並在伺服器上安裝代理程式之後，即可開始建立資料備份。請遵循下列步驟來配置代理程式、配置保留排程，以及啟動第一個備份工作。
+在您訂購 {{site.data.keyword.backup_notm}} 並在伺服器上安裝代理程式之後，即可開始建立資料備份。您可以遵循下列步驟來配置代理程式、配置保留排程，以及啟動第一個備份工作。
 
 1. 登入 WebCc。
 2. 按一下**所有代理程式** > **未配置的代理程式**。
@@ -160,8 +157,8 @@ WebCentralControl (WebCC) 是用來與 {{site.data.keyword.BluSoftlayer_full}} �
    4. 按一下**確定**。
    5. 按一下**儲存**。
 
-      如需「保留方案」的相關資訊，請參閱[常見問題](faqs.html)。
-      {:tip}
+        如需「保留方案」的相關資訊，請參閱[常見問題](faqs.html)。
+        {:tip}
 5. 執行代理程式並啟動備份。
    1. 按一下**所有代理程式**，然後選取您已配置的代理程式。
    2. 按一下**執行備份**。
@@ -174,4 +171,4 @@ WebCentralControl (WebCC) 是用來與 {{site.data.keyword.BluSoftlayer_full}} �
 
 ## 取得線上說明
 
-WebCC 的系統有完整的文件說明，並且可在 WebCC 內存取應用程式的支援。按一下位在**說明**右上角之藍色圓圈中的白色問號。按一下左側導覽列中的任何文章或主題，以檢視相關資訊。
+{{site.data.keyword.backup_notm}} 入口網站的系統有完整的文件說明，並且可在  {{site.data.keyword.backup_notm}} 入口網站中存取應用程式的支援。按一下位在**說明**右上角之藍色圓圈中的白色問號。按一下左側導覽列中的任何文章或主題，以檢視相關資訊。

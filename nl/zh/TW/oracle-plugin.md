@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 
 # 安裝 Oracle 外掛程式
 
-Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或「Linux 代理程式」一起安裝在 Oracle 資料庫主機上。透過 WebCC 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
+Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或「Linux 代理程式」一起安裝在 Oracle 資料庫主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
 
 **提供的功能**
 
@@ -33,9 +33,8 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 
 ## 訂購外掛程式
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您的帳戶，然後按一下**訂購外掛程式**。
 4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - Oracle**，然後按一下**繼續**。
@@ -46,7 +45,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 
 ## 安裝適用於 Windows 的 Oracle 外掛程式
 
-適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝適用於 Windows 的 Oracle 外掛程式，請執行「代理程式」安裝套件。Oracle 外掛程式會以選項形式出現在**自訂設定**頁面上。
+適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝 Oracle 外掛程式，請執行「代理程式」安裝套件。Oracle 外掛程式會以選項形式出現在**自訂設定**頁面上。
 
 在安裝 Microsoft Windows 伺服器的外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}
@@ -60,11 +59,11 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 7. 選取**保留我的現行登錄**，然後按**下一步**。
 8. 按一下**安裝**。
 9. 安裝完成後，請檢查以確定這兩個服務都已啟用且在執行中。
-10. 如果 WebCC 能夠存取/檢視資料庫，即表示安裝成功。
+10. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠存取/檢視資料庫，即表示安裝成功。
 
-## 安裝適用於 Unix 的 Oracle 外掛程式
+## 安裝適用於 Linux 的 Oracle 外掛程式
 
-Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行 Oracle 外掛程式安裝。「Linux 代理程式」提供為 32 位元應用程式及 64 位元應用程式。如需「Linux 代理程式安裝」的相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](install-backup-client-linux.html)。
+Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行 Oracle 外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](install-backup-client-linux.html)。
 
 Oracle 外掛程式安裝套件是以 tar.gz 檔案提供。
 
@@ -101,4 +100,4 @@ Oracle 外掛程式會執行「不一致」的整個資料庫備份，這需要�
 
 ## 下載使用手冊
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。

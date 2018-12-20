@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Plug-in für SQL Server installieren
 
-Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Datenbank installiert. Mit dem WebCC-Portal können Sie Jobs konfigurieren, SQL-Datenbanken in einer sicheren, fernen Vault sichern und SQL-Datenbanken wiederherstellen.
+Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Datenbank installiert. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, SQL-Datenbanken in einer sicheren, fernen Vault sichern und SQL-Datenbanken wiederherstellen.
 
 **Bereitgestelltes Leistungsspektrum**
 
@@ -23,11 +23,12 @@ Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Da
 - Sie können SQL-Datenbanken in derselben SQL-Instanz oder in einer anderen SQL-Instanz wiederherstellen.
 - Sie können Datenbanken mit den ursprünglichen Datenbanknamen wiederherstellen, vorhandene Datenbanken überschreiben oder die Wiederherstellung mit der Option 'Keine Recovery' durchführen.
 
+Weitere Informationen finden Sie im Abschnitt [Hauptfunktionen](#main-featues).
+
 ## Plug-in bestellen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
 4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - MSSQL** aus und klicken Sie auf **Weiter**.
@@ -36,11 +37,12 @@ Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Da
 7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren.
 8. Klicken Sie auf **Bestellung aufgeben**.
 
-## Plug-in für MS SQL installieren
+## MS SQL-Plug-in installieren
 
-Zur Installation des SQL-Plug-ins für Windows führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
+Zur Installation des SQL-Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
 
-Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.{:tip}
+Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.
+{:tip}
 
 1. Navigieren Sie zum Ordner `c:\installs\evault` und führen Sie die Datei '.exe' mit der höchsten Überarbeitungsnummer aus.
 2. Klicken Sie in der Anzeige für die Sprache auf **OK**.
@@ -52,19 +54,13 @@ Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, st
 8. Wählen Sie **Aktuelle Registrierung beibehalten** aus und klicken Sie auf **Weiter**.
 9. Klicken Sie auf **Installieren**.
 10. Stellen Sie nach Abschluss der Installation sicher, dass beide Services aktiviert und in Betrieb sind.
-11. Wenn WebCC in der Lage ist, auf die Datenbank zuzugreifen oder die Datenbank anzuzeigen, war die Installation erfolgreich.
+11. Wenn das {{site.data.keyword.backup_notm}}-Portal in der Lage ist, auf die Datenbank zuzugreifen oder die Datenbank anzuzeigen, war die Installation erfolgreich.
 
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie das Benutzerhandbuch über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
+Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie das Benutzerhandbuch über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
 
-## Häufig gestellte Fragen
-
-**Wozu wird VSS verwendet?**
-
-Die aktuelle Version des Plug-ins für SQL Server verwendet VSS (Volume Shadow Copy Services, Volumenschattenkopie-Dienste) zur Ausführung von Sicherungen. Mit VSS kann das Plug-in für SQL Server SQL-Datenbanken auch dann effektiv sichern, wenn diese mehrere Datenträger umfassen. Sicherungen können durchgeführt werden, während Anwendungen weiterhin Schreiboperationen auf dem Datenträger ausführen. Das Plug-in für SQL Server bietet Ihnen Datenkonsistenz innerhalb von Datenbanken und auch datenbankübergreifend. VSS ermöglicht die gleichzeitige Ausführung von mehreren Sicherungen.
-
-**Welches sind die Hauptfunktionen des Plug-ins für SQL?**
+## Hauptfunktionen
 
 - Möglichkeit zur Angabe der Namen von Datenbanken, die in SQL Server-Sicherungsjobs ein- oder von diesen ausgeschlossen werden sollen, unter Verwendung von Platzhalterzeichen (Sterne und Fragezeichen). Neue Datenbanken mit Namen, die mit den Filtern eines Sicherungsjobs übereinstimmen, werden bei Ausführung des Jobs automatisch ein- oder ausgeschlossen.
 - Möglichkeit zum Schützen von sekundären Datenbanken in AlwaysOn-Verfügbarkeitsgruppen unter Verwendung des 64-Bit-Agenten und des Plug-ins für SQL Server.

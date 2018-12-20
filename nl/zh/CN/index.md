@@ -14,26 +14,25 @@ lastupdated: "2018-12-14"
 
 # {{site.data.keyword.backup_notm}} 服务入门
 
-通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过 WebCC 基于浏览器的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 Microsoft Exchange 和 Microsoft SQL 等软件以及其他类型的第三方软件兼容，并允许用户在必要时完成裸机复原。
+通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 Microsoft Exchange 和 Microsoft SQL 等软件以及其他类型的第三方软件兼容，并允许用户在必要时完成裸机复原。
 
 ## 订购 {{site.data.keyword.backup_notm}}
 
 您可以通过两种方式购买 {{site.data.keyword.backup_notm}} 服务。
 
-- [订购服务器时购买 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-when-you-order-a-server)
-- [作为升级购买 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-as-an-upgrade)
+- [订购服务器时购买 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-when-you-order-a-server)。
+- [作为升级购买 {{site.data.keyword.backup_notm}}](#purchasing-ibm-cloud-backup-as-an-upgrade)。
 
-有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 ### 订购服务器时购买 {{site.data.keyword.backup_notm}}
 
-1. 登录到 [IBM Cloud 目录](https://{DomainName}/catalog/){:new_window}或 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
+1. 登录到 [IBM Cloud 目录 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}
+2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](bare-metal/baremetal-provision.html){:new_window}。
    1. 选择数量和计费选项。输入主机和域名。您可以选择所需的任何主机名和域。
 
-   订购按小时计费的服务器时，{{site.data.keyword.backup_notm}} 服务不可用。但是，日后可以作为升级添加该服务。
+      订购按小时计费的服务器时，{{site.data.keyword.backup_notm}} 服务不可用。但是，日后可以作为升级添加该服务。
    {:tip}
-
    2. 选择位置。
    3. 选择服务器配置和操作系统映像类型。您还可以选择多个附加组件。
    4. 在**存储磁盘**部分下，单击**附加组件**，然后选择 **{{site.data.keyword.backup_notm}} 备份**。请选择与您的需要匹配的选项。
@@ -48,12 +47,11 @@ lastupdated: "2018-12-14"
 系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.slportal}}。
 
 #### 确认 {{site.data.keyword.backup_notm}} 购买
-1. 在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}中，单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 在 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。
-  - 如果 URL 旁边有“时钟”图标，说明您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
+  - 如果 URL 旁边有“时钟”图标，那么您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买信息。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
   - 服务器的“时钟”图标不再显示时，请单击相应链接（服务器的 URL）以转至**设备详细信息**页面。
 3. 单击**存储**选项卡以显示 {{site.data.keyword.backup_notm}} 信息。
 4. 检查 {{site.data.keyword.backup_notm}} 部分，并验证购买过程中选择的大小是否显示。
@@ -62,9 +60,8 @@ lastupdated: "2018-12-14"
 
 #### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**。找到要添加 {{site.data.keyword.cloud_notm}} 备份服务的设备。
 3. 单击设备名以转至**设备详细信息**页面。
 
@@ -89,9 +86,8 @@ lastupdated: "2018-12-14"
 
 可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}和 {{site.data.keyword.slportal}} 中查看 {{site.data.keyword.backup_notm}} 服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储**，然后从列表中选择**备份**。
 2. 单击保险库所在行上的任意位置以查看其存储器详细信息。在此视图中，无法查看“密码”。请继续执行下一步以查看与 {{site.data.keyword.backup_notm}} 服务关联的密码。
 3. 单击**密码**字段旁边的**显示**复选框，以查看所选 {{site.data.keyword.backup_notm}} 服务的密码。
@@ -103,7 +99,7 @@ lastupdated: "2018-12-14"
 
 ## 安装 {{site.data.keyword.backup_notm}} 代理程序
 
-以下操作系统上支持 {{site.data.keyword.backup_notm}} 代理程序：
+以下操作系统上支持 {{site.data.keyword.backup_notm}} 代理程序。
 
 **Windows**
  - Windows Server 2012 R2
@@ -117,8 +113,8 @@ lastupdated: "2018-12-14"
  - Debian GNU/Linux 9.x
  - Debian GNU/Linux 8.x
  - Debian GNU/Linux 7.x
- - Red Hat Enterprise Linux 7.x
- - Red Hat Enterprise Linux 6.x
+ - RHEL 7.x
+ - RHEL 6.x
  - Ubuntu Linux 16.04
  - Ubuntu Linux 14.04
 
@@ -126,22 +122,23 @@ lastupdated: "2018-12-14"
 - [在 Linux 中安装备份客户机](install-backup-client-linux.html)
 - [在 Windows 中安装备份客户机](install-backup-client-windows.html)
 - [在 Windows 2016 中安装备份客户机](install-windows2016.html)
+- [在 VMware 中安装备份客户机](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
-## 访问 WebCentralControl (WebCC)
+## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
 
-WebCentralControl (WebCC) 是与 {{site.data.keyword.BluSoftlayer_full}} 提供的任何 {{site.data.keyword.backup_notm}} 服务进行交互时使用的客户机。WebCC 是一种基于浏览器的客户机，在 {{site.data.keyword.BluSoftlayer_full}} 专用网络上运行，支持对任何 {{site.data.keyword.backup_notm}} 服务进行完全控制，包括配置和复原。执行以下步骤来访问 WebCC。
+{{site.data.keyword.backup_notm}} 门户网站用于与由 {{site.data.keyword.BluSoftlayer_full}} 提供的任何 {{site.data.keyword.backup_notm}} 服务进行交互。{{site.data.keyword.backup_notm}} 门户网站是一种基于浏览器的客户机，在 {{site.data.keyword.BluSoftlayer_full}} 专用网络上运行，支持对任何 {{site.data.keyword.backup_notm}} 服务进行完全控制，包括配置和复原。
 
 1. 通过 VPN 访问专用网络。
 
-   WebCC 无法通过公用网络进行访问。必须先建立 VPN 连接。
+   {{site.data.keyword.backup_notm}} 门户网站无法通过公用网络进行访问。必须先建立 VPN 连接。
    {:important}
-2. 访问 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 中的“备份存储器”屏幕。
+2. 访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中的“备份存储器”屏幕。
 3. 单击想要查看的 {{site.data.keyword.backup_notm}} 服务所在行上的任意位置以展开视图。
-4. 单击 **WebCC 登录**，以在浏览器中启动 WebCC 客户机。
+4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。
 
-## 在 WebCC 中配置备份代理程序
+## 配置备份代理程序和备份调度
 
-订购了 {{site.data.keyword.backup_notm}} 并且在服务器上安装了代理程序之后，即可以开始创建数据备份。执行以下步骤来配置代理程序、保留安排以及启动第一个备份作业。
+订购了 {{site.data.keyword.backup_notm}} 并且在服务器上安装了代理程序之后，即可以开始创建数据备份。您可以按照以下步骤配置代理程序、保留安排以及启动第一个备份作业。
 
 1. 登录到 WebCC。
 2. 单击**所有代理程序** > **未配置的代理程序**。
@@ -160,8 +157,8 @@ WebCentralControl (WebCC) 是与 {{site.data.keyword.BluSoftlayer_full}} 提供�
    4. 单击**确定**。
    5. 单击**保存**。
 
-      有关“保留方案”的更多信息，请参阅[常见问题](faqs.html)
-      {:tip}
+        有关“保留方案”的更多信息，请参阅[常见问题](faqs.html)。
+        {:tip}
 5. 运行代理程序并启动备份。
    1. 单击**所有代理程序**，然后选择已配置的代理程序。
    2. 单击**运行备份**。
@@ -174,4 +171,4 @@ WebCentralControl (WebCC) 是与 {{site.data.keyword.BluSoftlayer_full}} 提供�
 
 ## 获取联机帮助
 
-WebCC 的系统已完全记录，并且在 WebCC 内提供了对该应用程序的支持。单击右上角含有白色问号的蓝色圆圈以获取**帮助**。单击左侧导航栏中的任何文章或主题以查看更多信息。
+{{site.data.keyword.backup_notm}} 门户网站的系统已全部记录，并且可在 {{site.data.keyword.backup_notm}} 门户网站内访问对该应用程序的支持。单击右上角含有白色问号的蓝色圆圈以获取**帮助**。单击左侧导航栏中的任何文章或主题以查看更多信息。

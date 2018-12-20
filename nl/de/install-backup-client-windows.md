@@ -22,9 +22,8 @@ Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.d
 
 ## Beim Zielgeräteserver anmelden
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um eine Liste verfügbarer Server anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
 4. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen. Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird.
@@ -50,11 +49,11 @@ Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.d
   ```
   {: pre}
 
-2. Geben Sie den Benutzernamen im Feld **Benutzername** ein.
-3. Geben Sie das Kennwort im Feld **Kennwort** ein.
+2. Geben Sie den Benutzernamen im Feld **Benutzername** ein. 
+3. Geben Sie das Kennwort im Feld **Kennwort** ein. 
 6. Klicken Sie auf **Weiter**.
 7. Klicken Sie auf **Installieren**, um die Installation auszuführen.
 
 ## Sicherungsagenten konfigurieren
 
-Melden Sie sich bei WebCC an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](index.html#configuring-the-backup-agent-in-webcc).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](index.html#configuring-the-backup-agent-and-the-backup-schedule).

@@ -10,14 +10,12 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
 
 # Configurazione di {{site.data.keyword.backup_notm}} su Windows 2016
 
 ## Installazione dell'agent {{site.data.keyword.backup_notm}} Software
 
-1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile
+1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile.
    ```
    http://downloads.service.softlayer.com/evault/
    ```
@@ -26,12 +24,12 @@ lastupdated: "2018-12-14"
 3. Seleziona la lingua per l'installazione e fai clic su **OK**.
 4. Fai clic su **Next** per iniziare.
 5. Leggi i termini e le condizioni e seleziona **I accept the terms in the license agreement**. Poi, fai clic su **Next**.
-6. Seleziona **Typical** per il tipo di installazione. Fai clic su **Next**.
+6. Seleziona **Typical** come Setup Type. Fai clic su **Next**.
 7. Nella schermata Register Agent with Portal, seleziona **Skip Registration**. Fai clic su **Next**
 8. Nella schermata successiva, fai clic su **Install**.
 9. Al termine dell'installazione, fai clic su **Finish**.
 
-## Installazione di CentralControl 8.30
+## Installazione di Central Control 8.30
 
 1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile.
 
@@ -48,31 +46,31 @@ lastupdated: "2018-12-14"
 4. Al termine dell'installazione, seleziona **Launch EVault Software Central Control**. Fai clic su **Finish**.
 
 
-## Configurazione di CentralControl
+## Configurazione di Central Control
 
-Questa attività viene completata attraverso una serie di interazioni mentre si è connessi al server designato per il servizio {{site.data.keyword.backup_notm}}.
+Questa attività viene completata attraverso una serie di interazioni mentre sei connesso al server designato per il servizio {{site.data.keyword.backup_notm}}.
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
-2. Avvia CentralControl.
+2. Avvia Central Control.
 3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **Agent Configuration**.
 4. Nella scheda Vaults, fai clic su **New**. Viene visualizzata la procedura guidata di configurazione dell'archivio. Fai clic su **Next**.
 5. Seleziona **Register as a new computer** e fai clic su **Next**.
 6. Immettere il nome dell'archivio nel campo del nome profilo.
 
-   Il nome dell'archivio può essere ottenuto da [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   Il nome archivio può essere ottenuto dal [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
    {:tip}
 6. Immetti l'indirizzo di rete (l'indirizzo IP dell'archivio assegnato) e fai clic su **Add**. Poi, fai clic su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.
-8. Nella schermata delle impostazioni di connessione, immetti il numero di secondi/minuti desiderato. Lascia la casella **Enable over the wire encryption for transmissions to/from the vault** selezionata. Fai clic su **Next**.
+8. Nella schermata Connection Settings, immetti il numero di secondi e minuti desiderato. Lascia la casella **Enable over the wire encryption for transmissions to/from the vault** selezionata. Fai clic su **Next**.
 9. Nella schermata di autenticazione, immetti le tue credenziali e fai clic su **Next**.
-10. Viene visualizzata la finestra dei computer registrati che visualizza il nome host del tuo server. Fai clic su **Next**.
+10. La finestra Registered computers visualizza il nome host del tuo server. Fai clic su **Next**.
 11.	Fai clic su **Finish** per completare la configurazione.
 
 
 ## Creazione degli schemi di conservazione
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
-2. Avvia CentralControl.
+2. Avvia Central Control.
 3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **Agent Configuration**.
 4. Fai clic sulla scheda **Retentions**. Viene visualizzata la procedura guidata di conservazione, fai clic su **Next**.
 5. Immetti il nome della conservazione. Fai clic su **Next**.<br/>
@@ -90,7 +88,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre si 
 ## Configurazione del lavoro {{site.data.keyword.backup_notm}}
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
-2. Avvia CentralControl.
+2. Avvia Central Control.
 3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **New Job**.
 4. Sul pannello di benvenuto, fai clic su **Next**.
 5. Seleziona il tipo di origine di backup.
@@ -110,10 +108,10 @@ Questa attività viene completata attraverso una serie di interazioni mentre si 
 ## Esecuzione del lavoro {{site.data.keyword.backup_notm}}
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
-2. Avvia CentralControl.
+2. Avvia Central Control.
 3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona l'agent che hai creato.
 4. Sul pannello di benvenuto, fai clic su **Next**.
-5. Seleziona la destinazione di backup o un'ubicazione alternativa per eseguire il seeding del lavoro di backup. Fai clic su **Next**.<br/>
+5. Seleziona la destinazione di backup o un'altra ubicazione per eseguire il seeding del lavoro di backup. Fai clic su **Next**.<br/>
    Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](multivaulting.html)
    {:tip}
 6. Seleziona l'opzione di scansione file rapida per evitare la lettura dei file che non sono stati modificati. Fai clic su **Next**.

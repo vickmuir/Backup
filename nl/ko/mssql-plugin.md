@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # SQL Server 플러그인 설치
 
-SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이전트로 설치됩니다. WebCC 포털을 통해 작업을 구성하고 안전한 원격 저장소에 SQL 데이터베이스를 백업하며 SQL 데이터베이스를 복원할 수 있습니다.
+SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 SQL 데이터베이스를 백업하며 SQL 데이터베이스를 복원할 수 있습니다.
 
 **제공되는 기능**
 
@@ -23,11 +23,12 @@ SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이
 - 동일한 SQL 인스턴스로 또는 다른 SQL 인스턴스로 SQL 데이터베이스를 복원할 수 있습니다.
 - 원래 데이터베이스 이름으로 데이터베이스를 복원하고 기존 데이터베이스를 겹쳐쓰며 복구 없음 옵션을 사용하여 복원할 수 있습니다.
 
+자세한 정보는 [기본 기능](#main-featues) 섹션을 참조하십시오.
+
 ## 플러그인 주문
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
-
-   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
+ 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
 4. **{{site.data.keyword.backup_notm}} 플러그인 - MSSQL**을 선택하고 **계속**을 클릭하십시오.
@@ -38,7 +39,7 @@ SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이
 
 ## MSSQL 플러그인 설치
 
-Windows용 SQL 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
+SQL 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
 
 Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
 {:tip}
@@ -53,19 +54,13 @@ Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.
 8. **내 현재 등록 유지**를 선택하고 **다음**을 클릭하십시오.
 9. **설치**를 클릭하십시오.
 10. 일단 설치되면 두 서비스가 모두 사용되고 실행 중인지 확인하십시오.
-11. WebCC가 데이터베이스를 보고 이에 액세스할 수 있으면 설치가 완료된 것입니다.
+11. {{site.data.keyword.backup_notm}} 포털에서 데이터베이스를 보고 액세스할 수 있으면 설치가 완료된 것입니다. 
 
 ## 사용자 안내서 다운로드
 
-[다운로드 가능한 {{site.data.keyword.backup_notm}} 문서 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}으로 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
+[다운로드 가능 {{site.data.keyword.backup_notm}} 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
 
-## 자주 묻는 질문
-
-**VSS(Volume Shadow Copy Services)의 역할은 무엇입니까? **
-
-SQL Server 플러그인의 현재 버전은 VSS(Volume Shadow Copy Services)를 사용하여 백업을 완료합니다. SQL Server 플러그인은 VSS를 사용하여 SQL 데이터베이스, 심지어 여러 볼륨에 있는 SQL 데이터베이스도 효율적으로 백업합니다. 애플리케이션이 볼륨에 계속 쓰는 동안 백업을 완료할 수 있습니다. SQL Server 플러그인은 데이터베이스 내에서 그리고 전체에서 데이터 일관성을 제공합니다. VSS를 사용하면 동시에 여러 백업을 실행할 수 있습니다.
-
-**SQL 플러그인의 기본 기능은 무엇입니까?**
+## 기본 기능
 
 - 와일드카드 문자(별표 및 물음표)를 사용하여 SQL Server 백업 작업에서 포함하고 제외할 데이터베이스의 이름을 지정하는 기능. 백업 작업의 필터와 이름이 일치하는 새 데이터베이스는 작업이 실행될 때 자동으로 포함 또는 제외됩니다.
 - 64비트 에이전트 및 SQL Server 플러그인을 사용하여 AlwaysOn 가용성 그룹에서 보조 데이터베이스를 보호하는 기능.

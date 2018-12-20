@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # Vault erneut registrieren
 
 Diese Task wird am häufigsten nach dem erneuten Laden des Betriebssystems eines Servers verwendet. Mit diesen Schritten können Sie außerdem die [Sicherungen eines Servers zum Wiederherstellen von Daten auf einem anderen Server verwenden](restore-from-another-computer.html).
+{:tip}
 
-1. Starten Sie WebCC und melden Sie sich an. Weitere Informationen enthält das [Lernprogramm - Einführung](index.html).
+1. Starten Sie das {{site.data.keyword.backup_notm}}-Portal und melden Sie sich an. Weitere Informationen enthält das [Lernprogramm - Einführung](index.html).
 
-   Denken Sie daran, dass WebCC nur über {{site.data.keyword.BluVPN}} zugänglich ist.
+   Denken Sie daran, dass das {{site.data.keyword.backup_notm}}-Portal nur über {{site.data.keyword.BluVPN}} zugänglich ist.
    {:tip}
 2. Klicken Sie links auf **Alle Agenten**.
 3. Bewegen Sie den Mauscursor auf das Element **Bearbeiten**, das sich in der rechten oberen Ecke befindet.

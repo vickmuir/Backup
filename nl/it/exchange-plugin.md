@@ -14,17 +14,16 @@ lastupdated: "2018-12-14"
 
 # Installazione del plug-in Exchange
 
-Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il portale WebCC puoi configurare i lavori, eseguire il backup dei database Exchange in un archivio remoto protetto e ripristinare i database Exchange. Il plug-in si integra nell'architettura esistente.
+Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il portale {{site.data.keyword.backup_notm}}, è possibile configurare i lavori, eseguire il backup dei database Exchange in un archivio remoto, protetto e ripristinare i database Exchange. Il plug-in si integra nell'architettura esistente.
 
 **Capacità fornite**
 
 - Possibilità di eseguire il backup e il ripristino dei database di Microsoft Exchange.
 
-## Ordine del plugin
+## Ordinazione del plug-in
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
-
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
 4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - Exchange** e fai clic su **Continue**.
@@ -50,8 +49,8 @@ Prima di installare il plug-in per il tuo server Microsoft Windows, arresta entr
 8. Seleziona **Keep my current registration** e fai clic su **Next**.
 9. Fai clic su **Install**.
 10. Una volta installato, verifica che entrambi i servizi siano abilitati e in esecuzione.
-11. Se WebCC è in grado di accedere/visualizzare il database, l'installazione ha avuto esito positivo.
+11. Se il portale {{site.data.keyword.backup_notm}} è in grado di accedere/visualizzare il database, l'installazione ha avuto esito positivo.
 
 ## Download della guida utente
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. La guida descrive come eseguire il backup e il ripristino dei database di Microsoft Exchange utilizzando il plug-in Exchange. La guida descrive anche come condividere un set sicuro di backup DR. Con un set sicuro di backup DR puoi ripristinare caselle di posta, messaggi o altri oggetti specifici in un file .pst utilizzando l'applicazione Granular Restore per Microsoft Exchange.
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente da [Downloadable {{site.data.keyword.backup_notm}} Documentation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} La guida descrive come eseguire il backup e il ripristino di database Microsoft Exchange utilizzando il plug-in Exchange. La guida descrive anche come condividere un set sicuro di backup DR. Con un set sicuro di backup DR puoi ripristinare caselle di posta, messaggi o altri oggetti specifici in un file .pst utilizzando l'applicazione Granular Restore per Microsoft Exchange.

@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # 安装 SQL Server 插件
 
-SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上。通过 WebCC 门户网站，可以配置作业，将 SQL 数据库备份到安全的远程保险库，以及复原 SQL 数据库。
+SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上。通过 {{site.data.keyword.backup_notm}} 门户网站，可以配置作业，将 SQL 数据库备份到安全的远程保险库，以及复原 SQL 数据库。
 
 **提供的功能**
 
@@ -23,11 +23,12 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 - 可以将 SQL 数据库复原到同一个 SQL 实例，也可以复原到其他 SQL 实例。
 - 可以使用原始数据库名称复原数据库，覆盖现有数据库，以及使用“不恢复”选项进行复原。
 
+有关更多信息，请参阅[主要功能](#main-featues)部分。
+
 ## 订购插件
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - MSSQL**，然后单击**继续**。
@@ -38,7 +39,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 
 ## 安装 MSSQL 插件
 
-要安装适用于 Windows 的 SQL 插件，请运行代理程序安装工具箱。该插件在**定制安装**页面上显示为选项。
+要安装 SQL 插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。
 
 在为 Microsoft Windows 服务器安装 MSSQL 插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
 {:tip}
@@ -53,19 +54,13 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 8. 选择**保留我当前的注册**，然后单击**下一步**。
 9. 单击**安装**。
 10. 安装后，请进行检查以确保这两个服务都已启用并且正在运行。
-11. 如果 WebCC 能够查看和访问数据库，说明安装成功。
+11. 如果 {{site.data.keyword.backup_notm}} 门户网站能够查看和访问数据库，说明安装成功。
 
 ## 下载用户指南
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下载用户指南。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中下载用户指南。
 
-## 常见问题
-
-**VSS（卷影复制服务）是用来做什么的？**
-
-当前版本的 SQL Server 插件使用 VSS（卷影复制服务）来完成备份。通过使用 VSS，SQL Server 插件可有效备份 SQL 数据库，甚至支持备份跨卷的 SQL 数据库。备份期间，应用程序可继续写入卷。SQL Server 插件在数据库内和数据库之间提供数据一致性。VSS 允许多个备份同时运行。
-
-**SQL 插件的主要功能是什么？**
+## 主要功能
 
 - 能够使用通配符（星号和问号）指定要在 SQL Server 备份作业中包含和排除的数据库的名称。作业运行时，将自动包括或排除名称与备份作业过滤器相匹配的新数据库。
 - 能够使用 64 位代理程序和 SQL Server 插件来保护“AlwaysOn 可用性组”中的辅助数据库。

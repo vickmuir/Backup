@@ -14,31 +14,29 @@ lastupdated: "2018-12-14"
 
 # Windows での BMR バックアップ・ジョブの構成
 
-**前提条件**
-
 BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。
-
-## WebCC の開始
-
-WebCC を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークに接続している必要があります。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
+## {{site.data.keyword.backup_notm}} ポータルの開始
 
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+{{site.data.keyword.backup_notm}} ポータル を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークに接続している必要があります。
+{:important}
+
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
-3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、WebCC リンクを表示します。
-4. **「WebCC ログイン」**をクリックし、ブラウザーで WebCC クライアントを開始します。
+3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
+4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーで {{site.data.keyword.backup_notm}} ポータル・クライアントを開始します。
 
-   WebCC が開始されない場合は、VPN 接続に問題がある可能性があります。 また、送信しようとしているフォームがセキュアではないというメッセージが表示されることもあります。 このことは予期されることであるため、フォームを送信して続行します。
+   {{site.data.keyword.backup_notm}} ポータルが開始されない場合は、VPN 接続に問題がある可能性があります。 また、送信しようとしているフォームがセキュアではないというメッセージが表示されることもあります。 このことは予期されることであるため、フォームを送信して続行します。
    {:tip}
 
 ## BMR バックアップ・ジョブの構成
 
-1. 左のナビゲーション・ペインで、**「すべてのエージェント」**をクリックして、現在の IBM Cloud バックアップ・エージェントを表示します。
+1. 左のナビゲーション・ペインで、**「すべてのエージェント」**をクリックして、現在の {{site.data.keyword.backup_notm}} エージェントを表示します。
 2. **「これは構成対象の新しいエージェントです (This is a new Agent I would like to configure)」**をクリックします。
-3. 構成または作成するジョブのジョブ名とジョブ記述を入力します。
-4. **「バックアップ・ソース・タイプ (Backup Source Type)」**で、バックアップ対象とするファイル・システム・タイプをリストから選択し、次に、**「次へ」**をクリックします。
+3. 作成するジョブのジョブ名とジョブ記述を入力します。
+4. **「バックアップ・ソース・タイプ (Backup Source Type)」**で、ファイル・システム・タイプを選択し、次に、**「次へ」**をクリックします。
 5. **「ジョブ・タイプの選択 (Job Type Selection)」**メニューが表示されます。 **「ベアメタルのリストア (Bare Metal Restore)」**の隣のボックスをチェックし、**「次へ」**をクリックして続行します。
 6. 確認ウィンドウでは**「はい」**をクリックします。
 7. 画面のバックアップ・セットに、新しいジョブが表示されるようになります。 **「次へ」**をクリックします。
@@ -49,7 +47,7 @@ WebCC を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライ�
      1. バックアップを実行する曜日と時刻を選択します。
      2. 保存スキームを選択します。
 
-        保存スキームについて詳しくは、[FAQ](faqs.html) を参照してください。
+        保存スキームについて詳しくは、[FAQ](faqs.html#how-do-the-retention-schemes-work-) を参照してください。
         {:tip}
      3. バックアップ・スケジュールを構成した後、**「OK」**をクリックして保存します。 スケジュールに入れたジョブが、スケジュール済みのジョブのリストに追加されます。
 10. バックアップ・ジョブのボールトを選択し、**「変更の保存」**をクリックします。

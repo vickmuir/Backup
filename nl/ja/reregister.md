@@ -9,16 +9,15 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
 
 # ボールトの再登録
 
 このタスクは、サーバーのオペレーティング・システムの再ロード後に最もよく利用されます。 これらのステップは、[1 つのサーバーのバックアップを使用して、別のサーバー上にデータをリストアする場合](restore-from-another-computer.html)に使用することもできます。
+{:tip}
 
-1. WebCC を開始してログインします。 詳しくは、[入門チュートリアル](index.html)を参照してください。
+1. {{site.data.keyword.backup_notm}} ポータルを開始してログインします。 詳しくは、[入門チュートリアル](index.html)を参照してください。
 
-   WebCC には、{{site.data.keyword.BluVPN}} を介してのみアクセスできることを忘れないでください。
+   {{site.data.keyword.backup_notm}} ポータルには、{{site.data.keyword.BluVPN}} を介してのみアクセスできることを忘れないでください。
    {:tip}
 2. 左側にある**「すべてのエージェント」**をクリックします。
 3. 右上で、**「編集」**をマウスオーバーします。
@@ -29,7 +28,7 @@ lastupdated: "2018-12-14"
   - ボールト・アドレス (Vault address)
   - アカウント
 
-    「アカウント」は[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}の「アカウント名」と同等です。 通常、「SLE[account ID]」のようになります。
+    「アカウント」は [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} の「アカウント名」と同等です。 通常、「SLE[account ID]」のようになります。
     {:tip}
   - ユーザー名
   - パスワード

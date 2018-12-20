@@ -22,9 +22,8 @@ Windows 2016 サーバーでのバックアップについては、[Windows 2016
 
 ## ターゲット・デバイス・サーバーへのログイン
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. メインメニューから**「デバイス」**>**「デバイス・リスト」**を選択して使用可能なサーバーのリストを表示します。
 3. {{site.data.keyword.backup_notm}} サービスの購入対象であるデバイスを検索し、そのパブリック IP アドレスをメモします。
 4. 右向き矢印をクリックし、展開してデバイスに関する詳細情報 (ユーザー名、パスワードなど) を表示します。 パスワードが表示されない場合は、**「パスワードの表示 (Show Password)」**をクリックすると表示されます。
@@ -57,4 +56,4 @@ Windows 2016 サーバーでのバックアップについては、[Windows 2016
 
 ## バックアップ・エージェントの構成
 
-WebCC にログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](index.html#configuring-the-backup-agent-in-webcc)を参照してください。
+{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](index.html#configuring-the-backup-agent-and-the-backup-schedule)を参照してください。

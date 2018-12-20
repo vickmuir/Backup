@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-12-14"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2018-12-14"
 ## Welche Art von Anwendungen können gesichert werden?
 {: faq}
 
-{{site.data.keyword.backup_full}} kann zum Sichern verschiedener Anwendungen verwendet werden. {{site.data.keyword.BluSoftlayer_full}} bietet jedoch Softwareagenten zur Sicherung für einige der gängigeren Softwaresysteme wie beispielsweise Folgende:
+{{site.data.keyword.backup_full}} kann zum Sichern verschiedener Anwendungen verwendet werden. {{site.data.keyword.BluSoftlayer_full}} bietet auch Softwareagenten zur Sicherung für einige der gängigeren Softwaresysteme, wie beispielsweise folgende:
 
 - Bare-Metal-Wiederherstellung
 - Microsoft Exchange
@@ -31,7 +31,7 @@ Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Aus
 ## Wie oft können die Daten gesichert werden?
 {: faq}
 
-Innerhalb von WebCC können Sicherungen manuell erstellt oder als einzelne Instanz geplant oder als wiederholend auszuführend geplant werden. Wiederholte Sicherungen können täglich, wöchentlich, monatlich oder nach einem angepassten Zeitplan erfolgen und jederzeit aktualisiert oder abgebrochen werden.
+Innerhalb des {{site.data.keyword.backup_notm}}-Portals können Sicherungen manuell erstellt oder als einzelne Instanz geplant oder als wiederholend auszuführend geplant werden. Wiederholte Sicherungen können täglich, wöchentlich, monatlich oder nach einem angepassten Zeitplan erfolgen und jederzeit aktualisiert oder abgebrochen werden.
 
 Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt werden, können zur Beschädigung von Sicherungsjobs führen. Diese Beschädigung tritt auf, weil der Sicherungsvault nicht genügend Zeit erhält, um erforderliche Hintergrundwartungstasks auszuführen. Sicherungsjobs haben Vorrang vor Wartungsaufgaben. Im Falle von sehr häufigen Sicherungen führt der Vault weiterhin die Sicherungsjobs aus und das führt dazu, dass die Anzahl der Sicherungsgruppen zunimmt.{:note}
 
@@ -40,9 +40,10 @@ Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt wer
 ## Wie funktionieren die Aufbewahrungsschemas?
 {: faq}
 
-{{site.data.keyword.backup_notm}} ermöglicht es Ihnen, die Datenspeicherung davon abhängig zu machen, wie weit zurück Sie eine Rollback-Operation durchführen möchten. Die Aufbewahrungsschemas des Typs **Täglich** behalten Daten für sieben Tage bei, während die Schemas des Typs **Wöchentlich** Daten für einen Monat und die Schemas des Typs **Monatlich** Daten für ein Jahr beibehalten. Am Ende jedes Zeitraums wird der älteste Datenbestand turnusmäßig ausgelagert und die erste erstellte Deltasicherung wird zum ältesten verfügbaren Wiederherstellungspunkt.
+Evault Backup ermöglicht es Ihnen, die Datenspeicherung davon abhängig zu machen, wie weit zurück Sie eine Rollback-Operation durchführen möchten. Die Aufbewahrungsschemas des Typs **Täglich** behalten Daten für sieben Tage bei, während die Schemas des Typs **Wöchentlich** Daten für einen Monat und die Schemas des Typs **Monatlich** Daten für ein Jahr beibehalten. Am Ende jedes Zeitraums wird der älteste Datenbestand turnusmäßig ausgelagert und die erste erstellte Deltasicherung wird zum ältesten verfügbaren Wiederherstellungspunkt.
 
-Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungsschemas erstellen. Es wird jedoch dringend empfohlen, Standardaufbewahrungszeiträume als Ausgangspunkt zu verwenden. Wenn Sie ein neues Aufbewahrungsschema erstellen oder ein vorhandenes Aufbewahrungsschema ändern, sollten Sie sicherstellen, dass die Option Archivieren nicht ausgewählt ist. Das Archivieren wird nicht unterstützt.{:tip}
+Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungsschemas erstellen. IBM empfiehlt jedoch, die Standardaufbewahrungszeiträume als Ausgangspunkt zu verwenden. Wenn Sie ein neues Aufbewahrungsschema erstellen oder ein vorhandenes Aufbewahrungsschema ändern, sollten Sie sicherstellen, dass die Option Archivieren nicht ausgewählt ist. Das Archivieren wird nicht unterstützt.
+{:tip}
 
 <hr>
 
@@ -68,9 +69,10 @@ Komprimierungsverhältnisse ermöglichen die Verwendung von keiner Komprimierung
 ## Welche Informationen werden mit den Systemstatussicherungen gespeichert?
 {: faq}
 
-Systemstatussicherungen umfassen unter anderem die COM- und Klassenregistrierungsdatenbank, die Registry, Bootdateien Systemdateien und Leistungszähler, sind jedoch nicht hierauf beschränkt. Maßgeblich ist jeweils das System. Die Systemdateien variieren nach Betriebssystem und Service-Packs des Systems. Normalerweise gibt es mehrere Tausend dieser Dateien. MS Windows erstellt eine dynamische Liste dieser DLLs, wenn Sie sie in die Sicherung einbeziehen. Durch die Einbeziehung der Systemdateien können Sie eine Wiederherstellung bei beschädigten Systemdateien, bei einer versehentlichen Deinstallation von Service-Packs oder bei einer erforderlichen Bare-Metal-Wiederherstellung vornehmen. Sie können zum Status der Sicherung zurückkehren, ohne das Betriebssystem mit dem Installationskit erneut installieren und anschließend jedes Service-Pack separat installieren zu müssen.
+Systemstatussicherungen umfassen unter anderem die COM- und Klassenregistrierungsdatenbank, die Registry, Bootdateien Systemdateien und Leistungszähler, sind jedoch nicht hierauf beschränkt. Maßgeblich ist jeweils das System. Systemdateien variieren nach Betriebssystem und Service-Packs des Systems. Normalerweise gibt es mehrere Tausend dieser Dateien. MS Windows erstellt eine dynamische Liste dieser DLLs, wenn Sie sie in die Sicherung einbeziehen. Durch die Einbeziehung der Systemdateien können Sie eine Wiederherstellung bei beschädigten Systemdateien, bei einer versehentlichen Deinstallation von Service-Packs oder bei einer erforderlichen Bare-Metal-Wiederherstellung vornehmen. Sie können zum Status der Sicherung zurückkehren, ohne das Betriebssystem mit dem Installationskit erneut installieren und anschließend jedes Service-Pack separat installieren zu müssen.
 
-Es ist keine Benutzerdatendatei in der Systemstatussicherung enthalten. Ein Systemstatussicherungsjob muss als eigenständiger Job konfiguriert werden. Es darf keine andere Datenquelle vorhanden sein, die in den Systemstatussicherungsjob eingeschlossen wird.{:important}
+Es ist keine Benutzerdatendatei in der Systemstatussicherung enthalten. Ein Systemstatussicherungsjob muss als eigenständiger Job konfiguriert werden. Es darf keine andere Datenquelle vorhanden sein, die in den Systemstatussicherungsjob eingeschlossen wird.
+{:important}
 
 <hr>
 
@@ -84,25 +86,79 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen finden Sie unter [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud: Preisstruktur](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen zu diesem Thema finden Sie im Abschnitt zum [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){:new_window} und unter [EVault on IBM Cloud: Preisstruktur](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
-## Kann die Kapazität von {{site.data.keyword.backup_notm}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
+## Kann die Kapazität von {{site.data.keyword.backup_full}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
-Sie können die Größe Ihrer Vault über das [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](expanding-capacity.html).
+Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](expanding-evault-capacity.html).
 
 <hr>
 
 ## Was passiert, wenn die Kapazität von {{site.data.keyword.backup_notm}} überschritten wird?
 {: faq}
 
-Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenzwert für die Kapazität erreicht haben, die Sie zuvor erworben haben. Beachten Sie jedoch, dass eine zusätzliche Gebühr für jedes zusätzlich genutzte GB in der Abrechnung aufgeführt wird.
+Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenzwert für die Kapazität erreicht haben, die Sie zuvor erworben haben. In wird jedoch für jedes zusätzlich genutzte GB in der Abrechnung eine zusätzliche Gebühr in Rechnung gestellt.
 
 <hr>
 
-## Wie kann ich Benachrichtigungen in WebCC einrichten, um informiert zu werden, wenn meine Sicherungen fehlschlagen?
+## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, um informiert zu werden, wenn meine Sicherungen fehlschlagen? 
 {: faq}
 
-Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** in WebCC entsprechend vor.
+Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** im {{site.data.keyword.backup_notm}}-Portal entsprechend vor.
+
+<hr>
+
+## Wenn das BMR-Plug-in verwendet wird, kann von einer einzelnen Platte zu einer RAID-Platteneinheit gewechselt werden?
+
+Ja, das funktioniert. Sie müssen jedoch aufgrund der durch das RAID-Array verursachten Größenabnahme eine Einheit mit hoher Kapazität auswählen.
+
+<hr>
+
+## Was passiert, wenn das BMR-Plug-in verwendet wird und das Image auf einer größeren Platte wiederhergestellt wird als der ursprüngliche Datenträger?
+{: faq}
+
+Falls Sie das Image auf einem größeren Datenträger als dem ursprünglichen Datenträger wiederherstellen, wird der übrigbleibende Bereich freigegeben. Beispiel: Wenn Sie die Daten eines Laufwerks mit 500-GB GB auf einem 1-TB-Datenträger wiederherstellen, werden 500 GB Plattenspeicherplatz freigegeben. Bei Windows 2008 können Sie das integrierte Datenträgerdienstprogramm verwenden, um die primäre Partition zu vergrößern. In Windows 2003 gibt es hingegen keine ähnliche integrierte Funktionalität, sodass Sie den Speicherbereich auf andere Weise zuordnen müssen.
+
+<hr>
+
+## Kann BMR für reguläre Sicherungen verwendet werden?
+{: faq}
+
+Bei einer BMR-Sicherung handelt es sich nicht um ein Plattenimage, sondern um ein Sicherungssystem für Systemdatenträgerimages. Das System ist nicht zur Erstellung regulärer Sicherungen gedacht, sondern dient als Ergänzung zu Systemen für solche Sicherungen.  
+
+<hr>
+
+##Kann BMR für Datenbanksicherungen verwendet werden?
+{: faq}
+
+Datenbanksicherungen müssen separat mit den herkömmlichen {{site.data.keyword.backup_notm}}-Methoden vorgenommen werden. BMR macht Plug-ins für SQL oder Oracle keinesfalls überflüssig. BMR verwendet zwar die VSS-Technologie zum Sichern geöffneter Dateien, es kann aber nicht in jedem Fall gewährleistet werden, dass die gesicherten Dateien transaktionskonsistent sind. Für solche Typen von Fachanwendungen empfiehlt sich die Erstellung von zwei Sicherungsjobs, nämlich einem Job zum Sichern der Betriebssystems- und Anwendungsbinärdateien und einem weiteren Job für die Anwendungsdaten. Am Ende des Benutzerhandbuchs für BMR finden Sie einen diesbezüglichen Hinweis.
+
+<hr>
+
+## Welche Arten von Wiederherstellungsjobs können mit BMR ausgeführt werden?
+
+Sie können entweder eine vollständige Systemwiederherstellung durchführen oder einzelne Dateien aus der Sicherung für die Wiederherstellung auswählen. Der BMR-Sicherungsjob kann Ihren aktuellen Dateisicherungsjob ersetzen. Der Wiederherstellungsprozess kann wie ein konventioneller Sicherungsjob innerhalb des Betriebssystems ausgeführt werden.
+
+<hr>
+
+## Besitzt BMR Funktionen für die Sicherung von geöffneten Dateien?
+{: faq}
+
+BMR ist mit Funktionen zur Sicherung von geöffneten Dateien ausgestattet. BMR macht jedoch Plug-ins für SQL oder Oracle keinesfalls überflüssig. Klicken Sie [hier](evault-mssql-plugin.html), um die Installationsanweisungen für das MS SQL-Plug-in anzuzeigen.
+
+<hr>
+
+## Wie viel Plattenspeicherplatz und Zeit benötigt eine BMR-Wiederherstellung?
+{: faq}
+
+Eine Sicherung, die auf Basis einer Standardinstallation erstellt wird, benötigt etwa 6 GB. Die Wiederherstellung einer solchen Sicherung über einen 1-GB-Port dauert ungefähr 15 Minuten. Dieser Prozess wird auch durch die private Portgeschwindigkeit beeinflusst. Falls Sie schnellere Sicherungen und Wiederherstellungen benötigen, ist möglicherweise eine Erhöhung der Portgeschwindigkeit erforderlich.
+
+<hr>
+
+## Wozu wird VSS verwendet?
+{: faq}
+
+Die aktuelle Version des Plug-ins für SQL Server für {{site.data.keyword.backup_notm}} verwendet VSS (Volume Shadow Copy Services, Volumenschattenkopie-Dienste) zur Ausführung von Sicherungen. Mit VSS kann das Plug-in für SQL Server SQL-Datenbanken auch dann effektiv sichern, wenn diese mehrere Datenträger umfassen. Sicherungen können durchgeführt werden, während Anwendungen weiterhin Schreiboperationen auf dem Datenträger ausführen. Das Plug-in für SQL Server bietet Ihnen Datenkonsistenz innerhalb von Datenbanken und auch datenbankübergreifend. VSS ermöglicht die gleichzeitige Ausführung von mehreren Sicherungen.

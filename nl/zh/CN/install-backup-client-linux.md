@@ -18,11 +18,11 @@ lastupdated: "2018-12-14"
 
 要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装 {{site.data.keyword.backup_notm}} 客户机所需的步骤：
 
-- RedHat Enterprise Linux
+- RHEL
 - CentOS
 - CloudLinux
 
-完成此过程后，自动进程会自动向 WebCC 注册代理程序服务，然后下载并安装运行该服务所需的文件。
+完成此过程后，进程会自动向 {{site.data.keyword.backup_notm}} 门户网站注册代理程序服务，然后下载并安装运行该服务所需的文件。
 
 如果通过 [{{site.data.keyword.cloud_notm}} 目录](https://{DomainName}/catalog/){:new_window}或 {{site.data.keyword.slportal}} 订购服务器时购买了 {{site.data.keyword.backup_notm}}，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
 {:tip}
@@ -31,9 +31,8 @@ lastupdated: "2018-12-14"
 
 ## 登录到目标设备服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
   - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 4 中所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
@@ -47,11 +46,13 @@ lastupdated: "2018-12-14"
 
    如果您之前未使用此用户名登录到此服务器，那么系统会向您显示一条有关主机真实性的消息。系统还会询问您是否要继续。请回答**是**以继续。
    {:note}
+
 6. 系统将提示您输入密码，除非您之前设置了用于访问此服务器的 SSH 密钥。
 
-## 更新 Linux 以准备安装备份客户机（仅限 RedHat Linux）
-此步骤对于 RedHat Linux 是必需的，但对于其他 Linux 分发版是可选的。
-{:important}
+## 更新操作系统以准备安装（仅针对 RHEL）
+
+此步骤对于 RHEL 是必需的，但是对于其他 Linux 分发版是可选的。
+{:tip}
 
 - 在服务器提示符处运行以下命令。
   ```
@@ -77,12 +78,18 @@ lastupdated: "2018-12-14"
   ```
    {: pre}
 
-2. 输入您的 WebCC 用户名和密码。
+2. 输入 {{site.data.keyword.backup_notm}} 门户网站用户名和密码。
 
    有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details)。
    {:tip}
-3. 在输入用户名和密码之后，再没有任何需要输入的内容了，即使在安装过程中您会看到一些需要输入内容的屏幕提示，也是如此。您可以安心地忽略这些提示。它们是由 `evault_manual.sh` 脚本所启动的子脚本生成的。`evault_manual.sh` 脚本会提供这些提示的输入内容。
-4. 当出现类似以下内容的消息时，表明安装完成：
+
+3. 在输入用户名和密码之后，再没有任何需要输入的内容了。在安装过程中屏幕上显示的提示可以安全地忽略。
+
+   它们是由 `evault_manual.sh` 脚本所启动的子脚本生成的。`evault_manual.sh` 脚本会提供这些提示的输入内容。
+   {:note}
+
+4. 出现以下消息时，说明安装完成。
+
    ```
   Starting VVAgent: [  OK  ]
   Starting buagent: [  OK  ]
@@ -91,7 +98,7 @@ lastupdated: "2018-12-14"
 
 ## 验证安装是否成功
 
-1. 验证安装输出中是否显示“已注册到门户网站”消息。可通过在屏幕上查找消息或通过检查以下命令的输出来完成验证：
+1. 验证安装输出中是否显示“已注册到门户网站”的消息。可通过在屏幕上查找该消息或通过检查以下命令的输出来完成验证。
    ```
   grep 'Registered'  /opt/BUAgent/Install.log
   ```
@@ -110,9 +117,9 @@ lastupdated: "2018-12-14"
   ```
    {: codeblock}
 
-  上述由 `xxxxx` 表示的进程标识因各个安装而异。
+  由 `xxxxx` 表示的进程标识因各个安装而异。
   {:tip}
 
 **后续步骤**
 
-登录到 WebCC 以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-in-webcc)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-and-the-backup-schedule)和[在 Linux 上配置简单的文件级别备份](configure-simple-file-backup-linux.html)。

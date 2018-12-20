@@ -12,27 +12,27 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Configurazione delle porte per consentire la comunicazione tra l'agent Backup e WebCC
+# Configurazione delle porte per consentire le comunicazioni tra l'agent backup e il portale {{site.data.keyword.backup_notm}}
 
-L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host di selettori {{site.data.keyword.backup_notm}} per un account {{site.data.keyword.backup_notm}} sono disponibili nel [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} e nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}.
+L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host {{site.data.keyword.backup_notm}} Director per un account utente {{site.data.keyword.backup_notm}} sono disponibili nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window} e nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}.
 
-Registra sempre gli agent sui selettori di WebCC e {{site.data.keyword.backup_notm}} utilizzando il nome di dominio completo (FQDN, Full Qualified Domain Name) perché gli indirizzi IP di questi servizi potrebbero cambiare.
+Registra sempre gli agent sui director di {{site.data.keyword.backup_notm}} e {{site.data.keyword.backup_notm}} utilizzando il nome di dominio completo (FQDN, Full Qualified Domain Name) perché gli indirizzi IP per questi servizi potrebbero cambiare.
 
-Affinché WebCC funzioni correttamente, i tuoi server devono comunicare con WebCC e con tutti i server proxy AMP, indipendentemente dall'ubicazione del data center.
+Affinché il portale {{site.data.keyword.backup_notm}} funzioni correttamente, i tuoi server devono comunicare con il portale {{site.data.keyword.backup_notm}} e con tutti i server proxy AMP, indipendentemente dall'ubicazione del data center.
 
 ```
 evregister.service.softlayer.com TCP 8086,8087
 ```
 
-È possibile aggiungere ulteriori server proxy AMP in base alle esigenze per gestire più agent {{site.data.keyword.backup_notm}} registrati nel WebCC.
+È possibile aggiungere ulteriori server proxy AMP in base alle esigenze per gestire più agent {{site.data.keyword.backup_notm}} registrati nel portale {{site.data.keyword.backup_notm}}.
 
 Le porte TCP 8086, 8087 devono avere accesso a 10.0.0.0/8.
 
-Se hai bisogno di utilizzare regole firewall più restrittive, potresti perdere l'accesso a WebCC man mano che l'infrastruttura viene espansa. Attualmente, come minimo, i tuoi server dovrebbero consentire l'accesso alle sottoreti 10.0.82.0/24 e 10.2.118.0/24 per le porte TCP 8086, 8087. In futuro, è possibile utilizzare ulteriori sottoreti in base alle esigenze.
+Se hai bisogno di utilizzare regole firewall più restrittive, potresti perdere l'accesso al portale {{site.data.keyword.backup_notm}} man mano che l'infrastruttura viene espansa. Attualmente, come minimo, i tuoi server dovrebbero consentire l'accesso alle sottoreti 10.0.82.0/24 e 10.2.118.0/24 per le porte TCP 8086, 8087. In futuro, è possibile utilizzare ulteriori sottoreti in base alle esigenze.
 
 ## Commerciale
 
-*Server proxy WebCC e AMP*
+*Portale {{site.data.keyword.backup_notm}} e server proxy AMP*
 
 - ev-webcc01.service.softlayer.com [10.0.82.12] 8086, 8087
 - evregister.service.softlayer.com [10.0.82.12] 8086, 8087
@@ -50,11 +50,11 @@ Se hai bisogno di utilizzare regole firewall più restrittive, potresti perdere 
 
 ## Federale
 
-*Proxy WebCC e AMP*
+*Portale {{site.data.keyword.backup_notm}} e proxy AMP*
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-L'agent deve consentire la porta TCP/2548 in entrata sulla rete privata. Questa impostazione consente a CentralControl e WebCC di connettersi all'agent per gestirlo. Le versioni precedenti di EVault utilizzavano la porta 808.
+L'agent deve consentire la porta TCP 2548 in entrata sulla rete privata. Questa impostazione consente a CentralControl e {{site.data.keyword.backup_notm}} di connettersi all'agent per gestirlo. Le versioni precedenti di EVault utilizzavano la porta 808.
 
 La porta di gestione {{site.data.keyword.backup_notm}} (2548) può essere modificata aggiornando la chiave di registro su: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (che è un valore `dword`) nei sistemi operativi Windows.
 

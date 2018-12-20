@@ -19,9 +19,9 @@ lastupdated: "2018-12-14"
 ## BMR レスキュー・カーネル・システムの開始
 
 BMR レスキュー・カーネル・システムには、{{site.data.keyword.slportal}}経由でアクセスできます。
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
 
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. ボールトの横の**矢印**をクリックします。
 4. **「ベア・メタルの復元の開始」**をクリックします。 このアクションによってトランザクションが開始され、完了まで数分かかります。 この後、ここに示すステップに従うことで、サーバーにアクセスできるようになります。 ブート処理が完了すると、E メールを受信します。

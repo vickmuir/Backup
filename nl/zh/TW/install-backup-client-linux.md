@@ -18,11 +18,11 @@ lastupdated: "2018-12-14"
 
 在 Linux 型作業系統上安裝 {{site.data.keyword.backup_full}} 用戶端，可透過作業系統內 Shell 或終端機中的一系列指令來完成。此程序概述在下列任何 Linux 型作業系統上安裝 {{site.data.keyword.backup_notm}} 用戶端所需的步驟：
 
-- RedHat Enterprise Linux
+- RHEL
 - CentOS
 - CloudLinux
 
-在完成此程序之後，自動化處理程序會使用 WebCC 登錄「代理程式」服務，然後下載並安裝執行該服務所需的檔案。
+在完成此程序之後，自動化處理程序會向 {{site.data.keyword.backup_notm}} 入口網站登錄「代理程式」服務，然後下載並安裝執行該服務所需的檔案。
 
 當您透過 [{{site.data.keyword.cloud_notm}} 型錄](https://{DomainName}/catalog/){:new_window}或 {{site.data.keyword.slportal}} 訂購伺服器時，如果您已購買 {{site.data.keyword.backup_notm}}，則會自動為您安裝軟體。您不需要使用本文件所述的程序。
 {:tip}
@@ -31,9 +31,8 @@ lastupdated: "2018-12-14"
 
 ## 登入目標裝置伺服器
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 從主功能表選取**裝置** > **裝置清單**，以查看可用伺服器裝置的清單。
 3. 找出您已為其購買 {{site.data.keyword.backup_notm}} 服務的裝置，並記下其公用 IP 位址。
   - 從 UNIX 或 Linux 指令行登入裝置時，會在接下來的步驟使用此 IP 位址。在步驟 4 所顯示的指令中，將 <publicIpAddress> 取代為實際公用 IP 位址。
@@ -47,11 +46,13 @@ lastupdated: "2018-12-14"
 
    如果您之前未使用此使用者名稱登入此伺服器，則會看到關於主機確實性的訊息。系統也會詢問您是否要繼續。回覆**是**以繼續。
    {:note}
+
 6. 除非您先前已設定 SSH 金鑰來存取此伺服器，否則系統會提示您輸入密碼。
 
-## 更新 Linux 以準備安裝備份用戶端（僅限 RedHat Linux）
-這對於 RedHat Linux 是必要步驟，但對於其他 Linux 發行套件則為選用步驟。
-{:important}
+## 更新 OS 以準備進行安裝（僅適用 RHEL）
+
+這是 RHEL 的必要步驟，但對於其他 Linux 發行套件則是選用步驟。
+{:tip}
 
 - 在伺服器提示處執行下列指令。
   ```
@@ -77,42 +78,48 @@ lastupdated: "2018-12-14"
    ```
    {: pre}
 
-2. 輸入您的 WebCC 使用者名稱和密碼。
+2. 輸入您的 {{site.data.keyword.backup_notm}} 入口網站使用者名稱和密碼。
 
    如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details)。
    {:tip}
-3. 在使用者名稱和密碼之後，不需要任何進一步輸入，即使您在安裝繼續進行時看到部分提示寫入至畫面。您可以安心地忽略這些提示。它們是由 `evault_manual.sh` Script 所啟動的子 Script 所產生。`evault_manual.sh` Script 會提供這些提示的輸入。
-4. 當類似如下的訊息出現時，表示安裝已完成：
+
+3. 在使用者名稱和密碼之後，不需要再進行任何輸入。隨著安裝繼續進行而寫入畫面的提示都可以放心略過。
+
+   它們是由 `evault_manual.sh` Script 所啟動的子 Script 所產生。`evault_manual.sh` Script 會提供這些提示的輸入。
+   {:note}
+
+4. 出現下列訊息時，即表示安裝完成。
+
    ```
-  Starting VVAgent: [  OK  ]
-  Starting buagent: [  OK  ]
+   Starting VVAgent: [  OK  ]
+   Starting buagent: [  OK  ]
   ```
    {: codeblock}
 
 ## 驗證安裝成功
 
-1. 驗證 "Registered to The Portal." 訊息是否出現在安裝輸出中。驗證的方式是在畫面上尋找此訊息，或檢查下列指令的輸出：
+1. 驗證 "Registered to The Portal"（已登錄至入口網站）訊息出現在安裝輸出中。在畫面上尋找此訊息，或檢查下列指令的輸出，都可以進行驗證。
    ```
-  grep 'Registered'  /opt/BUAgent/Install.log
-  ```
+   grep 'Registered'  /opt/BUAgent/Install.log
+   ```
    {: pre}
 
 2. 執行下列指令並觀察輸出。
    ```
-  service vvagent status
-  ```
+   service vvagent status
+   ```
    {: pre}
 
    即會顯示下列訊息。
    ```
-  VVAgent is running (PID xxxxx).
-  buagent is running (PID xxxxx).
+   VVAgent is running (PID xxxxx).
+   buagent is running (PID xxxxx).
   ```
    {: codeblock}
 
-  `xxxxx` 所表示的處理程序 ID 會隨著每個安裝而不同。
-  {:tip}
+  以 `xxxxx` 表示的處理程序 ID 會隨每個安裝而不同。
+{:tip}
 
 **後續步驟**
 
-登入 WebCC，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](index.html#configuring-the-backup-agent-in-webcc)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](index.html#configuring-the-backup-agent-and-the-backup-schedule)和[在 Linux 上配置簡單的檔案層次備份](configure-simple-file-backup-linux.html)。

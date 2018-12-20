@@ -21,7 +21,7 @@ lastupdated: "2018-12-14"
 可通过 {{site.data.keyword.slportal}} 访问 BMR 急救内核系统。
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 单击保险库旁边的**箭头**。
 4. 单击**启动裸机复原**。此操作会启动一个事务，其需要几分钟时间来完成。之后，您可以通过执行此处详细描述的步骤来访问服务器。系统完成引导过程时，会向您发送电子邮件。

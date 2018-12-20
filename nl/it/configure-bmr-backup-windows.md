@@ -12,44 +12,42 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Configurazione di un lavoro di backup BMR su Windows
-
-**Prerequisito**
+# Configurazione del lavoro di backup BMR su Windows
 
 Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI.
-
-## Avvio di WebCC
-
-Per poter avviare WebCC devi essere connesso alla rete privata di {{site.data.keyword.BluSoftlayer_full}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
+## Avvio del portale {{site.data.keyword.backup_notm}}
 
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione rivolta verso destra per visualizzare il collegamento WebCC.
-4. Fai clic su **WebCC Login** per avviare il client WebCC nel tuo browser.
+Per poter avviare il portale {{site.data.keyword.backup_notm}}, devi essere connesso alla rete privata di {{site.data.keyword.BluSoftlayer_full}}.
+{:important}
 
-   Se WebCC non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
+2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
+3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale {{site.data.keyword.backup_notm}} nel tuo browser.
+
+   Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
    {:tip}
 
 ## Configurazione di un lavoro di backup BMR
 
-1. Nel riquadro di navigazione a sinistra, fai clic su **All Agents** per visualizzare gli agent IBM Cloud Backup correnti.
+1. Nel riquadro di navigazione a sinistra, fai clic su **All Agents** per visualizzare gli agent {{site.data.keyword.backup_notm}} correnti.
 2. Fai clic su **This is a new Agent I would like to configure**.
-3. Immetti un nome e una descrizione per il lavoro che stai configurando o creando.
-4. Per **Backup Source Type**, seleziona il tipo di file system di cui vuoi eseguire il backup dall'elenco e fai clic su **Next**
+3. Immetti un nome e una descrizione per il lavoro che stai creando.
+4. Per **Backup Source Type**, seleziona il tipo di file system e fai quindi clic su **Next**
 5. Viene visualizzato il menu **Job Type Selection**. Seleziona la casella accanto a **Bare Metal Restore** e fai clic su **Next** per continuare.
 6. Fai clic su **Yes** nelle finestre di conferma.
 7. La schermata mostra che il nuovo lavoro è ora nell'insieme di backup. Fai clic su **Next**.
 8. La schermata visualizza le opzioni di crittografia e le opzioni di backup avanzate. Normalmente queste opzioni non sono necessarie. Fai clic su **Next**.   
 9. Nella pagina **Create a schedule**, hai due scelte.
-   - Fai clic su **Next** per creare un lavoro manuale e procedi all'esecuzione del nuovo lavoro
+   - Fai clic su **Next** per creare un lavoro manuale e procedi all'esecuzione del nuovo lavoro.
    - Fai clic su **Add** per pianificare un lavoro di backup basato sul tempo.
      1. Seleziona i giorni e l'ora del giorno per eseguire i tuoi backup.
      2. Seleziona il tuo schema di conservazione.
 
-        Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](faqs.html).
+        Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](faqs.html#how-do-the-retention-schemes-work-).
         {:tip}
      3. Dopo aver configurato la tua pianificazione di backup, fai clic su **Ok** per salvarla. Il tuo lavoro pianificato viene aggiunto all'elenco di lavori pianificati.
 10. Seleziona un archivio per il tuo lavoro di backup e fai clic su **Save Changes**.

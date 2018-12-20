@@ -12,15 +12,15 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
+
 # ボールトの容量の拡大
 
-現在の {{site.data.keyword.BluSoftlayer_full}} ユーザーはボールトのサイズを最大 4000 GB まで拡張できます。 複製を作成したり、大きなボリュームにデータを手動で移行したりする必要はありません。 制限の増加が有効になっているときに、ボールトが停止したりボールトにアクセスできなくなったりすることはありません。
+現在の {{site.data.keyword.BluSoftlayer_full}} ユーザーはボールトのサイズを最大 4000 GB まで拡張できます。 複製を作成したり、大きなボリュームにデータを手動で移行したりする必要はありません。 限度の増量処理を行っても、障害やアクセス中断が発生することはりません。
 
 ## 増量の注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。
-
-   あるいは、[{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. 拡大するボールトを選択します。
 4. **「アクション」**をクリックし、**「{{site.data.keyword.backup_notm}} の変更」**を選択します。

@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # 安裝 SQL Server 外掛程式
 
-SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資料庫主機上。透過 WebCC 入口網站，您可以配置工作、將 SQL 資料庫備份至安全的遠端儲存庫，以及還原 SQL 資料庫。
+SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資料庫主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 SQL 資料庫備份至安全的遠端儲存庫，以及還原 SQL 資料庫。
 
 **提供的功能**
 
@@ -23,11 +23,12 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 - 您可以將 SQL 資料庫還原至相同的 SQL 實例，或還原至不同的 SQL 實例。
 - 您可以使用原始資料庫名稱來還原資料庫、改寫現有資料庫，以及使用「無回復」選項進行還原。
 
+如需相關資訊，請參閱[主要特性](#main-featues)小節。
+
 ## 訂購外掛程式
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
+或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您的帳戶，然後按一下**訂購外掛程式**。
 4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - MSSQL**，然後按一下**繼續**。
@@ -38,7 +39,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 
 ## 安裝 MSSQL 外掛程式
 
-若要安裝適用於 Windows 的 SQL 外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
+若要安裝 SQL 外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
 
 在安裝 Microsoft Windows 伺服器的 MSSQL 外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}
@@ -53,19 +54,13 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 8. 選取**保留我的現行登錄**，然後按**下一步**。
 9. 按一下**安裝**。
 10. 安裝後，請檢查以確定這兩個服務都已啟用並在執行中。
-11. 如果 WebCC 能夠檢視及存取資料庫，即表示安裝成功。
+11. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠檢視及存取資料庫，即表示安裝成功。
 
 ## 下載使用手冊
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。
 
-## 常見問題
-
-**VSS（磁區陰影複製服務）的功用為何？**
-
-SQL Server 外掛程式的現行版本會使用 VSS（磁區陰影複製服務）來完成備份。使用 VSS，SQL Server 外掛程式會有效地備份 SQL 資料庫，即使是跨磁區的 SQL 資料庫。當應用程式繼續寫入磁區時，可以完成備份。SQL Server 外掛程式提供資料庫內和跨資料庫的資料一致性。VSS 容許同時執行多個備份。
-
-**SQL 外掛程式的主要特性為何？**
+## 主要特性
 
 - 能夠使用萬用字元（星號和問號），指定要在 SQL Server 備份工作中包含及排除的資料庫名稱。執行工作時，會自動包含或排除名稱符合備份工作過濾器的新資料庫。
 - 能夠在「AlwaysOn 可用性群組」中使用 64 位元代理程式及 SQL Server 外掛程式保護次要資料庫。

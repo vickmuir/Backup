@@ -13,15 +13,15 @@ IBM Cloud Storage - IBM Cloud バックアップ
     構成
         install-backup-client-linux.md
         configure-simple-file-backup-linux.md
+        upgrade-backup-agent-linux.md
         install-backup-client-windows.md
         configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        [VMware 用バックアップ・クライアントのインストール](infrastructure/vmware/install-evault-backup-client-vmware.html)
+        [VMware 用バックアップ・クライアントのインストール](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md
-        canceling-backup-service.md
 
     {: .topicgroup}
     リストア
@@ -43,4 +43,5 @@ IBM Cloud Storage - IBM Cloud バックアップ
     faqs.md
     change-password.md
     expanding-capacity.md
+    canceling-backup-service.md
     {: .navgroup-end}

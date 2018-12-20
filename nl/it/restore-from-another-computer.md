@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Creazione di un backup e di un ripristino dei dati da una VSI a un'altra all'interno dello stesso data center
+# Ripristino dei dati da una VSI ad un'altra all'interno dello stesso data center
 
 A volte potresti voler ripristinare i dati in un server diverso all'interno dello stesso data center. Questa procedura si applica solo ai ripristini a livello di file per i file non di sistema. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](restore-bmr-system-volume-image.html).
 
@@ -22,23 +22,23 @@ Il processo include la ri-registrazione dell'agent Backup sul secondo server per
 **Prerequisiti**
 
 - Server1 e Server2 devono avere lo stesso sistema operativo. I ripristini multipiattaforma non sono supportati.
-- Server1 e Server2 devono avere gli agent Backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent Backup, vedi [Configurazione dell'agent Backup in WebCC](index.html#configuring-the-backup-agent-in-webcc).
+- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent backup nel portale {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-in-webcc).
 - Un lavoro di backup per Server1 che ha prodotto un backup nell'ubicazione dell'archivio del Server1.
 
 Disabilita tutte le attività di pianificazione su entrambi i server per evitare conflitti.
 {:important}
 
-## Avvio di WebCC del Server2
+## Avvio del portale {{site.data.keyword.backup_notm}} del Server2
 
-Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottenere l'accesso alla rete privata {{site.data.keyword.BluSoftlayer_full}}, altrimenti il collegamento WebCC non funziona.
+Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottenere l'accesso alla rete privata {{site.data.keyword.BluSoftlayer_full}}, altrimenti il link del portale {{site.data.keyword.backup_notm}} non funziona.
 {:tip}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-3. Seleziona Server2. Fai clic sulla freccia di espansione rivolta verso destra per visualizzare il collegamento WebCC.
-4. Fai clic su **WebCC Login** per avviare il client WebCC nel tuo browser.
+3. Seleziona Server2. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale {{site.data.keyword.backup_notm}} nel tuo browser.
 
 ## Ri-registrazione dell'archivio
 
@@ -89,7 +89,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 
 3. Confronta l'output.
 
-## Ripresa della normale pianificazione di Backup.
+## Ripresa della normale pianificazione del backup.
 
 1. Al termine del ripristino, rimuovi le informazioni di registrazione del server1 da cui sono stati ripristinati i dati.
 2. Immetti la registrazione del server2 corrente e abilita le attività di pianificazione.

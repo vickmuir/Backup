@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Sicherung erstellen und Daten von einer virtuellen Serverinstanz auf einer anderen virtuellen Serverinstanz in einem anderen Rechenzentrum wiederherstellen
+# Daten von einer virtuellen Serverinstanz (VSI) in ein anderes VSI in einem anderen Rechenzentrum wiederherstellen
 
 In bestimmten Fällen kann es vorkommen, dass Sie Daten auf einem anderen Server wiederherstellen wollen. Die beschriebene Prozedur gilt nur für Wiederherstellungen auf Dateiebene für Dateien, die keine Betriebssystemdateien sind. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](restore-bmr-system-volume-image.html).
 
@@ -22,23 +22,23 @@ Der Prozess umfasst das erneute Registrieren des Sicherungsagenten auf dem zweit
 **Vorbedingungen**
 
 - Server 1 und Server 2 müssen über dasselbe Betriebssystem verfügen. Plattformübergreifende Wiederherstellungen werden nicht unterstützt.
-- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent in WebCC konfigurieren](index.html#configuring-the-backup-agent-in-webcc).
+- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](index.html#configuring-the-backup-agent-in-webcc).
 - Ein Sicherungsjob für Server 1, der eine Sicherung an der Vaultposition von Server 1 erstellt hat.
 
 Inaktivieren Sie auf beiden Servern alle Zeitplanungstasks, um Konflikte zu vermeiden.
 {:important}
 
-## WebCC auf Server 2 starten
+## {{site.data.keyword.backup_notm}}-Portal auf Server2 starten
 
-Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit Sie Zugang zum privaten {{site.data.keyword.BluSoftlayer_full}}-Netz erhalten, da der Link zu WebCC andernfalls nicht funktioniert.
+Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit Sie Zugang zum privaten {{site.data.keyword.BluSoftlayer_full}}-Netz erhalten, da der Link zum {{site.data.keyword.backup_notm}}-Portal andernfalls nicht funktioniert.
 {:tip}
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
 
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-3. Wählen Sie Server 2 aus. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zu WebCC sichtbar zu machen.
-4. Klicken Sie auf **WebCC-Anmeldung**, um den WebCC-Client in Ihrem Browser zu starten.
+3. Wählen Sie Server 2 aus. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
+4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
 
 ## Vault erneut registrieren
 
@@ -52,12 +52,12 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 8. Klicken Sie auf **Änderungen speichern**.
 9. Klicken Sie bei der entsprechenden Eingabeaufforderung auf **Ja**, um die erneute Registrierung der Vaultinstanz zu bestätigen.
 
-## Sicherungsjob aus Server 1 als Wiederherstellungsjob auf Server 2 ausführen
+## Sicherungsjob von Server 1 als Wiederherstellungsjob auf Server 2 ausführen
 
 1. Klicken Sie auf **Alle Agenten**.
 
    Möglicherweise müssen Sie die Seite aktualisieren, damit die auf Server 1 definierten Jobs auf der Registerkarte **Jobs** für Server 2 als zugänglich/synchronisiert angezeigt werden.
-{:tip}
+   {:tip}
 2. Bewegen Sie den Mauscursor auf **Erweitert** und wählen Sie die Option **Aus anderem Computer wiederherstellen** aus.
 3. Klicken Sie in der Anzeige **Aus anderem Computer wiederherstellen** auf **Hinzufügen**. Die Felder werden automatisch mit den Standardwerten ausgefüllt, sodass Sie sie ggf. ändern müssen.
 4. Klicken Sie auf das Feld 'Vault', wählen Sie **Vaulteinstellungen eingeben** aus und geben Sie die IP-Adresse der Vault von Server 1 ein. Klicken Sie auf **Hinzufügen**.
@@ -91,7 +91,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 
 3. Vergleichen Sie die Ausgabe.
 
-## Normalen Sicherungszeitplan wiederaufnehmen
+## Normalen Sicherungszeitplan wieder aufnehmen
 
 1. Entfernen Sie nach Abschluss der Wiederherstellung die Registrierungsinformationen von Server 1, aus dem die Daten wiederhergestellt wurden.
 2. Geben Sie die aktuelle Registrierung von Server 2 ein und aktivieren Sie die Zeitplanungstasks.

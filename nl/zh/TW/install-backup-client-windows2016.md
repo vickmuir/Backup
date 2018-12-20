@@ -29,7 +29,7 @@ lastupdated: "2018-12-14"
 8. 在下一個畫面上，按一下**安裝**。
 9. 安裝完成後，請按一下**完成**。
 
-## 安裝 CentralControl 8.30
+## 安裝 Central Control 8.30
 
 1. 在目標伺服器上，開啟瀏覽器階段作業，並輸入下列 URL，以下載執行檔。
 
@@ -46,22 +46,22 @@ lastupdated: "2018-12-14"
 4. 安裝完成後，請檢查**啟動 EVault 軟體 Central Control**。按一下**完成**。
 
 
-## 配置 CentralControl
+## 配置 Central Control
 
-此作業是在登入針對 {{site.data.keyword.backup_notm}} 服務指定的伺服器時，透過一系列互動來完成。
+在已登入為 {{site.data.keyword.backup_notm}} 服務指定之伺服器的情況下，會透過一系列的互動來完成此作業。
 
 1. 透過 RDP 遠端控制您的伺服器。
-2. 啟動 CentralControl。
+2. 啟動 Central Control。
 3. 在工作區中，於 **MyAgent** 上按一下滑鼠右鍵，然後選取**代理程式配置**
 4. 在「儲存庫」標籤上，按一下**新建**。即會出現「儲存庫配置精靈」。按**下一步**。
 5. 選取**登錄為新電腦**，然後按**下一步**。
 6. 在「設定檔名稱」欄位中，輸入儲存庫名稱。
 
-   您可以從 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 取得儲存庫名稱。
-   {:tip}
+   您可以從 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 取得儲存庫名稱。
+{:tip}
 6. 輸入網址（已指派儲存庫的 IP 位址），然後按一下**新增**。然後，按**下一步**。
 7. 輸入新埠值並按一下**新增**，然後按**下一步**。
-8. 在「連線設定」畫面中，輸入您想要的秒數/分鐘數。保留勾選**啟用佈線加密以傳輸至/自儲存庫**方框。按**下一步**。
+8. 在「連線設定」畫面中，輸入您想要的秒數和分鐘數。保留勾選**啟用佈線加密以傳輸至/自儲存庫**方框。按**下一步**。
 9. 在「鑑別」畫面中，輸入您的認證並按**下一步**。
 10. 「已登錄的電腦」視窗會顯示伺服器的主機名稱。按**下一步**。
 11.	按一下**完成**來完成配置。
@@ -70,7 +70,7 @@ lastupdated: "2018-12-14"
 ## 建立保留方案
 
 1. 透過 RDP 遠端控制您的伺服器。
-2. 啟動 CentralControl。
+2. 啟動 Central Control。
 3. 在工作區中，於 **MyAgent** 上按一下滑鼠右鍵，然後選取**代理程式配置**
 4. 按一下**保留**標籤。即會出現「保留精靈」，然後按**下一步**。
 5. 輸入保留名稱。按**下一步**。<br/>
@@ -88,7 +88,7 @@ lastupdated: "2018-12-14"
 ## 設定 {{site.data.keyword.backup_notm}} 工作
 
 1. 透過 RDP 遠端控制您的伺服器。
-2. 啟動 CentralControl。
+2. 啟動 Central Control。
 3. 在工作區中，於 **MyAgent** 上按一下滑鼠右鍵，然後選取**新建工作**
 4. 在歡迎使用畫面上，按**下一步**。
 5. 選取備份來源類型。
@@ -108,10 +108,10 @@ lastupdated: "2018-12-14"
 ## 執行 {{site.data.keyword.backup_notm}} 工作
 
 1. 透過 RDP 遠端控制您的伺服器。
-2. 啟動 CentralControl。
+2. 啟動 Central Control。
 3. 在工作區中，於 **MyAgent** 上按一下滑鼠右鍵，然後選取您已建立的代理程式。
 4. 在歡迎使用畫面上，按**下一步**。
-5. 選取備份目的地或替代位置來植入備份工作。按**下一步**。<br/>
+5. 選取備份目的地或另一個位置來植入備份工作。按**下一步**。<br/>
    如需多個儲存庫的相關資訊，請參閱[多重儲存](multivaulting.html)。
    {:tip}
 6. 選取「快速檔案掃描」選項，以避免讀取未變更的檔案。按**下一步**。

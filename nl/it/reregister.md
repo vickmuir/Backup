@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # Ri-registrazione di un archivio
 
 Questa attività è la più comunemente utilizzata dopo che viene ricaricato il sistema operativo di un server. Puoi anche utilizzare questa procedura per [usare i backup di un server per ripristinare i dati su un altro server](restore-from-another-computer.html).
+{:tip}
 
-1. Avvia WebCC e accedi. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html).
+1. Avvia il portale {{site.data.keyword.backup_notm}} ed esegui l'accesso. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html).
 
-   Ricorda che WebCC è accessibile solo tramite {{site.data.keyword.BluVPN}}.
+   Ricordati che il portale {{site.data.keyword.backup_notm}} è accessibile solo tramite {{site.data.keyword.BluVPN}}.
    {:tip}
 2. Sulla sinistra, fai clic su **All Agents**.
 3. In alto a destra, passa con il mouse su **Edit**.
@@ -27,7 +28,7 @@ Questa attività è la più comunemente utilizzata dopo che viene ricaricato il 
   - Indirizzo archivio
   - Account
 
-    "Account" è l'equivalente di "Account Name" nel [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. In genere, è simile a "SLE[ID account]"
+    "Account" è l'equivalente dell'"Account Name" nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. In genere, è simile a "SLE[ID account]"
     {:tip}
   - Nome utente
   - Password

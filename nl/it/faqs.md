@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-12-14"
+lastupdated: "2018-11-15"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2018-12-14"
 ## Di quali tipi di applicazioni posso eseguire il backup?
 {: faq}
 
-{{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. Tuttavia, {{site.data.keyword.BluSoftlayer_full}} offre agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono:
+{{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. {{site.data.keyword.BluSoftlayer_full}} offre anche agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono
 
 - Ripristino Bare Metal
 - Microsoft Exchange
@@ -31,9 +31,9 @@ I plug-in qui elencati sono compatibili solo con i server Windows, fatta eccezio
 ## Con quale frequenza è possibile eseguire il backup dei dati?
 {: faq}
 
-All'interno di WebCC, i backup possono essere eseguiti manualmente oppure possono essere pianificati come una singola istanza o per essere ricorrenti. I backup ricorrenti possono essere effettuati giornalmente, settimanalmente, mensilmente o in base a una pianificazione personalizzata e possono essere aggiornati o annullati in qualsiasi momento.
+All'interno del portale {{site.data.keyword.backup_notm}}, i backup possono essere eseguiti manualmente oppure possono essere pianificati come una singola istanza o per essere ricorrenti. I backup ricorrenti possono essere effettuati giornalmente, settimanalmente, mensilmente o in base a una pianificazione personalizzata e possono essere aggiornati o annullati in qualsiasi momento.
 
-I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causare il danneggiamento dei lavori di backup. Questo danneggiamento si verifica perché l'archivio di backup non ha abbastanza tempo per eseguire le attività di manutenzione di background richieste. I lavori di backup hanno la precedenza sulle attività di manutenzione. Quindi, in caso di backup molto frequenti, l'archivio continua a eseguire i lavori di backup e causare la crescita del numero di set sicuri.
+I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causare il danneggiamento dei lavori di backup. Questo danneggiamento si verifica perché l'archivio di backup non ha abbastanza tempo per eseguire le attività di manutenzione di background richieste. I lavori di backup hanno la precedenza sulle attività di manutenzione. Quindi, quando i backup vengono eseguiti con un'elevata frequenza, l'archivio continua a eseguire i lavori di backup e causare la crescita del numero di set sicuri.
 {:note}
 
 <hr>
@@ -41,9 +41,9 @@ I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causar
 ## Come funzionano gli schemi di conservazione?
 {: faq}
 
-{{site.data.keyword.backup_notm}} consente la conservazione dei dati a seconda del lasso di tempo a cui vuoi far risalire il rollback. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile.
+Evault Backup consente la conservazione dei dati a seconda del punto temporale al quale vuoi far risalire il rollback. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile.
 
-Puoi modificare gli schemi di conservazione predefiniti e puoi creare degli schemi di conservazione personalizzati. Tuttavia, consigliamo vivamente di utilizzare le conservazioni predefinite come punto di partenza. Quando crei un nuovo schema di conservazione o modifichi una conservazione esistente, assicurati che l'opzione di archiviazione (Archiving) non sia selezionata. L'archiviazione non è supportata.
+Puoi modificare gli schemi di conservazione predefiniti e puoi creare degli schemi di conservazione personalizzati. Tuttavia, IBM consiglia di utilizzare le conservazioni predefinite come punto di partenza. Quando crei un nuovo schema di conservazione o modifichi una conservazione esistente, assicurati che l'opzione di archiviazione (Archiving) non sia selezionata. L'archiviazione non è supportata.
 {:tip}
 
 <hr>
@@ -88,25 +88,79 @@ Per impostazione predefinita, il client di base ha una tecnologia all'avanguardi
 ## Dove posso trovare le informazioni sui prezzi?
 {: faq}
 
-Per ulteriori informazioni, consulta [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Per ulteriori informazioni, consulta [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
-## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_notm}} senza compromettere i backup?
+## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_full}} senza compromettere i backup?
 {: faq}
 
-Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](expanding-capacity.html).
+Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](expanding-evault-capacity.html).
 
 <hr>
 
 ## Cosa succede quando viene superata la capacità di {{site.data.keyword.backup_notm}}?
 {: faq}
 
-Puoi ancora salvare e richiamare i tuoi backup anche se hai raggiunto il limite della capacità che hai acquistato precedentemente. Nota: nell'estratto conto sarà presente un addebito supplementare per ogni GB aggiuntivo utilizzato.
+Puoi ancora salvare e richiamare i tuoi backup anche se hai raggiunto il limite della capacità che hai acquistato precedentemente. Tuttavia, riceverai un addebito supplementare per ogni GB aggiuntivo che è stato usato nel prossimo estratto conto.
 
 <hr>
 
-## Come posso configurare le notifiche in WebCC per essere informato se i miei backup non riescono?
+## Come posso configurare le notifiche nel portale {{site.data.keyword.backup_notm}} per essere informato se i miei backup non riescono?
 {: faq}
 
-Le notifiche possono essere configurate nella scheda Advanced. Attieniti alle istruzioni che puoi trovare in **Quick Links** in WebCC.
+Le notifiche possono essere configurate nella scheda Advanced. Attieniti alle istruzioni che puoi trovare in **Quick Links** nel portale {{site.data.keyword.backup_notm}}.
+
+<hr>
+
+## Quando usiamo il plug-in BMR, possiamo passare da un singolo disco ad un array raid?
+
+Sì, funziona. Tuttavia, devi selezionare un dispositivo di grande capacità a causa della diminuzione delle dimensioni causata dall'array RAID.
+
+<hr>
+
+## Quando usiamo il plug-in BMR, cosa succede quando l'immagine viene ripristinata su un disco più grande rispetto al volume originale?
+{: faq}
+
+Se ripristini l'immagine su un disco più grande del volume originale, lo spazio restante viene deallocato. Quindi, se hai un'unità da 500-GB e ripristini i suoi dati su un disco da 1-TB, ci saranno 500 GB di spazio su disco deallocato. Con Windows 2008, puoi utilizzare il programma di utilità del disco integrato per aumentare la partizione primaria. Tuttavia, Windows 2003 non ha alcuna funzionalità integrata simile, quindi devi assegnare lo spazio in un altro modo.
+
+<hr>
+
+## È possibile utilizzare BMR per il backup regolare?
+{: faq}
+
+Il backup BMR non è un'immagine del disco, ma un sistema di backup dell'immagine del volume di sistema. Il sistema non è destinato a essere utilizzato per backup regolari, ma insieme a essi.  
+
+<hr>
+
+##È possibile utilizzare BMR per i backup del database?
+{: faq}
+
+I backup del database devono essere eseguiti separatamente con i normali metodi di {{site.data.keyword.backup_notm}} BMR non sostituisce la necessità di plug-in SQL o Oracle. Sebbene BMR utilizzi la tecnologia VSS per eseguire il backup di file aperti, non può sempre garantire che i file di backup siano coerenti con le transazioni. Il consiglio per questi tipi di applicazioni specializzate è la creazione di due lavori di backup: uno per il backup del sistema operativo e dei file binari dell'applicazione e un altro per i dati dell'applicazione. È disponibile una nota al riguardo alla fine della guida utente BMR.
+
+<hr>
+
+## Che tipo di lavori di ripristino è possibile eseguire con BMR?
+
+Puoi eseguire un ripristino dell'intero sistema oppure selezionare singoli file dal backup da ripristinare. Il lavoro di backup BMR può sostituire il lavoro di backup dei file corrente. Il processo di ripristino viene eseguito all'interno del sistema operativo, proprio come un lavoro di backup tradizionale.
+
+<hr>
+
+## BMR ha capacità di backup dei file aperti?
+{: faq}
+
+BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](evault-mssql-plugin.html) per le istruzioni di installazione del plug-in MSSQL.
+
+<hr>
+
+## Quanto spazio su disco e tempo sono necessari per un ripristino BMR?
+{: faq}
+
+Un backup effettuato da un'installazione predefinita utilizza circa 6 GB. Tale ripristino richiede circa 15 minuti su una porta da 1-GB. Questo processo è influenzato anche dalla velocità della porta privata. Se hai bisogno di backup e ripristini più veloci, potrebbe essere necessario un aumento della velocità della porta.
+
+<hr>
+
+## A cosa serve VSS (Volume Shadow Copy Services)?
+{: faq}
+
+La versione corrente del plug-in SQL Server per {{site.data.keyword.backup_notm}} utilizza VSS (Volume Shadow Copy Services) per completare i backup. Utilizzando VSS, il plug-in SQL Server esegue efficacemente il backup dei database SQL, anche dei database SQL che si estendono sui volumi. I backup possono essere completati mentre le applicazioni continuano a scrivere in un volume. Il plug-in SQL Server fornisce la congruenza dei dati all'interno e tra i database. VSS consente di eseguire più backup contemporaneamente.

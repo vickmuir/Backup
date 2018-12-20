@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 在不同資料中心內建立將資料從某個 VSI 備份及還原到另一個 VSI
+# 將一個 VSI 中的資料還原至不同資料中心中的另一個 VSI
 
 有時，您想要將資料還原至不同的伺服器。此程序僅適用於非作業系統檔案的檔案層次還原。若要還原系統映像檔，請遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示。
 
@@ -22,23 +22,23 @@ lastupdated: "2018-12-14"
 **必要條件**
 
 - Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 WebCC 中配置備份代理程式](index.html#configuring-the-backup-agent-in-webcc)。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](index.html#configuring-the-backup-agent-in-webcc)。
 - 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
 請停用這兩部伺服器上的所有「排程」工作，以避免發生任何衝突。
 {:important}
 
-## 啟動 Server2 的 WebCC
+## 啟動 Server2 的 {{site.data.keyword.backup_notm}} 入口網站
 
-請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 WebCC 鏈結將無法運作。
+請記得啟動您的 {{site.data.keyword.BluVPN}} 連線，以存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 {{site.data.keyword.backup_notm}} 入口網站鏈結無法運作。
 {:tip}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
-3. 選取 Server2。按一下指向右方的展開箭頭來顯示 WebCC 鏈結。
-4. 按一下 **WebCC 登入**，在瀏覽器中啟動 WebCC 用戶端。
+3. 選取 Server2。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
+4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動 {{site.data.keyword.backup_notm}} 入口網站用戶端。
 
 ## 重新登錄儲存庫
 
@@ -91,7 +91,7 @@ lastupdated: "2018-12-14"
 
 3. 比較輸出。
 
-## 繼續一般「備份」排程。
+## 繼續一般備份排程。
 
 1. 當還原完成時，請移除 server1（資料還原的來源）的登錄資訊。
 2. 輸入現行 server2 登錄並啟用「排程」作業。

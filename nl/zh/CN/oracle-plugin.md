@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 
 # 安装 Oracle 插件
 
-Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理程序一起安装在 Oracle 数据库主机上。通过 WebCC 门户网站，可以配置作业，将 Oracle 数据库备份到安全的远程保险库，以及复原 Oracle 数据库。该 Oracle 插件集成到现有体系结构中。
+Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理程序一起安装在 Oracle 数据库主机上。通过 {{site.data.keyword.backup_notm}} 门户网站，可以配置作业，将 Oracle 数据库备份到安全的远程保险库，以及复原 Oracle 数据库。该 Oracle 插件集成到现有体系结构中。
 
 **提供的功能**
 
@@ -33,9 +33,8 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 
 ## 订购插件
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - Oracle**，然后单击**继续**。
@@ -46,7 +45,7 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 
 ## 安装适用于 Windows 的 Oracle 插件
 
-适用于 Windows 的 Oracle 插件随 32 位或 64 位 Windows 代理程序一起安装。要安装适用于 Windows 的 Oracle 插件，请运行代理程序安装工具箱。该 Oracle 插件在**定制安装**页面上显示为选项。
+适用于 Windows 的 Oracle 插件随 32 位或 64 位 Windows 代理程序一起安装。要安装 Oracle 插件，请运行代理程序安装工具包。该 Oracle 插件在**定制安装**页面上显示为选项。
 
 在为 Microsoft Windows 服务器安装该插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
 {:tip}
@@ -60,11 +59,11 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 7. 选择**保留我当前的注册**，然后单击**下一步**。
 8. 单击**安装**。
 9. 安装完成后，请进行检查以确保这两个服务都已启用并且正在运行。
-10. 如果 WebCC 能够访问/查看数据库，说明安装成功。
+10. 如果 {{site.data.keyword.backup_notm}} 门户网站能够访问/查看数据库，则说明安装成功。
 
-## 安装适用于 Unix 的 Oracle 插件
+## 安装适用于 Linux 的 Oracle 插件
 
-Oracle 插件是 Linux 代理程序的附加组件，随该代理程序一起安装在数据库主机上。Linux 代理应用程序必须在安装 Oracle 插件之前进行安装。Linux 代理程序以 32 位应用程序和 64 位应用程序形式提供。有关 Linux 代理程序安装的更多信息，请参阅[在 Linux 中安装 {{site.data.keyword.backup_notm}} 客户机](install-backup-client-linux.html)。
+Oracle 插件是 Linux 代理程序的附加组件，随该代理程序一起安装在数据库主机上。Linux 代理应用程序必须在安装 Oracle 插件之前进行安装。代理程序以 32 位应用程序和 64 位应用程序形式提供。有关更多信息，请参阅[在 Linux 中安装 {{site.data.keyword.backup_notm}} 客户机](install-backup-client-linux.html)。
 
 Oracle 插件安装工具包以 tar.gz 文件形式提供。
 
@@ -101,4 +100,4 @@ Oracle 插件会执行“不一致”的完整数据库备份，这要求数据�
 
 ## 下载用户指南
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}下载用户指南。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中下载用户指南。

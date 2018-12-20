@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 在不同数据中心内的 VSI 之间创建备份并复原数据
+# 在不同数据中心内的 VSI 之间复原数据
 
 有时，您会希望将数据复原到其他服务器。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
 
@@ -21,24 +21,24 @@ lastupdated: "2018-12-14"
 
 **先决条件**
 
-- Server1 和 Server2 必须拥有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须拥有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 WebCC 中配置备份代理程序](index.html#configuring-the-backup-agent-in-webcc)。
+- Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](index.html#configuring-the-backup-agent-in-webcc)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
 禁用这两台服务器上的所有调度任务以避免发生任何冲突。
 {:important}
 
-## 启动 Server2 的 WebCC
+## 启动 Server2 的 {{site.data.keyword.backup_notm}} 门户网站
 
-请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 WebCC 链接将不起作用。
+请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:tip}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}。
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
-3. 选择 Server2。单击指向右方的展开箭头以显示 WebCC 链接。
-4. 单击 **WebCC 登录**，以在浏览器中启动 WebCC 客户机。
+3. 选择 Server2。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
+4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。
 
 ## 重新注册保险库
 
@@ -52,7 +52,7 @@ lastupdated: "2018-12-14"
 8. 单击**保存更改**。
 9. 在出现提示时，单击**是**以确认重新注册保险库。
 
-## 在 Server2 上将 Server1 的备份作业作为复原作业运行
+## 从 Server1 运行在 Server2 上作为复原作业的备份作业
 
 1. 单击**所有代理程序**。
 

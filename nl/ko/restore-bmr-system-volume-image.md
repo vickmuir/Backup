@@ -21,7 +21,7 @@ lastupdated: "2018-12-14"
 {{site.data.keyword.slportal}}을 통해 BMR Rescue Kernel 시스템에 액세스할 수 있습니다.
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.
 
-   또는 [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+   또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 저장소 옆의 **화살표**를 클릭하십시오.
 4. **Bare Metal Restore 시작**을 클릭하십시오. 이 조치는 완료하는 데 수 분이 걸리는 트랜잭션을 시작합니다. 이후에 여기서 자세히 설명한 단계에 따라 서버에 액세스할 수 있습니다. 시스템이 부트 프로세스를 완료하면 사용자에게 이메일이 발송됩니다.
