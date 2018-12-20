@@ -18,7 +18,6 @@ IBM Cloud 스토리지 - IBM Cloud 백업
         configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        [VMware용 백업 클라이언트 설치](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md

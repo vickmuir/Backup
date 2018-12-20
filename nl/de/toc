@@ -18,7 +18,6 @@ IBM Cloud Storage - IBM Cloud Backup
         configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        [Backup-Client für VMware installieren](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md

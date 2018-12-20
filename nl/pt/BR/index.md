@@ -122,7 +122,6 @@ Siga as instruções apropriadas para o seu S.O.
 - [Instalando o cliente de backup no Linux](install-backup-client-linux.html)
 - [Instalando o cliente de backup no Windows](install-backup-client-windows.html)
 - [Instalando o cliente de backup no Windows 2016](install-windows2016.html)
-- [Instalando o cliente de backup no VMware](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## Acessando o portal do {{site.data.keyword.backup_notm}} (anteriormente WebCC)
 

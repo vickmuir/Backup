@@ -48,7 +48,7 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
 
 #### Confirmación de la compra de {{site.data.keyword.backup_notm}}
 1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
+También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
   - Si ve un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
@@ -61,7 +61,7 @@ También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External 
 #### Seleccione el servidor en el que desea instalar {{site.data.keyword.backup_notm}}
 
 1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio {{site.data.keyword.cloud_notm}}.
 3. Pulse el nombre del dispositivo para ir a la página **Detalles del dispositivo**.
 
@@ -87,7 +87,7 @@ También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External 
 Los detalles de almacenamiento del servicio {{site.data.keyword.backup_notm}} se pueden ver en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y en el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
 1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
 2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de {{site.data.keyword.backup_notm}}.
 3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de {{site.data.keyword.backup_notm}} seleccionado.
@@ -122,11 +122,10 @@ Siga las instrucciones adecuadas para su sistema operativo,
 - [Instalación del cliente de copia de seguridad en Linux](install-backup-client-linux.html)
 - [Instalación del cliente de copia de seguridad en Windows](install-backup-client-windows.html)
 - [Instalación del cliente de copia de seguridad en Windows 2016](install-windows2016.html)
-- [Instalación del cliente de copia de seguridad en VMware](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
 
-El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración. 
+El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración.
 
 1. Acceda a la red privada a través de VPN.
 

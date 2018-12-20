@@ -122,7 +122,6 @@ lastupdated: "2018-12-14"
 - [Linux でのバックアップ・クライアントのインストール](install-backup-client-linux.html)
 - [Windows でのバックアップ・クライアントのインストール](install-backup-client-windows.html)
 - [Windows 2016 でのバックアップ・クライアントのインストール](install-windows2016.html)
-- [VMware でのバックアップ・クライアントのインストール](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
 

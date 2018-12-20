@@ -27,7 +27,7 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 
 ### {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 
-1. Melden Sie sich beim [IBM Cloud-Katalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} an. 
+1. Melden Sie sich beim [IBM Cloud-Katalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} an.
 2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](bare-metal/baremetal-provision.html){:new_window}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 
@@ -99,7 +99,7 @@ Dies gilt _nicht_ für {{site.data.keyword.backup_notm}}. Änderungen, die Sie a
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
 
-Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt: 
+Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt:
 
 **Windows**
  - Windows Server 2012 R2
@@ -122,11 +122,10 @@ Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
 - [Backup-Client unter Linux installieren](install-backup-client-linux.html)
 - [Backup-Client unter Windows installieren](install-backup-client-windows.html)
 - [Backup-Client unter Windows 2016 installieren](install-windows2016.html)
-- [Backup-Client unter VMware installieren](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 
-Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet, der von {{site.data.keyword.BluSoftlayer_full}} angeboten wird. Das {{site.data.keyword.backup_notm}}-Portal ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.BluSoftlayer_full}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht. 
+Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet, der von {{site.data.keyword.BluSoftlayer_full}} angeboten wird. Das {{site.data.keyword.backup_notm}}-Portal ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.BluSoftlayer_full}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht.
 
 1. Greifen Sie über ein VPN auf das private Netz zu.
 

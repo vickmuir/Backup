@@ -122,7 +122,6 @@ lastupdated: "2018-12-14"
 - [在 Linux 中安装备份客户机](install-backup-client-linux.html)
 - [在 Windows 中安装备份客户机](install-backup-client-windows.html)
 - [在 Windows 2016 中安装备份客户机](install-windows2016.html)
-- [在 VMware 中安装备份客户机](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
 

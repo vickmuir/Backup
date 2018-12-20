@@ -122,7 +122,6 @@ lastupdated: "2018-12-14"
 - [在 Linux 中安裝備份用戶端](install-backup-client-linux.html)
 - [在 Windows 中安裝備份用戶端](install-backup-client-windows.html)
 - [在 Windows 2016 中安裝備份用戶端](install-windows2016.html)
-- [在 VMware 中安裝備份用戶端](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
 

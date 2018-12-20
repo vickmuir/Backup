@@ -121,7 +121,6 @@ Follow the instructions appropriate for your OS,
 - [Installing the Backup Client in Linux](install-backup-client-linux.html)
 - [Installing the Backup Client in Windows](install-backup-client-windows.html)
 - [Installing the Backup Client in Windows 2016](install-backup-client-windows2016.html)
-- [Installing the Backup Client in VMware](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## Accessing {{site.data.keyword.backup_notm}} portal (formerly WebCC)
 

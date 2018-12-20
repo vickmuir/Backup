@@ -122,11 +122,10 @@ lastupdated: "2018-12-14"
 - [Linux에서 백업 클라이언트 설치](install-backup-client-linux.html)
 - [Windows에서 백업 클라이언트 설치](install-backup-client-windows.html)
 - [Windows 2016에서 백업 클라이언트 설치](install-windows2016.html)
-- [VMware에서 백업 클라이언트 설치](https://{DomainName}/docs/infrastructure/vmware/install-backup-client-vmware.html)
 
 ## {{site.data.keyword.backup_notm}} 포털(이전에는 WebCC)에 액세스
 
-{{site.data.keyword.backup_notm}} 포털은 {{site.data.keyword.BluSoftlayer_full}}에서 제공하는 {{site.data.keyword.backup_notm}} 서비스와 상호작용하는 데 사용합니다. {{site.data.keyword.backup_notm}} 포털은 구성 및 복원을 포함하여 {{site.data.keyword.backup_notm}} 서비스의 전체 제어를 허용하며 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에서 실행되는 브라우저 기반 클라이언트입니다. 
+{{site.data.keyword.backup_notm}} 포털은 {{site.data.keyword.BluSoftlayer_full}}에서 제공하는 {{site.data.keyword.backup_notm}} 서비스와 상호작용하는 데 사용합니다. {{site.data.keyword.backup_notm}} 포털은 구성 및 복원을 포함하여 {{site.data.keyword.backup_notm}} 서비스의 전체 제어를 허용하며 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에서 실행되는 브라우저 기반 클라이언트입니다.
 
 1. VPN 상의 사설 네트워크에 액세스하십시오.
 
