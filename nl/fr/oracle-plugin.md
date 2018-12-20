@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 
 # Installation du plug-in Oracle
 
-Le plug-in Oracle est un module complémentaire qui est installé avec l'agent Windows ou l'agent Linux sur l'hôte de base de données Oracle. A l'aide du portail WebCC, vous pouvez configurer des travaux, sauvegarder des bases de données Oracle dans un coffre distant sécurisé et restaurer des bases de données Oracle. Le plug-in Oracle s'intègre dans l'architecture existante.
+Le plug-in Oracle est un module complémentaire qui est installé avec l'agent Windows ou l'agent Linux sur l'hôte de base de données Oracle. A l'aide du portail {{site.data.keyword.backup_notm}}, vous pouvez configurer des travaux, sauvegarder des bases de données Oracle dans un coffre distant sécurisé et restaurer des bases de données Oracle. Le plug-in Oracle s'intègre dans l'architecture existante.
 
 **Fonctions fournies**
 
@@ -33,9 +33,8 @@ Le plug-in Oracle est un module complémentaire qui est installé avec l'agent W
 
 ## Commande du plug-in
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
 4. Sélectionnez **Plug-in {{site.data.keyword.backup_notm}} - Oracle**, puis cliquez sur **Continuer**.
@@ -46,9 +45,10 @@ Le plug-in Oracle est un module complémentaire qui est installé avec l'agent W
 
 ## Installation du plug-in Oracle pour Windows
 
-Le plug-in Oracle pour Windows est installé avec l'agent Windows 32 bits ou 64 bits. Pour installer le plug-in Oracle pour Windows, exécutez le kit d'installation de l'agent. Le plug-in Oracle s'affiche en tant qu'option sur la page **Installation personnalisée**.
+Le plug-in Oracle pour Windows est installé avec l'agent Windows 32 bits ou 64 bits. Pour installer le plug-in Oracle, exécutez le kit d'installation de l'agent. Le plug-in Oracle s'affiche en tant qu'option sur la page **Installation personnalisée**.
 
-Avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les deux services {{site.data.keyword.backup_notm}} dans `services.msc`.{:tip}
+Avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les deux services {{site.data.keyword.backup_notm}} dans `services.msc`.
+{:tip}
 
 1. Accédez au dossier `c:\installs\evault` et lancez le fichier .exe doté du plus haut niveau de révision.
 2. Sur l'écran de langue, cliquez sur **OK**.
@@ -59,11 +59,11 @@ Avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les 
 7. Sélectionnez **Conserver mon enregistrement actuel** et cliquez sur **Suivant**.
 8. Cliquez sur **Installer**.
 9. Une fois l'installation terminée, vérifiez que les deux services sont activés et opérationnels.
-10. Si WebCC parvient à accéder à la base de données et à l'afficher, cela indique que l'installation a abouti.
+10. Si le portail {{site.data.keyword.backup_notm}} parvient à accéder à la base de données et à l'afficher, cela indique que l'installation a abouti.
 
-## Installation du plug-in Oracle pour Unix
+## Installation du plug-in Oracle pour Linux
 
-Le plug-in Oracle est un module complémentaire de l'agent Linux, installé avec celui-ci sur l'hôte de base de données. L'application Linux Agent doit être installée avant l'installation du plug-in Oracle. L'agent Linux est disponible sous forme d'application 32 bits ou 64 bits. Pour plus d'informations sur l'installation de l'agent Linux, voir [Installation du client {{site.data.keyword.backup_notm}} sous Linux](install-backup-client-linux.html).
+Le plug-in Oracle est un module complémentaire de l'agent Linux, installé avec celui-ci sur l'hôte de base de données. L'application Linux Agent doit être installée avant l'installation du plug-in Oracle. L'agent est disponible sous forme d'application 32 bits ou 64 bits. Pour plus d'informations, voir [Installation du client {{site.data.keyword.backup_notm}} sous Linux](install-backup-client-linux.html).
 
 Le kit d'installation du plug-in Oracle est disponible dans un fichier tar.gz.
 
@@ -100,4 +100,4 @@ Le plug-in Oracle effectue une sauvegarde complète "incohérente" qui requiert 
 
 ## Téléchargement du guide d'utilisation
 
-Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger les guides d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger les guides d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

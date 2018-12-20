@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Création de données de sauvegarde et de restauration depuis une instance de serveur virtuel vers une autre dans un centre de données différent
+# Restauration de données depuis une instance de serveur virtuel vers une autre dans un centre de données différent
 
 Vous voudrez parfois restaurer des données sur un serveur différent. Cette procédure s'applique uniquement aux restaurations de niveau fichier pour des fichiers ne faisant pas partie du système d'exploitation. Pour restaurer une image système, suivez les instructions pour [BMR Windows](restore-bmr-system-volume-image.html).
 
@@ -22,21 +22,23 @@ Cette procédure inclut le réenregistrement de l'agent de sauvegarde sur le sec
 **Conditions prérequises**
 
 - Serveur1 et Serveur2 doivent avoir le même système d'exploitation. Les restaurations inter-plateformes ne sont pas prises en charge.
-- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir [Configuration de l'agent de sauvegarde dans WebCC](index.html#configuring-the-backup-agent-in-webcc).
+- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir [Configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-in-webcc).
 - Un travail de sauvegarde pour Serveur1 doit avoir généré une sauvegarde sur l'emplacement de coffre de Serveur1.
 
-Pour éviter tout conflit, désactivez tous les travaux planifiés sur les deux serveurs.{:important}
+Pour éviter tout conflit, désactivez tous les travaux planifiés sur les deux serveurs.
+{:important}
 
-## Démarrage du WebCC de Serveur2
+## Démarrage du portail {{site.data.keyword.backup_notm}} de Serveur2
 
-Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}, faute de quoi le lien WebCC ne fonctionnera pas.{:tip}
+Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}, sinon le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
+{:tip}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+      Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez Serveur2. Cliquez sur la flèche d'expansion pointant vers la droite pour dévoiler le lien WebCC.
-4. Cliquez sur **Connexion WebCC** pour lancer le client WebCC dans votre navigateur.
+3. Sélectionnez Serveur2. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
 
 ## Réenregistrement du coffre
 
@@ -54,7 +56,8 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 
 1. Cliquez sur **Tous les agents**.
 
-   Vous devrez éventuellement actualiser la page afin que les travaux définis sur Serveur1 indiquent qu'ils sont accessibles/synchronisés sous l'onglet **Travaux** de Serveur2.{:tip}
+   Vous devrez éventuellement actualiser la page afin que les travaux définis sur Serveur1 indiquent qu'ils sont accessibles/synchronisés sous l'onglet **Travaux** de Serveur2.
+   {:tip}
 2. Survolez **Avancé** et sélectionnez **Restaurer à partir d'un autre ordinateur**.
 3. Sur l'écran **Restaurer à partir d'un autre ordinateur**, cliquez sur **Ajouter**. Les zones sont déjà renseignées avec des valeurs par défaut ; vous pouvez les modifier.
 4. Cliquez dans la zone Coffre, sélectionnez **Entrer les paramètres du coffre** et entrez l'adresse IP du coffre de Serveur1. Cliquez sur **Ajouter**.

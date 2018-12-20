@@ -19,9 +19,9 @@ Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site
 ## Initialisation du système BMR Rescue Kernel
 
 Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.keyword.slportal}}.
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+      Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez sur la **flèche** en regard du coffre.
 4. Cliquez sur **Lancer Bare Metal Restore**. Cette action déclenche une transaction dont l'exécution prend quelques minutes. Vous pouvez ensuite accéder au serveur en suivant la procédure décrite ici. Un message électronique vous est envoyé à l'issue du processus d'amorçage du système.
@@ -48,7 +48,7 @@ Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.ke
 9. Sur l'écran **Sélection du travail de sauvegarde**, sélectionnez le travail à partir duquel effectuer la restauration et cliquez sur **Suivant**.
 <br/>![Figure 6 - Sélection de votre point de restauration](/images/bmr6.png)
 10. Dans le menu **Sélection du point de restauration**, effectuez une sélection et cliquez sur **Suivant**.
-<br/>![Figure 6 - Sélection d'un point de restauration](/images/bmr8.png)
+<br/>![Figure 8 - Sélection d'un point de restauration](/images/bmr8.png)
 11. Sélectionnez les volumes source et de destination. Pour restaurer la source sur la destination,, faites glisser le volume source sur le volume de destination.
 <br/>![Figure 9 - Sélection de volumes source et de destination](/images/bmr9.png)
 12. Dans la fenêtre de confirmation du format ou de fusion des données, deux options sont présentées. Sélectionnez **Format** pour une restauration avec nettoyage, laquelle formate le disque. Si vous désirez fusionner les données sur le volume de destination, sélectionnez **Fusionner**.

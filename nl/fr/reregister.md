@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 # Enregistrement d'un coffre
 
 Ces étapes sont le plus souvent utilisées après le rechargement du système d'exploitation d'un serveur. Vous pouvez également les exécuter pour [utiliser les sauvegardes d'un serveur afin de restaurer des données sur un autre serveur](restore-from-another-computer.html).
+{:tip}
 
-1. Démarrez WebCC et connectez-vous. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html).
+1. Démarrez le portail {{site.data.keyword.backup_notm}} et connectez-vous. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html).
 
-   N'oubliez pas que WebCC n'est accessible que via le {{site.data.keyword.BluVPN}}.
+   N'oubliez pas que le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}
 2. Sur la gauche, cliquez sur **Tous les agents**.
 3. Dans l'angle supérieur droit, survolez l'option **Editer**.
@@ -27,7 +28,7 @@ Ces étapes sont le plus souvent utilisées après le rechargement du système d
   - Adresse du coffre
   - Compte
 
-"Compte" est équivalent à la mention "Nom du compte" dans le portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. Généralement, il est similaire à "SLE [ID compte]"
+    "Compte" est équivalent au "Nom du compte" dans le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. Généralement, il est similaire à "SLE [ID compte]"
     {:tip}
   - Nom de l'utilisateur
   - Mot de passe

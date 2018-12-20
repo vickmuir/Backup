@@ -10,28 +10,26 @@ lastupdated: "2018-12-14"
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
 
 # Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016
 
 ## Installation de l'agent de logiciel {{site.data.keyword.backup_notm}}
 
-1. Sur le serveur cible, ouvrez une session de navigateur et entrez l'URL suivante pour télécharger le fichier exécutable :
+1. Sur le serveur cible, ouvrez une session de navigateur et entrez l'URL suivante pour télécharger le fichier exécutable.
    ```
    http://downloads.service.softlayer.com/evault/
    ```
    {:pre}
-2. Cliquez deux fois sur le fichier téléchargé, puis cliquez sur **Exécuter** dans la boîte de dialogue qui apparaît.
-3. Sélectionnez la langue d'installation et cliquez sur **OK**.
+2. Cliquez deux fois sur le fichier téléchargé, puis cliquez sur **Exécuter** dans la boîte de dialogue qui s'affiche.
+3. Sélectionnez la langue d'installation, puis cliquez sur **OK**.
 4. Cliquez sur **Suivant** pour commencer.
 5. Lisez les dispositions et sélectionnez **J'accepte les termes du contrat de licence**. Cliquez ensuite sur **Suivant**.
-6. Sélectionnez **Standard** pour le type d'installation. cliquez sur **Suivant**.
+6. Sélectionnez **Standard** comme type d'installation. cliquez sur **Suivant**.
 7. Sur l'écran Enregistrer l'agent auprès du portail, sélectionner **Ignorer l'enregistrement**. Cliquez sur **Suivant**.
 8. Dans l'écran suivant, cliquez sur **Installer**.
 9. Une fois l'installation achevée, cliquez sur **Terminer**.
 
-## Installation de CentralControl 8.30
+## Installation de Central Control 8.30
 
 1. Sur le serveur cible, ouvrez une session de navigateur et entrez l'URL suivante pour télécharger le fichier exécutable.
 
@@ -40,7 +38,7 @@ lastupdated: "2018-12-14"
    ```
    {:pre}
 
-2. Cliquez deux fois sur le fichier téléchargé, puis cliquez sur **Exécuter** dans la boîte de dialogue qui apparaît.
+2. Cliquez deux fois sur le fichier téléchargé, puis cliquez sur **Exécuter** dans la boîte de dialogue qui s'affiche.
 3. Suivez la procédure d'installation **standard**.
    1. Lorsque vous êtes invité à ajouter un raccourci sur le bureau, sélectionnez **Oui**. cliquez sur **Suivant**.
    2. Après avoir lu le contrat de licence du logiciel, sélectionnez **ACCEPTER**. cliquez sur **Suivant**.
@@ -48,22 +46,22 @@ lastupdated: "2018-12-14"
 4. Lorsque l'installation est terminée, cochez **Lancer le logiciel CentralControl pour EVault**. Cliquez sur **Terminer**.
 
 
-## Configuration de CentralControl
+## Configuration de Central Control
 
-Cette tâche est réalisée par le biais d'une série d'interactions alors que vous êtes connecté au serveur désigné pour le service {{site.data.keyword.backup_notm}}.
+Cette tâche est réalisée par le biais d'une série d'interactions alors que vous êtes connecté au serveur désigné pour le service {{site.data.keyword.backup_notm}}. 
 
 1. Contrôlez votre serveur à distance via RDP.
-2. Lancez CentralControl.
+2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Configuration d'agent**.
 4. Sur l'onglet Coffres, cliquez sur **Nouveau**. L'assistant de configuration de coffre s'affiche. cliquez sur **Suivant**.
 5. Sélectionnez **Enregistrer en tant que nouvel ordinateur** et cliquez sur **Suivant**.
 6. Entrez le nom du coffre dans la zone Nom de profil.
 
-   Le nom du coffre peut être obtenu à partir du portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   Le nom du coffre peut être obtenu à partir du portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
    {:tip}
 6. Entrez l'adresse réseau (adresse IP du coffre affecté) et cliquez sur **Ajouter**. Cliquez ensuite sur **Suivant**.
 7. Entrez les nouvelles valeurs de port et cliquez sur **Ajouter**, puis sur **Suivant**.
-8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes/minutes souhaité. Laissez la case **Activer le chiffrement simultané pour les transmissions vers/depuis le coffre** sélectionnée. cliquez sur **Suivant**.
+8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes et de minutes souhaité. Laissez la case **Activer le chiffrement simultané pour les transmissions vers/depuis le coffre** sélectionnée. cliquez sur **Suivant**.
 9. Sur l'écran d'authentification, entrez vos données d'identification et cliquez sur **Suivant**.
 10. La fenêtre Ordinateurs enregistrés indique le nom d'hôte de votre serveur. cliquez sur **Suivant**.
 11.	Cliquez sur **Terminer** pour terminer la configuration.
@@ -72,7 +70,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 ## Création de schémas de conservation
 
 1. Contrôlez votre serveur à distance via RDP.
-2. Lancez CentralControl.
+2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Configuration d'agent**.
 4. Cliquez sur l'onglet **Conservation**. L'assistant de conservation s'affiche. Cliquez sur **Suivant**.
 5. Entrez le nom de la conservation. cliquez sur **Suivant**.<br/>
@@ -81,7 +79,8 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
    {:important}
 6. Entrez le nombre de jours et de copies de conservation en ligne pour ce type de conservation. Cliquez ensuite sur **Suivant**.<br/>
 
-   Le fait de définir conjointement un nombre de jours et de copies de conservation permet de garantir une durée minimale de conservation et un nombre minimal de sauvegardes conservées.{:tip}
+   Le fait de définir conjointement un nombre de jours et de copies de conservation permet de garantir une durée minimale de conservation et un nombre minimal de sauvegardes conservées.
+   {:tip}
 7. Sélectionnez **Je ne souhaite pas créer des archives de copies de sauvegarde**. cliquez sur **Suivant**.
 8. Cliquez sur **Terminer** pour achever la configuration du schéma de conservation.
 
@@ -89,7 +88,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 ## Configuration du travail {{site.data.keyword.backup_notm}}
 
 1. Contrôlez votre serveur à distance via RDP.
-2. Lancez CentralControl.
+2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Nouveau travail**.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
 5. Sélectionnez le type de source de la sauvegarde.
@@ -109,10 +108,11 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 ## Exécution du travail {{site.data.keyword.backup_notm}}
 
 1. Contrôlez votre serveur à distance via RDP.
-2. Lancez CentralControl.
+2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez l'agent que vous venez de créer.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
 5. Sélectionnez la destination de sauvegarde ou un autre emplacement pour alimenter le travail de sauvegarde. cliquez sur **Suivant**.<br/>
-Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](multivaulting.html).{:tip}
+   Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](multivaulting.html).
+   {:tip}
 6. Sélectionnez l'option d'analyse de fichier rapide pour que les fichiers qui n'ont pas été modifiés ne soient pas lus. cliquez sur **Suivant**.
 7. Cliquez sur **Terminer** pour achever la configuration et lancer la sauvegarde. Une fenêtre d'informations de processus s'affiche ; elle contient l'état du travail de sauvegarde. Lorsque le travail de sauvegarde est terminé, cliquez sur **Fermer**.

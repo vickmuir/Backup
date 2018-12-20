@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Installation du plug-in SQL Server
 
-Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de données SQL. A l'aide du portail WebCC, vous pouvez configurer des travaux, sauvegarder des bases de données SQL dans un coffre distant sécurisé et restaurer des bases de données SQL.
+Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de données SQL. A l'aide du portail {{site.data.keyword.backup_notm}}, vous pouvez configurer des travaux, sauvegarder des bases de données SQL dans un coffre distant sécurisé et restaurer des bases de données SQL.
 
 **Fonctions fournies**
 
@@ -23,11 +23,12 @@ Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de 
 - Vous pouvez restaurer des bases de données SQL sur la même instance SQL ou une autre.
 - Vous pouvez restaurer des bases de données sous leur nom d'origine, écraser des bases de données existantes et les restaurer à l'aide de l'option Pas de reprise.
 
+Pour plus d'informations, voir la section [Principales caractéristiques](#main-featues).
+
 ## Commande du plug-in
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
 4. Sélectionnez **Plug-in {{site.data.keyword.backup_notm}} - MSSQL**, puis cliquez sur **Continuer**.
@@ -38,9 +39,10 @@ Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de 
 
 ## Installation du plug-in MSSQL
 
-Pour installer le plug-in SQL pour Windows, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**.
+Pour installer le plug-in SQL, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**.
 
-Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrêtez les deux services {{site.data.keyword.backup_notm}} dans `services.msc`.{:tip}
+Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrêtez les deux services {{site.data.keyword.backup_notm}} dans `services.msc`.
+{:tip}
 
 1. Accédez au dossier `c:\installs\evault` et lancez le fichier .exe doté du plus haut niveau de révision.
 2. Sur l'écran de langue, cliquez sur **OK**.
@@ -52,19 +54,13 @@ Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrête
 8. Sélectionnez **Conserver mon enregistrement actuel** et cliquez sur **Suivant**.
 9. Cliquez sur **Installer**.
 10. Une fois l'installation terminée, vérifiez que les deux services sont activés et opérationnels.
-11. Si WebCC parvient à afficher et à accéder à la base de données et à l'afficher, cela signifie que l'installation a abouti.
+11. Si le portail {{site.data.keyword.backup_notm}} parvient à afficher la base de données et à y accéder, cela signifie que l'installation a abouti.
 
 ## Téléchargement du guide d'utilisation
 
-Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.
+Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
-## Foire aux questions
-
-**Rôle de VSS (Volume Shadow Copy Services) ?**
-
-La version actuelle du plug-in SQL Server utilise VSS (Volume Shadow Copy Services) pour réaliser des sauvegardes. Grâce à VSS, le plug-in SQL Server sauvegarde efficacement des bases de données SQL, même celles qui sont réparties sur plusieurs volumes. Les sauvegardes peuvent être effectuées tandis que les applications continuent d'écrire des données sur un volume. Le plug-in SQL Server permet une cohérence des données dans et entre les bases de données. VSS permet l'exécution simultanée de plusieurs sauvegardes.
-
-**Quelles sont les principales caractéristiques du plug-in SQL ?**
+## Principales caractéristiques
 
 - Possibilité de spécifier à l'aide de caractères génériques (astérisques et points d'interrogation) les noms des bases de données à inclure ou à exclure des travaux de sauvegarde de SQL Server. Les nouvelles bases de données dont les noms correspondent aux filtres d'un travail de sauvegarde sont automatiquement incluses ou exclues lorsque le travail s'exécute.
 - Possibilité de protéger les bases de données secondaires dans des groupes de disponibilité AlwaysOn à l'aide de l'agent 64 bits et du plug-in SQL Server.

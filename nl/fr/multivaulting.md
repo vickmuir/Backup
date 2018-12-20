@@ -14,27 +14,30 @@ lastupdated: "2018-12-14"
 
 # Utilisation de coffres multiples
 
-L'utilisation de coffres multiples fait référence à la capacité d'un client/serveur de se connecter à plusieurs emplacements de coffre. Elle permet une redondance et une tranquillité d'esprit puisque des sauvegardes demeurent disponibles même en cas de panne d'un site.
+L'utilisation de coffres multiples fait référence à la capacité d'un client de se connecter à plusieurs emplacements de coffre. Elle permet une redondance et une tranquillité d'esprit puisque des sauvegardes demeurent disponibles même en cas de panne d'un site.
 
 **Points clés**
 
-1. Plusieurs coffres peuvent être gérés via le même WebCC et traités de la même manière. La seule différence est que vous disposez de plusieurs choix de coffre.
+1. Plusieurs coffres peuvent être gérés via le même portail {{site.data.keyword.backup_notm}} et traités de la même manière. La seule différence est que vous disposez de plusieurs choix de coffre.
 2. La licence de plug-in s'applique au niveau du coffre, par exemple, si vous avez acquis le plug-in MSSQL pour un coffre à Washington DC, il ne fonctionne pas sur le coffre de Seattle.
-3. Le nouveau coffre doit être ajouté manuellement au WebCC après chaque achat.
+3. Le nouveau coffre doit être ajouté manuellement au portail {{site.data.keyword.backup_notm}} après chaque achat.
+
+
 
 **Emplacements {{site.data.keyword.backup_notm}} Vault Director**
 
-La fonction de coffre multiple est disponible sur tous les centres de données et aucune limitation géographique ne restreint le choix d'un coffre distant. Lorsque des coffres sont configurés conformément aux étapes de ce document, ils apparaissent tous dans les paramètres de coffre.
+La fonction de coffre multiple est disponible sur tous les centres de données et aucune limitation géographique ne restreint le choix d'un coffre distant. Les coffres correctement configurés apparaissent tous dans les paramètres de coffre.
 
-Une sauvegarde vers des emplacements de centres de données distants peut prendre plus de temps qu'une sauvegarde sur le centre de données où se trouve votre serveur.{:note}
+Une sauvegarde vers des emplacements de centres de données distants peut prendre plus de temps qu'une sauvegarde sur le centre de données où se trouve votre serveur.
+{:note}
 
 ## Ajout d'un coffre distant à un compte
 
-Vous devez ajouter le nouveau coffre {{site.data.keyword.backup_notm}} distant au compte avant de pouvoir ajouter un nouvel emplacement de sauvegarde dans WebCC.
+Vous devez ajouter le nouveau coffre {{site.data.keyword.backup_notm}} distant au compte avant de pouvoir ajouter un nouvel emplacement de sauvegarde dans le portail {{site.data.keyword.backup_notm}}.
+{:important}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Unités**
 3. Localisez et cliquez sur le lien du serveur concerné.
 4. Sous **Détails de l'unité**, cliquez sur **Stockage**.
@@ -47,27 +50,27 @@ Le nouveau coffre commandé est ajouté automatiquement au compte. Sinon, contac
 
 Une fois le processus de commande terminé, accédez à **Stockage** > **Sauvegarde** pour voir le nouveau coffre répertorié.
 
-## Ajout d'un coffre supplémentaire dans WebCC
+## Ajout d'un coffre supplémentaire dans le portail {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pointant vers la droite pour afficher le lien WebCC.
-4. Cliquez sur le lien **Connexion WebCC** pour lancer le client WebCC dans votre navigateur.
+3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+4. Cliquez sur le lien **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
 
-   WebCC est accessible uniquement via {{site.data.keyword.BluVPN}}.
+   Le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}
 5. Dans le panneau de navigation de gauche, cliquez sur **Tous les agents**.
 6. Dans l'angle supérieur droit, cliquez sur **Modifier** et sélectionnez **Paramètres du coffre**.
 7. Dans la fenêtre **Paramètres du coffre**, cliquez sur **Ajouter**.
 8. Dans la fenêtre **Nouveau coffre** :
   1. Dans le menu Profil du coffre, sélectionnez **Entrer les paramètres du coffre** pour créer une nouvelle entrée. Ne mettez pas à jour l'entrée existante, cela ne fonctionnera pas.
-  2. Le nom du coffre ne doit pas être identique à celui de l'autre coffre. Ajoutez la balise -2 à la fin de ce nom. <br/>
+  2. Le nom du coffre ne doit pas être identique à celui de l'autre coffre. Ajoutez la balise `-2` à la fin de ce nom. <br/>
 
-Cette zone est limitée à 15 caractères.{:important}
+     La zone du nom du coffre est limitée à 15 caractères.
+     {:important}
   3. La zone d'adresse IP est renseignée avec les informations sur l'emplacement d'{{site.data.keyword.backup_notm}} Director. Par exemple, `ev-director301.service.softlayer.com` a pour adresse IP 10.1.114.46 et se trouve dans WDC.
   4. Dans la zone des données d'identification, entrez l'ID de compte, le nom d'utilisateur {{site.data.keyword.backup_notm}} pour le coffre sélectionné et le mot de passe du coffre sélectionné.
   5. Cliquez sur **Enregistrer les modifications**.
 
-En quelques secondes, le nouveau coffre est utilisable. Si une erreur de connexion se produit, vérifiez les paramètres et réessayez. N'oubliez pas que l'ajout d'un coffre supplémentaire vous offre seulement une autre destination que vous pouvez choisir pour un travail. Cela n'exécute pas automatiquement des travaux vis à vis des deux coffres. Vous devez configurer des travaux pour qu'ils utilisent le coffre supplémentaire. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html).
+En quelques secondes, le nouveau coffre est utilisable. Si une erreur de connexion se produit, vérifiez les paramètres et réessayez. N'oubliez pas que l'ajout d'un coffre vous offre une destination supplémentaire que vous pouvez choisir pour un travail. Cela n'exécute pas automatiquement des travaux vis à vis des deux coffres. Vous devez configurer des travaux pour qu'ils utilisent le coffre supplémentaire. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html).
