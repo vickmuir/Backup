@@ -33,8 +33,8 @@ Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agen
 
 ## Plug-in bestellen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
 4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - Oracle** aus und klicken Sie auf **Weiter**.
@@ -43,9 +43,9 @@ Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agen
 7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren.
 8. Klicken Sie auf **Bestellung aufgeben**.
 
-## Oracle-Plug-in für Windows installieren
+## Plug-in für Windows installieren
 
-Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Oracle-Plug-ins führen Sie das Agenteninstallationskit aus. Das Oracle-Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
+Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
 
 Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.
 {:tip}
@@ -61,9 +61,9 @@ Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen 
 9. Stellen Sie nach Abschluss der Installation sicher, dass beide Services aktiviert und in Betrieb sind.
 10. Falls das {{site.data.keyword.backup_notm}}-Portal in der Lage ist, auf die Datenbank zuzugreifen bzw. die Datenbank anzuzeigen, war die Installation erfolgreich.
 
-## Oracle-Plug-in für Linux installieren
+## Plug-in für Linux installieren
 
-Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Oracle-Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie unter [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](install-backup-client-linux.html).
+Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie unter [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](install-backup-client-linux.html).
 
 Das Installationskit für das Oracle-Plug-in steht in einer 'tar.gz'-Datei zur Verfügung.
 
@@ -100,4 +100,4 @@ Das Oracle-Plug-in führt eine "inkonsistente" Datenbankgesamtsicherung durch, d
 
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. 
+Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie die Benutzerhandbücher über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. 

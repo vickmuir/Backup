@@ -11,9 +11,9 @@ lastupdated: "2018-12-14"
 Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control unter Windows 2016 durchzuführen.
 
 1. Aktivieren Sie die Fernsteuerung Ihres Windows 2016-Servers über RDP.
-2. Öffnen Sie CentralControl.
+2. Öffnen Sie Central Control.
 3. Klicken Sie mit der rechten Maustaste auf **Agent** und klicken Sie dann auf **Agentenkonfiguration**.
-4. Entfernen Sie die aktuellen Vaulteinstellungen aus CentralControl, indem Sie den Eintrag auswählen und auf **Löschen** klicken.
+4. Entfernen Sie die aktuellen Vaulteinstellungen aus Central Control, indem Sie den Eintrag auswählen und auf **Löschen** klicken.
 5. Klicken Sie auf **Neu** und wählen Sie in der nächsten Anzeige die Option **Zuvor registrierten Computer erneut registrieren** aus. Klicken Sie auf **Weiter**.
 6. Geben Sie die Netzadresse ein, klicken Sie auf **Hinzufügen** und dann auf **Weiter**.
 7. Geben Sie die neuen Portwerte ein, klicken Sie auf **Hinzufügen** und dann auf **Weiter**.

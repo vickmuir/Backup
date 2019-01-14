@@ -28,21 +28,22 @@ Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Aus
 
 <hr>
 
-## Wie oft können die Daten gesichert werden?
+## Wie häufig können die Daten gesichert werden?
 {: faq}
 
 Innerhalb des {{site.data.keyword.backup_notm}}-Portals können Sicherungen manuell erstellt oder als einzelne Instanz geplant oder als wiederholend auszuführend geplant werden. Wiederholte Sicherungen können täglich, wöchentlich, monatlich oder nach einem angepassten Zeitplan erfolgen und jederzeit aktualisiert oder abgebrochen werden.
 
-Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt werden, können zur Beschädigung von Sicherungsjobs führen. Diese Beschädigung tritt auf, weil der Sicherungsvault nicht genügend Zeit erhält, um erforderliche Hintergrundwartungstasks auszuführen. Sicherungsjobs haben Vorrang vor Wartungsaufgaben. Im Falle von sehr häufigen Sicherungen führt der Vault weiterhin die Sicherungsjobs aus und das führt dazu, dass die Anzahl der Sicherungsgruppen zunimmt.{:note}
+Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt werden, können zur Beschädigung von Sicherungsjobs führen. Diese Beschädigung tritt auf, weil der Sicherungsvault nicht genügend Zeit erhält, um erforderliche Hintergrundwartungstasks auszuführen. Sicherungsjobs haben Vorrang vor Wartungsaufgaben. Im Falle von sehr häufigen Sicherungen führt der Vault weiterhin die Sicherungsjobs aus und das führt dazu, dass die Anzahl der Sicherungsgruppen zunimmt.
+{:note}
 
 <hr>
 
 ## Wie funktionieren die Aufbewahrungsschemas?
 {: faq}
 
-Evault Backup ermöglicht es Ihnen, die Datenspeicherung davon abhängig zu machen, wie weit zurück Sie eine Rollback-Operation durchführen möchten. Die Aufbewahrungsschemas des Typs **Täglich** behalten Daten für sieben Tage bei, während die Schemas des Typs **Wöchentlich** Daten für einen Monat und die Schemas des Typs **Monatlich** Daten für ein Jahr beibehalten. Am Ende jedes Zeitraums wird der älteste Datenbestand turnusmäßig ausgelagert und die erste erstellte Deltasicherung wird zum ältesten verfügbaren Wiederherstellungspunkt.
+{{site.data.keyword.backup_notm}} ermöglicht es Ihnen, die Datenspeicherung davon abhängig zu machen, wie weit zurück Sie eine Rollback-Operation durchführen möchten. Die Aufbewahrungsschemas des Typs **Täglich** behalten Daten für sieben Tage bei, während die Schemas des Typs **Wöchentlich** Daten für einen Monat und die Schemas des Typs **Monatlich** Daten für ein Jahr beibehalten. Am Ende jedes Zeitraums wird der älteste Datenbestand turnusmäßig ausgelagert und die erste erstellte Deltasicherung wird zum ältesten verfügbaren Wiederherstellungspunkt.
 
-Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungsschemas erstellen. IBM empfiehlt jedoch, die Standardaufbewahrungszeiträume als Ausgangspunkt zu verwenden. Wenn Sie ein neues Aufbewahrungsschema erstellen oder ein vorhandenes Aufbewahrungsschema ändern, sollten Sie sicherstellen, dass die Option Archivieren nicht ausgewählt ist. Das Archivieren wird nicht unterstützt.
+Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungsschemas erstellen. IBM empfiehlt jedoch, die Standardaufbewahrungszeiträume als Ausgangspunkt zu verwenden. Wenn Sie ein neues Aufbewahrungsschema erstellen oder ein vorhandenes Aufbewahrungsschema ändern, sollten Sie sicherstellen, dass die Archivierungsoption nicht ausgewählt ist. Das Archivieren wird nicht unterstützt.
 {:tip}
 
 <hr>
@@ -50,7 +51,7 @@ Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungssch
 ## Was ist Delta-Technologie?
 {: faq}
 
-Die erste Sicherung, bei der es sich um eine vollständige Gesamtsicherung handelt, ist ein so genannter 'Seed'. Die nächste und alle nachfolgenden Sicherungen werden als 'Deltasicherungen' bezeichnet, weil sie nur Änderungen enthalten, sind jedoch zu Gesamtsicherungen äquivalent und gelten als Gesamtsicherungen. Dies bedeutet, dass Sie aus diesen Sicherungen alle oder einige Dateien wiederherstellen können. Diese Technologie ermöglicht die Durchführung von Gesamtsicherungen in jeder Sitzung, spart jedoch enorm Speicherplatz in der Vault und verringert die Zeit, die zur Ausführung aller nachfolgenden Sicherungen benötigt wird.
+Die erste Sicherung, bei der es sich um eine vollständige Gesamtsicherung handelt, ist ein so genannter 'Seed'. Die nächste und alle nachfolgenden Sicherungen werden als 'Deltasicherungen' bezeichnet, weil sie nur Änderungen enthalten, sind jedoch zu Gesamtsicherungen äquivalent und gelten als Gesamtsicherungen. Dies bedeutet, dass Sie aus diesen Sicherungen alle oder einige Dateien wiederherstellen können. Diese Technologie ermöglicht die Durchführung von Gesamtsicherungen in jeder Sitzung, spart jedoch enorm Mengen an Speicherplatz in der Vault und verringert die Zeit, die zur Ausführung aller nachfolgenden Sicherungen benötigt wird. 
 
 <hr>
 
@@ -69,7 +70,7 @@ Komprimierungsverhältnisse ermöglichen die Verwendung von keiner Komprimierung
 ## Welche Informationen werden mit den Systemstatussicherungen gespeichert?
 {: faq}
 
-Systemstatussicherungen umfassen unter anderem die COM- und Klassenregistrierungsdatenbank, die Registry, Bootdateien Systemdateien und Leistungszähler, sind jedoch nicht hierauf beschränkt. Maßgeblich ist jeweils das System. Systemdateien variieren nach Betriebssystem und Service-Packs des Systems. Normalerweise gibt es mehrere Tausend dieser Dateien. MS Windows erstellt eine dynamische Liste dieser DLLs, wenn Sie sie in die Sicherung einbeziehen. Durch die Einbeziehung der Systemdateien können Sie eine Wiederherstellung bei beschädigten Systemdateien, bei einer versehentlichen Deinstallation von Service-Packs oder bei einer erforderlichen Bare-Metal-Wiederherstellung vornehmen. Sie können zum Status der Sicherung zurückkehren, ohne das Betriebssystem mit dem Installationskit erneut installieren und anschließend jedes Service-Pack separat installieren zu müssen.
+Systemstatussicherungen umfassen unter anderem die COM- und Klassenregistrierungsdatenbank, die Registry, Bootdateien Systemdateien und Leistungszähler, sind jedoch nicht hierauf beschränkt. Maßgeblich ist jeweils das System. Systemdateien variieren nach Betriebssystem und Service-Packs des Systems. Normalerweise gibt es mehrere Tausend dieser Dateien. MS Windows erstellt eine dynamische Liste dieser DLLs, wenn Sie sie in die Sicherung einbeziehen. Durch die Einbeziehung der Systemdateien können Sie eine Wiederherstellung bei beschädigten Systemdateien, beim versehentlichen Entfernen von Service-Packs oder bei einer erforderlichen Bare-Metal-Wiederherstellung vornehmen. Sie können zum Status der Sicherung zurückkehren, ohne das Betriebssystem mit dem Installationskit erneut installieren und anschließend jedes Service-Pack separat installieren zu müssen.
 
 Es ist keine Benutzerdatendatei in der Systemstatussicherung enthalten. Ein Systemstatussicherungsjob muss als eigenständiger Job konfiguriert werden. Es darf keine andere Datenquelle vorhanden sein, die in den Systemstatussicherungsjob eingeschlossen wird.
 {:important}
@@ -93,7 +94,7 @@ Weitere Informationen zu diesem Thema finden Sie im Abschnitt zum [Sicherungsspe
 ## Kann die Kapazität von {{site.data.keyword.backup_full}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
-Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](expanding-evault-capacity.html).
+Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](expanding-capacity.html).
 
 <hr>
 
@@ -104,7 +105,7 @@ Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenz
 
 <hr>
 
-## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, um informiert zu werden, wenn meine Sicherungen fehlschlagen? 
+## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, um informiert zu werden, wenn meine Sicherungen fehlschlagen?
 {: faq}
 
 Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** im {{site.data.keyword.backup_notm}}-Portal entsprechend vor.
@@ -134,7 +135,7 @@ Bei einer BMR-Sicherung handelt es sich nicht um ein Plattenimage, sondern um ei
 ##Kann BMR für Datenbanksicherungen verwendet werden?
 {: faq}
 
-Datenbanksicherungen müssen separat mit den herkömmlichen {{site.data.keyword.backup_notm}}-Methoden vorgenommen werden. BMR macht Plug-ins für SQL oder Oracle keinesfalls überflüssig. BMR verwendet zwar die VSS-Technologie zum Sichern geöffneter Dateien, es kann aber nicht in jedem Fall gewährleistet werden, dass die gesicherten Dateien transaktionskonsistent sind. Für solche Typen von Fachanwendungen empfiehlt sich die Erstellung von zwei Sicherungsjobs, nämlich einem Job zum Sichern der Betriebssystems- und Anwendungsbinärdateien und einem weiteren Job für die Anwendungsdaten. Am Ende des Benutzerhandbuchs für BMR finden Sie einen diesbezüglichen Hinweis.
+Datenbanksicherungen müssen separat mit den herkömmlichen {{site.data.keyword.backup_notm}}-Methoden vorgenommen werden. BMR macht Plug-ins für SQL oder Oracle keinesfalls überflüssig. BMR verwendet zwar die VSS-Technologie zum Sichern geöffneter Dateien, es kann aber nicht in jedem Fall gewährleistet werden, dass die gesicherten Dateien transaktionskonsistent sind. Für solche Typen von Fachanwendungen empfiehlt sich die Erstellung von zwei Sicherungsjobs, nämlich einem Job zum Sichern der Betriebssystems- und Anwendungsbinärdateien und einem weiteren Job für die Anwendungsdaten.
 
 <hr>
 
@@ -147,7 +148,7 @@ Sie können entweder eine vollständige Systemwiederherstellung durchführen ode
 ## Besitzt BMR Funktionen für die Sicherung von geöffneten Dateien?
 {: faq}
 
-BMR ist mit Funktionen zur Sicherung von geöffneten Dateien ausgestattet. BMR macht jedoch Plug-ins für SQL oder Oracle keinesfalls überflüssig. Klicken Sie [hier](evault-mssql-plugin.html), um die Installationsanweisungen für das MS SQL-Plug-in anzuzeigen.
+BMR ist mit Funktionen zur Sicherung von geöffneten Dateien ausgestattet. BMR macht jedoch Plug-ins für SQL oder Oracle keinesfalls überflüssig. Klicken Sie [hier](mssql-plugin.html), um die Installationsanweisungen für das MS SQL-Plug-in anzuzeigen.
 
 <hr>
 
@@ -161,4 +162,4 @@ Eine Sicherung, die auf Basis einer Standardinstallation erstellt wird, benötig
 ## Wozu wird VSS verwendet?
 {: faq}
 
-Die aktuelle Version des Plug-ins für SQL Server für {{site.data.keyword.backup_notm}} verwendet VSS (Volume Shadow Copy Services, Volumenschattenkopie-Dienste) zur Ausführung von Sicherungen. Mit VSS kann das Plug-in für SQL Server SQL-Datenbanken auch dann effektiv sichern, wenn diese mehrere Datenträger umfassen. Sicherungen können durchgeführt werden, während Anwendungen weiterhin Schreiboperationen auf dem Datenträger ausführen. Das Plug-in für SQL Server bietet Ihnen Datenkonsistenz innerhalb von Datenbanken und auch datenbankübergreifend. VSS ermöglicht die gleichzeitige Ausführung von mehreren Sicherungen.
+Die aktuelle Version des Plug-ins für SQL Server verwendet VSS (Volume Shadow Copy Services, Volumenschattenkopie-Dienste) zur Ausführung von Sicherungen. Mit VSS kann das Plug-in für SQL Server SQL-Datenbanken auch dann effektiv sichern, wenn diese mehrere Datenträger umfassen. Sicherungen können durchgeführt werden, während Anwendungen weiterhin Schreiboperationen auf dem Datenträger ausführen. Das Plug-in für SQL Server bietet Ihnen Datenkonsistenz innerhalb von Datenbanken und auch datenbankübergreifend. VSS ermöglicht die gleichzeitige Ausführung von mehreren Sicherungen.

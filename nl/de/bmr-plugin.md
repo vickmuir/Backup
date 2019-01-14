@@ -25,19 +25,19 @@ BMR ist ein Produkt, das nur für Microsoft Windows auf physischen Servern geeig
 - Wiederherstellung eines Systems aus einem Image oder aus dateibasierten Sicherungen.
 - Wiederherstellung eines Systems aus Sicherungen, die in der {{site.data.keyword.backup_notm}}-Instanz gespeichert sind.
 - Startbare Wiederherstellungstransaktion, die eine Wiederherstellung der Daten ohne ein bootfähiges System ermöglicht.
-.
+
 ## Plug-in bestellen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
 4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - BMR (Bare-Metal-Wiederherstellung)** aus und klicken Sie auf **Weiter**.
 5. Geben Sie einen gegebenenfalls verfügbaren Werbeaktionscode ein und klicken Sie auf **Neu berechnen**.
 6. Die aktualisierten Gebühren werden angezeigt. Prüfen Sie Ihre Bestellung.
-7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren.
+7. Wählen Sie das Kontrollkästchen aus, um anzugeben, dass Sie die Servicevereinbarungen der anderen Anbieter gelesen haben und akzeptieren.
 8. Klicken Sie auf **Bestellung aufgeben**.
 
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. 
+Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. 

@@ -19,9 +19,8 @@ Wenn Sie eine Bare-Metal-Imagesicherung von {{site.data.keyword.backup_full}} wi
 ## BMR-Rescue-Kernel-System aufrufen
 
 Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-System zugreifen.
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Klicken Sie auf den **Pfeil** neben der Vault.
 4. Klicken Sie auf **Bare-Metal-Wiederherstellung starten**. Diese Aktion startet eine Transaktion, deren Ausführung einige Minuten dauert. Anschließend können Sie mit den hier beschriebenen Schritten auf den Server zugreifen. Sobald das System den Bootprozess abgeschlossen hat, werden Sie per E-Mail benachrichtigt.
@@ -30,7 +29,7 @@ Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-S
 ## Wiederherstellung vom BMR-Rescue-Kernel durchführen
 
 1. Wenn die Transaktion für den BMR-Rescue-Kernel geladen wird, haben Sie für den Zugriff zwei verschiedene Möglichkeiten.
-  - Sie können einen VNC-Client und die private/öffentliche IP-Adresse Ihres Servers sowie das im {{site.data.keyword.slportal}} aufgelistete Kennwort verwenden.
+  - Sie können einen VNC-Client und die private oder öffentliche IP-Adresse Ihres Servers sowie das im {{site.data.keyword.slportal}} aufgelistete Kennwort verwenden.
   - Sie können die KVM-Konsole Ihrer IPMI-Karte verwenden.
   Beide Verfahren funktionieren gut.
 2. Wenn Sie sich zum ersten Mal beim BMR-Rescue-Kernel anmelden, werden Sie mit einer Anzeige für die Sprachauswahl begrüßt. Wählen Sie die gewünschte Sprache aus und klicken Sie auf **Weiter**.
@@ -63,5 +62,5 @@ Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-S
 18. Wählen Sie in der Abschlussanzeige das Kontrollkästchen für den Neustart des Systems und dann **Fertigstellen** aus. Der Server lädt jetzt das wiederhergestellte Datenträgerimage.
   Die Wiederherstellung ist hiermit abgeschlossen. <br/>
 
-  Beim ersten Durchlaufen dieses Vorgangs wird möglicherweise eine Nachricht über eine unerwartete Beendigung ausgegeben. Dies ist bei diesem Sicherungstyp normal; nach dem ersten Boot wird die Nachricht nicht mehr angezeigt.
+  Beim ersten Neustart des Servers wird möglicherweise eine Nachricht über eine unerwartete Beendigung ausgegeben. Dies ist bei diesem Sicherungstyp normal; nach dem ersten Boot wird die Nachricht nicht mehr angezeigt.
   {:tip}

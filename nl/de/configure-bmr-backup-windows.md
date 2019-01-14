@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # BMR-Sicherungsjob unter Windows konfigurieren
 
-Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellung) erwerben, um eine BMR-Sicherung durchführen zu können. BMR ist nur für Bare Metal Server-Systeme  unter Windows verfügbar. Bei einer virtuellen Serverinstanz (VSI) gibt es keine BMR-Option.
+Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellung) erwerben, um eine BMR-Sicherung durchführen zu können. BMR ist nur für Bare Metal Server-Systeme  unter Windows verfügbar. Bei einer virtuellen Serverinstanz (VSI) gibt es keine BMR-Option. Weitere Informationen finden Sie in [BMR-Plug-in (Bare Metal Restore, Bare-Metal-Wiederherstellung) installieren](bmr-plugin.html).
 {:important}
 
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
@@ -22,18 +22,18 @@ Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellu
 Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen. 
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
+2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
-4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
+4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
    Falls das {{site.data.keyword.backup_notm}}-Portal nicht gestartet wird, liegt möglicherweise ein Problem mit Ihrer VPN-Verbindung vor. Außerdem wird möglicherweise die Nachricht ausgegeben, dass das Formular, das Sie senden, nicht sicher ist. Dies entspricht dem erwarteten Verhalten; fahren Sie mit dem Senden des Formulars fort.
    {:tip}
 
 ## BMR-Sicherungsjob konfigurieren
 
-1. Klicken Sie im linken Navigationsbereich auf **Alle Agenten**, um die aktuellen {{site.data.keyword.backup_notm}}-Agenten anzuzeigen. 
+1. Klicken Sie im linken Navigationsbereich auf **Alle Agenten**, um die aktuellen {{site.data.keyword.backup_notm}}-Agenten anzuzeigen.
 2. Klicken Sie auf **Neuer Agent, der konfiguriert werden soll**.
 3. Geben Sie einen Jobnamen und eine Jobbeschreibung für den Job ein, den Sie erstellen.
 4. Wählen Sie bei **Sicherungsquellentyp** in der Liste den Typ des Dateisystems aus und klicken Sie dann auf **Weiter**.

@@ -17,13 +17,13 @@ lastupdated: "2018-12-14"
 
 Die Installation des {{site.data.keyword.backup_full}}-Clients unter Windows erfolgt durch eine Reihe von Interaktionen auf dem Server, der für den {{site.data.keyword.backup_notm}}-Service vorgesehen ist.
 
-Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren](install-backup-client-windows2016.html).
+Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren](install-backup-client-windows2016.html).
 {:tip}
 
 ## Beim Zielgeräteserver anmelden
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um eine Liste verfügbarer Server anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
 4. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen. Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird.
@@ -45,12 +45,12 @@ Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.d
 
 1. Geben Sie die Netzadresse ein: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
-2. Geben Sie den Benutzernamen im Feld **Benutzername** ein. 
-3. Geben Sie das Kennwort im Feld **Kennwort** ein. 
+2. Geben Sie den Benutzernamen im Feld **Benutzername** ein.
+3. Geben Sie das Kennwort im Feld **Kennwort** ein.
 6. Klicken Sie auf **Weiter**.
 7. Klicken Sie auf **Installieren**, um die Installation auszuführen.
 

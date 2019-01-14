@@ -21,9 +21,8 @@ Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full
 Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, um Zugriff auf das private {{site.data.keyword.BluSoftlayer_full}}-Netz zu erhalten. Andernfalls funktioniert der Link zum {{site.data.keyword.backup_notm}}-Portal nicht.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die wiederherzustellenden Dateien befinden. Klicken Sie auf den Pfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf das **{{site.data.keyword.backup_notm}}-Portal**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
@@ -40,7 +39,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, um Zu
 8. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 9. Wählen Sie die Kontrollkästchen neben den Dateien und Verzeichnissen aus, die Sie einbeziehen wollen. Klicken Sie anschließend auf **Einschließen**, um Ihre Auswahl zu speichern.
 10. Sie können Ihre Auswahl mit dem aufgerufenen Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden.
-Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, können die Dateien nicht mehr im Fenster **Datendateien** ausgewählt werden. Sie werden im Fenster **Sicherungsgruppe** auf der rechten Seite angezeigt.
+Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, können die Dateien nicht mehr im Fensterbereich der Datendateien ausgewählt werden. Sie werden im Fensterbereich der Sicherungsgruppe auf der rechten Seite angezeigt.
 
    Sie können Schritt 10 wiederholen, um weitere Dateien hinzuzufügen oder Dateien zu entfernen, die Sie zuvor hinzugefügt haben (mit **Exclude**). Mit der Schaltfläche **Entfernen** können Sie außerdem jede Position im Fenster **Sicherungsgruppe** löschen.
    {:tip}

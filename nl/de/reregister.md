@@ -28,7 +28,7 @@ Diese Task wird am häufigsten nach dem erneuten Laden des Betriebssystems eines
   - Vaultadresse
   - Konto
 
-    "Konto" ist gleichbedeutend mit dem "Kontonamen" im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. Normalerweise sieht der Wert etwa so aus: SLE[konto-id].
+    "Konto" ist gleichbedeutend mit dem "Kontonamen" im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window}. Normalerweise sieht der Wert etwa so aus: SLE[konto-id].
     {:tip}
   - Benutzername
   - Kennwort

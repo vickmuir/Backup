@@ -27,8 +27,8 @@ Weitere Informationen finden Sie im Abschnitt [Hauptfunktionen](#main-featues).
 
 ## Plug-in bestellen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
 4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - MSSQL** aus und klicken Sie auf **Weiter**.
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie im Abschnitt [Hauptfunktionen](#main-featues).
 
 ## MS SQL-Plug-in installieren
 
-Zur Installation des SQL-Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
+Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
 
 Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.
 {:tip}
@@ -58,7 +58,7 @@ Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, st
 
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie das Benutzerhandbuch über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
+Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie das Benutzerhandbuch über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
 
 ## Hauptfunktionen
 

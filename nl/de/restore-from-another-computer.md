@@ -22,10 +22,10 @@ Der Prozess umfasst das erneute Registrieren des Sicherungsagenten auf dem zweit
 **Vorbedingungen**
 
 - Server 1 und Server 2 müssen über dasselbe Betriebssystem verfügen. Plattformübergreifende Wiederherstellungen werden nicht unterstützt.
-- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](index.html#configuring-the-backup-agent-in-webcc).
+- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](index.html#configuring-the-backup-agent-and-the-backup-schedule).
 - Ein Sicherungsjob für Server 1, der eine Sicherung an der Vaultposition von Server 1 erstellt hat.
 
-Inaktivieren Sie auf beiden Servern alle Zeitplanungstasks, um Konflikte zu vermeiden.
+Inaktivieren Sie auf beiden Servern alle geplanten Tasks, um Konflikte zu vermeiden.
 {:important}
 
 ## {{site.data.keyword.backup_notm}}-Portal auf Server 2 starten
@@ -33,12 +33,11 @@ Inaktivieren Sie auf beiden Servern alle Zeitplanungstasks, um Konflikte zu verm
 Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit Sie Zugang zum privaten {{site.data.keyword.BluSoftlayer_full}}-Netz erhalten, da der Link zum {{site.data.keyword.backup_notm}}-Portal andernfalls nicht funktioniert.
 {:tip}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.
-
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden. 
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Server 2 aus. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
-4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
+4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Vault erneut registrieren
 
@@ -56,7 +55,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 
 1. Klicken Sie auf **Alle Agenten**.
 
-   Möglicherweise müssen Sie die Seite aktualisieren, damit die auf Server 1 definierten Jobs auf der Registerkarte **Jobs** für Server 2 als zugänglich/synchronisiert angezeigt werden.
+   Möglicherweise müssen Sie die Seite aktualisieren, damit die auf Server 1 definierten Jobs auf der Registerkarte **Jobs** für Server 2 als zugänglich und synchronisiert angezeigt werden.
    {:tip}
 2. Bewegen Sie den Mauscursor auf **Erweitert** und wählen Sie die Option **Aus anderem Computer wiederherstellen** aus.
 3. Wählen Sie in der Anzeige **Aus anderem Computer wiederherstellen** die folgenden Einstellungen aus.

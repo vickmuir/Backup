@@ -16,13 +16,13 @@ lastupdated: "2018-12-14"
 
 # Sicherungsclient unter Linux installieren
 
-Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux-basierten Betriebssystem kann über eine Reihe von Befehlen in der Shell oder einem Terminalfenster im Betriebssystem erfolgen. Die Prozedur umreißt die Schritte, die erforderlich sind, um den {{site.data.keyword.backup_notm}}-Client auf einem beliebigen der folgenden Linux-basierten Betriebssysteme zu installieren:
+Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux-basierten Betriebssystem kann über eine Reihe von Befehlen in der Shell oder einem Terminalfenster im Betriebssystem erfolgen. Die Prozedur umreißt die Schritte, die erforderlich sind, um den Client auf einem beliebigen der folgenden Linux-basierten Betriebssysteme zu installieren:
 
 - RHEL
 - CentOS
 - CloudLinux
 
-Nachdem die Prozedur ausgeführt wurde, registriert der automatisierte Prozess den Agentenservice beim {{site.data.keyword.backup_notm}}-Portal. Anschließend werden die Dateien heruntergeladen und installiert, die zur Ausführung des Service benötigt werden.
+Nachdem die Prozedur ausgeführt wurde, registriert der automatisierte Prozess den Agentenservice beim {{site.data.keyword.backup_notm}}-Portal. Anschließend werden die Dateien heruntergeladen und installiert, die zur Ausführung des Service benötigt werden. 
 
 Wenn Sie {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers über den [{{site.data.keyword.cloud_notm}}-Katalog](https://{DomainName}/catalog/){:new_window} oder das {{site.data.keyword.slportal}} gekauft haben, dann wird die Software automatisch für Sie installiert. Sie müssen die Prozeduren, die in diesem Dokument beschrieben werden, nicht verwenden.
 {:tip}
@@ -31,11 +31,11 @@ Wenn Sie {{site.data.keyword.backup_notm}} als Upgrade im {{site.data.keyword.sl
 
 ## Beim Zielgeräteserver anmelden
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um die Liste der verfügbaren Servereinheiten anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
-  - Sie verwenden diese IP-Adresse in den folgenden Schritten, wenn Sie sich über eine UNIX- oder Linux-Befehlszeile beim Gerät anmelden. Ersetzen Sie in dem in Schritt 4 dargestellten Befehl die Variable <öffentliche_ip-adresse> durch die tatsächliche öffentliche IP-Adresse.
+  - Sie verwenden diese IP-Adresse in den folgenden Schritten, wenn Sie sich über eine UNIX- oder Linux-Befehlszeile beim Gerät anmelden. Ersetzen Sie in dem in Schritt 5 dargestellten Befehl die Variable <öffentliche_ip-adresse> durch die tatsächliche öffentliche IP-Adresse.
 4. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen.
   - Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird. Der Benutzername und das Kennwort werden im nächsten Schritt zur Anmeldung beim Testgerät verwendet. Ersetzen Sie `benutzername` durch den tatsächlichen Benutzernamen.
 5. Melden Sie sich beim Zielgerät an, indem Sie den folgenden Befehl in einer UNIX oder Linux-Befehlszeile eingeben.
@@ -60,7 +60,7 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
   ```
   {: pre}
 
-  Wenn die entsprechende Eingabeaufforderung ausgegeben wird, bestätigen Sie, dass die Downloadgröße korrekt ist. Die Aktualisierung wird fortgesetzt. Nach Abschluss der Verarbeitung wird eine Nachricht angezeigt, in der Sie darüber informiert werden, dass die Aktualisierung abgeschlossen ist.
+  Wenn die entsprechende Eingabeaufforderung ausgegeben wird, bestätigen Sie, dass die Downloadgröße korrekt ist. Die Aktualisierung wird fortgesetzt. Nach Abschluss der Verarbeitung wird eine Nachricht angezeigt, in der Sie darüber informiert werden, dass die Aktualisierung abgeschlossen ist. 
 
 ## Installationsscript abrufen
 

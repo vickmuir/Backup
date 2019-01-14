@@ -20,22 +20,22 @@ Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sic
 
 Sie können den {{site.data.keyword.backup_notm}}-Service auf zwei Arten erwerben.
 
-- [{{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen](#purchasing-ibm-cloud-backup-when-you-order-a-server)
-- [{{site.data.keyword.backup_notm}} als Upgrade kaufen](#purchasing-ibm-cloud-backup-as-an-upgrade)
+- [Sicherungen bei der Bestellung eines Servers kaufen](#purchasing-ibm-cloud-backup-when-you-order-a-server).
+- [Sicherungen als Upgrade kaufen](#purchasing-ibm-cloud-backup-as-an-upgrade).
 
-Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 
-1. Melden Sie sich beim [IBM Cloud-Katalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} an.
-2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](bare-metal/baremetal-provision.html){:new_window}.
+1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
+2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 
       Der {{site.data.keyword.backup_notm}}-Service ist nicht verfügbar, wenn Sie einen Server bestellen, der auf Stundenbasis abgerechnet wird. Der Service kann jedoch später als Upgrade hinzugefügt werden.
       {:tip}
    2. Wählen Sie die Position aus.
    3. Wählen Sie die Serverkonfiguration und einen Betriebssystemimagetyp aus. Sie können auch mehrere Add-ons auswählen.
-   4. Klicken Sie im Abschnitt **Speicherplatten** auf **Add-ons** und wählen Sie **{{site.data.keyword.backup_notm}}-Sicherung** aus. Wählen Sie die Option aus, die Ihren Anforderungen am besten entspricht.
+   4. Klicken Sie im Abschnitt **Speicherplatten** auf **Add-ons** und wählen Sie **{{site.data.keyword.backup_notm}}** aus. Wählen Sie die Option aus, die Ihren Anforderungen am besten entspricht.
    5. Wählen Sie unter **Netzschnittstelle** die Uplink-Port-Geschwindigkeit und alle gewünschten Add-ons aus.
 3. Überprüfen Sie auf der rechten Seite Ihre Bestellübersicht.
 4. Danach markieren Sie das Kontrollkästchen **Die im Folgenden aufgeführten Servicevereinbarungen anderer Anbieter habe ich gelesen und stimme ihnen zu:**.
@@ -47,8 +47,8 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestätigung der Bereitstellungsbestellung, zur Genehmigung und Verarbeitung der Bereitstellungsbestellung sowie zur Fertigstellung der Bereitstellung. Die E-Mail zur Fertigstellung der Bereitstellung enthält einen Link zu Ihrer Seite *Gerätedetails*, auf die Sie zugreifen können, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 #### {{site.data.keyword.backup_notm}}-Einkauf bestätigen
-1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} oben links auf das **Menüssymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Gerät** > **Geräteliste**.
 2. Suchen Sie nach dem neuen Server, den Sie bestellt haben.
   - Wenn das Uhrsymbol neben der URL angezeigt wird, müssen Sie warten, bevor Sie mit der Kaufbestätigung für {{site.data.keyword.backup_notm}} fortfahren können. Sie können die Seite aktualisieren und so einen aktualisierten Status Ihres neuen Servers anzeigen. Wenn das Uhrsymbol nicht mehr angezeigt wird, können Sie mit den nächsten Schritten fortfahren, um den Kauf des {{site.data.keyword.backup_notm}}-Service zu bestätigen.
@@ -60,9 +60,9 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
 #### Wählen Sie einen Server aus, auf dem Sie {{site.data.keyword.backup_notm}} installieren möchten.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
-2. Wählen Sie im Hauptmenü die Optionen **Geräte** > **Geräteliste** aus. Suchen Sie nach dem Gerät, für das Sie den {{site.data.keyword.cloud_notm}}-Sicherungsservice hinzufügen möchten.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
+2. Wählen Sie im Hauptmenü die Optionen **Geräte** > **Geräteliste** aus. Suchen Sie nach dem Gerät, für das Sie den Sicherungsservice hinzufügen möchten.
 3. Klicken Sie auf den Gerätenamen, um zu der Seite **Gerätedetails** zu gelangen.
 
 #### {{site.data.keyword.backup_notm}}-Service hinzufügen (kaufen)
@@ -84,17 +84,15 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
 ## Auf Speicherdetails von {{site.data.keyword.backup_notm}} zugreifen und diese anzeigen
 
-Die Speicherdetails Ihres {{site.data.keyword.backup_notm}}-Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
+Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das Symbol **Menü**. Wählen Sie **Klassische Infrastruktur** aus.</br>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
-2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen. Fahren Sie mit dem nächsten Schritt fort, um das Kennwort anzuzeigen, das Ihrem {{site.data.keyword.backup_notm}}-Service zugeordnet ist.
+2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
 
-Für viele Produkte und Services von {{site.data.keyword.BluSoftlayer_full}} wird die Kennwortspeicherfunktion im {{site.data.keyword.slportal}} ausschließlich zur Speicherung und Protokollierung des Kennworts verwendet. Für diese Angebote werden Änderungen, die im {{site.data.keyword.slportal}} vorgenommen werden, nicht auf das jeweilige Produkt oder den jeweiligen Service angewendet.
-
-Dies gilt _nicht_ für {{site.data.keyword.backup_notm}}. Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} vornehmen, werden auf den Service selbst angewendet. Wenn Sie Ihr Kennwort ändern, müssen Sie bedenken, dass sich dieser Schritt direkt auf Ihren Service auswirkt. Zum Zurücksetzen Ihres Kennworts befolgen Sie die Schritte in [Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} ändern](change-password.html).
+Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} vornehmen, werden auf den Service selbst angewendet. Zum Zurücksetzen des Kennworts führen Sie die Schritte aus, die in [Kennwort für den Sicherungsservice ändern](change-password.html) beschrieben sind.
 {:important}
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
@@ -102,6 +100,7 @@ Dies gilt _nicht_ für {{site.data.keyword.backup_notm}}. Änderungen, die Sie a
 Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt:
 
 **Windows**
+ - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
@@ -121,7 +120,7 @@ Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssyste
 Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
 - [Backup-Client unter Linux installieren](install-backup-client-linux.html)
 - [Backup-Client unter Windows installieren](install-backup-client-windows.html)
-- [Backup-Client unter Windows 2016 installieren](install-windows2016.html)
+- [Backup-Client unter Windows 2016 installieren](install-backup-client-windows2016.html)
 
 ## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 
@@ -131,15 +130,15 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
 
    Das {{site.data.keyword.backup_notm}}-Portal kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
    {:important}
-2. Greifen Sie auf die Anzeige des Sicherungsspeichers im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} zu.
-3. Klicken Sie auf eine beliebige Stelle in der Zeile des {{site.data.keyword.backup_notm}}-Service, den Sie in der Ansicht erweitern möchten.
-4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
+2. Greifen Sie auf die Anzeige des Sicherungsspeichers im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} zu.
+3. Klicken Sie auf eine beliebige Stelle in der Zeile des {{site.data.keyword.backup_notm}}-Service, den Sie anzeigen möchten, um die Ansicht zu erweitern. 
+4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Backup-Client und Sicherungszeitplan konfigurieren
 
 Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie die folgenden Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren und Ihren ersten Sicherungsjob zu starten.
 
-1. Melden Sie sich bei WebCC an.
+1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an. 
 2. Klicken Sie auf **Alle Agenten**> **Nicht konfigurierte Agenten**.
 3. Klicken Sie auf den Link **Neuer Agent, der konfiguriert werden soll**. Durchlaufen Sie den Prozess und geben Sie hierbei die folgenden Informationen ein:
    1. Agentenkonfiguration: Geben Sie die Agentenbeschreibung an und klicken Sie auf **Weiter**.
@@ -165,7 +164,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent
    4. Klicken Sie auf **Sicherung starten**. Während der Prozess ausgeführt wird, können Sie sich die Sicherungsdetails ansehen.
    5. Klicken Sie nach Abschluss der Sicherung auf **Schließen**.
 
-Weitere Informationen zu Sicherungen auf Dateiebene unter Linux finden Sie unter [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](configure-simple-file-backup-linux.html).
+Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](configure-simple-file-backup-linux.html).
 {:tip}
 
 ## Onlinehilfe anfordern

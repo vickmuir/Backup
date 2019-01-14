@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # {{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren
 
-## Den {{site.data.keyword.backup_notm}}-Softwareagenten installieren
+## Sicherungsagenten installieren
 
 1. Öffnen Sie auf dem Zielserver eine Browsersitzung und geben Sie die folgende URL ein, um die ausführbare Datei herunterzuladen:
    ```
@@ -52,16 +52,16 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
 2. Starten Sie Central Control.
-3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Agentenkonfiguration** aus.
+3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **Eigener Agent** und wählen Sie die Option **Agentenkonfiguration** aus.
 4. Klicken Sie auf der Registerkarte 'Vaults' auf **Neu**. Daraufhin wird der Assistent für die Vaultkonfiguration aufgerufen. Klicken Sie auf **Weiter**.
 5. Wählen Sie **Als neuer Computer registrieren** aus und klicken Sie auf **Weiter**.
 6. Geben Sie im Feld für den Profilnamen den Vaultnamen ein.
 
-   Der Vaultname kann im [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} abgerufen werden.
+   Der Vaultname kann im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} abgerufen werden.
    {:tip}
 6. Geben Sie die Netzadresse (IP-Adresse der zugewiesenen Vault) ein und klicken Sie anschließend auf **Hinzufügen**. Klicken Sie anschließend auf **Weiter**.
 7. Geben Sie die neuen Portwerte ein, klicken Sie auf **Hinzufügen** und klicken Sie dann auf **Weiter**.
-8. Geben Sie in der Anzeige "Verbindungseinstellungen" die gewünschte Anzahl der Sekunden und Minuten. Behalten Sie die Auswahl des Kontrollkästchens zum **Aktivieren über die Verbindungsverschlüsselung für Übertragungen zur/von der Vault** bei. Klicken Sie auf **Weiter**.
+8. Geben Sie in der Anzeige "Verbindungseinstellungen" die gewünschte Anzahl der Sekunden und Minuten. Behalten Sie die Auswahl des Kontrollkästchens zum **Aktivieren über die Verbindungsverschlüsselung für Übertragungen zur Vault und von der Vault** bei. Klicken Sie auf **Weiter**.
 9. Geben Sie in der Anzeige 'Authentifizierung' Ihre Berechtigungsnachweise ein und klicken Sie auf **Weiter**.
 10. Im Fenster 'Registrierte Computer' wird nun der Hostname Ihres Servers angezeigt. Klicken Sie auf **Weiter**.
 11.	Klicken Sie auf **Fertigstellen**, um die Konfiguration abzuschließen.
@@ -71,7 +71,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
 2. Starten Sie Central Control.
-3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Agentenkonfiguration** aus.
+3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **Eigener Agent** und wählen Sie die Option **Agentenkonfiguration** aus.
 4. Klicken Sie auf die Registerkarte **Aufbewahrungen**. Klicken Sie im daraufhin aufgerufenen Aufbewahrungsassistenten auf **Weiter**.
 5. Geben Sie den Aufbewahrungsnamen ein. Klicken Sie auf **Weiter**.<br/>
 
@@ -85,11 +85,11 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 8. Klicken Sie auf **Fertigstellen**, um die Konfiguration des Aufbewahrungsschemas abzuschließen.
 
 
-## {{site.data.keyword.backup_notm}}-Job konfigurieren
+## Sicherungsjob einrichten
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
 2. Starten Sie Central Control.
-3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie die Option **Neuer Job** aus.
+3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **Eigener Agent** und wählen Sie die Option **Neuer Job** aus.
 4. Klicken Sie in der Eingangsanzeige auf **Weiter**.
 5. Wählen Sie den Sicherungsquellentyp aus.
 6. Wählen Sie für die Codierung **Unicode** aus. Klicken Sie auf **Weiter**.
@@ -102,14 +102,14 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 10. Geben Sie die Optionen für die Verarbeitung und den Sicherungszeitpunkt an. Aktivieren Sie die Option **Quick File Scanning** (Schnelldateisuche) und legen Sie das Sicherungszeitfenster durch eine entsprechende Stunden- oder Minutenangabe fest. Klicken Sie anschließend auf **Weiter**.
 11. Wählen Sie den Verschlüsselungstyp (Standardeinstellung AES 256-Bit) aus und geben Sie Ihr Verschlüsselungskennwort ein. Klicken Sie auf **Weiter**.
 12. Wählen Sie die Protokolloptionen für Ihren Job aus. Aktivieren Sie die Option **Protokolldatei erstellen** und wählen Sie dann die Option **Nur abgelaufene Protokolldateien automatisch bereinigen** aus. Klicken Sie anschließend auf **Weiter**.
-13. Wählen Sie die Option zum **Beenden des Assistenten** aus und klicken Sie dann auf **Fertigstellen**, um die Konfiguration abzuschließen. Unter 'MyAgent' wird daraufhin der neue Job angezeigt.
+13. Wählen Sie die Option zum **Beenden des Assistenten** aus und klicken Sie dann auf **Fertigstellen**, um die Konfiguration abzuschließen. Unter 'Eigener Agent' wird daraufhin der neue Job angezeigt.
 
 
-## {{site.data.keyword.backup_notm}}-Job ausführen
+## Sicherungsjob ausführen
 
 1. Aktivieren Sie die Fernsteuerung Ihres Servers über RDP.
 2. Starten Sie Central Control.
-3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **MyAgent** und wählen Sie dann den von Ihnen erstellten Agenten aus.
+3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **Eigener Agent** und wählen Sie dann den von Ihnen erstellten Agenten aus.
 4. Klicken Sie in der Eingangsanzeige auf **Weiter**.
 5. Wählen Sie das Sicherungsziel oder eine andere Speicherposition für den Seed-Sicherungsjob (vollständige Gesamtsicherung) aus. Klicken Sie auf **Weiter**.<br/>
    Weitere Informationen zur Verwendung mehrerer Vaults finden Sie unter [Multi-Vaulting](multivaulting.html)

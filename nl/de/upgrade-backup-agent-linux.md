@@ -13,7 +13,8 @@ lastupdated: "2018-12-14"
 
 # Upgrade für Backup-Softwareagenten für Linux durchführen
 
-Der aktuelle {{site.data.keyword.backup_notm}}-Agent kann von Ihrem {{site.data.keyword.backup_notm}}-Portal-Dashboard-Abschnitt "Quick Links" heruntergeladen werden.{:tip}
+Der aktuelle Sicherungsagent kann von Ihrem {{site.data.keyword.backup_notm}}-Portal-Dashboard-Abschnitt "Quick Links" heruntergeladen werden.
+{:tip}
 
 Im Anschluss an den Upgradeprozess wird sichergestellt, dass Sie ein Upgrade für Ihren {{site.data.keyword.backup_notm}}-Agenten durchführen können, ohne dass dabei die Registrierung verloren geht.
 
@@ -29,7 +30,7 @@ Im Anschluss an den Upgradeprozess wird sichergestellt, dass Sie ein Upgrade fü
    ```
    tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
    ```
-4. Gehen Sie zum letzten Installationsverzeichnis.
+4. Wechseln Sie in das Verzeichnis der aktuellen Installation. 
    ```
    cd Agent-Linux-x64-8.11.5251/4.
    ```
@@ -40,6 +41,6 @@ Im Anschluss an den Upgradeprozess wird sichergestellt, dass Sie ein Upgrade fü
    ```
    {:pre}
 
-6. Beantworten Sie die Eingabeaufforderungen, indem Sie `N` auswählen, um den Computer nicht als neuen Host zu registrieren und die Sprache auszuwählen, und indem Sie `A`, um Daten unter Verwendung des integrierten Verschlüsselungsverfahrens zu verschlüsseln.
+6. Beantworten Sie die Eingabeaufforderungen, indem Sie die gewünschte Sprache auswählen, `N` auswählen, um den Computer nicht als neuen Host zu registrieren, und `A` auswählen, um Daten mithilfe des integrierten Verschlüsselungsverfahrens zu verschlüsseln. 
 
 7. Wenn die Installation erfolgreich ist, wird sie in `/opt/BUAgent/Install.log` aufgezeichnet.
