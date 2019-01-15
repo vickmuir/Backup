@@ -22,10 +22,10 @@ lastupdated: "2018-12-14"
 **必要條件**
 
 - Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](index.html#configuring-the-backup-agent-in-webcc)。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
 - 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
-請停用這兩部伺服器上的所有「排程」工作，以避免發生任何衝突。
+請停用這兩部伺服器上的所有排定工作，以避免發生任何衝突。
 {:important}
 
 ## 啟動 Server2 的 {{site.data.keyword.backup_notm}} 入口網站
@@ -33,12 +33,11 @@ lastupdated: "2018-12-14"
 請記得啟動您的 {{site.data.keyword.BluVPN}} 連線，以存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 {{site.data.keyword.backup_notm}} 入口網站鏈結無法運作。
 {:tip}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取 Server2。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
-4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動 {{site.data.keyword.backup_notm}} 入口網站用戶端。
+4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 重新登錄儲存庫
 
@@ -56,7 +55,7 @@ lastupdated: "2018-12-14"
 
 1. 按一下**所有代理程式**。
 
-   您可能需要重新整理頁面，才能在 Server2 的**工作**標籤下，看到在 Server1 上定義為可存取/已同步的工作。
+   您可能需要重新整理頁面，才能在 Server2 的**工作**標籤下，看到在 Server1 上定義為可存取且已同步的工作。
    {:tip}
 2. 將滑鼠移至**進階**上，並選取**從另一部電腦還原**。
 3. 在**從另一部電腦還原**畫面上，按一下**新增**。欄位中會自動移入預設值，因此請變更它們。

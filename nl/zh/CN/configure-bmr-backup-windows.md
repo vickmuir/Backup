@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # 在 Windows 上配置 BMR 备份作业
 
-您需要购买 BMR 插件才能创建 BMR 备份。BMR 仅可用于 Windows 裸机服务器。没有 BMR 选项可用于 VSI。
+您需要购买 BMR 插件才能创建 BMR 备份。BMR 仅可用于 Windows 裸机服务器。没有 BMR 选项可用于 VSI。有关更多信息，请参阅[安装 Bare Metal Restore 插件](bmr-plugin.html)
 {:important}
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
@@ -26,7 +26,7 @@ lastupdated: "2018-12-14"
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
-4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。
+4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
    如果 {{site.data.keyword.backup_notm}} 门户网站未启动，那么可能是 VPN 连接存在问题。您还可能会看到一条消息，指示您要发送的表单不安全。这是预期行为 - 请通过发送表单以继续。
    {:tip}

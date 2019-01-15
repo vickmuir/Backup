@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # 升級 Linux 的備份軟體代理程式
 
-您可以從 {{site.data.keyword.backup_notm}} 入口網站的「儀表板」快速鏈結區段下載最新的 {{site.data.keyword.backup_notm}} 代理程式。
+您可以從 {{site.data.keyword.backup_notm}} 入口網站的「儀表板」快速鏈結區段下載最新的備份代理程式。
 {:tip}
 
 遵循升級程序可確保您能夠將 {{site.data.keyword.backup_notm}} 代理程式升級，而不會遺失登錄資料 
@@ -30,7 +30,7 @@ lastupdated: "2018-12-14"
    ```
    tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
    ```
-4. 移至最近的安裝目錄
+4. 移至最近的安裝目錄。
    ```
    cd Agent-Linux-x64-8.11.5251/4.
    ```
@@ -41,6 +41,6 @@ lastupdated: "2018-12-14"
    ```
    {:pre}
 
-6. 依系統提示，選取 `N`，表示不將電腦登錄為新主機；選取您的語言；然後選取 `A`，以使用整合的加密方法來加密資料。
+6. 依系統提示，選取您的語言；選取 `N`，表示不將電腦登錄為新主機；然後選取 `A`，以使用整合的加密方法來加密資料。
 
 7. 如果安裝成功，則會記錄在 `/opt/BUAgent/Install.log` 中。

@@ -35,10 +35,10 @@ data center no qual o servidor está localizado.
 
 ## Incluindo uma área segura remota em uma conta
 
-Deve-se incluir a nova área segura remota do {{site.data.keyword.backup_notm}} na conta antes que um novo local de backup possa ser incluído no portal do {{site.data.keyword.backup_notm}}.
+Deve-se incluir a nova área segura remota na conta antes que um novo local de backup possa ser incluído no portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone **Menu** no canto superior esquerdo. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Dispositivos**
 3. Localize e clique no link para o servidor em questão.
@@ -57,12 +57,12 @@ Quando o processo de solicitação estiver concluído, acesse o **Armazenamento*
 
 ## Incluindo uma Área segura extra no portal do {{site.data.keyword.backup_notm}}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione o servidor do qual deseja poder fazer backup em múltiplas áreas seguras. Clique na seta para a direita para exibir o link do portal do {{site.data.keyword.backup_notm}}.
-4. Clique no link **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal do {{site.data.keyword.backup_notm}} em seu navegador.
+4. Clique no link **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
    O portal do {{site.data.keyword.backup_notm}} é acessível apenas por meio do {{site.data.keyword.BluVPN}}.
    {:tip}

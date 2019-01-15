@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Configurando o {{site.data.keyword.backup_notm}} no Windows 2016
 
-## Instalando o agente do software {{site.data.keyword.backup_notm}}
+## Instalando o agente de backup
 
 1. No servidor de destino, abra uma sessão do navegador e insira a URL a seguir para fazer download do
 arquivo executável.
@@ -54,7 +54,7 @@ Esta tarefa é concluída por meio de uma série de interações enquanto você 
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
 2. Inicie o controle central.
-3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Configuração do agente**.
+3. Na área de trabalho, clique com o botão direito em **Meu agente** e selecione **Configuração do agente**.
 4. Na guia Áreas seguras, clique em **Novo**. O Assistente de Configuração de Área Segura aparece. Clique em **Avançar**.
 5. Selecione **Registrar como um novo computador** e clique em
 **Avançar**.
@@ -64,7 +64,7 @@ Esta tarefa é concluída por meio de uma série de interações enquanto você 
    {:tip}
 6. Insira o endereço de rede (o endereço IP da área segura designada) e clique em **Incluir**. Em seguida, clique em **Avançar**.
 7. Insira os novos valores de porta e clique em **Incluir** e, em seguida, em **Avançar**.
-8. Na tela Configurações de conexão, insira o número de segundos e minutos desejados. Mantenha a caixa **Ativar sobre a criptografia de ligação para transmissões para/a partir da área segura** marcada. Clique em **Avançar**.
+8. Na tela Configurações de conexão, insira o número de segundos e minutos desejados. Mantenha a caixa **Ativar a criptografia de ligação para transmissões de e para a área segura** marcada. Clique em **Avançar**.
 9. Na tela de autenticação, insira as suas credenciais e clique em **Avançar**.
 10. A janela Computadores registrados exibe o nome do host de seu servidor. Clique em **Avançar**.
 11.	Clique em **Concluir** para concluir a configuração.
@@ -74,7 +74,7 @@ Esta tarefa é concluída por meio de uma série de interações enquanto você 
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
 2. Inicie o controle central.
-3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Configuração do agente**.
+3. Na área de trabalho, clique com o botão direito em **Meu agente** e selecione **Configuração do agente**.
 4. Clique na guia **Retenções**. O Assistente de retenção aparece; clique em **Avançar**.
 5. Insira o nome de retenção. Clique em **Avançar**.<br/>
 
@@ -89,11 +89,11 @@ backups sejam retidos.
 8. Clique em **Concluir** para concluir a configuração do esquema de retenção.
 
 
-## Configurando a tarefa do {{site.data.keyword.backup_notm}}
+## Configurando a tarefa de backup
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
 2. Inicie o controle central.
-3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione **Nova tarefa**.
+3. Na área de trabalho, clique com o botão direito em **Meu agente** e selecione **Nova tarefa**.
 4. Na tela de boas-vindas, clique em **Avançar**.
 5. Selecione o tipo de origem de backup.
 6. Selecione **Unicode** para codificação. Clique em **Avançar**.
@@ -106,14 +106,14 @@ backups sejam retidos.
 10. Especifique as opções de tempo de processamento e de backup. Marque **Varredura rápida de arquivo** e insira as horas ou minutos que você deseja como o espaço de tempo de backup. Em seguida, clique em **Avançar**.
 11. Selecione o tipo de criptografia (a configuração padrão é AES de 256 bits) e insira sua senha de criptografia. Clique em **Avançar**
 12. Selecione as opções de log para sua tarefa. Marque **Criar arquivo de log** e selecione **Limpar somente arquivos de log expirados automaticamente**. Em seguida, clique em **Avançar**
-13. Selecione **Apenas sair deste assistente** e clique em **Concluir** para concluir a configuração. A nova tarefa agora aparece sob o MyAgent.
+13. Selecione **Apenas sair deste assistente** e clique em **Concluir** para concluir a configuração. A nova tarefa agora aparece sob Meu agente.
 
 
-## Executando a tarefa do {{site.data.keyword.backup_notm}}
+## Executando a tarefa de backup
 
 1. Realize o controle remoto de seu servidor por meio de RDP.
 2. Inicie o controle central.
-3. Na área de trabalho, clique com o botão direito em **MyAgent** e selecione o agente que você criou.
+3. Na área de trabalho, clique com o botão direito em **Meu agente** e selecione o agente que você criou.
 4. Na tela de boas-vindas, clique em **Avançar**.
 5. Selecione o destino de backup ou outro local para iniciar a tarefa de backup. Clique em **Avançar**.<br/>
    Para obter mais informações sobre múltiplas áreas seguras, consulte

@@ -19,8 +19,7 @@ lastupdated: "2018-12-14"
 ## 起始 BMR Rescue Kernel 系統
 
 您可以透過 {{site.data.keyword.slportal}} 存取 BMR Rescue Kernel 系統。
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 按一下儲存庫旁邊的**箭頭**。
@@ -30,7 +29,7 @@ lastupdated: "2018-12-14"
 ## 從 BMR Rescue Kernel 還原
 
 1. 載入 BMR Rescue Kernel 交易時，您可以選擇以兩種不同的方式來存取它。
-  - VNC 用戶端及伺服器的專用/公用 IP 位址，以及 {{site.data.keyword.slportal}} 中列出的密碼
+  - VNC 用戶端及伺服器的專用或公用 IP 位址，以及 {{site.data.keyword.slportal}} 中列出的密碼
   - IPMI 卡的 KVM 主控台。
   這兩種方式都可正常運作。
 2. 第一次登入 BMR Rescue Kernel 時，會為您顯示語言選取畫面。選取您選擇的語言，然後按**下一步**。
@@ -62,5 +61,5 @@ lastupdated: "2018-12-14"
 17. 在還原進度畫面上，按**下一步**。
 18. 在最後一個畫面上，勾選重新啟動系統的方框，然後選取**完成**，伺服器就會載入已還原的磁區映像檔。還原現在已完成。<br/>
 
-  第一次發生此狀況時，您可能會看到非預期的關機訊息。對於此備份類型，這是正常情況，而且在第一次開機之後就會消失。
+  伺服器第一次重新啟動時，您可能會看到非預期的關機訊息。對於此備份類型，這是正常情況，而且在第一次開機之後就會消失。
   {:tip}

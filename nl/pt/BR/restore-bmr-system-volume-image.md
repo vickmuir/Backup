@@ -14,15 +14,13 @@ lastupdated: "2018-12-14"
 
 # Restaurando uma imagem de volume do sistema BMR
 
-Se for necessário restaurar um backup de imagem do Bare Metal do {{site.data.keyword.backup_full}}, será
-possível restaurá-lo rapidamente por meio do sistema kernel de resgate de BMR. Com a BMR, é possível restaurar
+Se for necessário restaurar um backup de imagem Bare Metal do {{site.data.keyword.backup_full}}, será possível fazer isso rapidamente por meio do sistema BMR Rescue Kernel. Com a BMR, é possível restaurar
 o sistema sem a necessidade de um sistema operacional inicializável. Isso é útil quando o sistema operacional não é mais utilizável ou quando as unidades no sistema foram substituídas.
 
 ## Iniciando o sistema kernel de resgate de BMR
 
 É possível acessar o sistema kernel de resgate de BMR por meio do {{site.data.keyword.slportal}}.
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
@@ -35,8 +33,7 @@ que leva alguns minutos para ser concluída. Em seguida, é possível acessar o 
 
 1. Quando a transação do kernel de resgate de BMR é carregada, é possível optar por
 acessá-la de duas maneiras diferentes.
-  - Um cliente VNC e o endereço IP público/privado de seu servidor e a senha que é listada no
-{{site.data.keyword.slportal}}
+  - Um cliente VNC e o endereço IP privado ou público de seu servidor, além da senha listada no {{site.data.keyword.slportal}}
   - O console KVM do seu cartão de IPMI.
   Ambas as formas funcionam bem.
 2. Ao efetuar login no kernel de resgate de BMR pela primeira vez, você é recebido com a tela
@@ -76,5 +73,5 @@ concluída com sucesso. Clique em **OK**.
 18. Na tela final, marque a caixa para reiniciar o sistema e selecione **Concluir** e o servidor carregará a imagem do volume restaurado.
   A restauração está agora concluída. <br/>
 
-  Na primeira vez que isso acontecer, você poderá ver uma mensagem de encerramento inesperada. É normal com esse tipo de backup e desaparece após a primeira inicialização.
+  Na primeira vez em que o servidor é reiniciado, é possível ver a mensagem de encerramento inesperada. É normal com esse tipo de backup e desaparece após a primeira inicialização.
   {:tip}

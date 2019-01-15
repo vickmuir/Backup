@@ -18,12 +18,12 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**. <br>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 2. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 3. Avvia la tua connessione VPN per ottenere l'accesso alla rete privata IBM.
-4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale {{site.data.keyword.backup_notm}} nel tuo browser.<br/>
+4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>
 
   Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
   {:tip}
@@ -35,16 +35,18 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 3. Immetti un nome e una descrizione per il lavoro che stai creando.
 4. Per **Backup Source Type**, seleziona il tipo di file system di cui vuoi eseguire il backup.
 5. Fai clic su **Next** per continuare.
-6. Nel riquadro **Data Files**, passa ai file e alle directory che vuoi includere nel backup facendo clic sui simboli **+** e **-** accanto alle icone cartella.
+6. Nel riquadro dei file di dati, vai ai file e alle directory che vuoi includere nel tuo backup facendo clic sui simboli **+** e **-** accanto alle icone cartella.
 7. Seleziona le caselle di spunta accanto ai file e alle directory che vuoi includere, quindi fai clic su **Include** per salvare le tue scelte.
-8. Puoi filtrare ulteriormente le tue selezioni utilizzando la schermata a comparsa che appare o fare clic su **OK** per utilizzare le selezioni effettuate così come sono. Dopo aver incluso le tue scelte di file e directory, i file e le directory selezionati vengono visualizzati nel riquadro **Backup Set** sul lato destro della schermata. Fai clic su **Next** per continuare.
+8. Puoi filtrare ulteriormente le tue selezioni utilizzando la schermata a comparsa che appare o fare clic su **OK** per utilizzare le selezioni effettuate così come sono. Dopo aver incluso le tue scelte di file e directory, i file e le directory selezionati vengono visualizzati nel riquadro dell'insieme di backup sul lato destro della schermata. Fai clic su **Next** per continuare.
 
-   Puoi ripetere i passi da 6 a 8 per aggiungere altri file o per rimuovere i file che hai precedentemente aggiunto (utilizzando **Exclude**). Puoi anche utilizzare **Remove** per eliminare qualsiasi voce dal riquadro **Backup Set**. Dopo aver configurato il tuo insieme di backup nel modo desiderato,
+   Puoi ripetere i passi da 6 a 8 per aggiungere altri file o per rimuovere i file che hai precedentemente aggiunto (utilizzando **Exclude**). Puoi anche utilizzare **Remove** per eliminare qualsiasi voce dal riquadro dell'insieme di backup. Dopo aver configurato il tuo insieme di backup nel modo desiderato,
    {:tip}
 9. Seleziona il tipo di crittografia che vuoi utilizzare.
   - Se non vuoi crittografare il tuo backup, seleziona **None**.
   - Se vuoi la utilizzare la crittografia, seleziona **AES 256 bit** e immetti una password nei campi Password e Verify Password. Puoi anche aggiungere un suggerimento password.
-    Hai bisogno di questa password per ripristinare i file dal backup. Senza la password, non puoi ripristinare un backup crittografato e non c'è modo di recuperare una password perduta. {:important}
+
+    Hai bisogno di questa password per ripristinare i file dal backup. Senza la password, non puoi ripristinare un backup crittografato e non c'è modo di recuperare una password perduta.
+    {:important}
 10. Puoi utilizzare una qualsiasi delle **Advanced Options**.
   - **Retention** - Puoi gestire l'utilizzo dei dati con questa opzione. Il periodo di conservazione determina per quanto tempo viene mantenuto il tuo backup. Una volta che il periodo di conservazione è stato raggiunto, il backup viene rimosso automaticamente. Le scelte integrate sono Daily, Weekly o Monthly.
   - **Compression** - Puoi utilizzare questa opzione per ridurre la capacità utilizzata per salvare i backup.

@@ -21,9 +21,8 @@ lastupdated: "2018-12-14"
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络。否则，{{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:important}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要复原的文件所在的服务器。单击箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。
@@ -39,7 +38,7 @@ lastupdated: "2018-12-14"
 7. 输入加密密码。
 8. 单击**下一步**以继续。
 9. 选择要将其包含的文件和目录旁边的复选框。然后，单击**包含**以保存您的选择。
-10. 可以使用所显示的窗口来进一步过滤您的选择，也可以单击**确定**以按原样使用您所做的选择。您包含所选文件和目录之后，在**数据文件**窗格中将无法再选择这些文件。它们将显示在右侧的**备份集**窗格中。
+10. 可以使用所显示的窗口来进一步过滤您的选择，也可以单击**确定**以按原样使用您所做的选择。包含选择的文件和目录之后，在数据文件窗格中将无法再选择这些文件。它们将显示在右侧的备份集窗格中。
 
    您可以重复步骤 10 来添加更多文件或除去先前添加的文件（使用**排除**）。还可以使用**除去**，从**备份集**窗格中删除任何行项。
    {:tip}

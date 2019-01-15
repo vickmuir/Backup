@@ -27,7 +27,7 @@ Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-featues)
 
 ## Ordinazione del plug-in
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
@@ -39,7 +39,7 @@ Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-featues)
 
 ## Installazione del plug-in MSSQL
 
-Per installare il plug-in SQL, esegui il kit di installazione dell'agent. Il plug-in viene visualizzato come opzione nella pagina **Custom Setup**.
+Per installare il plug-in, esegui il kit di installazione dell'agent. Il plug-in viene visualizzato come opzione nella pagina **Custom Setup**.
 
 Prima di installare il plug-in MSSQL per il tuo server Microsoft Windows, arresta entrambi i servizi {{site.data.keyword.backup_notm}} in `services.msc`.
 {:tip}
@@ -58,7 +58,7 @@ Prima di installare il plug-in MSSQL per il tuo server Microsoft Windows, arrest
 
 ## Download della guida utente
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter scaricare la guida utente da [Downloadable {{site.data.keyword.backup_notm}} Documentation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Funzioni principali
 

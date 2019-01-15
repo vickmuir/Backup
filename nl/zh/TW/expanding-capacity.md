@@ -20,7 +20,7 @@ lastupdated: "2018-12-14"
 ## 訂購增加
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您要擴充的儲存庫。
 4. 按一下**動作**，然後選取**修改 {{site.data.keyword.backup_notm}}**。

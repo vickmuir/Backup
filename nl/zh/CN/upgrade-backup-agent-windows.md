@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # 升级 Windows 的备份软件代理程序
 
-最新的 {{site.data.keyword.backup_notm}} 代理程序可以从 {{site.data.keyword.backup_notm}} 门户网站仪表板快速链接部分进行下载。
+最新的备份代理程序可以从 {{site.data.keyword.backup_notm}} 门户网站仪表板快速链接部分进行下载。
 {:tip}
 
 1. 远程控制需要进行 {{site.data.keyword.backup_notm}} 升级的 {{site.data.keyword.BluSoftlayer_full}} 服务器。 
@@ -24,7 +24,7 @@ lastupdated: "2018-12-14"
    {:pre}
 3. 单击所需的文件。（例如，Agent-Windows-x64-6-72-1072a.exe）
 
-   文件名中含有版本号。请选择最新版本。<br/>提供了单独的 32 位和 64 位安装程序。如果您使用的是 64 位操作系统，请下载名称中含有 x64 的文件。
+   文件名中含有版本号。请选择最新版本。<br/>{{site.data.keyword.BluSoftlayer_full}} 提供了单独的 32 位和 64 位安装程序。如果您使用的是 64 位操作系统，请下载名称中含有 x64 的文件。
    {:tip}
 4. 在下载屏幕上单击**运行**，然后在下载后再次单击“运行”。
 5. 单击**是**以升级 **{{site.data.keyword.backup_notm}} 软件代理程序**。

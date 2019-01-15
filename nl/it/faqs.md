@@ -19,7 +19,7 @@ lastupdated: "2018-11-15"
 
 {{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. {{site.data.keyword.BluSoftlayer_full}} offre anche agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono
 
-- Ripristino Bare Metal
+- Bare Metal Restore
 - Microsoft Exchange
 - Microsoft SQL
 - Oracle
@@ -28,7 +28,7 @@ I plug-in qui elencati sono compatibili solo con i server Windows, fatta eccezio
 
 <hr>
 
-## Con quale frequenza è possibile eseguire il backup dei dati?
+## Con quale frequenza possiamo eseguire il backup dei dati?
 {: faq}
 
 All'interno del portale {{site.data.keyword.backup_notm}}, i backup possono essere eseguiti manualmente oppure possono essere pianificati come una singola istanza o per essere ricorrenti. I backup ricorrenti possono essere effettuati giornalmente, settimanalmente, mensilmente o in base a una pianificazione personalizzata e possono essere aggiornati o annullati in qualsiasi momento.
@@ -41,9 +41,9 @@ I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causar
 ## Come funzionano gli schemi di conservazione?
 {: faq}
 
-Evault Backup consente la conservazione dei dati a seconda del punto temporale al quale vuoi far risalire il rollback. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile.
+{{site.data.keyword.backup_notm}} consente la conservazione dei dati a seconda del lasso di tempo a cui vuoi far risalire il rollback. Gli schemi di conservazione **giornalieri** mantengono i dati per sette giorni, mentre gli schemi **settimanali** mantengono i dati per un mese e gli schemi **mensili** li mantengono un anno. Al termine di ciascun periodo, il dataset più vecchio viene ruotato e il primo "backup delta" realizzato diventa il più vecchio punto di ripristino disponibile.
 
-Puoi modificare gli schemi di conservazione predefiniti e puoi creare degli schemi di conservazione personalizzati. Tuttavia, IBM consiglia di utilizzare le conservazioni predefinite come punto di partenza. Quando crei un nuovo schema di conservazione o modifichi una conservazione esistente, assicurati che l'opzione di archiviazione (Archiving) non sia selezionata. L'archiviazione non è supportata.
+Puoi modificare gli schemi di conservazione predefiniti e puoi creare degli schemi di conservazione personalizzati. Tuttavia, IBM ti consiglia di utilizzare le conservazioni predefinite come punto di partenza. Quando crei un nuovo schema di conservazione o modifichi una conservazione esistente, assicurati che l'opzione di archiviazione (Archiving) non sia selezionata. L'archiviazione non è supportata.
 {:tip}
 
 <hr>
@@ -51,7 +51,7 @@ Puoi modificare gli schemi di conservazione predefiniti e puoi creare degli sche
 ## Cos'è la tecnologia delta?
 {: faq}
 
-Il primo backup è un "seed" (un backup completo), quelli successivi sono "delta" (ossia, solo modifiche), ma equivalgono a un "backup completo" e sono ancora considerati come tale. Vale a dire, sei in grado di ripristinare da esso tutti o alcuni file. Questa tecnologia consente di eseguire "backup completi" in ogni sessione, ma risparmia enormi quantità di spazio sull'archivio e riduce il tempo necessario per il completamento di ogni backup successivo.
+Il primo backup è un "seed" (un backup completo), quelli successivi sono "delta" (ossia, solo modifiche), ma equivalgono a un "backup completo" e sono ancora considerati come tale. Vale a dire, sei in grado di ripristinare da esso tutti o alcuni file. Con questa tecnologia, vengono creati dei "backup completi" a ogni sessione, ma si risparmiano enormi quantità di spazio nell'archivio e si riduce il tempo necessario per il completamento di ogni backup successivo.
 
 <hr>
 
@@ -71,7 +71,7 @@ I rapporti di compressione consentono una compressione da zero a un rapporto mas
 ## Quali informazioni vengono memorizzate con i backup dello stato del sistema?
 {: faq}
 
-I backup dello stato del sistema includono il database di registrazione della classe COM +, il registro, i file di avvio, i file di sistema, il contatore delle prestazioni e altro ancora. Tutti dipendono dal tuo sistema. I file di sistema variano a seconda del sistema operativo e dei service pack del sistema. Di solito ce ne sono diverse migliaia. MS Windows crea un elenco dinamico di queste DLL quando le includi nel backup. Includendo i file di sistema, puoi eseguire il ripristino in caso di file di sistema danneggiati o se disinstalli casualmente alcuni service pack oppure se vuoi utilizzare un ripristino bare metal. Puoi tornare allo stato del backup senza dover reinstallare il sistema operativo dal kit di installazione e quindi installare ciascun service pack separatamente.
+I backup dello stato del sistema includono il database di registrazione della classe COM +, il registro, i file di avvio, i file di sistema, il contatore delle prestazioni e altro ancora. Tutti dipendono dal tuo sistema. I file di sistema variano a seconda del sistema operativo e dei service pack del sistema. Di solito ce ne sono diverse migliaia. MS Windows crea un elenco dinamico di queste DLL quando le includi nel backup. Includendo i file di sistema, puoi eseguire il ripristino in caso di file di sistema danneggiati o se rimuovi casualmente alcuni service pack oppure se vuoi eseguire il recupero utilizzando un ripristino bare metal. Puoi tornare allo stato del backup senza dover reinstallare il sistema operativo dal kit di installazione e quindi installare ciascun service pack separatamente.
 
 Nessun file di dati utente è incluso nel backup dello stato del sistema. Un lavoro di backup dello stato del sistema deve essere configurato come lavoro autonomo. Non deve essere presente alcuna altra origine dati inclusa nel lavoro di backup dello stato del sistema
 {:important}
@@ -95,7 +95,7 @@ Per ulteriori informazioni, consulta [Backup storage](https://www.ibm.com/cloud/
 ## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_full}} senza compromettere i backup?
 {: faq}
 
-Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](expanding-evault-capacity.html).
+Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](expanding-capacity.html).
 
 <hr>
 
@@ -136,7 +136,7 @@ Il backup BMR non è un'immagine del disco, ma un sistema di backup dell'immagin
 ##È possibile utilizzare BMR per i backup del database?
 {: faq}
 
-I backup del database devono essere eseguiti separatamente con i normali metodi di {{site.data.keyword.backup_notm}} BMR non sostituisce la necessità di plug-in SQL o Oracle. Sebbene BMR utilizzi la tecnologia VSS per eseguire il backup di file aperti, non può sempre garantire che i file di backup siano coerenti con le transazioni. Il consiglio per questi tipi di applicazioni specializzate è la creazione di due lavori di backup: uno per il backup del sistema operativo e dei file binari dell'applicazione e un altro per i dati dell'applicazione. È disponibile una nota al riguardo alla fine della guida utente BMR.
+I backup del database devono essere eseguiti separatamente con i normali metodi di {{site.data.keyword.backup_notm}} BMR non sostituisce la necessità di plug-in SQL o Oracle. Sebbene BMR utilizzi la tecnologia VSS per eseguire il backup di file aperti, non può sempre garantire che i file di backup siano coerenti con le transazioni. Il consiglio per questi tipi di applicazioni specializzate è la creazione di due lavori di backup: uno per il backup del sistema operativo e dei file binari dell'applicazione e un altro per i dati dell'applicazione.
 
 <hr>
 
@@ -149,7 +149,7 @@ Puoi eseguire un ripristino dell'intero sistema oppure selezionare singoli file 
 ## BMR ha capacità di backup dei file aperti?
 {: faq}
 
-BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](evault-mssql-plugin.html) per le istruzioni di installazione del plug-in MSSQL.
+BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](mssql-plugin.html) per le istruzioni di installazione del plug-in MSSQL.
 
 <hr>
 
@@ -163,4 +163,4 @@ Un backup effettuato da un'installazione predefinita utilizza circa 6 GB. Tale r
 ## A cosa serve VSS (Volume Shadow Copy Services)?
 {: faq}
 
-La versione corrente del plug-in SQL Server per {{site.data.keyword.backup_notm}} utilizza VSS (Volume Shadow Copy Services) per completare i backup. Utilizzando VSS, il plug-in SQL Server esegue efficacemente il backup dei database SQL, anche dei database SQL che si estendono sui volumi. I backup possono essere completati mentre le applicazioni continuano a scrivere in un volume. Il plug-in SQL Server fornisce la congruenza dei dati all'interno e tra i database. VSS consente di eseguire più backup contemporaneamente.
+La versione corrente del plug-in SQL Server utilizza VSS (Volume Shadow Copy Services) per completare i backup. Utilizzando VSS, il plug-in SQL Server esegue efficacemente il backup dei database SQL, anche dei database SQL che si estendono sui volumi. I backup possono essere completati mentre le applicazioni continuano a scrivere in un volume. Il plug-in SQL Server fornisce la congruenza dei dati all'interno e tra i database. VSS consente di eseguire più backup contemporaneamente.

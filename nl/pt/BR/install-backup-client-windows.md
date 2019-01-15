@@ -18,12 +18,11 @@ lastupdated: "2018-12-14"
 A instalação do cliente do {{site.data.keyword.backup_full}} no Windows é concluída por meio de
 uma série de interações no servidor que está designado para o serviço do {{site.data.keyword.backup_notm}}.
 
-Para obter informações sobre os backups para os servidores Windows 2016, consulte [Configurando o {{site.data.keyword.backup_notm}} no Windows 2016](install-backup-client-windows2016.html).
-{:tip}
+Para obter mais informações sobre os backups para servidores Windows 2016, consulte [Configurando o {{site.data.keyword.backup_notm}} no Windows 2016](install-backup-client-windows2016.html).{:tip}
 
 ## Efetuando login no servidor de dispositivo de destino
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de servidores disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote
@@ -47,7 +46,7 @@ seu endereço IP público.
 
 1. Insira o endereço de rede: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
@@ -56,6 +55,6 @@ seu endereço IP público.
 6. Clique em **Avançar**
 7. Clique em **Instalar** para concluir a instalação.
 
-## Configurando os agentes de backup
+## Configurando agentes de backup
 
 Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de introdução](index.html#configuring-the-backup-agent-and-the-backup-schedule).

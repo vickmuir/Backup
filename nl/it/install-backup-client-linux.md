@@ -14,9 +14,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installazione del client Backup in Linux
+# Installazione del client backup in Linux
 
-L'installazione del client {{site.data.keyword.backup_full}} su un sistema operativo basato su Linux può essere eseguita tramite una serie di comandi nella shell o nel terminale all'interno del sistema operativo. Questa procedura descrive i passi necessari per installare il client {{site.data.keyword.backup_notm}} su uno dei seguenti sistemi operativi basati su Linux:
+L'installazione del client {{site.data.keyword.backup_full}} su un sistema operativo basato su Linux può essere eseguita tramite una serie di comandi nella shell o nel terminale all'interno del sistema operativo. Questa procedura descrive i passi necessari per installare il client sui seguenti sistemi operativi basati su Linux:
 
 - RHEL
 - CentOS
@@ -31,11 +31,11 @@ Se hai acquistato {{site.data.keyword.backup_notm}} come un upgrade nel {{site.d
 
 ## Accesso al server del dispositivo di destinazione
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Seleziona **Devices** > **Device List** dal menu principale per visualizzare l'elenco di dispositivi server disponibili.
 3. Trova il dispositivo per il quale hai acquistato il servizio {{site.data.keyword.backup_notm}} e prendi nota del suo indirizzo IP pubblico.
-  - Questo indirizzo IP deve essere utilizzato nei seguenti passi quando si accede al dispositivo da una riga di comando UNIX o Linux. Sostituisci <publicIpAddress> con l'indirizzo IP pubblico reale nel comando illustrato nel passo 4.
+  - Questo indirizzo IP deve essere utilizzato nei seguenti passi quando si accede al dispositivo da una riga di comando UNIX o Linux. Sostituisci <publicIpAddress> con l'indirizzo IP pubblico reale nel comando illustrato nel passo 5.
 4. Fai clic sulla freccia rivolta verso destra per visualizzare ulteriori informazioni sul dispositivo, incluso il nome utente e la password.
   - Se la password non viene visualizzata, fai clic su **Show Password**. Il nome utente e la password vengono utilizzati nel passo successivo per accedere al dispositivo di test. Sostituisci `<user name>` con il nome utente effettivo.
 5. Accedi al dispositivo di destinazione immettendo il seguente comando da una riga di comando UNIX o Linux.
@@ -60,7 +60,7 @@ Questo passo è obbligatorio per RHEL ma facoltativo per le altre distribuzioni 
   ```
   {: pre}
 
-  Se richiesto, conferma che la dimensione del download è adeguata. L'aggiornamento procede e al termine viene visualizzato il messaggio "Complete!".
+  Se richiesto, conferma che la dimensione del download è adeguata. L'aggiornamento procede e al termine viene visualizzato il messaggio "Complete".
 
 ## Ottenimento dello script di installazione
 

@@ -39,7 +39,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 
 ## 安装 MSSQL 插件
 
-要安装 SQL 插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。
+要安装插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。
 
 在为 Microsoft Windows 服务器安装 MSSQL 插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
 {:tip}

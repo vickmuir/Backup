@@ -32,7 +32,7 @@ Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.
 7. 选中此框以指示您已阅读并接受第三方服务协议。
 8. 单击**下订单**。
 
-## 安装 Exchange 插件
+## 安装插件
 
 Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插件可以在安装代理程序时进行安装，也可以日后通过使用**修改**选项重新运行安装来进行安装。
 
@@ -49,8 +49,8 @@ Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插�
 8. 选择**保留我当前的注册**，然后单击**下一步**。
 9. 单击**安装**。
 10. 安装后，请进行检查以确保这两个服务都已启用并且正在运行。
-11. 如果 {{site.data.keyword.backup_notm}} 门户网站能够访问/查看数据库，则说明安装成功。
+11. 如果 {{site.data.keyword.backup_notm}} 门户网站能够访问或查看数据库，说明安装成功。
 
 ## 下载用户指南
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从 [可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南。该指南描述了如何使用 Exchange 插件备份和复原 Microsoft Exchange 数据库。此指南还描述了如何共享 DR 备份安全集。通过 DR 备份安全集，可以使用 Granular Restore for Microsoft Exchange 应用程序将特定邮箱、消息或其他对象复原到 .pst 文件。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南。此指南描述了如何使用 Exchange 插件来备份和复原 Microsoft Exchange 数据库。此指南还描述了如何共享 DR 备份安全集。通过 DR 备份安全集，可以使用 Granular Restore for Microsoft Exchange 应用程序将特定邮箱、消息或其他对象复原到 .pst 文件。

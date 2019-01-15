@@ -34,7 +34,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 ## 訂購外掛程式
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您的帳戶，然後按一下**訂購外掛程式**。
 4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - Oracle**，然後按一下**繼續**。
@@ -43,9 +43,9 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 7. 勾選此方框，指出您已閱讀並接受「協力廠商服務合約」。
 8. 按一下**下訂單**。
 
-## 安裝適用於 Windows 的 Oracle 外掛程式
+## 安裝適用於 Windows 的外掛程式
 
-適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝 Oracle 外掛程式，請執行「代理程式」安裝套件。Oracle 外掛程式會以選項形式出現在**自訂設定**頁面上。
+適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
 
 在安裝 Microsoft Windows 伺服器的外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}
@@ -59,11 +59,11 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 7. 選取**保留我的現行登錄**，然後按**下一步**。
 8. 按一下**安裝**。
 9. 安裝完成後，請檢查以確定這兩個服務都已啟用且在執行中。
-10. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠存取/檢視資料庫，即表示安裝成功。
+10. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠存取或檢視資料庫，即表示安裝成功。
 
-## 安裝適用於 Linux 的 Oracle 外掛程式
+## 安裝適用於 Linux 的外掛程式
 
-Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行 Oracle 外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](install-backup-client-linux.html)。
+Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](install-backup-client-linux.html)。
 
 Oracle 外掛程式安裝套件是以 tar.gz 檔案提供。
 

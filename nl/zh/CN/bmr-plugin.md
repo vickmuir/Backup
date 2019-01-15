@@ -24,7 +24,8 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 - 将系统复原到所选时间点。
 - 从基于映像或文件的备份复原系统。
 - 从存储在 {{site.data.keyword.backup_notm}} 上的备份复原系统。
-- 可启动的恢复事务，可用于在没有可引导系统的情况下复原数据。.
+- 可启动的恢复事务，可用于在没有可引导系统的情况下复原数据。
+
 ## 订购插件
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
@@ -39,4 +40,4 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 
 ## 下载用户指南
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从 [可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南

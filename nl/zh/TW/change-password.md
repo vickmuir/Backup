@@ -21,10 +21,10 @@ lastupdated: "2018-12-14"
 在 {{site.data.keyword.slportal}} 內對 {{site.data.keyword.backup_notm}} 密碼所做的變更，會對服務本身進行。當您變更密碼時，請記住它會直接影響您的服務。
 {:important}
 
-## 變更 {{site.data.keyword.backup_notm}} 密碼
+## 變更密碼
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 按一下想要的儲存庫列上的任何位置，來展開視圖。
 4. 按一下**顯示**來檢視現行密碼。

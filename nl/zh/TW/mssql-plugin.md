@@ -28,7 +28,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 ## 訂購外掛程式
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您的帳戶，然後按一下**訂購外掛程式**。
 4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - MSSQL**，然後按一下**繼續**。
@@ -39,7 +39,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 
 ## 安裝 MSSQL 外掛程式
 
-若要安裝 SQL 外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
+若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
 
 在安裝 Microsoft Windows 伺服器的 MSSQL 外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}

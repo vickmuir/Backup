@@ -29,7 +29,7 @@ Para obter mais informações, consulte a seção [Principais recursos](#main-fe
 
 ## Pedindo o plug-in
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
@@ -43,7 +43,7 @@ servidores com o serviço de backup.
 
 ## Instalando o plug-in MSSQL
 
-Para instalar o plug-in SQL, execute o kit de instalação do Agente. O plug-in aparece
+Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
 como uma opção na página **Configuração customizada**.
 
 Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare ambos os serviços do {{site.data.keyword.backup_notm}} em `services.msc`.
@@ -59,7 +59,7 @@ Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare amb
 8. Selecione **Manter meu registro atual** e clique em **Avançar**.
 9. Clique em **Instalar**.
 10. Quando instalado, verifique para assegurar que ambos os serviços estejam ativados e em execução.
-11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de visualizar e acessar o banco de dados, a instalação foi bem-sucedida.
+11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de visualizar e acessar o banco de dados, a instalação terá sido bem-sucedida.
 
 ## Fazendo download do guia do usuário
 

@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Configurazione di {{site.data.keyword.backup_notm}} su Windows 2016
 
-## Installazione dell'agent {{site.data.keyword.backup_notm}} Software
+## Installazione dell'agent backup
 
 1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile.
    ```
@@ -52,7 +52,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia Central Control.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **Agent Configuration**.
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona **Agent Configuration**.
 4. Nella scheda Vaults, fai clic su **New**. Viene visualizzata la procedura guidata di configurazione dell'archivio. Fai clic su **Next**.
 5. Seleziona **Register as a new computer** e fai clic su **Next**.
 6. Immettere il nome dell'archivio nel campo del nome profilo.
@@ -61,7 +61,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
    {:tip}
 6. Immetti l'indirizzo di rete (l'indirizzo IP dell'archivio assegnato) e fai clic su **Add**. Poi, fai clic su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.
-8. Nella schermata Connection Settings, immetti il numero di secondi e minuti desiderato. Lascia la casella **Enable over the wire encryption for transmissions to/from the vault** selezionata. Fai clic su **Next**.
+8. Nella schermata Connection Settings, immetti il numero di secondi e minuti desiderato. Tieni la casella **Enable over the wire encryption for transmissions to and from the vault** selezionata. Fai clic su **Next**.
 9. Nella schermata di autenticazione, immetti le tue credenziali e fai clic su **Next**.
 10. La finestra Registered computers visualizza il nome host del tuo server. Fai clic su **Next**.
 11.	Fai clic su **Finish** per completare la configurazione.
@@ -71,7 +71,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia Central Control.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **Agent Configuration**.
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona **Agent Configuration**.
 4. Fai clic sulla scheda **Retentions**. Viene visualizzata la procedura guidata di conservazione, fai clic su **Next**.
 5. Immetti il nome della conservazione. Fai clic su **Next**.<br/>
 
@@ -85,11 +85,11 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 8. Fai clic su **Finish** per completare la configurazione dello schema di conservazione.
 
 
-## Configurazione del lavoro {{site.data.keyword.backup_notm}}
+## Configurazione del lavoro di backup
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia Central Control.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona **New Job**.
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona **New Job**.
 4. Sul pannello di benvenuto, fai clic su **Next**.
 5. Seleziona il tipo di origine di backup.
 6. Seleziona **Unicode** per la codifica. Fai clic su **Next**.
@@ -102,14 +102,14 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 10. Specifica le opzioni di elaborazione e di backup. Seleziona **Quick file scanning** e immetti le ore e minuti che desideri per la tua finestra di tempo di backup. Poi, fai clic su **Next**.
 11. Seleziona il tipo di codifica (l'impostazione predefinita è AES 256-bit) e immetti la tua password di crittografia. Fai clic su **Next**
 12. Seleziona le opzioni di registrazione per il tuo lavoro. Seleziona **Create log file** e **Automatically purge expired log files only**. Poi, fai clic su **Next**
-13. Seleziona **Just exit from this wizard** e fai clic su **Finish** per completare la configurazione. Il nuovo lavoro viene ora visualizzato in MyAgent.
+13. Seleziona **Just exit from this wizard** e fai clic su **Finish** per completare la configurazione. Il nuovo lavoro viene ora visualizzato in My Agent.
 
 
-## Esecuzione del lavoro {{site.data.keyword.backup_notm}}
+## Esecuzione del lavoro di backup
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia Central Control.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **MyAgent** e seleziona l'agent che hai creato.
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona l'agent che hai creato. 
 4. Sul pannello di benvenuto, fai clic su **Next**.
 5. Seleziona la destinazione di backup o un'altra ubicazione per eseguire il seeding del lavoro di backup. Fai clic su **Next**.<br/>
    Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](multivaulting.html)

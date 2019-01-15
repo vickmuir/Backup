@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Fazendo upgrade do agente de software de backup para Windows
 
-É possível fazer download do agente mais recente do {{site.data.keyword.backup_notm}} na seção de links rápidos do seu Painel do portal do {{site.data.keyword.backup_notm}}.
+É possível fazer download do agente de backup mais recente da seção de links rápidos do Painel do portal do {{site.data.keyword.backup_notm}}.
 {:tip}
 
 1. Controle remotamente seu servidor {{site.data.keyword.BluSoftlayer_full}} que está precisado de um upgrade do {{site.data.keyword.backup_notm}}.
@@ -24,8 +24,7 @@ lastupdated: "2018-12-14"
    {:pre}
 3. Clique no arquivo que você deseja. (Por exemplo, Agente-Windows-x64-6-72-1072a.exe)
 
-   O número da versão está no nome do arquivo. Escolha o mais recente. <br/>Há instaladores de 32 e 64 bits
-separados. Se você tiver um sistema operacional de 64 bits,
+   O número da versão está no nome do arquivo. Escolha o mais recente. <br/>O {{site.data.keyword.BluSoftlayer_full}} oferece instaladores separados de 32 e de 64 bits. Se você tiver um sistema operacional de 64 bits,
 faça download do arquivo com x64 em seu nome.
    {:tip}
 4. Clique em **Executar** na tela de download e, novamente, após ele ser transferido por download.

@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Fazendo upgrade do agente de software de backup para Linux
 
-É possível fazer download do agente mais recente do {{site.data.keyword.backup_notm}} na seção de links rápidos do seu Painel do portal do {{site.data.keyword.backup_notm}}.
+É possível fazer download do agente de backup mais recente da seção de links rápidos do Painel do portal do {{site.data.keyword.backup_notm}}.
 {:tip}
 
 Seguir o processo de upgrade assegura que é possível fazer upgrade do agente do {{site.data.keyword.backup_notm}} sem perder o registro
@@ -30,7 +30,7 @@ Seguir o processo de upgrade assegura que é possível fazer upgrade do agente d
    ```
    tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
    ```
-4. Acesse o diretório de instalação recente
+4. Acesse o diretório de instalação recente.
    ```
    cd Agent-Linux-x64-8.11.5251/4.
    ```
@@ -41,6 +41,6 @@ Seguir o processo de upgrade assegura que é possível fazer upgrade do agente d
    ```
    {:pre}
 
-6. Responda aos prompts selecionando `N` para não registrar o computador como um novo host, selecionando seu idioma e `A` para criptografar dados usando o método de criptografia Integrado.
+6. Responda aos prompts selecionando seu idioma, selecionando `N` para não registrar o computador como um novo host e `A` para criptografar dados usando o método de criptografia integrado.
 
 7. Se a instalação for bem-sucedida, ela será registrada em `/opt/BUAgent/Install.log`.

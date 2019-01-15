@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # 取消 {{site.data.keyword.backup_notm}} 服务
 
-您可以随时取消 {{site.data.keyword.backup_full}} 服务。取消操作将删除包含备份数据的保险库，并且您将无法使用已取消的 {{site.data.keyword.backup_notm}} 凭证登录到 {{site.data.keyword.backup_notm}} 门户网站。
+您可以随时取消 {{site.data.keyword.backup_full}} 服务。取消操作将删除包含备份数据的保险库，并且您将无法使用已取消的凭证登录到 {{site.data.keyword.backup_notm}} 门户网站。
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。

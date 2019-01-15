@@ -21,9 +21,9 @@ Per molti prodotti e servizi {{site.data.keyword.BluSoftlayer_full}}, la funzion
 Le modifiche apportate alla password di {{site.data.keyword.backup_notm}} all'interno del {{site.data.keyword.slportal}} vengono apportate al servizio stesso. Quando modifichi la tua password, tieni presente che influisce direttamente sul tuo servizio.
 {:important}
 
-## Modifica della password di {{site.data.keyword.backup_notm}} 
+## Modifica della password
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Fai clic in qualsiasi punto della riga dell'archivio per espandere la vista.

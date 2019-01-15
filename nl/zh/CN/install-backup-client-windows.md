@@ -17,7 +17,7 @@ lastupdated: "2018-12-14"
 
 要在 Windows 中安装 {{site.data.keyword.backup_full}} 客户机，可通过在为 {{site.data.keyword.backup_notm}} 服务指定的服务器上进行一系列交互操作来完成。
 
-有关 Windows 2016 服务器备份的信息，请参阅[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](install-backup-client-windows2016.html)。
+有关 Windows 2016 服务器备份的更多信息，请参阅[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](install-backup-client-windows2016.html)。
 {:tip}
 
 ## 登录到目标设备服务器
@@ -45,7 +45,7 @@ lastupdated: "2018-12-14"
 
 1. 输入网络地址：<br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

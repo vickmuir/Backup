@@ -16,7 +16,7 @@ lastupdated: "2018-12-14"
 
 # 在 Linux 中安裝備份用戶端
 
-在 Linux 型作業系統上安裝 {{site.data.keyword.backup_full}} 用戶端，可透過作業系統內 Shell 或終端機中的一系列指令來完成。此程序概述在下列任何 Linux 型作業系統上安裝 {{site.data.keyword.backup_notm}} 用戶端所需的步驟：
+在 Linux 型作業系統上安裝 {{site.data.keyword.backup_full}} 用戶端，可透過作業系統內 Shell 或終端機中的一系列指令來完成。此程序概述在下列任何 Linux 型作業系統上安裝用戶端所需的步驟：
 
 - RHEL
 - CentOS
@@ -32,10 +32,10 @@ lastupdated: "2018-12-14"
 ## 登入目標裝置伺服器
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 從主功能表選取**裝置** > **裝置清單**，以查看可用伺服器裝置的清單。
 3. 找出您已為其購買 {{site.data.keyword.backup_notm}} 服務的裝置，並記下其公用 IP 位址。
-  - 從 UNIX 或 Linux 指令行登入裝置時，會在接下來的步驟使用此 IP 位址。在步驟 4 所顯示的指令中，將 <publicIpAddress> 取代為實際公用 IP 位址。
+  - 從 UNIX 或 Linux 指令行登入裝置時，會在接下來的步驟使用此 IP 位址。在步驟 5 所顯示的指令中，將 <publicIpAddress> 取代為實際公用 IP 位址。
 4. 按一下指向右方的箭頭來顯示裝置的相關資訊，包括使用者名稱和密碼。
   - 如果未顯示密碼，則按一下**顯示密碼**即可顯示密碼。在下一步中，使用者名稱和密碼會用來登入測試裝置。在後續指令中，將 `<user name>` 取代為實際使用者名稱。
 5. 從 UNIX 或 Linux 指令行輸入下列指令，以登入目標裝置。
@@ -60,7 +60,7 @@ lastupdated: "2018-12-14"
   ```
   {: pre}
 
-  如果系統提示您，請確認下載大小沒問題。更新會繼續，並在完成時顯示「完成！」訊息。
+  如果系統提示您，請確認下載大小沒問題。更新會繼續，並在完成時顯示「完成」訊息。
 
 ## 取得安裝 Script
 

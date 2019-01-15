@@ -22,8 +22,7 @@ Lembre-se de iniciar a conexão do {{site.data.keyword.BluVPN}} para obter acess
 do {{site.data.keyword.BluSoftlayer_full}}. Caso contrário, o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
@@ -42,7 +41,7 @@ servidores com o serviço de backup.
 8. Clique em **Avançar** para continuar.
 9. Marque as caixas de seleção próximas ao arquivos e diretórios que você deseja incluir. Em seguida, clique em **Incluir** para salvar suas opções.
 10. Filtre ainda mais suas seleções usando a janela que aparece ou clique em **OK** para usar as seleções feitas no estado em que se encontram.
-Depois de ter incluído suas opções de arquivo e de diretório, os arquivos não podem mais ser selecionados na área de janela **Arquivos de dados**. Eles são exibidos na área de janela **Conjunto de backup** à direita.
+Depois de incluir suas opções de arquivo e diretório, os arquivos não poderão mais ser selecionados na área de janela de arquivos de dados. Eles serão exibidos na área de janela do conjunto de backup à direita.
 
    É possível repetir a etapa 10 para incluir mais arquivos ou para remover arquivos que você incluiu
 anteriormente (usando **Excluir**). Também é possível usar **Remover** para excluir qualquer

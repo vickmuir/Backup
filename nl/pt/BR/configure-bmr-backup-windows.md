@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 # Configurando a tarefa de backup do BMR no Windows
 
 É necessário comprar o plug-in de BMR para criar um backup de BMR. O BMR está disponível somente para
-Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o VSI.
+Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o VSI. Para obter mais informações, consulte [Instalando o plug-in do Bare Metal Restore](bmr-plugin.html)
 {:important}
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
@@ -23,11 +23,11 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 É necessário estar conectado à rede privada do {{site.data.keyword.BluSoftlayer_full}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
 3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
-4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal do {{site.data.keyword.backup_notm}} em seu navegador.
+4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
    Se o portal do {{site.data.keyword.backup_notm}} não for iniciado, talvez você tenha um problema com a sua conexão de VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
    {:tip}

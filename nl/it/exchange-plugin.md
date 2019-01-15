@@ -22,7 +22,7 @@ Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il p
 
 ## Ordinazione del plug-in
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
@@ -32,7 +32,7 @@ Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il p
 7. Seleziona la casella per indicare che hai letto e accettato gli accordi di servizio di terze parti.
 8. Fai clic su **Place Order**.
 
-## Installazione del plug-in Exchange
+## Installazione del plug-in
 
 Il plug-in Exchange viene installato durante l'installazione dell'agent Windows a 64 bit. Il plug-in può essere installato contemporaneamente all'agent oppure può essere installato successivamente, rieseguendo l'installazione con la selezione **Modify** .
 
@@ -49,8 +49,8 @@ Prima di installare il plug-in per il tuo server Microsoft Windows, arresta entr
 8. Seleziona **Keep my current registration** e fai clic su **Next**.
 9. Fai clic su **Install**.
 10. Una volta installato, verifica che entrambi i servizi siano abilitati e in esecuzione.
-11. Se il portale {{site.data.keyword.backup_notm}} è in grado di accedere/visualizzare il database, l'installazione ha avuto esito positivo.
+11. Se il portale {{site.data.keyword.backup_notm}} è in grado di accedere al database o di visualizzarlo, l'installazione ha avuto esito positivo.
 
 ## Download della guida utente
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente da [Downloadable {{site.data.keyword.backup_notm}} Documentation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} La guida descrive come eseguire il backup e il ripristino di database Microsoft Exchange utilizzando il plug-in Exchange. La guida descrive anche come condividere un set sicuro di backup DR. Con un set sicuro di backup DR puoi ripristinare caselle di posta, messaggi o altri oggetti specifici in un file .pst utilizzando l'applicazione Granular Restore per Microsoft Exchange.
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}La guida descrive come eseguire il backup e il ripristino dei database di Microsoft Exchange utilizzando il plug-in Exchange. La guida descrive anche come condividere un set sicuro di backup DR. Con un set sicuro di backup DR puoi ripristinare caselle di posta, messaggi o altri oggetti specifici in un file .pst utilizzando l'applicazione Granular Restore per Microsoft Exchange.

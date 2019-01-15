@@ -17,9 +17,7 @@ lastupdated: "2018-12-14"
 # Instalando o cliente de backup no Linux
 
 A instalação do cliente do {{site.data.keyword.backup_full}} em um sistema operacional baseado em
-Linux pode ser feita por meio de uma série de comandos no shell ou no terminal dentro do S.O. Esse procedimento descreve
-as etapas que são necessárias para instalar o cliente do {{site.data.keyword.backup_notm}} em qualquer
-um dos seguintes sistemas operacionais baseados em Linux:
+Linux pode ser feita por meio de uma série de comandos no shell ou no terminal dentro do S.O. Esse procedimento descreve as etapas necessárias para instalar o cliente em qualquer um dos sistemas operacionais baseados em Linux a seguir:
 
 - RHEL
 - CentOS
@@ -27,7 +25,7 @@ um dos seguintes sistemas operacionais baseados em Linux:
 
 Depois que você conclui o procedimento, o processo automatizado registra o serviço do Agente com o portal do {{site.data.keyword.backup_notm}} e, em seguida, faz download e instala os arquivos necessários para executar o serviço.
 
-Se você comprou o {{site.data.keyword.backup_notm}} quando solicitou um servidor por meio do [catálogo do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente para você. Não é necessário usar os procedimentos que estão descritos neste documento.
+Se você tiver comprado o {{site.data.keyword.backup_notm}} quando pediu um servidor por meio do [catálogo do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente para você. Não é necessário usar os procedimentos que estão descritos neste documento.
 {:tip}
 
 Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no
@@ -35,12 +33,11 @@ Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no
 
 ## Efetuando login no servidor de dispositivo de destino
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de dispositivos do servidor disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote seu endereço IP público.
-  - Esse endereço IP deve ser usado nas etapas a seguir quando você efetuar login no dispositivo em uma linha de comandos do UNIX ou Linux. Substitua
-<publicIpAddress> pelo endereço IP público real no comando que é mostrado na Etapa 4.
+  - Esse endereço IP deve ser usado nas etapas a seguir quando você efetuar login no dispositivo em uma linha de comandos do UNIX ou Linux. Substitua <publicIpAddress> pelo endereço IP público real no comando que é mostrado na Etapa 5.
 4. Clique na seta que aponta para a direita para exibir mais informações sobre o dispositivo, incluindo o nome do usuário e a senha.
   - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste. Substitua `<user name>` pelo nome do usuário real.
 5. Efetue login no dispositivo de destino inserindo o comando a seguir em uma linha de comandos UNIX ou Linux.
@@ -65,7 +62,7 @@ Esta etapa é necessária para o RHEL, mas opcional para outras distribuições 
   ```
   {: pre}
 
-  Se for solicitado, confirme se o tamanho do download está correto. A atualização continua e exibe uma mensagem "Concluído!" quando ela é concluída.
+  Se for solicitado, confirme se o tamanho do download está correto. A atualização continua e exibe uma mensagem "Concluído" ao ser concluída.
 
 ## Obtendo o script de instalação
 
@@ -102,7 +99,7 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
    ```
    {: codeblock}
 
-## Verificando se a Instalação foi Bem-sucedida
+## Verificando se a instalação foi bem-sucedida
 
 1. Verifique se a mensagem "Registrado no portal" aparece na saída de instalação. A verificação pode ser feita procurando a mensagem na tela ou inspecionando a saída do comando a seguir.
    ```

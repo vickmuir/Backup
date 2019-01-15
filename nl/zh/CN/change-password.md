@@ -21,7 +21,7 @@ lastupdated: "2018-12-14"
 对 {{site.data.keyword.slportal}} 内的 {{site.data.keyword.backup_notm}} 密码进行的更改将应用于该服务本身。更改密码时，请记住这会直接影响服务。
 {:important}
 
-## 更改 {{site.data.keyword.backup_notm}} 密码
+## 更改密码
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。

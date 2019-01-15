@@ -16,7 +16,7 @@ lastupdated: "2018-12-14"
 
 # 在 Linux 中安装备份客户机
 
-要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装 {{site.data.keyword.backup_notm}} 客户机所需的步骤：
+要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装客户机所需的步骤：
 
 - RHEL
 - CentOS
@@ -35,7 +35,7 @@ lastupdated: "2018-12-14"
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
-  - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 4 中所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
+  - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 5 所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
 4. 单击向右箭头以显示有关设备的更多信息，包括用户名和密码。
   - 如果未显示密码，可通过单击**显示密码**来显示密码。在下一步中，将使用该用户名和密码来登录到测试设备。在下面的命令中，将 `<user name>` 替换为实际的用户名。
 5. 通过在 Unix 或 Linux 命令行中输入以下命令，登录到目标设备。
@@ -60,7 +60,7 @@ lastupdated: "2018-12-14"
   ```
   {: pre}
 
-  在系统提示时，确认下载大小是否正常。更新将继续，并在完成时显示“完成！”消息。
+  在系统提示时，确认下载大小是否正常。更新将继续，并在完成时显示“完成”消息。
 
 ## 获取安装脚本
 

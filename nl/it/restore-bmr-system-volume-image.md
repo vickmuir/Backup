@@ -19,8 +19,7 @@ Se hai bisogno di ripristinare un backup dell'immagine Bare Metal da {{site.data
 ## Avvio del sistema BMR Rescue Kernel
 
 Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slportal}}.
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Fai clic sulla **freccia** accanto all'archivio.
@@ -30,7 +29,7 @@ Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slp
 ## Ripristino da BMR Rescue Kernel
 
 1. Quando la transazione di BMR Rescue Kernel viene caricata, puoi scegliere di accedervi in due modi diversi.
-  - Un client VNC e l'indirizzo IP privato/pubblico del tuo server e la password che è elencata nel {{site.data.keyword.slportal}}
+  - Un client VNC e l'indirizzo IP privato o pubblico del tuo server e la password che è elencata nel {{site.data.keyword.slportal}}
   - La console KVM della tua scheda IPMI.
   Entrambi questi modi funzionano correttamente.
 2. Dopo aver effettuato l'accesso a BMR Rescue Kernel per la prima volta, verrà visualizzata la schermata iniziale per la selezione della lingua. Seleziona la lingua che preferisci e fai clic su **Next**.
@@ -63,5 +62,5 @@ Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slp
 18. Nella schermata finale, seleziona la casella per riavviare il sistema, quindi seleziona **Finish** e il server carica la tua immagine del volume ripristinata.
   Il ripristino è ora completo. <br/>
 
-  La prima volta che questo accadrà, potresti vedere il messaggio di arresto imprevisto. È normale con questo tipo di backup e va via dopo il primo avvio.
+  La prima volta che il server viene riavviato, potresti vedere il messaggio di arresto imprevisto. È normale con questo tipo di backup e va via dopo il primo avvio.
   {:tip}

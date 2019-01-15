@@ -25,6 +25,7 @@ BMR 是實體伺服器上僅限 Microsoft Windows 的產品。它不適用於虛
 - 從映像檔或檔案型備份還原您的系統。
 - 從儲存在 {{site.data.keyword.backup_notm}} 的備份還原系統。
 - 可啟動的回復交易，可用來在沒有可開機系統的情況下還原資料。
+
 ## 訂購外掛程式
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>

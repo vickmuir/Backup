@@ -29,7 +29,7 @@ agente está disponível como um complemento para o serviço de backup. Para inc
 
 <hr>
 
-## Com que frequência os dados podem ser submetidos a backup?
+## Com que frequência podemos fazer backup dos dados?
 {: faq}
 
 No portal do {{site.data.keyword.backup_notm}}, os backups podem ser feitos manualmente, podem ser planejados como uma única instância ou podem ser recorrentes. Os backups recorrentes podem
@@ -47,13 +47,13 @@ manutenção. Assim, quando os backups são feitos com alta frequência, a área
 ## Como os esquemas de retenção funciona?
 {: faq}
 
-O Backup da área segura permite a retenção de dados, dependendo de quanto tempo você deseja recuperar. Os esquemas de
+O {{site.data.keyword.backup_notm}} permite a retenção de dados, dependendo de quanto tempo você deseja
+retroceder. Os esquemas de
 retenção **Diariamente** retêm os dados por
 sete dias, enquanto que os esquemas **Semanalmente** retêm os dados por um mês e
 os esquemas **Mensalmente** retêm os dados por um ano. No término de cada período, o conjunto de dados mais antigo é rotacionado e o primeiro "backup delta" que foi feito se torna o ponto de restauração mais antigo disponível.
 
-É possível modificar os esquemas de retenção padrão e criar esquemas de retenção customizados. No entanto, a IBM recomenda o uso das retenções padrão como um ponto de início. Ao criar um novo esquema de retenção ou
-modificar uma retenção existente, certifique-se de que a opção Arquivamento esteja desmarcada. O arquivamento não é
+É possível modificar os esquemas de retenção padrão e criar esquemas de retenção customizados. No entanto, a IBM recomenda o uso das retenções padrão como um ponto de início. Ao criar um novo esquema de retenção ou modificar uma retenção existente, certifique-se de que a opção Arquivamento não esteja selecionada. O arquivamento não é
 suportado.
 {:tip}
 
@@ -64,9 +64,7 @@ suportado.
 
 O primeiro backup é um "valor inicial" (um backup completo) e o próximo backup e os subsequentes
 são "deltas" (ou seja, somente mudanças), no entanto, eles são equivalentes a um
-"backup completo" e ainda considerados como um. Ou seja, é possível restaurar todos ou quaisquer arquivos dele. Essa tecnologia permite que
-"backups completos" sejam feitos em cada sessão, economizando, no entanto, enormes quantidades de espaço na
-Área segura e diminuindo a quantia de tempo que cada backup subsequente leva para ser concluído.
+"backup completo" e ainda considerados como um. Ou seja, é possível restaurar todos ou quaisquer arquivos dele. Com essa tecnologia, "backups completos" são criados em cada sessão, mas economiza uma enorme quantia de espaço na área segura e diminui o período de tempo usado para a conclusão de cada backup subsequente.
 
 <hr>
 
@@ -89,7 +87,7 @@ dependendo do tipo de arquivo, pode atingir de 20 a 30 por cento.
 {: faq}
 
 Os backups de estado do sistema incluem o banco de dados de registro de classe do COM +,
-o registro, os arquivos de inicialização, os arquivos de sistema e o contador de desempenho, mas não se limitam a eles. Está tudo dependente de seu sistema. Arquivos de sistema variam por S.O. de sistema e service packs. Geralmente há milhares delas. O MS Windows fará uma lista dinâmica dessas DLLs quando você as incluir no backup. Ao incluir os arquivos do sistema, é possível fazer a recuperação no caso de arquivos de sistema corrompidos, de pacotes de serviço desinstalados acidentalmente ou se recuperar usando uma restauração bare metal. É possível retornar para o estado do backup sem precisar reinstalar o S.O. do kit de instalação e, em seguida, instalar cada pacote de serviços separadamente.
+o registro, os arquivos de inicialização, os arquivos de sistema e o contador de desempenho, mas não se limitam a eles. Está tudo dependente de seu sistema. Arquivos de sistema variam por S.O. de sistema e service packs. Geralmente há milhares delas. O MS Windows fará uma lista dinâmica dessas DLLs quando você as incluir no backup. Ao incluir os arquivos de sistema, é possível fazer a recuperação de arquivos de sistema corrompidos ou no caso de remoção acidental de alguns pacotes de serviço ou se desejar recuperar-se com uma restauração bare metal. É possível retornar para o estado do backup sem precisar reinstalar o S.O. do kit de instalação e, em seguida, instalar cada pacote de serviços separadamente.
 
 Nenhum arquivo de dados do usuário está incluído no backup de estado do sistema. Uma tarefa de backup de estado do sistema deve ser configurada como uma tarefa independente. Não deve haver nenhuma outra origem de dados incluída na tarefa de backup de estado do sistema
 {:important}
@@ -115,7 +113,7 @@ backups?
 {: faq}
 
 É possível aumentar ou diminuir o tamanho de sua área segura por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
-informações, consulte [Expandindo a capacidade](expanding-evault-capacity.html).
+informações, consulte [Expandindo a capacidade](expanding-capacity.html).
 
 <hr>
 
@@ -155,10 +153,10 @@ O backup de BMR não é uma imagem de disco, mas um sistema de backup de imagem 
 
 <hr>
 
-##O BMR pode ser usado para backups de Banco de dados?
+##A BMR pode ser usada para backups de banco de dados?
 {: faq}
 
-Os backups de banco de dados devem ser feitos separadamente com os métodos normais do {{site.data.keyword.backup_notm}}. O BMR não substitui a necessidade de plug-ins do SQL ou do Oracle. Embora o BMR use a tecnologia VSS para fazer backup de arquivos abertos, nem sempre é possível garantir que os arquivos de backup sejam consistentes com a transação. A recomendação para esses tipos de aplicativos especializados é que você crie duas tarefas de backup: uma para fazer backup dos arquivos binários do S.O. e do aplicativo e outra para dados do aplicativo. Há uma nota para esse efeito no final do guia do usuário do BMR.
+Os backups de banco de dados devem ser feitos separadamente com os métodos normais do {{site.data.keyword.backup_notm}}. O BMR não substitui a necessidade de plug-ins do SQL ou do Oracle. Embora o BMR use a tecnologia VSS para fazer backup de arquivos abertos, nem sempre é possível garantir que os arquivos de backup sejam consistentes com a transação. A recomendação para esses tipos de aplicativos especializados é que você crie duas tarefas de backup: uma para fazer backup dos arquivos binários do S.O. e do aplicativo e outra para dados do aplicativo.
 
 <hr>
 
@@ -173,7 +171,7 @@ backup para a restauração. A tarefa de backup de BMR pode substituir sua taref
 {: faq}
 
 O BMR tem recursos de backup de arquivo aberto. No entanto, o BMR não substitui a necessidade de
-plug-ins do SQL ou do Oracle. Clique [aqui](evault-mssql-plugin.html) para obter as
+plug-ins do SQL ou do Oracle. Clique [aqui](mssql-plugin.html) para obter as
 instruções de instalação do plug-in do MSSQL.
 
 <hr>
@@ -189,4 +187,4 @@ minutos em uma porta de 1 GB. Esse processo também é afetado pela velocidade d
 ## O que o VSS (Serviço de Cópia de Sombra de Volume) faz?
 {: faq}
 
-A versão atual do plug-in do SQL Server para {{site.data.keyword.backup_notm}} usa o VSS (Serviço de Cópia de Sombra de Volume) para concluir os backups. Usando o VSS, o plug-in SQL Server faz efetivamente o backup dos bancos de dados SQL, mesmo os bancos de dados SQL que estendem volumes. Os backups podem ser concluídos enquanto os aplicativos continuam a gravar em um volume. O plug-in SQL Server fornece consistência de dados dentro e entre bancos de dados. O VSS permite que múltiplos backups sejam executados ao mesmo tempo.
+A versão atual do plug-in SQL Server usa o VSS (Serviço de Cópia de Sombra de Volume) para concluir os backups. Usando o VSS, o plug-in SQL Server faz efetivamente o backup dos bancos de dados SQL, mesmo os bancos de dados SQL que estendem volumes. Os backups podem ser concluídos enquanto os aplicativos continuam a gravar em um volume. O plug-in SQL Server fornece consistência de dados dentro e entre bancos de dados. O VSS permite que múltiplos backups sejam executados ao mesmo tempo.

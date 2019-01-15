@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Configurazione del lavoro di backup BMR su Windows
 
-Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI.
+Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI. Per ulteriori informazioni, vedi [Installazione del plug-in Bare Metal Restore](bmr-plugin.html)
 {:important}
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}
@@ -22,11 +22,11 @@ Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo 
 Per poter avviare il portale {{site.data.keyword.backup_notm}}, devi essere connesso alla rete privata di {{site.data.keyword.BluSoftlayer_full}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sul'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
-4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale {{site.data.keyword.backup_notm}} nel tuo browser.
+4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
    Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
    {:tip}

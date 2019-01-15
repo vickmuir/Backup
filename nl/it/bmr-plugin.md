@@ -25,10 +25,10 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 - Ripristina il tuo sistema da backup di immagini o file.
 - Ripristina il tuo sistema dai backup che sono memorizzati su {{site.data.keyword.backup_notm}}.
 - Una transazione di ripristino avviabile che puoi utilizzare per ripristinare i tuoi dati senza un sistema di avvio.
-.
+
 ## Ordinazione del plug-in
 
-1. Accedi alla console [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+1. Accedi alla console [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
@@ -40,4 +40,4 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 
 ## Download della guida utente
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente da [Downloadable {{site.data.keyword.backup_notm}} Documentation ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

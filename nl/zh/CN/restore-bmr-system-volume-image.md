@@ -19,9 +19,8 @@ lastupdated: "2018-12-14"
 ## 启动 BMR 急救内核系统
 
 可通过 {{site.data.keyword.slportal}} 访问 BMR 急救内核系统。
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 单击保险库旁边的**箭头**。
 4. 单击**启动裸机复原**。此操作会启动一个事务，其需要几分钟时间来完成。之后，您可以通过执行此处详细描述的步骤来访问服务器。系统完成引导过程时，会向您发送电子邮件。
@@ -30,7 +29,7 @@ lastupdated: "2018-12-14"
 ## 从 BMR 急救内核复原
 
 1. BMR 急救内核事务装入后，您可以选择通过两种不同的方式对其进行访问。
-  - VNC 客户机、您的服务器的公共/专用 IP 地址，以及 {{site.data.keyword.slportal}} 中列出的密码
+  - VNC 客户机、您的服务器的专用或公共 IP 地址，以及 {{site.data.keyword.slportal}} 中列出的密码
   - 您的 IPMI 卡的 KVM 控制台。这两种方式都很好用。
 2. 首次登录到 BMR 急救内核时，您会看到语言选择屏幕。选择您的首选语言，然后单击**下一步**。
 <br/>![图 1 - BMR 语言选择](/images/bmr1.png)<br/> 这将显示软件的许可协议。
@@ -61,5 +60,5 @@ lastupdated: "2018-12-14"
 17. 在复原进度屏幕上，单击**下一步**。
 18. 在最终屏幕上，选中重新启动系统的复选框，然后选择**完成**，此时服务器会装入所复原的卷映像。现在，复原已完成。<br/>
 
-  第一次执行此操作时，您可能会看到意外关机消息。对于此备份类型，这种情况完全正常，在首次引导后此问题即会消失。
+  服务器第一次重新启动时，您可能会看到意外关机消息。对于此备份类型，这种情况完全正常，在首次引导后此问题即会消失。
   {:tip}

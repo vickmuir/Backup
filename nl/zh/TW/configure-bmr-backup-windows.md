@@ -14,7 +14,8 @@ lastupdated: "2018-12-14"
 
 # 在 Windows 上配置 BMR 備份工作
 
-您需要購買 BMR 外掛程式，才能建立 BMR 備份。BMR 只適用於 Windows Bare Metal Server。VSI 沒有任何可用的 BMR 選項。{:important}
+您需要購買 BMR 外掛程式，才能建立 BMR 備份。BMR 只適用於 Windows Bare Metal Server。VSI 沒有任何可用的 BMR 選項。如需相關資訊，請參閱[安裝 Bare Metal Restore 外掛程式](bmr-plugin.html)。
+{:important}
 
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
 
@@ -25,7 +26,7 @@ lastupdated: "2018-12-14"
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
-4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動 {{site.data.keyword.backup_notm}} 入口網站用戶端。
+4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
    如果 {{site.data.keyword.backup_notm}} 入口網站未啟動，可能是 VPN 連線有問題。您可能也會看到一則訊息，指出您傳送的表單不安全。這是預期的情況 - 請傳送表單來繼續進行。
    {:tip}

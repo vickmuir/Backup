@@ -22,10 +22,10 @@ lastupdated: "2018-12-14"
 **先决条件**
 
 - Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](index.html#configuring-the-backup-agent-in-webcc)。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
-禁用这两台服务器上的所有调度任务以避免发生任何冲突。
+禁用这两台服务器上的所有已调度的任务以避免发生任何冲突。
 {:important}
 
 ## 启动 Server2 的 {{site.data.keyword.backup_notm}} 门户网站
@@ -33,12 +33,11 @@ lastupdated: "2018-12-14"
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:tip}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择 Server2。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
-4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。
+4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
 ## 重新注册保险库
 
@@ -56,7 +55,7 @@ lastupdated: "2018-12-14"
 
 1. 单击**所有代理程序**。
 
-   您可能需要刷新页面才能在 Server2 的**作业**选项卡下看到 Server1 上定义为可访问/已同步的作业。
+   您可能需要刷新页面才能在 Server2 的**作业**选项卡下看到 Server1 上定义为可访问和已同步的作业。
    {:tip}
 2. 将鼠标悬停在**高级**上，然后选择**从其他计算机复原**。
 3. 在**从其他计算机复原**屏幕上，单击**添加**。这些字段会使用缺省值自动填充，因此请更改这些字段。

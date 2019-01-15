@@ -17,16 +17,16 @@ lastupdated: "2018-12-14"
 
 Às vezes, você deseja restaurar dados para um servidor diferente. Este procedimento se aplica somente a restaurações de nível de arquivo de arquivos não S.O. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](restore-bmr-system-volume-image.html).
 
-O processo inclui registrar novamente o agente de backup no segundo servidor para acessar a localização da
-área segura do primeiro servidor e concluir uma **Restauração de outro computador**.
+O processo inclui registrar novamente o agente de backup no segundo servidor para acessar a localização da área
+segura do primeiro servidor e concluir uma **Restauração de outro computador**.
 
 **Pré-requisitos**
 
 - Server1 e Server2 devem ter o mesmo S.O. Restaurações de plataforma cruzada não são suportados.
-- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-in-webcc).
+- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de Backup no portal do {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-and-the-backup-schedule).
 - Uma tarefa de backup para o Server1 que produziu um backup para a localização da área segura do Server1.
 
-Desative todas as tarefas de planejamento em ambos os servidores para evitar quaisquer conflitos.
+Desative todas as tarefas planejadas em ambos os servidores para evitar quaisquer conflitos.
 {:important}
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}} do Server2
@@ -34,13 +34,12 @@ Desative todas as tarefas de planejamento em ambos os servidores para evitar qua
 Lembre-se de iniciar a sua conexão do {{site.data.keyword.BluVPN}} para obter acesso à rede privada do {{site.data.keyword.BluSoftlayer_full}}, ou o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
 {:tip}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione Server2. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
-4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal do {{site.data.keyword.backup_notm}} em seu navegador.
+4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
 ## Registrando novamente a área segura
 
@@ -58,7 +57,7 @@ servidores com o serviço de backup.
 
 1. Clique em **Todos os Agentes**.
 
-   Talvez seja necessário atualizar a página para ver as tarefas que estão definidas no Server1 como acessíveis/sincronizadas na guia **Tarefas** do Server2.
+   Talvez seja necessário atualizar a página para ver as tarefas definidas no Server1 como acessíveis e sincronizadas na guia **Tarefas** do Server2.
    {:tip}
 2. Passe o mouse sobre **Avançado** e selecione **Restaurar por meio de
 outro computador**.
