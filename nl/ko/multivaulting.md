@@ -33,7 +33,7 @@ Multi-vaulting은 모든 데이터 센터에서 사용 가능하며, 원격 저�
 
 ## 계정에 원격 저장소 추가
 
-{{site.data.keyword.backup_notm}} 포털에서 새 백업 위치를 추가하려면 우선 새 원격 {{site.data.keyword.backup_notm}} 저장소를 계정에 추가해야 합니다.
+{{site.data.keyword.backup_notm}} 포털에서 새 백업 위치를 추가하려면 우선 새 원격 저장소를 계정에 추가해야 합니다.
 {:important}
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
@@ -56,7 +56,7 @@ Multi-vaulting은 모든 데이터 센터에서 사용 가능하며, 원격 저�
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 여러 저장소에 백업하려는 서버를 선택하십시오. 오른쪽 화살표를 클릭하여 {{site.data.keyword.backup_notm}} 포털 링크를 표시하십시오.
-4. **{{site.data.keyword.backup_notm}} 포털 로그인** 링크를 클릭하여 브라우저에서 {{site.data.keyword.backup_notm}} 포털 클라이언트를 시작하십시오.
+4. **{{site.data.keyword.backup_notm}} 포털 로그인** 링크를 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.
 
    {{site.data.keyword.backup_notm}} 포털은 {{site.data.keyword.BluVPN}}을 통해서만 액세스가 가능합니다.
    {:tip}

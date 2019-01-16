@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # {{site.data.keyword.backup_notm}} 서비스 취소
 
-언제든지 {{site.data.keyword.backup_full}} 서비스를 취소할 수 있습니다. 취소하면 백업 데이터가 있는 저장소가 삭제되며 사용자는 취소된 {{site.data.keyword.backup_notm}} 인증 정보로 {{site.data.keyword.backup_notm}} 포털에 로그인할 수 없습니다. 
+언제든지 {{site.data.keyword.backup_full}} 서비스를 취소할 수 있습니다. 취소하면 백업 데이터가 있는 저장소가 삭제되며 사용자는 취소된 인증 정보로 {{site.data.keyword.backup_notm}} 포털에 로그인할 수 없습니다. 
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.

@@ -15,7 +15,7 @@ lastupdated: "2018-12-14"
 
 # Oracle 플러그인 설치
 
-Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트의 Linux Agent 또는 Windows Agent로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Oracle 데이터베이스를 백업하며 Oracle 데이터베이스를 복원할 수 있습니다. Oracle 플러그인은 기존 아키텍처로 통합됩니다.
+Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트의 Linux 에이전트 또는 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Oracle 데이터베이스를 백업하며 Oracle 데이터베이스를 복원할 수 있습니다. Oracle 플러그인은 기존 아키텍처로 통합됩니다.
 
 **제공되는 기능**
 
@@ -43,9 +43,9 @@ Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트�
 7. 서드파티 서비스 계약을 읽고 동의한다고 표시하려면 상자를 선택하십시오.
 8. **주문하기**를 클릭하십시오.
 
-## Windows용 Oracle 플러그인 설치
+## Windows용 플러그인 설치
 
-Windows용 Oracle 플러그인은 32비트 또는 64비트 Windows 에이전트로 설치됩니다. Oracle 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. Oracle 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
+Windows용 Oracle 플러그인은 32비트 또는 64비트 Windows 에이전트로 설치됩니다. 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
 
 Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
 {:tip}
@@ -59,11 +59,11 @@ Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`�
 7. **내 현재 등록 유지**를 선택하고 **다음**을 클릭하십시오.
 8. **설치**를 클릭하십시오.
 9. 설치가 완료되면 두 서비스가 모두 사용되고 실행 중인지 확인하십시오.
-10. {{site.data.keyword.backup_notm}} 포털에서 데이터베이스 액세스/보기가 가능하면 설치가 완료된 것입니다.
+10. {{site.data.keyword.backup_notm}} 포털에서 데이터베이스 액세스 또는 보기가 가능하면 설치가 완료된 것입니다.
 
-## Linux용 Oracle 플러그인 설치
+## Linux용 플러그인 설치
 
-Oracle 플러그인은 Linux Agent에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. Oracle 플러그인을 설치하기 전에 Linux Agent 애플리케이션을 설치해야 합니다. 에이전트는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](install-backup-client-linux.html)를 참조하십시오. 
+Oracle 플러그인은 Linux 에이전트에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. 플러그인을 설치하기 전에 Linux 에이전트 애플리케이션을 설치해야 합니다. 에이전트는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](install-backup-client-linux.html)를 참조하십시오. 
 
 Oracle 플러그인 설치 킷은 tar.gz 파일로 사용 가능합니다.
 

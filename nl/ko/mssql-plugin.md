@@ -39,7 +39,7 @@ SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이
 
 ## MSSQL 플러그인 설치
 
-SQL 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
+플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
 
 Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
 {:tip}

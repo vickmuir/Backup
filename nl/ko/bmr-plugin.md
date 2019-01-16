@@ -25,7 +25,7 @@ BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 
 - 이미지 또는 파일 기반 백업에서 시스템을 복원합니다.
 - {{site.data.keyword.backup_notm}}에 저장된 백업에서 시스템을 복원합니다.
 - 부트 가능한 시스템이 없는 경우 데이터를 복원하는 데 사용할 수 있는 실행 가능한 복구 트랜잭션.
-.
+
 ## 플러그인 주문
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. <br/>

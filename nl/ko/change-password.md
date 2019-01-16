@@ -21,7 +21,7 @@ lastupdated: "2018-12-14"
 {{site.data.keyword.slportal}} 내에서 {{site.data.keyword.backup_notm}} 비밀번호에 대한 변경은 서비스 자체에 대해 이루어집니다. 비밀번호를 변경할 때 이 변경이 서비스에 직접적으로 영향을 미친다는 점을 유념하십시오.
 {:important}
 
-## {{site.data.keyword.backup_notm}} 비밀번호 변경
+## 비밀번호 변경
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.

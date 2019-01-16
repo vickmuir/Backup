@@ -17,7 +17,7 @@ lastupdated: "2018-12-14"
 
 Windows에서 {{site.data.keyword.backup_full}} 설치는 {{site.data.keyword.backup_notm}} 서비스용으로 지정된 서버에서 일련의 상호작용을 통해 완료됩니다.
 
-Windows 2016 서버의 백업에 대한 정보는 [Windows 2016에서 {{site.data.keyword.backup_notm}} 구성](install-backup-client-windows2016.html)을 참조하십시오.
+Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 {{site.data.keyword.backup_notm}} 구성](install-backup-client-windows2016.html)을 참조하십시오.
 {:tip}
 
 ## 대상 디바이스 서버에 로그인
@@ -45,7 +45,7 @@ Windows 2016 서버의 백업에 대한 정보는 [Windows 2016에서 {{site.dat
 
 1. 네트워크 주소를 입력하십시오. <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
