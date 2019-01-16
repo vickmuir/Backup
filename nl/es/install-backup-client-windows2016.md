@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Configuración de {{site.data.keyword.backup_notm}} en Windows 2016
 
-## Instalación del agente de software de {{site.data.keyword.backup_notm}}
+## Instalación del agente de copia de seguridad
 
 1. En el servidor de destino, abra una sesión de navegador y especifique el siguiente URL para descargar el archivo ejecutable.
    ```
@@ -52,7 +52,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 
 1. Controle de forma remota el servidor mediante RDP.
 2. Inicie Central Control.
-3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Configuración del agente**.
+3. En el espacio de trabajo, pulse con el botón derecho en **Mi agente** y seleccione **Configuración del agente**.
 4. En el separador Cajas fuertes, pulse **Nueva**. Aparece el asistente para la configuración de la caja fuerte. Pulse **Siguiente**.
 5. Seleccione **Registrar como un sistema nuevo** y pulse **Siguiente**.
 6. Especifique el nombre de caja fuerte en el campo Nombre de perfil.
@@ -61,7 +61,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
    {:tip}
 6. Escriba la dirección de red (la dirección IP de la caja fuerte asignada) y pulse **Añadir**. A continuación, pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.
-8. En la pantalla de configuración de la conexión, escriba el número de segundos y minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a/desde la caja fuerte**. Pulse **Siguiente**.
+8. En la pantalla de configuración de la conexión, escriba el número de segundos y minutos que desee. Mantenga marcado el recuadro **Habilitar cifrado sobre cable para transmisiones a y desde la caja fuerte**. Pulse **Siguiente**.
 9. En la pantalla de autenticación, especifique sus credenciales y pulse **Siguiente**.
 10. La ventana de sistemas registrados muestra el nombre de host de su servidor. Pulse **Siguiente**.
 11.	Pulse **Finalizar** para completar la configuración.
@@ -71,7 +71,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 
 1. Controle de forma remota el servidor mediante RDP.
 2. Inicie Central Control.
-3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Configuración del agente**.
+3. En el espacio de trabajo, pulse con el botón derecho en **Mi agente** y seleccione **Configuración del agente**.
 4. Pulse el separador **Retenciones**. Cuando aparezca el asistente para retención, pulse **Siguiente**.
 5. Escriba el nombre de la retención. Pulse **Siguiente**.<br/>
 
@@ -85,11 +85,11 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 8. Pulse **Finalizar** para completar la configuración del esquema de retención.
 
 
-## Configuración del trabajo de {{site.data.keyword.backup_notm}}
+## Configuración del trabajo de copia de seguridad
 
 1. Controle de forma remota el servidor mediante RDP.
 2. Inicie Central Control.
-3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione **Nuevo trabajo**.
+3. En el espacio de trabajo, pulse con el botón derecho en **Mi agente** y seleccione **Nuevo trabajo**.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
 5. Seleccione el tipo de origen de copia de seguridad.
 6. Seleccione **Unicode** para codificar. Pulse **Siguiente**.
@@ -102,14 +102,14 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 10. Especifique las opciones de proceso y de tiempo de copia de seguridad. Marque **Exploración rápida de archivos** y escriba las horas o minutos que desea como ventana de tiempo de la copia de seguridad. A continuación, pulse **Siguiente**.
 11. Seleccione el tipo de cifrado (el valor predeterminado es AES de 256 bits) y especifique la contraseña de cifrado. Pulse **Siguiente**
 12. Seleccione las opciones de registro para el trabajo. Marque **Crear archivo de registro** y seleccione **Depurar automáticamente solo archivos de registro caducados**. A continuación, pulse **Siguiente**
-13. Seleccione **Solo salir de este asistente** y pulse **Finalizar** para completar la configuración. Ahora el nuevo trabajo aparece bajo MyAgent.
+13. Seleccione **Solo salir de este asistente** y pulse **Finalizar** para completar la configuración. Ahora el nuevo trabajo aparece bajo Mi agente.
 
 
-## Ejecución del trabajo de {{site.data.keyword.backup_notm}}
+## Ejecución del trabajo de copia de seguridad
 
 1. Controle de forma remota el servidor mediante RDP.
 2. Inicie Central Control.
-3. En el espacio de trabajo, pulse con el botón derecho en **MyAgent** y seleccione el agente que ha creado.
+3. En el espacio de trabajo, pulse con el botón derecho en **Mi agente** y seleccione el agente que ha creado.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
 5. Seleccione el destino de copia de seguridad u otra ubicación para inicializar el trabajo de copia de seguridad. Pulse **Siguiente**.<br/>
    Para obtener más información sobre varias cajas fuertes, consulte [Multivaulting](multivaulting.html)

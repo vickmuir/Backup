@@ -20,22 +20,22 @@ Las copias de seguridad garantizan que los datos se almacenan de forma segura fu
 
 Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 
-- [Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Adquisición de {{site.data.keyword.backup_notm}} como actualización](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Adquisición de copias de seguridad cuando se solicita un servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server).
+- [Adquisición de copias de seguridad como actualización](#purchasing-ibm-cloud-backup-as-an-upgrade).
 
 Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 
 1. Inicie sesión en el [Catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
-2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](bare-metal/baremetal-provision.html){:new_window}.
+2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
       El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.
       {:tip}
    2. Seleccione la ubicación.
    3. Seleccione Configuración de servidor y tipo de imagen de SO. También puede elegir varios complementos.
-   4. En la sección **Discos de almacenamiento**, pulse en **Complementos** y seleccione **Copia de seguridad de {{site.data.keyword.backup_notm}}**. Elija la opción que coincida con lo que necesita.
+   4. En la sección **Discos de almacenamiento**, pulse **Complementos** y seleccione **{{site.data.keyword.backup_notm}}**. Elija la opción que coincida con lo que necesita.
    5. En **Interfaz de red**, seleccione la Velocidad de puerto de enlace ascendente y los complementos que desee.
 3. A la derecha, revise el resumen de su pedido.
 4. Después de revisar los términos y condiciones, marque el recuadro de selección **He leído y acepto los acuerdos de servicio de terceros**.
@@ -47,8 +47,8 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 #### Confirmación de la compra de {{site.data.keyword.backup_notm}}
-1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
   - Si ve un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
@@ -60,9 +60,9 @@ También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External 
 
 #### Seleccione el servidor en el que desea instalar {{site.data.keyword.backup_notm}}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse en el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio {{site.data.keyword.cloud_notm}}.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio de copia de seguridad.
 3. Pulse el nombre del dispositivo para ir a la página **Detalles del dispositivo**.
 
 #### Adición (adquisición) del servicio {{site.data.keyword.backup_notm}}
@@ -84,17 +84,15 @@ También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External 
 
 ## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}}
 
-Los detalles de almacenamiento del servicio {{site.data.keyword.backup_notm}} se pueden ver en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y en el {{site.data.keyword.slportal}} en cualquier momento. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
+Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
-2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible. Continúe con el paso siguiente para ver la contraseña asociada con el servicio de {{site.data.keyword.backup_notm}}.
+2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible.
 3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
-Para muchos productos y servicios de {{site.data.keyword.BluSoftlayer_full}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para almacenamiento o para realizar el seguimiento de las contraseñas. Para dichas ofertas, los cambios que se realizan en las mismas dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio.
-
-Este _no_ es el caso de {{site.data.keyword.backup_notm}}. Los cambios realizados en la contraseña de la copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}} se realizan en el propio servicio. Cuando cambie la contraseña, tenga en cuenta que afecta directamente a su servicio. Para restablecer la contraseña, siga los pasos del apartado sobre [Cómo cambiar una contraseña de copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}}](change-password.html).
+Los cambios realizados en la contraseña de la copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}} se realizan en el propio servicio. Para restablecer la contraseña, siga los pasos de la sección [Cambio de la contraseña del servicio de copia de seguridad](change-password.html).
 {:important}
 
 ## Instalación del agente de {{site.data.keyword.backup_notm}}
@@ -102,6 +100,7 @@ Este _no_ es el caso de {{site.data.keyword.backup_notm}}. Los cambios realizado
 El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas operativos siguientes:
 
 **Windows**
+ - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
@@ -121,7 +120,7 @@ El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas o
 Siga las instrucciones adecuadas para su sistema operativo,
 - [Instalación del cliente de copia de seguridad en Linux](install-backup-client-linux.html)
 - [Instalación del cliente de copia de seguridad en Windows](install-backup-client-windows.html)
-- [Instalación del cliente de copia de seguridad en Windows 2016](install-windows2016.html)
+- [Instalación del cliente de copia de seguridad en Windows 2016](install-backup-client-windows2016.html)
 
 ## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
 
@@ -133,13 +132,13 @@ El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con t
    {:important}
 2. Acceda a la pantalla de almacenamiento de copia de seguridad en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 3. Pulse en cualquier lugar de la fila del servicio de {{site.data.keyword.backup_notm}} que desea ver para expandir la vista.
-4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal de {{site.data.keyword.backup_notm}} en su navegador.
+4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
 ## Configuración del agente de copia de seguridad y de la planificación de copias de seguridad
 
-Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Puede seguir estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
+Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Siga estos pasos para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
 
-1. Inicie una sesión en WebCc.
+1. Inicie una sesión en el portal de {{site.data.keyword.backup_notm}}.
 2. Pulse **Todos los agentes**> **Agentes no configurados**.
 3. Pulse el enlace **Este es un nuevo agente que me gustaría configurar**. Siga los pasos del proceso y especifique la siguiente información:
    1. Configuración del agente: especifique la descripción del agente y pulse **Siguiente**.
@@ -165,7 +164,7 @@ Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber ins
    4. Pulse **Iniciar copia de seguridad**. Puede ver los detalles de la copia de seguridad mientras se está ejecutando el proceso.
    5. Cuando finalice la copia de seguridad, pulse **Cerrar**.
 
-Para obtener más información sobre las copias de seguridad a nivel de archivo en Linux, consulte [ Configuración de la copia de seguridad simple a nivel de archivos en Linux](configure-simple-file-backup-linux.html).
+Para obtener más información, consulte la sección [Configuración de una copia de seguridad simple a nivel de archivo en Linux](configure-simple-file-backup-linux.html).
 {:tip}
 
 ## Obtención de ayuda en línea

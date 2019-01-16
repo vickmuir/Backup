@@ -19,7 +19,7 @@ lastupdated: "2018-11-15"
 
 Se puede utilizar {{site.data.keyword.backup_full}} para realizar una copia de seguridad de varias aplicaciones. {{site.data.keyword.BluSoftlayer_full}} ofrece agentes de software para algunos de los sistemas de software más comunes de los que se hace copia de seguridad, que incluyen:
 
-- Restauración nativa
+- Restauración desde cero
 - Microsoft Exchange
 - Microsoft SQL
 - Oracle
@@ -41,9 +41,9 @@ Las copias de seguridad muy frecuentes que se ejecutan varias veces al día o ca
 ## ¿Cómo funcionan los esquemas de retención?
 {: faq}
 
-Evault Backup permite la retención de datos en función del tiempo al que desee retrotraer. Los esquemas de retención **diarios** conservan los datos durante siete días, mientras que los esquemas **semanales** conservan los datos durante un mes y los esquemas **mensuales** los conservan durante un año. Al final de cada periodo, el conjunto de datos más antiguo queda apartado y la primera "copia de seguridad delta" realizada se convierte en el punto de restauración más antiguo disponible.
+{{site.data.keyword.backup_notm}} permite la retención de datos en función del tiempo al que desee retrotraer. Los esquemas de retención **diarios** conservan los datos durante siete días, mientras que los esquemas **semanales** conservan los datos durante un mes y los esquemas **mensuales** los conservan durante un año. Al final de cada periodo, el conjunto de datos más antiguo queda apartado y la primera "copia de seguridad delta" realizada se convierte en el punto de restauración más antiguo disponible.
 
-Puede modificar los esquemas de retención predeterminados y puede crear esquemas de retención personalizados. Sin embargo, IBM recomienda el uso de las retenciones predeterminadas como punto de partida. Cuando se crea un nuevo esquema de retención o se modifica una retención existente, asegúrese de que la opción Archivado no esté seleccionada. El archivado no está soportado.
+Puede modificar los esquemas de retención predeterminados y puede crear esquemas de retención personalizados. Sin embargo, IBM recomienda utilizar las retenciones predeterminadas como punto de partida. Cuando se crea un nuevo esquema de retención o se modifica una retención existente, asegúrese de que la opción Archivado no esté seleccionada. El archivado no está soportado.
 {:tip}
 
 <hr>
@@ -51,7 +51,7 @@ Puede modificar los esquemas de retención predeterminados y puede crear esquema
 ## ¿Qué es la tecnología delta?
 {: faq}
 
-La primera copia de seguridad es un “inicio” (una copia de seguridad completa) y las siguientes son "deltas" (es decir, solo cambios), pero son equivalentes y se siguen considerando "copias de seguridad completas". Es decir, puede restaurar a partir de las mismas todos los archivos o archivos seleccionados. Esta tecnología permite realizar "copias de seguridad completas" en cada sesión, pero ahorra una enorme cantidad de espacio en la caja fuerte y reduce el tiempo necesario para realizar cada una de las siguientes copias de seguridad.
+La primera copia de seguridad es un “inicio” (una copia de seguridad completa) y las siguientes son "deltas" (es decir, solo cambios), pero son equivalentes y se siguen considerando "copias de seguridad completas". Es decir, puede restaurar a partir de las mismas todos los archivos o archivos seleccionados. Con esta tecnología se crean "copias de seguridad completas" en cada sesión, pero se ahorra una enorme cantidad de espacio en la caja fuerte y se reduce el tiempo necesario para realizar cada una de las siguientes copias de seguridad.
 
 <hr>
 
@@ -70,7 +70,7 @@ Las proporciones de compresión permiten entre compresión cero y proporciones m
 ## ¿Qué información se guarda con las copias de seguridad de estado del sistema?
 {: faq}
 
-Las copias de seguridad de estado del sistema incluyen, aunque sin limitarse a los mismos, COM + base de datos de registro de clase, registro, archivos de arranque, archivos del sistema y recuento de rendimiento. Todos dependen del sistema. Los archivos del sistema varían según el SO del sistema y los paquetes de servicio. Normalmente hay varios miles de ellos. MS Windows crea una lista dinámica de estos DLL cuando el usuario los incluye en la copia de seguridad. Si incluye los archivos del sistema, puede recuperar archivos del sistema dañados, o realizar una recuperación si desinstala accidentalmente algunos paquetes de servicio o si desea realizar una recuperación con una restauración desde cero. Puede volver al estado de la copia de seguridad sin tener que volver a instalar el sistema operativo desde el kit de instalación y luego instalar cada paquete de servicio por separado.
+Las copias de seguridad de estado del sistema incluyen, aunque sin limitarse a los mismos, COM + base de datos de registro de clase, registro, archivos de arranque, archivos del sistema y recuento de rendimiento. Todos dependen del sistema. Los archivos del sistema varían según el SO del sistema y los paquetes de servicio. Normalmente hay varios miles de ellos. MS Windows crea una lista dinámica de estos DLL cuando el usuario los incluye en la copia de seguridad. Si incluye los archivos del sistema, puede recuperar archivos del sistema dañados, o realizar una recuperación si elimina accidentalmente algunos paquetes de servicio o si desea realizar una recuperación con una restauración desde cero. Puede volver al estado de la copia de seguridad sin tener que volver a instalar el sistema operativo desde el kit de instalación y luego instalar cada paquete de servicio por separado.
 
 No se incluye ningún archivo de datos de usuario en la copia de seguridad del estado del sistema. Un trabajo de copia de seguridad de estado del sistema se debe configurar como un trabajo autónomo. No debe haber ningún otro origen de datos que esté incluido en el trabajo de copia de seguridad del estado del sistema
 {:important}
@@ -94,14 +94,14 @@ Para obtener más información, consulte [Almacenamiento de copia de seguridad](
 ## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_full}} sin poner en riesgo las copias de seguridad?
 {: faq}
 
-Puede aumentar o reducir el tamaño de su caja fuerte a través del [ {{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](expanding-evault-capacity.html).
+Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](expanding-capacity.html).
 
 <hr>
 
 ## ¿Qué sucede cuando se supera la capacidad de {{site.data.keyword.backup_notm}}?
 {: faq}
 
-Todavía puede guardar y recuperar sus copias de seguridad, aunque alcance el límite de la capacidad que ha adquirido anteriormente. Sin embargo, recibirá un cargo adicional por cada GB extra utilizado en la próxima factura. 
+Todavía puede guardar y recuperar sus copias de seguridad, aunque alcance el límite de la capacidad que ha adquirido anteriormente. Sin embargo, recibirá un cargo adicional por cada GB extra utilizado en la próxima factura.
 
 <hr>
 
@@ -135,7 +135,7 @@ La copia de seguridad BMR no es una imagen de disco, sino un sistema de copia de
 ##¿Se puede utilizar BMR para copias de seguridad de base de datos?
 {: faq}
 
-Las copias de datos de base de datos se deben realizar por separado, con los métodos normales de copia de seguridad de {{site.data.keyword.backup_notm}}. BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Aunque BMR utiliza la tecnología VSS para hacer copia de seguridad de archivos abiertos, no siempre se puede garantizar que los archivos copiados sean coherentes entre transacciones. La recomendación para estos tipos de aplicaciones especializadas es que se creen dos trabajos de copia de seguridad: uno para hacer copia de seguridad del sistema operativo y de los archivos binarios de aplicación y otro para los datos de aplicación. Encontrará una nota sobre este tema al final de la guía del usuario de BMR.
+Las copias de datos de base de datos se deben realizar por separado, con los métodos normales de copia de seguridad de {{site.data.keyword.backup_notm}}. BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Aunque BMR utiliza la tecnología VSS para hacer copia de seguridad de archivos abiertos, no siempre se puede garantizar que los archivos copiados sean coherentes entre transacciones. La recomendación para estos tipos de aplicaciones especializadas es que se creen dos trabajos de copia de seguridad: uno para hacer copia de seguridad del sistema operativo y de los archivos binarios de aplicación y otro para los datos de aplicación.
 
 <hr>
 
@@ -148,7 +148,7 @@ Puede realizar una restauración completa del sistema o puede seleccionar archiv
 ## ¿Ofrece BMR funciones de copia de seguridad de archivos abiertos?
 {: faq}
 
-BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](evault-mssql-plugin.html) para ver instrucciones de instalación del plugin MSSQL.
+BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](mssql-plugin.html) para ver instrucciones de instalación del plugin MSSQL.
 
 <hr>
 
@@ -162,4 +162,4 @@ Una copia de seguridad que se realiza a partir de una instalación predeterminad
 ## ¿Qué hace VSS (Volume Shadow Copy Services)?
 {: faq}
 
-La versión actual del plugin de SQL Server para {{site.data.keyword.backup_notm}} utiliza VSS (Volume Shadow Copy Services) para hacer copias de seguridad. Al utilizar VSS, el plugin de SQL Server realiza una copia de seguridad de las bases de datos SQL, incluidas las bases de datos SQL que abarcan volúmenes. Las copias de seguridad se pueden completar mientras las aplicaciones siguen escribiendo en un volumen. El plugin de SQL Server proporciona coherencia de datos dentro de las bases de datos y entre ellas. VSS permite ejecutar varias copias de seguridad a la vez.
+La versión actual del plugin de SQL Server utiliza VSS (Volume Shadow Copy Services) para hacer copias de seguridad. Al utilizar VSS, el plugin de SQL Server realiza una copia de seguridad de las bases de datos SQL, incluidas las bases de datos SQL que abarcan volúmenes. Las copias de seguridad se pueden completar mientras las aplicaciones siguen escribiendo en un volumen. El plugin de SQL Server proporciona coherencia de datos dentro de las bases de datos y entre ellas. VSS permite ejecutar varias copias de seguridad a la vez.

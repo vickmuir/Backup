@@ -17,13 +17,13 @@ lastupdated: "2018-12-14"
 
 La instalación del cliente de {{site.data.keyword.backup_full}} en Windows se completa a través de una serie de interacciones en el servidor designado para el servicio de {{site.data.keyword.backup_notm}}.
 
-Para obtener información sobre las copias de seguridad para servidores Windows 2016, consulte [Configuración de {{site.data.keyword.backup_notm}} en Windows 2016](install-backup-client-windows2016.html).
+Para obtener más información sobre las copias de seguridad para servidores Windows 2016, consulte [Configuración de {{site.data.keyword.backup_notm}} en Windows 2016](install-backup-client-windows2016.html).
 {:tip}
 
 ## Inicie una sesión en el servidor del dispositivo de destino
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal para ver la lista de servidores disponibles.
 3. Busque el dispositivo para el que ha adquirido el servicio de {{site.data.keyword.backup_notm}} y anote su dirección IP pública.
 4. Pulse la flecha que apunta a la derecha para ampliar y ver más información sobre el dispositivo, incluido el nombre de usuario y la contraseña. Si no se muestra la contraseña, pulse **Mostrar contraseña** para verla.
@@ -45,7 +45,7 @@ También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External 
 
 1. Escriba la dirección de red: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

@@ -19,18 +19,17 @@ Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.d
 ## Inicio del sistema BMR Rescue Kernel
 
 Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slportal}}.
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} 
-2. Haga clic en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
+1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse la **Flecha** que hay junto a la caja fuerte.
-4. Pulse **Iniciar restauración nativa**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.
+4. Pulse **Iniciar restauración desde cero**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.
 
 
 ## Restauración desde BMR Rescue Kernel
 
 1. Cuando se cargue la transacción de BMR Rescue Kernel, podrá acceder de dos formas diferentes.
-  - Un cliente VNC y la dirección IP privada/pública del servidor y la contraseña que aparece en el {{site.data.keyword.slportal}}
+  - Un cliente VNC y la dirección IP privada o pública del servidor y la contraseña que aparece en el {{site.data.keyword.slportal}}
   - La consola KVM de su tarjeta IPMI.
   Ambos métodos funcionan bien.
 2. Después de iniciar una sesión en BMR Rescue Kernel por primera vez, verá la pantalla de selección de idioma. Seleccione el idioma que desee y pulse **Siguiente**.
@@ -63,5 +62,5 @@ Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slp
 18. En la pantalla final, marque el recuadro correspondiente a reiniciar el sistema y seleccione **Finalizar**; el servidor cargará la imagen del volumen restaurado.
   La restauración ha finalizado. <br/>
 
-  La primera vez que suceda verá el mensaje de cierre inesperado. Es normal con este tipo de copia de seguridad y desaparece después del primer arranque.
+  Es posible que la primera vez que se reinicie el servidor vea el mensaje de cierre inesperado. Es normal con este tipo de copia de seguridad y desaparece después del primer arranque.
   {:tip}

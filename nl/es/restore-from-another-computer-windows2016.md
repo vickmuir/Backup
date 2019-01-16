@@ -11,9 +11,9 @@ lastupdated: "2018-12-14"
 Siga estos pasos para completar una restauración de archivos desde otro sistema utilizando Windows Central Control en Windows 2016.
 
 1. Controle de forma remota el servidor Windows 2016 mediante RDP.
-2. Abra CentralControl.
+2. Abra Central Control.
 3. Pulse con el botón derecho en **Agente** y pulse **Configuración del agente**.
-4. Elimine los valores de caja fuerte actuales de CentralControl; para ello seleccione la entrada y pulse **Suprimir**.
+4. Elimine los valores de caja fuerte actuales de Central Control; para ello seleccione la entrada y pulse **Suprimir**.
 5. Pulse **Nuevo** y, en la pantalla siguiente, seleccione **Volver a registrar sistema previamente registrado**. Pulse **Siguiente**.
 6. Escriba la dirección de red y pulse **Añadir**; luego pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.
