@@ -22,7 +22,7 @@ Exchange プラグインは、Windows エージェントとともにホスト上
 
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
@@ -32,7 +32,7 @@ Exchange プラグインは、Windows エージェントとともにホスト上
 7. サード・パーティー・サービス契約を読んで同意することを示すため、このボックスにチェック・マークを付けます。
 8. **「注文」**をクリックします。
 
-## Exchange プラグインのインストール
+## プラグインのインストール
 
 Exchange プラグインは、Windows エージェント 64 ビットのインストール時にインストールされます。 プラグインは、エージェントのインストール時にインストールすることも、あるいは後で**「変更」**を選択してインストールを再実行することでインストールすることもできます。
 
@@ -49,8 +49,8 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 8. **「現在の登録を保持する (Keep my current registration)」**を選択し、**「次へ」**をクリックします。
 9. **「インストール (Install)」**をクリックします。
 10. インストール後、両方のサービスが有効で実行中であることを確認してください。
-11. {{site.data.keyword.backup_notm}} ポータルがデータベースにアクセスできる (つまり、{{site.data.keyword.backup_notm}} ポータルにデータベースが表示される) 場合、インストールは正常に完了しています。
+11. {{site.data.keyword.backup_notm}} ポータルがデータベースにアクセスできるか、またはデータベースを参照できる場合、インストールは正常に完了しています。
 
 ## ユーザー・ガイドのダウンロード
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、またはその他のオブジェクトを .pst ファイルにリストアできます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、またはその他のオブジェクトを .pst ファイルにリストアできます。

@@ -17,12 +17,12 @@ lastupdated: "2018-12-14"
 
 Windows で {{site.data.keyword.backup_full}} クライアントをインストールするには、{{site.data.keyword.backup_notm}} サービス用に指定されているサーバーで一連の対話式作業を行います。
 
-Windows 2016 サーバーでのバックアップについては、[Windows 2016 での {{site.data.keyword.backup_notm}} の構成](install-backup-client-windows2016.html)を参照してください。
+Windows 2016 サーバーでのバックアップについて詳しくは、[Windows 2016 での {{site.data.keyword.backup_notm}} の構成](install-backup-client-windows2016.html)を参照してください。
 {:tip}
 
 ## ターゲット・デバイス・サーバーへのログイン
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. メインメニューから**「デバイス」**>**「デバイス・リスト」**を選択して使用可能なサーバーのリストを表示します。
 3. {{site.data.keyword.backup_notm}} サービスの購入対象であるデバイスを検索し、そのパブリック IP アドレスをメモします。
@@ -45,7 +45,7 @@ Windows 2016 サーバーでのバックアップについては、[Windows 2016
 
 1. ネットワーク・アドレスを入力します。 <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

@@ -22,10 +22,10 @@ lastupdated: "2018-12-14"
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](index.html#configuring-the-backup-agent-in-webcc)を参照してください。
+- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](index.html#configuring-the-backup-agent-and-the-backup-schedule)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
-競合を回避するために、両方のサーバーですべてのスケジュール・タスクを無効にしてください。
+競合を回避するために、両方のサーバーですべてのスケジュール済みタスクを無効にしてください。
 {:important}
 
 ## Server2 の {{site.data.keyword.backup_notm}} ポータルの開始
@@ -33,12 +33,11 @@ lastupdated: "2018-12-14"
 {{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。このようにしないと {{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. Server2 を選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
-4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーで {{site.data.keyword.backup_notm}} ポータル・クライアントを開始します。
+4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## ボールトの再登録
 
@@ -56,7 +55,7 @@ lastupdated: "2018-12-14"
 
 1. **「すべてのエージェント」**をクリックします。
 
-   Server1 で定義されたジョブが Server2 の**「ジョブ」**タブにアクセス可能または同期済みとして表示されるようにするには、ページのリフレッシュが必要な場合があります。
+   Server1 で定義されたジョブが Server2 の**「ジョブ」**タブにアクセス可能および同期済みとして表示されるようにするには、ページのリフレッシュが必要な場合があります。
    {:tip}
 2. **「拡張」**に移動し、**「別のコンピューターからのリストア (Restore from another Computer)」**を選択します。
 3. **「別のコンピューターからのリストア (Restore from another Computer)」**画面で**「追加」**をクリックします。 フィールドにデフォルト値が自動的に取り込まれるので、デフォルト値を変更します。
