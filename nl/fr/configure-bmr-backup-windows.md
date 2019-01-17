@@ -14,7 +14,7 @@ lastupdated: "2018-12-14"
 
 # Configuration de travail de sauvegarde BMR sous Windows
 
-Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disponible uniquement pour Bare Metal Servers sous Windows. Aucune option BMR n'est disponible pour les instances de service virtuel (VSI).
+Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disponible uniquement pour Bare Metal Servers sous Windows. Aucune option BMR n'est disponible pour les instances de service virtuel (VSI). Pour plus d'informations, voir [Installation du plug-in Bare Metal Restore](bmr-plugin.html)
 {:important}
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
@@ -22,11 +22,11 @@ Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disp
 Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_full}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
 3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
-4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
+4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
    Si le portail {{site.data.keyword.backup_notm}} ne démarre pas, cela peut indiquer un problème au niveau de votre connexion VPN. Un message peut également s'afficher pour vous informer que le formulaire que vous envoyez n'est pas sécurisé. L'affichage de ce message est prévu ; vous pouvez envoyer le formulaire.
    {:tip}

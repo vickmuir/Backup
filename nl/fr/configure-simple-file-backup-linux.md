@@ -18,12 +18,12 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que 
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 2. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 3. Démarrez votre connexion VPN pour pouvoir accéder au réseau privé IBM.
-4. Cliquez sur le lien Connexion au portail {{site.data.keyword.backup_notm}} pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.<br/>
+4. Cliquez sur le lien de connexion au portail {{site.data.keyword.backup_notm}} pour démarrer le client de portail dans votre navigateur.<br/>
 
   Si le portail {{site.data.keyword.backup_notm}} ne démarre pas, cela peut indiquer un problème au niveau de votre connexion VPN. Un message peut également s'afficher pour vous informer que le formulaire que vous envoyez n'est pas sécurisé. L'affichage de ce message est prévu ; vous pouvez envoyer le formulaire.
   {:tip}
@@ -35,17 +35,18 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que 
 3. Entrez un nom et une description pour le travail que vous créez.
 4. Pour **Type de source de sauvegarde**, sélectionnez le type de système de fichiers que vous voulez sauvegarder.
 5. Cliquez sur **Suivant** pour continuer.
-6. Dans le panneau **Fichiers de données**, accédez aux fichiers et aux répertoires que vous voulez inclure dans votre sauvegarde en cliquant sur les signes **+** et **-** en regard des icônes des dossiers correspondants.
+6. Dans le panneau des fichiers de données, accédez aux fichiers et aux répertoires que vous voulez inclure dans votre sauvegarde en cliquant sur les signes **+** et **-** en regard des icônes de dossier.
 7. Cochez les cases en regard des fichiers et des répertoires que vous désirez inclure, puis cliquez sur **Inclure** pour enregistrer vos sélections.
-8. Vous pouvez filtrer davantage vos sélections à l'aide de l'écran en incrustation qui apparaît, ou cliquer sur **OK** pour utiliser en l'état les sélections que vous avez effectuées. Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, ceux-ci s'affichent dans le panneau **Groupe de sauvegarde** sur le côté droit de l'écran. Cliquez sur **Suivant** pour continuer.
+8. Vous pouvez filtrer davantage vos sélections à l'aide de l'écran en incrustation qui apparaît, ou cliquer sur **OK** pour utiliser en l'état les sélections que vous avez effectuées. Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, ceux-ci s'affichent dans le panneau de groupe de sauvegarde sur le côté droit de l'écran. Cliquez sur **Suivant** pour continuer.
 
-   Vous pouvez répéter les étapes 6 à 8 pour ajouter d'autres fichiers ou supprimer (à l'aide du bouton **Exclure**) des fichiers que vous aviez déjà ajoutés. Vous pouvez également utiliser l'option **Supprimer** pour éliminer une ligne quelconque du panneau **Groupe de sauvegarde**. Une fois ce groupe de sauvegarde configuré comme vous le souhaitez,
+   Vous pouvez répéter les étapes 6 à 8 pour ajouter d'autres fichiers ou supprimer (à l'aide du bouton **Exclure**) des fichiers que vous aviez déjà ajoutés. Vous pouvez également utiliser l'option **Retirer** pour supprimer une ligne d'article du panneau de groupe de sauvegarde. Une fois ce groupe de sauvegarde configuré comme vous le souhaitez,
    {:tip}
 9. Sélectionnez le type de chiffrement voulu.
   - Si vous ne désirez pas chiffrer votre sauvegarde, sélectionnez **Aucune**.
   - Si vous désirez la chiffrer, sélectionnez **AES 256 bits** et renseignez les champs Mot de passe et Vérifier le mot de passe. Vous pouvez également ajouter une indication quant au mot de passe.
+
     Vous aurez besoin de ce mot de passe en vue de restaurer des fichiers depuis la sauvegarde. Vous ne pouvez pas restaurer une sauvegarde chiffrée sans connaître le mot de passe et il n'est pas possible de récupérer un mot de passe égaré.
-  {:important}
+    {:important}
 10. Vous pouvez utiliser n'importe laquelle des **options avancées**.
   - **Conservation** - cette option vous permet de gérer l'utilisation de vos données. La durée de conservation détermine pendant combien de temps votre sauvegarde est conservée. Une fois la durée de conservation écoulée, la sauvegarde est automatiquement supprimée. Options intégrées : quotidienne, hebdomadaire ou mensuelle.
   - **Compression** - cette option vous permet de réduire la capacité qui est utilisée pour l'enregistrement des sauvegardes.

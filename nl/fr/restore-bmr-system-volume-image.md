@@ -19,9 +19,8 @@ Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site
 ## Initialisation du système BMR Rescue Kernel
 
 Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.keyword.slportal}}.
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-      Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez sur la **flèche** en regard du coffre.
 4. Cliquez sur **Lancer Bare Metal Restore**. Cette action déclenche une transaction dont l'exécution prend quelques minutes. Vous pouvez ensuite accéder au serveur en suivant la procédure décrite ici. Un message électronique vous est envoyé à l'issue du processus d'amorçage du système.
@@ -30,7 +29,7 @@ Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.ke
 ## Restauration depuis le noyau BMR Rescue Kernel
 
 1. Une fois la transaction BMR Rescue Kernel chargée, vous pouvez y accéder de deux manières différentes.
-  - Via un client VNC et l'adresse IP publique/privée de votre serveur, avec le mot de passe répertorié dans le portail {{site.data.keyword.slportal}}
+  - Via un client VNC et l'adresse IP privée ou publique de votre serveur et le mot de passe répertorié dans le portail {{site.data.keyword.slportal}}
   - Via la console KVM de votre carte IPMI.
   Les deux méthodes fonctionnent bien.
 2. Lorsque vous vous connectez pour la première fois à BMR Rescue Kernel, vous êtes accueilli par un écran de sélection de langue. Sélectionnez celle de votre choix, puis cliquez sur **Suivant**.
@@ -63,5 +62,5 @@ Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.ke
 18. Sur l'écran final, cochez la case de redémarrage du système et sélectionnez **Terminer**. Le serveur charge votre image de volume restaurée.
   La restauration est à présent terminée. <br/>
 
-  La première fois que cela se produit, il se peut qu'un message d'arrêt inattendu s'affiche. Cela est tout à fait normal avec ce type de sauvegarde ; ce message disparaît après le premier amorçage.
+  Lors du premier redémarrage du serveur, un message d'arrêt inattendu peut s'afficher. Cela est tout à fait normal avec ce type de sauvegarde ; ce message disparaît après le premier amorçage.
   {:tip}

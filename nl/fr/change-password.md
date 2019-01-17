@@ -21,9 +21,9 @@ Dans de nombreux produits et services {{site.data.keyword.BluSoftlayer_full}}, l
 Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Lorsque vous modifiez votre mot de passe, n'oubliez pas que cela impacte directement votre service.
 {:important}
 
-## Modification du mot de passe {{site.data.keyword.backup_notm}}
+## Modification du mot de passe
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez n'importe où sur la ligne du coffre concernée pour développer la vue.

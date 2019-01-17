@@ -20,8 +20,8 @@ Les sauvegardes permettent de stocker en toute sécurité vos données hors de v
 
 Vous pouvez acquérir le service {{site.data.keyword.backup_notm}} de deux manières.
 
-- [Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Acquisition d'{{site.data.keyword.backup_notm}} sous forme de mise à niveau](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasing-ibm-cloud-backup-when-you-order-a-server).
+- [Acquisition de sauvegardes sous forme de mise à niveau](#purchasing-ibm-cloud-backup-as-an-upgrade).
 
 Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
@@ -35,7 +35,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
       {:tip}
    2. Sélectionnez l'emplacement.
    3. Sélectionnez la configuration de serveur et le type d'image de système d'exploitation. Vous pouvez également choisir plusieurs modules complémentaires.
-   4. Sous la section **Disques de stockage**, cliquez sur **Modules complémentaires** et sélectionnez **Sauvegarde {{site.data.keyword.backup_notm}}**. Choisissez l'option correspondant à vos besoins.
+   4. Sous la section **Disques de stockage**, cliquez sur **Modules complémentaires** et sélectionnez **{{site.data.keyword.backup_notm}}**. Choisissez l'option correspondant à vos besoins.
    5. Sous **Interface réseau**, sélectionnez la vitesse de port de liaison montante et les modules complémentaires souhaités.
 3. Sur la droite, passez en revue le récapitulatif de votre commande.
 4. Après avoir lu les dispositions, cochez la case **J'ai lu et j'accepte les contrats de service tiers**.
@@ -47,7 +47,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
 Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique de mise à disposition de votre commande inclut un lien vers votre page *Détails de l'unité* une fois que vous vous connectez à {{site.data.keyword.cloud_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
 
 #### Confirmation de l'acquisition d'{{site.data.keyword.backup_notm}}
-1. Dans la [console {{site.data.keyword.cloud_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window}, cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
+1. Dans la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window}, cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Unité** > **Liste des unités**.
 2. Localisez le nouveau serveur vous avez commandé.
@@ -60,9 +60,9 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 
 #### Sélection d'un serveur sur lequel installer {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
-2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal. Recherchez le périphérique pour lequel vous désirez ajouter le service de sauvegarde {{site.data.keyword.cloud_notm}}.
+2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal. Recherchez le périphérique pour lequel vous voulez ajouter le service de sauvegarde.
 3. Cliquez sur le nom de l'unité pour accéder à la page **Détails de l'unité**.
 
 #### Ajout (acquisition) du service {{site.data.keyword.backup_notm}}
@@ -84,17 +84,15 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 
 ## Accès et examen des détails du stockage du service de stockage {{site.data.keyword.backup_notm}}
 
-Vous pouvez à tout moment accéder aux détails du stockage de votre service {{site.data.keyword.backup_notm}} dans la [console {{site.data.keyword.cloud_notm}} ](https://{DomainName}/catalog/){:new_window} et le portail {{site.data.keyword.slportal}}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
+Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et le portail {{site.data.keyword.slportal}}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** et sélectionnez **Sauvegarde** dans la liste.
-2. Cliquez n'importe où sur la ligne du coffre dont vous souhaitez examiner les informations de stockage. Dans cette vue, le mot de passe n'est pas visible. Passez à l'étape suivante pour examiner le mot de passe associé à votre service {{site.data.keyword.backup_notm}}.
+2. Cliquez n'importe où sur la ligne du coffre dont vous souhaitez examiner les informations de stockage. Dans cette vue, le mot de passe n'est pas visible.
 3. Cochez la case **Afficher** en regard de la zone **Mot de passe** pour examiner le mot de passe du service {{site.data.keyword.backup_notm}} sélectionné.
 
-Dans de nombreux produits et services {{site.data.keyword.BluSoftlayer_full}}, la fonction de stockage du mot de passe dans le portail {{site.data.keyword.slportal}} est utilisée uniquement à des fins de stockage ou de suivi du mot de passe. Pour ces offres, les modifications qui sont apportées au mot de passe dans le portail {{site.data.keyword.slportal}} ne sont pas appliquées au produit ou au service.
-
-Ce n'est _pas_ le cas pour {{site.data.keyword.backup_notm}}. Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Lorsque vous modifiez votre mot de passe, n'oubliez pas que cela impacte directement votre service. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification d'un mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}}](change-password.html).
+Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification du mot de passe d'un service de sauvegarde](change-password.html).
 {:important}
 
 ## Installation de l'agent {{site.data.keyword.backup_notm}}
@@ -102,6 +100,7 @@ Ce n'est _pas_ le cas pour {{site.data.keyword.backup_notm}}. Les modifications 
 L'agent {{site.data.keyword.backup_notm}} est pris en charge sur les systèmes d'exploitation suivants :
 
 **Windows**
+ - Windows Server 2016
  - Windows Server 2012 R2
  - Windows Server 2012
  - Windows Server 2008 R2
@@ -132,14 +131,14 @@ Le portail {{site.data.keyword.backup_notm}} est utilisé pour interagir avec un
    Le portail {{site.data.keyword.backup_notm}} n'est pas accessible via le réseau public. Une connexion VPN doit d'abord être établie.
    {:important}
 2. Accédez à l'écran de stockage de sauvegarde sur le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
-3. Cliquez n'importe où sur la ligne du service {{site.data.keyword.backup_notm}} concernée pour développer la vue.
-4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
+3. Cliquez n'importe où sur la ligne du service {{site.data.keyword.backup_notm}} que vous voulez afficher pour développer la vue.
+4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
 ## Configuration de l'agent de sauvegarde et du planning de sauvegarde
 
-Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que l'agent a été installé sur le serveur, vous pouvez commencer à créer des sauvegardes de vos données. Procédez comme suit pour configurer votre agent, le planning de conservation des données et lancer votre premier travail de sauvegarde.
+Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que l'agent a été installé sur le serveur, vous pouvez commencer à créer des sauvegardes de vos données. Procédez comme suit pour configurer votre agent, le planning de conservation des données et démarrer votre premier travail de sauvegarde.
 
-1. Connectez-vous à WebCC.
+1. Connectez-vous au portail {{site.data.keyword.backup_notm}}.
 2. Cliquez sur **Tous les agents**> **Agents non configurés**.
 3. Cliquez sur le lien **Il s'agit d'un nouvel agent que je désire configurer**. Suivez cette procédure en spécifiant les informations suivantes :
    1. Configuration de l'agent - fournissez la description, puis cliquez sur **suivant**.
@@ -165,7 +164,7 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que 
    4. Cliquez sur **Lancer la sauvegarde**. Vous pouvez afficher les détails de la sauvegarde pendant l'exécution du processus.
    5. Une fois la sauvegarde terminée, cliquez sur **Fermer**.
 
-Pour plus d'informations sur les sauvegardes de niveau fichier sous Linux, voir [Configuration d'une sauvegarde simple au niveau fichier sous Linux](configure-simple-file-backup-linux.html).
+Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau fichier sous Linux](configure-simple-file-backup-linux.html).
 {:tip}
 
 ## Obtention d'aide en ligne

@@ -17,12 +17,12 @@ lastupdated: "2018-12-14"
 
 L'installation du client {{site.data.keyword.backup_full}} sous Windows est réalisée via une série d'interactions sur le serveur désigné pour le service {{site.data.keyword.backup_notm}}.
 
-Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voir [Configuration d'{{site.data.keyword.backup_notm}} sous Windows 2016](install-backup-client-windows2016.html).
+Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voir [Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016](install-backup-client-windows2016.html).
 {:tip}
 
 ## Connexion au serveur de l'unité cible
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des serveurs disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
@@ -45,7 +45,7 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 
 1. Entrez l'adresse réseau : <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
@@ -54,6 +54,6 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 6. Cliquez sur **Suivant**.
 7. Cliquez sur **Installer** pour terminer l'installation.
 
-## Configuration d'agents de sauvegarde
+## Configuration des agents de sauvegarde
 
 Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html#configuring-the-backup-agent-and-the-backup-schedule).

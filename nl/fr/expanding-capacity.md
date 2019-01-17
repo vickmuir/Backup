@@ -19,10 +19,10 @@ Les utilisateurs {{site.data.keyword.BluSoftlayer_full}} actuels peuvent étendr
 
 ## Commande d'une extension
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez le coffre que vous souhaitez étendre.
+3. Sélectionnez le coffre que vous voulez étendre.
 4. Cliquez sur **Actions** et sélectionnez **Modifier {{site.data.keyword.backup_notm}}**.
 5. Sur l'écran suivant, sélectionnez la nouvelle taille et cliquez sur **Mettre à niveau**.
 

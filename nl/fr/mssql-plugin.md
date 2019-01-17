@@ -27,7 +27,7 @@ Pour plus d'informations, voir la section [Principales caractéristiques](#main-
 
 ## Commande du plug-in
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
@@ -39,7 +39,7 @@ Pour plus d'informations, voir la section [Principales caractéristiques](#main-
 
 ## Installation du plug-in MSSQL
 
-Pour installer le plug-in SQL, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**.
+Pour installer le plug-in, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**.
 
 Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrêtez les deux services {{site.data.keyword.backup_notm}} dans `services.msc`.
 {:tip}

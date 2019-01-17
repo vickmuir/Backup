@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Mise à niveau de l'agent de logiciel de sauvegarde pour Windows
 
-L'agent {{site.data.keyword.backup_notm}} le plus récent peut être téléchargé depuis la section des liens rapides du tableau de bord de votre portail {{site.data.keyword.backup_notm}}.
+L'agent de sauvegarde le plus récent peut être téléchargé depuis la section des liens rapides du tableau de bord de votre portail {{site.data.keyword.backup_notm}}.
 {:tip}
 
 1. Prenez le contrôle à distance de votre serveur {{site.data.keyword.BluSoftlayer_full}} ayant besoin d'une mise à niveau d'{{site.data.keyword.backup_notm}}.
@@ -24,7 +24,7 @@ L'agent {{site.data.keyword.backup_notm}} le plus récent peut être télécharg
    {:pre}
 3. Cliquez sur le fichier souhaité. (Par exemple, Agent-Windows-x64-6-72-1072a.exe.)
 
-   Le numéro de version figure dans le nom de fichier. Sélectionnez le plus récent. <br/>Il existe des programmes d'installation 32 bits et 64 bits distincts. Si vous utilisez un système d'exploitation 64 bits, téléchargez le fichier dont le nom contient x64.
+   Le numéro de version figure dans le nom de fichier. Sélectionnez le plus récent. <br/>{{site.data.keyword.BluSoftlayer_full}} propose des programmes d'installation 32 bits et 64 bits distincts. Si vous utilisez un système d'exploitation 64 bits, téléchargez le fichier dont le nom contient x64.
    {:tip}
 4. Cliquez sur **Exécuter** sur l'écran de téléchargement, puis à nouveau après son téléchargement.
 5. Cliquez sur **Oui** pour mettre à niveau l'**agent de logiciel {{site.data.keyword.backup_notm}}**.

@@ -41,9 +41,9 @@ Les sauvegardes très fréquentes s'exécutant plusieurs fois par jour ou par he
 ## Comment les schémas de conservation fonctionnent-ils ?
 {: faq}
 
-Une sauvegarde Evault permet une conservation des données en fonction de la durée à laquelle vous désirez pouvoir remonter. Le schéma de conservation **Quotidienne** conserve les données pendant 7 jours, tandis que les schémas **Hebdomadaire** les conservent pendant 1 mois et les schémas **Mensuelle** pendant 1 an. A la fin de chaque période, les données les plus anciennes sont expurgées et la première "sauvegarde delta" effectuée devient le point de restauration le plus éloigné disponible.
+{{site.data.keyword.backup_notm}} permet une conservation des données dépendant de la durée que vous choisissez. Le schéma de conservation **Quotidienne** conserve les données pendant 7 jours, tandis que les schémas **Hebdomadaire** les conservent pendant 1 mois et les schémas **Mensuelle** pendant 1 an. A la fin de chaque période, les données les plus anciennes sont expurgées et la première "sauvegarde delta" effectuée devient le point de restauration le plus éloigné disponible.
 
-Vous pouvez modifier les schémas de conservation par défaut et créer des schémas de conservation personnalisés. IBM recommande toutefois d'utiliser les conservations par défaut pour commencer. Lorsque vous créez un nouveau schéma de conservation ou que vous modifiez un schéma de conservation existant, assurez-vous que l'option Archivage n'est pas cochée. L'archivage n'est pas pris en charge.
+Vous pouvez modifier les schémas de conservation par défaut et créer des schémas de conservation personnalisés. IBM recommande toutefois d'utiliser les conservations par défaut pour commencer. Quand vous créez un nouveau schéma de conservation ou que vous modifiez un schéma de conservation existant, assurez-vous que l'option d'archivage n'est pas cochée. L'archivage n'est pas pris en charge.
 {:tip}
 
 <hr>
@@ -51,7 +51,7 @@ Vous pouvez modifier les schémas de conservation par défaut et créer des sch�
 ## En quoi consiste la technologie Delta ?
 {: faq}
 
-La toute première sauvegarde est une sauvegarde "de départ" (complète et intégrale), la suivante et les autres étant de type "delta" (à savoir, uniquement des modifications), mais qui sont équivalentes et considérées elles-aussi comme des "sauvegardes complètes". En d'autres termes, vous pouvez restaurer tous les fichiers, ou ceux de votre choix, depuis celle-ci. Cette technologie permet d'effectuer des "sauvegardes complètes" à chaque session, mais économise un espace considérable dans le coffre et réduit la durée d'exécution de chaque sauvegarde ultérieure.
+La toute première sauvegarde est une sauvegarde "de départ" (complète et intégrale), la suivante et les autres étant de type "delta" (à savoir, uniquement des modifications), mais qui sont équivalentes et considérées elles-aussi comme des "sauvegardes complètes". En d'autres termes, vous pouvez restaurer tous les fichiers, ou ceux de votre choix, depuis celle-ci. Avec cette technologie, des "sauvegardes complètes" sont créées à chaque session mais un espace considérable est économisé dans le coffre et la durée d'exécution de chaque sauvegarde suivante est réduite d'autant.
 
 <hr>
 
@@ -70,7 +70,7 @@ Les ratios de compression admettent une compression allant de 0 % jusqu'à une c
 ## Quelles sont les informations stockées avec les sauvegardes de l'état du système ?
 {: faq}
 
-Les sauvegardes de l'état du système incluent, sans s'y limiter, la base de données d'enregistrement de classe COM +, le registre, les fichiers d'amorçage, les fichiers système et le compteur de performance. Tout dépend de votre système. Les fichiers système varient selon le système d'exploitation et les service packs. On en compte généralement plusieurs milliers. MS Windows établit une liste dynamique de ces DLL lorsque vous les incluez dans la sauvegarde. Le fait d'inclure des fichiers système vous permet d'effectuer une reprise en cas de fichiers système endommagés ou si vous désinstallez par inadvertance des service packs, ou si vous désirez effectuer une restauration bare metal. Vous pouvez revenir à l'état de la sauvegarde sans avoir à réinstaller le système d'exploitation depuis le kit d'installation, puis d'installer chaque service pack séparément.
+Les sauvegardes de l'état du système incluent, sans s'y limiter, la base de données d'enregistrement de classe COM +, le registre, les fichiers d'amorçage, les fichiers système et le compteur de performance. Tout dépend de votre système. Les fichiers système varient selon le système d'exploitation et les service packs. On en compte généralement plusieurs milliers. MS Windows établit une liste dynamique de ces DLL lorsque vous les incluez dans la sauvegarde. Le fait d'inclure des fichiers système vous permet d'effectuer une reprise en cas de fichiers système endommagés ou si vous retirez par inadvertance des service packs ou voulez effectuer une restauration bare metal. Vous pouvez revenir à l'état de la sauvegarde sans avoir à réinstaller le système d'exploitation depuis le kit d'installation, puis d'installer chaque service pack séparément.
 
 Aucun fichier de données utilisateur n'est inclus dans une sauvegarde de l'état du système. Un travail de sauvegarde de l'état du système doit être configuré en tant que travail autonome. Aucune autre source de données ne doit être incluse dans le travail de sauvegarde de l'état du système.
 {:important}
@@ -94,7 +94,7 @@ Pour plus d'informations, voir [Backup storage](https://www.ibm.com/cloud/backup
 ## La capacité {{site.data.keyword.backup_full}} peut-elle être augmentée/réduite sans compromettre les sauvegardes ?
 {: faq}
 
-Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](expanding-evault-capacity.html).
+Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](expanding-capacity.html).
 
 <hr>
 
@@ -135,7 +135,7 @@ La sauvegarde BMR n'est pas une image disque mais un système de sauvegarde d'im
 ##BMR peut-il être utilisé pour des sauvegardes de base de données ?
 {: faq}
 
-Les sauvegardes de base de données doivent être réalisées séparément, avec les méthodes de sauvegarde {{site.data.keyword.backup_notm}} ordinaires. BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Bien que BMR utilise la technologie VSS pour sauvegarder les fichiers ouverts, il n'est pas garanti que les fichiers sauvegardés soient toujours cohérents avec les transactions. Il est recommandé, pour ces types d'applications spécialisées, de créer deux travaux de sauvegarde : l'un pour sauvegarde du système d'exploitation et des fichiers binaires d'application, l'autre pour les données d'application. Une note à cet effet figure à la fin du guide d'utilisation de BMR.
+Les sauvegardes de base de données doivent être réalisées séparément, avec les méthodes de sauvegarde {{site.data.keyword.backup_notm}} ordinaires. BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Bien que BMR utilise la technologie VSS pour sauvegarder les fichiers ouverts, il n'est pas garanti que les fichiers sauvegardés soient toujours cohérents avec les transactions. Il est recommandé, pour ces types d'applications spécialisées, de créer deux travaux de sauvegarde : l'un pour sauvegarde du système d'exploitation et des fichiers binaires d'application, l'autre pour les données d'application.
 
 <hr>
 
@@ -148,7 +148,7 @@ Vous pouvez effectuer une restauration intégrale du système ou bien sélection
 ## BMR dispose-t-il de fonctionnalités de sauvegarde de fichiers ouverts ?
 {: faq}
 
-BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](evault-mssql-plugin.html) pour les instructions d'installation du plug-in MSSQL.
+BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](mssql-plugin.html) pour les instructions d'installation du plug-in MSSQL.
 
 <hr>
 
@@ -162,4 +162,4 @@ Une sauvegarde qui est réalisée à partir d'une installation par défaut utili
 ## Rôle de VSS (Volume Shadow Copy Services) ?
 {: faq}
 
-La version actuelle du plug-in SQL Server pour {{site.data.keyword.backup_notm}} utilise VSS (Volume Shadow Copy Services) pour réaliser des sauvegardes. Grâce à VSS, le plug-in SQL Server sauvegarde efficacement des bases de données SQL, même celles qui sont réparties sur plusieurs volumes. Les sauvegardes peuvent être effectuées tandis que les applications continuent d'écrire des données sur un volume. Le plug-in SQL Server permet une cohérence des données dans et entre les bases de données. VSS permet l'exécution simultanée de plusieurs sauvegardes.
+La version actuelle du plug-in SQL Server utilise VSS (Volume Shadow Copy Services) pour réaliser des sauvegardes. Grâce à VSS, le plug-in SQL Server sauvegarde efficacement des bases de données SQL, même celles qui sont réparties sur plusieurs volumes. Les sauvegardes peuvent être effectuées tandis que les applications continuent d'écrire des données sur un volume. Le plug-in SQL Server permet une cohérence des données dans et entre les bases de données. VSS permet l'exécution simultanée de plusieurs sauvegardes.

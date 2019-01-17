@@ -25,10 +25,10 @@ BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Wind
 - Restauration de votre système depuis des sauvegardes basées image ou fichiers.
 - Restauration de votre système depuis des sauvegardes hébergées {{site.data.keyword.backup_notm}}.
 - Transaction de reprise déclenchable permettant de restaurer vos données sans système amorçable.
-.
+
 ## Commande du plug-in
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window}, puis cliquez sur **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.

@@ -33,10 +33,10 @@ Une sauvegarde vers des emplacements de centres de données distants peut prendr
 
 ## Ajout d'un coffre distant à un compte
 
-Vous devez ajouter le nouveau coffre {{site.data.keyword.backup_notm}} distant au compte avant de pouvoir ajouter un nouvel emplacement de sauvegarde dans le portail {{site.data.keyword.backup_notm}}.
+Vous devez ajouter le nouveau coffre distant au compte avant de pouvoir ajouter un nouvel emplacement de sauvegarde dans le portail {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Unités**
 3. Localisez et cliquez sur le lien du serveur concerné.
@@ -52,11 +52,11 @@ Une fois le processus de commande terminé, accédez à **Stockage** > **Sauvega
 
 ## Ajout d'un coffre supplémentaire dans le portail {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
-4. Cliquez sur le lien **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
+4. Cliquez sur le lien de connexion au portail **{{site.data.keyword.backup_notm}} ** pour démarrer le client de portail dans votre navigateur.
 
    Le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}

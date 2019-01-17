@@ -13,7 +13,7 @@ lastupdated: "2018-12-14"
 
 # Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016
 
-## Installation de l'agent de logiciel {{site.data.keyword.backup_notm}}
+## Installation de l'agent de sauvegarde
 
 1. Sur le serveur cible, ouvrez une session de navigateur et entrez l'URL suivante pour télécharger le fichier exécutable.
    ```
@@ -48,11 +48,11 @@ lastupdated: "2018-12-14"
 
 ## Configuration de Central Control
 
-Cette tâche est réalisée par le biais d'une série d'interactions alors que vous êtes connecté au serveur désigné pour le service {{site.data.keyword.backup_notm}}. 
+Cette tâche est réalisée par le biais d'une série d'interactions alors que vous êtes connecté au serveur désigné pour le service {{site.data.keyword.backup_notm}}.
 
 1. Contrôlez votre serveur à distance via RDP.
 2. Démarrez Central Control.
-3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Configuration d'agent**.
+3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'option relative à la configuration d'agent.
 4. Sur l'onglet Coffres, cliquez sur **Nouveau**. L'assistant de configuration de coffre s'affiche. cliquez sur **Suivant**.
 5. Sélectionnez **Enregistrer en tant que nouvel ordinateur** et cliquez sur **Suivant**.
 6. Entrez le nom du coffre dans la zone Nom de profil.
@@ -61,7 +61,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
    {:tip}
 6. Entrez l'adresse réseau (adresse IP du coffre affecté) et cliquez sur **Ajouter**. Cliquez ensuite sur **Suivant**.
 7. Entrez les nouvelles valeurs de port et cliquez sur **Ajouter**, puis sur **Suivant**.
-8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes et de minutes souhaité. Laissez la case **Activer le chiffrement simultané pour les transmissions vers/depuis le coffre** sélectionnée. cliquez sur **Suivant**.
+8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes et de minutes souhaité. Laissez cochée la case relative au chiffrement simultané pour les transmissions vers/depuis le coffre. Cliquez sur **Suivant**.
 9. Sur l'écran d'authentification, entrez vos données d'identification et cliquez sur **Suivant**.
 10. La fenêtre Ordinateurs enregistrés indique le nom d'hôte de votre serveur. cliquez sur **Suivant**.
 11.	Cliquez sur **Terminer** pour terminer la configuration.
@@ -71,7 +71,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 
 1. Contrôlez votre serveur à distance via RDP.
 2. Démarrez Central Control.
-3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Configuration d'agent**.
+3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'option relative à la configuration d'agent.
 4. Cliquez sur l'onglet **Conservation**. L'assistant de conservation s'affiche. Cliquez sur **Suivant**.
 5. Entrez le nom de la conservation. cliquez sur **Suivant**.<br/>
 
@@ -85,11 +85,11 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 8. Cliquez sur **Terminer** pour achever la configuration du schéma de conservation.
 
 
-## Configuration du travail {{site.data.keyword.backup_notm}}
+## Configuration du travail de sauvegarde
 
 1. Contrôlez votre serveur à distance via RDP.
 2. Démarrez Central Control.
-3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez **Nouveau travail**.
+3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez **Nouveau travail**.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
 5. Sélectionnez le type de source de la sauvegarde.
 6. Sélectionnez **Unicode** pour le codage. cliquez sur **Suivant**.
@@ -102,14 +102,14 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 10. Spécifiez les options relatives à l'heure de la sauvegarde et du traitement. Cochez la case **Analyse de fichier rapide** et entrez les heures ou les minutes qui définissent votre fenêtre de sauvegarde. Cliquez ensuite sur **Suivant**.
 11. Sélectionnez le type de chiffrement (la valeur par défaut est AES 256-bit) et entrez votre mot de passe de chiffrement. Cliquez sur **Suivant**.
 12. Sélectionnez les options de consignation pour votre travail. Cochez la case **Créer un fichier journal** et sélectionnez **Purger automatiquement uniquement les fichiers journaux expirés**. Cliquez ensuite sur **Suivant**.
-13. Sélectionnez **Quitter cet assistant**, puis cliquez sur **Terminer** pour terminer la configuration. Le nouveau travail s'affiche désormais sous MyAgent.
+13. Sélectionnez **Quitter cet assistant**, puis cliquez sur **Terminer** pour terminer la configuration. Le nouveau travail s'affiche désormais sous My Agent.
 
 
-## Exécution du travail {{site.data.keyword.backup_notm}}
+## Exécution du travail de sauvegarde
 
 1. Contrôlez votre serveur à distance via RDP.
 2. Démarrez Central Control.
-3. Dans l'espace de travail, cliquez avec le bouton droit sur **MyAgent** et sélectionnez l'agent que vous venez de créer.
+3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'agent que vous venez de créer.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
 5. Sélectionnez la destination de sauvegarde ou un autre emplacement pour alimenter le travail de sauvegarde. cliquez sur **Suivant**.<br/>
    Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](multivaulting.html).

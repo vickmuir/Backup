@@ -21,9 +21,8 @@ Procédez comme indiqué ci-après pour effectuer une restauration de fichier en
 Prenez soin de démarrer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}. Sinon, le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
 {:important}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-
-      Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur **Portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail {{site.data.keyword.backup_notm}} dans votre navigateur.
@@ -40,7 +39,7 @@ Prenez soin de démarrer votre connexion {{site.data.keyword.BluVPN}} pour pouvo
 8. Cliquez sur **Suivant** pour continuer.
 9. Cochez les cases en regard des fichiers et des répertoires que vous voulez inclure, puis cliquez sur **Inclure** pour enregistrer vos sélections.
 10. Vous pouvez filtrer davantage vos sélections à l'aide de la fenêtre qui s'affiche, ou cliquer sur **OK** pour utiliser en l'état les sélections que vous avez effectuées.
-Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, les fichiers ne peuvent plus être sélectionnés dans le panneau **Fichiers de données**. Ils sont affichés dans le panneau **Groupe de sauvegarde** sur la droite.
+Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, les fichiers ne peuvent plus être sélectionnés dans le panneau des fichiers de données. Ils s'affichent sur le panneau de groupe de sauvegarde sur la droite.
 
    Vous pouvez répéter l'étape 10 pour ajouter d'autres fichiers ou pour supprimer des fichiers que vous aviez ajoutés (à l'aide d'une instruction **Exclude**). Vous pouvez également utiliser l'option **Supprimer** pour éliminer une ligne quelconque du panneau **Groupe de sauvegarde**.
    {:tip}

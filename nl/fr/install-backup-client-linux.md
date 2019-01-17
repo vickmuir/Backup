@@ -16,26 +16,26 @@ lastupdated: "2018-12-14"
 
 # Installation du client de sauvegarde sous Linux
 
-L'installation du client {{site.data.keyword.backup_full}} sur un système d'exploitation Linux peut être réalisée via une série de commandes de shell ou de terminal dans le système d'exploitation. Cette procédure décrit les étapes requises pour l'installation du client {{site.data.keyword.backup_notm}} sur l'un des systèmes d'exploitation Linux suivants :
+L'installation du client {{site.data.keyword.backup_full}} sur un système d'exploitation Linux peut être réalisée via une série de commandes de shell ou de terminal dans le système d'exploitation. Cette procédure décrit les étapes requises pour l'installation du client sur l'un des systèmes d'exploitation Linux suivants :
 
 - RHEL
 - CentOS
 - CloudLinux
 
-A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès du portail {{site.data.keyword.backup_notm}}. Téléchargez et installez ensuite les fichiers nécessaires à l'exécution du service.
+A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès du portail {{site.data.keyword.backup_notm}} puis télécharge et installe les fichiers nécessaires à l'exécution du service.
 
-Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le [catalogue {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
+Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le catalogue [{{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
 {:tip}
 
 Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que mise à niveau dans le portail {{site.data.keyword.slportal}}, procédez comme suit pour installer le logiciel.
 
 ## Connexion au serveur de l'unité cible
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window}, puis cliquez sur l'icône **Menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des unités serveur disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
-  - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 4.
+  - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 5.
 4. Cliquez sur la flèche pointant vers la droite pour afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe.
   - Si le mot de passe n'est pas affiché, cochez la case **Afficher mot de passe** pour l'afficher. Le nom d'utilisateur et le mot de passe seront utilisés à l'étape suivante pour la connexion au dispositif de test. Remplacez `<user name>` par le nom de l'utilisateur réel.
 5. Connectez-vous à l'unité cible en exécutant la commande suivante à partir d'une ligne de commande UNIX ou Linux :
@@ -60,7 +60,7 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
   ```
   {: pre}
 
-  Si vous y êtes invité, confirmez que la taille de téléchargement est correcte. La mise à jour est lancée et affiche un message "Terminé" lorsqu'elle est terminée.
+  Si vous y êtes invité, confirmez que la taille de téléchargement est correcte. La mise à jour est lancée et indique par un message quand elle est terminée.
 
 ## Obtention du script d'installation
 
@@ -117,7 +117,8 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
    ```
    {: codeblock}
 
-  Les ID de processus représentés par `xxxxx` varient selon l'installation.{:tip}
+  Les ID de processus représentés par `xxxxx` varient selon l'installation.
+  {:tip}
 
 **Etapes suivantes**
 
