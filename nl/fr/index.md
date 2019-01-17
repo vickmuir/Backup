@@ -28,7 +28,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
 ### Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 
 1. Connectez-vous au [catalogue IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/){:new_window} ou au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}
-2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](bare-metal/baremetal-provision.html){:new_window}.
+2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Sélectionnez l'option de facturation par quantité. Entrez les noms d'hôte et de domaine. Vous pouvez choisir n'importe quel nom d'hôte et de domaine.
 
       Le service {{site.data.keyword.backup_notm}} n'est pas disponible si vous commandez un serveur facturé sur une base horaire. Toutefois, vous pouvez ajouter ultérieurement le service sous forme de mise à niveau.
@@ -121,7 +121,7 @@ L'agent {{site.data.keyword.backup_notm}} est pris en charge sur les systèmes d
 Suivez les instructions correspondant à votre système d'exploitation.
 - [Installation du client de sauvegarde sous Linux](install-backup-client-linux.html)
 - [Installation du client de sauvegarde sous Windows](install-backup-client-windows.html)
-- [Installation du client de sauvegarde sous Windows 2016](install-windows2016.html)
+- [Installation du client de sauvegarde sous Windows 2016](install-backup-client-windows2016.html)
 
 ## Accès au portail {{site.data.keyword.backup_notm}} (anciennement WebCC)
 
