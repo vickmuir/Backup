@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016
+{: #InstallinWindows2016}
 
 ## Installation de l'agent de sauvegarde
 
@@ -61,7 +62,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
    {:tip}
 6. Entrez l'adresse réseau (adresse IP du coffre affecté) et cliquez sur **Ajouter**. Cliquez ensuite sur **Suivant**.
 7. Entrez les nouvelles valeurs de port et cliquez sur **Ajouter**, puis sur **Suivant**.
-8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes et de minutes souhaité. Laissez cochée la case relative au chiffrement simultané pour les transmissions vers/depuis le coffre. Cliquez sur **Suivant**.
+8. Sur l'écran Paramètres de connexion, entrez le nombre de secondes et de minutes souhaité. Laissez cochée la case relative au chiffrement simultané pour les transmissions vers/depuis le coffre. cliquez sur **Suivant**.
 9. Sur l'écran d'authentification, entrez vos données d'identification et cliquez sur **Suivant**.
 10. La fenêtre Ordinateurs enregistrés indique le nom d'hôte de votre serveur. cliquez sur **Suivant**.
 11.	Cliquez sur **Terminer** pour terminer la configuration.
@@ -112,7 +113,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'agent que vous venez de créer.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
 5. Sélectionnez la destination de sauvegarde ou un autre emplacement pour alimenter le travail de sauvegarde. cliquez sur **Suivant**.<br/>
-   Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](multivaulting.html).
+   Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](/docs/infrastructure/Backup?topic=Backup-multivault).
    {:tip}
 6. Sélectionnez l'option d'analyse de fichier rapide pour que les fichiers qui n'ont pas été modifiés ne soient pas lus. cliquez sur **Suivant**.
 7. Cliquez sur **Terminer** pour achever la configuration et lancer la sauvegarde. Une fenêtre d'informations de processus s'affiche ; elle contient l'état du travail de sauvegarde. Lorsque le travail de sauvegarde est terminé, cliquez sur **Fermer**.

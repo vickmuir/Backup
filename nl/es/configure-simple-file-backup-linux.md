@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,15 +13,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configuración de una copia de seguridad simple a nivel de archivo en Linux
+{: #configureLinuxBackup}
 
 Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. El artículo contiene los pasos a seguir para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
 
-## Inicio del portal {{site.data.keyword.backup_notm}}
+## Inicio del portal de {{site.data.keyword.backup_notm}}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-2. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal {{site.data.keyword.backup_notm}}.
+2. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 3. Inicie la conexión VPN para acceder a la red privada de IBM.
 4. Pulse el enlace de inicio de sesión en el portal de {{site.data.keyword.backup_notm}} para iniciar el cliente del portal en su navegador.<br/>
 
@@ -57,7 +58,7 @@ Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber ins
 12. En la página Crear una planificación, pulse **Añadir** para planificar un trabajo de copia de seguridad basado en tiempo o pulse **Siguiente** para crear un trabajo manual.
   - Si elige crear un trabajo manual, continúe en el Paso 15.
   - Si elige planificar un trabajo basado en tiempo, seleccione los días y la hora del día en que desea ejecutar las copias de seguridad.
-  - Seleccione el esquema de retención. Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](faqs.html#how-do-the-retention-schemes-work-).
+  - Seleccione el esquema de retención. Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Pulse **Opciones avanzadas de planificación** para ver más opciones de configuración. Puede seleccionar **Utilizar aplazamiento** para evitar que se ejecutan copias de seguridad de gran tamaño durante horas de mucha actividad en la red.
 
     Si la opción de aplazamiento está habilitada, el trabajo de copia de seguridad no hace copia de seguridad de los datos nuevos después del periodo de tiempo especificado. Confirma el conjunto seguro en la caja fuerte, aunque no se haya hecho copia de seguridad de algunos datos en el trabajo. Se hace una copia de seguridad de los datos modificados anteriormente, independientemente del periodo de tiempo especificado. <br/> Cuando se vuelve a ejecutar el trabajo, el agente comprueba si hay cambios en los datos que se habían copiado anteriormente, hace copia de seguridad de dichos cambios y luego hace copia de seguridad de los datos restantes. Si un trabajo de copia de seguridad se aplaza mientras se está haciendo copia de seguridad de un elemento, la copia de seguridad de dicho elemento queda incompleta y los datos del elemento no se pueden restaurar. Sin embargo, puede restaurar los elementos que se habían copiado anteriormente en el trabajo antes de que se aplazara el trabajo.

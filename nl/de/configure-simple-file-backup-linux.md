@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Einfache Sicherung auf Dateiebene unter Linux konfigurieren
+{: #configureLinuxBackup}
 
 Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. In diesem Artikel sind die Schritte beschrieben, mit denen Sie den Agenten sowie den Aufbewahrungszeitplan konfigurieren und Ihren ersten Sicherungsjob starten.
 
@@ -23,7 +24,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 2. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 3. Starten Sie Ihre VPN-Verbindung, um Zugang zum privaten IBM Netz zu erhalten.
-4. Klicken Sie auf den Link zur {{site.data.keyword.backup_notm}}-Portalanmeldung, um den Portalclient in Ihrem Browser zu starten. <br/>
+4. Klicken Sie auf den Link zur {{site.data.keyword.backup_notm}}-Portalanmeldung, um den Portalclient in Ihrem Browser zu starten.<br/>
 
   Falls das {{site.data.keyword.backup_notm}}-Portal nicht gestartet wird, liegt möglicherweise ein Problem mit Ihrer VPN-Verbindung vor. Außerdem wird möglicherweise die Nachricht ausgegeben, dass das Formular, das Sie senden, nicht sicher ist. Dies entspricht dem erwarteten Verhalten; fahren Sie mit dem Senden des Formulars fort.
   {:tip}
@@ -57,7 +58,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
 12. Klicken Sie auf der Seite 'Zeitplan erstellen' auf **Hinzufügen**, um einen zeitbasierten Sicherungsjob zu planen, oder klicken Sie auf **Weiter**, um einen manuellen Job zu erstellen.
   - Falls Sie einen manuellen Job erstellen wollen, fahren Sie mit Schritt 15 fort.
   - Falls Sie einen zeitbasierten Job planen wollen, wählen Sie die Tage und die Uhrzeit für die Ausführung der Sicherungen aus.
-  - Wählen Sie das Aufbewahrungsschema aus. Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html#how-do-the-retention-schemes-work-).
+  - Wählen Sie das Aufbewahrungsschema aus. Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Klicken Sie auf **Erweiterte Zeitplanoptionen**, um zusätzliche Konfigurationseinstellungen anzuzeigen. Durch Auswahl von **Verzögerung verwenden** können Sie verhindern, dass umfangreiche Sicherungen zu Zeiten mit einer hohen Netzauslastung ausgeführt werden.
 
     Wenn die Verzögerung aktiviert ist, sichert der Sicherungsjob nach dem angegebenen Zeitraum keine neuen Daten. Die Sicherungsgruppe wird in der Vault festgeschrieben, auch wenn einige Daten im Job nicht gesichert wurden. Änderungen an zuvor gesicherten Daten werden unabhängig vom angegebenen Zeitraum gesichert. <br/> Wenn der Job erneut ausgeführt wird, prüft der Agent die zuvor gesicherten Daten auf Änderungen, sichert diese Änderungen und sichert anschließend die übrigen Daten. Falls ein Sicherungsjob verzögert wird, während ein Element gesichert wird, ist die Sicherung für dieses Element unvollständig und Daten aus dem Element können nicht wiederhergestellt werden. Elemente, die im Job vor seiner Verzögerung gesichert wurden, können Sie jedoch wiederherstellen.

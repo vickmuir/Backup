@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Oracle 플러그인 설치
+{: #Oracleplugin}
 
 Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트의 Linux 에이전트 또는 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Oracle 데이터베이스를 백업하며 Oracle 데이터베이스를 복원할 수 있습니다. Oracle 플러그인은 기존 아키텍처로 통합됩니다.
 
@@ -45,7 +46,7 @@ Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트�
 
 ## Windows용 플러그인 설치
 
-Windows용 Oracle 플러그인은 32비트 또는 64비트 Windows 에이전트로 설치됩니다. 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다.
+Windows용 Oracle 플러그인은 32비트 또는 64비트 Windows 에이전트로 설치됩니다. 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다. 자세한 정보는 [Windows에 {{site.data.keyword.backup_notm}} 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)를 참조하십시오.
 
 Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
 {:tip}
@@ -63,7 +64,7 @@ Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`�
 
 ## Linux용 플러그인 설치
 
-Oracle 플러그인은 Linux 에이전트에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. 플러그인을 설치하기 전에 Linux 에이전트 애플리케이션을 설치해야 합니다. 에이전트는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](install-backup-client-linux.html)를 참조하십시오. 
+Oracle 플러그인은 Linux 에이전트에 대한 추가 기능으로 데이터베이스 호스트의 에이전트로 설치됩니다. 플러그인을 설치하기 전에 Linux 에이전트 애플리케이션을 설치해야 합니다. 에이전트는 32비트 애플리케이션 및 64비트 애플리케이션으로 사용 가능합니다. 자세한 정보는 [Linux에 {{site.data.keyword.backup_notm}} 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)를 참조하십시오.
 
 Oracle 플러그인 설치 킷은 tar.gz 파일로 사용 가능합니다.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Windows에서 BMR 백업 구성
+{: #configureBMR}
 
 BMR 백업을 작성하려면 BMR 플러그인을 구매해야 합니다. BMR은 Windows 베어메탈 서버에만 사용 가능합니다. VSI에는 BMR 옵션을 사용할 수 없습니다. 자세한 정보는 [Bare Metal Restore 플러그인 설치](bmr-plugin.html)를 참조하십시오.
 {:important}
@@ -22,11 +23,11 @@ BMR 백업을 작성하려면 BMR 플러그인을 구매해야 합니다. BMR은
 {{site.data.keyword.backup_notm}} 포털을 시작하려면 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 연결되어 있어야 합니다.
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 백업할 파일이 있는 서버를 선택하십시오. 오른쪽 화살표를 클릭하여 {{site.data.keyword.backup_notm}} 포털 링크를 표시하십시오.
-4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.  
+4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.
 
    {{site.data.keyword.backup_notm}} 포털이 시작되지 않는 경우에는 VPN 연결에 문제가 있을 수 있습니다. 전송 중인 양식이 안전하지 않음을 알리는 메시지가 표시될 수도 있습니다. 이는 예상된 것입니다. 양식을 전송하여 계속하십시오.
    {:tip}
@@ -47,7 +48,7 @@ BMR 백업을 작성하려면 BMR 플러그인을 구매해야 합니다. BMR은
      1. 백업을 실행할 일 수와 시간을 선택하십시오.
      2. 보유 스킴을 선택하십시오.
 
-보유 스킴에 대한 자세한 정보는 [FAQ](faqs.html#how-do-the-retention-schemes-work-)를 참조하십시오.
+보유 스킴에 대한 자세한 정보는 [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs)를 참조하십시오.
         {:tip}
      3. 백업 스케줄을 구성한 후 **확인**을 클릭하여 저장하십시오. 스케줄된 작업이 스케줄된 작업 목록에 추가됩니다.
 10. 백업 작업의 저장소를 선택하고 **변경사항 저장**을 클릭하십시오.

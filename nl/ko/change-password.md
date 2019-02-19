@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,8 +13,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 백업 서비스의 비밀번호 변경
+{: #changePassword}
 
-각 {{site.data.keyword.backup_full}} 서비스에는 {{site.data.keyword.backup_notm}} 포털 내의 저장소에 액세스하는 데 사용되는 연관된 비밀번호가 있습니다. 
+각 {{site.data.keyword.backup_full}} 서비스에는 {{site.data.keyword.backup_notm}} 포털 내의 저장소에 액세스하는 데 사용되는 연관된 비밀번호가 있습니다.
 
 많은 {{site.data.keyword.BluSoftlayer_full}} 제품과 서비스에서 {{site.data.keyword.slportal}} 내의 비밀번호 스토리지 기능은 비밀번호의 추적에만 사용됩니다. 이러한 제품 및 서비스에 대해 {{site.data.keyword.slportal}} 내 비밀번호 변경사항은 제품이나 서비스에는 적용되지 않습니다. 이는 {{site.data.keyword.backup_notm}}의 경우에는 해당되지 **않습니다**.
 

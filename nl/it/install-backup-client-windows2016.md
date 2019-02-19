@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Configurazione di {{site.data.keyword.backup_notm}} su Windows 2016
+{: #InstallinWindows2016}
 
 ## Installazione dell'agent backup
 
@@ -109,10 +110,10 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 
 1. Esegui il controllo remoto del tuo server tramite RDP.
 2. Avvia Central Control.
-3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona l'agent che hai creato. 
+3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona l'agent che hai creato.
 4. Sul pannello di benvenuto, fai clic su **Next**.
 5. Seleziona la destinazione di backup o un'altra ubicazione per eseguire il seeding del lavoro di backup. Fai clic su **Next**.<br/>
-   Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](multivaulting.html)
+   Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Seleziona l'opzione di scansione file rapida per evitare la lettura dei file che non sono stati modificati. Fai clic su **Next**.
 7. Fai clic su **Finish** per completare la configurazione e avviare il backup. Viene visualizzata una finestra con le informazioni sul processo che mostra lo stato del lavoro di backup. Al termine del backup, fai clic su **Close**.

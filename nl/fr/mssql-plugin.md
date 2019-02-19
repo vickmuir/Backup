@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installation du plug-in SQL Server
+{: #MSSQLplugin}
 
 Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de données SQL. A l'aide du portail {{site.data.keyword.backup_notm}}, vous pouvez configurer des travaux, sauvegarder des bases de données SQL dans un coffre distant sécurisé et restaurer des bases de données SQL.
 
@@ -61,6 +62,7 @@ Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrête
 Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Principales caractéristiques
+{: #main-features}
 
 - Possibilité de spécifier à l'aide de caractères génériques (astérisques et points d'interrogation) les noms des bases de données à inclure ou à exclure des travaux de sauvegarde de SQL Server. Les nouvelles bases de données dont les noms correspondent aux filtres d'un travail de sauvegarde sont automatiquement incluses ou exclues lorsque le travail s'exécute.
 - Possibilité de protéger les bases de données secondaires dans des groupes de disponibilité AlwaysOn à l'aide de l'agent 64 bits et du plug-in SQL Server.

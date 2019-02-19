@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # FAQ
+{: #faqs}
 
 ## 백업할 수 있는 애플리케이션의 유형은 무엇입니까?
 {: faq}
@@ -87,7 +88,7 @@ lastupdated: "2018-11-15"
 ## 가격에 대한 정보를 어디서 찾을 수 있습니까?
 {: faq}
 
-자세한 정보는 [백업 스토리지](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [EVault on IBM Cloud: 가격](https://www.ibm.com/cloud/evault/pricing){:new_window}을 참조하십시오.
+자세한 정보는 [백업 스토리지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [EVault on IBM Cloud: 가격 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/evault/pricing){:new_window}을 참조하십시오.
 
 <hr>
 
@@ -135,7 +136,7 @@ BMR 백업은 디스크 이미지가 아니라 시스템 볼륨 이미지 백업
 ##데이터베이스 백업에 BMR을 사용할 수 있습니까?
 {: faq}
 
-데이터베이스 백업은 일반 {{site.data.keyword.backup_notm}} 방법과는 별도로 수행되어야 합니다. BMR이 있어도 SQL 또는 Oracle 플러그인은 여전히 필요합니다. BMR이 VSS 기술을 사용하여 오픈 파일을 백업하지만, 백업 파일의 트랜잭션 일관성을 항상 보장할 수는 없습니다. 이러한 유형의 특수 애플리케이션에 대해 두 개의 백업 작업을 작성하도록 권장합니다(하나는 OS 및 애플리케이션 2진 파일 백업용이며 다른 하나는 애플리케이션 데이터용임). 
+데이터베이스 백업은 일반 {{site.data.keyword.backup_notm}} 방법과는 별도로 수행되어야 합니다. BMR이 있어도 SQL 또는 Oracle 플러그인은 여전히 필요합니다. BMR이 VSS 기술을 사용하여 오픈 파일을 백업하지만, 백업 파일의 트랜잭션 일관성을 항상 보장할 수는 없습니다. 이러한 유형의 특수 애플리케이션에 대해 두 개의 백업 작업을 작성하도록 권장합니다(하나는 OS 및 애플리케이션 2진 파일 백업용이며 다른 하나는 애플리케이션 데이터용임).
 
 <hr>
 
@@ -148,7 +149,7 @@ BMR 백업은 디스크 이미지가 아니라 시스템 볼륨 이미지 백업
 ## BMR에 오픈 파일 백업 기능이 있습니까?
 {: faq}
 
-BMR에는 오픈 파일 백업 기능이 있습니다. 그러나 BMR이 있어도 SQL 또는 Oracle 플러그인은 여전히 필요합니다. MSSQL 플러그인 설치 지시사항을 보려면 [여기를](mssql-plugin.html) 클릭하십시오.
+BMR에는 오픈 파일 백업 기능이 있습니다. 그러나 BMR이 있어도 SQL 또는 Oracle 플러그인은 여전히 필요합니다. MSSQL 플러그인 설치 지시사항을 보려면 [여기를](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) 클릭하십시오.
 
 <hr>
 

@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # Linux용 백업 소프트웨어 에이전트 업그레이드
+{: #UpgradeinLinux}
 
 최신 백업 에이전트는 {{site.data.keyword.backup_notm}} 포털 대시보드 빠른 링크 섹션에서 다운로드할 수 있습니다.
 {:tip}
@@ -21,18 +21,18 @@ lastupdated: "2018-12-14"
 1. 루트 레벨에서 호스트에 로그인하십시오.
 2. 에이전트의 최신 버전을 다운로드하십시오.
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2.
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
    ```
    {:pre}
 
 3. 다운로드한 파일의 컨텐츠를 추출하십시오.
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
+   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
    ```
 4. 최근 설치 디렉토리로 이동하십시오.
    ```
-   cd Agent-Linux-x64-8.11.5251/4.
+   cd Agent-Linux-x64-8.11.5251/4
    ```
 
 5. 설치 스크립트를 실행하십시오.

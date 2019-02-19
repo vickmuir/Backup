@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restoring data from one VSI to another in a different Data Center
+{: #restoreVSIotherlocation}
 
-Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](restore-bmr-system-volume-image.html) instructions.
+Sometimes you want to restore data to a different server. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
 
 The process includes reregistering the backup agent on the second server to access the vault location of the first server and completing a **Restore from another Computer**.
 
 **Pre-requisites**
 
 - Server1 and Server2 must have the same OS. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the Backup agent in {{site.data.keyword.backup_notm}} portal](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the Backup agent in {{site.data.keyword.backup_notm}} portal](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.
@@ -33,7 +34,7 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the {{site.data.keyword.backup_notm}} portal link doesn't work.
 {:tip}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select Server2. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.

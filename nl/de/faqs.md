@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # Häufig gestellte Fragen
+{: #faqs}
 
 ## Welche Art von Anwendungen können gesichert werden?
 {: faq}
@@ -51,7 +52,7 @@ Sie können Standardaufbewahrungsschemas ändern und angepasste Aufbewahrungssch
 ## Was ist Delta-Technologie?
 {: faq}
 
-Die erste Sicherung, bei der es sich um eine vollständige Gesamtsicherung handelt, ist ein so genannter 'Seed'. Die nächste und alle nachfolgenden Sicherungen werden als 'Deltasicherungen' bezeichnet, weil sie nur Änderungen enthalten, sind jedoch zu Gesamtsicherungen äquivalent und gelten als Gesamtsicherungen. Dies bedeutet, dass Sie aus diesen Sicherungen alle oder einige Dateien wiederherstellen können. Diese Technologie ermöglicht die Durchführung von Gesamtsicherungen in jeder Sitzung, spart jedoch enorm Mengen an Speicherplatz in der Vault und verringert die Zeit, die zur Ausführung aller nachfolgenden Sicherungen benötigt wird. 
+Die erste Sicherung, bei der es sich um eine vollständige Gesamtsicherung handelt, ist ein so genannter 'Seed'. Die nächste und alle nachfolgenden Sicherungen werden als 'Deltasicherungen' bezeichnet, weil sie nur Änderungen enthalten, sind jedoch zu Gesamtsicherungen äquivalent und gelten als Gesamtsicherungen. Dies bedeutet, dass Sie aus diesen Sicherungen alle oder einige Dateien wiederherstellen können. Diese Technologie ermöglicht die Durchführung von Gesamtsicherungen in jeder Sitzung, spart jedoch enorm Mengen an Speicherplatz in der Vault und verringert die Zeit, die zur Ausführung aller nachfolgenden Sicherungen benötigt wird.
 
 <hr>
 
@@ -87,7 +88,7 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen zu diesem Thema finden Sie im Abschnitt zum [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){:new_window} und unter [EVault on IBM Cloud: Preisstruktur](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und in [EVault on IBM Cloud: Preisstruktur ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}. 
 
 <hr>
 
@@ -148,7 +149,7 @@ Sie können entweder eine vollständige Systemwiederherstellung durchführen ode
 ## Besitzt BMR Funktionen für die Sicherung von geöffneten Dateien?
 {: faq}
 
-BMR ist mit Funktionen zur Sicherung von geöffneten Dateien ausgestattet. BMR macht jedoch Plug-ins für SQL oder Oracle keinesfalls überflüssig. Klicken Sie [hier](mssql-plugin.html), um die Installationsanweisungen für das MS SQL-Plug-in anzuzeigen.
+BMR ist mit Funktionen zur Sicherung von geöffneten Dateien ausgestattet. BMR macht jedoch Plug-ins für SQL oder Oracle keinesfalls überflüssig. Klicken Sie [hier](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), um die Installationsanweisungen für das MS SQL-Plug-in anzuzeigen.
 
 <hr>
 

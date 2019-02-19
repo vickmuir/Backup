@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installation du client de sauvegarde sous Linux
+{: #InstallinLinux}
 
 L'installation du client {{site.data.keyword.backup_full}} sur un système d'exploitation Linux peut être réalisée via une série de commandes de shell ou de terminal dans le système d'exploitation. Cette procédure décrit les étapes requises pour l'installation du client sur l'un des systèmes d'exploitation Linux suivants :
 
@@ -80,7 +81,7 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 2. Entrez votre nom d'utilisateur et votre mot de passe de portail {{site.data.keyword.backup_notm}}.
 
-   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details).
+   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
    {:tip}
 
 3. Une fois le nom d'utilisateur et le mot de passe entrés, aucune autre entrée n'est requise. Vous pouvez en toute sécurité ignorer les invites qui s'affichent à l'écran concernant l'installation.
@@ -122,4 +123,4 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 **Etapes suivantes**
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](index.html#configuring-the-backup-agent-and-the-backup-schedule) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](configure-simple-file-backup-linux.html).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,11 +11,12 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Reregistering a vault
+{: #reregister}
 
-This task is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](restore-from-another-computer.html).
+This task is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](index.html).
+1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 
    Remember, {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}

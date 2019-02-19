@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,8 +13,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Kennwort für den Backup-Service ändern
+{: #changePassword}
 
-Jedem {{site.data.keyword.backup_full}}-Service ist ein Kennwort zugeordnet, das für den Zugriff auf die Vault im {{site.data.keyword.backup_notm}}-Portal verwendet wird. 
+Jedem {{site.data.keyword.backup_full}}-Service ist ein Kennwort zugeordnet, das für den Zugriff auf die Vault im {{site.data.keyword.backup_notm}}-Portal verwendet wird.
 
 Für viele Produkte und Services von {{site.data.keyword.BluSoftlayer_full}} wird die Kennwortspeicherfunktion im {{site.data.keyword.slportal}} ausschließlich zur Protokollierung des Kennworts verwendet. Für diese Produkte und Services werden Änderungen, die im {{site.data.keyword.slportal}} am Kennwort vorgenommen werden, nicht auf das jeweilige Produkt oder den jeweiligen Service angewendet. Dies gilt **nicht** für {{site.data.keyword.backup_notm}}.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # FAQ
+{: #faqs}
 
 ## Pode-se fazer backup de que tipo de aplicativos?
 {: faq}
@@ -104,7 +105,7 @@ Por padrão, o cliente de base tem uma tecnologia de última geração para mani
 ## Onde localizo as informações sobre precificação?
 {: faq}
 
-Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obter mais informações, consulte [Armazenamento de backup ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -171,7 +172,7 @@ backup para a restauração. A tarefa de backup de BMR pode substituir sua taref
 {: faq}
 
 O BMR tem recursos de backup de arquivo aberto. No entanto, o BMR não substitui a necessidade de
-plug-ins do SQL ou do Oracle. Clique [aqui](mssql-plugin.html) para obter as
+plug-ins do SQL ou do Oracle. Clique [aqui](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) para obter as
 instruções de instalação do plug-in do MSSQL.
 
 <hr>

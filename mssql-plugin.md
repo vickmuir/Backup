@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installing the SQL Server plug-in
+{: #MSSQLplugin}
 
 The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the {{site.data.keyword.backup_notm}} portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
 
@@ -61,6 +62,7 @@ Before you install the MSSQL plug-in for your Microsoft Windows server, stop bot
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Main features
+{: #main-features}
 
 - Ability to specify the names of databases to include and exclude in SQL Server backup jobs by using wildcard characters (asterisks and question marks). New databases with names that match a backup job's filters are automatically included or excluded when the job runs.
 - Ability to protect secondary databases in AlwaysOn Availability Groups by using the 64-bit Agent and SQL Server plug-in.

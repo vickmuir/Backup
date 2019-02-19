@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Erste Schritte mit {{site.data.keyword.backup_notm}}-Services
+{: #GettingStarted}
 
 Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte {{site.data.keyword.backup_notm}}-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.BluSoftlayer_full}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Es stehen zusätzliche Plug-ins zur Verfügung, die die Kompatibilität mit Software wie Microsoft Exchange und Microsoft SQL sowie weiteren Typen von Software anderer Anbieter sicherstellen und Benutzer in die Lage versetzen, bei Bedarf eine Bare-Metal-Wiederherstellung durchzuführen.
 
@@ -20,12 +21,13 @@ Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sic
 
 Sie können den {{site.data.keyword.backup_notm}}-Service auf zwei Arten erwerben.
 
-- [Sicherungen bei der Bestellung eines Servers kaufen](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Sicherungen als Upgrade kaufen](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Sicherungen bei der Bestellung eines Servers kaufen](#purchasingwithserver).
+- [Sicherungen als Upgrade kaufen](#purchasingasupgrade).
 
 Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
+{: #purchasingwithserver}
 
 1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
 2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
@@ -57,6 +59,7 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 4. Überprüfen Sie den Abschnitt {{site.data.keyword.backup_notm}} und vergewissern Sie sich, dass die Größe angezeigt wird, die Sie während des Kaufvorgangs ausgewählt haben.
 
 ### {{site.data.keyword.backup_notm}} als Upgrade kaufen
+{: #purchasingasupgrade}
 
 #### Wählen Sie einen Server aus, auf dem Sie {{site.data.keyword.backup_notm}} installieren möchten.
 
@@ -92,7 +95,7 @@ Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
 
-Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} vornehmen, werden auf den Service selbst angewendet. Zum Zurücksetzen des Kennworts führen Sie die Schritte aus, die in [Kennwort für den Sicherungsservice ändern](change-password.html) beschrieben sind.
+Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} vornehmen, werden auf den Service selbst angewendet. Zum Zurücksetzen des Kennworts führen Sie die Schritte aus, die in [Kennwort für den Sicherungsservice ändern](/docs/infrastructure/Backup?topic=Backup-changePassword) beschrieben sind.
 {:important}
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
@@ -118,9 +121,9 @@ Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssyste
  - Ubuntu Linux 14.04
 
 Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
-- [Backup-Client unter Linux installieren](install-backup-client-linux.html)
-- [Backup-Client unter Windows installieren](install-backup-client-windows.html)
-- [Backup-Client unter Windows 2016 installieren](install-backup-client-windows2016.html)
+- [Backup-Client unter Linux installieren](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [Backup-Client unter Windows installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Backup-Client unter Windows 2016 installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 
@@ -131,14 +134,14 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
    Das {{site.data.keyword.backup_notm}}-Portal kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
    {:important}
 2. Greifen Sie auf die Anzeige des Sicherungsspeichers im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} zu.
-3. Klicken Sie auf eine beliebige Stelle in der Zeile des {{site.data.keyword.backup_notm}}-Service, den Sie anzeigen möchten, um die Ansicht zu erweitern. 
+3. Klicken Sie auf eine beliebige Stelle in der Zeile des {{site.data.keyword.backup_notm}}-Service, den Sie anzeigen möchten, um die Ansicht zu erweitern.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Backup-Client und Sicherungszeitplan konfigurieren
 
 Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie die folgenden Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren und Ihren ersten Sicherungsjob zu starten.
 
-1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an. 
+1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an.
 2. Klicken Sie auf **Alle Agenten**> **Nicht konfigurierte Agenten**.
 3. Klicken Sie auf den Link **Neuer Agent, der konfiguriert werden soll**. Durchlaufen Sie den Prozess und geben Sie hierbei die folgenden Informationen ein:
    1. Agentenkonfiguration: Geben Sie die Agentenbeschreibung an und klicken Sie auf **Weiter**.
@@ -164,7 +167,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent
    4. Klicken Sie auf **Sicherung starten**. Während der Prozess ausgeführt wird, können Sie sich die Sicherungsdetails ansehen.
    5. Klicken Sie nach Abschluss der Sicherung auf **Schließen**.
 
-Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](configure-simple-file-backup-linux.html).
+Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
 {:tip}
 
 ## Onlinehilfe anfordern

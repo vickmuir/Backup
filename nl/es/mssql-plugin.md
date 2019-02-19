@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Instalación del plug-in de SQL Server
+{: #MSSQLplugin}
 
 El plugin SQL Server se instala con el agente Windows en el host de la base de datos SQL. Mediante el portal de {{site.data.keyword.backup_notm}}, puede configurar trabajos, hacer copia de seguridad de bases de datos SQL en una caja fuerte remota segura y restaurar bases de datos SQL.
 
@@ -27,8 +28,8 @@ Para obtener más información, consulte la sección [Características principal
 
 ## Solicitud del plugin
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.
 4. Seleccione **Plugin de {{site.data.keyword.backup_notm}} - MSSQL** y pulse **Continuar**.
@@ -61,6 +62,7 @@ Antes de instalar el plugin de MSSQL para el servidor Microsoft Windows, detenga
 Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Características principales
+{: #main-features}
 
 - Posibilidad de especificar los nombres de las bases de datos para incluirlas y excluirlas en trabajos de copia de seguridad de SQL Server mediante caracteres comodín (asteriscos y signos de interrogación). Las bases de datos nuevas con nombres que coinciden con los filtros de un trabajo de copia de seguridad se incluyen o excluyen automáticamente cuando se ejecuta el trabajo.
 - Posibilidad de proteger las bases de datos secundarias en grupos de disponibilidad AlwaysOn utilizando el agente de 64 bits y el plugin de SQL Server.

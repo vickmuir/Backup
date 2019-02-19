@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Configuring {{site.data.keyword.backup_notm}} on Windows 2016
+{: #InstallinWindows2016}
 
 ## Installing the backup agent
 
@@ -112,7 +113,7 @@ This task is completed through a series of interactions while you are logged in 
 3. In the workspace, right-click **My Agent** and select the agent that you created.
 4. On the welcome screen, click **Next**.
 5. Select the backup destination or another location to seed the backup job. Click **Next**.<br/>
-   For more information about multiple vaults, see [Multi-vaulting](multivaulting.html)
+   For more information about multiple vaults, see [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Select the Quick file scanning option to avoid reading files that were not changed. Click **Next**.
 7. Click **Finish** to complete the configuration and start the backup. A process information window appears that shows the status of the backup jon. When the backup job is done, click **Close**.

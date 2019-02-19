@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Criação de múltiplas áreas seguras
+{: #multivault}
 
 Criação de múltiplas áreas seguras é a capacidade de um cliente conectar um servidor a mais de um local de área segura. Ela fornece redundância e tranquilidade porque os backups estarão disponíveis, mesmo se um site falhar.
 
@@ -81,4 +82,4 @@ servidores com o serviço de backup.
 {{site.data.keyword.backup_notm}} para a área segura selecionada e a senha para ela.
   5. Clique em **Salvar mudanças**.
 
-Em alguns segundos, a nova área segura será utilizável. Se você obtiver uma falha de conexão, verifique suas configurações e tente novamente. Tenha em mente que a inclusão de uma área segura extra apresenta a você um destino extra para escolher uma tarefa. Ela não executa tarefas automaticamente com relação a ambas as áreas seguras. É necessário configurar tarefas para usar a área segura extra. Para obter mais informações, consulte o [Tutorial de introdução](index.html).
+Em alguns segundos, a nova área segura será utilizável. Se você obtiver uma falha de conexão, verifique suas configurações e tente novamente. Tenha em mente que a inclusão de uma área segura extra apresenta a você um destino extra para escolher uma tarefa. Ela não executa tarefas automaticamente com relação a ambas as áreas seguras. É necessário configurar tarefas para usar a área segura extra. Para obter mais informações, consulte o [Tutorial de introdução](docs/infrastructure/Backup?topic=Backup-GettingStarted).

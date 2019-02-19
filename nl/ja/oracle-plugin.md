@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Oracle プラグインのインストール
+{: #Oracleplugin}
 
 Oracle プラグインはアドオンで、Windows エージェントまたは Linux エージェントとともに Oracle データベース・ホスト上にインストールされます。 {{site.data.keyword.backup_notm}} ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの Oracle データベースのバックアップ、および Oracle データベースのリストアを行うことができます。 Oracle プラグインは、既存のアーキテクチャーに統合されます。
 
@@ -33,7 +34,7 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
@@ -45,7 +46,7 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 
 ## Windows 用プラグインのインストール
 
-Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 プラグインをインストールするには、エージェント・インストール・キットを実行します。プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
+Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。詳しくは、[Windows での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)を参照してください。
 
 Microsoft Windows サーバー用のプラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
@@ -63,7 +64,7 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 
 ## Linux 用プラグインのインストール
 
-Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。 Linux エージェント・アプリケーションは、プラグインより前にインストールしておく必要があります。エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。 詳しくは、[Linux での {{site.data.keyword.backup_notm}} クライアントのインストール](install-backup-client-linux.html)を参照してください。
+Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。 Linux エージェント・アプリケーションは、プラグインより前にインストールしておく必要があります。 エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。 詳しくは、[Linux での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)を参照してください。
 
 Oracle プラグインのインストール・キットは tar.gz ファイル形式です。
 

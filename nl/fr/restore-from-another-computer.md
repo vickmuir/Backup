@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restauration de données depuis une instance de serveur virtuel vers une autre dans le même centre de données
+{: #restorefromotherVSI}
 
-Vous voudrez parfois restaurer des données sur un serveur différent dans le même centre de données. Cette procédure s'applique uniquement aux restaurations de niveau fichier pour des fichiers ne faisant pas partie du système d'exploitation. Pour restaurer une image système, suivez les instructions pour [BMR Windows](restore-bmr-system-volume-image.html).
+Vous voudrez parfois restaurer des données sur un serveur différent dans le même centre de données. Cette procédure s'applique uniquement aux restaurations de niveau fichier pour des fichiers ne faisant pas partie du système d'exploitation. Pour restaurer une image système, suivez les instructions pour [BMR Windows](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 Cette procédure inclut le réenregistrement de l'agent de sauvegarde sur le second serveur pour accéder à l'emplacement de coffre du premier serveur et la réalisation d'une **restauration à partir d'un autre ordinateur**.
 
 **Conditions prérequises**
 
 - Serveur1 et Serveur2 doivent avoir le même système d'exploitation. Les restaurations inter-plateformes ne sont pas prises en charge.
-- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir la rubrique relative à la [configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir la rubrique relative à la [configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un travail de sauvegarde pour Serveur1 doit avoir généré une sauvegarde sur l'emplacement de coffre de Serveur1.
 
 Pour éviter tout conflit, désactivez tous les tâches planifiées sur les deux serveurs.
@@ -33,7 +34,7 @@ Pour éviter tout conflit, désactivez tous les tâches planifiées sur les deux
 Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}, sinon le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
 {:tip}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}/{:new_window}) et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez Serveur2. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.

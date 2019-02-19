@@ -1,17 +1,18 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 # Job aus anderem Computer unter Windows 2016 wiederherstellen
+{: #restorefromother2016}
 
 Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control unter Windows 2016 durchzuführen.
 
 1. Aktivieren Sie die Fernsteuerung Ihres Windows 2016-Servers über RDP.
-2. Öffnen Sie Central Control.
+2. Öffnen Sie Central Control. 
 3. Klicken Sie mit der rechten Maustaste auf **Agent** und klicken Sie dann auf **Agentenkonfiguration**.
 4. Entfernen Sie die aktuellen Vaulteinstellungen aus Central Control, indem Sie den Eintrag auswählen und auf **Löschen** klicken.
 5. Klicken Sie auf **Neu** und wählen Sie in der nächsten Anzeige die Option **Zuvor registrierten Computer erneut registrieren** aus. Klicken Sie auf **Weiter**.

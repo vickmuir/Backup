@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configuring BMR backup job on Windows
+{: #configureBMR}
 
 You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Installing the Bare Metal Restore plug-in](bmr-plugin.html)
 {:important}
@@ -22,7 +23,7 @@ You need to purchase the BMR plug-in to create a BMR backup. BMR is available on
 You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
@@ -47,7 +48,7 @@ You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private 
      1. Select the days and the time of day to run your backups.
      2. Select your Retention Scheme.
 
-        For more information about Retention Schemes, see the [FAQ](faqs.html#how-do-the-retention-schemes-work-).
+        For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs).
         {:tip}
      3. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs.
 10. Select a vault for your backup job, and click **Save Changes**.

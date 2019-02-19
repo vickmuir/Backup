@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restauration d'une image de volume système BMR
+{: #restoreBMR}
 
 Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site.data.keyword.backup_full}}, vous pouvez le faire rapidement depuis le système BMR Rescue Kernel. BMR permet de restaurer le système sans qu'un système d'exploitation amorçable ne soit nécessaire. Cela est très utile si le système d'exploitation n'est plus utilisable ou que les unités du système ont été remplacées.
 

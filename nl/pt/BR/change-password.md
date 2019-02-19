@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Mudando a senha do serviço de backup
+{: #changePassword}
 
 Cada serviço de {{site.data.keyword.backup_full}} tem uma senha associada que é usada para acessar a área segura no portal do {{site.data.keyword.backup_notm}}.
 

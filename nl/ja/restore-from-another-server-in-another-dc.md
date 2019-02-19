@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 異なるデータ・センターの VSI 間でのデータのリストア
+{: #restoreVSIotherlocation}
 
-別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。 システム・イメージをリストアするには、[Windows BMR](restore-bmr-system-volume-image.html) の手順に従ってください。
+別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。 システム・イメージをリストアするには、[Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) の手順に従ってください。
 
 このプロセスには、1 番目のサーバーのボールトの場所にアクセスするために 2 番目のサーバーにバックアップ・エージェントを再登録する作業と、**「別のコンピューターからのリストア (Restore from another Computer)」**の実行が伴います。
 
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](index.html#configuring-the-backup-agent-and-the-backup-schedule)を参照してください。
+- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
 競合を回避するために、両方のサーバーですべてのスケジュール済みタスクを無効にしてください。
@@ -33,7 +34,7 @@ lastupdated: "2018-12-14"
 {{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。このようにしないと {{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. Server2 を選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。

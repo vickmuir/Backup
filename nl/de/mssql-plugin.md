@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Plug-in für SQL Server installieren
+{: #MSSQLplugin}
 
 Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Datenbank installiert. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, SQL-Datenbanken in einer sicheren, fernen Vault sichern und SQL-Datenbanken wiederherstellen.
 
@@ -61,6 +62,7 @@ Bevor Sie das MSSQL-Plug-in für Ihren Microsoft Windows-Server installieren, st
 Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie das Benutzerhandbuch über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
 
 ## Hauptfunktionen
+{: #main-features}
 
 - Möglichkeit zur Angabe der Namen von Datenbanken, die in SQL Server-Sicherungsjobs ein- oder von diesen ausgeschlossen werden sollen, unter Verwendung von Platzhalterzeichen (Sterne und Fragezeichen). Neue Datenbanken mit Namen, die mit den Filtern eines Sicherungsjobs übereinstimmen, werden bei Ausführung des Jobs automatisch ein- oder ausgeschlossen.
 - Möglichkeit zum Schützen von sekundären Datenbanken in AlwaysOn-Verfügbarkeitsgruppen unter Verwendung des 64-Bit-Agenten und des Plug-ins für SQL Server.

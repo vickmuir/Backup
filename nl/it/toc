@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup/index.html" path="infrastructure/Backup"}
+{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-GettingStarted" path="infrastructure/Backup"}
 IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
@@ -12,12 +12,13 @@ IBM Cloud Storage - IBM Cloud Backup
     {: .topicgroup}
     Configurazione
         install-backup-client-linux.md
-        configure-simple-file-backup-linux.md
         upgrade-backup-agent-linux.md
+        configure-simple-file-backup-linux.md
         install-backup-client-windows.md
-        configure-bmr-backup-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
+        configure-bmr-backup-windows.md
+        [Installing Backup Client for VMware](infrastructure/vmware/install-backup-client-vmware.html)
         port-information.md
         reregister.md
         multivaulting.md

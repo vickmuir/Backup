@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Multivaulting (varias cajas fuertes)
+{: #multivault}
 
 Multivaulting es la capacidad de un cliente de conectar un servidor con más de una ubicación de caja fuerte. Ofrece redundancia y tranquilidad porque hay varias copias de seguridad disponibles, aunque uno de los sitios falle.
 
@@ -36,8 +37,8 @@ Las copias de seguridad en ubicaciones de centros de datos remotos puede tardar 
 Debe añadir la nueva caja fuerte remota a la cuenta para que la nueva ubicación de copia de seguridad se pueda añadir en el portal de {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** menú de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** menú de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Dispositivos**.
 3. Localice y pulse el enlace correspondiente al servidor en cuestión.
 4. En **Detalles del dispositivo**, pulse **Almacenamiento**.
@@ -52,10 +53,10 @@ Cuando finalice el proceso de solicitud, vaya a **Almacenamiento** > **Copia de 
 
 ## Adición de una caja fuerte adicional en el portal de {{site.data.keyword.backup_notm}}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-3. Seleccione el servidor que desea que pueda realizar la copia de seguridad en varias cajas fuertes. Pulse la flecha hacia la derecha para revelar el enlace del portal {{site.data.keyword.backup_notm}}.
+3. Seleccione el servidor que desea que pueda realizar la copia de seguridad en varias cajas fuertes. Pulse la flecha hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el enlace de **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
    Solo se puede acceder al portal de {{site.data.keyword.backup_notm}} a través de {{site.data.keyword.BluVPN}}.
@@ -73,4 +74,4 @@ Cuando finalice el proceso de solicitud, vaya a **Almacenamiento** > **Copia de 
   4. En el campo de credenciales, especifique el ID de cuenta, el nombre de usuario de {{site.data.keyword.backup_notm}} para la caja fuerte seleccionada y la contraseña de la caja fuerte seleccionada.
   5. Pulse **Guardar cambios**.
 
-En unos segundos se podrá utilizar la nueva caja fuerte. Si recibe un error de conexión, compruebe los valores y vuélvalo a intentar. Tenga en cuenta que la adición de una caja fuerte adicional le presenta un destino adicional que elegir para un trabajo. No ejecuta trabajos automáticamente sobre ambas cajas fuertes. Tiene que configurar los trabajos para que utilicen la caja fuerte adicional. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](index.html).
+En unos segundos se podrá utilizar la nueva caja fuerte. Si recibe un error de conexión, compruebe los valores y vuélvalo a intentar. Tenga en cuenta que la adición de una caja fuerte adicional le presenta un destino adicional que elegir para un trabajo. No ejecuta trabajos automáticamente sobre ambas cajas fuertes. Tiene que configurar los trabajos para que utilicen la caja fuerte adicional. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](docs/infrastructure/Backup?topic=Backup-GettingStarted).

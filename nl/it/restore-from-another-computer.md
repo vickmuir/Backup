@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Ripristino dei dati da una VSI ad un'altra all'interno dello stesso data center
+{: #restorefromotherVSI}
 
-A volte potresti voler ripristinare i dati in un server diverso all'interno dello stesso data center. Questa procedura si applica solo ai ripristini a livello di file per i file non di sistema. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](restore-bmr-system-volume-image.html).
+A volte potresti voler ripristinare i dati in un server diverso all'interno dello stesso data center. Questa procedura si applica solo ai ripristini a livello di file per i file non di sistema. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 Il processo include la ri-registrazione dell'agent Backup sul secondo server per accedere all'ubicazione dell'archivio del primo server e il completamento di un **ripristino da un altro computer**.
 
 **Prerequisiti**
 
 - Server1 e Server2 devono avere lo stesso sistema operativo. I ripristini multipiattaforma non sono supportati.
-- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent backup nel portale {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent backup nel portale {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un lavoro di backup per Server1 che ha prodotto un backup nell'ubicazione dell'archivio del Server1.
 
 Disabilita tutte le attività pianificate su entrambi i server per evitare conflitti.

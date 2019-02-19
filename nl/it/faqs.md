@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # Domande frequenti
+{: #faqs}
 
 ## Di quali tipi di applicazioni posso eseguire il backup?
 {: faq}
@@ -88,7 +89,7 @@ Per impostazione predefinita, il client di base ha una tecnologia all'avanguardi
 ## Dove posso trovare le informazioni sui prezzi?
 {: faq}
 
-Per ulteriori informazioni, consulta [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Per ulteriori informazioni, vedi [Backup storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -149,7 +150,7 @@ Puoi eseguire un ripristino dell'intero sistema oppure selezionare singoli file 
 ## BMR ha capacità di backup dei file aperti?
 {: faq}
 
-BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](mssql-plugin.html) per le istruzioni di installazione del plug-in MSSQL.
+BMR ha capacità di backup dei file aperti. Tuttavia, BMR non sostituisce la necessità di plug-in SQL o Oracle. Fai clic [qui](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) per le istruzioni di installazione del plug-in MSSQL.
 
 <hr>
 

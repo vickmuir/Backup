@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installing the backup client in Linux
+{: #InstallinLinux}
 
 Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the client on any of the following Linux-based operating systems:
 
@@ -80,7 +81,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 2. Enter your {{site.data.keyword.backup_notm}} portal user name and password.
 
-   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details).
+   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
    {:tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -122,4 +123,4 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 **Next steps**
 
-Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](index.html#configuring-the-backup-agent-and-the-backup-schedule) and [Configuring simple file-level backup on Linux](configure-simple-file-backup-linux.html).
+Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-GettingStarted) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

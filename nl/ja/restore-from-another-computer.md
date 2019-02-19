@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 同じデータ・センター内の VSI 間でのデータのリストア
+{: #restorefromotherVSI}
 
-同じデータ・センターの別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。 システム・イメージをリストアするには、[Windows BMR](restore-bmr-system-volume-image.html) の手順に従ってください。
+同じデータ・センターの別のサーバーからデータをリストアすることが必要な場合があります。 この手順は、OS 以外のファイルのファイル・レベルのリストアに適用されますｓ。 システム・イメージをリストアするには、[Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) の手順に従ってください。
 
 このプロセスには、1 番目のサーバーのボールトの場所にアクセスするために 2 番目のサーバーにバックアップ・エージェントを再登録する作業と、**「別のコンピューターからのリストア (Restore from another Computer)」**の実行が伴います。
 
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](index.html#configuring-the-backup-agent-and-the-backup-schedule)を参照してください。
+- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
 競合を回避するために、両方のサーバーですべてのスケジュール済みタスクを無効にしてください。

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Cancelando um serviço do {{site.data.keyword.backup_notm}}
+{: #cancelBackup}
 
 É possível cancelar o serviço de {{site.data.keyword.backup_full}} a qualquer momento. O cancelamento exclui sua área segura com os dados submetidos a backup e não é possível efetuar login no portal do {{site.data.keyword.backup_notm}} com as credenciais canceladas.
 

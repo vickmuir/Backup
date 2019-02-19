@@ -1,22 +1,22 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # Windows용 백업 소프트웨어 에이전트 업그레이드
+{: #UpgradeinWindows}
 
 최신 백업 에이전트는 {{site.data.keyword.backup_notm}} 포털 대시보드 빠른 링크 섹션에서 다운로드할 수 있습니다.
 {:tip}
 
-1. {{site.data.keyword.backup_notm}} 업그레이드가 필요한 {{site.data.keyword.BluSoftlayer_full}} 서버를 원격 제어하십시오. 
+1. {{site.data.keyword.backup_notm}} 업그레이드가 필요한 {{site.data.keyword.BluSoftlayer_full}} 서버를 원격 제어하십시오.
 2. 브라우저를 열고 다음 주소로 이동하십시오.
    ```
    http://downloads.service.softlayer.com/evault/

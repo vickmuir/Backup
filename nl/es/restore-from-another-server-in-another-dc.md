@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restauración de datos entre una VSI y otra en otro centro de datos
+{: #restoreVSIotherlocation}
 
-Es posible que desee restaurar datos en otro servidor. Este procedimiento solo se aplica a las restauraciones a nivel de archivo de archivos que no son de sistema operativo. Para restaurar una imagen del sistema, siga las instrucciones de [Windows BMR](restore-bmr-system-volume-image.html).
+Es posible que desee restaurar datos en otro servidor. Este procedimiento solo se aplica a las restauraciones a nivel de archivo de archivos que no son de sistema operativo. Para restaurar una imagen del sistema, siga las instrucciones de [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 El proceso incluye el registro del agente de copia de seguridad en el segundo servidor para que pueda acceder a la ubicación de la caja fuerte del primer servidor y la realización de la tarea **Restaurar desde otro sistema**.
 
 **Requisitos previos**
 
 - Servidor1 y Servidor2 deben tener el mismo sistema operativo. No se da soporte a las restauraciones entre plataformas.
-- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un trabajo de copia de seguridad para el Servidor1 que ha generado una copia de seguridad en la ubicación de la caja fuerte del Servidor1.
 
 Inhabilite todas las tareas planificadas en ambos servidores para evitar conflictos.
@@ -33,10 +34,10 @@ Inhabilite todas las tareas planificadas en ambos servidores para evitar conflic
 Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.BluSoftlayer_full}}; de lo contrario, el enlace del portal de {{site.data.keyword.backup_notm}} no funciona.
 {:tip}
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-3. Seleccione Servidor2. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal {{site.data.keyword.backup_notm}}.
+3. Seleccione Servidor2. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
 ## Volver a registrar la caja fuerte
@@ -59,7 +60,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
    {:tip}
 2. Mueva el cursor sobre **Avanzado** y seleccione **Restaurar desde otro sistema**.
 3. En la pantalla **Restaurar desde otro sistema**, pulse **Añadir**. Los campos contienen valores predeterminados, por lo que debe modificarlos.
-4. Pulse el campo Caja fuerte, seleccione **Especificar valores de caja fuerte** y escriba la dirección IP de la caja fuerte lmacén de Servidor1. Pulse **Añadir**.
+4. Pulse el campo Caja fuerte, seleccione **Especificar valores de caja fuerte** y escriba la dirección IP de la caja fuerte de Servidor1. Pulse **Añadir**.
 5. Actualice las credenciales con las credenciales de Servidor1.
 6. Pulse **Guardar cambios**. Esta acción le conecta con la caja fuerte de Servidor1.
 7. En la pantalla **Restaurar desde otro sistema**, actualice los campos Sistema y Trabajo.

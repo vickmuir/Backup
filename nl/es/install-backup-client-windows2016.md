@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Configuración de {{site.data.keyword.backup_notm}} en Windows 2016
+{: #InstallinWindows2016}
 
 ## Instalación del agente de copia de seguridad
 
@@ -112,7 +113,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 3. En el espacio de trabajo, pulse con el botón derecho en **Mi agente** y seleccione el agente que ha creado.
 4. En la pantalla de bienvenida, pulse **Siguiente**.
 5. Seleccione el destino de copia de seguridad u otra ubicación para inicializar el trabajo de copia de seguridad. Pulse **Siguiente**.<br/>
-   Para obtener más información sobre varias cajas fuertes, consulte [Multivaulting](multivaulting.html)
+   Para obtener más información sobre varias cajas fuertes, consulte [Multivaulting](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Seleccione la opción Exploración rápida de archivos para no leer los archivos que no se han modificado. Pulse **Siguiente**.
 7. Pulse **Finalizar** para completar la configuración e iniciar la copia de seguridad. Aparece una ventana de información del proceso que muestra el estado del trabajo de copia de seguridad. Cuando finalice el trabajo de copia de seguridad, pulse **Cerrar**.

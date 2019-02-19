@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Sicherungsclient unter Linux installieren
+{: #InstallinLinux}
 
 Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux-basierten Betriebssystem kann über eine Reihe von Befehlen in der Shell oder einem Terminalfenster im Betriebssystem erfolgen. Die Prozedur umreißt die Schritte, die erforderlich sind, um den Client auf einem beliebigen der folgenden Linux-basierten Betriebssysteme zu installieren:
 
@@ -22,7 +23,7 @@ Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux
 - CentOS
 - CloudLinux
 
-Nachdem die Prozedur ausgeführt wurde, registriert der automatisierte Prozess den Agentenservice beim {{site.data.keyword.backup_notm}}-Portal. Anschließend werden die Dateien heruntergeladen und installiert, die zur Ausführung des Service benötigt werden. 
+Nachdem die Prozedur ausgeführt wurde, registriert der automatisierte Prozess den Agentenservice beim {{site.data.keyword.backup_notm}}-Portal. Anschließend werden die Dateien heruntergeladen und installiert, die zur Ausführung des Service benötigt werden.
 
 Wenn Sie {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers über den [{{site.data.keyword.cloud_notm}}-Katalog](https://{DomainName}/catalog/){:new_window} oder das {{site.data.keyword.slportal}} gekauft haben, dann wird die Software automatisch für Sie installiert. Sie müssen die Prozeduren, die in diesem Dokument beschrieben werden, nicht verwenden.
 {:tip}
@@ -60,7 +61,7 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
   ```
   {: pre}
 
-  Wenn die entsprechende Eingabeaufforderung ausgegeben wird, bestätigen Sie, dass die Downloadgröße korrekt ist. Die Aktualisierung wird fortgesetzt. Nach Abschluss der Verarbeitung wird eine Nachricht angezeigt, in der Sie darüber informiert werden, dass die Aktualisierung abgeschlossen ist. 
+  Wenn die entsprechende Eingabeaufforderung ausgegeben wird, bestätigen Sie, dass die Downloadgröße korrekt ist. Die Aktualisierung wird fortgesetzt. Nach Abschluss der Verarbeitung wird eine Nachricht angezeigt, in der Sie darüber informiert werden, dass die Aktualisierung abgeschlossen ist.
 
 ## Installationsscript abrufen
 
@@ -80,7 +81,7 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
 
 2. Geben Sie Ihren Benutzernamen und Ihr Kennwort für das {{site.data.keyword.backup_notm}}-Portal ein.
 
-   Weitere Informationen zum Anzeigen des Benutzernamens und Kennworts für {{site.data.keyword.backup_notm}} finden Sie unter [Einführung in die Sicherungsservices](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details).
+   Weitere Informationen zum Anzeigen des Benutzernamens und Kennworts für {{site.data.keyword.backup_notm}} finden Sie unter [Einführung in die Sicherungsservices](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
    {:tip}
 
 3. Nach dem Benutzernamen und dem Kennwort ist keine weitere Eingabe erforderlich. Die Eingabeaufforderungen, die während der Installation angezeigt werden, können gefahrlos ignoriert werden.
@@ -122,4 +123,4 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
 
 **Nächste Schritte**
 
-Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](index.html#configuring-the-backup-agent-and-the-backup-schedule) und [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](configure-simple-file-backup-linux.html).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](/docs/infrastructure/Backup?topic=Backup-GettingStarted) und [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

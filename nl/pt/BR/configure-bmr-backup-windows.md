@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurando a tarefa de backup do BMR no Windows
+{: #configureBMR}
 
 É necessário comprar o plug-in de BMR para criar um backup de BMR. O BMR está disponível somente para
 Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o VSI. Para obter mais informações, consulte [Instalando o plug-in do Bare Metal Restore](bmr-plugin.html)
@@ -23,7 +24,7 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 É necessário estar conectado à rede privada do {{site.data.keyword.BluSoftlayer_full}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
 3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
@@ -49,7 +50,7 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
      2. Selecione o seu Esquema de retenção.
 
         Para obter mais informações sobre os esquemas de retenção, consulte as [Perguntas mais
-frequentes](faqs.html#how-do-the-retention-schemes-work-).
+frequentes](/docs/infrastructure/Backup?topic=Backup-faqs).
         {:tip}
      3. Depois de ter configurado o planejamento de backup, clique em **OK** para salvá-lo. A sua tarefa planejada é incluída na lista de tarefas planejadas.
 10. Selecione uma área segura para a sua tarefa de backup e clique em **Salvar mudanças**.

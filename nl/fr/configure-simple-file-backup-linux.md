@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configuration d'une sauvegarde simple au niveau fichier sous Linux
+{: #configureLinuxBackup}
 
 Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que l'agent a été installé sur le serveur, vous pouvez commencer à créer des sauvegardes de vos données. Cet article décrit les étapes de configuration de votre agent, le planning de conservation des données et le déclenchement de votre premier travail de sauvegarde.
 
@@ -57,7 +58,7 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que 
 12. Sur la page Créer un planning, cliquez sur **Ajouter** pour programmer un travail de sauvegarde basé calendrier ou sur **Suivant** pour créer un travail manuel.
   - Si vous décidez de créer un travail manuel, passez à l'étape 15.
   - Si vous optez pour un travail basé calendrier, sélectionnez les jours et l'heure auxquels effectuer vos sauvegardes.
-  - Sélectionnez votre schéma de conservation. Pour plus d'informations sur les schémas de conservation, voir la [Foire aux questions](faqs.html#how-do-the-retention-schemes-work-).
+  - Sélectionnez votre schéma de conservation. Pour plus d'informations sur les schémas de conservation, voir la [Foire aux questions](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Cliquez sur **Options de planning avancées** pour obtenir plus de choix en matière de configuration. Vous pouvez sélectionner **Déferrer** pour empêcher l'exécution de sauvegardes volumineuses aux heures de pointe sur le réseau.
 
     Lorsque cette option est activée, le travail de sauvegarde ne sauvegarde pas de nouvelles données après le délai imparti. Il consigne le jeu sécurisé dans le coffre, et ce même si certaines données dans le travail n'ont pas été sauvegardées. Les modifications des données préalablement sauvegardées sont sauvegardées, sans tenir compte de la période de temps spécifiée. <br/> Lorsque le travail s'exécute à nouveau, l'agent vérifie les changements de données sauvegardées auparavant, sauvegarde ces modifications, puis les données restantes. Si un travail de sauvegarde a été reporté alors qu'un élément est en cours de sauvegarde, la sauvegarde de cet élément est incomplète et les données de cet élément ne peuvent pas être restaurées. Vous pouvez toutefois restaurer des éléments qui ont été sauvegardés dans le travail avant le report de ce travail.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Configurando o {{site.data.keyword.backup_notm}} no Windows 2016
+{: #InstallinWindows2016}
 
 ## Instalando o agente de backup
 
@@ -117,7 +118,7 @@ backups sejam retidos.
 4. Na tela de boas-vindas, clique em **Avançar**.
 5. Selecione o destino de backup ou outro local para iniciar a tarefa de backup. Clique em **Avançar**.<br/>
    Para obter mais informações sobre múltiplas áreas seguras, consulte
-[Criação de múltiplas áreas seguras](multivaulting.html)
+[Criação de múltiplas áreas seguras](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Selecione a opção de varredura rápida de arquivo para evitar a leitura de arquivos que não mudaram. Clique em **Avançar**.
 7. Clique em **Concluir** para concluir a configuração e iniciar o backup. Aparece uma janela de informações do processo que mostra o status da tarefa de backup. Quando a tarefa de backup estiver pronta, clique em **Fechar**.

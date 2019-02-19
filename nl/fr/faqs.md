@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # Foire aux questions
+{: #faqs}
 
 ## Quel type d'applications peut être sauvegardé ?
 {: faq}
@@ -87,7 +88,7 @@ Par défaut, le client de base dispose d'une technologie de pointe lui permettan
 ## Où puis-je trouver des informations sur la tarification ?
 {: faq}
 
-Pour plus d'informations, voir [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Pour plus d'informations, voir [Stockage de sauvegarde ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/fr-fr/cloud/backup-and-restore){:new_window} et [EVault on IBM Cloud: Pricing ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -148,7 +149,7 @@ Vous pouvez effectuer une restauration intégrale du système ou bien sélection
 ## BMR dispose-t-il de fonctionnalités de sauvegarde de fichiers ouverts ?
 {: faq}
 
-BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](mssql-plugin.html) pour les instructions d'installation du plug-in MSSQL.
+BMR dispose de fonctionnalités de sauvegarde de fichiers ouverts. Toutefois, BMR ne vient pas remplacer les plug-ins SQL ou Oracle. Cliquez [ici](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) pour les instructions d'installation du plug-in MSSQL.
 
 <hr>
 

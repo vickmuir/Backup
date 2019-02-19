@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Changing the password for the backup service
+{: #changePassword}
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the {{site.data.keyword.backup_notm}} portal.
 

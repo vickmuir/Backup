@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,14 +13,15 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restauración de una imagen de volumen del sistema BMR
+{: #restoreBMR}
 
 Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.data.keyword.backup_full}}, puede restaurarla rápidamente desde el sistema BMR Rescue Kernel. Con BMR puede restaurar el sistema sin necesidad de disponer de un sistema operativo de arranque. Resulta útil si el sistema operativo ya no se puede utilizar o si se han sustituido las unidades del sistema.
 
 ## Inicio del sistema BMR Rescue Kernel
 
 Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slportal}}.
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse la **Flecha** que hay junto a la caja fuerte.
 4. Pulse **Iniciar restauración desde cero**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.

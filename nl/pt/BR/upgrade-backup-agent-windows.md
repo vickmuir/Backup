@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # Fazendo upgrade do agente de software de backup para Windows
+{: #UpgradeinWindows}
 
 É possível fazer download do agente de backup mais recente da seção de links rápidos do Painel do portal do {{site.data.keyword.backup_notm}}.
 {:tip}

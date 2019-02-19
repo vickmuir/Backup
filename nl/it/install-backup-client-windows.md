@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installazione del client backup in Windows
+{: #InstallinWindows}
 
 L'installazione del client {{site.data.keyword.backup_full}} in Windows viene completata attraverso una serie di interazioni sul server designato per il servizio {{site.data.keyword.backup_notm}}.
 
-Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configurazione di {{site.data.keyword.backup_notm}} su Windows 2016](install-backup-client-windows2016.html).
+Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configurazione di {{site.data.keyword.backup_notm}} su Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016).
 {:tip}
 
 ## Accesso al server del dispositivo di destinazione
@@ -56,4 +57,4 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 
 ## Configurazione degli agent backup
 
-Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](docs/infrastructure/Backup?topic=Backup-GettingStarted).

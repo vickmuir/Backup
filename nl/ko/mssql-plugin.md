@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # SQL Server 플러그인 설치
+{: #MSSQLplugin}
 
 SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 SQL 데이터베이스를 백업하며 SQL 데이터베이스를 복원할 수 있습니다.
 
@@ -54,13 +55,14 @@ Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.
 8. **내 현재 등록 유지**를 선택하고 **다음**을 클릭하십시오.
 9. **설치**를 클릭하십시오.
 10. 일단 설치되면 두 서비스가 모두 사용되고 실행 중인지 확인하십시오.
-11. {{site.data.keyword.backup_notm}} 포털에서 데이터베이스를 보고 액세스할 수 있으면 설치가 완료된 것입니다. 
+11. {{site.data.keyword.backup_notm}} 포털에서 데이터베이스를 보고 액세스할 수 있으면 설치가 완료된 것입니다.
 
 ## 사용자 안내서 다운로드
 
 [다운로드 가능 {{site.data.keyword.backup_notm}} 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
 
 ## 기본 기능
+{: #main-features}
 
 - 와일드카드 문자(별표 및 물음표)를 사용하여 SQL Server 백업 작업에서 포함하고 제외할 데이터베이스의 이름을 지정하는 기능. 백업 작업의 필터와 이름이 일치하는 새 데이터베이스는 작업이 실행될 때 자동으로 포함 또는 제외됩니다.
 - 64비트 에이전트 및 SQL Server 플러그인을 사용하여 AlwaysOn 가용성 그룹에서 보조 데이터베이스를 보호하는 기능.

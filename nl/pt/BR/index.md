@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Introdução aos serviços do {{site.data.keyword.backup_notm}}
+{: #GettingStarted}
 
 Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O {{site.data.keyword.backup_full}} é um sistema de backup automatizado baseado em agente gerenciado por meio do utilitário de gerenciamento baseado em navegador do portal do {{site.data.keyword.backup_notm}}. O {{site.data.keyword.backup_notm}} fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
 
@@ -20,12 +21,13 @@ Os backups asseguram que seus dados sejam armazenados com segurança fora de seu
 
 É possível comprar o serviço do {{site.data.keyword.backup_notm}} de duas maneiras.
 
-- [Comprar backups ao solicitar um servidor](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Comprar backups como um upgrade](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Comprar backups ao solicitar um servidor](#purchasingwithserver).
+- [Comprar backups como um upgrade](#purchasingasupgrade).
 
 Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
+{: #purchasingwithserver}
 
 1. Efetue login no [catálogo do IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/){:new_window} ou no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}
 2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
@@ -57,6 +59,7 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
 4. Inspecione a seção do {{site.data.keyword.backup_notm}} e verifique se o tamanho que foi selecionado durante o processo de compra é exibido.
 
 ### Comprando o {{site.data.keyword.backup_notm}} como um upgrade
+{: #purchasingasupgrade}
 
 #### Selecione um servidor no qual instalar o {{site.data.keyword.backup_notm}}
 
@@ -92,7 +95,8 @@ Os detalhes de armazenamento de seu serviço podem ser visualizados no [console 
 2. Clique em qualquer lugar na linha da área segura da qual deseja visualizar os detalhes de armazenamento. Nessa visualização, a Senha não está visível.
 3. Clique na caixa de seleção **Mostrar** ao lado do campo **Senha** para visualizar a senha para o serviço do {{site.data.keyword.backup_notm}} selecionado.
 
-As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentro do {{site.data.keyword.slportal}} são feitas no próprio serviço. Para reconfigurar sua senha, siga as etapas em [Mudando a senha do serviço de backup](change-password.html).{:important}
+As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentro do {{site.data.keyword.slportal}} são feitas no próprio serviço. Para reconfigurar sua senha, siga as etapas em [Mudando a senha do serviço de backup](/docs/infrastructure/Backup?topic=Backup-changePassword).
+{:important}
 
 ## Instalando o agente do {{site.data.keyword.backup_notm}}
 
@@ -117,9 +121,9 @@ O {{site.data.keyword.backup_notm}} Agent é suportado no S.O. a seguir.
  - Ubuntu Linux 14,04
 
 Siga as instruções apropriadas para o seu S.O.
-- [Instalando o cliente de backup no Linux](install-backup-client-linux.html)
-- [Instalando o cliente de backup no Windows](install-backup-client-windows.html)
-- [Instalando o cliente de backup no Windows 2016](install-backup-client-windows2016.html)
+- [Instalando o cliente de backup no Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [Instalando o cliente de backup no Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Instalando o cliente de backup no Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Acessando o portal do {{site.data.keyword.backup_notm}} (anteriormente WebCC)
 
@@ -165,7 +169,7 @@ frequentes](faqs.html).
    4. Clique em **Iniciar Backup**. É possível visualizar os detalhes de backups enquanto o processo está em execução.
    5. Quando o backup estiver concluído, clique em **Fechar**.
 
-Para obter mais informações, consulte [Configurando o backup em nível de arquivo simples no Linux](configure-simple-file-backup-linux.html).
+Para obter mais informações, consulte [Configurando o backup em nível de arquivo simples no Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
 {:tip}
 
 ## Obtendo ajuda on-line

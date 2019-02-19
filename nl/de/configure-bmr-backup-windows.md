@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # BMR-Sicherungsjob unter Windows konfigurieren
+{: #configureBMR}
 
 Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellung) erwerben, um eine BMR-Sicherung durchführen zu können. BMR ist nur für Bare Metal Server-Systeme  unter Windows verfügbar. Bei einer virtuellen Serverinstanz (VSI) gibt es keine BMR-Option. Weitere Informationen finden Sie in [BMR-Plug-in (Bare Metal Restore, Bare-Metal-Wiederherstellung) installieren](bmr-plugin.html).
 {:important}
@@ -22,7 +23,7 @@ Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellu
 Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
@@ -47,7 +48,7 @@ Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbun
      1. Wählen Sie die Tage und die Uhrzeit für die Ausführung der Sicherungen aus.
      2. Wählen Sie das Aufbewahrungsschema aus.
 
-        Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html#how-do-the-retention-schemes-work-).
+        Weitere Informationen zu Aufbewahrungsschemas finden Sie im Abschnitt zu den [häufig gestellten Fragen](/docs/infrastructure/Backup?topic=Backup-faqs).
         {:tip}
      3. Nachdem Sie den Sicherungszeitplan konfiguriert haben, klicken Sie auf **OK**, um ihn zu speichern. Ihr geplanter Job wird zur Liste der geplanten Jobs hinzugefügt.
 10. Wählen Sie eine Vault für Ihren Sicherungsjob aus und klicken Sie auf **Änderungen speichern**.

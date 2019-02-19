@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Verwendung mehrerer Vaults (Multi-Vaulting)
+{: #multivault}
 
 Bei der Verwendung mehrerer Vaults (Multi-Vaulting) kann ein Client eine Server-Verbindung zu mehreren Vaultpositionen herstellen. Eine solche Umgebung bietet Redundanz und die Gewissheit, dass Ihre Sicherungen selbst dann noch verfügbar sind, wenn einer Ihrer Standorte ausfällt.
 
@@ -73,4 +74,4 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
   4. Geben Sie im Feld 'Berechtigungsnachweise' die Konto-ID, den {{site.data.keyword.backup_notm}}-Benutzernamen und das zugehörige Kennwort für den ausgewählten Vault ein.
   5. Klicken Sie auf **Änderungen speichern**.
 
-Nach einigen Sekunden ist die neue Vault verwendbar. Falls Sie einen Verbindungsfehler empfangen, überprüfen Sie Ihre Einstellungen und wiederholen Sie die Aktion. Bedenken Sie, dass Sie beim Hinzufügen einer zusätzlichen Vault die Möglichkeit erhalten, ein zusätzliches Ziel für einen Job auszuwählen. Es werden nicht automatisch Jobs für beide Vaults ausgeführt. Sie müssen entsprechende Jobs konfigurieren, um die zusätzliche Vault nutzen zu können. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](index.html).
+Nach einigen Sekunden ist die neue Vault verwendbar. Falls Sie einen Verbindungsfehler empfangen, überprüfen Sie Ihre Einstellungen und wiederholen Sie die Aktion. Bedenken Sie, dass Sie beim Hinzufügen einer zusätzlichen Vault die Möglichkeit erhalten, ein zusätzliches Ziel für einen Job auszuwählen. Es werden nicht automatisch Jobs für beide Vaults ausgeführt. Sie müssen entsprechende Jobs konfigurieren, um die zusätzliche Vault nutzen zu können. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](docs/infrastructure/Backup?topic=Backup-GettingStarted).

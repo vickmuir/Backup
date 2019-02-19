@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Instalando o plug-in do Oracle
+{: #Oracleplugin}
 
 O plug-in do Oracle é um complemento e é instalado com o Agente do Windows ou com o Agente Linux no host do banco de dados Oracle. Por meio do portal do {{site.data.keyword.backup_notm}}, é possível configurar tarefas, fazer backup de bancos de dados Oracle para uma área segura remota e restaurar bancos de dados Oracle. O plug-in do Oracle se integra à arquitetura existente.
 
@@ -53,7 +54,7 @@ clique em **Continuar**.
 ## Instalando o plug-in para Windows
 
 O plug-in do Oracle para Windows é instalado com o Windows Agent de 32 ou 64 bits. Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
-como uma opção na página **Configuração customizada**.
+como uma opção na página **Configuração customizada**. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
 Antes de instalar o plug-in para o servidor do Microsoft Windows, pare ambos os serviços do
 {{site.data.keyword.backup_notm}} em `services.msc`.
@@ -72,7 +73,7 @@ Antes de instalar o plug-in para o servidor do Microsoft Windows, pare ambos os 
 
 ## Instalando o plug-in para Linux
 
-O plug-in do Oracle é um complemento para o Agente Linux e é instalado com o agente no host do banco de dados. O aplicativo Linux Agent deve ser instalado antes que a instalação do plug-in ocorra. O agente está disponível como um aplicativo de 32 bits e um aplicativo de 64 bits. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Linux](install-backup-client-linux.html).
+O plug-in do Oracle é um complemento para o Agente Linux e é instalado com o agente no host do banco de dados. O aplicativo Linux Agent deve ser instalado antes que a instalação do plug-in ocorra. O agente está disponível como um aplicativo de 32 bits e um aplicativo de 64 bits. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
 O kit de instalação do plug-in do Oracle está disponível em um arquivo tar.gz.
 

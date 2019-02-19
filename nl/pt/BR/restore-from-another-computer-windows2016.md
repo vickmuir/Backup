@@ -1,19 +1,21 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 # Restaurando uma tarefa por meio de outro computador no Windows 2016
+{: #restorefromother2016}
 
 Use estas etapas para concluir uma restauração de arquivo de outro computador usando o controle central do Windows no Windows 2016.
 
 1. Realize o controle remoto de seu servidor Windows 2016 por meio do RDP.
-2. Abra o Central Control.
+2. Abra o CentralControl.
 3. Clique com o botão direito em **Agente** e clique em **Configuração do agente**.
-4. Remova as configurações atuais da Área segura do Central Control selecionando a entrada e clicando em **Excluir**.
+4. Remova as configurações atuais da Área segura do CentralControl selecionando a entrada e clicando em
+**Excluir**.
 5. Clique em **Novo** e, na próxima tela, selecione **Registrar novamente o computador registrado anteriormente**. Clique em **Avançar**.
 6. Insira o endereço de rede e clique em **Incluir** e, em seguida, clique em **Avançar**.
 7. Insira os novos valores de porta e clique em **Incluir** e, em seguida, em **Avançar**.

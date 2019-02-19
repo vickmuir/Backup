@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Exchange-Plug-in installieren
+{: #Exchangeplugin}
 
 Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, Exchange-Datenbanken in einer sicheren, fernen Vault sichern und Exchange-Datenbanken wiederherstellen. Das Plug-in wird in die vorhandene Architektur integriert.
 

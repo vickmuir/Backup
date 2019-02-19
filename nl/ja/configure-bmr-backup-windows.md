@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Windows での BMR バックアップ・ジョブの構成
+{: #configureBMR}
 
 BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。 詳しくは、[ベアメタル・リストア・プラグインのインストール](bmr-plugin.html)を参照してください。
 {:important}
@@ -22,7 +23,7 @@ BMR バックアップを作成するには、BMR プラグインを購入する
 {{site.data.keyword.backup_notm}} ポータル を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークに接続している必要があります。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
@@ -47,8 +48,8 @@ BMR バックアップを作成するには、BMR プラグインを購入する
      1. バックアップを実行する曜日と時刻を選択します。
      2. 保存スキームを選択します。
 
-        保存スキームについて詳しくは、[FAQ](faqs.html#how-do-the-retention-schemes-work-) を参照してください。
-        {:tip}
+保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs) を参照してください。
+      {:tip}
      3. バックアップ・スケジュールを構成した後、**「OK」**をクリックして保存します。 スケジュールに入れたジョブが、スケジュール済みのジョブのリストに追加されます。
 10. バックアップ・ジョブのボールトを選択し、**「変更の保存」**をクリックします。
 

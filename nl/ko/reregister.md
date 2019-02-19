@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -11,11 +11,12 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # 저장소 재등록
+{: #reregister}
 
-이 태스크는 일반적으로 서버의 운영 체제가 다시 로드된 후에 사용됩니다. 또한 다음 단계를 사용하여 [한 서버의 백업으로 다른 서버에서 데이터를 복원](restore-from-another-computer.html)할 수도 있습니다.
+이 태스크는 일반적으로 서버의 운영 체제가 다시 로드된 후에 사용됩니다. 또한 다음 단계를 사용하여 [한 서버의 백업으로 다른 서버에서 데이터를 복원](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI)할 수도 있습니다.
 {:tip}
 
-1. {{site.data.keyword.backup_notm}} 포털을 시작하고 로그인하십시오. 자세한 정보는 [시작하기 튜토리얼](index.html)을 참조하십시오.
+1. {{site.data.keyword.backup_notm}} 포털을 시작하고 로그인하십시오. 자세한 정보는 [시작하기 튜토리얼](docs/infrastructure/Backup?topic=Backup-GettingStarted)을 참조하십시오.
 
    {{site.data.keyword.backup_notm}} 포털은 {{site.data.keyword.BluVPN}}을 통해서만 액세스가 가능하다는 점을 기억하십시오.
    {:tip}

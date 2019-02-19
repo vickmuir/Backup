@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurazione del lavoro di backup BMR su Windows
+{: #configureBMR}
 
 Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI. Per ulteriori informazioni, vedi [Installazione del plug-in Bare Metal Restore](bmr-plugin.html)
 {:important}
@@ -22,7 +23,7 @@ Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo 
 Per poter avviare il portale {{site.data.keyword.backup_notm}}, devi essere connesso alla rete privata di {{site.data.keyword.BluSoftlayer_full}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
@@ -47,7 +48,7 @@ Per poter avviare il portale {{site.data.keyword.backup_notm}}, devi essere conn
      1. Seleziona i giorni e l'ora del giorno per eseguire i tuoi backup.
      2. Seleziona il tuo schema di conservazione.
 
-        Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](faqs.html#how-do-the-retention-schemes-work-).
+        Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs).
         {:tip}
      3. Dopo aver configurato la tua pianificazione di backup, fai clic su **Ok** per salvarla. Il tuo lavoro pianificato viene aggiunto all'elenco di lavori pianificati.
 10. Seleziona un archivio per il tuo lavoro di backup e fai clic su **Save Changes**.

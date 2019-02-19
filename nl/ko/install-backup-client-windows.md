@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Windows에서 백업 클라이언트 설치
+{: #InstallinWindows}
 
 Windows에서 {{site.data.keyword.backup_full}} 설치는 {{site.data.keyword.backup_notm}} 서비스용으로 지정된 서버에서 일련의 상호작용을 통해 완료됩니다.
 
-Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 {{site.data.keyword.backup_notm}} 구성](install-backup-client-windows2016.html)을 참조하십시오.
+Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 {{site.data.keyword.backup_notm}} 구성](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)을 참조하십시오.
 {:tip}
 
 ## 대상 디바이스 서버에 로그인
@@ -56,4 +57,4 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 
 ## 백업 에이전트 구성
 
-{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](index.html#configuring-the-backup-agent-and-the-backup-schedule)을 참조하십시오.
+{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](docs/infrastructure/Backup?topic=Backup-GettingStarted)을 참조하십시오.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Modifica della password per il servizio di backup
+{: #changePassword}
 
 A ogni servizio {{site.data.keyword.backup_full}} è associata una password che viene utilizzata per accedere all'archivio all'interno del portale {{site.data.keyword.backup_notm}}.
 

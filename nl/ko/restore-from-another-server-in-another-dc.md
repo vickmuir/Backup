@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 하나의 VSI에서 다른 데이터 센터의 다른 VSI로 데이터 복원
+{: #restoreVSIotherlocation}
 
-종종 다른 서버로 데이터를 복원하고자 할 수도 있습니다. 이 프로시저는 비OS 파일의 파일 레벨 복원에만 적용됩니다. 시스템 이미지를 복원하려면 [Windows BMR](restore-bmr-system-volume-image.html) 지시사항을 따르십시오.
+종종 다른 서버로 데이터를 복원하고자 할 수도 있습니다. 이 프로시저는 비OS 파일의 파일 레벨 복원에만 적용됩니다. 시스템 이미지를 복원하려면 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) 지시사항을 따르십시오.
 
 이 프로세스에는 첫 번째 서버의 저장소 위치에 액세스하기 위한 두 번째 서버의 백업 에이전트 재등록 및 **다른 컴퓨터에서의 복원** 완료가 포함됩니다.
 
 **전제조건**
 
 - Server1 및 Server2는 동일한 OS를 보유해야 합니다. 크로스 플랫폼 복원은 지원되지 않습니다.
-- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [{{site.data.keyword.backup_notm}} 포털에서 백업 에이전트 구성](index.html#configuring-the-backup-agent-and-the-backup-schedule)을 참조하십시오.
+- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [{{site.data.keyword.backup_notm}} 포털에서 백업 에이전트 구성](docs/infrastructure/Backup?topic=Backup-GettingStarted)을 참조하십시오.
 - Server1 저장소 위치로의 백업을 생성한 Server1에 대한 백업 작업.
 
 충돌을 피하려면 두 서버 모두에서 모든 예정된 태스크를 사용 안함으로 설정하십시오.
@@ -33,11 +34,11 @@ lastupdated: "2018-12-14"
 반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면, {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. <br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오. <br/>
 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. Server2를 선택하십시오. 오른쪽 화살표를 클릭하여 {{site.data.keyword.backup_notm}} 포털 링크를 표시하십시오.
-4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.  
+4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.
 
 ## 저장소 재등록
 

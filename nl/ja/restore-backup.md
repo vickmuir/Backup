@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # バックアップからのリストア
+{: #simplerestore}
 
 {{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](restore-bmr-system-volume-image.html) の手順に従ってください。
 
@@ -21,7 +22,7 @@ lastupdated: "2018-12-14"
 {{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。 開始しないと、{{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. リストア対象のファイルが存在するサーバーを選択します。 矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
@@ -39,7 +40,7 @@ lastupdated: "2018-12-14"
 8. **「次へ」**をクリックして先に進みます。
 9. 含めるファイルとディレクトリーの横にあるチェック・ボックスを選択します。 次に、**「含める (Include)」**をクリックして選択項目を保存します。
 10. 表示されるウィンドウを使用して、選択内容をさらにフィルタリングできます。選択内容をそのまま使用する場合は**「OK」**をクリックします。
-ファイルとディレクトリーを選択して含めた後は、データ・ファイル・ペインでそれ以上ファイルを選択できなくなります。それらは、右側のバックアップ・セット・ペインに表示されます。
+ファイルとディレクトリーを選択して含めた後は、データ・ファイル・ペインでそれ以上ファイルを選択できなくなります。 それらは、右側のバックアップ・セット・ペインに表示されます。
 
    ステップ 10 を繰り返して、ファイルを追加するか、以前に追加したファイルを (**「除外 (Exclude)」**を使用して) 削除することができます。 また、**「削除」**を使用して**「バックアップ・セット (Backup Set)」**ペインから任意の行アイテムを削除することもできます。
    {:tip}

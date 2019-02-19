@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installation du client de sauvegarde sous Windows
+{: #InstallinWindows}
 
 L'installation du client {{site.data.keyword.backup_full}} sous Windows est réalisée via une série d'interactions sur le serveur désigné pour le service {{site.data.keyword.backup_notm}}.
 
-Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voir [Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016](install-backup-client-windows2016.html).
+Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voir [Configuration de {{site.data.keyword.backup_notm}} sous Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016).
 {:tip}
 
 ## Connexion au serveur de l'unité cible
@@ -56,4 +57,4 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 
 ## Configuration des agents de sauvegarde
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](docs/infrastructure/Backup?topic=Backup-GettingStarted).

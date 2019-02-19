@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # バックアップ・エージェントと {{site.data.keyword.backup_notm}} ポータル間の通信を可能にするためのポートの構成
+{: #portinfo}
 
 サーバーにインストールされている {{site.data.keyword.backup_full}} エージェントが、購入したボールトと通信できる必要があります。 {{site.data.keyword.backup_notm}} ユーザー・アカウント用の Director のホスト情報は、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} と [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} で参照できます。
 
@@ -55,9 +56,9 @@ TCP Port 8086、8087 から 10.0.0.0/8 にアクセスできる必要があり�
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086、8087
 
-エージェントは、プライベート・ネットワーク上の TCP ポート 2548 インバウンドを許可する必要があります。 この設定により、Central Control および {{site.data.keyword.backup_notm}} ポータルは、エージェントに接続してこれを管理できます。旧バージョンの EVault では、ポート 808 が使用されていました。
+エージェントは、プライベート・ネットワーク上の TCP ポート 2548 インバウンドを許可する必要があります。 この設定により、Central Control および {{site.data.keyword.backup_notm}} ポータルは、エージェントに接続してこれを管理できます。 旧バージョンの EVault では、ポート 808 が使用されていました。
 
 {{site.data.keyword.backup_notm}} 管理ポート (2548) を変更するには、Windows オペレーティング・システムのレジストリー・キー `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (`dword`) を更新します。
 
-接続設定に関して、デスクトップ Central Control とエージェントの違いは、誤解されやすい点です。サーバー常駐エージェントは {{site.data.keyword.backup_notm}} サーバーに接続しますが、デスクトップで使用される Central Control は、サーバーのアドレスとそのアドレスにアクセスするためのサーバーの資格情報を使用して、サーバーに接続します。
+接続設定に関して、デスクトップ Central Control とエージェントの違いは、誤解されやすい点です。 サーバー常駐エージェントは {{site.data.keyword.backup_notm}} サーバーに接続しますが、デスクトップで使用される Central Control は、サーバーのアドレスとそのアドレスにアクセスするためのサーバーの資格情報を使用して、サーバーに接続します。
 {:tip}

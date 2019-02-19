@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # Preguntas más frecuentes
+{: #faqs}
 
 ## ¿De qué tipo de aplicaciones se puede hacer copia de seguridad?
 {: faq}
@@ -87,7 +88,7 @@ De forma predeterminada, el cliente base dispone de la tecnología más innovado
 ## ¿Dónde puedo encontrar información sobre los precios?
 {: faq}
 
-Para obtener más información, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [EVault en IBM Cloud: precios](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obtener más información, consulte [Almacenamiento de copia de seguridad ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [EVault en IBM Cloud: precios ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -148,7 +149,7 @@ Puede realizar una restauración completa del sistema o puede seleccionar archiv
 ## ¿Ofrece BMR funciones de copia de seguridad de archivos abiertos?
 {: faq}
 
-BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](mssql-plugin.html) para ver instrucciones de instalación del plugin MSSQL.
+BMR tiene capacidad de copia de seguridad de archivos abiertos. Sin embargo, BMR no sustituye la necesidad de disponer de plugins de SQL o de Oracle. Pulse [aquí](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) para ver instrucciones de instalación del plugin MSSQL.
 
 <hr>
 

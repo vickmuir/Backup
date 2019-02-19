@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Instalando o cliente de backup no Linux
+{: #InstallinLinux}
 
 A instalação do cliente do {{site.data.keyword.backup_full}} em um sistema operacional baseado em
 Linux pode ser feita por meio de uma série de comandos no shell ou no terminal dentro do S.O. Esse procedimento descreve as etapas necessárias para instalar o cliente em qualquer um dos sistemas operacionais baseados em Linux a seguir:
@@ -82,7 +83,7 @@ Esta etapa é necessária para o RHEL, mas opcional para outras distribuições 
 
 2. Insira seu nome de usuário e senha do portal do {{site.data.keyword.backup_notm}}.
 
-   Para obter mais informações sobre como visualizar o nome do usuário e a senha do {{site.data.keyword.backup_notm}}, consulte [Introdução aos serviços de backup](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details).
+   Para obter mais informações sobre como visualizar o nome do usuário e a senha do {{site.data.keyword.backup_notm}}, consulte [Introdução aos serviços de backup](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
    {:tip}
 
 3. Após o nome do usuário e a senha, nenhuma entrada adicional é necessária. Os prompts gravados na tela à medida que a instalação continua podem ser ignorados com segurança.
@@ -125,4 +126,4 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
 
 **Etapas seguintes**
 
-Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de Introdução](index.html#configuring-the-backup-agent-and-the-backup-schedule) e [Configurando o backup de nível de arquivo simples no Linux](configure-simple-file-backup-linux.html).
+Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de Introdução](/docs/infrastructure/Backup?topic=Backup-GettingStarted) e [Configurando o backup de nível de arquivo simples no Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

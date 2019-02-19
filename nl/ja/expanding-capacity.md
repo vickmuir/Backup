@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -14,12 +14,13 @@ lastupdated: "2018-12-14"
 
 
 # ボールトの容量の拡大
+{: #expandcapacity}
 
 現在の {{site.data.keyword.BluSoftlayer_full}} ユーザーはボールトのサイズを最大 4000 GB まで拡張できます。 複製を作成したり、大きなボリュームにデータを手動で移行したりする必要はありません。 限度の増量処理を行っても、障害やアクセス中断が発生することはりません。
 
 ## 増量の注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. 拡大するボールトを選択します。

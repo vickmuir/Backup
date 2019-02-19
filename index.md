@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Getting started with {{site.data.keyword.backup_notm}} services
+{: #GettingStarted}
 
 Backups ensure that your data is safely stored outside of your device and protected if it gets lost. {{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the {{site.data.keyword.backup_notm}} portal browser-based management utility. {{site.data.keyword.backup_notm}} provides users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer_full}} network. Administrators can set backups to follow a daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files. Extra plug-ins ensure compatibility with software like Microsoft Exchange and Microsoft SQL, other types of third-party software, and enable users to complete a Bare Metal Restore, when necessary.
 
@@ -20,12 +21,13 @@ Backups ensure that your data is safely stored outside of your device and protec
 
 You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 
-- [Purchase backups when you Order a Server](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Purchase backups as an Upgrade](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Purchase backups when you Order a Server](#purchasingwithserver).
+- [Purchase backups as an Upgrade](#purchasingasupgrade).
 
 For more information about pricing, see [{{site.data.keyword.backup_notm}} storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Purchasing {{site.data.keyword.backup_notm}} when you order a server
+{: #purchasingwithserver}
 
 1. Log in to the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} or the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
@@ -57,6 +59,7 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 4. Inspect the {{site.data.keyword.backup_notm}} section, and verify that the size that was selected during the purchase process is displayed.
 
 ### Purchasing {{site.data.keyword.backup_notm}} as an upgrade
+{: #purchasingasupgrade}
 
 #### Select a server on which to install {{site.data.keyword.backup_notm}}
 
@@ -92,7 +95,7 @@ The storage details of your service can be viewed in the [{{site.data.keyword.cl
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](change-password.html).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
@@ -118,9 +121,9 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
  - Ubuntu Linux 14.04
 
 Follow the instructions appropriate for your OS,
-- [Installing the Backup Client in Linux](install-backup-client-linux.html)
-- [Installing the Backup Client in Windows](install-backup-client-windows.html)
-- [Installing the Backup Client in Windows 2016](install-backup-client-windows2016.html)
+- [Installing the Backup Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [Installing the Backup Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Installing the Backup Client in Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accessing {{site.data.keyword.backup_notm}} portal (formerly WebCC)
 
@@ -164,7 +167,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
    4. Click **Start Backup**. You can view the backup details while the process is running.
    5. When the backup is complete, click **Close**.
 
-For more information, see [Configuring simple file-level backup on Linux](configure-simple-file-backup-linux.html).
+For more information, see [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
 {:tip}
 
 ## Getting online help

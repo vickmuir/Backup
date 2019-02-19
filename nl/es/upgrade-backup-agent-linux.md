@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # Actualización de Backup Software Agent para Linux
+{: #UpgradeinLinux}
 
 La versión más reciente del agente de copia de seguridad se puede descargar desde la sección de enlaces rápidos del panel de control del portal de {{site.data.keyword.backup_notm}}.
 {:tip}
@@ -21,18 +21,18 @@ Seguir el proceso de actualización asegura que se puede actualizar el agente de
 1. Inicie sesión en el host a nivel raíz.
 2. Descargue la versión más reciente del agente.
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2.
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
    ```
    {:pre}
 
 3. Extraiga el contenido del archivo descargado.
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
+   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
    ```
 4. Vaya al directorio de instalación reciente.
    ```
-   cd Agent-Linux-x64-8.11.5251/4.
+   cd Agent-Linux-x64-8.11.5251/4
    ```
 
 5. Ejecute el script de instalación.

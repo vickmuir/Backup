@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,10 +13,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Ports für Kommunikation zwischen dem Backup-Agenten und {{site.data.keyword.backup_notm}}-Portal konfigurieren
+{: #portinfo}
 
-Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} und in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} zur Verfügung. 
+Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} und in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} zur Verfügung.
 
-Registrieren Sie Agenten beim {{site.data.keyword.backup_notm}}-Portal und den Director-Instanzen immer mit FQDN, weil die IP-Adresse für diese Services sich möglicherweise ändern. 
+Registrieren Sie Agenten beim {{site.data.keyword.backup_notm}}-Portal und den Director-Instanzen immer mit FQDN, weil die IP-Adresse für diese Services sich möglicherweise ändern.
 
 Ihre Server müssen mit dem {{site.data.keyword.backup_notm}}-Portal und allen AMP-Proxy-Servern kommunizieren, damit das {{site.data.keyword.backup_notm}}-Portal ordnungsgemäß funktioniert, und zwar ungeachtet des Rechenzentrumsstandorts.
 

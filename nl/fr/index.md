@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Initiation aux services {{site.data.keyword.backup_notm}}
+{: #GettingStarted}
 
 Les sauvegardes permettent de stocker en toute sécurité vos données hors de votre appareil et de les protéger si celui-ci venait à être perdu. {{site.data.keyword.backup_full}} est un système de sauvegarde automatisé basé sur un agent qui est géré via l'utilitaire de gestion de portail {{site.data.keyword.backup_notm}} reposant sur un navigateur. {{site.data.keyword.backup_notm}} fournit aux utilisateurs une méthode de sauvegarde des données entre les serveurs d'un ou de plusieurs centres de données sur le réseau {{site.data.keyword.BluSoftlayer_full}}. Les administrateurs peuvent faire en sorte que des sauvegardes soient effectuées tous les jours, toutes les semaines ou définir des sauvegardes personnalisées qui ciblent des systèmes complets, des répertoires spécifiques ou même des fichiers individuels. Des plug-ins supplémentaires permettent la compatibilité avec des logiciels tels que Microsoft Exchange et Microsoft SQL, ainsi qu'avec d'autres types de logiciels tiers. Ils permettent également aux utilisateurs d'effectuer une restauration physique, en cas de besoin.
 
@@ -20,12 +21,13 @@ Les sauvegardes permettent de stocker en toute sécurité vos données hors de v
 
 Vous pouvez acquérir le service {{site.data.keyword.backup_notm}} de deux manières.
 
-- [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasing-ibm-cloud-backup-when-you-order-a-server).
-- [Acquisition de sauvegardes sous forme de mise à niveau](#purchasing-ibm-cloud-backup-as-an-upgrade).
+- [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasingwithserver).
+- [Acquisition de sauvegardes sous forme de mise à niveau](#purchasingasupgrade).
 
 Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 ### Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
+{: #purchasingwithserver}
 
 1. Connectez-vous au [catalogue IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/){:new_window} ou au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}
 2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
@@ -57,6 +59,7 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 4. Examinez la section {{site.data.keyword.backup_notm}} et vérifiez que la taille sélectionnée lors de la procédure d'acquisition est affichée.
 
 ### Acquisition d'{{site.data.keyword.backup_notm}} sous forme de mise à niveau
+{: #purchasingasupgrade}
 
 #### Sélection d'un serveur sur lequel installer {{site.data.keyword.backup_notm}}
 
@@ -92,7 +95,7 @@ Vous pouvez à tout moment accéder aux détails du stockage de votre service da
 2. Cliquez n'importe où sur la ligne du coffre dont vous souhaitez examiner les informations de stockage. Dans cette vue, le mot de passe n'est pas visible.
 3. Cochez la case **Afficher** en regard de la zone **Mot de passe** pour examiner le mot de passe du service {{site.data.keyword.backup_notm}} sélectionné.
 
-Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification du mot de passe d'un service de sauvegarde](change-password.html).
+Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification du mot de passe d'un service de sauvegarde](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Installation de l'agent {{site.data.keyword.backup_notm}}
@@ -118,9 +121,9 @@ L'agent {{site.data.keyword.backup_notm}} est pris en charge sur les systèmes d
  - Ubuntu Linux 14.04
 
 Suivez les instructions correspondant à votre système d'exploitation.
-- [Installation du client de sauvegarde sous Linux](install-backup-client-linux.html)
-- [Installation du client de sauvegarde sous Windows](install-backup-client-windows.html)
-- [Installation du client de sauvegarde sous Windows 2016](install-backup-client-windows2016.html)
+- [Installation du client de sauvegarde sous Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [Installation du client de sauvegarde sous Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [Installation du client de sauvegarde sous Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accès au portail {{site.data.keyword.backup_notm}} (anciennement WebCC)
 
@@ -164,7 +167,7 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que 
    4. Cliquez sur **Lancer la sauvegarde**. Vous pouvez afficher les détails de la sauvegarde pendant l'exécution du processus.
    5. Une fois la sauvegarde terminée, cliquez sur **Fermer**.
 
-Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau fichier sous Linux](configure-simple-file-backup-linux.html).
+Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
 {:tip}
 
 ## Obtention d'aide en ligne

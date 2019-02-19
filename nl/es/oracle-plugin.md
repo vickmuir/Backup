@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Instalación del plugin Oracle
+{: #Oracleplugin}
 
 El plugin Oracle es un complemento y se instala con el agente Windows o el agente Linux en el host de la base de datos Oracle. Mediante el portal de {{site.data.keyword.backup_notm}}, puede configurar trabajos, hacer copia de seguridad de bases de datos Oracle en una caja fuerte remota segura y restaurar bases de datos Oracle. El plugin Oracle se integra en la arquitectura existente.
 
@@ -33,8 +34,8 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 
 ## Solicitud del plugin
 
-1. Inicie una sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.
 4. Seleccione **Plugin de {{site.data.keyword.backup_notm}} - Oracle** y pulse **Continuar**.
@@ -45,7 +46,7 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 
 ## Instalación del plugin para Windows
 
-El plugin Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**.
+El plugin Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
 Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos servicios de {{site.data.keyword.backup_notm}} en `services.msc`.
 {:tip}
@@ -63,7 +64,7 @@ Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos se
 
 ## Instalación del plugin para Linux
 
-El plugin Oracle es un complemento del agente Linux y se instala con el agente en el host de la base de datos. La aplicación de agente Linux debe estar instalada para poder instalar el plugin. El agente está disponible como una aplicación de 32 bits y de 64 bits. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Linux](install-backup-client-linux.html).
+El plugin Oracle es un complemento del agente Linux y se instala con el agente en el host de la base de datos. La aplicación de agente Linux debe estar instalada para poder instalar el plugin. El agente está disponible como una aplicación de 32 bits y de 64 bits. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
 El kit de instalación del plugin Oracle está disponible en un archivo tar.gz.
 

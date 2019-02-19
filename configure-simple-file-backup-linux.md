@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configuring simple file-level backup on Linux
+{: #configureLinuxBackup}
 
 After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
 
@@ -57,7 +58,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 12. On the Create a schedule page, click **Add** to schedule a time-based backup job, or click **Next** to create a manual job.
   - If you choose to create a manual job, proceed to Step 15.
   - If you choose to schedule a time-based job, select the days and the time of day to run your backups.
-  - Select your Retention Scheme. For more information about Retention Schemes, see the [FAQ](faqs.html#how-do-the-retention-schemes-work-).
+  - Select your Retention Scheme. For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Click **Advanced Schedule Options** for more configuration choices. You can select **Use Deferring** to prevent large backups from running at peak network times.
 
     When the deferring option is enabled, the backup job doesn't back up any new data after the specified amount of time. It commits the safeset to the vault, even if some data in the job isn't backed up. Changes to data that was previously saved are backed up, regardless of the specified amount of time. <br/> When the job runs again, the Agent checks for changes in data that was previously backed up, backs up those changes, and then backs up the remaining data. If a backup job is deferred while an item is being backed up, the backup for that item is incomplete and data from that item can't be restored. However, you can restore items that were backed up in the job before the job was deferred.

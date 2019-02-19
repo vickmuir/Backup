@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installazione del plug-in SQL Server
+{: #MSSQLplugin}
 
 Il plug-in SQL Server viene installato con l'agent Windows sull'host del database SQL. Tramite il portale {{site.data.keyword.backup_notm}}, puoi configurare i lavori, eseguire il backup dei database SQL in un archivio remoto protetto e ripristinare i database SQL.
 
@@ -61,6 +62,7 @@ Prima di installare il plug-in MSSQL per il tuo server Microsoft Windows, arrest
 Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Funzioni principali
+{: #main-features}
 
 - Possibilità di specificare i nomi dei database da includere ed escludere nei lavori di backup di SQL Server utilizzando caratteri jolly (asterischi e punti interrogativi). I nuovi database con nomi corrispondenti ai filtri di un lavoro di backup vengono automaticamente inclusi o esclusi durante l'esecuzione del lavoro.
 - Possibilità di proteggere i database secondari nei gruppi di disponibilità AlwaysOn utilizzando l'agent a 64 bit e il plug-in SQL Server.

@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # Linux 版バックアップ・ソフトウェア・エージェントのアップグレード
+{: #UpgradeinLinux}
 
 最新のバックアップ・エージェントを、{{site.data.keyword.backup_notm}}・ポータルの「ダッシュボード」クイック・リンク・セクションからダウンロードできます。
 {:tip}
@@ -21,18 +21,18 @@ lastupdated: "2018-12-14"
 1. root レベルでホストにログインします。
 2. 最新バージョンのエージェントをダウンロードします。
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2.
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
    ```
    {:pre}
 
 3. ダウンロードしたファイルの内容を解凍します。
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
+   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
    ```
 4. 最新のインストール・ディレクトリーに移動します。
    ```
-   cd Agent-Linux-x64-8.11.5251/4.
+   cd Agent-Linux-x64-8.11.5251/4
    ```
 
 5. インストレーション・スクリプトを実行します。

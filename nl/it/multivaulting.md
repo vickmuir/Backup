@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Multiarchivio
+{: #multivault}
 
 Il multiarchivio è la capacità di un client di connettere un server a più di un'ubicazione di archivio. Fornisce ridondanza e sicurezza, perché i backup sono disponibili anche in caso di malfunzionamento di un sito.
 
@@ -73,4 +74,4 @@ Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere i
   4. Nel campo delle credenziali, immetti l'ID account, il nome utente {{site.data.keyword.backup_notm}} per l'archivio selezionato e la password per l'archivio selezionato.
   5. Fai clic su **Save Changes**.
 
-In pochi secondi, il nuovo archivio è utilizzabile. Se si verifica un errore di connessione, controlla le tue impostazioni e prova di nuovo. Ricorda che l'aggiunta di un altro archivio ti offre un'ulteriore destinazione da scegliere per un lavoro. Non esegue automaticamente i lavori entrambe le volte. Devi configurare i lavori per utilizzare l'archivio aggiuntivo. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](index.html).
+In pochi secondi, il nuovo archivio è utilizzabile. Se si verifica un errore di connessione, controlla le tue impostazioni e prova di nuovo. Ricorda che l'aggiunta di un altro archivio ti offre un'ulteriore destinazione da scegliere per un lavoro. Non esegue automaticamente i lavori entrambe le volte. Devi configurare i lavori per utilizzare l'archivio aggiuntivo. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](docs/infrastructure/Backup?topic=Backup-GettingStarted).

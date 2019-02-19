@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Instalando o plug-in SQL Server
+{: #MSSQLplugin}
 
 O plug-in SQL Server é instalado com o Windows Agent no host do banco de dados SQL. Por meio do portal do {{site.data.keyword.backup_notm}}, é possível configurar tarefas, fazer backup de bancos de dados SQL para uma área segura remota e restaurar bancos de dados SQL.
 
@@ -66,6 +67,7 @@ Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare amb
 Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
 ## Principais recursos
+{: #main-features}
 
 - Capacidade para especificar os nomes de bancos de dados a serem incluídos e excluídos em tarefas de backup do SQL Server usando caracteres curingas (asteriscos e pontos de interrogação). Os novos bancos de dados
 com nomes que correspondem aos filtros de uma tarefa de backup são incluídos ou excluídos automaticamente quando

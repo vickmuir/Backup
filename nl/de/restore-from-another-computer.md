@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Daten von einer virtuellen Serverinstanz (VSI) in ein anderes VSI im selben Rechenzentrum wiederherstellen
+{: #restorefromotherVSI}
 
-Es kann mitunter vorkommen, dass Sie Daten auf einem anderen Server desselben Rechenzentrums wiederherstellen wollen. Die beschriebene Prozedur gilt nur für Wiederherstellungen auf Dateiebene für Dateien, die keine Betriebssystemdateien sind. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](restore-bmr-system-volume-image.html).
+Es kann mitunter vorkommen, dass Sie Daten auf einem anderen Server desselben Rechenzentrums wiederherstellen wollen. Die beschriebene Prozedur gilt nur für Wiederherstellungen auf Dateiebene für Dateien, die keine Betriebssystemdateien sind. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 Der Prozess umfasst das erneute Registrieren des Sicherungsagenten auf dem zweiten Server, um auf die Vaultposition des ersten Servers zuzugreifen, sowie das Durchführen der Aktion **Aus anderem Computer wiederherstellen**.
 
 **Vorbedingungen**
 
 - Server 1 und Server 2 müssen über dasselbe Betriebssystem verfügen. Plattformübergreifende Wiederherstellungen werden nicht unterstützt.
-- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Ein Sicherungsjob für Server 1, der eine Sicherung an der Vaultposition von Server 1 erstellt hat.
 
 Inaktivieren Sie auf beiden Servern alle geplanten Tasks, um Konflikte zu vermeiden.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # Windows 2016에서 {{site.data.keyword.backup_notm}} 구성
+{: #InstallinWindows2016}
 
 ## 백업 에이전트 설치
 
@@ -48,7 +49,7 @@ lastupdated: "2018-12-14"
 
 ## Central Control 구성
 
-이 태스크는 {{site.data.keyword.backup_notm}} 서비스용으로 지정된 서버에 로그인하는 동안 일련의 상호작용을 통해 완료됩니다. 
+이 태스크는 {{site.data.keyword.backup_notm}} 서비스용으로 지정된 서버에 로그인하는 동안 일련의 상호작용을 통해 완료됩니다.
 
 1. RDP를 통해 서버를 원격 제어하십시오.
 2. Central Control을 시작하십시오.
@@ -112,7 +113,7 @@ lastupdated: "2018-12-14"
 3. 작업공간에서 **내 에이전트**를 마우스 오른쪽 단추로 클릭하고 작성한 에이전트를 선택하십시오.
 4. 시작 화면에서 **다음**을 클릭하십시오.
 5. 백업 작업을 시드할 백업 대상 또는 다른 위치를 선택하십시오. **다음**을 클릭하십시오.<br/>
-   다중 저장소에 대한 자세한 정보는 [Multi-vaulting](multivaulting.html)을 참조하십시오.
+다중 저장소에 대한 자세한 정보는 [Multi-vaulting](/docs/infrastructure/Backup?topic=Backup-multivault)을 참조하십시오.
    {:tip}
 6. 빠른 파일 스캐닝 옵션을 선택하여 변경되지 않은 파일 읽기를 피하십시오. **다음**을 클릭하십시오.
 7. **완료**를 클릭하여 구성을 완료하고 백업을 시작하십시오. 백업 작업 상태를 표시하는 프로세스 정보 창이 나타납니다. 백업 작업이 완료되면 **닫기**를 클릭하십시오.

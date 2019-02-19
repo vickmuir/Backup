@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Plug-in für Oracle installieren
+{: #Oracleplugin}
 
 Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agenten oder dem Linux-Agenten auf dem Oracle-Datenbankhost installiert wird. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, Oracle-Datenbanken in einer sicheren, fernen Vault sichern und Oracle-Datenbanken wiederherstellen. Das Plug-in für Oracle wird in die vorhandene Architektur integriert.
 
@@ -45,7 +46,7 @@ Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agen
 
 ## Plug-in für Windows installieren
 
-Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt.
+Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Windows installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows). 
 
 Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.
 {:tip}
@@ -63,7 +64,7 @@ Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen 
 
 ## Plug-in für Linux installieren
 
-Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie unter [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](install-backup-client-linux.html).
+Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](/docs/infrastructure/Backup?topic=Backup-InstallinLinux). 
 
 Das Installationskit für das Oracle-Plug-in steht in einer 'tar.gz'-Datei zur Verfügung.
 
@@ -100,4 +101,4 @@ Das Oracle-Plug-in führt eine "inkonsistente" Datenbankgesamtsicherung durch, d
 
 ## Benutzerhandbuch herunterladen
 
-Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie die Benutzerhandbücher über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. 
+Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie die Benutzerhandbücher über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.

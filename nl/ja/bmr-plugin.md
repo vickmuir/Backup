@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # ベアメタル・リストア・プラグインのインストール
+{: #BMRplugin}
 
 BMR は、Microsoft Windows 向け災害復旧ソリューションです。 BMR では、オペレーティング・システムやハードウェアの障害などの災害が発生した場合に、ベアメタル状態からサーバーをリストアできます。 BMR により、{{site.data.keyword.BluSoftlayer_full}} で管理される安全で保護された場所からシステム・イメージを迅速にリストアできます。
 
@@ -28,7 +29,7 @@ BMR は、物理サーバー上の Microsoft Windows 専用の製品です。 �
 
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。 <br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。

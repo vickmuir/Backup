@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurando o backup em nível de arquivo simples no Linux
+{: #configureLinuxBackup}
 
 Depois de ter solicitado o {{site.data.keyword.backup_full}} e o agente estiver instalado no
 servidor, será possível iniciar a criação de backups dos dados. O artigo fornece as etapas para configurar seu agente
@@ -65,7 +66,7 @@ na tela **Criar um planejamento**.
   - Se você optar por criar uma tarefa manual, continue na Etapa 15.
   - Se você escolher planejar uma tarefa baseada em tempo, selecione os dias e o horário do dia para executar os seus backups.
   - Selecione o seu Esquema de retenção. Para obter mais informações sobre os esquemas de retenção, consulte as [Perguntas mais
-frequentes](faqs.html#how-do-the-retention-schemes-work-).
+frequentes](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Clique em **Opções avançadas de planejamento** para obter mais opções de configuração. É possível selecionar **Usar o adiamento** para evitar que grandes backups sejam executados em horários de pico da rede.
 
     Quando a opção de adiamento for ativada, a tarefa de backup não fará backup de nenhum dado novo após a quantidade de tempo especificada. Ela confirma o conjunto de segurança na área segura, mesmo que alguns dados na tarefa não sejam submetidos a backup. As mudanças nos dados que foram salvos anteriormente são submetidas a backup, independentemente da quantidade de tempo especificada. <br/> Quando a tarefa é executada novamente, o agente verifica as mudanças nos dados que foram

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installing the Oracle plug-in
+{: #Oracleplugin}
 
 The Oracle plug-in is an add-on and is installed with the Windows Agent or the Linux Agent on the Oracle database host. Through the {{site.data.keyword.backup_notm}} portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
 
@@ -45,7 +46,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 
 ## Installing the plug-in for Windows
 
-The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
+The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
 Before you install the plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
@@ -63,7 +64,7 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 
 ## Installing the plug-in for Linux
 
-The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](install-backup-client-linux.html).
+The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
 The Oracle plug-in installation kit is available in a tar.gz file.
 

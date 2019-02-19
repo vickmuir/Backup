@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Exchange 플러그인 설치
+{: #Exchangeplugin}
 
 Exchange 플러그인은 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Exchange 데이터베이스를 백업하며 Exchange 데이터베이스를 복원할 수 있습니다. 플러그인은 기존 아키텍처에 통합됩니다.
 

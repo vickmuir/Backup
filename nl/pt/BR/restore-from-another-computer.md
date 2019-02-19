@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,8 +14,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restaurando dados de um VSI para outro dentro do mesmo data center
+{: #restorefromotherVSI}
 
-Às vezes você deseja restaurar dados para um servidor diferente no mesmo data center. Este procedimento se aplica somente a restaurações de nível de arquivo de arquivos não S.O. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](restore-bmr-system-volume-image.html).
+Às vezes você deseja restaurar dados para um servidor diferente no mesmo data center. Este procedimento se aplica somente a restaurações de nível de arquivo de arquivos não S.O. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 O processo inclui registrar novamente o agente de backup no segundo servidor para acessar a localização da área
 segura do primeiro servidor e concluir uma **Restauração de outro computador**.
@@ -23,7 +24,7 @@ segura do primeiro servidor e concluir uma **Restauração de outro computador**
 **Pré-requisitos**
 
 - Server1 e Server2 devem ter o mesmo S.O. Restaurações de plataforma cruzada não são suportados.
-- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre como configurar os agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Uma tarefa de backup para o Server1 que produziu um backup para a localização da área segura do Server1.
 
 Desative todas as tarefas planejadas em ambos os servidores para evitar quaisquer conflitos.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # {{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren
+{: #InstallinWindows2016}
 
 ## Sicherungsagenten installieren
 
@@ -112,7 +113,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 3. Klicken Sie im Arbeitsbereich mit der rechten Maustaste auf **Eigener Agent** und wählen Sie dann den von Ihnen erstellten Agenten aus.
 4. Klicken Sie in der Eingangsanzeige auf **Weiter**.
 5. Wählen Sie das Sicherungsziel oder eine andere Speicherposition für den Seed-Sicherungsjob (vollständige Gesamtsicherung) aus. Klicken Sie auf **Weiter**.<br/>
-   Weitere Informationen zur Verwendung mehrerer Vaults finden Sie unter [Multi-Vaulting](multivaulting.html)
+   Weitere Informationen zur Verwendung mehrerer Vaults finden Sie unter [Multi-Vaulting](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Wählen Sie die Option für das Quick File Scanning aus, um zu vermeiden, dass Dateien, die nicht geändert wurden, gelesen werden. Klicken Sie auf **Weiter**.
 7. Klicken Sie auf **Fertigstellen**, um die Konfiguration abzuschließen und die Sicherung zu starten. Daraufhin wird ein Fenster mit Prozessinformationen aufgerufen, in dem der Status des Sicherungsjobs angezeigt wird. Klicken Sie nach Abschluss des Sicherungsjobs auf **Schließen**.

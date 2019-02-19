@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Sicherungsclient unter Windows installieren
+{: #InstallinWindows}
 
 Die Installation des {{site.data.keyword.backup_full}}-Clients unter Windows erfolgt durch eine Reihe von Interaktionen auf dem Server, der für den {{site.data.keyword.backup_notm}}-Service vorgesehen ist.
 
-Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [{{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren](install-backup-client-windows2016.html).
+Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{site.data.keyword.backup_notm}} unter Windows 2016 konfigurieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016).
 {:tip}
 
 ## Beim Zielgeräteserver anmelden
@@ -56,4 +57,4 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie unter [
 
 ## Sicherungsagenten konfigurieren
 
-Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](index.html#configuring-the-backup-agent-and-the-backup-schedule).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](docs/infrastructure/Backup?topic=Backup-GettingStarted).

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # FAQs
+{: #faqs}
 
 ## What kind of applications can be backed up?
 {: faq}
@@ -87,7 +88,7 @@ By default, the base client has a state-of-the-art technology to handle most ope
 ## Where can I find information about pricing?
 {: faq}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+For more information, see [Backup storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 
@@ -148,7 +149,7 @@ You can either do a whole system restore, or you can pick individual files from 
 ## Does BMR have open file back up capabilities?
 {: faq}
 
-BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](mssql-plugin.html) for the MSSQL plug-in installation instructions.
+BMR has open file back up capabilities. However, BMR doesn't replace the need for SQL or Oracle plug-ins. Click [here](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin) for the MSSQL plug-in installation instructions.
 
 <hr>
 

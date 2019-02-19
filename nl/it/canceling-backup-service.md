@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Annullamento di un servizio {{site.data.keyword.backup_notm}}
+{: #cancelBackup}
 
 Puoi annullare il tuo servizio {{site.data.keyword.backup_full}} in qualsiasi momento. L'annullamento elimina il tuo archivio con i dati di backup e non potrai accedere al portale {{site.data.keyword.backup_notm}} con le credenziali annullate.
 

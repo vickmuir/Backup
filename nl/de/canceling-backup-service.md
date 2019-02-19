@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,8 +13,9 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # {{site.data.keyword.backup_notm}}-Service stornieren
+{: #cancelBackup}
 
-Sie können Ihren {{site.data.keyword.backup_full}}-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten Service beim {{site.data.keyword.backup_notm}}-Portal anmelden. 
+Sie können Ihren {{site.data.keyword.backup_full}}-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten Service beim {{site.data.keyword.backup_notm}}-Portal anmelden.
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.

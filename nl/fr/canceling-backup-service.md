@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Annulation d'un service {{site.data.keyword.backup_notm}}
+{: #cancelBackup}
 
 Vous pouvez annuler votre service {{site.data.keyword.backup_full}} à tout moment. L'annulation supprime votre coffre avec les données sauvegardées et vous ne pouvez plus vous connecter au portail {{site.data.keyword.backup_notm}} avec les données d'identification annulées.
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # BMR 시스템 볼륨 이미지 복원
+{: #restoreBMR}
 
 {{site.data.keyword.backup_full}}에서 베어메탈 이미지 백업의 복원이 필요하면 BMR Rescue Kernel 시스템에서 이를 신속하게 복원할 수 있습니다. BMR을 사용하면 부트 가능한 운영 체제가 없어도 시스템을 복원할 수 있습니다. 이는 운영 체제가 더 이상 사용 가능하지 않거나 시스템의 드라이브가 대체된 경우에 유용합니다.
 

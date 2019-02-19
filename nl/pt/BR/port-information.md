@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurando portas para permitir a comunicação entre o agente de backup e o portal do {{site.data.keyword.backup_notm}}
+{: #portinfo}
 
 O agente do {{site.data.keyword.backup_full}} que está instalado no servidor precisa ser capaz de se
 comunicar com a área segura que você comprou. As informações do host do Director para uma conta de usuário do {{site.data.keyword.backup_notm}} podem ser localizadas no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window} e no [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window}.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurazione delle porte per consentire le comunicazioni tra l'agent backup e il portale {{site.data.keyword.backup_notm}}
+{: #portinfo}
 
 L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host Director per un account utente {{site.data.keyword.backup_notm}} sono disponibili nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window} e nella console [{{site.data.keyword.cloud_notm}}![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window}.
 
@@ -59,4 +60,5 @@ L'agent deve consentire la porta TCP 2548 in entrata sulla rete privata. Questa 
 
 La porta di gestione {{site.data.keyword.backup_notm}} (2548) può essere modificata aggiornando la chiave di registro su: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (che è un valore `dword`) nei sistemi operativi Windows.
 
-Quando si tratta di impostazioni di connessione, la differenza tra Central Control sul desktop e l'agent è spesso motivo di confusione. L'agent residente nel server si connette ai server {{site.data.keyword.backup_notm}}, mentre il Central Control utilizzato dal desktop si connette al tuo server, utilizzando il proprio indirizzo e le credenziali del server per accedervi.{:tip}
+Quando si tratta di impostazioni di connessione, la differenza tra Central Control sul desktop e l'agent è spesso motivo di confusione. L'agent residente nel server si connette ai server {{site.data.keyword.backup_notm}}, mentre il Central Control utilizzato dal desktop si connette al tuo server, utilizzando il proprio indirizzo e le credenziali del server per accedervi.
+{:tip}

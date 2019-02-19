@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # SQL Server プラグインのインストール
+{: #MSSQLplugin}
 
 SQL Server プラグインは、Windows エージェントとともに SQL データベース・ホスト上にインストールされます。 {{site.data.keyword.backup_notm}} ポータルを使用して、ジョブの構成、セキュアなリモート・ボールトへの SQL データベースのバックアップ、および SQL データベースのリストアを行うことができます。
 
@@ -27,7 +28,7 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 
 ## プラグインの注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。**「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
@@ -39,7 +40,7 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 
 ## MSSQL プラグインのインストール
 
-プラグインをインストールするには、エージェント・インストール・キットを実行します。プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
+プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
 
 Microsoft Windows サーバー用の MSSQL プラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
@@ -61,6 +62,7 @@ Microsoft Windows サーバー用の MSSQL プラグインをインストール�
 {{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドをダウンロードすることができます。
 
 ## 主な機能
+{: #main-features}
 
 - ワイルドカード文字 (アスタリスクと疑問符) を使用して、SQL Server のバックアップ・ジョブに対して含めるデータベースと除外するデータベースの名前を指定する機能。 バックアップ・ジョブのフィルターと一致する名前の新規データベースは、ジョブの実行時に自動的に含められるか、または除外されます。
 - 64 ビットのエージェントおよび SQL Server プラグインを使用して、AlwaysOn 可用性グループ内の 2 次データベースを保護する機能。

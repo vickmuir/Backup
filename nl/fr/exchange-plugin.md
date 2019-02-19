@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Installation du plug-in Exchange
+{: #Exchangeplugin}
 
 Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du portail {{site.data.keyword.backup_notm}}, vous pouvez configurer des travaux, sauvegarder des bases de données Exchange dans un coffre distant sécurisé et restaurer des bases de données Exchange. Le plug-in s'intègre dans l'architecture existante.
 

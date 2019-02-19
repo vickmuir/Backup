@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Restaurando uma imagem de volume do sistema BMR
+{: #restoreBMR}
 
 Se for necessário restaurar um backup de imagem Bare Metal do {{site.data.keyword.backup_full}}, será possível fazer isso rapidamente por meio do sistema BMR Rescue Kernel. Com a BMR, é possível restaurar
 o sistema sem a necessidade de um sistema operacional inicializável. Isso é útil quando o sistema operacional não é mais utilizável ou quando as unidades no sistema foram substituídas.

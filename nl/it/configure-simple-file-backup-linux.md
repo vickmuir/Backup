@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Configurazione di un semplice backup a livello di file su Linux
+{: #configureLinuxBackup}
 
 Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è installato sul server, puoi iniziare a creare i backup dei tuoi dati. L'articolo fornisce i passi per configurare l'agent, la pianificazione della conservazione e avviare il tuo primo lavoro di backup.
 
@@ -57,7 +58,7 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 12. Nella pagina Create a schedule, fai clic su **Add** per pianificare un lavoro di backup basato sul tempo o fai clic su **Next** per creare un lavoro manuale.
   - Se scegli di creare un lavoro manuale, procedi al Passo 15.
   - Se scegli di pianificare un lavoro basato sul tempo, seleziona i giorni e l'ora del giorno per eseguire i tuoi backup.
-  - Seleziona il tuo schema di conservazione. Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](faqs.html#how-do-the-retention-schemes-work-).
+  - Seleziona il tuo schema di conservazione. Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Fai clic su **Advanced Schedule Options** per ulteriori opzioni di configurazione. Puoi selezionare **Use Deferring** per impedire l'esecuzione di backup di grandi dimensioni nei momenti di picco della rete.
 
     Quando l'opzione di differimento è abilitata, il lavoro di backup non esegue il backup di nuovi dati dopo il periodo di tempo specificato. Esegue il commit del set sicuro nell'archivio, anche se alcuni dati nel lavoro non vengono sottoposti a backup. Le modifiche ai dati di cui è stato eseguito il backup in precedenza vengono sottoposte a backup, indipendentemente dal periodo di tempo specificato. <br/> Quando il lavoro viene eseguito nuovamente, l'agent verifica la presenza di modifiche nei dati di cui è già stato eseguito il backup, esegue il backup di tali modifiche e quindi esegue il backup dei dati rimanenti. Se un lavoro di backup viene rinviato mentre viene eseguito il backup di un elemento, il backup per quell'elemento è incompleto e i dati dell'elemento non possono essere ripristinati. Tuttavia, puoi ripristinare gli elementi di cui è stato eseguito il backup prima che il lavoro fosse rinviato.
