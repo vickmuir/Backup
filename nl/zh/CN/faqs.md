@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # 常见问题
+{: #faqs}
 
 ## 可以备份哪类应用程序？
 {: faq}
@@ -88,7 +89,7 @@ lastupdated: "2018-11-15"
 ## 何处可找到有关定价的信息？
 {: faq}
 
-有关更多信息，请参阅 [Backup storage](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+有关更多信息，请参阅 [Backup storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [EVault on IBM Cloud: Pricing ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 <hr>
 
@@ -149,7 +150,7 @@ BMR 备份不是磁盘映像备份系统，而是系统卷映像备份系统。�
 ## BMR 具有开放文件文件备份功能吗？
 {: faq}
 
-BMR 具有开放文件备份功能。但是，BMR 并不能取代对 SQL 或 Oracle 插件的需求。单击[此处](mssql-plugin.html)以获取 MSSQL 插件安装指示信息。
+BMR 具有开放文件备份功能。但是，BMR 并不能取代对 SQL 或 Oracle 插件的需求。单击[此处](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)以获取 MSSQL 插件安装指示信息。
 
 <hr>
 

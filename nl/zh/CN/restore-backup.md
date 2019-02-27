@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 使用备份进行复原
+{: #simplerestore}
 
 使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
 
@@ -21,7 +22,7 @@ lastupdated: "2018-12-14"
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络。否则，{{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:important}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
 或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要复原的文件所在的服务器。单击箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。

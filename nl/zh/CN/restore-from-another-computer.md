@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在同一数据中心内的不同 VSI 之间复原数据
+{: #restorefromotherVSI}
 
-有时，您会希望将数据复原到同一数据中心内的其他服务器上。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
+有时，您会希望将数据复原到同一数据中心内的其他服务器上。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) 指示信息。
 
 此过程包括在第二个服务器上重新注册备份代理程序以访问第一个服务器的保险库位置，以及完成**从其他计算机复原**。
 
 **先决条件**
 
 - Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
 禁用这两台服务器上的所有已调度的任务以避免发生任何冲突。

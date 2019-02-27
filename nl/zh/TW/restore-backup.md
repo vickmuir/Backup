@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 從備份還原
+{: #simplerestore}
 
 請使用這些步驟，以 {{site.data.keyword.backup_full}} 來完成「檔案」還原。若要還原系統映像檔，請遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示。
 
@@ -21,7 +22,7 @@ lastupdated: "2018-12-14"
 請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路。否則，{{site.data.keyword.backup_notm}} 入口網站鏈結將無法運作。
 {:important}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取要還原之檔案所在的伺服器。按一下箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。

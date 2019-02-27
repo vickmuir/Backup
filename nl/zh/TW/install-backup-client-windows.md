@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在 Windows 中安裝備份用戶端
+{: #InstallinWindows}
 
 在 Windows 中安裝 {{site.data.keyword.backup_full}} 用戶端，是在針對 {{site.data.keyword.backup_notm}} 服務指定的伺服器上透過一系列互動來完成。
 
-如需 Windows 2016 伺服器備份的相關資訊，請參閱[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](install-backup-client-windows2016.html)。
+如需 Windows 2016 伺服器備份的相關資訊，請參閱[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)。
 {:tip}
 
 ## 登入目標裝置伺服器
@@ -56,4 +57,4 @@ lastupdated: "2018-12-14"
 
 ## 配置備份代理程式
 
-登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](docs/infrastructure/Backup?topic=Backup-GettingStarted)。

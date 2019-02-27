@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 取消 {{site.data.keyword.backup_notm}} 服務
+{: #cancelBackup}
 
 您隨時都可以取消 {{site.data.keyword.backup_full}} 服務。取消作業會刪除儲存庫及其中的備份資料，而且您無法使用已取消的認證來登入 {{site.data.keyword.backup_notm}} 入口網站。
 

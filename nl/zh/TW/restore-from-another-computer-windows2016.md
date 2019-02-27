@@ -1,19 +1,20 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 
 # 在 Windows 2016 上從另一部電腦還原工作
+{: #restorefromother2016}
 
 請使用這些步驟，以 Windows 2016 中的 Windows Central Control 從另一部電腦完成檔案還原。
 
 1. 透過 RDP 遠端控制 Windows 2016 伺服器。
-2. 開啟 Central Control。
+2. 開啟 CentralControl。
 3. 在**代理程式**上按一下滑鼠右鍵，然後按一下**代理程式配置**。
-4. 選取項目，然後按一下**刪除**，以從 Central Control 中移除現行「儲存庫」設定。
+4. 選取項目，然後按一下**刪除**，以從 CentralControl 中移除現行「儲存庫」設定。
 5. 按一下**新建**，然後在下一個畫面上，選取**重新登錄先前登錄的電腦**。按**下一步**。
 6. 輸入網址，並按一下**新增**，然後按**下一步**。
 7. 輸入新埠值，並按一下**新增**，然後按**下一步**。

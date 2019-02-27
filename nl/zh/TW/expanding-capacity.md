@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -14,12 +14,13 @@ lastupdated: "2018-12-14"
 
 
 # 擴充儲存庫容量
+{: #expandcapacity}
 
-現行 {{site.data.keyword.BluSoftlayer_full}} 使用者可以將其儲存庫的大小擴充到最多 4000 GB。他們不需要建立重複項目，或手動將資料移轉至較大的磁區。提高限制的程序不會導致任何運行中斷或缺少存取權的情況。
+現行 {{site.data.keyword.BluSoftlayer_full}} 使用者可以將其儲存庫的大小擴充到最多 4000 GB。他們不需要建立重複項目，或手動將資料移轉至較大的磁區。提高限制的程序不會導致任何運作中斷或缺少存取權的情況。
 
 ## 訂購增加
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您要擴充的儲存庫。

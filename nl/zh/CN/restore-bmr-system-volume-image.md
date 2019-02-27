@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 复原 BMR 系统卷映像
+{: #restoreBMR}
 
 如果需要从 {{site.data.keyword.backup_full}} 复原裸机映像备份，可以从 BMR 急救内核系统快速进行复原。通过 BMR，无需可引导的操作系统即可复原系统。这对于操作系统不再可用或系统中的驱动器已更换的情况非常有用。
 

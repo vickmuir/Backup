@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-11-15"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-11-15"
 
 
 # 常見問題
+{: #faqs}
 
 ## 可以備份哪些類型的應用程式？
 {: faq}
@@ -87,7 +88,7 @@ lastupdated: "2018-11-15"
 ## 我可以在何處找到定價資訊？
 {: faq}
 
-如需相關資訊，請參閱[備份儲存空間](https://www.ibm.com/cloud/backup-and-restore){:new_window}及 [EVault on IBM Cloud：定價](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+如需相關資訊，請參閱 [Backup storage ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 及 [EVault on IBM Cloud: Pricing ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 <hr>
 
@@ -148,7 +149,7 @@ BMR 備份不是磁碟映像檔，而是系統磁區映像檔備份系統。此�
 ## BMR 具有開啟檔案備份功能嗎？
 {: faq}
 
-BMR 具有開啟檔案備份功能。不過，BMR 並不會取代 SQL 或 Oracle 外掛程式的需求。請按一下[這裡](mssql-plugin.html)，以取得 MSSQL 外掛程式安裝指示。
+BMR 具有開啟檔案備份功能。不過，BMR 並不會取代 SQL 或 Oracle 外掛程式的需求。請按一下[這裡](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)，以取得 MSSQL 外掛程式安裝指示。
 
 <hr>
 

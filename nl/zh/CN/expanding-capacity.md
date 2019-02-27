@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -14,12 +14,13 @@ lastupdated: "2018-12-14"
 
 
 # 扩展保险库容量
+{: #expandcapacity}
 
 当前 {{site.data.keyword.BluSoftlayer_full}} 用户可以将其保险库的大小扩展到 4000 GB。他们无需创建重复项或手动将数据迁移到更大的卷。限制增加的过程不会导致任何中断和访问权缺乏的问题。
 
 ## 订购增加量
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要扩展的保险库。

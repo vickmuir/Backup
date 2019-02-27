@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # 在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}
+{: #InstallinWindows2016}
 
 ## 安裝備份代理程式
 
@@ -112,7 +113,7 @@ lastupdated: "2018-12-14"
 3. 在工作區中，在**我的代理程式**上按一下滑鼠右鍵，然後選取您已建立的代理程式。
 4. 在歡迎使用畫面上，按**下一步**。
 5. 選取備份目的地或另一個位置來植入備份工作。按**下一步**。<br/>
-   如需多個儲存庫的相關資訊，請參閱[多重儲存](multivaulting.html)。
+如需多個儲存庫的相關資訊，請參閱[多重儲存](/docs/infrastructure/Backup?topic=Backup-multivault)。
    {:tip}
 6. 選取「快速檔案掃描」選項，以避免讀取未變更的檔案。按**下一步**。
 7. 按一下**完成**來完成配置，並開始備份。即會出現處理程序資訊視窗，其中顯示備份工作的狀態。完成備份工作時，按一下**關閉**。

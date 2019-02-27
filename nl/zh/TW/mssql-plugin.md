@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安裝 SQL Server 外掛程式
+{: #MSSQLplugin}
 
 SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資料庫主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 SQL 資料庫備份至安全的遠端儲存庫，以及還原 SQL 資料庫。
 
@@ -61,6 +62,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。
 
 ## 主要特性
+{: #main-features}
 
 - 能夠使用萬用字元（星號和問號），指定要在 SQL Server 備份工作中包含及排除的資料庫名稱。執行工作時，會自動包含或排除名稱符合備份工作過濾器的新資料庫。
 - 能夠在「AlwaysOn 可用性群組」中使用 64 位元代理程式及 SQL Server 外掛程式保護次要資料庫。

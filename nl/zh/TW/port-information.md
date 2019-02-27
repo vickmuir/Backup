@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 配置「埠」，讓備份代理程式與 {{site.data.keyword.backup_notm}} 入口網站之間能夠進行通訊
+{: #portinfo}
 
 安裝在伺服器上的 {{site.data.keyword.backup_full}} 代理程式必須能夠與您所購買的儲存庫通訊。您可以在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 及 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window} 找到 {{site.data.keyword.backup_notm}} 使用者帳戶的 Director 主機資訊。
 

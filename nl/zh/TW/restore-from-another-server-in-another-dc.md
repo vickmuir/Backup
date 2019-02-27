@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 將一個 VSI 中的資料還原至不同資料中心中的另一個 VSI
+{: #restoreVSIotherlocation}
 
-有時，您想要將資料還原至不同的伺服器。此程序僅適用於非作業系統檔案的檔案層次還原。若要還原系統映像檔，請遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示。
+有時，您想要將資料還原至不同的伺服器。此程序僅適用於非作業系統檔案的檔案層次還原。若要還原系統映像檔，請遵循 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) 指示。
 
 此處理程序包括在第二部伺服器上重新登錄備份代理程式，以存取第一部伺服器的儲存庫位置，以及完成**從另一部電腦還原**。
 
 **必要條件**
 
 - Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 - 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
 請停用這兩部伺服器上的所有排定工作，以避免發生任何衝突。
@@ -33,7 +34,7 @@ lastupdated: "2018-12-14"
 請記得啟動您的 {{site.data.keyword.BluVPN}} 連線，以存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 {{site.data.keyword.backup_notm}} 入口網站鏈結無法運作。
 {:tip}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取 Server2。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。

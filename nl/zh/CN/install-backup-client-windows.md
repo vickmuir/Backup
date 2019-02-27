@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,10 +14,11 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在 Windows 中安装备份客户机
+{: #InstallinWindows}
 
 要在 Windows 中安装 {{site.data.keyword.backup_full}} 客户机，可通过在为 {{site.data.keyword.backup_notm}} 服务指定的服务器上进行一系列交互操作来完成。
 
-有关 Windows 2016 服务器备份的更多信息，请参阅[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](install-backup-client-windows2016.html)。
+有关 Windows 2016 服务器备份的更多信息，请参阅[在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)。
 {:tip}
 
 ## 登录到目标设备服务器
@@ -56,4 +57,4 @@ lastupdated: "2018-12-14"
 
 ## 配置备份代理程序
 
-登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](docs/infrastructure/Backup?topic=Backup-GettingStarted)。

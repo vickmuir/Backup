@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安装 SQL Server 插件
+{: #MSSQLplugin}
 
 SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上。通过 {{site.data.keyword.backup_notm}} 门户网站，可以配置作业，将 SQL 数据库备份到安全的远程保险库，以及复原 SQL 数据库。
 
@@ -61,6 +62,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中下载用户指南。
 
 ## 主要功能
+{: #main-features}
 
 - 能够使用通配符（星号和问号）指定要在 SQL Server 备份作业中包含和排除的数据库的名称。作业运行时，将自动包括或排除名称与备份作业过滤器相匹配的新数据库。
 - 能够使用 64 位代理程序和 SQL Server 插件来保护“AlwaysOn 可用性组”中的辅助数据库。
@@ -70,7 +72,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 - SQL Server 插件支持“完整”备份、“完整（含事务日志）”备份和“事务日志”备份（更新后的术语与 SQL Server 术语保持一致）。该应用程序继续支持“一次过复原”功能，该功能支持客户选择时间点“事务日志”备份。{{site.data.keyword.backup_notm}} 将复原完整数据库以及将数据库复原到所选时间点所需的所有事务日志。
 - 备份作业可以包含同一个 SQL Server 实例中的一个或多个数据库。可以创建单独的作业，从可以根据需要同时运行的其他 SQL Server 实例备份其他数据库。
 - 能够使用“不恢复”来复原数据库，以通过 SQL Server Management Studio 提供更多恢复选项。
-- 备用复原选项支持复原到文件，这允许数据库管理员通过 SQL System Manager 安装数据库。
+- 备用复原选项支持复原到文件，这允许数据库管理者通过 SQL System Manager 安装数据库。
 - 备用复原包含将一个数据库的复原定向到另一个数据库的功能，即便逻辑数据库名称不匹配也可执行。对于不匹配的对象，该插件将在实例的缺省数据库位置中创建数据库。
 - 64 位 SQL Server 2008 R2 (SP1) 和 SQL Server 2012 上支持透明数据加密 (TDE)。
 - 如果 SQL Server 主机丢失，那么可以安装 SQL Server 软件，然后可以复原数据库。（必须先复原主数据库。）

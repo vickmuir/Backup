@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 開始使用 {{site.data.keyword.backup_notm}} 服務
+{: #GettingStarted}
 
 備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 Microsoft Exchange 和 Microsoft SQL 這類軟體以及其他類型的協力廠商軟體相容，並在必要時讓使用者完成 Bare Metal Restore。
 
@@ -20,12 +21,13 @@ lastupdated: "2018-12-14"
 
 您可以使用兩種方式來購買 {{site.data.keyword.backup_notm}} 服務。
 
-- [訂購伺服器時購買備份](#purchasing-ibm-cloud-backup-when-you-order-a-server)。
-- [以升級方式購買備份](#purchasing-ibm-cloud-backup-as-an-upgrade)。
+- [訂購伺服器時購買備份](#purchasingwithserver)。
+- [以升級方式購買備份](#purchasingasupgrade)。
 
 如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} 儲存空間 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 ### 訂購伺服器時購買 {{site.data.keyword.backup_notm}}
+{: #purchasingwithserver}
 
 1. 登入 [IBM Cloud 型錄 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}
 2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
@@ -57,6 +59,7 @@ lastupdated: "2018-12-14"
 4. 檢查 {{site.data.keyword.backup_notm}} 區段，並驗證有顯示購買處理程序期間所選取的大小。
 
 ### 以升級方式購買 {{site.data.keyword.backup_notm}}
+{: #purchasingasupgrade}
 
 #### 選取要安裝 {{site.data.keyword.backup_notm}} 的伺服器
 
@@ -92,7 +95,7 @@ lastupdated: "2018-12-14"
 2. 按一下您要檢視其儲存空間詳細資料的儲存庫列的任何位置。從這個視圖中，看不到「密碼」。
 3. 按一下**密碼**欄位旁邊的**顯示**勾選框，以檢視所選取 {{site.data.keyword.backup_notm}} 服務的密碼。
 
-在 {{site.data.keyword.slportal}} 內對 {{site.data.keyword.backup_notm}} 密碼所做的變更，會對服務本身進行。若要重設密碼，請遵循[變更備份服務的密碼](change-password.html)中的步驟。
+在 {{site.data.keyword.slportal}} 內對 {{site.data.keyword.backup_notm}} 密碼所做的變更，會對服務本身進行。若要重設密碼，請遵循[變更備份服務的密碼](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步驟。
 {:important}
 
 ## 安裝 {{site.data.keyword.backup_notm}} 代理程式
@@ -118,9 +121,9 @@ lastupdated: "2018-12-14"
  - Ubuntu Linux 14.04
 
 請遵循適合您作業系統的指示：
-- [在 Linux 中安裝備份用戶端](install-backup-client-linux.html)
-- [在 Windows 中安裝備份用戶端](install-backup-client-windows.html)
-- [在 Windows 2016 中安裝備份用戶端](install-backup-client-windows2016.html)
+- [在 Linux 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [在 Windows 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [在 Windows 2016 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
 
@@ -164,7 +167,7 @@ lastupdated: "2018-12-14"
    4. 按一下**啟動備份**。您可以在處理程序執行時檢視備份詳細資料。
    5. 當備份完成時，請按一下**關閉**。
 
-如需相關資訊，請參閱[在 Linux 上配置簡單的檔案層次備份](configure-simple-file-backup-linux.html)。
+如需相關資訊，請參閱[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
 {:tip}
 
 ## 取得線上說明

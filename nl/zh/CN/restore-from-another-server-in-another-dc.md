@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,15 +14,16 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在不同数据中心内的 VSI 之间复原数据
+{: #restoreVSIotherlocation}
 
-有时，您会希望将数据复原到其他服务器。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
+有时，您会希望将数据复原到其他服务器。此过程仅适用于非操作系统文件的文件级别复原。要复原系统映像，请遵循 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) 指示信息。
 
 此过程包括在第二个服务器上重新注册备份代理程序以访问第一个服务器的保险库位置，以及完成**从其他计算机复原**。
 
 **先决条件**
 
 - Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](index.html#configuring-the-backup-agent-and-the-backup-schedule)。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
 禁用这两台服务器上的所有已调度的任务以避免发生任何冲突。
@@ -33,7 +34,7 @@ lastupdated: "2018-12-14"
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:tip}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
 或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择 Server2。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。

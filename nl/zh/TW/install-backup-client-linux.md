@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在 Linux 中安裝備份用戶端
+{: #InstallinLinux}
 
 在 Linux 型作業系統上安裝 {{site.data.keyword.backup_full}} 用戶端，可透過作業系統內 Shell 或終端機中的一系列指令來完成。此程序概述在下列任何 Linux 型作業系統上安裝用戶端所需的步驟：
 
@@ -80,7 +81,7 @@ lastupdated: "2018-12-14"
 
 2. 輸入您的 {{site.data.keyword.backup_notm}} 入口網站使用者名稱和密碼。
 
-   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details)。
+   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
    {:tip}
 
 3. 在使用者名稱和密碼之後，不需要再進行任何輸入。隨著安裝繼續進行而寫入畫面的提示都可以放心略過。
@@ -122,4 +123,4 @@ lastupdated: "2018-12-14"
 
 **後續步驟**
 
-登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](index.html#configuring-the-backup-agent-and-the-backup-schedule)和[在 Linux 上配置簡單的檔案層次備份](configure-simple-file-backup-linux.html)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-GettingStarted)和[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

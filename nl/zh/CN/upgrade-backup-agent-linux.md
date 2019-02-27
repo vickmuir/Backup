@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # 升级 Linux 的备份软件代理程序
+{: #UpgradeinLinux}
 
 最新的备份代理程序可以从 {{site.data.keyword.backup_notm}} 门户网站仪表板快速链接部分进行下载。
 {:tip}
@@ -21,18 +21,18 @@ lastupdated: "2018-12-14"
 1. 以 root 级别的身份登录到主机。
 2. 下载最新版本的代理程序。
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2.
+   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
    ```
    {:pre}
 
 3. 对已下载文件的内容进行解压缩。
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3.
+   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
    ```
 4. 转至最近的安装目录。
    ```
-   cd Agent-Linux-x64-8.11.5251/4.
+   cd Agent-Linux-x64-8.11.5251/4
    ```
 
 5. 运行安装脚本。

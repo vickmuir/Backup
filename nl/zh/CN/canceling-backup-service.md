@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 取消 {{site.data.keyword.backup_notm}} 服务
+{: #cancelBackup}
 
 您可以随时取消 {{site.data.keyword.backup_full}} 服务。取消操作将删除包含备份数据的保险库，并且您将无法使用已取消的凭证登录到 {{site.data.keyword.backup_notm}} 门户网站。
 

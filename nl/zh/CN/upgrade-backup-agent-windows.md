@@ -1,17 +1,17 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 
 # 升级 Windows 的备份软件代理程序
+{: #UpgradeinWindows}
 
 最新的备份代理程序可以从 {{site.data.keyword.backup_notm}} 门户网站仪表板快速链接部分进行下载。
 {:tip}

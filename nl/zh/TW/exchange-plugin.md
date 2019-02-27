@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安裝 Exchange 外掛程式
+{: #Exchangeplugin}
 
 Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 Exchange 資料庫備份至安全的遠端儲存庫，以及還原 Exchange 資料庫。外掛程式會整合至現有的架構。
 

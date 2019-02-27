@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 還原 BMR 系統磁區映像檔
+{: #restoreBMR}
 
 如果需要從 {{site.data.keyword.backup_full}} 還原「裸機伺服器」映像檔備份，您可以從 BMR Rescue Kernel 系統快速還原它。使用 BMR，您可以在不需要可開機作業系統的情況下還原系統。如果作業系統無法再使用，或已更換系統中的磁碟機，則這十分有用。
 

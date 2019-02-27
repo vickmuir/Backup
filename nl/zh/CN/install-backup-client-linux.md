@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:codeblock: .codeblock}
@@ -15,6 +15,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在 Linux 中安装备份客户机
+{: #InstallinLinux}
 
 要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装客户机所需的步骤：
 
@@ -80,7 +81,7 @@ lastupdated: "2018-12-14"
 
 2. 输入 {{site.data.keyword.backup_notm}} 门户网站用户名和密码。
 
-   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](index.html#accessing-and-viewing-ibm-cloud-backup-storage-details)。
+   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
    {:tip}
 
 3. 在输入用户名和密码之后，再没有任何需要输入的内容了。在安装过程中屏幕上显示的提示可以安全地忽略。
@@ -122,4 +123,4 @@ lastupdated: "2018-12-14"
 
 **后续步骤**
 
-登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](index.html#configuring-the-backup-agent-and-the-backup-schedule)和[在 Linux 上配置简单的文件级别备份](configure-simple-file-backup-linux.html)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-GettingStarted)和[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

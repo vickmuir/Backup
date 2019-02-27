@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安装 Oracle 插件
+{: #Oracleplugin}
 
 Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理程序一起安装在 Oracle 数据库主机上。通过 {{site.data.keyword.backup_notm}} 门户网站，可以配置作业，将 Oracle 数据库备份到安全的远程保险库，以及复原 Oracle 数据库。该 Oracle 插件集成到现有体系结构中。
 
@@ -45,7 +46,7 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 
 ## 安装适用于 Windows 的插件
 
-适用于 Windows 的 Oracle 插件随 32 位或 64 位 Windows 代理程序一起安装。要安装插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。
+适用于 Windows 的 Oracle 插件随 32 位或 64 位 Windows 代理程序一起安装。要安装插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。有关更多信息，请参阅[在 Windows 中安装 {{site.data.keyword.backup_notm}} 客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
 在为 Microsoft Windows 服务器安装该插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
 {:tip}
@@ -63,7 +64,7 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 
 ## 安装适用于 Linux 的插件
 
-Oracle 插件是 Linux 代理程序的附加组件，随该代理程序一起安装在数据库主机上。Linux 代理应用程序必须在安装插件之前进行安装。代理程序以 32 位应用程序和 64 位应用程序形式提供。有关更多信息，请参阅[在 Linux 中安装 {{site.data.keyword.backup_notm}} 客户机](install-backup-client-linux.html)。
+Oracle 插件是 Linux 代理程序的附加组件，随该代理程序一起安装在数据库主机上。Linux 代理应用程序必须在安装插件之前进行安装。代理程序以 32 位应用程序和 64 位应用程序形式提供。有关更多信息，请参阅[在 Linux 中安装 {{site.data.keyword.backup_notm}} 客户机](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)。
 
 Oracle 插件安装工具包以 tar.gz 文件形式提供。
 

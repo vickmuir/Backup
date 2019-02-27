@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -14,6 +14,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安裝 Oracle 外掛程式
+{: #Oracleplugin}
 
 Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或「Linux 代理程式」一起安裝在 Oracle 資料庫主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
 
@@ -45,7 +46,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 
 ## 安裝適用於 Windows 的外掛程式
 
-適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
+適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。如需相關資訊，請參閱[在 Windows 中安裝 {{site.data.keyword.backup_notm}} 用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)。
 
 在安裝 Microsoft Windows 伺服器的外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}
@@ -63,7 +64,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 
 ## 安裝適用於 Linux 的外掛程式
 
-Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](install-backup-client-linux.html)。
+Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)。
 
 Oracle 外掛程式安裝套件是以 tar.gz 檔案提供。
 

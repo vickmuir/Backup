@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
@@ -12,6 +12,7 @@ lastupdated: "2018-12-14"
 {:important: .important}
 
 # 在 Windows 2016 上配置 {{site.data.keyword.backup_notm}}
+{: #InstallinWindows2016}
 
 ## 安装备份代理程序
 
@@ -112,7 +113,7 @@ lastupdated: "2018-12-14"
 3. 在工作空间中，右键单击**我的代理程序**，然后选择已创建的代理程序。
 4. 在欢迎屏幕上，单击**下一步**。
 5. 选择要在其中存储备份作业种子的备份目标或其他位置。单击**下一步**。<br/>
-   有关多个保险库的更多信息，请参阅[多保险库技术](multivaulting.html)
+有关多个保险库的更多信息，请参阅[多保险库技术](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. 选择“快速文件扫描”选项以避免读取未更改的文件。单击**下一步**。
 7. 单击**完成**以完成配置并启动备份。这将显示一个过程信息窗口，其中显示备份作业的状态。完成备份作业后，单击**关闭**。

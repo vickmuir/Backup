@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安裝 Bare Metal Restore 外掛程式
+{: #BMRplugin}
 
 BMR 是適用於 Microsoft Windows 的災難回復解決方案。您可以在發生災害（例如，作業系統失敗或硬體故障）之後，使用 BMR 從裸機狀態還原您的伺服器。使用 BMR，您就可以從 {{site.data.keyword.BluSoftlayer_full}} 管理的安全位置快速還原系統映像檔。
 

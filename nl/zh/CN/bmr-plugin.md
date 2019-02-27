@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 安装 Bare Metal Restore 插件
+{: #BMRplugin}
 
 BMR 是一种用于 Microsoft Windows 的灾难恢复解决方案。可以使用 BMR 在发生灾难（例如，操作系统或硬件故障）后，从裸机状态复原服务器。通过 BMR，可以从由 {{site.data.keyword.BluSoftlayer_full}} 管理的安全位置快速复原系统映像。
 

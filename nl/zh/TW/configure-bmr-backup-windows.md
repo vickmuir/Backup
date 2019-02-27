@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 在 Windows 上配置 BMR 備份工作
+{: #configureBMR}
 
 您需要購買 BMR 外掛程式，才能建立 BMR 備份。BMR 只適用於 Windows Bare Metal Server。VSI 沒有任何可用的 BMR 選項。如需相關資訊，請參閱[安裝 Bare Metal Restore 外掛程式](bmr-plugin.html)。
 {:important}
@@ -22,7 +23,7 @@ lastupdated: "2018-12-14"
 您需要連接至 {{site.data.keyword.BluSoftlayer_full}} 專用網路，才能啟動 {{site.data.keyword.backup_notm}} 入口網站。
 {:important}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
@@ -47,8 +48,7 @@ lastupdated: "2018-12-14"
      1. 選取要執行備份的日期和時間。
      2. 選取您的「保留方案」。
 
-        如需「保留方案」的相關資訊，請參閱[常見問題](faqs.html#how-do-the-retention-schemes-work-)。
-        {:tip}
+如需「保留方案」的相關資訊，請參閱[常見問題](/docs/infrastructure/Backup?topic=Backup-faqs)。{:tip}
      3. 在配置備份排程之後，請按一下**確定**來儲存它。您的已排定工作會新增至已排定工作清單。
 10. 選取備份工作的儲存庫，然後按一下**儲存變更**。
 

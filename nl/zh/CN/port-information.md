@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # 配置端口以允许备份代理程序与 {{site.data.keyword.backup_notm}} 门户网站之间进行通信
+{: #portinfo}
 
 服务器上安装的 {{site.data.keyword.backup_full}} 代理程序需要能够与购买的保险库进行通信。{{site.data.keyword.backup_notm}} 用户帐户的导向器主机信息可以在 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 和 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window}中找到。
 
@@ -59,5 +60,5 @@ TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。
 
 通过在 Windows 操作系统中更新注册表键 `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber`（这是一个 `dword`），可以更改 {{site.data.keyword.backup_notm}} 管理端口 (2548)。
 
-桌面中央控制器和代理程序在连接设置方面的差异，通常是让人混淆的地方。服务器常驻代理程序连接到 {{site.data.keyword.backup_notm}} 服务器，而利用桌面的中央控制器连接到您的服务器，方法是使用其地址和服务器的凭证进行访问。
+桌面中央控制器和代理程序在连接设置方面的差异，通常是让人混淆的地方。服务器驻留的代理程序连接到 {{site.data.keyword.backup_notm}} 服务器，而利用桌面的中央控制器连接到您的服务器，方法是使用其地址和服务器的凭证进行访问。
 {:tip}

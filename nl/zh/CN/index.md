@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-12-14"
+  years: 1994, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
@@ -13,6 +13,7 @@ lastupdated: "2018-12-14"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # {{site.data.keyword.backup_notm}} 服务入门
+{: #GettingStarted}
 
 通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 Microsoft Exchange 和 Microsoft SQL 等软件以及其他类型的第三方软件兼容，并允许用户在必要时完成裸机复原。
 
@@ -20,12 +21,13 @@ lastupdated: "2018-12-14"
 
 您可以通过两种方式购买 {{site.data.keyword.backup_notm}} 服务。
 
-- [订购服务器时购买备份](#purchasing-ibm-cloud-backup-when-you-order-a-server)。
-- [作为升级购买备份](#purchasing-ibm-cloud-backup-as-an-upgrade)。
+- [订购服务器时购买备份](#purchasingwithserver)。
+- [作为升级购买备份](#purchasingasupgrade)。
 
 有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
 
 ### 订购服务器时购买 {{site.data.keyword.backup_notm}}
+{: #purchasingwithserver}
 
 1. 登录到 [IBM Cloud 目录 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}
 2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
@@ -57,6 +59,7 @@ lastupdated: "2018-12-14"
 4. 检查 {{site.data.keyword.backup_notm}} 部分，并验证购买过程中选择的大小是否显示。
 
 ### 作为升级购买 {{site.data.keyword.backup_notm}}
+{: #purchasingasupgrade}
 
 #### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
@@ -92,7 +95,7 @@ lastupdated: "2018-12-14"
 2. 单击保险库所在行上的任意位置以查看其存储器详细信息。在此视图中，无法查看“密码”。
 3. 单击**密码**字段旁边的**显示**复选框，以查看所选 {{site.data.keyword.backup_notm}} 服务的密码。
 
-对 {{site.data.keyword.slportal}} 内的 {{site.data.keyword.backup_notm}} 密码进行的更改将应用于该服务本身。要重置密码，请执行[更改备份服务的密码](change-password.html)中的步骤。
+对 {{site.data.keyword.slportal}} 内的 {{site.data.keyword.backup_notm}} 密码进行的更改将应用于该服务本身。要重置密码，请执行[更改备份服务的密码](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步骤。
 {:important}
 
 ## 安装 {{site.data.keyword.backup_notm}} 代理程序
@@ -118,9 +121,9 @@ lastupdated: "2018-12-14"
  - Ubuntu Linux 14.04
 
 遵循适用于您操作系统的指示信息：
-- [在 Linux 中安装备份客户机](install-backup-client-linux.html)
-- [在 Windows 中安装备份客户机](install-backup-client-windows.html)
-- [在 Windows 2016 中安装备份客户机](install-backup-client-windows2016.html)
+- [在 Linux 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
+- [在 Windows 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
+- [在 Windows 2016 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
 
@@ -164,7 +167,7 @@ lastupdated: "2018-12-14"
    4. 单击**启动备份**。您可以在进程运行时查看备份详细信息。
    5. 完成备份后，单击**关闭**。
 
-有关更多信息，请参阅[在 Linux 上配置简单的文件级别备份](configure-simple-file-backup-linux.html)。
+有关更多信息，请参阅[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
 {:tip}
 
 ## 获取联机帮助
