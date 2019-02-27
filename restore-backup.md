@@ -22,6 +22,7 @@ subcollection: Backup
 Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](restore-bmr-system-volume-image.html) instructions.
 
 ## Starting {{site.data.keyword.backup_notm}} portal
+{: #startWebCCsimple}
 
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network. The {{site.data.keyword.backup_notm}} portal link doesn't work otherwise.
 {:important}

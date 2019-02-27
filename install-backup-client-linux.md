@@ -35,6 +35,7 @@ If you purchased {{site.data.keyword.backup_notm}} when you ordered a server thr
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
 
 ## Logging in to the target device server
+{: #logintargetLin}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.

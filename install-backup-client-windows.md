@@ -26,6 +26,7 @@ For more information about backups for Windows 2016 servers, see [Configuring {{
 {:tip}
 
 ## Logging in to the target device server
+{: #logintargetWin}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.

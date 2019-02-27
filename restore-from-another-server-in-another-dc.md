@@ -34,6 +34,7 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 {:important}
 
 ## Starting {{site.data.keyword.backup_notm}} portal of Server2
+{: #startWebCCotherDC}
 
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the {{site.data.keyword.backup_notm}} portal link doesn't work.
 {:tip}
@@ -45,6 +46,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
 ## Reregistering the vault
+{: #reregistervaultotherDC}
 
 1. Click **All Agents** and open the specific agent that you want to modify.
 2. Click **Edit** and select **Vault Settings**.
@@ -57,6 +59,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 9. When prompted, click **Yes** to confirm the reregistration of the vault.
 
 ## Running the backup job from Server1 as the restore job on Server2
+{: #runbackuprestoreotherDC}
 
 1. Click **All Agents**.
 
@@ -85,6 +88,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 
 ## Verifying the restore
+{: #verifyrestoreotherDC}
 
 1. Connect to the root of Server2 through SSH.
 2. List the files and all directory entries in a long format.
@@ -96,6 +100,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 3. Compare the output.
 
 ## Resuming normal backup schedule.
+{: #resumescheduleotherCD}
 
 1. When the restore is complete, remove the registration information of server1, where the data was restored from.
 2. Enter the current server2 registration and enable Schedule tasks.

@@ -23,6 +23,7 @@ You need to purchase the BMR plug-in to create a BMR backup. BMR is available on
 {:important}
 
 ## Starting {{site.data.keyword.backup_notm}} portal
+{: #startWebCCBMR}
 
 You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
 {:important}
