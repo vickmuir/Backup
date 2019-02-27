@@ -37,6 +37,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 - Database passwords are encrypted for enhanced security over script-based methods.
 
 ## Ordering the plug-in
+{: #orderingOraclePlugin}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -49,6 +50,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 8. Click **Place Order**.
 
 ## Installing the plug-in for Windows
+{: #installOracleWin}
 
 The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
@@ -67,6 +69,7 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 10. If {{site.data.keyword.backup_notm}} portal is able to access or view the database, then the installation was successful.
 
 ## Installing the plug-in for Linux
+{: #installOracleLin}
 
 The Oracle plug-in is an add-on to the Linux Agent and is installed with the Agent on the database host. The Linux Agent application must be installed before the plug-in installation occurs. The agent is available as a 32-bit application and a 64-bit application. For more information, see [Installing the {{site.data.keyword.backup_notm}} Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
@@ -104,5 +107,6 @@ The Oracle plug-in performs an "inconsistent" whole database backup that require
 
 
 ## Downloading the user guide
+{: #OracleUserGuide}
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guides from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

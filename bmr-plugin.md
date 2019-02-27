@@ -32,6 +32,7 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 - A launchable recovery transaction that you can use to restore your data without a bootable system.
 
 ## Ordering the plug-in
+{: #orderingBMR}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -44,5 +45,6 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 8. Click **Place Order**.
 
 ## Downloading the user guide
+{: #BMRUserGuide}
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

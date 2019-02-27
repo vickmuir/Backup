@@ -31,6 +31,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 For more information, see the [Main features](#main-featues) section.
 
 ## Ordering the plug-in
+{: #orderingSQLPlugin}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -43,6 +44,7 @@ For more information, see the [Main features](#main-featues) section.
 8. Click **Place Order**.
 
 ## Installing the MSSQL plug-in
+{: #installSQLPlugin}
 
 To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page.
 
@@ -62,6 +64,7 @@ Before you install the MSSQL plug-in for your Microsoft Windows server, stop bot
 11. If {{site.data.keyword.backup_notm}} portal is able to view and access the database, then the installation was successful.
 
 ## Downloading the user guide
+{: #SQLUserGuide}
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 

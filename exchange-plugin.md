@@ -26,6 +26,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 - Ability to back up and restore Microsoft Exchange databases.
 
 ## Ordering the plug-in
+{: #orderingExchangePlugin}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -38,6 +39,7 @@ The Exchange plug-in is installed with the Windows Agent on the host. Through th
 8. Click **Place Order**.
 
 ## Installing the plug-in
+{: #installExchangePlugin}
 
 The Exchange plug-in is installed during the Windows Agent 64-bit installation. The plug-in can be installed at the same time as the Agent or it can be installed later, by rerunning the installation with the **Modify** selection.
 
@@ -57,5 +59,6 @@ Before you install the plug-in for your Microsoft Windows server, stop both {{si
 11. If {{site.data.keyword.backup_notm}} portal is able to access or view the database, then the installation was successful.
 
 ## Downloading the user guide
+{: #ExchangeUserGuide}
 
 Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. The guide describes how to back up and restore Microsoft Exchange databases by using the Exchange plug-in. The guide also describes how to share a DR backup safeset. With a DR backup safeset, you can restore specific mailboxes, messages, or other objects to a .pst file by using the Granular Restore for Microsoft Exchange application.
