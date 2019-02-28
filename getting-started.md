@@ -9,7 +9,7 @@ keywords:
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
