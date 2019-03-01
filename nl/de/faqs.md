@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -88,7 +92,7 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und in [EVault on IBM Cloud: Preisstruktur ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}. 
+Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und in [EVault on IBM Cloud: Preisstruktur ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
 
 <hr>
 

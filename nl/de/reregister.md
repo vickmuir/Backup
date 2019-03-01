@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-05"
 Diese Task wird am häufigsten nach dem erneuten Laden des Betriebssystems eines Servers verwendet. Mit diesen Schritten können Sie außerdem die [Sicherungen eines Servers zum Wiederherstellen von Daten auf einem anderen Server verwenden](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Starten Sie das {{site.data.keyword.backup_notm}}-Portal und melden Sie sich an. Weitere Informationen enthält das [Lernprogramm - Einführung](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+1. Starten Sie das {{site.data.keyword.backup_notm}}-Portal und melden Sie sich an. Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 
    Denken Sie daran, dass das {{site.data.keyword.backup_notm}}-Portal nur über {{site.data.keyword.BluVPN}} zugänglich ist.
    {:tip}

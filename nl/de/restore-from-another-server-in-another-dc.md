@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ Der Prozess umfasst das erneute Registrieren des Sicherungsagenten auf dem zweit
 **Vorbedingungen**
 
 - Server 1 und Server 2 müssen über dasselbe Betriebssystem verfügen. Plattformübergreifende Wiederherstellungen werden nicht unterstützt.
-- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Ein Sicherungsjob für Server 1, der eine Sicherung an der Vaultposition von Server 1 erstellt hat.
 
 Inaktivieren Sie auf beiden Servern alle geplanten Tasks, um Konflikte zu vermeiden.
 {:important}
 
 ## {{site.data.keyword.backup_notm}}-Portal auf Server2 starten
+{: #startWebCCotherDC}
 
 Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit Sie Zugang zum privaten {{site.data.keyword.BluSoftlayer_full}}-Netz erhalten, da der Link zum {{site.data.keyword.backup_notm}}-Portal andernfalls nicht funktioniert.
 {:tip}
@@ -41,6 +46,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Vault erneut registrieren
+{: #reregistervaultotherDC}
 
 1. Klicken Sie auf **Alle Agenten** und öffnen Sie den Agenten, den Sie ändern wollen.
 2. Klicken Sie auf **Bearbeiten** und wählen Sie **Vaulteinstellungen** aus.
@@ -53,6 +59,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 9. Klicken Sie bei der entsprechenden Eingabeaufforderung auf **Ja**, um die erneute Registrierung der Vaultinstanz zu bestätigen.
 
 ## Sicherungsjob von Server 1 als Wiederherstellungsjob auf Server 2 ausführen
+{: #runbackuprestoreotherDC}
 
 1. Klicken Sie auf **Alle Agenten**.
 
@@ -81,6 +88,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 
 
 ## Wiederherstellung prüfen
+{: #verifyrestoreotherDC}
 
 1. Stellen Sie über SSH eine Verbindung zum Stammverzeichnis von Server 2 her.
 2. Listen Sie die Dateien und alle Verzeichniseinträge in einem Langformat auf.
@@ -92,6 +100,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
 3. Vergleichen Sie die Ausgabe.
 
 ## Normalen Sicherungszeitplan wieder aufnehmen
+{: #resumescheduleotherCD}
 
 1. Entfernen Sie nach Abschluss der Wiederherstellung die Registrierungsinformationen von Server 1, aus dem die Daten wiederhergestellt wurden.
 2. Geben Sie die aktuelle Registrierung von Server 2 ein und aktivieren Sie die Zeitplanungstasks.

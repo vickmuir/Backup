@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellu
 {:important}
 
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
+{: #startWebCCBMR}
 
 Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}

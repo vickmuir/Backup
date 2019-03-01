@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -22,6 +26,7 @@ Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert.
 - Möglichkeit zur Sicherung und Wiederherstellung von Microsoft Exchange-Datenbanken.
 
 ## Plug-in bestellen
+{: #orderingExchangePlugin}
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
@@ -34,6 +39,7 @@ Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert.
 8. Klicken Sie auf **Bestellung aufgeben**.
 
 ## Plug-in installieren
+{: #installExchangePlugin}
 
 Das Plug-in für Exchange wird während der Installation des 64-Bit-Windows-Agenten installiert. Das Plug-in kann zusammen mit dem Agenten oder auch später installiert werden, indem die Installation mit der Auswahl **Ändern** erneut ausgeführt wird.
 
@@ -53,5 +59,6 @@ Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen 
 11. Falls das {{site.data.keyword.backup_notm}}-Portal in der Lage ist, auf die Datenbank zuzugreifen bzw. die Datenbank anzuzeigen, war die Installation erfolgreich.
 
 ## Benutzerhandbuch herunterladen
+{: #ExchangeUserGuide}
 
 Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. In diesem Handbuch ist beschrieben, wie Sie Microsoft Exchange-Datenbanken mit dem Plug-in für Exchange sichern und wiederherstellen können. Im Handbuch wird außerdem beschrieben, wie eine Sicherungsgruppe für eine DR-Sicherung gemeinsam genutzt werden kann. Mit der Sicherungsgruppe für eine DR-Sicherung können Sie bestimmte Mailboxen, Nachrichten oder andere Objekte mit der Anwendung zur differenzierten Wiederherstellung für Microsoft Exchange in einer PST-Datei (.pst) wiederherstellen.

@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -33,6 +37,7 @@ Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agen
 - Datenbankkennwörter werden zur verstärkten Sicherheit über scriptbasierte Methoden verschlüsselt.
 
 ## Plug-in bestellen
+{: #orderingOraclePlugin}
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
@@ -45,8 +50,9 @@ Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agen
 8. Klicken Sie auf **Bestellung aufgeben**.
 
 ## Plug-in für Windows installieren
+{: #installOracleWin}
 
-Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Windows installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows). 
+Das Oracle-Plug-in für Windows wird mit dem 32-Bit- oder 64-Bit-Windows-Agenten installiert. Zur Installation des Plug-ins führen Sie das Agenteninstallationskit aus. Das Plug-in wird auf der Seite **Angepasste Installation** als Option angezeigt. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Windows installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
 Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen Sie beide {{site.data.keyword.backup_notm}}-Services in `services.msc`.
 {:tip}
@@ -63,8 +69,9 @@ Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen 
 10. Falls das {{site.data.keyword.backup_notm}}-Portal in der Lage ist, auf die Datenbank zuzugreifen bzw. die Datenbank anzuzeigen, war die Installation erfolgreich.
 
 ## Plug-in für Linux installieren
+{: #installOracleLin}
 
-Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](/docs/infrastructure/Backup?topic=Backup-InstallinLinux). 
+Beim Plug-in für Oracle handelt es sich um ein Add-on für den Linux-Agenten, das mit dem Agenten auf dem Datenbankhost installiert wird. Die Linux-Agentenanwendung muss vor der Installation des Plug-ins installiert werden. Der Agent ist als 32-Bit-Anwendung und als 64-Bit-Anwendung verfügbar. Weitere Informationen finden Sie in [{{site.data.keyword.backup_notm}}-Client unter Linux installieren](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
 Das Installationskit für das Oracle-Plug-in steht in einer 'tar.gz'-Datei zur Verfügung.
 
@@ -100,5 +107,6 @@ Das Oracle-Plug-in führt eine "inkonsistente" Datenbankgesamtsicherung durch, d
 
 
 ## Benutzerhandbuch herunterladen
+{: #OracleUserGuide}
 
 Stellen Sie mit {{site.data.keyword.BluVPN}} eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz her, damit Sie die Benutzerhandbücher über [Für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
