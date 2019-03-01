@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords:
+keywords: evault, carbonite, backup
 
 subcollection: Backup
 
@@ -31,7 +31,7 @@ Für die Verwendung von IBM Cloud Backup ist eine gültige Lizenz erforderlich. 
 - [Sicherungen bei der Bestellung eines Servers kaufen](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Sicherungen als Upgrade kaufen](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-Weitere Informationen zu Bestellverfahren und Preisstrukturen finden Sie in [Bereitstellung von {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering). 
+Weitere Informationen zu Bestellverfahren und Preisstrukturen finden Sie in [Bereitstellung von {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
 
@@ -74,7 +74,7 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
 
 ## Backup-Client und Sicherungszeitplan konfigurieren
 
-Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie diese Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren. 
+Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie diese Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren.
 
 1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an.
 2. Klicken Sie auf **Alle Agenten**> **Nicht konfigurierte Agenten**.
@@ -113,7 +113,7 @@ Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Lin
 Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/){:new_window} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden. 
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
