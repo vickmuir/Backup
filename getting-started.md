@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords:
+keywords: EVault, Carbonite, Backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords:  EVault, Carbonite, Backup, upgrade agent, Linux
 
 subcollection: Backup
 
