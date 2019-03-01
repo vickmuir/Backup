@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ BMR バックアップを作成するには、BMR プラグインを購入する
 {:important}
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始
+{: #startWebCCBMR}
 
 {{site.data.keyword.backup_notm}} ポータル を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークに接続している必要があります。
 {:important}
@@ -48,8 +53,8 @@ BMR バックアップを作成するには、BMR プラグインを購入する
      1. バックアップを実行する曜日と時刻を選択します。
      2. 保存スキームを選択します。
 
-保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs) を参照してください。
-      {:tip}
+        保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs) を参照してください。
+        {:tip}
      3. バックアップ・スケジュールを構成した後、**「OK」**をクリックして保存します。 スケジュールに入れたジョブが、スケジュール済みのジョブのリストに追加されます。
 10. バックアップ・ジョブのボールトを選択し、**「変更の保存」**をクリックします。
 

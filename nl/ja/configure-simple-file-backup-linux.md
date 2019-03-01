@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 {{site.data.keyword.backup_full}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。 この記事では、エージェント、保存スケジュールを構成して、最初のバックアップ・ジョブを開始するステップを示します。
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始
+{: #startWebCCconfigLin}
 
 1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。

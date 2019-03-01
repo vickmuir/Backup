@@ -5,10 +5,14 @@
 IBM Cloud Storage - IBM Cloud バックアップ
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    {: .topicgroup}
+    Provisioning
+        index.md
+
     {: .topicgroup}
     構成
         install-backup-client-linux.md

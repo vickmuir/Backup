@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 {{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](restore-bmr-system-volume-image.html) の手順に従ってください。
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始
+{: #startWebCCsimple}
 
 {{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。 開始しないと、{{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:important}

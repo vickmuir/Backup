@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ lastupdated: "2019-02-05"
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
+- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](/docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
 競合を回避するために、両方のサーバーですべてのスケジュール済みタスクを無効にしてください。
 {:important}
 
 ## Server2 の {{site.data.keyword.backup_notm}} ポータルの開始
+{: #startWebCC}
 
 {{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。このようにしないと {{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:tip}
@@ -41,6 +46,7 @@ lastupdated: "2019-02-05"
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## ボールトの再登録
+{: #reregistervault}
 
 1. **「すべてのエージェント」**をクリックして、変更する特定のエージェントを開きます。
 2. **「編集」**をクリックし、**「ボールト設定 (Vault Settings)」**を選択します。
@@ -53,6 +59,7 @@ lastupdated: "2019-02-05"
 9. プロンプトが出されたら、**「はい」**をクリックしてボールトの再登録を確認します。
 
 ## Server1 のバックアップ・ジョブの Server2 のリストア・ジョブとしての実行
+{: #runbackuprestore}
 
 1. **「すべてのエージェント」**をクリックします。
 
@@ -79,6 +86,7 @@ lastupdated: "2019-02-05"
 
 
 ## リストアの確認
+{: #verifyrestore}
 
 1. SSH 経由で Server2 のルートに接続します。
 2. ファイルおよびすべてのディレクトリー・エントリーを長形式でリストします。
@@ -90,6 +98,7 @@ lastupdated: "2019-02-05"
 3. 出力を比較します。
 
 ## 通常のバックアップ・スケジュールの再開
+{: #resumeschedule}
 
 1. リストアが完了したら、データのリストア元である server1 の登録情報を削除します。
 2. 現在の server2 の登録を入力し、スケジュール・タスクを有効にします。

@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -22,6 +26,7 @@ Windows 2016 サーバーでのバックアップについて詳しくは、[Win
 {:tip}
 
 ## ターゲット・デバイス・サーバーへのログイン
+{: #logintargetWin}
 
 1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
@@ -57,4 +62,4 @@ Windows 2016 サーバーでのバックアップについて詳しくは、[Win
 
 ## バックアップ・エージェントの構成
 
-{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
+{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。

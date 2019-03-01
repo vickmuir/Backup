@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -27,6 +31,7 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 詳しくは、[主な機能](#main-featues)セクションを参照してください。
 
 ## プラグインの注文
+{: #orderingSQLPlugin}
 
 1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
@@ -39,6 +44,7 @@ SQL Server プラグインは、Windows エージェントとともに SQL デ�
 8. **「注文」**をクリックします。
 
 ## MSSQL プラグインのインストール
+{: #installSQLPlugin}
 
 プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。
 
@@ -58,6 +64,7 @@ Microsoft Windows サーバー用の MSSQL プラグインをインストール�
 11. {{site.data.keyword.backup_notm}} ポータルがデータベースを表示してそこにアクセスできる場合、インストールは正常に完了しています。
 
 ## ユーザー・ガイドのダウンロード
+{: #SQLUserGuide}
 
 {{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドをダウンロードすることができます。
 

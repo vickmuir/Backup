@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -33,6 +37,7 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 - データベース・パスワードは、スクリプト・ベースの方式によってセキュリティーを強化するために暗号化されます。
 
 ## プラグインの注文
+{: #orderingOraclePlugin}
 
 1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
@@ -45,8 +50,9 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 8. **「注文」**をクリックします。
 
 ## Windows 用プラグインのインストール
+{: #installOracleWin}
 
-Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。詳しくは、[Windows での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)を参照してください。
+Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。 詳しくは、[Windows での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)を参照してください。
 
 Microsoft Windows サーバー用のプラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
@@ -63,6 +69,7 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 10. {{site.data.keyword.backup_notm}} ポータルがデータベースにアクセスできるか、またはデータベースを参照できる場合、インストールは正常に完了しています。
 
 ## Linux 用プラグインのインストール
+{: #installOracleLin}
 
 Oracle プラグインは Linux エージェントに対するアドオンで、エージェントを使用してデータベース・ホスト上にインストールされます。 Linux エージェント・アプリケーションは、プラグインより前にインストールしておく必要があります。 エージェントは 32 ビットと 64 ビットのアプリケーションとして使用できます。 詳しくは、[Linux での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)を参照してください。
 
@@ -100,5 +107,6 @@ Oracle プラグインはデータベース全体のバックアップを不整�
 
 
 ## ユーザー・ガイドのダウンロード
+{: #OracleUserGuide}
 
 {{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドをダウンロードすることができます。
