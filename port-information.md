@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords: EVault, Carbonite, Backup, port information, configure, configuring,
+keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
 subcollection: Backup
 

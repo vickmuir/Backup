@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords: EVault, Carbonite, Backup, password, password reset
+keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
 subcollection: Backup
 

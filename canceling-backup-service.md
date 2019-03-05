@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords: cancel, cancellation, EVault, Carbonite, Backup
+keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
 subcollection: Backup
 
