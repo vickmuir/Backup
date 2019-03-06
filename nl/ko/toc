@@ -5,10 +5,14 @@
 IBM Cloud 스토리지 - IBM Cloud 백업
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    {: .topicgroup}
+    프로비저닝
+        index.md
+
     {: .topicgroup}
     구성
         install-backup-client-linux.md

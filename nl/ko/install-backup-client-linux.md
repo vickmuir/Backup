@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
@@ -31,8 +35,9 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 {{site.data.keyword.slportal}}에서 업그레이드로서 {{site.data.keyword.backup_notm}}을 구매한 경우에는 아래의 단계에 따라 소프트웨어를 설치하십시오.
 
 ## 대상 디바이스 서버에 로그인
+{: #logintargetLin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **일반 인프라**를 선택하십시오.<br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.<br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. 기본 메뉴에서 **디바이스** > **디바이스 목록**을 선택하여 사용 가능한 서버 디바이스의 목록을 보십시오.
 3. {{site.data.keyword.backup_notm}} 서비스가 구매된 대상 디바이스를 찾고 이의 공인 IP 주소를 기록하십시오.
