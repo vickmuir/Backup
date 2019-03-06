@@ -5,10 +5,14 @@
 IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
-    Index.md
+    getting-started.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    {: .topicgroup}
+    Provisionando
+        index.md
+
     {: .topicgroup}
     Configuração
         install-backup-client-linux.md

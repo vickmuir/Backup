@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,6 +27,7 @@ Para obter mais informações sobre os backups para servidores Windows 2016, con
 {:tip}
 
 ## Efetuando login no servidor de dispositivo de destino
+{: #logintargetWin}
 
 1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
@@ -59,4 +64,4 @@ seu endereço IP público.
 
 ## Configurando agentes de backup
 
-Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de introdução](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-GettingStarted).

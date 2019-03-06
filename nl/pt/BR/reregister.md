@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-05"
 Esta tarefa será usada mais comumente depois que o Sistema Operacional de um servidor for recarregado. Também é possível usar essas etapas para [usar backups de um servidor para restaurar dados em outro servidor](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Inicie o portal do {{site.data.keyword.backup_notm}} e efetue login. Para obter mais informações, consulte o [Tutorial de introdução](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+1. Inicie o portal do {{site.data.keyword.backup_notm}} e efetue login. Para obter mais informações, consulte o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 
    Lembre-se, o portal do {{site.data.keyword.backup_notm}} é acessível apenas por meio do {{site.data.keyword.BluVPN}}.
    {:tip}

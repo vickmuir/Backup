@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -31,6 +35,7 @@ são suportadas. A BMR é suportada apenas pelo Backup Agent 8.30 ou versões an
 - Uma transação de recuperação apta para ativação que pode ser usada para restaurar seus dados sem um sistema inicializável.
 
 ## Pedindo o plug-in
+{: #orderingBMR}
 
 1. Efetue login no console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
@@ -44,5 +49,6 @@ servidores com o serviço de backup.
 8. Clique em **Fazer pedido**.
 
 ## Fazendo download do guia do usuário
+{: #BMRUserGuide}
 
 Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

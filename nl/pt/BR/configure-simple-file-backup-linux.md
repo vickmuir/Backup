@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -20,6 +24,7 @@ servidor, será possível iniciar a criação de backups dos dados. O artigo for
 e o planejamento de retenção e iniciar sua primeira tarefa de backup.
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
+{: #startWebCCconfigLin}
 
 1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.

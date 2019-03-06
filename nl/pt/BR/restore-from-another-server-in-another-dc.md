@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -24,13 +28,14 @@ segura do primeiro servidor e concluir uma **Restauração de outro computador**
 **Pré-requisitos**
 
 - Server1 e Server2 devem ter o mesmo S.O. Restaurações de plataforma cruzada não são suportados.
-- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre como configurar os agentes de backup, consulte [Configurando o agente de Backup no portal do {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Uma tarefa de backup para o Server1 que produziu um backup para a localização da área segura do Server1.
 
 Desative todas as tarefas planejadas em ambos os servidores para evitar quaisquer conflitos.
 {:important}
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}} do Server2
+{: #startWebCCotherDC}
 
 Lembre-se de iniciar a sua conexão do {{site.data.keyword.BluVPN}} para obter acesso à rede privada do {{site.data.keyword.BluSoftlayer_full}}, ou o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
 {:tip}
@@ -43,6 +48,7 @@ servidores com o serviço de backup.
 4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
 ## Registrando novamente a área segura
+{: #reregistervaultotherDC}
 
 1. Clique em **Todos os agentes** e abra o agente específico que você deseja modificar.
 2. Clique em **Editar** e selecione **Configurações de área segura**.
@@ -55,6 +61,7 @@ servidores com o serviço de backup.
 9. Quando solicitado, clique em **Sim** para confirmar o novo registro da área segura.
 
 ## Executando a tarefa de backup por meio do Server1 como a tarefa de restauração no Server2
+{: #runbackuprestoreotherDC}
 
 1. Clique em **Todos os Agentes**.
 
@@ -86,6 +93,7 @@ data center.
 
 
 ## Verificando a restauração
+{: #verifyrestoreotherDC}
 
 1. Conecte-se à raiz do Server2 por meio de SSH.
 2. Liste os arquivos e todas as entradas de diretório em um formato longo.
@@ -97,6 +105,7 @@ data center.
 3. Compare a saída.
 
 ## Continuando o planejamento de backup normal
+{: #resumescheduleotherCD}
 
 1. Quando a restauração for concluída, remova as informações de registro do server1, por meio do qual os
 dados foram restaurados.

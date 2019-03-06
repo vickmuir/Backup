@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -38,6 +42,7 @@ configurado deve ter privilégios SYSDBA.
 script.
 
 ## Pedindo o plug-in
+{: #orderingOraclePlugin}
 
 1. Efetue login no console do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
@@ -52,6 +57,7 @@ clique em **Continuar**.
 8. Clique em **Fazer pedido**.
 
 ## Instalando o plug-in para Windows
+{: #installOracleWin}
 
 O plug-in do Oracle para Windows é instalado com o Windows Agent de 32 ou 64 bits. Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
 como uma opção na página **Configuração customizada**. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
@@ -72,6 +78,7 @@ Antes de instalar o plug-in para o servidor do Microsoft Windows, pare ambos os 
 10. Se o portal do {{site.data.keyword.backup_notm}} for capaz de acessar ou visualizar o banco de dados, a instalação terá sido bem-sucedida.
 
 ## Instalando o plug-in para Linux
+{: #installOracleLin}
 
 O plug-in do Oracle é um complemento para o Agente Linux e é instalado com o agente no host do banco de dados. O aplicativo Linux Agent deve ser instalado antes que a instalação do plug-in ocorra. O agente está disponível como um aplicativo de 32 bits e um aplicativo de 64 bits. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
@@ -109,5 +116,6 @@ O plug-in do Oracle executa um backup de banco de dados completamente "inconsist
 
 
 ## Fazendo download do guia do usuário
+{: #OracleUserGuide}
 
 Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível fazer download dos guias do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

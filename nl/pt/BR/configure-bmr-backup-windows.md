@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -20,6 +24,7 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 {:important}
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
+{: #startWebCCBMR}
 
 É necessário estar conectado à rede privada do {{site.data.keyword.BluSoftlayer_full}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
