@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 
 # Ripristino di un lavoro da un altro computer su Windows 2016

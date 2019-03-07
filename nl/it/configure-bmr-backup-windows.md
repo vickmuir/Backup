@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo 
 {:important}
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}
+{: #startWebCCBMR}
 
 Per poter avviare il portale {{site.data.keyword.backup_notm}}, devi essere connesso alla rete privata di {{site.data.keyword.BluSoftlayer_full}}.
 {:important}

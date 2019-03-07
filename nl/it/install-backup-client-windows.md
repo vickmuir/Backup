@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -22,6 +26,7 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 {:tip}
 
 ## Accesso al server del dispositivo di destinazione
+{: #logintargetWin}
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
@@ -57,4 +62,4 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 
 ## Configurazione degli agent backup
 
-Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-GettingStarted).

@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -27,6 +31,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 有关更多信息，请参阅[主要功能](#main-featues)部分。
 
 ## 订购插件
+{: #orderingSQLPlugin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
@@ -39,6 +44,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 8. 单击**下订单**。
 
 ## 安装 MSSQL 插件
+{: #installSQLPlugin}
 
 要安装插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。
 
@@ -58,6 +64,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 11. 如果 {{site.data.keyword.backup_notm}} 门户网站能够查看和访问数据库，说明安装成功。
 
 ## 下载用户指南
+{: #SQLUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中下载用户指南。
 

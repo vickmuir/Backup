@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -22,6 +26,7 @@ Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。
 - 備份及還原 Microsoft Exchange 資料庫的能力。
 
 ## 訂購外掛程式
+{: #orderingExchangePlugin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
@@ -34,6 +39,7 @@ Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。
 8. 按一下**下訂單**。
 
 ## 安裝外掛程式
+{: #installExchangePlugin}
 
 Exchange 外掛程式是在「Windows 代理程式」64 位元安裝期間安裝。外掛程式可以與代理程式同時安裝，也可以稍後安裝，方法是選取**修改**重新執行安裝。
 
@@ -53,5 +59,6 @@ Exchange 外掛程式是在「Windows 代理程式」64 位元安裝期間安裝
 11. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠存取或檢視資料庫，即表示安裝成功。
 
 ## 下載使用手冊
+{: #ExchangeUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 存取及下載使用手冊。本手冊說明如何使用 Exchange 外掛程式來備份及還原 Microsoft Exchange 資料庫。本手冊也會說明如何共用 DR 備份安全集。使用 DR 備份安全集，您可以使用 Granular Restore for Microsoft Exchange 應用程式，將特定信箱、訊息或其他物件還原至 .pst 檔案。

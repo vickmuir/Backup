@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -22,6 +26,7 @@ lastupdated: "2019-02-05"
 {:tip}
 
 ## 登入目標裝置伺服器
+{: #logintargetWin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
@@ -57,4 +62,4 @@ lastupdated: "2019-02-05"
 
 ## 配置備份代理程式
 
-登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。

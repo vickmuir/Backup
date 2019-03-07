@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
+{: #startWebCCsimple}
 
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络。否则，{{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:important}

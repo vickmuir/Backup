@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
@@ -31,6 +35,7 @@ lastupdated: "2019-02-05"
 如果您在 {{site.data.keyword.slportal}} 中购买了 {{site.data.keyword.backup_notm}}（作为升级选项），请执行以下步骤来安装该软件。
 
 ## 登录到目标设备服务器
+{: #logintargetLin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。

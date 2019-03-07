@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -27,6 +31,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 如需相關資訊，請參閱[主要特性](#main-featues)小節。
 
 ## 訂購外掛程式
+{: #orderingSQLPlugin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
@@ -39,6 +44,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 8. 按一下**下訂單**。
 
 ## 安裝 MSSQL 外掛程式
+{: #installSQLPlugin}
 
 若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。
 
@@ -58,6 +64,7 @@ SQL Server 外掛程式會與「Windows 代理程式」一起安裝在 SQL 資�
 11. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠檢視及存取資料庫，即表示安裝成功。
 
 ## 下載使用手冊
+{: #SQLUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。
 

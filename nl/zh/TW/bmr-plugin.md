@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -28,6 +32,7 @@ BMR 是實體伺服器上僅限 Microsoft Windows 的產品。它不適用於虛
 - 可啟動的回復交易，可用來在沒有可開機系統的情況下還原資料。
 
 ## 訂購外掛程式
+{: #orderingBMR}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
@@ -40,5 +45,6 @@ BMR 是實體伺服器上僅限 Microsoft Windows 的產品。它不適用於虛
 8. 按一下**下訂單**。
 
 ## 下載使用手冊
+{: #BMRUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 存取及下載使用手冊。

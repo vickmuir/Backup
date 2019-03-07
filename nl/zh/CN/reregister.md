@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-05"
 这是重新装入服务器的操作系统后最常用的任务。您还可以使用这些步骤来[使用一个服务器的备份在另一个服务器上复原数据](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI)。
 {:tip}
 
-1. 启动 {{site.data.keyword.backup_notm}} 门户网站并登录。有关更多信息，请参阅[入门教程](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+1. 启动 {{site.data.keyword.backup_notm}} 门户网站并登录。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 
    请记住，{{site.data.keyword.backup_notm}} 门户网站只能通过 {{site.data.keyword.BluVPN}} 进行访问。
    {:tip}

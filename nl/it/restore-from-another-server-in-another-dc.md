@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ Il processo include la ri-registrazione dell'agent Backup sul secondo server per
 **Prerequisiti**
 
 - Server1 e Server2 devono avere lo stesso sistema operativo. I ripristini multipiattaforma non sono supportati.
-- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent Backup nel portale {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent Backup nel portale {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un lavoro di backup per Server1 che ha prodotto un backup nell'ubicazione dell'archivio del Server1.
 
 Disabilita tutte le attività pianificate su entrambi i server per evitare conflitti.
 {:important}
 
 ## Avvio del portale {{site.data.keyword.backup_notm}} del Server2
+{: #startWebCCotherDC}
 
 Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottenere l'accesso alla rete privata {{site.data.keyword.BluSoftlayer_full}}, altrimenti il link del portale {{site.data.keyword.backup_notm}} non funziona.
 {:tip}
@@ -41,6 +46,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
 ## Ri-registrazione dell'archivio
+{: #reregistervaultotherDC}
 
 1. Fai clic su **All Agents** e apri l'agent specifico che desideri modificare.
 2. Fai clic su **Edit** e seleziona **Vault Settings**.
@@ -53,6 +59,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 9. Quando ti viene richiesto, fai clic su **Yes** per confermare la ri-registrazione dell'archivio.
 
 ## Esecuzione del lavoro di backup da Server1 come lavoro di ripristino su Server2
+{: #runbackuprestoreotherDC}
 
 1. Fai clic su **All Agents**.
 
@@ -81,6 +88,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 
 
 ## Verifica del ripristino
+{: #verifyrestoreotherDC}
 
 1. Collegati alla root di Server2 tramite SSH.
 2. Elenca i file e tutte le voci di directory in un formato esteso.
@@ -92,6 +100,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 3. Confronta l'output.
 
 ## Ripresa della normale pianificazione del backup.
+{: #resumescheduleotherCD}
 
 1. Al termine del ripristino, rimuovi le informazioni di registrazione del server1 da cui sono stati ripristinati i dati.
 2. Immetti la registrazione del server2 corrente e abilita le attività di pianificazione.

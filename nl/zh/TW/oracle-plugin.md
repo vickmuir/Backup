@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -33,6 +37,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 - 資料庫密碼會透過以 Script 為基礎的方法來加密，以加強安全。
 
 ## 訂購外掛程式
+{: #orderingOraclePlugin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
@@ -45,6 +50,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 8. 按一下**下訂單**。
 
 ## 安裝適用於 Windows 的外掛程式
+{: #installOracleWin}
 
 適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。如需相關資訊，請參閱[在 Windows 中安裝 {{site.data.keyword.backup_notm}} 用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)。
 
@@ -63,6 +69,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 10. 如果 {{site.data.keyword.backup_notm}} 入口網站能夠存取或檢視資料庫，即表示安裝成功。
 
 ## 安裝適用於 Linux 的外掛程式
+{: #installOracleLin}
 
 Oracle 外掛程式是「Linux 代理程式」的附加程式，並與「代理程式」一起安裝在資料庫主機上。必須先安裝「Linux 代理程式」應用程式，才會進行外掛程式安裝。此代理程式以 32 位元應用程式和 64 位元應用程式提供。如需相關資訊，請參閱[在 Linux 中安裝 {{site.data.keyword.backup_notm}} 用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)。
 
@@ -100,5 +107,6 @@ Oracle 外掛程式會執行「不一致」的整個資料庫備份，這需要�
 
 
 ## 下載使用手冊
+{: #OracleUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 下載使用手冊。

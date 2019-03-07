@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ lastupdated: "2019-02-05"
 {:important}
 
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
+{: #startWebCCBMR}
 
 您需要連接至 {{site.data.keyword.BluSoftlayer_full}} 專用網路，才能啟動 {{site.data.keyword.backup_notm}} 入口網站。
 {:important}

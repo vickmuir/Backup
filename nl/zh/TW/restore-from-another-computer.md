@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ lastupdated: "2019-02-05"
 **必要條件**
 
 - Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 - 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
 請停用這兩部伺服器上的所有排定工作，以避免發生任何衝突。
 {:important}
 
 ## 啟動 Server2 的 {{site.data.keyword.backup_notm}} 入口網站
+{: #startWebCC}
 
 請記得啟動您的 {{site.data.keyword.BluVPN}} 連線，以存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路，否則 {{site.data.keyword.backup_notm}} 入口網站鏈結無法運作。
 {:tip}
@@ -41,6 +46,7 @@ lastupdated: "2019-02-05"
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 重新登錄儲存庫
+{: #reregistervault}
 
 1. 按一下**所有代理程式**，然後開啟您要修改的特定代理程式。
 2. 按一下**編輯**，然後選取**儲存庫設定**。
@@ -53,6 +59,7 @@ lastupdated: "2019-02-05"
 9. 出現提示時，請按一下**是**以確認重新登錄儲存庫。
 
 ## 從 Server1 執行備份工作，以作為 Server2 上的還原工作
+{: #runbackuprestore}
 
 1. 按一下**所有代理程式**。
 
@@ -79,6 +86,7 @@ lastupdated: "2019-02-05"
 
 
 ## 驗證還原
+{: #verifyrestore}
 
 1. 透過 SSH 連接至 Server2 的根目錄。
 2. 以長格式列出檔案及所有目錄項目。
@@ -90,6 +98,7 @@ lastupdated: "2019-02-05"
 3. 比較輸出。
 
 ## 繼續一般備份排程。
+{: #resumeschedule}
 
 1. 當還原完成時，請移除 server1（資料還原的來源）的登錄資訊。
 2. 輸入現行 server2 登錄並啟用「排程」作業。

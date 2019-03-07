@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 订购了 {{site.data.keyword.backup_full}} 并且在服务器上安装了代理程序之后，即可以开始创建数据备份。本文提供了配置代理程序、保留安排和启动第一个备份作业的步骤。
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
+{: #startWebCCconfigLin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。

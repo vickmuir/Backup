@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -22,6 +26,7 @@ Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il p
 - Possibilità di eseguire il backup e il ripristino dei database di Microsoft Exchange.
 
 ## Ordinazione del plug-in
+{: #orderingExchangePlugin}
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
@@ -34,6 +39,7 @@ Il plug-in Exchange viene installato con l'agent Windows sull'host. Tramite il p
 8. Fai clic su **Place Order**.
 
 ## Installazione del plug-in
+{: #installExchangePlugin}
 
 Il plug-in Exchange viene installato durante l'installazione dell'agent Windows a 64 bit. Il plug-in può essere installato contemporaneamente all'agent oppure può essere installato successivamente, rieseguendo l'installazione con la selezione **Modify** .
 
@@ -53,5 +59,6 @@ Prima di installare il plug-in per il tuo server Microsoft Windows, arresta entr
 11. Se il portale {{site.data.keyword.backup_notm}} è in grado di accedere al database o di visualizzarlo, l'installazione ha avuto esito positivo.
 
 ## Download della guida utente
+{: #ExchangeUserGuide}
 
 Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} La guida descrive come eseguire il backup e il ripristino dei database di Microsoft Exchange utilizzando il plug-in Exchange. La guida descrive anche come condividere un set sicuro di backup DR. Con un set sicuro di backup DR puoi ripristinare caselle di posta, messaggi o altri oggetti specifici in un file .pst utilizzando l'applicazione Granular Restore per Microsoft Exchange.

@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ lastupdated: "2019-02-05"
 {:important}
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
+{: #startWebCCBMR}
 
 您需要连接到 {{site.data.keyword.BluSoftlayer_full}} 专用网络才能启动 {{site.data.keyword.backup_notm}} 门户网站。
 {:important}

@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -22,6 +26,7 @@ Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.
 - 能够备份和复原 Microsoft Exchange 数据库。
 
 ## 订购插件
+{: #orderingExchangePlugin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
@@ -34,6 +39,7 @@ Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.
 8. 单击**下订单**。
 
 ## 安装插件
+{: #installExchangePlugin}
 
 Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插件可以在安装代理程序时进行安装，也可以日后通过使用**修改**选项重新运行安装来进行安装。
 
@@ -53,5 +59,6 @@ Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插�
 11. 如果 {{site.data.keyword.backup_notm}} 门户网站能够访问或查看数据库，说明安装成功。
 
 ## 下载用户指南
+{: #ExchangeUserGuide}
 
 使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南。此指南描述了如何使用 Exchange 插件来备份和复原 Microsoft Exchange 数据库。此指南还描述了如何共享 DR 备份安全集。通过 DR 备份安全集，可以使用 Granular Restore for Microsoft Exchange 应用程序将特定邮箱、消息或其他对象复原到 .pst 文件。

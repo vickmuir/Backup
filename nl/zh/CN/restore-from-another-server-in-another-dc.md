@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ lastupdated: "2019-02-05"
 **先决条件**
 
 - Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
 禁用这两台服务器上的所有已调度的任务以避免发生任何冲突。
 {:important}
 
 ## 启动 Server2 的 {{site.data.keyword.backup_notm}} 门户网站
+{: #startWebCCotherDC}
 
 请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:tip}
@@ -41,6 +46,7 @@ lastupdated: "2019-02-05"
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
 ## 重新注册保险库
+{: #reregistervaultotherDC}
 
 1. 单击**所有代理程序**，然后打开要修改的特定代理程序。
 2. 单击**编辑**，然后选择**保险库设置**。
@@ -53,6 +59,7 @@ lastupdated: "2019-02-05"
 9. 在出现提示时，单击**是**以确认重新注册保险库。
 
 ## 从 Server1 运行在 Server2 上作为复原作业的备份作业
+{: #runbackuprestoreotherDC}
 
 1. 单击**所有代理程序**。
 
@@ -81,6 +88,7 @@ lastupdated: "2019-02-05"
 
 
 ## 验证复原
+{: #verifyrestoreotherDC}
 
 1. 通过 SSH 连接到 Server2 的根目录。
 2. 以长格式列出文件和所有目录条目。
@@ -92,6 +100,7 @@ lastupdated: "2019-02-05"
 3. 对比输出。
 
 ## 恢复正常的备份安排。
+{: #resumescheduleotherCD}
 
 1. 复原完成后，除去从中复原数据的 Server1 的注册信息。
 2. 输入当前 Server2 注册信息并启用调度任务。
