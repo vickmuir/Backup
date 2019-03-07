@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. El artículo contiene los pasos a seguir para configurar el agente, planificar la retención y empezar su primer trabajo de copia de seguridad.
 
 ## Inicio del portal de {{site.data.keyword.backup_notm}}
+{: #startWebCCconfigLin}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.

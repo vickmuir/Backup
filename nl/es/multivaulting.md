@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -74,4 +78,4 @@ Cuando finalice el proceso de solicitud, vaya a **Almacenamiento** > **Copia de 
   4. En el campo de credenciales, especifique el ID de cuenta, el nombre de usuario de {{site.data.keyword.backup_notm}} para la caja fuerte seleccionada y la contraseña de la caja fuerte seleccionada.
   5. Pulse **Guardar cambios**.
 
-En unos segundos se podrá utilizar la nueva caja fuerte. Si recibe un error de conexión, compruebe los valores y vuélvalo a intentar. Tenga en cuenta que la adición de una caja fuerte adicional le presenta un destino adicional que elegir para un trabajo. No ejecuta trabajos automáticamente sobre ambas cajas fuertes. Tiene que configurar los trabajos para que utilicen la caja fuerte adicional. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+En unos segundos se podrá utilizar la nueva caja fuerte. Si recibe un error de conexión, compruebe los valores y vuélvalo a intentar. Tenga en cuenta que la adición de una caja fuerte adicional le presenta un destino adicional que elegir para un trabajo. No ejecuta trabajos automáticamente sobre ambas cajas fuertes. Tiene que configurar los trabajos para que utilicen la caja fuerte adicional. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-GettingStarted).

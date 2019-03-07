@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ El proceso incluye el registro del agente de copia de seguridad en el segundo se
 **Requisitos previos**
 
 - Servidor1 y Servidor2 deben tener el mismo sistema operativo. No se da soporte a las restauraciones entre plataformas.
-- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un trabajo de copia de seguridad para el Servidor1 que ha generado una copia de seguridad en la ubicación de la caja fuerte del Servidor1.
 
 Inhabilite todas las tareas planificadas en ambos servidores para evitar conflictos.
 {:important}
 
 ## Inicio del portal de {{site.data.keyword.backup_notm}} de Servidor2
+{: #startWebCC}
 
 Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.BluSoftlayer_full}}; de lo contrario, el enlace del portal de {{site.data.keyword.backup_notm}} no funciona.
 {:tip}
@@ -41,6 +46,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
 ## Volver a registrar la caja fuerte
+{: #reregistervault}
 
 1. Pulse **Todos los agentes** y abra el agente específico que desea modificar.
 2. Pulse **Editar** y seleccione **Valores de caja fuerte**.
@@ -53,6 +59,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
 9. Cuando se le solicite, pulse **Sí** para confirmar el nuevo registro de caja fuerte.
 
 ## Ejecución del trabajo de copia de seguridad de Servidor1 como un trabajo de restauración en Servidor2
+{: #runbackuprestore}
 
 1. Pulse **Todos los agentes**.
 
@@ -79,6 +86,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
 
 
 ## Verificación de la restauración
+{: #verifyrestore}
 
 1. Conecte con root de Servidor2 mediante SSH.
 2. Cree una lista de los archivos y de todos los directorios en un formato largo.
@@ -90,6 +98,7 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
 3. Compare la información de salida.
 
 ## Reanudación de una planificación normal de copia de seguridad.
+{: #resumeschedule}
 
 1. Una vez finalizada la restauración, elimine la información de registro de Servidor1, desde el que se han restaurado los datos.
 2. Especifique el registro de Servidor2 actual y habilite las tareas de planificación.

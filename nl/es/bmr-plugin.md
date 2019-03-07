@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -28,6 +32,7 @@ BMR es un producto de Microsoft Windows solo para servidores físicos. No está 
 - Una transacción de recuperación que se puede iniciar y que pueda utilizar para restaurar los datos sin un sistema de arranque.
 
 ## Solicitud del plugin
+{: #orderingBMR}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
@@ -40,5 +45,6 @@ BMR es un producto de Microsoft Windows solo para servidores físicos. No está 
 8. Pulse **Realizar pedido**.
 
 ## Descarga de la guía del usuario
+{: #BMRUserGuide}
 
 Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

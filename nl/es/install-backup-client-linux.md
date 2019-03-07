@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
@@ -31,6 +35,7 @@ Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servid
 Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en el {{site.data.keyword.slportal}}, siga estos pasos para instalar el software.
 
 ## Inicie una sesión en el servidor del dispositivo de destino
+{: #logintargetLin}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.

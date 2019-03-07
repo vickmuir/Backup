@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ Tiene que adquirir el plug-in de BMR para crear una copia de seguridad BMR. BMR 
 {:important}
 
 ## Inicio del portal de {{site.data.keyword.backup_notm}}
+{: #startWebCCBMR}
 
 Debe estar conectado a la red privada de {{site.data.keyword.BluSoftlayer_full}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
 {:important}

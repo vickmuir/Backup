@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -33,6 +37,7 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 - Las contraseñas de las bases de datos se cifran para mejorar la seguridad sobre los métodos basados en script.
 
 ## Solicitud del plugin
+{: #orderingOraclePlugin}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
@@ -45,6 +50,7 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 8. Pulse **Realizar pedido**.
 
 ## Instalación del plugin para Windows
+{: #installOracleWin}
 
 El plugin Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
@@ -63,6 +69,7 @@ Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos se
 10. Si el portal de {{site.data.keyword.backup_notm}} puede ver o acceder a la base de datos, significa que la instalación se ha realizado correctamente.
 
 ## Instalación del plugin para Linux
+{: #installOracleLin}
 
 El plugin Oracle es un complemento del agente Linux y se instala con el agente en el host de la base de datos. La aplicación de agente Linux debe estar instalada para poder instalar el plugin. El agente está disponible como una aplicación de 32 bits y de 64 bits. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
@@ -100,5 +107,6 @@ El plugin de Oracle realiza una copia de seguridad de la base de datos completa 
 
 
 ## Descarga de la guía del usuario
+{: #OracleUserGuide}
 
 Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder descargar las guías del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
