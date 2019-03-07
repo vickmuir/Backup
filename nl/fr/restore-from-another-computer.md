@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -23,13 +27,14 @@ Cette procédure inclut le réenregistrement de l'agent de sauvegarde sur le sec
 **Conditions prérequises**
 
 - Serveur1 et Serveur2 doivent avoir le même système d'exploitation. Les restaurations inter-plateformes ne sont pas prises en charge.
-- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir la rubrique relative à la [configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir [Configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un travail de sauvegarde pour Serveur1 doit avoir généré une sauvegarde sur l'emplacement de coffre de Serveur1.
 
 Pour éviter tout conflit, désactivez tous les tâches planifiées sur les deux serveurs.
 {:important}
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}} de Serveur2
+{: #startWebCC}
 
 Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}, sinon le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
 {:tip}
@@ -41,6 +46,7 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
 ## Réenregistrement du coffre
+{: #reregistervault}
 
 1. Cliquez sur **Tous les agents** et ouvrez l'agent spécifique que vous désirez modifier.
 2. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**.
@@ -53,6 +59,7 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 9. A l'invite, cliquez sur **Oui** pour confirmer le réenregistrement du coffre.
 
 ## Exécution du travail de sauvegarde depuis Serveur1 en tant que travail de restauration sur Serveur2
+{: #runbackuprestore}
 
 1. Cliquez sur **Tous les agents**.
 
@@ -79,6 +86,7 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 
 
 ## Vérification de la restauration
+{: #verifyrestore}
 
 1. Connectez-vous à la racine de Serveur2 via SSH.
 2. Recensez les fichiers et toutes les entrées de répertoire au format long.
@@ -90,6 +98,7 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 3. Comparez la sortie.
 
 ## Reprise du planning de sauvegarde normal
+{: #resumeschedule}
 
 1. Lorsque la restauration est terminée, supprimez les informations d'enregistrement du Serveur1, depuis lequel les données ont été restaurées.
 2. Entrez l'enregistrement Serveur2 actuel et activez les tâches de planning.

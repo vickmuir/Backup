@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que l'agent a été installé sur le serveur, vous pouvez commencer à créer des sauvegardes de vos données. Cet article décrit les étapes de configuration de votre agent, le planning de conservation des données et le déclenchement de votre premier travail de sauvegarde.
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
+{: #startWebCCconfigLin}
 
 1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.

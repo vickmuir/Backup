@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -19,6 +23,7 @@ Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disp
 {:important}
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
+{: #startWebCCBMR}
 
 Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_full}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
 {:important}

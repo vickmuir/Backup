@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -74,4 +78,4 @@ Une fois le processus de commande terminé, accédez à **Stockage** > **Sauvega
   4. Dans la zone des données d'identification, entrez l'ID de compte, le nom d'utilisateur {{site.data.keyword.backup_notm}} pour le coffre sélectionné et le mot de passe du coffre sélectionné.
   5. Cliquez sur **Enregistrer les modifications**.
 
-En quelques secondes, le nouveau coffre est utilisable. Si une erreur de connexion se produit, vérifiez les paramètres et réessayez. N'oubliez pas que l'ajout d'un coffre vous offre une destination supplémentaire que vous pouvez choisir pour un travail. Cela n'exécute pas automatiquement des travaux vis à vis des deux coffres. Vous devez configurer des travaux pour qu'ils utilisent le coffre supplémentaire. Pour plus d'informations, voir le [Tutoriel d'initiation](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+En quelques secondes, le nouveau coffre est utilisable. Si une erreur de connexion se produit, vérifiez les paramètres et réessayez. N'oubliez pas que l'ajout d'un coffre vous offre une destination supplémentaire que vous pouvez choisir pour un travail. Cela n'exécute pas automatiquement des travaux vis à vis des deux coffres. Vous devez configurer des travaux pour qu'ils utilisent le coffre supplémentaire. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted).

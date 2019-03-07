@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -22,6 +26,7 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 {:tip}
 
 ## Connexion au serveur de l'unité cible
+{: #logintargetWin}
 
 1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
@@ -57,4 +62,4 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 
 ## Configuration des agents de sauvegarde
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted).

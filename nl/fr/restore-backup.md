@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -18,6 +22,7 @@ lastupdated: "2019-02-05"
 Procédez comme indiqué ci-après pour effectuer une restauration de fichier en utilisant {{site.data.keyword.backup_full}}. Pour restaurer une image système, suivez les instructions pour [BMR Windows](restore-bmr-system-volume-image.html).
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
+{: #startWebCCsimple}
 
 Prenez soin de démarrer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.BluSoftlayer_full}}. Sinon, le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
 {:important}

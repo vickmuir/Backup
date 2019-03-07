@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:pre: .pre}
 {:new_window: target="_blank"}
@@ -33,6 +37,7 @@ Le plug-in Oracle est un module complémentaire qui est installé avec l'agent W
 - Les mots de passe de base de données sont chiffrés pour sécurité accrue par rapport aux méthodes basées script.
 
 ## Commande du plug-in
+{: #orderingOraclePlugin}
 
 1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
@@ -45,6 +50,7 @@ Le plug-in Oracle est un module complémentaire qui est installé avec l'agent W
 8. Cliquez sur **Valider la commande**.
 
 ## Installation du plug-in pour Windows
+{: #installOracleWin}
 
 Le plug-in Oracle pour Windows est installé avec l'agent Windows 32 bits ou 64 bits. Pour installer le plug-in, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**. Pour plus d'informations, voir [Installation du client {{site.data.keyword.backup_notm}} sous Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
@@ -63,6 +69,7 @@ Avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les 
 10. Si le portail {{site.data.keyword.backup_notm}} parvient à accéder à la base de données ou à l'afficher, l'installation a donc abouti.
 
 ## Installation du plug-in pour Linux
+{: #installOracleLin}
 
 Le plug-in Oracle est un module complémentaire de l'agent Linux, installé avec celui-ci sur l'hôte de base de données. L'application Linux Agent doit être installée avant l'installation du plug-in. L'agent est disponible sous forme d'application 32 bits ou 64 bits. Pour plus d'informations, voir [Installation du client {{site.data.keyword.backup_notm}} sous Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
@@ -100,5 +107,6 @@ Le plug-in Oracle effectue une sauvegarde complète "incohérente" qui requiert 
 
 
 ## Téléchargement du guide d'utilisation
+{: #OracleUserGuide}
 
 Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger les guides d'utilisation à partir de la documentation [téléchargeable {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}

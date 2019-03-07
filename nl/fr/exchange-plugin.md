@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -22,6 +26,7 @@ Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du 
 - Possibilité de sauvegarde et de restauration de bases de données Microsoft Exchange.
 
 ## Commande du plug-in
+{: #orderingExchangePlugin}
 
 1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
@@ -34,6 +39,7 @@ Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du 
 8. Cliquez sur **Valider la commande**.
 
 ## Installation du plug-in
+{: #installExchangePlugin}
 
 Le plug-in Exchange est installé avec l'agent Windows 64 bits. Il peut être installé en même temps que l'agent ou bien ultérieurement, en ré-exécutant l'installation et en sélectionnant l'option **Modifier**.
 
@@ -53,5 +59,6 @@ Avant d'installer le plug-in pour votre serveur Microsoft Windows, arrêtez les 
 11. Si le portail {{site.data.keyword.backup_notm}} parvient à accéder à la base de données ou à l'afficher, l'installation a donc abouti.
 
 ## Téléchargement du guide d'utilisation
+{: #ExchangeUserGuide}
 
 Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir accéder au guide d'utilisation et le télécharger depuis la documentation [{{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. Ce guide décrit comment réaliser une sauvegarde et une restauration de bases de données Microsoft Exchange à l'aide du plug-in Exchange. Il explique également comment partager un jeu sécurisé de sauvegarde DR. Un jeu sécurisé de sauvegarde DR permet de restaurer des boîtes aux lettres spécifiques, des messages ou d'autres objets dans un fichier .pst à l'aide de l'application Granular Restore for Microsoft Exchange.

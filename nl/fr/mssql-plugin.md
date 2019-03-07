@@ -4,6 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: Backup
+
 ---
 {:new_window: target="_blank"}
 {:tip: .tip}
@@ -27,6 +31,7 @@ Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de 
 Pour plus d'informations, voir la section [Principales caractéristiques](#main-featues).
 
 ## Commande du plug-in
+{: #orderingSQLPlugin}
 
 1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
@@ -39,6 +44,7 @@ Pour plus d'informations, voir la section [Principales caractéristiques](#main-
 8. Cliquez sur **Valider la commande**.
 
 ## Installation du plug-in MSSQL
+{: #installSQLPlugin}
 
 Pour installer le plug-in, exécutez le kit d'installation de l'agent. Le plug-in s'affiche en tant qu'option sur la page **Configuration personnalisée**.
 
@@ -58,6 +64,7 @@ Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrête
 11. Si le portail {{site.data.keyword.backup_notm}} parvient à afficher la base de données et à y accéder, cela signifie que l'installation a abouti.
 
 ## Téléchargement du guide d'utilisation
+{: #SQLUserGuide}
 
 Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
 
