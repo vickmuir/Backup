@@ -28,6 +28,6 @@ Use these steps to complete a file restore from another computer by using the Wi
 11.	When the Vault Configuration Wizard finishes collecting your information, click **Finish** to complete the registration.
 12. When prompted, confirm that you want to proceed with the reregistration.
 13. When registration is complete, click **Restore** from the menu bar.
-9.	Select the appropriate safeset and enter the encryption password. Click **Next**.
+9.	Select the appropriate safe-set and enter the encryption password. Click **Next**.
 10.	Select the files that you want to restore, and select default options, and click **Finish**.
 11.	When the restore is complete, remove the vault registration, and reregister with current vault account information.

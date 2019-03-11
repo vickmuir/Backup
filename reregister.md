@@ -40,6 +40,6 @@ This task is most commonly used after the Operating System of a server is reload
 7. Click **Load Computers**, and select the computers that you want to load.
 8. Click **Save Changes**.
 9. Refresh the website to restore previous backup jobs.
-10. Synchronize each backup job to restore safeset history.
+10. Synchronize each backup job to restore safe-set history.
 11. If the backup jobs were created with an encryption password, you must enter the encryption password to restore data, or continue with backups.
 12. Click **Close**.
