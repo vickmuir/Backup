@@ -171,7 +171,7 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 
 <hr>
 
-## Is the 32-bit version of EVault 8 still supported?
+## Is the 32-bit version of EVault for Windows 8 still supported?
 {: faq}
 
 No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and Datacenter Editions in March, 2017.
