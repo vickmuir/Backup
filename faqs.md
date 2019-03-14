@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -168,3 +168,10 @@ A backup that is made from a default installation uses about 6 GB. Such a restor
 {: faq}
 
 The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Services) to complete backups. By using VSS, the SQL Server plug-in effectively backs up SQL databases, even SQL databases that span volumes. Backups can be completed while applications continue to write to a volume. The SQL Server plug-in provides data consistency within and across databases. VSS allows multiple backups to run at the same time.
+
+<hr>
+
+## Is the 32-bit version of EVault 8 still supported?
+{: faq}
+
+No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and Datacenter Editions in March, 2017.
