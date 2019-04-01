@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-03-29"
+lastupdated: "2019-04-01"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -93,7 +93,7 @@ After the successful vault registration, the vCenter Settings need to be configu
 
 3. Disable Change Block Tracking (CBT) by removing the checkmark. CBT is a VMware feature that tracks changed disk sectors and improves the performance of VM backups, and it is automatically enabled by the vSphere Agent.
 4. Click **Test vCenter Connection**. A new window displays the results. If the provided login information is correct, “The vCenter credentials have been validated successfully” message appears.
-5. Click **Save** to save the settings. 
+5. Click **Save** to save the settings.
 
 ## Next steps
 {: #VRAnextteps}
