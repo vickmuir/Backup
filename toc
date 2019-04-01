@@ -14,6 +14,14 @@ IBM Cloud Storage - IBM Cloud Backup
         index.md
 
     {: .topicgroup}
+    Plug-ins
+        bmr-plugin.md
+        exchange-plugin.md
+        mssql-plugin.md
+        oracle-plugin.md
+        vmware-plugin.md
+        
+    {: .topicgroup}
     Configuration
         install-backup-client-linux.md
         upgrade-backup-agent-linux.md
@@ -22,7 +30,7 @@ IBM Cloud Storage - IBM Cloud Backup
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
         configure-bmr-backup-windows.md
-        [Installing Backup Client for VMware](infrastructure/vmware/install-backup-client-vmware.html)
+        configure-vra.md
         port-information.md
         reregister.md
         multivaulting.md
@@ -34,13 +42,7 @@ IBM Cloud Storage - IBM Cloud Backup
         restore-from-another-computer-windows2016.md
         restore-from-another-server-in-another-dc.md
         restore-bmr-system-volume-image.md
-
-    {: .topicgroup}
-    Plug-ins
-        bmr-plugin.md
-        exchange-plugin.md
-        mssql-plugin.md
-        oracle-plugin.md
+        restore-vsphere.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

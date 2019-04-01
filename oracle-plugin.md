@@ -54,7 +54,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 
 The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Agent. To install the plug-in, run the Agent installation kit. The plug-in appears as an option on the **Custom Setup** page. For more information, see  [Installing the {{site.data.keyword.backup_notm}} Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-Before you install the plug-in for your Microsoft Windows server, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
+Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
 
 1. Browse to `c:\installs\evault` folder and run the .exe file with the higher revision number.

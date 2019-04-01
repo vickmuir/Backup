@@ -13,7 +13,7 @@ subcollection: Backup
 # Restoring a job from another computer on Windows 2016
 {: #restorefromother2016}
 
-Use these steps to complete a file restore from another computer by using the Windows Central Control in Windows 2016.
+Use these steps to complete a file restore from another computer by using the Windows Central Control.
 
 1. Remote control your Windows 2016 server through RDP.
 2. Open CentralControl.

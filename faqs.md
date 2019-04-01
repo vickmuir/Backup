@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-03-29"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.BluSoftlayer_full}} also offers software agents for some of the more common software systems that are backed up, which include
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle plug-in. Each agent is available as an add-on to your backup service. To add an agent to your service, contact a member of the Sales team today.
+The plug-ins that are listed here are only compatible with Windows servers, except for the Oracle or VMware plug-ins. Each agent is available as an add-on to your backup service for free.
 
 <hr>
 
@@ -96,7 +97,7 @@ For more information, see [Backup storage ![External link icon](../../icons/laun
 
 <hr>
 
-## Can the {{site.data.keyword.backup_full}} capacity be increased or decreased without compromising the backups?
+## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
 You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](expanding-capacity.html).
@@ -110,7 +111,7 @@ You can still save and retrieve your backups even if you reached the limit of th
 
 <hr>
 
-## How can I set up notifications in {{site.data.keyword.backup_notm}} portal to let me know whether my backups fail?
+## How can I set up notifications in the {{site.data.keyword.backup_notm}} portal that can alert me if a backup fails?
 {: faq}
 
 Notifications can be set up on the Advanced tab. Follow the instructions that you can find in **Quick Links** in {{site.data.keyword.backup_notm}} portal.
@@ -174,4 +175,4 @@ The current version of the SQL Server plug-in uses VSS (Volume Shadow Copy Servi
 ## Is the 32-bit version of EVault for Windows 8 still supported?
 {: faq}
 
-No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and Datacenter Editions in March, 2017.
+No. The 32-bit version of the backup software agent was retired along with Windows Server 2008 Standard and Datacenter Editions in March 2017.
