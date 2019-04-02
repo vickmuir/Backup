@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
 subcollection: Backup
 
@@ -29,7 +29,7 @@ tamanho da área segura até 4.000 GB. Eles não precisam criar uma duplicata ou
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
-3. Selecione a área segura que deseja ampliar.
+3. Selecione a área segura que você deseja ampliar.
 4. Clique em **Ações** e selecione **Modificar o {{site.data.keyword.backup_notm}}**.
 5. Na próxima tela, selecione o novo tamanho e clique em **Fazer upgrade**.
 

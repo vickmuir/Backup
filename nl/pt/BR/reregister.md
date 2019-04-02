@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
 subcollection: Backup
 
@@ -40,6 +40,6 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
 7. Clique em **Carregar computadores** e selecione os computadores que você deseja carregar.
 8. Clique em **Salvar mudanças**.
 9. Atualize o website para restaurar tarefas de backup anteriores.
-10. Sincronize cada tarefa de backup para restaurar o histórico do conjunto de segurança.
+10. Sincronize cada tarefa de backup para restaurar o histórico de conjuntos de segurança.
 11. Se as tarefas de backup foram criadas usando uma senha de criptografia, insira a senha de criptografia para restaurar dados ou continuar com os backups.
 12. Clique em **Fechar**.

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
 subcollection: Backup
 
@@ -74,7 +74,7 @@ na tela **Criar um planejamento**.
 frequentes](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Clique em **Opções avançadas de planejamento** para obter mais opções de configuração. É possível selecionar **Usar o adiamento** para evitar que grandes backups sejam executados em horários de pico da rede.
 
-    Quando a opção de adiamento for ativada, a tarefa de backup não fará backup de nenhum dado novo após a quantidade de tempo especificada. Ela confirma o conjunto de segurança na área segura, mesmo que alguns dados na tarefa não sejam submetidos a backup. As mudanças nos dados que foram salvos anteriormente são submetidas a backup, independentemente da quantidade de tempo especificada. <br/> Quando a tarefa é executada novamente, o agente verifica as mudanças nos dados que foram
+    Quando a opção de adiamento for ativada, a tarefa de backup não fará backup de nenhum dado novo após a quantidade de tempo especificada. Ela confirmará o conjunto de segurança para a área segura, mesmo se alguns dados na tarefa não forem submetidos a backup. As mudanças nos dados que foram salvos anteriormente são submetidas a backup, independentemente da quantidade de tempo especificada. <br/> Quando a tarefa é executada novamente, o agente verifica as mudanças nos dados que foram
 submetidos a backup anteriormente, faz backup dessas mudanças e, em seguida, faz backup dos dados
 restantes. Se uma tarefa de backup é adiada enquanto um item está sendo submetido a backup, esse backup fica incompleto, e os dados desse item não podem ser restaurados. No entanto, é possível restaurar itens que foram submetidos a backup na tarefa antes que ela seja adiada.
     {:note}

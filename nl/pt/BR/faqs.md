@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,13 +24,13 @@ subcollection: Backup
 
 O {{site.data.keyword.backup_full}} pode ser usado para fazer backup de vários aplicativos. O {{site.data.keyword.BluSoftlayer_full}} também oferece agentes de software para alguns dos sistemas de software mais comuns submetidos a backup, que incluem
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Os plug-ins listados aqui são compatíveis apenas com servidores Windows, exceto o plug-in do Oracle. Cada
-agente está disponível como um complemento para o serviço de backup. Para incluir um agente em seu serviço, entre em contato com um membro da equipe de Vendas hoje.
+Os plug-ins que estão listados aqui são compatíveis apenas com servidores Windows, exceto os plug-ins Oracle ou VMware. Cada agente está disponível como um complemento para seu serviço de backup gratuitamente.
 
 <hr>
 
@@ -44,7 +44,7 @@ cancelados a qualquer momento.
 Backups altamente frequentes que são executados várias vezes por dia ou por hora podem fazer com que as tarefas de
 backup sejam corrompidas. Essa distorção ocorre porque a área segura de backup não tem tempo suficiente para executar as
 tarefas de manutenção em segundo plano necessárias. As tarefas de backup têm precedência sobre as tarefas de
-manutenção. Assim, quando os backups são feitos com alta frequência, a área segura continua a executar as tarefas de backup e faz com que o número de conjuntos de segurança cresça.
+manutenção. Portanto, quando os backups são feitos com alta frequência, a área segura continua a executar as tarefas de backup e fazer com que os conjuntos de segurança cresçam.
 {:note}
 
 <hr>
@@ -113,7 +113,7 @@ Para obter mais informações, consulte [Armazenamento de backup ![Ícone de lin
 
 <hr>
 
-## A capacidade do {{site.data.keyword.backup_full}} pode ser aumentada ou diminuída sem comprometer os
+## A capacidade do {{site.data.keyword.backup_notm}} pode ser aumentada ou diminuída sem comprometer os
 backups?
 {: faq}
 
@@ -129,7 +129,7 @@ Ainda é possível salvar e recuperar seus backups, mesmo que você tenha atingi
 
 <hr>
 
-## Como posso configurar notificações no portal do {{site.data.keyword.backup_notm}} para permitir saber se meus backups falham?
+## Como posso configurar notificações no portal do {{site.data.keyword.backup_notm}} que informam se meus backups falharem?
 {: faq}
 
 As notificações podem ser configuradas na guia Avançado. Siga as instruções que podem ser localizadas em **Links rápidos** no portal do {{site.data.keyword.backup_notm}}.
@@ -193,3 +193,10 @@ minutos em uma porta de 1 GB. Esse processo também é afetado pela velocidade d
 {: faq}
 
 A versão atual do plug-in SQL Server usa o VSS (Serviço de Cópia de Sombra de Volume) para concluir os backups. Usando o VSS, o plug-in SQL Server faz efetivamente o backup dos bancos de dados SQL, mesmo os bancos de dados SQL que estendem volumes. Os backups podem ser concluídos enquanto os aplicativos continuam a gravar em um volume. O plug-in SQL Server fornece consistência de dados dentro e entre bancos de dados. O VSS permite que múltiplos backups sejam executados ao mesmo tempo.
+
+<hr>
+
+## A versão de 32 bits do EVault para Windows 8 ainda é suportada?
+{: faq}
+
+Não. A versão de 32 bits do agente de software de backup foi desativada junto com o Windows Server 2008 Standard e Datacenter Editions em março de 2017.

@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -20,7 +20,7 @@ subcollection: Backup
 # Tutorial de Introdução
 {: #gettingstarted}
 
-Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O {{site.data.keyword.backup_full}} é um sistema de backup automatizado baseado em agente gerenciado por meio do utilitário de gerenciamento baseado em navegador do portal do {{site.data.keyword.backup_notm}}. O {{site.data.keyword.backup_notm}} fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com software como o Microsoft Exchange e o Microsoft SQL, outros tipos de software de terceiros e permitem que os usuários concluam um Bare Metal Restore, quando necessário.
+Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O {{site.data.keyword.backup_full}} é um sistema de backup automatizado baseado em agente gerenciado por meio do utilitário de gerenciamento baseado em navegador do portal do {{site.data.keyword.backup_notm}}. O {{site.data.keyword.backup_notm}} fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com softwares como o [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), o [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), o [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) e o [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) e permitem que os usuários concluam um [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), quando necessário.
 {:shortdesc}
 
 ## Antes de Iniciar
@@ -61,6 +61,7 @@ Siga as instruções apropriadas para o seu S.O.
 - [Instalando o cliente de backup no Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Acessando o portal do {{site.data.keyword.backup_notm}} (anteriormente WebCC)
+{: #accessingWebCC}
 
 O portal do {{site.data.keyword.backup_notm}} é usado para interagir com qualquer serviço do {{site.data.keyword.backup_notm}} oferecido pelo {{site.data.keyword.BluSoftlayer_full}}. O portal do {{site.data.keyword.backup_notm}} é um cliente baseado em navegador que é executado na rede privada do {{site.data.keyword.BluSoftlayer_full}} e permite o controle total de qualquer serviço {{site.data.keyword.backup_notm}}, incluindo configuração e restaurações.
 
@@ -68,8 +69,10 @@ O portal do {{site.data.keyword.backup_notm}} é usado para interagir com qualqu
 
    O portal do {{site.data.keyword.backup_notm}} não pode ser acessado por meio da rede pública. Uma conexão VPN deve ser estabelecida primeiro.
    {:important}
-2. Acesse a tela de armazenamento de Backup no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
-3. Clique em qualquer lugar na linha do serviço {{site.data.keyword.backup_notm}} que você deseja ver para expandir a visualização.
+2. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
+2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
+3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
 ## Configurando o agente de Backup e o planejamento de backup

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -80,7 +80,7 @@ Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.
 com nomes que correspondem aos filtros de uma tarefa de backup são incluídos ou excluídos automaticamente quando
 a tarefa é executada.
 - Capacidade para proteger bancos de dados secundários em AlwaysOn Availability Groups usando o plug-in Agente e SQL Server de 64 bits.
-- Capacidade para compartilhar conjuntos de segurança de SQL que contêm bancos de dados de conteúdo do SharePoint 2010/2013 para uso com o aplicativo Granular Restore for Microsoft SharePoint. Depois que o conjunto de segurança é compartilhado, o aplicativo Granular Restore pode ser usado para restaurar coleções de site, websites, listas, bibliotecas, pastas, itens de lista ou documentos.
+- Capacidade de compartilhar conjuntos de segurança SQL que contêm bancos de dados de conteúdo do SharePoint 2010/2013 para uso com o aplicativo Granular Restore for Microsoft SharePoint. Após o conjunto de segurança ser compartilhado, o aplicativo Granular Restore pode ser usado para restaurar coleções de site, websites, listas, bibliotecas, pastas, itens de lista ou documentos.
 - Suporte para backup adequado para delta de bancos de dados que estão em volumes estendidos.
 - Capacidade para proteger bancos de dados no modelo de recuperação integral com uma entrada única de
 planejamento. Essa opção permite proteger bancos de dados e gerenciar o truncamento de logs de transações em uma

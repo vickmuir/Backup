@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -62,8 +62,7 @@ clique em **Continuar**.
 O plug-in do Oracle para Windows é instalado com o Windows Agent de 32 ou 64 bits. Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
 como uma opção na página **Configuração customizada**. Para obter mais informações, consulte [Instalando o {{site.data.keyword.backup_notm}} Client no Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-Antes de instalar o plug-in para o servidor do Microsoft Windows, pare ambos os serviços do
-{{site.data.keyword.backup_notm}} em `services.msc`.
+Antes de instalar o plug-in, pare ambos os serviços do {{site.data.keyword.backup_notm}} no `services.msc`.
 {:tip}
 
 1. Navegue para a pasta `c:\installs\evault` e execute o arquivo .exe com o número de revisão maior.

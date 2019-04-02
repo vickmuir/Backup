@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # Restaurando uma tarefa por meio de outro computador no Windows 2016
 {: #restorefromother2016}
 
-Use estas etapas para concluir uma restauração de arquivo de outro computador usando o controle central do Windows no Windows 2016.
+Use estas etapas para concluir uma restauração de arquivo de outro computador usando o Controle central do Windows.
 
 1. Realize o controle remoto de seu servidor Windows 2016 por meio do RDP.
 2. Abra o CentralControl.
@@ -30,6 +30,6 @@ Use estas etapas para concluir uma restauração de arquivo de outro computador 
 **Concluir** para concluir o registro.
 12. Quando solicitado, confirme que você deseja continuar com o novo registro.
 13. Quando o registro for concluído, clique em **Restaurar** na barra de menus.
-9.	Selecione o conjunto seguro apropriado e insira a senha de criptografia. Clique em **Avançar**.
+9.	Selecione o conjunto de segurança apropriado e insira a senha de criptografia. Clique em **Avançar**.
 10.	Selecione os arquivos que você deseja restaurar, selecione as opções padrão e clique em **Concluir**.
 11.	Quando a restauração estiver completa, remova o registro de área segura e registre novamente com as informações da conta da área segura atual.

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: EVault, Carbonite, IBM Cloud Backup, Enterprise Backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
 subcollection: Backup
 
@@ -84,3 +84,5 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
 
    Se o tamanho do armazenamento de backup continuar a mostrar uma capacidade de zero, uma segunda atualização de página poderá ser necessária.
    {:tip}
+
+Quando estiver pronto, vá em frente e instale o agente de software no servidor e configure seu planejamento de backup no portal do {{site.data.keyword.backup_notm}}. Para obter mais informações, veja o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted).
