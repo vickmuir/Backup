@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 

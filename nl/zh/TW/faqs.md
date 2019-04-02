@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} 可以用來備份各種應用程式。{{site.data.keyword.BluSoftlayer_full}} 也有針對所備份的一些較常見軟體系統提供軟體代理程式，包括：
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-這裡列出的外掛程式僅與 Windows 伺服器相容，但 Oracle 外掛程式除外。每個代理程式都可以作為備份服務的附加程式。若要將代理程式新增至您的服務，請立即與「銷售」團隊成員聯絡。
+這裡列出的外掛程式僅與 Windows 伺服器相容，但 Oracle 或 VMware 外掛程式除外。每個代理程式都可以免費作為備份服務的附加程式提供。
 
 <hr>
 
@@ -96,7 +97,7 @@ subcollection: Backup
 
 <hr>
 
-## 可以增加或減少 {{site.data.keyword.backup_full}} 容量，而不危及備份嗎？
+## 可以增加或減少 {{site.data.keyword.backup_notm}} 容量，而不危及備份嗎？
 {: faq}
 
 您可以透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 來增加或減少儲存庫的大小。對容量的修改不會影響儲存庫中所儲存資料的完整性。如需相關資訊，請參閱[擴充容量](expanding-capacity.html)。
@@ -168,3 +169,10 @@ BMR 具有開啟檔案備份功能。不過，BMR 並不會取代 SQL 或 Oracle
 {: faq}
 
 SQL Server 外掛程式的現行版本會使用 VSS（磁區陰影複製服務）來完成備份。使用 VSS，SQL Server 外掛程式會有效地備份 SQL 資料庫，即使是跨磁區的 SQL 資料庫。當應用程式繼續寫入磁區時，可以完成備份。SQL Server 外掛程式提供資料庫內和跨資料庫的資料一致性。VSS 容許同時執行多個備份。
+
+<hr>
+
+## 是否仍支援 32 位元版本的 EVault for Windows 8？
+{: faq}
+
+否。2017 年 3 月，32 位元版本備份軟體代理程式與 Windows Server 2008 Standard 及 Datacenter Edition 已一同淘汰。

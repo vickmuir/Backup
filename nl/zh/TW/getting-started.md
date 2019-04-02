@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -20,7 +20,8 @@ subcollection: Backup
 # 入門指導教學
 {: #gettingstarted}
 
-備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 Microsoft Exchange 和 Microsoft SQL 這類軟體以及其他類型的協力廠商軟體相容，並在必要時讓使用者完成 Bare Metal Restore。{:shortdesc}
+備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 這類軟體相容，並在必要時讓使用者完成 [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
+{:shortdesc}
 
 ## 開始之前
 {: #prereqs}
@@ -60,6 +61,7 @@ subcollection: Backup
 - [在 Windows 2016 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
+{: #accessingWebCC}
 
 {{site.data.keyword.backup_notm}} 入口網站可用來與 {{site.data.keyword.BluSoftlayer_full}} 所提供之任何 {{site.data.keyword.backup_notm}} 服務互動。{{site.data.keyword.backup_notm}} 入口網站是一種瀏覽器型用戶端，其執行於 {{site.data.keyword.BluSoftlayer_full}} 專用網路，可供完全控制任何 {{site.data.keyword.backup_notm}} 服務，包括配置和還原。
 
@@ -67,8 +69,10 @@ subcollection: Backup
 
    無法透過公用網路存取 {{site.data.keyword.backup_notm}} 入口網站。必須先建立 VPN 連線。
    {:important}
-2. 在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 中，存取「備份儲存空間」畫面。
-3. 按一下想要查看之 {{site.data.keyword.backup_notm}} 服務列上的任何位置，來展開視圖。
+2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
+3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 配置備份代理程式和備份排程

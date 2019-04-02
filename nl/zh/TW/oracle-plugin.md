@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -54,7 +54,7 @@ Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或�
 
 適用於 Windows 的 Oracle 外掛程式會與 32 位元或 64 位元「Windows 代理程式」一起安裝。若要安裝外掛程式，請執行「代理程式」安裝套件。此外掛程式會以選項形式出現在**自訂設定**頁面上。如需相關資訊，請參閱[在 Windows 中安裝 {{site.data.keyword.backup_notm}} 用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)。
 
-在安裝 Microsoft Windows 伺服器的外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
+在安裝外掛程式之前，請停止 `services.msc` 中的兩個 {{site.data.keyword.backup_notm}} 服務。
 {:tip}
 
 1. 瀏覽至 `c:\installs\evault` 資料夾，並執行修訂號碼較高的 .exe 檔。

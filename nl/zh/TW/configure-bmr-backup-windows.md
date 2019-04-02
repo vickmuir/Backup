@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
 subcollection: Backup
 
@@ -53,7 +53,8 @@ subcollection: Backup
      1. 選取要執行備份的日期和時間。
      2. 選取您的「保留方案」。
 
-如需「保留方案」的相關資訊，請參閱[常見問題](/docs/infrastructure/Backup?topic=Backup-faqs)。{:tip}
+        如需「保留方案」的相關資訊，請參閱[常見問題](/docs/infrastructure/Backup?topic=Backup-faqs)。
+        {:tip}
      3. 在配置備份排程之後，請按一下**確定**來儲存它。您的已排定工作會新增至已排定工作清單。
 10. 選取備份工作的儲存庫，然後按一下**儲存變更**。
 
