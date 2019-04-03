@@ -78,4 +78,4 @@ subcollection: Backup
   4. 在“凭证”字段中，输入帐户标识、所选保险库的 {{site.data.keyword.backup_notm}} 用户名和所选保险库的密码。
   5. 单击**保存更改**。
 
-新的保险库将在几秒钟后可用。如果连接失败，请检查设置，然后重试。请记住，添加额外的保险库意味着您可为作业选择额外的目标。系统并不会自动对这两个保险库运行作业。您需要将作业设置为使用此额外的保险库。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
+新的保险库将在几秒钟后可用。如果连接失败，请检查设置，然后重试。请记住，添加额外的保险库意味着您可为作业选择额外的目标。系统并不会自动对这两个保险库运行作业。您需要将作业设置为使用此额外的保险库。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。

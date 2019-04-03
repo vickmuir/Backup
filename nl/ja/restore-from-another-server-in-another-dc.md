@@ -27,7 +27,7 @@ subcollection: Backup
 **前提条件**
 
 - Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
-- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。
+- Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
 競合を回避するために、両方のサーバーですべてのスケジュール済みタスクを無効にしてください。

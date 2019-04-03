@@ -86,7 +86,7 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
 
 2. Geben Sie Ihren Benutzernamen und Ihr Kennwort für das {{site.data.keyword.backup_notm}}-Portal ein.
 
-   Weitere Informationen zum Anzeigen des Benutzernamens und Kennworts für {{site.data.keyword.backup_notm}} finden Sie unter [Einführung in die Sicherungsservices](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+   Weitere Informationen zum Anzeigen des Benutzernamens und Kennworts für {{site.data.keyword.backup_notm}} finden Sie unter [Einführung in die Sicherungsservices](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
    {:tip}
 
 3. Nach dem Benutzernamen und dem Kennwort ist keine weitere Eingabe erforderlich. Die Eingabeaufforderungen, die während der Installation angezeigt werden, können gefahrlos ignoriert werden.
@@ -128,4 +128,4 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
 
 **Nächste Schritte**
 
-Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) und [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen finden Sie im [Lernprogramm 'Einführung'](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started) und [Einfache Sicherung auf Dateiebene unter Linux konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

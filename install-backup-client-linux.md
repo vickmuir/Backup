@@ -86,7 +86,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 2. Enter your {{site.data.keyword.backup_notm}} portal user name and password.
 
-   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
    {:tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -128,4 +128,4 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 **Next steps**
 
-Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

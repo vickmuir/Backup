@@ -62,4 +62,4 @@ subcollection: Backup
 
 ## 配置备份代理程序
 
-登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。

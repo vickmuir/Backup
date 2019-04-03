@@ -85,4 +85,4 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
    If the backup storage size continues to show a capacity of zero, a second page refresh might be needed.
    {:tip}
 
-When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the {{site.data.keyword.backup_notm}} portal. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the {{site.data.keyword.backup_notm}} portal. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).

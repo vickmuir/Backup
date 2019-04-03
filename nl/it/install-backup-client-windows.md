@@ -62,4 +62,4 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 
 ## Configurazione degli agent backup
 
-Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+Accedi al portale {{site.data.keyword.backup_notm}} per configurare e gestire i tuoi agent backup. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).

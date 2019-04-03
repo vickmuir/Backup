@@ -27,7 +27,7 @@ subcollection: Backup
 **先决条件**
 
 - Server1 和 Server2 必须有相同的操作系统。不支持跨平台复原。
-- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
+- Server1 和 Server2 必须有先前已配置的备份代理程序。有关配置备份代理程序的更多信息，请参阅[在 {{site.data.keyword.backup_notm}} 门户网站中配置备份代理程序](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。
 - Server1 的备份作业已在 Server1 的保险库位置生成了备份。
 
 禁用这两台服务器上的所有已调度的任务以避免发生任何冲突。

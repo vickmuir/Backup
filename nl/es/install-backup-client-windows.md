@@ -62,4 +62,4 @@ Para obtener más información sobre las copias de seguridad para servidores Win
 
 ## Configuración de agentes de copia de seguridad
 
-Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).

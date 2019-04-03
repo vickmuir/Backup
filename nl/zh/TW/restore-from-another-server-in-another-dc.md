@@ -27,7 +27,7 @@ subcollection: Backup
 **必要條件**
 
 - Server1 和 Server2 必須具有相同的作業系統。不支援跨平台還原。
-- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
+- Server1 和 Server2 必須具有先前配置的備份代理程式。如需配置備份代理程式的相關資訊，請參閱[在 {{site.data.keyword.backup_notm}} 入口網站中配置備份代理程式](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。
 - 已對 Server1 的儲存庫位置產生備份的 Server1 備份工作。
 
 請停用這兩部伺服器上的所有排定工作，以避免發生任何衝突。

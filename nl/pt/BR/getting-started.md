@@ -18,7 +18,7 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # Tutorial de Introdução
-{: #gettingstarted}
+{: #getting-started}
 
 Os backups asseguram que seus dados sejam armazenados com segurança fora de seu dispositivo e protegidos se eles forem perdidos. O {{site.data.keyword.backup_full}} é um sistema de backup automatizado baseado em agente gerenciado por meio do utilitário de gerenciamento baseado em navegador do portal do {{site.data.keyword.backup_notm}}. O {{site.data.keyword.backup_notm}} fornece aos usuários um método para fazer backup de dados entre servidores em um ou mais data centers na rede do {{site.data.keyword.BluSoftlayer_full}}. Os administradores podem configurar backups para seguir uma programação diária, semanal ou customizada que é destinada a sistemas integrais, diretórios específicos ou mesmo arquivos individuais. Os plug-ins extras asseguram a compatibilidade com softwares como o [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), o [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), o [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) e o [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) e permitem que os usuários concluam um [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), quando necessário.
 {:shortdesc}

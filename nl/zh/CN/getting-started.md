@@ -18,7 +18,7 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # 入门教程
-{: #gettingstarted}
+{: #getting-started}
 
 通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 Microsoft Exchange 和 Microsoft SQL 等软件以及其他类型的第三方软件兼容，并允许用户在必要时完成裸机复原。
 {:shortdesc}

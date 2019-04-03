@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. {{site.data.keyword.backup_notm}} ポータルのユーザー名とパスワードを入力します。
 
-   {{site.data.keyword.backup_notm}} ユーザー名とパスワードの表示について詳しくは、[バックアップ・サービス入門](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。
+   {{site.data.keyword.backup_notm}} ユーザー名とパスワードの表示について詳しくは、[バックアップ・サービス入門](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)を参照してください。
    {:tip}
 
 3. ユーザー名とパスワードの入力後は、入力を必要とするものはありません。 インストールの進行に伴い画面に表示されるプロンプトは、無視して問題ありません。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **次のステップ**
 
-{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)および [Linux での単純なファイル・レベルのバックアップの構成](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)を参照してください。
+{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)および [Linux での単純なファイル・レベルのバックアップの構成](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)を参照してください。

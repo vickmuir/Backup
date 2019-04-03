@@ -18,7 +18,7 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # 入門チュートリアル
-{: #gettingstarted}
+{: #getting-started}
 
 バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインを使用すると、[Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) などのソフトウェアとの互換性を確保でき、ユーザーは必要に応じて[ベアメタル・リストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を実行できるようになります。
 {:shortdesc}

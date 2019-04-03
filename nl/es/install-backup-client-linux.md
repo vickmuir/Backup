@@ -86,7 +86,7 @@ Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de L
 
 2. Escriba su nombre de usuario y contraseña en el portal de {{site.data.keyword.backup_notm}}.
 
-   Para obtener más información sobre cómo visualizar el nombre de usuario y la contraseña de {{site.data.keyword.backup_notm}}, consulte [Cómo empezar con los servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+   Para obtener más información sobre cómo visualizar el nombre de usuario y la contraseña de {{site.data.keyword.backup_notm}}, consulte [Cómo empezar con los servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
    {:tip}
 
 3. Después del nombre de usuario y de la contraseña, no se necesita ninguna otra información de entrada. Las solicitudes que aparecerán en pantalla a medida que progresa la instalación pueden ignorarse sin problemas.
@@ -128,4 +128,4 @@ Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de L
 
 **Siguientes pasos**
 
-Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) y [Configuración de una copia de seguridad simple a nivel de archivo en Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started) y [Configuración de una copia de seguridad simple a nivel de archivo en Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

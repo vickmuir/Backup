@@ -88,7 +88,7 @@ Esta etapa é necessária para o RHEL, mas opcional para outras distribuições 
 
 2. Insira seu nome de usuário e senha do portal do {{site.data.keyword.backup_notm}}.
 
-   Para obter mais informações sobre como visualizar o nome do usuário e a senha do {{site.data.keyword.backup_notm}}, consulte [Introdução aos serviços de backup](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+   Para obter mais informações sobre como visualizar o nome do usuário e a senha do {{site.data.keyword.backup_notm}}, consulte [Introdução aos serviços de backup](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
    {:tip}
 
 3. Após o nome do usuário e a senha, nenhuma entrada adicional é necessária. Os prompts gravados na tela à medida que a instalação continua podem ser ignorados com segurança.
@@ -131,4 +131,4 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
 
 **Etapas seguintes**
 
-Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de Introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) e [Configurando o backup de nível de arquivo simples no Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Efetue login no portal do {{site.data.keyword.backup_notm}} para configurar e gerenciar os seus agentes de backup. Para obter mais informações, consulte o [Tutorial de Introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started) e [Configurando o backup de nível de arquivo simples no Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

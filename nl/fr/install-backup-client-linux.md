@@ -86,7 +86,7 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 2. Entrez votre nom d'utilisateur et votre mot de passe de portail {{site.data.keyword.backup_notm}}.
 
-   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
    {:tip}
 
 3. Une fois le nom d'utilisateur et le mot de passe entrés, aucune autre entrée n'est requise. Vous pouvez en toute sécurité ignorer les invites qui s'affichent à l'écran concernant l'installation.
@@ -128,4 +128,4 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 **Etapes suivantes**
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
