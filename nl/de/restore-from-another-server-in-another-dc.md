@@ -27,7 +27,7 @@ Der Prozess umfasst das erneute Registrieren des Sicherungsagenten auf dem zweit
 **Vorbedingungen**
 
 - Server 1 und Server 2 müssen über dasselbe Betriebssystem verfügen. Plattformübergreifende Wiederherstellungen werden nicht unterstützt.
-- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+- Für Server 1 und Server 2 müssen Sicherungsagenten vorhanden sein, die zuvor konfiguriert wurden. Weitere Informationen zum Konfigurieren der Sicherungsagenten finden Sie im Abschnitt [Sicherungsagent im {{site.data.keyword.backup_notm}}-Portal konfigurieren](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - Ein Sicherungsjob für Server 1, der eine Sicherung an der Vaultposition von Server 1 erstellt hat.
 
 Inaktivieren Sie auf beiden Servern alle geplanten Tasks, um Konflikte zu vermeiden.

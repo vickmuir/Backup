@@ -20,7 +20,7 @@ subcollection: Backup
 このタスクは、サーバーのオペレーティング・システムの再ロード後に最もよく利用されます。 これらのステップは、[1 つのサーバーのバックアップを使用して、別のサーバー上にデータをリストアする場合](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI)に使用することもできます。
 {:tip}
 
-1. {{site.data.keyword.backup_notm}} ポータルを開始してログインします。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)を参照してください。
+1. {{site.data.keyword.backup_notm}} ポータルを開始してログインします。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)を参照してください。
 
    {{site.data.keyword.backup_notm}} ポータルには、{{site.data.keyword.BluVPN}} を介してのみアクセスできることを忘れないでください。
    {:tip}

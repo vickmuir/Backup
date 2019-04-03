@@ -62,4 +62,4 @@ Windows 2016 サーバーでのバックアップについて詳しくは、[Win
 
 ## バックアップ・エージェントの構成
 
-{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)を参照してください。
+{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)を参照してください。

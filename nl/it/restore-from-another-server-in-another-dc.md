@@ -27,7 +27,7 @@ Il processo include la ri-registrazione dell'agent Backup sul secondo server per
 **Prerequisiti**
 
 - Server1 e Server2 devono avere lo stesso sistema operativo. I ripristini multipiattaforma non sono supportati.
-- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent Backup nel portale {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent Backup nel portale {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - Un lavoro di backup per Server1 che ha prodotto un backup nell'ubicazione dell'archivio del Server1.
 
 Disabilita tutte le attività pianificate su entrambi i server per evitare conflitti.

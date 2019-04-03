@@ -27,7 +27,7 @@ subcollection: Backup
 **전제조건**
 
 - Server1 및 Server2는 동일한 OS를 보유해야 합니다. 크로스 플랫폼 복원은 지원되지 않습니다.
-- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [{{site.data.keyword.backup_notm}} 포털에서 백업 에이전트 구성](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)을 참조하십시오.
+- Server1 및 Server2는 이전에 구성된 백업 에이전트를 보유해야 합니다. 백업 에이전트 구성에 대한 자세한 정보는 [{{site.data.keyword.backup_notm}} 포털에서 백업 에이전트 구성](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)을 참조하십시오.
 - Server1 저장소 위치로의 백업을 생성한 Server1에 대한 백업 작업.
 
 충돌을 피하려면 두 서버 모두에서 모든 예정된 태스크를 사용 안함으로 설정하십시오.

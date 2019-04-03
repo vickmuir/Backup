@@ -20,7 +20,7 @@ subcollection: Backup
 Esta tarea se suele realizar después de volver a cargar el sistema operativo de un servidor. También puede seguir estos pasos para [utilizar copias de seguridad de un servidor para restaurar datos en otro servidor](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Inicie el portal de {{site.data.keyword.backup_notm}} e inicie una sesión. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+1. Inicie el portal de {{site.data.keyword.backup_notm}} e inicie una sesión. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 
    Recuerde que el portal de {{site.data.keyword.backup_notm}} solamente es accesible a través de {{site.data.keyword.BluVPN}}.
    {:tip}

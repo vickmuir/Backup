@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. 输入 {{site.data.keyword.backup_notm}} 门户网站用户名和密码。
 
-   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。
+   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)。
    {:tip}
 
 3. 在输入用户名和密码之后，再没有任何需要输入的内容了。在安装过程中屏幕上显示的提示可以安全地忽略。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **后续步骤**
 
-登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)和[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)和[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

@@ -27,7 +27,7 @@ The process includes reregistering the backup agent on the second server to acce
 **Pre-requisites**
 
 - Server1 and Server2 must have the same OS. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in {{site.data.keyword.backup_notm}} portal](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in {{site.data.keyword.backup_notm}} portal](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.

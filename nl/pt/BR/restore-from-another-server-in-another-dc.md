@@ -28,7 +28,7 @@ segura do primeiro servidor e concluir uma **Restauração de outro computador**
 **Pré-requisitos**
 
 - Server1 e Server2 devem ter o mesmo S.O. Restaurações de plataforma cruzada não são suportados.
-- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+- O Server1 e o Server2 devem ter agentes de backup configurados anteriormente. Para obter mais informações sobre a configuração dos agentes de backup, consulte [Configurando o agente de backup no portal do {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - Uma tarefa de backup para o Server1 que produziu um backup para a localização da área segura do Server1.
 
 Desative todas as tarefas planejadas em ambos os servidores para evitar quaisquer conflitos.

@@ -85,4 +85,4 @@ subcollection: Backup
    如果備份儲存空間大小繼續顯示值為零的容量，則可能需要再次重新整理頁面。
    {:tip}
 
-備妥時，請繼續在伺服器上安裝軟體代理程式，並在 {{site.data.keyword.backup_notm}} 入口網站中設定備份排程。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。
+備妥時，請繼續在伺服器上安裝軟體代理程式，並在 {{site.data.keyword.backup_notm}} 入口網站中設定備份排程。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)。

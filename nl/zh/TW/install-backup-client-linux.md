@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. 輸入您的 {{site.data.keyword.backup_notm}} 入口網站使用者名稱和密碼。
 
-   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)。
+   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)。
    {:tip}
 
 3. 在使用者名稱和密碼之後，不需要再進行任何輸入。隨著安裝繼續進行而寫入畫面的提示都可以放心略過。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **後續步驟**
 
-登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started)和[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)和[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

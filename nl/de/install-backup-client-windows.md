@@ -62,4 +62,4 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 
 ## Sicherungsagenten konfigurieren
 
-Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
