@@ -24,12 +24,12 @@ Vous pouvez acquérir le service {{site.data.keyword.backup_notm}} de deux mani�
 - [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasingwithserver).
 - [Acquisition de sauvegardes sous forme de mise à niveau](#purchasingasupgrade).
 
-Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 {: #purchasingwithserver}
 
-1. Connectez-vous au [catalogue IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/){:new_window} ou au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}
+1. Connectez-vous au [catalogue IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog){:new_window} ou au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}
 2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Sélectionnez l'option de facturation par quantité. Entrez les noms d'hôte et de domaine. Vous pouvez choisir n'importe quel nom d'hôte et de domaine.
 

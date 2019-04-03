@@ -92,14 +92,14 @@ Par défaut, le client de base dispose d'une technologie de pointe lui permettan
 ## Où puis-je trouver des informations sur la tarification ?
 {: faq}
 
-Pour plus d'informations, voir [Stockage de sauvegarde ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/fr-fr/cloud/backup-and-restore){:new_window} et [EVault on IBM Cloud: Pricing ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Pour plus d'informations, voir [Stockage de sauvegarde ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/fr-fr/cloud/backup-and-restore){:new_window} et [EVault on IBM Cloud: Pricing ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 <hr>
 
 ## La capacité {{site.data.keyword.backup_full}} peut-elle être augmentée/réduite sans compromettre les sauvegardes ?
 {: faq}
 
-Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](expanding-capacity.html).
+Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

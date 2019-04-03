@@ -93,7 +93,7 @@ Una volta che hai ordinato {{site.data.keyword.backup_notm}} e che l'agent è in
    4. Fai clic su **OK**.
    5. Fai clic su **Save**.
 
-      Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](faqs.html).
+      Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Esecuzione del tuo primo lavoro di backup

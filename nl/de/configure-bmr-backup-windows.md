@@ -19,7 +19,7 @@ subcollection: Backup
 # BMR-Sicherungsjob unter Windows konfigurieren
 {: #configureBMR}
 
-Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellung) erwerben, um eine BMR-Sicherung durchführen zu können. BMR ist nur für Bare Metal Server-Systeme  unter Windows verfügbar. Bei einer virtuellen Serverinstanz (VSI) gibt es keine BMR-Option. Weitere Informationen finden Sie in [BMR-Plug-in (Bare Metal Restore, Bare-Metal-Wiederherstellung) installieren](bmr-plugin.html).
+Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellung) erwerben, um eine BMR-Sicherung durchführen zu können. BMR ist nur für Bare Metal Server-Systeme  unter Windows verfügbar. Bei einer virtuellen Serverinstanz (VSI) gibt es keine BMR-Option. Weitere Informationen finden Sie in [BMR-Plug-in (Bare Metal Restore, Bare-Metal-Wiederherstellung) installieren](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin).
 {:important}
 
 ## Das {{site.data.keyword.backup_notm}}-Portal starten

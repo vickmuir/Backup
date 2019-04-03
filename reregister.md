@@ -20,7 +20,7 @@ subcollection: Backup
 This task is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
 
    Remember, {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}

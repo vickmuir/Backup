@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Windows での BMR バックアップ・ジョブの構成
 {: #configureBMR}
 
-BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。 詳しくは、[ベアメタル・リストア・プラグインのインストール](bmr-plugin.html)を参照してください。
+BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。 詳しくは、[ベアメタル・リストア・プラグインのインストール](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を参照してください。
 {:important}
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始

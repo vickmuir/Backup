@@ -29,7 +29,7 @@ subcollection: Backup
 
 在完成此程序之後，自動化處理程序會向 {{site.data.keyword.backup_notm}} 入口網站登錄「代理程式」服務，然後下載並安裝執行該服務所需的檔案。
 
-當您透過 [{{site.data.keyword.cloud_notm}} 型錄](https://{DomainName}/catalog/){:new_window}或 {{site.data.keyword.slportal}} 訂購伺服器時，如果您已購買 {{site.data.keyword.backup_notm}}，則會自動為您安裝軟體。您不需要使用本文件所述的程序。
+當您透過 [{{site.data.keyword.cloud_notm}} 型錄](https://{DomainName}/catalog){:new_window}或 {{site.data.keyword.slportal}} 訂購伺服器時，如果您已購買 {{site.data.keyword.backup_notm}}，則會自動為您安裝軟體。您不需要使用本文件所述的程序。
 {:tip}
 
 如果已在 {{site.data.keyword.slportal}} 以升級方式購買了 {{site.data.keyword.backup_notm}}，請遵循下列步驟來安裝軟體。
@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. 輸入您的 {{site.data.keyword.backup_notm}} 入口網站使用者名稱和密碼。
 
-   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+   如需檢視 {{site.data.keyword.backup_notm}} 使用者名稱及密碼的相關資訊，請參閱[開始使用備份服務](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
    {:tip}
 
 3. 在使用者名稱和密碼之後，不需要再進行任何輸入。隨著安裝繼續進行而寫入畫面的提示都可以放心略過。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **後續步驟**
 
-登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-GettingStarted)和[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
+登入 {{site.data.keyword.backup_notm}} 入口網站，以配置及管理您的備份代理程式。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)和[在 Linux 上配置簡單的檔案層次備份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

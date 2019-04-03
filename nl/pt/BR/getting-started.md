@@ -98,7 +98,7 @@ Depois de ter solicitado o {{site.data.keyword.backup_notm}} e o agente estiver 
    5. Clique em **Salvar**.
 
       Para obter mais informações sobre os esquemas de retenção, consulte as [Perguntas mais
-frequentes](faqs.html).
+frequentes](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Executando sua primeira tarefa de backup

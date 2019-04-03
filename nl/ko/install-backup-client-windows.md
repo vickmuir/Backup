@@ -28,7 +28,7 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 ## 대상 디바이스 서버에 로그인
 {: #logintargetWin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog/){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. 기본 메뉴에서 **디바이스** > **디바이스 목록**을 선택하여 사용 가능한 서버의 목록을 보십시오.
 3. {{site.data.keyword.backup_notm}} 서비스가 구매된 대상 디바이스를 찾고 이의 공인 IP 주소를 기록하십시오.
@@ -62,4 +62,4 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 
 ## 백업 에이전트 구성
 
-{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-GettingStarted)을 참조하십시오.
+{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)을 참조하십시오.

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-26"
 
-keywords:
+keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # ベアメタル・リストア・プラグインのインストール
 {: #BMRplugin}
 
-BMR は、Microsoft Windows 向け災害復旧ソリューションです。 BMR では、オペレーティング・システムやハードウェアの障害などの災害が発生した場合に、ベアメタル状態からサーバーをリストアできます。 BMR により、{{site.data.keyword.BluSoftlayer_full}} で管理される安全で保護された場所からシステム・イメージを迅速にリストアできます。
+BMR は災害復旧ソリューションです。BMR では、オペレーティング・システムやハードウェアの障害などの災害が発生した場合に、ベアメタル状態からサーバーをリストアできます。 BMR により、{{site.data.keyword.BluSoftlayer_full}} で管理される安全で保護された場所からシステム・イメージを迅速にリストアできます。
 
 BMR は、物理サーバー上の Microsoft Windows 専用の製品です。 仮想サーバーには使用できません。 Linux ディストリビューション用のベアメタルのリストアはサポートされていません。 BMR はバックアップ・エージェント 8.30 以前のバージョンでのみサポートされます。 (2018 年 6 月 30 日)。
 {:important}

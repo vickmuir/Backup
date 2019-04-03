@@ -93,14 +93,14 @@ subcollection: Backup
 ## 我可以在何處找到定價資訊？
 {: faq}
 
-如需相關資訊，請參閱 [Backup storage ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 及 [EVault on IBM Cloud: Pricing ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+如需相關資訊，請參閱 [Backup storage ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 及 [EVault on IBM Cloud: Pricing ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup/pricing){:new_window}。
 
 <hr>
 
 ## 可以增加或減少 {{site.data.keyword.backup_notm}} 容量，而不危及備份嗎？
 {: faq}
 
-您可以透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 來增加或減少儲存庫的大小。對容量的修改不會影響儲存庫中所儲存資料的完整性。如需相關資訊，請參閱[擴充容量](expanding-capacity.html)。
+您可以透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 來增加或減少儲存庫的大小。對容量的修改不會影響儲存庫中所儲存資料的完整性。如需相關資訊，請參閱[擴充容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
 
 <hr>
 

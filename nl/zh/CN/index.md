@@ -24,12 +24,12 @@ subcollection: Backup
 - [订购服务器时购买备份](#purchasingwithserver)。
 - [作为升级购买备份](#purchasingasupgrade)。
 
-有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup/pricing){:new_window}。
 
 ## 订购服务器时购买 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
 
-1. 登录到 [IBM Cloud 目录 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}
+1. 登录到 [IBM Cloud 目录 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog){:new_window} 或 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}
 2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
    1. 选择数量和计费选项。输入主机和域名。您可以选择所需的任何主机名和域。
 

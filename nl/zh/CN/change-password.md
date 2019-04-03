@@ -28,7 +28,7 @@ subcollection: Backup
 
 ## 更改密码
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 单击保险库所在行上的任意位置以展开视图。

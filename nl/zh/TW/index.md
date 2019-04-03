@@ -24,12 +24,12 @@ subcollection: Backup
 - [訂購伺服器時購買備份](#purchasingwithserver)。
 - [以升級方式購買備份](#purchasingasupgrade)。
 
-如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} 儲存空間 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/evault/pricing){:new_window}。
+如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} 儲存空間 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/backup/pricing){:new_window}。
 
 ## 訂購伺服器時購買 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
 
-1. 登入 [IBM Cloud 型錄 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog/){:new_window} 或 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}
+1. 登入 [IBM Cloud 型錄 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog){:new_window} 或 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}
 2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
    1. 選取數量、計費選項。輸入主機及網域名稱。您可以選擇喜歡的任何主機名稱及網域。
 
@@ -85,4 +85,4 @@ subcollection: Backup
    如果備份儲存空間大小繼續顯示值為零的容量，則可能需要再次重新整理頁面。
    {:tip}
 
-備妥時，請繼續在伺服器上安裝軟體代理程式，並在 {{site.data.keyword.backup_notm}} 入口網站中設定備份排程。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted)。
+備妥時，請繼續在伺服器上安裝軟體代理程式，並在 {{site.data.keyword.backup_notm}} 入口網站中設定備份排程。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。

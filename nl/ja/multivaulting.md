@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
 subcollection: Backup
 
@@ -78,4 +78,4 @@ subcollection: Backup
   4. 資格情報フィールドに、アカウント ID、選択したボールトの {{site.data.keyword.backup_notm}} ユーザー名、および選択したボールトのパスワードを入力します。
   5. **「変更の保存」**をクリックします。
 
-数秒経過すると、新規ボールトが使用可能になります。 接続が失敗する場合は、設定を確認してからやり直してください。 ボールトを追加すると、ジョブに関して選択できる宛先が増えることに留意してください。 両方のボールトに対してジョブが自動的に実行されるわけではありません。 追加のボールトを利用するようにジョブをセットアップする必要があります。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
+数秒経過すると、新規ボールトが使用可能になります。 接続が失敗する場合は、設定を確認してからやり直してください。 ボールトを追加すると、ジョブに関して選択できる宛先が増えることに留意してください。 両方のボールトに対してジョブが自動的に実行されるわけではありません。 追加のボールトを利用するようにジョブをセットアップする必要があります。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。

@@ -24,12 +24,12 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 - [Purchase backups when you Order a Server](#purchasingwithserver).
 - [Purchase backups as an Upgrade](#purchasingasupgrade).
 
-For more information about pricing, see [{{site.data.keyword.backup_notm}} storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+For more information about pricing, see [{{site.data.keyword.backup_notm}} storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}
 
-1. Log in to the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/){:new_window} or the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+1. Log in to the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){:new_window} or the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any host name and domain that you like.
 
@@ -85,4 +85,4 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
    If the backup storage size continues to show a capacity of zero, a second page refresh might be needed.
    {:tip}
 
-When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the {{site.data.keyword.backup_notm}} portal. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted).
+When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the {{site.data.keyword.backup_notm}} portal. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).

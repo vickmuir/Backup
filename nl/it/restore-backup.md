@@ -19,7 +19,7 @@ subcollection: Backup
 # Ripristino da un backup
 {: #simplerestore}
 
-Utilizza questa procedura per completare un ripristino di file con {{site.data.keyword.backup_full}}. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](restore-bmr-system-volume-image.html).
+Utilizza questa procedura per completare un ripristino di file con {{site.data.keyword.backup_full}}. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}
 {: #startWebCCsimple}

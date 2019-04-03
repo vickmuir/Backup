@@ -29,7 +29,7 @@ Installing the {{site.data.keyword.backup_full}} client on a Linux-based operati
 
 After you completed the procedure, the automated process registers the Agent service with {{site.data.keyword.backup_notm}} portal, then downloads and installs the files that are needed to run the service.
 
-If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog/){:new_window} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
+If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){:new_window} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {:tip}
 
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
@@ -86,7 +86,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 2. Enter your {{site.data.keyword.backup_notm}} portal user name and password.
 
-   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+   For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
    {:tip}
 
 3. After the user name and password, no further input is required. The prompts that are written to the screen as the installation proceeds can be safely ignored.
@@ -128,4 +128,4 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 **Next steps**
 
-Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-GettingStarted) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

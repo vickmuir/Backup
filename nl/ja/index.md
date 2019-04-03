@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: EVault, Carbonite, IBM Cloud Backup, Enterprise Backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
 subcollection: Backup
 
@@ -24,12 +24,12 @@ subcollection: Backup
 - [サーバーの注文時におけるバックアップの購入](#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](#purchasingasupgrade)
 
-価格設定について詳しくは、[{{site.data.keyword.backup_notm}} ストレージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/evault/pricing){:new_window} を参照してください。
+価格設定について詳しくは、[{{site.data.keyword.backup_notm}} ストレージ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup/pricing){:new_window} を参照してください。
 
 ## サーバーの注文時における {{site.data.keyword.backup_notm}} の購入
 {: #purchasingwithserver}
 
-1. [IBM Cloud カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/){:new_window} または [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [IBM Cloud カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog){:new_window} または [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}を参照してください。
    1. 数量と課金オプションを選択してください。 ホストとドメインの名前を入力します。 任意のホスト名とドメイン名を選択できます。
 
@@ -84,3 +84,5 @@ subcollection: Backup
 
    バックアップ・ストレージ・サイズとして引き続き容量ゼロが表示される場合は、ページの 2 回目のリフレッシュが必要になることがあります。
    {:tip}
+
+準備ができたら、続いて当該ソフトウェア・エージェントをサーバーにインストールし、{{site.data.keyword.backup_notm}} ポータルでバックアップ・スケジュールを設定することができます。詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。

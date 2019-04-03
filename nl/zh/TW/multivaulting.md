@@ -78,4 +78,4 @@ subcollection: Backup
   4. 在認證欄位中，輸入帳戶 ID、所選取儲存庫的 {{site.data.keyword.backup_notm}} 使用者名稱，以及所選取儲存庫的密碼。
   5. 按一下**儲存變更**。
 
-幾秒鐘後，新儲存庫就可供使用。如果您收到連線失敗，請檢查您的設定，然後再試一次。請記住，新增一個額外儲存庫，就會顯示一個可讓您為工作選擇的額外目的地。它不會針對這兩個儲存庫自動執行工作。您需要設定工作，才能使用額外的儲存庫。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+幾秒鐘後，新儲存庫就可供使用。如果您收到連線失敗，請檢查您的設定，然後再試一次。請記住，新增一個額外儲存庫，就會顯示一個可讓您為工作選擇的額外目的地。它不會針對這兩個儲存庫自動執行工作。您需要設定工作，才能使用額外的儲存庫。如需相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。

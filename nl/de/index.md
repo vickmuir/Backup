@@ -24,12 +24,12 @@ Sie können den {{site.data.keyword.backup_notm}}-Service auf zwei Arten erwerbe
 - [Sicherungen bei der Bestellung eines Servers kaufen](#purchasingwithserver).
 - [Sicherungen als Upgrade kaufen](#purchasingasupgrade).
 
-Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.backup_notm}}-Speicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und [{{site.data.keyword.backup_notm}} on IBM Cloud ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 {: #purchasingwithserver}
 
-1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
+1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
 2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 

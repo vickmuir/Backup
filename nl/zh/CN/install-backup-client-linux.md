@@ -29,7 +29,7 @@ subcollection: Backup
 
 完成此过程后，进程会自动向 {{site.data.keyword.backup_notm}} 门户网站注册代理程序服务，然后下载并安装运行该服务所需的文件。
 
-如果通过 [{{site.data.keyword.cloud_notm}} 目录](https://{DomainName}/catalog/){:new_window}或 {{site.data.keyword.slportal}} 订购服务器时购买了 {{site.data.keyword.backup_notm}}，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
+如果通过 [{{site.data.keyword.cloud_notm}} 目录](https://{DomainName}/catalog){:new_window}或 {{site.data.keyword.slportal}} 订购服务器时购买了 {{site.data.keyword.backup_notm}}，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
 {:tip}
 
 如果您在 {{site.data.keyword.slportal}} 中购买了 {{site.data.keyword.backup_notm}}（作为升级选项），请执行以下步骤来安装该软件。
@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. 输入 {{site.data.keyword.backup_notm}} 门户网站用户名和密码。
 
-   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](/docs/infrastructure/Backup?topic=Backup-GettingStarted)。
+   有关查看 {{site.data.keyword.backup_notm}} 用户名和密码的更多信息，请参阅[备份服务入门](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)。
    {:tip}
 
 3. 在输入用户名和密码之后，再没有任何需要输入的内容了。在安装过程中屏幕上显示的提示可以安全地忽略。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **后续步骤**
 
-登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-GettingStarted)和[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。
+登录到 {{site.data.keyword.backup_notm}} 门户网站以配置和管理备份代理程序。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)和[在 Linux 上配置简单的文件级别备份](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)。

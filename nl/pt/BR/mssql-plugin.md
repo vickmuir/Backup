@@ -30,7 +30,7 @@ logs de transações ou backup somente de logs de transação.
 diferente,
 - É possível restaurar bancos de dados com os nomes de banco de dados originais, sobrescrever bancos de dados existentes e restaurar usando a opção Sem recuperação.
 
-Para obter mais informações, consulte a seção [Principais recursos](#main-featues).
+Para obter mais informações, consulte a seção [Principais recursos](#main-features).
 
 ## Pedindo o plug-in
 {: #orderingSQLPlugin}

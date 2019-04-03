@@ -19,7 +19,7 @@ subcollection: Backup
 # 백업에서 복원
 {: #simplerestore}
 
-다음 단계를 사용하여 {{site.data.keyword.backup_full}}의 파일 복원을 완료하십시오. 시스템 이미지를 복원하려면 [Windows BMR](restore-bmr-system-volume-image.html) 지시사항을 따르십시오.
+다음 단계를 사용하여 {{site.data.keyword.backup_full}}의 파일 복원을 완료하십시오. 시스템 이미지를 복원하려면 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 지시사항을 따르십시오.
 
 ## {{site.data.keyword.backup_notm}} 포털 시작
 {: #startWebCCsimple}

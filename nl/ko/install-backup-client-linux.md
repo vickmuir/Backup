@@ -29,7 +29,7 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 
 프로시저를 완료한 후 자동화된 프로세스가 {{site.data.keyword.backup_notm}} 포털에 에이전트 서비스를 등록한 다음 서비스 실행에 필요한 파일을 다운로드하고 설치합니다.
 
-[{{site.data.keyword.cloud_notm}} 카탈로그](https://{DomainName}/catalog/){:new_window} 또는 {{site.data.keyword.slportal}}을 통해 서버를 주문할 때 {{site.data.keyword.backup_notm}}을 구매한 경우에는 소프트웨어가 자동으로 설치됩니다. 이 문서에 설명된 프로시저를 사용하지 않아도 됩니다.
+[{{site.data.keyword.cloud_notm}} 카탈로그](https://{DomainName}/catalog){:new_window} 또는 {{site.data.keyword.slportal}}을 통해 서버를 주문할 때 {{site.data.keyword.backup_notm}}을 구매한 경우에는 소프트웨어가 자동으로 설치됩니다. 이 문서에 설명된 프로시저를 사용하지 않아도 됩니다.
 {:tip}
 
 {{site.data.keyword.slportal}}에서 업그레이드로서 {{site.data.keyword.backup_notm}}을 구매한 경우에는 아래의 단계에 따라 소프트웨어를 설치하십시오.
@@ -86,7 +86,7 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 
 2. {{site.data.keyword.backup_notm}} 포털 사용자 이름과 비밀번호를 입력하십시오.
 
-   {{site.data.keyword.backup_notm}} 사용자 이름과 비밀번호 보기에 대한 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-GettingStarted)를 참조하십시오.
+   {{site.data.keyword.backup_notm}} 사용자 이름과 비밀번호 보기에 대한 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)를 참조하십시오.
    {:tip}
 
 3. 사용자 이름과 비밀번호 이후에는 추가 입력이 필요하지 않습니다. 설치가 진행되면서 화면에 나타나는 프롬프트는 무시해도 됩니다.
@@ -128,4 +128,4 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 
 **다음 단계**
 
-{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-GettingStarted) 및 [Linux에서 단순 파일 레벨 백업 구성](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)을 참조하십시오.
+{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) 및 [Linux에서 단순 파일 레벨 백업 구성](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)을 참조하십시오.

@@ -93,7 +93,7 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que 
    4. Cliquez sur **OK**.
    5. Cliquez sur **Enregistrer**.
 
-      Pour plus d'informations sur les schémas de conservation, voir la [Foire aux questions](faqs.html).
+      Pour plus d'informations sur les schémas de conservation, voir la [Foire aux questions](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Exécution de votre premier travail de sauvegarde

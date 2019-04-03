@@ -28,7 +28,7 @@ For more information about backups for Windows 2016 servers, see [Configuring {{
 ## Logging in to the target device server
 {: #logintargetWin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Select **Devices** > **Device List** from the main menu to see the list of available servers.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make note of its public IP address.
@@ -62,4 +62,4 @@ For more information about backups for Windows 2016 servers, see [Configuring {{
 
 ## Configuring backup agents
 
-Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).

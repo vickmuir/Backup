@@ -24,12 +24,12 @@ Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 - [Adquisición de copias de seguridad cuando se solicita un servidor](#purchasingwithserver).
 - [Adquisición de copias de seguridad como actualización](#purchasingasupgrade).
 
-Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [{{site.data.keyword.backup_notm}} en IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 {: #purchasingwithserver}
 
-1. Inicie la sesión en el [catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
+1. Inicie la sesión en el [catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
 2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 

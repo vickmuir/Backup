@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
 subcollection: Backup
 
@@ -29,7 +29,7 @@ subcollection: Backup
 
 手順を完了すると、自動化されたプロセスによりエージェント・サービスが {{site.data.keyword.backup_notm}} ポータルに登録され、サービスの実行に必要なファイルがダウンロードおよびインストールされます。
 
-[{{site.data.keyword.cloud_notm}} カタログ](https://{DomainName}/catalog/){:new_window}または {{site.data.keyword.slportal}}でサーバーを注文した時に {{site.data.keyword.backup_notm}} を購入した場合、ソフトウェアは自動的にインストールされます。 本書で説明する手順を使用する必要はありません。
+[{{site.data.keyword.cloud_notm}} カタログ](https://{DomainName}/catalog){:new_window}または {{site.data.keyword.slportal}}でサーバーを注文した時に {{site.data.keyword.backup_notm}} を購入した場合、ソフトウェアは自動的にインストールされます。 本書で説明する手順を使用する必要はありません。
 {:tip}
 
 {{site.data.keyword.slportal}}でアップグレードとして {{site.data.keyword.backup_notm}} を購入した場合は、以下のステップに従ってソフトウェアをインストールしてください。
@@ -86,7 +86,7 @@ subcollection: Backup
 
 2. {{site.data.keyword.backup_notm}} ポータルのユーザー名とパスワードを入力します。
 
-   {{site.data.keyword.backup_notm}} ユーザー名とパスワードの表示について詳しくは、[バックアップ・サービス入門](/docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
+   {{site.data.keyword.backup_notm}} ユーザー名とパスワードの表示について詳しくは、[バックアップ・サービス入門](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。
    {:tip}
 
 3. ユーザー名とパスワードの入力後は、入力を必要とするものはありません。 インストールの進行に伴い画面に表示されるプロンプトは、無視して問題ありません。
@@ -128,4 +128,4 @@ subcollection: Backup
 
 **次のステップ**
 
-{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-GettingStarted)および [Linux での単純なファイル・レベルのバックアップの構成](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)を参照してください。
+{{site.data.keyword.backup_notm}} ポータルにログインし、バックアップ・エージェントを構成および管理します。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)および [Linux での単純なファイル・レベルのバックアップの構成](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)を参照してください。

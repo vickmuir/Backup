@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -20,12 +20,13 @@ subcollection: Backup
 # 入門チュートリアル
 {: #gettingstarted}
 
-バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインにより、Microsoft Exchange や Microsoft SQL などのソフトウェアや、その他のタイプのサード・パーティー・ソフトウェアとの互換性が確保され、ユーザーは必要に応じてベアメタル・リストアを実行できるようになります。{:shortdesc}
+バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインを使用すると、[Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) などのソフトウェアとの互換性を確保でき、ユーザーは必要に応じて[ベアメタル・リストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を実行できるようになります。
+{:shortdesc}
 
 ## 依頼する前に
 {: #prereqs}
 
-IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
+IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
 
 - [サーバーの注文時におけるバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)
@@ -60,6 +61,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
 - [Windows 2016 でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
+{: #accessingWebCC}
 
 {{site.data.keyword.backup_notm}}・ポータルは、{{site.data.keyword.BluSoftlayer_full}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。 {{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
 
@@ -67,13 +69,15 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} のバックアップ・ストレージ画面にアクセスします。
-3. 表示する {{site.data.keyword.backup_notm}} サービスの行の任意の場所をクリックし、ビューを展開します。
+2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## バックアップ・エージェントとバックアップ・スケジュールの構成
 
-{{site.data.keyword.backup_notm}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。エージェントと保存スケジュールを構成するには、以下のステップに従ってください。
+{{site.data.keyword.backup_notm}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。 エージェントと保存スケジュールを構成するには、以下のステップに従ってください。
 
 1. {{site.data.keyword.backup_notm}} ポータルにログインします。
 2. **「すべてのエージェント」** > **「未構成のエージェント (Unconfigured Agents)」**をクリックします。
@@ -92,7 +96,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
    4. **「OK」**をクリックします。
    5. **「保存」**をクリックします。
 
-      保存スキームについて詳しくは、[FAQ](faqs.html) を参照してください。
+      保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs) を参照してください。
       {:tip}
 
 ## 最初のバックアップ・ジョブの実行

@@ -19,7 +19,7 @@ subcollection: Backup
 # Restoring from a backup
 {: #simplerestore}
 
-Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](restore-bmr-system-volume-image.html) instructions.
+Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
 
 ## Starting {{site.data.keyword.backup_notm}} portal
 {: #startWebCCsimple}

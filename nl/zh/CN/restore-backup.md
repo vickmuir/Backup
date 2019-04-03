@@ -19,7 +19,7 @@ subcollection: Backup
 # 使用备份进行复原
 {: #simplerestore}
 
-使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示信息。
+使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示信息。
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
 {: #startWebCCsimple}

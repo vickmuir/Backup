@@ -96,7 +96,7 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
    4. Click **OK**.
    5. Click **Save**.
 
-      For more information about Retention Schemes, see the [FAQ](faqs.html).
+      For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Running your first backup job

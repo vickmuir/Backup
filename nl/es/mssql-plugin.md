@@ -28,7 +28,7 @@ El plugin SQL Server se instala con el agente Windows en el host de la base de d
 - Puede restaurar bases de datos SQL en la misma instancia de SQL o en otra instancia de SQL,
 - Puede restaurar bases de datos con los nombres de base de datos originales, sobrescribir las bases de datos existentes y restaurar utilizando la opción de no recuperación.
 
-Para obtener más información, consulte la sección [Características principales](#main-featues).
+Para obtener más información, consulte la sección [Características principales](#main-features).
 
 ## Solicitud del plugin
 {: #orderingSQLPlugin}

@@ -28,7 +28,7 @@ Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de 
 - Vous pouvez restaurer des bases de données SQL sur la même instance SQL ou une autre.
 - Vous pouvez restaurer des bases de données sous leur nom d'origine, écraser des bases de données existantes et les restaurer à l'aide de l'option Pas de reprise.
 
-Pour plus d'informations, voir la section [Principales caractéristiques](#main-featues).
+Pour plus d'informations, voir la section [Principales caractéristiques](#main-features).
 
 ## Commande du plug-in
 {: #orderingSQLPlugin}

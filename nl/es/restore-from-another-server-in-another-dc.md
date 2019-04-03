@@ -27,7 +27,7 @@ El proceso incluye el registro del agente de copia de seguridad en el segundo se
 **Requisitos previos**
 
 - Servidor1 y Servidor2 deben tener el mismo sistema operativo. No se da soporte a las restauraciones entre plataformas.
-- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+- Servidor1 y Servidor2 deben tener agentes de copia de seguridad que se hayan configurado anteriormente. Para obtener más información sobre cómo configurar los agentes de copia de seguridad, consulte [Configuración del agente de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
 - Un trabajo de copia de seguridad para el Servidor1 que ha generado una copia de seguridad en la ubicación de la caja fuerte del Servidor1.
 
 Inhabilite todas las tareas planificadas en ambos servidores para evitar conflictos.

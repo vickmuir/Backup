@@ -92,14 +92,14 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und in [EVault on IBM Cloud: Preisstruktur ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup-and-restore){:new_window} und in [EVault on IBM Cloud: Preisstruktur ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 <hr>
 
 ## Kann die Kapazität von {{site.data.keyword.backup_full}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
-Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](expanding-capacity.html).
+Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

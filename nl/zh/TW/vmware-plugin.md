@@ -54,7 +54,7 @@ vSphere Recovery Agent (VRA) 是一個 Windows 應用程式，可以備份及還
 
 在安裝 VRA 之後，您需要在 {{site.data.keyword.backup_notm}} 入口網站中進行配置。
 
-1. 登入 {{site.data.keyword.backup_notm}} 入口網站。如需如何存取 {{site.data.keyword.backup_notm}} 入口網站的相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC)。
+1. 登入 {{site.data.keyword.backup_notm}} 入口網站。如需如何存取 {{site.data.keyword.backup_notm}} 入口網站的相關資訊，請參閱[入門指導教學](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted#accessingWebCC)。
 2. 在「電腦」標籤上，選取您要備份的伺服器。
 3. 配置您的儲存庫資訊。
 

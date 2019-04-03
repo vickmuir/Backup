@@ -24,12 +24,12 @@ subcollection: Backup
 - [서버 주문 시 백업 구매](#purchasingwithserver).
 - [업그레이드로서 백업 구매](#purchasingasupgrade).
 
-가격에 관한 자세한 정보는 [{{site.data.keyword.backup_notm}} 스토리지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [{{site.data.keyword.backup_notm}} on IBM Cloud ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/evault/pricing){:new_window}를 참조하십시오.
+가격에 관한 자세한 정보는 [{{site.data.keyword.backup_notm}} 스토리지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [{{site.data.keyword.backup_notm}} on IBM Cloud ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup/pricing){:new_window}를 참조하십시오.
 
 ## 서버 주문 시 {{site.data.keyword.backup_notm}} 구매
 {: #purchasingwithserver}
 
-1. [IBM Cloud 카탈로그 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/){:new_window} 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인하십시오.
+1. [IBM Cloud 카탈로그 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog){:new_window} 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인하십시오.
 2. 월별 베어메탈 서버를 주문하십시오. 베어메탈 서버 주문에 대한 자세한 정보는 [사용자 정의 Bare Metal Server 빌드](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}를 참조하십시오.
    1. 수량, 청구 옵션을 선택하십시오. 호스트 및 도메인 이름을 입력하십시오. 원하는 호스트 이름과 도메인을 선택할 수 있습니다.
 

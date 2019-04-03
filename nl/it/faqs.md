@@ -93,14 +93,14 @@ Per impostazione predefinita, il client di base ha una tecnologia all'avanguardi
 ## Dove posso trovare le informazioni sui prezzi?
 {: faq}
 
-Per ulteriori informazioni, vedi [Backup storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Per ulteriori informazioni, vedi [Backup storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 <hr>
 
 ## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_full}} senza compromettere i backup?
 {: faq}
 
-Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](expanding-capacity.html).
+Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

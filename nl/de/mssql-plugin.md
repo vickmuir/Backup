@@ -28,7 +28,7 @@ Das Plug-in für SQL Server wird mit dem Windows-Agenten auf dem Host der SQL-Da
 - Sie können SQL-Datenbanken in derselben SQL-Instanz oder in einer anderen SQL-Instanz wiederherstellen.
 - Sie können Datenbanken mit den ursprünglichen Datenbanknamen wiederherstellen, vorhandene Datenbanken überschreiben oder die Wiederherstellung mit der Option 'Keine Recovery' durchführen.
 
-Weitere Informationen finden Sie im Abschnitt [Hauptfunktionen](#main-featues).
+Weitere Informationen finden Sie im Abschnitt [Hauptfunktionen](#main-features).
 
 ## Plug-in bestellen
 {: #orderingSQLPlugin}

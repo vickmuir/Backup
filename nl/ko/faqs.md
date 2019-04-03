@@ -92,14 +92,14 @@ subcollection: Backup
 ## 가격에 대한 정보를 어디서 찾을 수 있습니까?
 {: faq}
 
-자세한 정보는 [백업 스토리지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [EVault on IBM Cloud: 가격 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/evault/pricing){:new_window}을 참조하십시오.
+자세한 정보는 [백업 스토리지 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 및 [EVault on IBM Cloud: 가격 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/backup/pricing){:new_window}을 참조하십시오.
 
 <hr>
 
 ## 백업을 조정하지 않고 {{site.data.keyword.backup_full}} 용량을 늘리거나 줄일 수 있습니까?
 {: faq}
 
-[{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](expanding-capacity.html)을 참조하십시오.
+[{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)을 참조하십시오.
 
 <hr>
 

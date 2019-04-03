@@ -19,7 +19,7 @@ subcollection: Backup
 # Configuration de travail de sauvegarde BMR sous Windows
 {: #configureBMR}
 
-Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disponible uniquement pour Bare Metal Servers sous Windows. Aucune option BMR n'est disponible pour les instances de service virtuel (VSI). Pour plus d'informations, voir [Installation du plug-in Bare Metal Restore](bmr-plugin.html)
+Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disponible uniquement pour Bare Metal Servers sous Windows. Aucune option BMR n'est disponible pour les instances de service virtuel (VSI). Pour plus d'informations, voir [Installation du plug-in Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}

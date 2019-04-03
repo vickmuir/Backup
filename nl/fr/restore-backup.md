@@ -19,7 +19,7 @@ subcollection: Backup
 # Restauration à partir d'une sauvegarde
 {: #simplerestore}
 
-Procédez comme indiqué ci-après pour effectuer une restauration de fichier en utilisant {{site.data.keyword.backup_full}}. Pour restaurer une image système, suivez les instructions pour [BMR Windows](restore-bmr-system-volume-image.html).
+Procédez comme indiqué ci-après pour effectuer une restauration de fichier en utilisant {{site.data.keyword.backup_full}}. Pour restaurer une image système, suivez les instructions pour [BMR Windows](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
 {: #startWebCCsimple}

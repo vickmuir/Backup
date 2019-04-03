@@ -19,7 +19,7 @@ subcollection: Backup
 # Configuración de un trabajo de copia de seguridad de BMR en Windows
 {: #configureBMR}
 
-Tiene que adquirir el plug-in de BMR para crear una copia de seguridad BMR. BMR solo está disponible para servidores nativos Windows. La opción BMR no está disponible para VSI. Para obtener más información, consulte [Instalación del plugin de restauración desde cero](bmr-plugin.html)
+Tiene que adquirir el plug-in de BMR para crear una copia de seguridad BMR. BMR solo está disponible para servidores nativos Windows. La opción BMR no está disponible para VSI. Para obtener más información, consulte [Instalación del plugin de restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
 ## Inicio del portal de {{site.data.keyword.backup_notm}}

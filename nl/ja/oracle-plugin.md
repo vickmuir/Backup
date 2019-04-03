@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -54,7 +54,7 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 
 Windows 用の Oracle プラグインは、32 ビットまたは 64 ビットの Windows エージェントとともにインストールされます。 プラグインをインストールするには、エージェント・インストール・キットを実行します。 プラグインが、**「カスタム・セットアップ (Custom Setup)」**ページにオプションとして表示されます。 詳しくは、[Windows での {{site.data.keyword.backup_notm}} クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)を参照してください。
 
-Microsoft Windows サーバー用のプラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
+プラグインをインストールする前に、`services.msc` で両方の {{site.data.keyword.backup_notm}} サービスを停止します。
 {:tip}
 
 1. `c:\installs\evault` フォルダーを参照し、より新しい改訂番号の .exe ファイルを実行します。

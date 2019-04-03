@@ -24,12 +24,12 @@ Puoi acquistare il servizio {{site.data.keyword.backup_notm}} in due modi.
 - [Acquisto di backup quando ordini un server](#purchasingwithserver).
 - [Acquisto di backup come un upgrade](#purchasingasupgrade).
 
-Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Acquisto {{site.data.keyword.backup_notm}} quando ordini un server
 {: #purchasingwithserver}
 
-1. Accedi al [catalogo IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/){:new_window} oppure al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}
+1. Accedi al [catalogo IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog){:new_window} oppure al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}
 2. Ordina un server bare metal mensile. Per ulteriori informazioni sull'ordinazione di server bare metal, vedi [Creazione di un server bare metal personalizzato](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Seleziona la quantità e l'opzione di fatturazione. Immetti i nomi di host e dominio. Puoi scegliere il nome host e dominio che preferisci.
 

@@ -93,7 +93,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent
    4. Klicken Sie auf **OK**.
    5. Klicken Sie auf **Speichern**.
 
-      Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](faqs.html).
+      Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Ersten Sicherungsjob ausführen

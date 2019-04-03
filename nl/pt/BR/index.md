@@ -24,12 +24,12 @@ subcollection: Backup
 - [Comprar backups ao solicitar um servidor](#purchasingwithserver).
 - [Comprar backups como um upgrade](#purchasingasupgrade).
 
-Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 {: #purchasingwithserver}
 
-1. Efetue login no [catálogo do IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/){:new_window} ou no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}
+1. Efetue login no [catálogo do IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog){:new_window} ou no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}
 2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
    1. Selecione a opção Quantidade, Faturamento. Insira os nomes do host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
 
@@ -85,4 +85,4 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
    Se o tamanho do armazenamento de backup continuar a mostrar uma capacidade de zero, uma segunda atualização de página poderá ser necessária.
    {:tip}
 
-Quando estiver pronto, vá em frente e instale o agente de software no servidor e configure seu planejamento de backup no portal do {{site.data.keyword.backup_notm}}. Para obter mais informações, veja o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted).
+Quando estiver pronto, vá em frente e instale o agente de software no servidor e configure seu planejamento de backup no portal do {{site.data.keyword.backup_notm}}. Para obter mais informações, veja o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).

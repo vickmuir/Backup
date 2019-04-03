@@ -19,7 +19,7 @@ subcollection: Backup
 # 從備份還原
 {: #simplerestore}
 
-請使用這些步驟，以 {{site.data.keyword.backup_full}} 來完成「檔案」還原。若要還原系統映像檔，請遵循 [Windows BMR](restore-bmr-system-volume-image.html) 指示。
+請使用這些步驟，以 {{site.data.keyword.backup_full}} 來完成「檔案」還原。若要還原系統映像檔，請遵循 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示。
 
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
 {: #startWebCCsimple}

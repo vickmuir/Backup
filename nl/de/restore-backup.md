@@ -19,7 +19,7 @@ subcollection: Backup
 # Wiederherstellung anhand einer Sicherung durchführen
 {: #simplerestore}
 
-Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full}} eine Dateiwiederherstellung durchzuführen. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](restore-bmr-system-volume-image.html).
+Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full}} eine Dateiwiederherstellung durchzuführen. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
 {: #startWebCCsimple}

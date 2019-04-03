@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-04-01"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} では、さまざまなアプリケーションをバックアップできます。 さらに {{site.data.keyword.BluSoftlayer_full}} では、バックアップ対象となる頻度が高い次のようなソフトウェア・システム用に、ソフトウェア・エージェントを提供しています。
 
-- ベアメタルのリストア
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [ベアメタルのリストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-ここにリストされているプラグインは Windows サーバーでのみ互換性があります (Oracle プラグインは除く)。 各エージェントは、ご使用のバックアップ・サービスに対するアドオンとして使用可能です。 エージェントをサービスに追加するには、営業チームのメンバーに今すぐご連絡ください。
+ここにリストされているプラグインは Windows サーバーでのみ互換性があります (Oracle または VMware プラグインは除く)。各エージェントは、ご使用のバックアップ・サービスに対するアドオンとして無料で使用可能です。
 
 <hr>
 
@@ -92,14 +93,14 @@ subcollection: Backup
 ## 価格に関する情報はどこで確認できますか。
 {: faq}
 
-詳しくは、[Backup storage ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [EVault on IBM Cloud: Pricing ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/evault/pricing){:new_window} を参照してください。
+詳しくは、[Backup storage ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [EVault on IBM Cloud: Pricing ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup/pricing){:new_window} を参照してください。
 
 <hr>
 
-## バックアップを危険にさらさずに {{site.data.keyword.backup_full}} 容量を増減できますか?
+## バックアップを危険にさらさずに {{site.data.keyword.backup_notm}} 容量を増減できますか?
 {: faq}
 
-[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](expanding-capacity.html)」を参照してください。
+[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
 
 <hr>
 
@@ -110,7 +111,7 @@ subcollection: Backup
 
 <hr>
 
-## バックアップが失敗したかどうかについての通知を {{site.data.keyword.backup_notm}}・ポータルで受け取る場合、どのように設定できますか?
+## バックアップが失敗したかどうかについての通知を {{site.data.keyword.backup_notm}} ポータルで受け取る場合、どのように設定できますか?
 {: faq}
 
 通知は「拡張 (Advanced)」タブで設定できます。 {{site.data.keyword.backup_notm}} ポータルの**クイック・リンク**に示されている指示に従ってください。
@@ -168,3 +169,10 @@ BMR には、オープン・ファイルのバックアップ機能がありま�
 {: faq}
 
 現行バージョンの SQL Server プラグインでは、VSS (ボリューム・シャドー・コピー・サービス) を使用してバックアップを実行します。 VSS を使用すると、SQL Server プラグインは、SQL データベースが複数ボリュームにまたがっている場合でも、SQL データベースを効果的にバックアップできます。 バックアップは、アプリケーションがボリュームへの書き込みを続行中に完了することがあります。 SQL Server プラグインにより、データベース内とデータベース間のデータの一貫性が実現します。 VSS により、同時に複数のバックアップを実行できます。
+
+<hr>
+
+## 32 ビット版の EVault for Windows 8 はまだサポートされていますか?
+{: faq}
+
+いいえ。2017 年 3 月に Windows Server 2008 Standard/Datacenter Edition と共に、32 ビット版のこのバックアップ・ソフトウェア・エージェントは廃止されました。

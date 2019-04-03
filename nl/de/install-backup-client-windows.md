@@ -28,7 +28,7 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 ## Beim Zielgeräteserver anmelden
 {: #logintargetWin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog/){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um eine Liste verfügbarer Server anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
@@ -62,4 +62,4 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 
 ## Sicherungsagenten konfigurieren
 
-Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an, um Ihre Sicherungsagenten zu konfigurieren und zu verwalten. Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).

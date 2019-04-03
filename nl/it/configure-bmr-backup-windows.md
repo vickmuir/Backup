@@ -19,7 +19,7 @@ subcollection: Backup
 # Configurazione del lavoro di backup BMR su Windows
 {: #configureBMR}
 
-Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI. Per ulteriori informazioni, vedi [Installazione del plug-in Bare Metal Restore](bmr-plugin.html)
+Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo per i server bare metal Windows. Nessuna opzione BMR è disponibile per VSI. Per ulteriori informazioni, vedi [Installazione del plug-in Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}

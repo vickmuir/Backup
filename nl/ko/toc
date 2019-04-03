@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-GettingStarted" path="infrastructure/Backup"}
+{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted" path="infrastructure/Backup"}
 IBM Cloud 스토리지 - IBM Cloud 백업
 
     {: .navgroup id="learn"}

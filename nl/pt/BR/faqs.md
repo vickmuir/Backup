@@ -109,7 +109,7 @@ Por padrão, o cliente de base tem uma tecnologia de última geração para mani
 ## Onde localizo as informações sobre precificação?
 {: faq}
 
-Para obter mais informações, consulte [Armazenamento de backup ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obter mais informações, consulte [Armazenamento de backup ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 <hr>
 
@@ -118,7 +118,7 @@ backups?
 {: faq}
 
 É possível aumentar ou diminuir o tamanho de sua área segura por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
-informações, consulte [Expandindo a capacidade](expanding-capacity.html).
+informações, consulte [Expandindo a capacidade](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

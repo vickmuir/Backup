@@ -92,14 +92,14 @@ De forma predeterminada, el cliente base dispone de la tecnología más innovado
 ## ¿Dónde puedo encontrar información sobre los precios?
 {: faq}
 
-Para obtener más información, consulte [Almacenamiento de copia de seguridad ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [EVault en IBM Cloud: precios ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/evault/pricing){:new_window}.
+Para obtener más información, consulte [Almacenamiento de copia de seguridad ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} y [EVault en IBM Cloud: precios ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 <hr>
 
 ## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_full}} sin poner en riesgo las copias de seguridad?
 {: faq}
 
-Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](expanding-capacity.html).
+Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

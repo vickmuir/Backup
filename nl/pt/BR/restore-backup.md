@@ -19,7 +19,7 @@ subcollection: Backup
 # Restaurando de um backup
 {: #simplerestore}
 
-Use essas etapas para concluir uma restauração de arquivo com o {{site.data.keyword.backup_full}}. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](restore-bmr-system-volume-image.html).
+Use essas etapas para concluir uma restauração de arquivo com o {{site.data.keyword.backup_full}}. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
 {: #startWebCCsimple}

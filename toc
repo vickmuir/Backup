@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-GettingStarted" path="infrastructure/Backup"}
+{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted" path="infrastructure/Backup"}
 IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
@@ -20,7 +20,7 @@ IBM Cloud Storage - IBM Cloud Backup
         mssql-plugin.md
         oracle-plugin.md
         vmware-plugin.md
-        
+
     {: .topicgroup}
     Configuration
         install-backup-client-linux.md

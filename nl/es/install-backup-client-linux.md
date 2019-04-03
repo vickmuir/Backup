@@ -29,7 +29,7 @@ La instalación del cliente de {{site.data.keyword.backup_full}} en un sistema o
 
 Después de completar el procedimiento, el proceso automatizado registra el servicio del agente con el portal de {{site.data.keyword.backup_notm}} y luego descarga e instala los archivos necesarios para ejecutar el servicio.
 
-Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog/){:new_window} o el {{site.data.keyword.slportal}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
+Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){:new_window} o el {{site.data.keyword.slportal}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
 {:tip}
 
 Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en el {{site.data.keyword.slportal}}, siga estos pasos para instalar el software.
@@ -86,7 +86,7 @@ Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de L
 
 2. Escriba su nombre de usuario y contraseña en el portal de {{site.data.keyword.backup_notm}}.
 
-   Para obtener más información sobre cómo visualizar el nombre de usuario y la contraseña de {{site.data.keyword.backup_notm}}, consulte [Cómo empezar con los servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+   Para obtener más información sobre cómo visualizar el nombre de usuario y la contraseña de {{site.data.keyword.backup_notm}}, consulte [Cómo empezar con los servicios de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
    {:tip}
 
 3. Después del nombre de usuario y de la contraseña, no se necesita ninguna otra información de entrada. Las solicitudes que aparecerán en pantalla a medida que progresa la instalación pueden ignorarse sin problemas.
@@ -128,4 +128,4 @@ Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de L
 
 **Siguientes pasos**
 
-Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-GettingStarted) y [Configuración de una copia de seguridad simple a nivel de archivo en Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Inicie una sesión en el portal de {{site.data.keyword.backup_notm}} para configurar y gestionar los agentes de copia de seguridad. Para obtener más información, consulte la [Guía de aprendizaje Cómo empezar](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted) y [Configuración de una copia de seguridad simple a nivel de archivo en Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

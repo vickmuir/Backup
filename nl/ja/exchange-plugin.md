@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -61,4 +61,4 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 ## ユーザー・ガイドのダウンロード
 {: #ExchangeUserGuide}
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、またはその他のオブジェクトを .pst ファイルにリストアできます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、または他のオブジェクトを .pst ファイルにリストアできます。

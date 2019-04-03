@@ -93,7 +93,7 @@ Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber ins
    4. Pulse **Aceptar**.
    5. Pulse **Guardar**.
 
-      Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](faqs.html).
+      Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
 ## Ejecución del primer trabajo de copia de seguridad

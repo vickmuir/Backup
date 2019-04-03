@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
 subcollection: Backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 このタスクは、サーバーのオペレーティング・システムの再ロード後に最もよく利用されます。 これらのステップは、[1 つのサーバーのバックアップを使用して、別のサーバー上にデータをリストアする場合](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI)に使用することもできます。
 {:tip}
 
-1. {{site.data.keyword.backup_notm}} ポータルを開始してログインします。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-GettingStarted)を参照してください。
+1. {{site.data.keyword.backup_notm}} ポータルを開始してログインします。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted)を参照してください。
 
    {{site.data.keyword.backup_notm}} ポータルには、{{site.data.keyword.BluVPN}} を介してのみアクセスできることを忘れないでください。
    {:tip}

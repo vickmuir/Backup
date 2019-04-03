@@ -28,7 +28,7 @@ The SQL Server plug-in is installed with the Windows Agent on the SQL database h
 - You can restore SQL databases to the same SQL instance or to a different SQL instance,
 - You can restore databases with the original database names, overwrite existing databases, and restore by using the No Recovery option.
 
-For more information, see the [Main features](#main-featues) section.
+For more information, see the [Main features](#main-features) section.
 
 ## Ordering the plug-in
 {: #orderingSQLPlugin}

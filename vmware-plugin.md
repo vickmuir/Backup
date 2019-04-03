@@ -54,7 +54,7 @@ Ensure that power management is disabled on the server where you install the VRA
 
 After VRA is installed, you need to configure it in the {{site.data.keyword.backup_notm}} portal.
 
-1. Log in to the {{site.data.keyword.backup_notm}} portal. For more information about how to access the {{site.data.keyword.backup_notm}} portal, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC).
+1. Log in to the {{site.data.keyword.backup_notm}} portal. For more information about how to access the {{site.data.keyword.backup_notm}} portal, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted#accessingWebCC).
 2. On the Computers Tab, select the server that you want to back up.
 3. Configure your vault information.
 
