@@ -54,7 +54,7 @@ VRA のインストール先となるサーバーで、電源管理が無効に�
 
 VRA をインストールした後、{{site.data.keyword.backup_notm}} ポータルで VRA を構成する必要があります。
 
-1. {{site.data.keyword.backup_notm}} ポータルにログインします。{{site.data.keyword.backup_notm}} ポータルにアクセスする方法について詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started#accessingWebCC)を参照してください。
+1. {{site.data.keyword.backup_notm}} ポータルにログインします。{{site.data.keyword.backup_notm}} ポータルにアクセスする方法について詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC)を参照してください。
 2. 「コンピューター」タブで、バックアップするサーバーを選択します。
 3. ボールト情報を構成します。
 

@@ -54,7 +54,7 @@ Assegure-se de que o gerenciamento de energia esteja desativado no servidor no q
 
 Após o VRA ser instalado, é necessário configurá-lo no portal do {{site.data.keyword.backup_notm}}.
 
-1. Efetue login no portal do {{site.data.keyword.backup_notm}}. Para obter mais informações sobre como acessar o portal do {{site.data.keyword.backup_notm}}, consulte o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-gettingstarted#getting-started#accessingWebCC).
+1. Efetue login no portal do {{site.data.keyword.backup_notm}}. Para obter mais informações sobre como acessar o portal do {{site.data.keyword.backup_notm}}, consulte o [Tutorial de introdução](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC).
 2. Na guia Computadores, selecione o servidor que deseja fazer backup.
 3. Configure suas informações da área segura.
 
