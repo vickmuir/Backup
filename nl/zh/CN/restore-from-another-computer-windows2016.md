@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # 在 Windows 2016 上从其他计算机复原作业
 {: #restorefromother2016}
 
-使用以下步骤在 Windows 2016 中使用 Windows Central Control 从另一台计算机完成文件复原。
+使用以下步骤通过 Windows Central Control 从另一台计算机完成文件复原。
 
 1. 通过 RDP 远程控制 Windows 2016 服务器。
 2. 打开 CentralControl。

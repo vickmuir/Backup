@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: EVault, Carbonite, IBM Cloud Backup, Enterprise Backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
 subcollection: Backup
 
@@ -84,3 +84,5 @@ subcollection: Backup
 
    如果备份存储器大小的容量仍然显示为零，说明可能需要再次刷新页面。
    {:tip}
+
+准备就绪时，开始在服务器上安装软件代理程序，并在 {{site.data.keyword.backup_notm}} 门户网站中设置备份安排。有关更多信息，请参阅[入门教程](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)。

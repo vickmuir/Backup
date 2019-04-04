@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-26"
 
-keywords:
+keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # 安装 Bare Metal Restore 插件
 {: #BMRplugin}
 
-BMR 是一种用于 Microsoft Windows 的灾难恢复解决方案。可以使用 BMR 在发生灾难（例如，操作系统或硬件故障）后，从裸机状态复原服务器。通过 BMR，可以从由 {{site.data.keyword.BluSoftlayer_full}} 管理的安全位置快速复原系统映像。
+BMR 是一种灾难恢复解决方案。可以使用 BMR 在发生灾难（例如，操作系统或硬件故障）后，从裸机状态复原服务器。通过 BMR，可以从由 {{site.data.keyword.BluSoftlayer_full}} 管理的安全位置快速复原系统映像。
 
 BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于虚拟服务器。不支持 Bare Metal Restores for Linux 分发版。仅 Backup Agent 8.30 或更低版本支持 BMR。（2018 年 6 月 30 日）。
 {:important}

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} 可用于对各种应用程序进行备份。{{site.data.keyword.BluSoftlayer_full}} 还为一些已备份的较常见的软件系统提供软件代理程序，其中包括
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-此处列出的插件仅与 Windows 服务器兼容，但 Oracle 插件除外。每个代理程序都作为备份服务的附加组件提供。要将代理程序添加到服务中，请立即联系销售团队的成员。
+此处列出的插件仅与 Windows 服务器兼容，但 Oracle 或 VMware 插件除外。每个代理程序都作为备份服务的附加组件免费提供。
 
 <hr>
 
@@ -97,10 +98,10 @@ subcollection: Backup
 
 <hr>
 
-## 是否可以在不影响备份的情况下增大或减小 {{site.data.keyword.backup_full}} 容量？
+## 是否可以在不影响备份的情况下增大或减小 {{site.data.keyword.backup_notm}} 容量？
 {: faq}
 
-可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
+可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](expanding-capacity.html)。
 
 <hr>
 
@@ -169,3 +170,10 @@ BMR 具有开放文件备份功能。但是，BMR 并不能取代对 SQL 或 Ora
 {: faq}
 
 当前版本的 SQL Server 插件使用 VSS（卷影复制服务）来完成备份。通过使用 VSS，SQL Server 插件可有效备份 SQL 数据库，甚至支持备份跨卷的 SQL 数据库。备份期间，应用程序可继续写入卷。SQL Server 插件在数据库内和数据库之间提供数据一致性。VSS 允许多个备份同时运行。
+
+<hr>
+
+## 用于 Windows 8 的 32 位版本 EVault 是否仍受支持？
+{: faq}
+
+否。32 位版本的备份软件代理程序已于 2017 年 3 月随 Windows Server 2008 Standard Edition 和 Datacenter Edition 一起引退。

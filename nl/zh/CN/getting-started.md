@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -20,7 +20,7 @@ subcollection: Backup
 # 入门教程
 {: #getting-started}
 
-通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 Microsoft Exchange 和 Microsoft SQL 等软件以及其他类型的第三方软件兼容，并允许用户在必要时完成裸机复原。
+通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) 和 [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 等软件兼容，并允许用户在必要时完成[裸机复原](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
 {:shortdesc}
 
 ## 开始之前
@@ -61,6 +61,7 @@ subcollection: Backup
 - [在 Windows 2016 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
+{: #accessingWebCC}
 
 {{site.data.keyword.backup_notm}} 门户网站用于与由 {{site.data.keyword.BluSoftlayer_full}} 提供的任何 {{site.data.keyword.backup_notm}} 服务进行交互。{{site.data.keyword.backup_notm}} 门户网站是一种基于浏览器的客户机，在 {{site.data.keyword.BluSoftlayer_full}} 专用网络上运行，支持对任何 {{site.data.keyword.backup_notm}} 服务进行完全控制，包括配置和复原。
 
@@ -68,8 +69,10 @@ subcollection: Backup
 
    {{site.data.keyword.backup_notm}} 门户网站无法通过公用网络进行访问。必须先建立 VPN 连接。
    {:important}
-2. 访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中的“备份存储器”屏幕。
-3. 单击想要查看的 {{site.data.keyword.backup_notm}} 服务所在行上的任意位置以展开视图。
+2. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+2. 单击**存储** > **备份**以显示具有备份服务的服务器。
+3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
 ## 配置备份代理程序和备份调度
@@ -93,7 +96,7 @@ subcollection: Backup
    4. 单击**确定**。
    5. 单击**保存**。
 
-              有关“保留方案”的更多信息，请参阅[常见问题](/docs/infrastructure/Backup?topic=Backup-faqs#faqs)。
+              有关“保留方案”的更多信息，请参阅[常见问题](faqs.html)。
         {:tip}
 
 ## 运行第一个备份作业

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -28,7 +28,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 - 可以将 SQL 数据库复原到同一个 SQL 实例，也可以复原到其他 SQL 实例。
 - 可以使用原始数据库名称复原数据库，覆盖现有数据库，以及使用“不恢复”选项进行复原。
 
-有关更多信息，请参阅[主要功能](#main-features)部分。
+有关更多信息，请参阅[主要功能](#main-featues)部分。
 
 ## 订购插件
 {: #orderingSQLPlugin}

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -54,7 +54,7 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 
 适用于 Windows 的 Oracle 插件随 32 位或 64 位 Windows 代理程序一起安装。要安装插件，请运行代理程序安装工具包。该插件在**定制安装**页面上显示为选项。有关更多信息，请参阅[在 Windows 中安装 {{site.data.keyword.backup_notm}} 客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-在为 Microsoft Windows 服务器安装该插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
+在安装插件之前，请在 `services.msc` 中停止两个 {{site.data.keyword.backup_notm}} 服务。
 {:tip}
 
 1. 浏览至 `c:\installs\evault` 文件夹，然后运行具有更高修订版号的 .exe 文件。
