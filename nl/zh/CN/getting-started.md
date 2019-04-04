@@ -69,7 +69,7 @@ subcollection: Backup
 
    {{site.data.keyword.backup_notm}} 门户网站无法通过公用网络进行访问。必须先建立 VPN 连接。
    {:important}
-2. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+2. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
 或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
@@ -113,7 +113,7 @@ subcollection: Backup
 
 ## 在控制台中访问并查看 {{site.data.keyword.backup_notm}} 存储器详细信息
 
-可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}和 {{site.data.keyword.slportal}} 中查看服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
+可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}和 {{site.data.keyword.slportal}} 中查看服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
 或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。

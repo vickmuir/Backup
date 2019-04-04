@@ -69,7 +69,7 @@ Follow the instructions appropriate for your OS,
 
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
@@ -113,7 +113,7 @@ For more information, see [Configuring simple file-level backup on Linux](/docs/
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.

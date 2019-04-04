@@ -69,7 +69,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
@@ -113,7 +113,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
 ## {{site.data.keyword.backup_notm}} のストレージの詳細へのコンソールでのアクセスと表示
 
-サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
+サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
 1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。

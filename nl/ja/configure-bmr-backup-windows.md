@@ -28,7 +28,7 @@ BMR バックアップを作成するには、BMR プラグインを購入する
 {{site.data.keyword.backup_notm}} ポータル を開始するには、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークに接続している必要があります。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。

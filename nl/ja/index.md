@@ -49,7 +49,7 @@ subcollection: Backup
 プロビジョニング注文の受領確認、プロビジョニング注文の承認と処理、およびプロビジョニングの完了といった一連の E メールが管理者に送信されます。 プロビジョニングの完了 E メールには、*[デバイスの詳細」*ページへのリンクが記載されています。このページには、{{site.data.keyword.cloud_notm}} にログインした後にアクセスできます。 また、{{site.data.keyword.slportal}}に直接ログインすることもできます。
 
 ### {{site.data.keyword.backup_notm}} 購入の確認
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/){:new_window} で、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
+1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} で、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「デバイス」**>**「デバイス・リスト」**をクリックします。
 2. 注文した新規サーバーを見つけます。

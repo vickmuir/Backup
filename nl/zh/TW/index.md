@@ -49,7 +49,7 @@ subcollection: Backup
 一系列電子郵件會傳送給您的管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結，而您可以在登入 {{site.data.keyword.cloud_notm}} 之後存取該頁面。您也可以直接登入 {{site.data.keyword.slportal}}。
 
 ### 確認 {{site.data.keyword.backup_notm}} 購買
-1. 在 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window} 中，按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
+1. 在 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window} 中，按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
    或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**裝置** > **裝置清單**。
 2. 找出您已訂購的新伺服器。

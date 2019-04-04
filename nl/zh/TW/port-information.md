@@ -19,7 +19,7 @@ subcollection: Backup
 # 配置「埠」，讓備份代理程式與 {{site.data.keyword.backup_notm}} 入口網站之間能夠進行通訊
 {: #portinfo}
 
-安裝在伺服器上的 {{site.data.keyword.backup_full}} 代理程式必須能夠與您所購買的儲存庫通訊。您可以在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 及 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/){:new_window} 找到 {{site.data.keyword.backup_notm}} 使用者帳戶的 Director 主機資訊。
+安裝在伺服器上的 {{site.data.keyword.backup_full}} 代理程式必須能夠與您所購買的儲存庫通訊。您可以在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 及 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window} 找到 {{site.data.keyword.backup_notm}} 使用者帳戶的 Director 主機資訊。
 
 請一律使用 FQDN 將代理程式登錄至 {{site.data.keyword.backup_notm}} 入口網站和 Director，因為這些服務的 IP 位址可能會變更。
 

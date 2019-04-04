@@ -37,7 +37,7 @@ subcollection: Backup
 ## ターゲット・デバイス・サーバーへのログイン
 {: #logintargetLin}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. メインメニューから**「デバイス」**>**「デバイス・リスト」**を選択して使用可能なサーバー・デバイスのリストを表示します。
 3. {{site.data.keyword.backup_notm}} サービスの購入対象であるデバイスを検索し、そのパブリック IP アドレスをメモします。

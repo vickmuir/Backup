@@ -30,7 +30,7 @@ You must configure vault settings and vCenter information before you can add a b
 You need to be connected to the {{site.data.keyword.BluSoftlayer_full}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.

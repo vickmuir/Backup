@@ -49,7 +49,7 @@ subcollection: Backup
 일련의 이메일이 관리자에게 발송됩니다(프로비저닝 주문의 수신확인, 프로비저닝 주문 승인 및 처리, 프로비저닝 완료). 프로비저닝 완료 이메일에는 {{site.data.keyword.cloud_notm}}에 로그인한 후에 액세스할 수 있는 *디바이스 세부사항* 페이지에 대한 링크가 포함됩니다. {{site.data.keyword.slportal}}에 직접 로그인할 수도 있습니다.
 
 ### {{site.data.keyword.backup_notm}} 구매 확인
-1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/){:new_window}의 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.</br>
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}의 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.</br>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **디바이스** > **디바이스 목록**을 클릭하십시오.
 2. 주문한 새 서버를 찾으십시오.

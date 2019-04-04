@@ -49,7 +49,7 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestätigung der Bereitstellungsbestellung, zur Genehmigung und Verarbeitung der Bereitstellungsbestellung sowie zur Fertigstellung der Bereitstellung. Die E-Mail zur Fertigstellung der Bereitstellung enthält einen Link zu Ihrer Seite *Gerätedetails*, auf die Sie zugreifen können, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 ### {{site.data.keyword.backup_notm}}-Einkauf bestätigen
-1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/){:new_window} oben links auf das **Menüssymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}){:new_window} oben links auf das **Menüssymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Gerät** > **Geräteliste**.
 2. Suchen Sie nach dem neuen Server, den Sie bestellt haben.

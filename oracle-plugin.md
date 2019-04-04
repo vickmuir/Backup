@@ -39,7 +39,7 @@ The Oracle plug-in is an add-on and is installed with the Windows Agent or the L
 ## Ordering the plug-in
 {: #orderingOraclePlugin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select your account, and click **Order plug-ins**.

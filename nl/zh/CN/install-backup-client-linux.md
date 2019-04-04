@@ -37,7 +37,7 @@ subcollection: Backup
 ## 登录到目标设备服务器
 {: #logintargetLin}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。

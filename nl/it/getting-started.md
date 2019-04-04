@@ -110,7 +110,7 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 
 ## Accesso e visualizzazione dei dettagli dell'archiviazione di {{site.data.keyword.backup_notm}} nella console
 
-I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
+I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.

@@ -21,7 +21,7 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} サービスはいつでも取り消すことができます。 取り消すと、ボールトがバックアップされたデータとともに削除され、取り消された資格情報を使用して {{site.data.keyword.backup_notm}} ポータルにログインすることができなくなります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
    あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. **「アクション」** > **「{{site.data.keyword.backup_notm}} のキャンセル」**を選択します。

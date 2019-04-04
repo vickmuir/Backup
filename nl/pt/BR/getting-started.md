@@ -69,7 +69,7 @@ O portal do {{site.data.keyword.backup_notm}} é usado para interagir com qualqu
 
    O portal do {{site.data.keyword.backup_notm}} não pode ser acessado por meio da rede pública. Uma conexão VPN deve ser estabelecida primeiro.
    {:important}
-2. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+2. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
 3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
@@ -115,7 +115,7 @@ Para obter mais informações, consulte [Configurando o backup em nível de arqu
 
 ## Acessando e visualizando detalhes de armazenamento do {{site.data.keyword.backup_notm}} no Console
 
-Os detalhes de armazenamento de seu serviço podem ser visualizados no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} e no {{site.data.keyword.slportal}} a qualquer momento. Os detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que estão associados ao serviço do {{site.data.keyword.backup_notm}} selecionado.
+Os detalhes de armazenamento de seu serviço podem ser visualizados no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e no {{site.data.keyword.slportal}} a qualquer momento. Os detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que estão associados ao serviço do {{site.data.keyword.backup_notm}} selecionado.
 
 1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.</br>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.

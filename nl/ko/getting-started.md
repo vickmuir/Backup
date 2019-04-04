@@ -110,7 +110,7 @@ IBM Cloud Backup을 사용하려면 유효한 라이센스가 있어야 합니�
 
 ## 콘솔에서 {{site.data.keyword.backup_notm}} 스토리지 세부사항 액세스 및 보기
 
-서비스의 스토리지 세부사항은 [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/){:new_window} 및 {{site.data.keyword.slportal}}에서 언제든지 볼 수 있습니다. 볼 수 있는 세부사항에는 비밀번호, 스토리지 주소 및 선택된 {{site.data.keyword.backup_notm}} 서비스와 연관된 사용량이 포함되어 있습니다.
+서비스의 스토리지 세부사항은 [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){:new_window} 및 {{site.data.keyword.slportal}}에서 언제든지 볼 수 있습니다. 볼 수 있는 세부사항에는 비밀번호, 스토리지 주소 및 선택된 {{site.data.keyword.backup_notm}} 서비스와 연관된 사용량이 포함되어 있습니다.
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.</br>
    또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.

@@ -49,7 +49,7 @@ subcollection: Backup
 系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.slportal}}。
 
 ### 确认 {{site.data.keyword.backup_notm}} 购买
-1. 在 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/){:new_window} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+1. 在 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
    或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。

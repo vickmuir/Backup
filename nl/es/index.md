@@ -49,7 +49,7 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 ### Confirmación de la compra de {{site.data.keyword.backup_notm}}
-1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.

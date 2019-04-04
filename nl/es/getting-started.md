@@ -110,7 +110,7 @@ Para obtener más información, consulte la sección [Configuración de una copi
 
 ## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}} en la consola
 
-Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
+Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
