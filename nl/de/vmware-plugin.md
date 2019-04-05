@@ -54,7 +54,7 @@ Stellen Sie sicher, dass das Energiemanagement auf dem Server, auf dem Sie VRA i
 
 Nachdem VRA installiert wurde, müssen Sie die Software im {{site.data.keyword.backup_notm}}-Portal konfigurieren. 
 
-1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an. Weitere Informationen zum Zugriff auf das {{site.data.keyword.backup_notm}}-Portal finden Sie im [Lernprogramm zur Einführung](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC). 
+1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an. Weitere Informationen zum Zugriff auf das {{site.data.keyword.backup_notm}}-Portal finden Sie im [Lernprogramm zur Einführung](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC). 
 2. Wählen Sie auf der Registerkarte für Computer den Server aus, den Sie sichern möchten. 
 3. Konfigurieren Sie die Vaultinformationen. 
 

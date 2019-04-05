@@ -54,7 +54,7 @@ Assurez-vous que la gestion de l'alimentation est désactivée sur le serveur su
 
 Une fois que vSphere Recovery Agent est installé, vous devez le configurer dans le portail {{site.data.keyword.backup_notm}}.
 
-1. Connectez-vous au portail {{site.data.keyword.backup_notm}}. Pour en savoir plus sur l'accès au portail {{site.data.keyword.backup_notm}}, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC).
+1. Connectez-vous au portail {{site.data.keyword.backup_notm}}. Pour en savoir plus sur l'accès au portail {{site.data.keyword.backup_notm}}, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC).
 2. Sur l'onglet Computers, sélectionnez le serveur pour lequel vous souhaitez effectuer une sauvegarde.
 3. Configurez vos informations de coffre.
 

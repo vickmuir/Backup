@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Configuración de puertos para permitir la comunicación entre el agente de copia de seguridad y el portal de {{site.data.keyword.backup_notm}}
 {: #portinfo}
 
-El agente de {{site.data.keyword.backup_full}} instalado en el servidor debe ser capaz de comunicarse con la caja fuerte que ha adquirido. Encontrará información sobre el host de Director para una cuenta de usuario de {{site.data.keyword.backup_notm}} en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} y en la [consola de {{site.data.keyword.cloud_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window}.
+El agente de {{site.data.keyword.backup_full}} instalado en el servidor debe ser capaz de comunicarse con la caja fuerte que ha adquirido. Encontrará información sobre el host de Director para una cuenta de usuario de {{site.data.keyword.backup_notm}} en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} y en la [consola de {{site.data.keyword.cloud_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}.
 
 Registre siempre los agentes en el portal de {{site.data.keyword.backup_notm}} y en los directores utilizando el nombre de dominio totalmente calificado, ya que las direcciones IP correspondientes a estos servicios pueden cambiar.
 

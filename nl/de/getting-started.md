@@ -18,7 +18,7 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # Lernprogramm zur Einführung
-{: #gettingstarted}
+{: #getting-started}
 
 Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte {{site.data.keyword.backup_notm}}-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.BluSoftlayer_full}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Zusätzliche Plug-ins sorgen für Kompatibilität mit Software wie [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) und [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) und ermöglichen Benutzern die Ausführung einer [Bare-Metal-Wiederherstellung](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), falls erforderlich.
 {:shortdesc}

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-26"
 
-keywords:
+keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Instalación del plugin de restauración desde cero
 {: #BMRplugin}
 
-BMR es una solución de recuperación tras desastre para Microsoft Windows. Puede utilizar BMR para restaurar el servidor desde cero después de que se produzca un desastre, como un error del sistema operativo o del hardware. Con BMR puede restaurar rápidamente la imagen del sistema desde una ubicación segura, gestionada por {{site.data.keyword.BluSoftlayer_full}}.
+BMR es una solución de recuperación tras desastre. Puede utilizar BMR para restaurar el servidor desde cero después de que se produzca un desastre, como un error del sistema operativo o del hardware. Con BMR puede restaurar rápidamente la imagen del sistema desde una ubicación segura, gestionada por {{site.data.keyword.BluSoftlayer_full}}.
 
 BMR es un producto de Microsoft Windows solo para servidores físicos. No está disponible para servidores virtuales. No se da soporte a las distribuciones de restauraciones desde cero de Linux. BMR sólo está soportado por el agente de copia de seguridad 8.30 o versiones anteriores. (30 de junio de 2018).
 {:important}

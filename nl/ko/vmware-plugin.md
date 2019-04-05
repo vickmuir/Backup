@@ -54,7 +54,7 @@ VRA를 설치하는 서버에서 전원 관리를 사용 안함으로 설정해�
 
 VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 구성해야 합니다.
 
-1. {{site.data.keyword.backup_notm}} 포털에 로그인하십시오. {{site.data.keyword.backup_notm}} 포털에 액세스하는 방법에 대한 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC)을 참조하십시오.
+1. {{site.data.keyword.backup_notm}} 포털에 로그인하십시오. {{site.data.keyword.backup_notm}} 포털에 액세스하는 방법에 대한 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC)을 참조하십시오.
 2. 컴퓨터 탭에서 백업할 서버를 선택하십시오.
 3. 저장소 정보를 구성하십시오.
 

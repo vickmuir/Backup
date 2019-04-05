@@ -85,4 +85,4 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
    Falls für die Größe des Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren.
    {:tip}
 
-Wenn Sie bereit sind, installieren Sie den Softwareagenten auf dem Server und richten den Sicherungszeitplan im {{site.data.keyword.backup_notm}}-Portal ein. Weitere Informationen finden Sie im [Lernprogramm zur Einführung](/docs/infrastructure/Backup?topic=Backup-gettingstarted). 
+Wenn Sie bereit sind, installieren Sie den Softwareagenten auf dem Server und richten den Sicherungszeitplan im {{site.data.keyword.backup_notm}}-Portal ein. Weitere Informationen finden Sie im [Lernprogramm zur Einführung](/docs/infrastructure/Backup?topic=Backup-getting-started). 

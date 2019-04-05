@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # Restauración de un trabajo desde otro sistema en Windows 2016
 {: #restorefromother2016}
 
-Siga estos pasos para completar una restauración de archivos desde otro sistema utilizando Windows Central Control en Windows 2016.
+Siga estos pasos para completar una restauración de archivos desde otro sistema utilizando Windows Central Control.
 
 1. Controle de forma remota el servidor Windows 2016 mediante RDP.
 2. Abra CentralControl.

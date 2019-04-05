@@ -54,7 +54,7 @@ Assicurati che il risparmio energia sia disabilitato sul server su cui installi 
 
 Una volta installato VRA, devi configurarlo nel portale {{site.data.keyword.backup_notm}}.
 
-1. Accedi al portale {{site.data.keyword.backup_notm}}. Per ulteriori informazioni su come accedere al portale {{site.data.keyword.backup_notm}}, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-gettingstarted#accessingWebCC).
+1. Accedi al portale {{site.data.keyword.backup_notm}}. Per ulteriori informazioni su come accedere al portale {{site.data.keyword.backup_notm}}, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-getting-started#accessingWebCC).
 2. Nella scheda Computers, seleziona il server di cui vuoi eseguire il backup.
 3. Configura le informazioni sull'archivio.
 

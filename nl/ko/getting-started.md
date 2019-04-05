@@ -18,7 +18,7 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # 시작하기 튜토리얼
-{: #gettingstarted}
+{: #getting-started}
 
 백업은 데이터가 디바이스 외부에 안전하게 저장되어 데이터 유실 시에 보호되도록 보장합니다. {{site.data.keyword.backup_full}}은 {{site.data.keyword.backup_notm}} 포털 브라우저 기반 관리 유틸리티를 통해 관리되는 자동화된 에이전트 기반 백업 시스템입니다. {{site.data.keyword.backup_notm}}은 {{site.data.keyword.BluSoftlayer_full}} 네트워크에서 하나 이상의 데이터 센터의 서버 간에 데이터를 백업하는 방법을 사용자에게 제공합니다. 관리자는 전체 시스템, 특정 디렉토리 또는 심지어 개별 파일을 대상으로 하는 일별, 주별 또는 사용자 정의 스케줄에 따라 백업을 설정할 수 있습니다. 추가 플러그인은 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 등의 소프트웨어와의 호환성을 보장하며 사용자는 이를 사용하여 필요 시에 [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)를 완료할 수 있습니다.
 {:shortdesc}

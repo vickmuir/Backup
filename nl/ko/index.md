@@ -85,4 +85,4 @@ subcollection: Backup
    백업 스토리지 크기가 계속해서 용량 영(0)을 표시하면 두 번째 페이지를 새로 고쳐야 할 수 있습니다.
    {:tip}
 
-준비가 완료되면 서버에 소프트웨어 에이전트를 설치하고 {{site.data.keyword.backup_notm}} 포털에서 백업 스케줄을 설정하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-gettingstarted)을 참조하십시오.
+준비가 완료되면 서버에 소프트웨어 에이전트를 설치하고 {{site.data.keyword.backup_notm}} 포털에서 백업 스케줄을 설정하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-getting-started)을 참조하십시오.

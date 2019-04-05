@@ -86,7 +86,7 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 
 2. {{site.data.keyword.backup_notm}} 포털 사용자 이름과 비밀번호를 입력하십시오.
 
-   {{site.data.keyword.backup_notm}} 사용자 이름과 비밀번호 보기에 대한 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-GettingStarted)를 참조하십시오.
+   {{site.data.keyword.backup_notm}} 사용자 이름과 비밀번호 보기에 대한 자세한 정보는 [백업 서비스 시작하기](/docs/infrastructure/Backup?topic=Backup-getting-started)를 참조하십시오.
    {:tip}
 
 3. 사용자 이름과 비밀번호 이후에는 추가 입력이 필요하지 않습니다. 설치가 진행되면서 화면에 나타나는 프롬프트는 무시해도 됩니다.
@@ -128,4 +128,4 @@ Linux 기반 운영 체제에서 {{site.data.keyword.backup_full}} 클라이언�
 
 **다음 단계**
 
-{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-GettingStarted) 및 [Linux에서 단순 파일 레벨 백업 구성](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)을 참조하십시오.
+{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-getting-started) 및 [Linux에서 단순 파일 레벨 백업 구성](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup)을 참조하십시오.

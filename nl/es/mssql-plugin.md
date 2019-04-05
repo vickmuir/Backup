@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -28,12 +28,12 @@ El plugin SQL Server se instala con el agente Windows en el host de la base de d
 - Puede restaurar bases de datos SQL en la misma instancia de SQL o en otra instancia de SQL,
 - Puede restaurar bases de datos con los nombres de base de datos originales, sobrescribir las bases de datos existentes y restaurar utilizando la opción de no recuperación.
 
-Para obtener más información, consulte la sección [Características principales](#main-features).
+Para obtener más información, consulte la sección [Características principales](#main-featues).
 
 ## Solicitud del plugin
 {: #orderingSQLPlugin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.

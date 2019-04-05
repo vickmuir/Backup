@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -39,7 +39,7 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 ## Solicitud del plugin
 {: #orderingOraclePlugin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.
@@ -54,7 +54,7 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 
 El plugin Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
-Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos servicios de {{site.data.keyword.backup_notm}} en `services.msc`.
+Antes de instalar el plugin, detenga los dos servicios en {{site.data.keyword.backup_notm}} `services.msc`.
 {:tip}
 
 1. Vaya a la carpeta `c:\installs\evault` y ejecute el archivo .exe con el número de revisión más alto.

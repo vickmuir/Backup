@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 Se puede utilizar {{site.data.keyword.backup_full}} para realizar una copia de seguridad de varias aplicaciones. {{site.data.keyword.BluSoftlayer_full}} ofrece agentes de software para algunos de los sistemas de software más comunes de los que se hace copia de seguridad, que incluyen:
 
-- Restauración desde cero
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Los plugins que se muestran aquí solo son compatibles con servidores Windows, excepto el plugin de Oracle. Cada agente está disponible como un complemento del servicio de copia de seguridad. Para añadir un agente al servicio, póngase en contacto hoy mismo con el equipo de ventas.
+Los plugins que se muestran aquí solo son compatibles con servidores Windows, excepto el plugin de Oracle y el de VMware. Cada agente está disponible como un complemento del servicio de copia de seguridad de forma gratuita.
 
 <hr>
 
@@ -96,7 +97,7 @@ Para obtener más información, consulte [Almacenamiento de copia de seguridad !
 
 <hr>
 
-## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_full}} sin poner en riesgo las copias de seguridad?
+## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_notm}} sin poner en riesgo las copias de seguridad?
 {: faq}
 
 Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
@@ -110,7 +111,7 @@ Todavía puede guardar y recuperar sus copias de seguridad, aunque alcance el l�
 
 <hr>
 
-## ¿Cómo puedo configurar notificaciones en el portal de {{site.data.keyword.backup_notm}} para que me avise si fallan las copias de seguridad?
+## ¿Cómo puedo configurar notificaciones en el portal de {{site.data.keyword.backup_notm}} que me permitan saber si fallan las copias de seguridad?
 {: faq}
 
 Las notificaciones se pueden configurar en el separador Avanzado. Siga las instrucciones que encontrará en **Enlaces rápidos** en el portal de {{site.data.keyword.backup_notm}}.
@@ -168,3 +169,10 @@ Una copia de seguridad que se realiza a partir de una instalación predeterminad
 {: faq}
 
 La versión actual del plugin de SQL Server utiliza VSS (Volume Shadow Copy Services) para hacer copias de seguridad. Al utilizar VSS, el plugin de SQL Server realiza una copia de seguridad de las bases de datos SQL, incluidas las bases de datos SQL que abarcan volúmenes. Las copias de seguridad se pueden completar mientras las aplicaciones siguen escribiendo en un volumen. El plugin de SQL Server proporciona coherencia de datos dentro de las bases de datos y entre ellas. VSS permite ejecutar varias copias de seguridad a la vez.
+
+<hr>
+
+## ¿La versión de 32 bits de EVault para Windows 8 aún está soportada?
+{: faq}
+
+No. La versión de 32 bits del agente de software de copia de seguridad se retiró con las ediciones de Windows Server 2008 Standard y Datacenter en marzo de 2017.

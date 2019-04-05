@@ -62,4 +62,4 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 
 ## Configuration des agents de sauvegarde
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-getting-started).

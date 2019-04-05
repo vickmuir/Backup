@@ -20,7 +20,7 @@ subcollection: Backup
 Questa attività è la più comunemente utilizzata dopo che viene ricaricato il sistema operativo di un server. Puoi anche utilizzare questa procedura per [usare i backup di un server per ripristinare i dati su un altro server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Avvia il portale {{site.data.keyword.backup_notm}} ed esegui l'accesso. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
+1. Avvia il portale {{site.data.keyword.backup_notm}} ed esegui l'accesso. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-getting-started).
 
    Ricordati che il portale {{site.data.keyword.backup_notm}} è accessibile solo tramite {{site.data.keyword.BluVPN}}.
    {:tip}

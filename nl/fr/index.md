@@ -85,4 +85,4 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
    Si la taille du stockage de sauvegarde continue à afficher une capacité égale à zéro, actualisez à nouveau la page.
    {:tip}
 
-Lorsque vous êtes prêt, procédez à l'installation de l'agent de logiciel et configurez votre planning de sauvegarde dans le portail {{site.data.keyword.backup_notm}}. Pour en savoir plus, consultez le [tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-gettingstarted).
+Lorsque vous êtes prêt, procédez à l'installation de l'agent de logiciel et configurez votre planning de sauvegarde dans le portail {{site.data.keyword.backup_notm}}. Pour en savoir plus, consultez le [tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-getting-started).

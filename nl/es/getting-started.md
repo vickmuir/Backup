@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -20,7 +20,7 @@ subcollection: Backup
 # Guía de aprendizaje de iniciación
 {: #getting-started}
 
-Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador del portal de {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como Microsoft Exchange y Microsoft SQL y otros tipos de software de terceros y permiten a los usuarios completar una restauración desde cero.
+Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador del portal de {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) y permiten a los usuarios completar una [Restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), cuando sea necesario.
 {:shortdesc}
 
 ## Antes de empezar
@@ -61,6 +61,7 @@ Siga las instrucciones adecuadas para su sistema operativo,
 - [Instalación del cliente de copia de seguridad en Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
+{: #accessingWebCC}
 
 El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración.
 
@@ -68,8 +69,10 @@ El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con t
 
    No se puede acceder al portal de {{site.data.keyword.backup_notm}} a través de la red pública. En primer lugar se debe establecer una conexión VPN.
    {:important}
-2. Acceda a la pantalla de almacenamiento de copia de seguridad en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
-3. Pulse en cualquier lugar de la fila del servicio de {{site.data.keyword.backup_notm}} que desea ver para expandir la vista.
+2. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+2. Pulse en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicios de copia de seguridad.
+3. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
 ## Configuración del agente de copia de seguridad y de la planificación de copias de seguridad
@@ -110,7 +113,7 @@ Para obtener más información, consulte la sección [Configuración de una copi
 
 ## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}} en la consola
 
-Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
+Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
