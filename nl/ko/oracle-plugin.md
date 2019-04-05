@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -39,7 +39,7 @@ Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트�
 ## 플러그인 주문
 {: #orderingOraclePlugin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")]https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
@@ -54,7 +54,7 @@ Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트�
 
 Windows용 Oracle 플러그인은 32비트 또는 64비트 Windows 에이전트로 설치됩니다. 플러그인을 설치하려면 에이전트 설치 킷을 실행하십시오. 플러그인은 **사용자 설치** 페이지에서 옵션으로 나타납니다. 자세한 정보는 [Windows에 {{site.data.keyword.backup_notm}} 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)를 참조하십시오.
 
-Microsoft Windows 서버용 플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
+플러그인을 설치하기 전에 `services.msc`에서 두 {{site.data.keyword.backup_notm}} 서비스를 모두 중지하십시오.
 {:tip}
 
 1. `c:\installs\evault` 폴더를 찾아보고 상위 개정 번호로 .exe 파일을 실행하십시오.

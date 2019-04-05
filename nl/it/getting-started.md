@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -18,9 +18,9 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # Esercitazione introduttiva
-{: #getting-started}
+{: #gettingstarted}
 
-I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. {{site.data.keyword.backup_full}} è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser del portale {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.BluSoftlayer_full}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi assicurano la compatibilità con software come Microsoft Exchange e Microsoft SQL, con altri tipi di software di terze parti e consentono agli utenti di completare un ripristino bare metal laddove necessario.
+I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. {{site.data.keyword.backup_full}} è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser del portale {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.BluSoftlayer_full}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi garantiscono la compatibilità con software come [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) e consentono agli utenti di completare un [Ripristino bare metal](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), laddove necessario.
 {:shortdesc}
 
 ## Prima di iniziare
@@ -61,6 +61,7 @@ Segui le istruzioni appropriate per il tuo sistema operativo,
 - [Installazione del client Backup in Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accesso al portale {{site.data.keyword.backup_notm}} (in precedenza WebCC)
+{: #accessingWebCC}
 
 Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con qualsiasi servizio {{site.data.keyword.backup_notm}} offerto da {{site.data.keyword.BluSoftlayer_full}}. Il portale {{site.data.keyword.backup_notm}} è un client basato su browser eseguito sulla rete privata {{site.data.keyword.BluSoftlayer_full}} e consente il pieno controllo di qualsiasi servizio {{site.data.keyword.backup_notm}}, inclusi la configurazione e i ripristini.
 
@@ -68,13 +69,15 @@ Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con
 
    Non è possibile accedere al portale {{site.data.keyword.backup_notm}} sulla rete pubblica. Per prima cosa deve essere stabilita una connessione VPN.
    {:important}
-2. Accedi alla schermata Backup storage nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
-3. Fai clic dovunque nella riga del servizio {{site.data.keyword.backup_notm}} che vuoi vedere per espandere la vista.
+2. Accedi alla [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
+2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
+3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
 ## Configurazione dell'agent Backup e della pianificazione del backup
 
-Una volta che hai ordinato {{site.data.keyword.backup_notm}} e che l'agent è installato sul server, puoi iniziare a creare i backup dei tuoi dati. Segui questa procedura per configurare l'agent e la pianificazione della conservazione. 
+Una volta che hai ordinato {{site.data.keyword.backup_notm}} e che l'agent è installato sul server, puoi iniziare a creare i backup dei tuoi dati. Segui questa procedura per configurare l'agent e la pianificazione della conservazione.
 
 1. Accedi al portale {{site.data.keyword.backup_notm}}.
 2. Fai clic su **All Agents**> **Unconfigured Agents**.
@@ -110,7 +113,7 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 
 ## Accesso e visualizzazione dei dettagli dell'archiviazione di {{site.data.keyword.backup_notm}} nella console
 
-I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
+I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.

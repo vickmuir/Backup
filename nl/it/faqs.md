@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. {{site.data.keyword.BluSoftlayer_full}} offre anche agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-I plug-in qui elencati sono compatibili solo con i server Windows, fatta eccezione per il plug-in Oracle. Ogni agent è disponibile come componente aggiuntivo per il tuo servizio di backup. Per aggiungere un agent al tuo servizio, contatta un membro del team di vendita oggi stesso.
+I plug-in qui elencati sono compatibili solo con i server Windows, ad eccezione dei plug-in Oracle o VMware. Ogni agent è disponibile come componente aggiuntivo gratuito per il tuo servizio di backup.
 
 <hr>
 
@@ -38,7 +39,7 @@ I plug-in qui elencati sono compatibili solo con i server Windows, fatta eccezio
 
 All'interno del portale {{site.data.keyword.backup_notm}}, i backup possono essere eseguiti manualmente oppure possono essere pianificati come una singola istanza o per essere ricorrenti. I backup ricorrenti possono essere effettuati giornalmente, settimanalmente, mensilmente o in base a una pianificazione personalizzata e possono essere aggiornati o annullati in qualsiasi momento.
 
-I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causare il danneggiamento dei lavori di backup. Questo danneggiamento si verifica perché l'archivio di backup non ha abbastanza tempo per eseguire le attività di manutenzione di background richieste. I lavori di backup hanno la precedenza sulle attività di manutenzione. Quindi, quando i backup vengono eseguiti con un'elevata frequenza, l'archivio continua a eseguire i lavori di backup e causare la crescita del numero di set sicuri.
+I backup molto frequenti eseguiti più volte al giorno o ogni ora possono causare il danneggiamento dei lavori di backup. Questo danneggiamento si verifica perché l'archivio di backup non ha abbastanza tempo per eseguire le attività di manutenzione di background richieste. I lavori di backup hanno la precedenza sulle attività di manutenzione. Pertanto, quando i backup vengono eseguiti con un'elevata frequenza, l'archivio continua a eseguire i lavori di backup e fa aumentare il numero di set sicuri.
 {:note}
 
 <hr>
@@ -97,7 +98,7 @@ Per ulteriori informazioni, vedi [Backup storage ![Icona link esterno](../../ico
 
 <hr>
 
-## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_full}} senza compromettere i backup?
+## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_notm}} senza compromettere i backup?
 {: faq}
 
 Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
@@ -111,7 +112,7 @@ Puoi ancora salvare e richiamare i tuoi backup anche se hai raggiunto il limite 
 
 <hr>
 
-## Come posso configurare le notifiche nel portale {{site.data.keyword.backup_notm}} per essere informato se i miei backup non riescono?
+## Come posso configurare le notifiche nel portale {{site.data.keyword.backup_notm}} che mi consentono di sapere se i miei backup non riescono?
 {: faq}
 
 Le notifiche possono essere configurate nella scheda Advanced. Attieniti alle istruzioni che puoi trovare in **Quick Links** nel portale {{site.data.keyword.backup_notm}}.
@@ -169,3 +170,10 @@ Un backup effettuato da un'installazione predefinita utilizza circa 6 GB. Tale r
 {: faq}
 
 La versione corrente del plug-in SQL Server utilizza VSS (Volume Shadow Copy Services) per completare i backup. Utilizzando VSS, il plug-in SQL Server esegue efficacemente il backup dei database SQL, anche dei database SQL che si estendono sui volumi. I backup possono essere completati mentre le applicazioni continuano a scrivere in un volume. Il plug-in SQL Server fornisce la congruenza dei dati all'interno e tra i database. VSS consente di eseguire più backup contemporaneamente.
+
+<hr>
+
+## È ancora supportata la versione a 32 bit di EVault per Windows 8?
+{: faq}
+
+No. La versione a 32 bit dell'agent software di backup è stata ritirata insieme a Windows Server 2008 Standard Edition e Datacenter Edition a marzo 2017.

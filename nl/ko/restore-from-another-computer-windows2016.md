@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # Windows 2016의 다른 컴퓨터에서 작업 복원
 {: #restorefromother2016}
 
-다음 단계를 수행하면 Windows 2016에서 Windows Central Control을 사용하여 다른 컴퓨터에서의 파일 복원을 완료할 수 있습니다.
+다음 단계를 수행하면 Windows Central Control을 사용하여 다른 컴퓨터에서의 파일 복원을 완료할 수 있습니다.
 
 1. RDP를 통해 Windows 2016 서버를 원격 제어하십시오.
 2. CentralControl을 여십시오.
@@ -28,6 +28,6 @@ subcollection: Backup
 11.	저장소 구성 마법사에서 정보 수집을 마치면 **완료**를 클릭하여 등록을 마치십시오.
 12. 프롬프트가 표시되면 재등록을 진행하고자 하는지를 확인하십시오.
 13. 등록이 완료되면 메뉴 표시줄에서 **복원**을 클릭하십시오.
-9.	적합한 safeset를 선택하고 암호화 비밀번호를 입력하십시오. **다음**을 클릭하십시오.
+9.	적합한 safe-set를 선택하고 암호화 비밀번호를 입력하십시오. **다음**을 클릭하십시오.
 10.	복원할 파일을 선택하고 기본 옵션을 선택한 후에 **완료**를 클릭하십시오.
 11.	복원이 완료되면 저장소 등록을 제거하고 현재 저장소 계정 정보로 재등록하십시오.

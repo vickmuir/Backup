@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} peut être utilisé pour sauvegarder diverses applications. {{site.data.keyword.BluSoftlayer_full}} propose également des agents de logiciel pour certains des systèmes logiciels les plus courants qui sont sauvegardés, notamment :
 
-- Bare Metal Restore
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Les plug-in répertoriés ici ne sont compatibles qu'avec des serveurs Windows, à l'exception du plug-in Oracle. Chaque agent est disponible en tant que module complémentaire pour votre service de sauvegarde. Pour ajouter un agent à votre service, contactez dès maintenant un membre de l'équipe commerciale.
+Les plug-in répertoriés ici ne sont compatibles qu'avec des serveurs Windows, à l'exception des plug-in Oracle et VMware. Chaque agent est disponible gratuitement en tant que module complémentaire de votre service de sauvegarde. 
 
 <hr>
 
@@ -96,7 +97,7 @@ Pour plus d'informations, voir [Stockage de sauvegarde ![Icône de lien externe]
 
 <hr>
 
-## La capacité {{site.data.keyword.backup_full}} peut-elle être augmentée/réduite sans compromettre les sauvegardes ?
+## La capacité {{site.data.keyword.backup_notm}} peut-elle être augmentée/réduite sans compromettre les sauvegardes ?
 {: faq}
 
 Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
@@ -168,3 +169,10 @@ Une sauvegarde qui est réalisée à partir d'une installation par défaut utili
 {: faq}
 
 La version actuelle du plug-in SQL Server utilise VSS (Volume Shadow Copy Services) pour réaliser des sauvegardes. Grâce à VSS, le plug-in SQL Server sauvegarde efficacement des bases de données SQL, même celles qui sont réparties sur plusieurs volumes. Les sauvegardes peuvent être effectuées tandis que les applications continuent d'écrire des données sur un volume. Le plug-in SQL Server permet une cohérence des données dans et entre les bases de données. VSS permet l'exécution simultanée de plusieurs sauvegardes.
+
+<hr>
+
+## La version 32 bits d'EVault for Windows 8 est-elle toujours prise en charge ?
+{: faq}
+
+Non. La version 32 bits de l'agent de logiciel de sauvegarde a été retirée avec les éditions Windows Server 2008 Standard et Datacenter en mars 2017.

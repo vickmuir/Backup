@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
 subcollection: Backup
 
@@ -29,7 +29,7 @@ L'installation du client {{site.data.keyword.backup_full}} sur un système d'exp
 
 A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès du portail {{site.data.keyword.backup_notm}} puis télécharge et installe les fichiers nécessaires à l'exécution du service.
 
-Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le catalogue [{{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){:new_window} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
+Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le catalogue [{{site.data.keyword.cloud_notm}}]https://{DomainName}/catalog){:new_window} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
 {:tip}
 
 Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que mise à niveau dans le portail {{site.data.keyword.slportal}}, procédez comme suit pour installer le logiciel.
@@ -37,7 +37,7 @@ Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que 
 ## Connexion au serveur de l'unité cible
 {: #logintargetLin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des unités serveur disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
@@ -86,7 +86,7 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 2. Entrez votre nom d'utilisateur et votre mot de passe de portail {{site.data.keyword.backup_notm}}.
 
-   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+   Pour plus d'informations sur l'affichage du nom d'utilisateur et du mot de passe {{site.data.keyword.backup_notm}}, voir [Initiation aux services de sauvegarde](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
    {:tip}
 
 3. Une fois le nom d'utilisateur et le mot de passe entrés, aucune autre entrée n'est requise. Vous pouvez en toute sécurité ignorer les invites qui s'affichent à l'écran concernant l'installation.
@@ -128,4 +128,4 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 **Etapes suivantes**
 
-Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Connectez-vous au portail {{site.data.keyword.backup_notm}} pour configurer et gérer vos agents de sauvegarde. Pour plus d'informations, voir [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted) et la rubrique [Configuration d'une sauvegarde simple au niveau fichier sous Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).

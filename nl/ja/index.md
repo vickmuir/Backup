@@ -30,7 +30,7 @@ subcollection: Backup
 {: #purchasingwithserver}
 
 1. [IBM Cloud カタログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog){:new_window} または [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
-2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}を参照してください。
+2. 月次課金のベアメタル・サーバーを注文します。 ベアメタル・サーバーの注文について詳しくは、[カスタム・ベアメタル・サーバーの作成](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}を参照してください。
    1. 数量と課金オプションを選択してください。 ホストとドメインの名前を入力します。 任意のホスト名とドメイン名を選択できます。
 
       {{site.data.keyword.backup_notm}} サービスは、時間課金サーバーを注文する際には選択できません。 ただし、アップグレードとして後からサービスを追加できます。

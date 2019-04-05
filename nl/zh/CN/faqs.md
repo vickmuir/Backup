@@ -101,7 +101,7 @@ subcollection: Backup
 ## 是否可以在不影响备份的情况下增大或减小 {{site.data.keyword.backup_notm}} 容量？
 {: faq}
 
-可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](expanding-capacity.html)。
+可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
 
 <hr>
 

@@ -19,7 +19,7 @@ subcollection: Backup
 # 在 Windows 上配置 BMR 备份作业
 {: #configureBMR}
 
-您需要购买 BMR 插件才能创建 BMR 备份。BMR 仅可用于 Windows 裸机服务器。没有 BMR 选项可用于 VSI。有关更多信息，请参阅[安装 Bare Metal Restore 插件](bmr-plugin.html)
+您需要购买 BMR 插件才能创建 BMR 备份。BMR 仅可用于 Windows 裸机服务器。没有 BMR 选项可用于 VSI。有关更多信息，请参阅[安装 Bare Metal Restore 插件](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站

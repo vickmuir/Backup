@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
 subcollection: Backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 Questa attività è la più comunemente utilizzata dopo che viene ricaricato il sistema operativo di un server. Puoi anche utilizzare questa procedura per [usare i backup di un server per ripristinare i dati su un altro server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Avvia il portale {{site.data.keyword.backup_notm}} ed esegui l'accesso. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+1. Avvia il portale {{site.data.keyword.backup_notm}} ed esegui l'accesso. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 
    Ricordati che il portale {{site.data.keyword.backup_notm}} è accessibile solo tramite {{site.data.keyword.BluVPN}}.
    {:tip}
@@ -28,7 +28,7 @@ Questa attività è la più comunemente utilizzata dopo che viene ricaricato il 
 3. In alto a destra, passa con il mouse su **Edit**.
 4. Seleziona **Vault Settings**.
 5. Fai clic su **Reregister**.
-6. Completare il modulo.
+6. Completa il modulo.
   - Nome archivio
   - Indirizzo archivio
   - Account

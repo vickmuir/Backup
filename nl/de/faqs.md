@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
 subcollection: Backup
 
@@ -24,12 +24,13 @@ subcollection: Backup
 
 {{site.data.keyword.backup_full}} kann zum Sichern verschiedener Anwendungen verwendet werden. {{site.data.keyword.BluSoftlayer_full}} bietet auch Softwareagenten zur Sicherung für einige der gängigeren Softwaresysteme, wie beispielsweise folgende:
 
-- Bare-Metal-Wiederherstellung
-- Microsoft Exchange
-- Microsoft SQL
-- Oracle
+- [Bare-Metal-Wiederherstellung](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
+- [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
+- [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin#MSSQLplugin)
+- [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
+- [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Ausnahme des Oracle-Plug-ins. Jeder Agent ist als Add-on für Ihren Sicherungsservice verfügbar. Wenn Sie einen Agenten zu Ihrem Service hinzufügen wollen, können Sie sich direkt mit einem Mitarbeiter des Vertriebsteams in Verbindung setzen.
+Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Ausnahme des Oracle- oder VMware-Plug-ins. Jeder Agent ist als Add-on für Ihren Sicherungsservice kostenlos verfügbar. 
 
 <hr>
 
@@ -38,7 +39,7 @@ Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Aus
 
 Innerhalb des {{site.data.keyword.backup_notm}}-Portals können Sicherungen manuell erstellt oder als einzelne Instanz geplant oder als wiederholend auszuführend geplant werden. Wiederholte Sicherungen können täglich, wöchentlich, monatlich oder nach einem angepassten Zeitplan erfolgen und jederzeit aktualisiert oder abgebrochen werden.
 
-Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt werden, können zur Beschädigung von Sicherungsjobs führen. Diese Beschädigung tritt auf, weil der Sicherungsvault nicht genügend Zeit erhält, um erforderliche Hintergrundwartungstasks auszuführen. Sicherungsjobs haben Vorrang vor Wartungsaufgaben. Im Falle von sehr häufigen Sicherungen führt der Vault weiterhin die Sicherungsjobs aus und das führt dazu, dass die Anzahl der Sicherungsgruppen zunimmt.
+Sehr häufige Sicherungen, die mehrmals täglich oder stündlich ausgeführt werden, können zur Beschädigung von Sicherungsjobs führen. Diese Beschädigung tritt auf, weil die Sicherungsvault nicht genügend Zeit erhält, um erforderliche Hintergrundwartungstasks auszuführen. Sicherungsjobs haben Vorrang vor Wartungsaufgaben. Im Falle von sehr häufigen Sicherungen führt die Vault weiterhin die Sicherungsjobs aus. Dies bewirkt, dass die Anzahl der Sicherungsgruppen zunimmt.
 {:note}
 
 <hr>
@@ -96,7 +97,7 @@ Weitere Informationen finden Sie in [Sicherungsspeicher ![Symbol für externen L
 
 <hr>
 
-## Kann die Kapazität von {{site.data.keyword.backup_full}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
+## Kann die Kapazität von {{site.data.keyword.backup_notm}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
 Sie können die Vault-Größe im [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
@@ -110,7 +111,7 @@ Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenz
 
 <hr>
 
-## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, um informiert zu werden, wenn meine Sicherungen fehlschlagen?
+## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, die mich darüber informieren, ob meine Sicherungen fehlschlagen? 
 {: faq}
 
 Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** im {{site.data.keyword.backup_notm}}-Portal entsprechend vor.
@@ -168,3 +169,10 @@ Eine Sicherung, die auf Basis einer Standardinstallation erstellt wird, benötig
 {: faq}
 
 Die aktuelle Version des Plug-ins für SQL Server verwendet VSS (Volume Shadow Copy Services, Volumenschattenkopie-Dienste) zur Ausführung von Sicherungen. Mit VSS kann das Plug-in für SQL Server SQL-Datenbanken auch dann effektiv sichern, wenn diese mehrere Datenträger umfassen. Sicherungen können durchgeführt werden, während Anwendungen weiterhin Schreiboperationen auf dem Datenträger ausführen. Das Plug-in für SQL Server bietet Ihnen Datenkonsistenz innerhalb von Datenbanken und auch datenbankübergreifend. VSS ermöglicht die gleichzeitige Ausführung von mehreren Sicherungen.
+
+<hr>
+
+## Wird die 32-Bit-Version von EVault for Windows 8 noch unterstützt? 
+{: faq}
+
+Nein. Die 32-Bit-Version des Backup-Software-Agenten wurde zusammen mit den Windows Server 2008 Standard und Datacenter Editions im März 2017 zurückgezogen. 

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
 subcollection: Backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 Ces étapes sont le plus souvent utilisées après le rechargement du système d'exploitation d'un serveur. Vous pouvez également les exécuter pour [utiliser les sauvegardes d'un serveur afin de restaurer des données sur un autre serveur](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:tip}
 
-1. Démarrez le portail {{site.data.keyword.backup_notm}} et connectez-vous. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+1. Démarrez le portail {{site.data.keyword.backup_notm}} et connectez-vous. Pour plus d'informations, voir le [Tutoriel d'initiation](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 
    N'oubliez pas que le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}

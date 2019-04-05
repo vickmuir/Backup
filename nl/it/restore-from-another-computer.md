@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -27,7 +27,7 @@ Il processo include la ri-registrazione dell'agent Backup sul secondo server per
 **Prerequisiti**
 
 - Server1 e Server2 devono avere lo stesso sistema operativo. I ripristini multipiattaforma non sono supportati.
-- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent backup nel portale {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+- Server1 e Server2 devono avere gli agent backup che erano stati configurati in precedenza. Per ulteriori informazioni sulla configurazione degli agent backup, vedi [Configurazione dell'agent backup nel portale {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-GettingStarted).
 - Un lavoro di backup per Server1 che ha prodotto un backup nell'ubicazione dell'archivio del Server1.
 
 Disabilita tutte le attività pianificate su entrambi i server per evitare conflitti.
@@ -39,7 +39,7 @@ Disabilita tutte le attività pianificate su entrambi i server per evitare confl
 Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottenere l'accesso alla rete privata {{site.data.keyword.BluSoftlayer_full}}, altrimenti il link del portale {{site.data.keyword.backup_notm}} non funziona.
 {:tip}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona Server2. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.

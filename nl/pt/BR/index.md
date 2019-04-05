@@ -30,7 +30,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
 {: #purchasingwithserver}
 
 1. Efetue login no [catálogo do IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog){:new_window} ou no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}
-2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
+2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
    1. Selecione a opção Quantidade, Faturamento. Insira os nomes do host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
 
       O serviço do {{site.data.keyword.backup_notm}} não está disponível quando você solicita um servidor faturado por hora. No entanto, o serviço pode ser incluído posteriormente como um upgrade.

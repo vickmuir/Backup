@@ -30,7 +30,7 @@ subcollection: Backup
 {: #purchasingwithserver}
 
 1. 登入 [IBM Cloud 型錄 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog){:new_window} 或 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}
-2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}。
+2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}。
    1. 選取數量、計費選項。輸入主機及網域名稱。您可以選擇喜歡的任何主機名稱及網域。
 
       訂購按小時計費的伺服器時，無法使用 {{site.data.keyword.backup_notm}} 服務。不過，稍後可用升級方式新增此服務。

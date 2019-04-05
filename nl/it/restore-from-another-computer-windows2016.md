@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # Ripristino di un lavoro da un altro computer su Windows 2016
 {: #restorefromother2016}
 
-Utilizza questa procedura per completare il ripristino di un file da un altro computer utilizzando il Windows Central Control in Windows 2016.
+Utilizza questa procedura per completare un ripristino di file da un altro computer utilizzando Windows Central Control.
 
 1. Esegui il controllo remoto del tuo server Windows 2016 tramite RDP.
 2. Apri CentralControl.

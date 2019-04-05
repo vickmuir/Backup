@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -28,12 +28,12 @@ Le plug-in SQL Server est installé avec l'agent Windows sur l'hôte de base de 
 - Vous pouvez restaurer des bases de données SQL sur la même instance SQL ou une autre.
 - Vous pouvez restaurer des bases de données sous leur nom d'origine, écraser des bases de données existantes et les restaurer à l'aide de l'option Pas de reprise.
 
-Pour plus d'informations, voir la section [Principales caractéristiques](#main-features).
+Pour plus d'informations, voir la section [Principales caractéristiques](#main-featues).
 
 ## Commande du plug-in
 {: #orderingSQLPlugin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
@@ -73,7 +73,7 @@ Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.da
 
 - Possibilité de spécifier à l'aide de caractères génériques (astérisques et points d'interrogation) les noms des bases de données à inclure ou à exclure des travaux de sauvegarde de SQL Server. Les nouvelles bases de données dont les noms correspondent aux filtres d'un travail de sauvegarde sont automatiquement incluses ou exclues lorsque le travail s'exécute.
 - Possibilité de protéger les bases de données secondaires dans des groupes de disponibilité AlwaysOn à l'aide de l'agent 64 bits et du plug-in SQL Server.
-- Possibilité de partager des jeux de données SQL sécurisés contenant des bases de données au contenu SharePoint 2010/2013 pour une utilisation avec l'application Granular Restore for Microsoft SharePoint. Après ce partage, l'application Granular Restore peut être utilisée pour restaurer des collections de sites, des sites Web, des listes, des bibliothèques, des dossiers, des éléments de liste ou des documents.
+- Possibilité de partager des jeux sécurisés SQL contenant des bases de données au contenu SharePoint 2010/2013 pour une utilisation avec l'application Granular Restore for Microsoft SharePoint. Après ce partage, l'application Granular Restore peut être utilisée pour restaurer des collections de sites, des sites Web, des listes, des bibliothèques, des dossiers, des éléments de liste ou des documents.
 - Prise en charge de sauvegardes delta situées sur les volumes répartis.
 - Possibilité de protéger les données en mode de reprise intégrale avec une seule entrée de planning. Cette option permet de protéger les bases de données et de gérer la troncature des journaux de transactions dans une entrée de planning unique.
 - Le plug-in SQL Server gère les sauvegardes intégrales, les sauvegardes intégrales avec inclusion des journaux de transactions et les sauvegardes de journaux de transactions (terminologie mise à jour pour être alignée avec celle de SQL Server). L'application continue à prendre en charge la fonctionnalité de restauration en un seul passage, laquelle permet à un client de sélectionner une sauvegarde de “journal de transactions” basée sur un point de cohérence. {{site.data.keyword.backup_notm}} restaure la base de données complète, ainsi que tous les journaux de transactions nécessaires pour restaurer la base de données au point de cohérence sélectionné.

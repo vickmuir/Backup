@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
 subcollection: Backup
 
@@ -39,7 +39,7 @@ Il plug-in Oracle è un componente aggiuntivo e viene installato con l'agent Win
 ## Ordinazione del plug-in
 {: #orderingOraclePlugin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
@@ -54,7 +54,7 @@ Il plug-in Oracle è un componente aggiuntivo e viene installato con l'agent Win
 
 Il plug-in Oracle per Windows viene installato con l'agent Windows a 32 o 64 bit. Per installare il plug-in, esegui il kit di installazione dell'agent. Il plug-in viene visualizzato come opzione nella pagina **Custom Setup**. Per ulteriori informazioni, vedi [Installazione del client {{site.data.keyword.backup_notm}} in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-Prima di installare il plug-in per il tuo server Microsoft Windows, arresta entrambi i servizi {{site.data.keyword.backup_notm}} in `services.msc`.
+Prima di installare il plug-in, arresta entrambi i servizi {{site.data.keyword.backup_notm}} in `services.msc`.
 {:tip}
 
 1. Passa alla cartella `c:\installs\evault` ed esegui il file .exe con il numero di revisione più alto.

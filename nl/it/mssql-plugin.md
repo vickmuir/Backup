@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -28,12 +28,12 @@ Il plug-in SQL Server viene installato con l'agent Windows sull'host del databas
 - Puoi ripristinare i database SQL nella stessa istanza SQL o in un'istanza SQL diversa.
 - Puoi ripristinare i database con i nomi database originali, sovrascrivere i database esistenti e ripristinare utilizzando l'opzione No Recovery.
 
-Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-features).
+Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-featues).
 
 ## Ordinazione del plug-in
 {: #orderingSQLPlugin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+1. Accedi alla [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
@@ -73,7 +73,7 @@ Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.key
 
 - Possibilità di specificare i nomi dei database da includere ed escludere nei lavori di backup di SQL Server utilizzando caratteri jolly (asterischi e punti interrogativi). I nuovi database con nomi corrispondenti ai filtri di un lavoro di backup vengono automaticamente inclusi o esclusi durante l'esecuzione del lavoro.
 - Possibilità di proteggere i database secondari nei gruppi di disponibilità AlwaysOn utilizzando l'agent a 64 bit e il plug-in SQL Server.
-- Possibilità di condividere i set sicuri SQL che includono database che contiene SharePoint 2010/2013 da utilizzare con l'applicazione Granular Restore per Microsoft SharePoint. Una volta condiviso un set sicuro, l'applicazione Granular Restore può essere utilizzata per ripristinare raccolte di siti, siti web, elenchi, librerie, cartelle, voci di elenco o documenti.
+- Possibilità di condividere set sicuri SQL che contengono database di contenuti SharePoint 2010/2013 da utilizzare con l'applicazione Granular Restore per Microsoft SharePoint. Una volta condiviso il set sicuro, l'applicazione Granular Restore può essere utilizzata per ripristinare raccolte di siti, siti web, elenchi, librerie, cartelle, voci di elenco o documenti.
 - Supporto per il backup Delta di database su volumi con spanning.
 - Possibilità di proteggere i database nel modello di recupero completo con una singola voce di pianificazione. Questa opzione consente di proteggere i database e di gestire il troncamento dei log di transazioni in un'unica voce di pianificazione.
 - Il plug-in SQL Server supporta backup completi, backup completi con i log di transazioni inclusi e backup dei log di transazioni (terminologia aggiornata per allinearla con la terminologia di SQL Server). L'applicazione continua a supportare la funzione di ripristino single pass che consente al cliente di selezionare un backup dei “log di transazioni” a un determinato momento. {{site.data.keyword.backup_notm}} ripristina il database completo e tutti i log di transazioni necessari per ripristinare il database al momento selezionato.

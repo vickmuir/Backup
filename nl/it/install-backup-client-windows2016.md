@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
 subcollection: Backup
 
@@ -120,4 +120,4 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
    Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Seleziona l'opzione di scansione file rapida per evitare la lettura dei file che non sono stati modificati. Fai clic su **Next**.
-7. Fai clic su **Finish** per completare la configurazione e avviare il backup. Viene visualizzata una finestra con le informazioni sul processo che mostra lo stato del lavoro di backup. Al termine del backup, fai clic su **Close**.
+7. Fai clic su **Finish** per completare la configurazione e avviare il backup. Viene visualizzata una finestra con le informazioni sul processo che mostra lo stato del lavoro di backup. Al termine del lavoro di backup, fai clic su **Close**.

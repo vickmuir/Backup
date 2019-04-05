@@ -2,14 +2,14 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-29"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}_
+{:new_window: target="_blank"}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -18,9 +18,9 @@ subcollection: Backup
 {:shortdesc: .shortdesc}
 
 # Tutoriel d'initiation
-{: #getting-started}
+{: #gettingstarted}
 
-Les sauvegardes permettent de stocker en toute sécurité vos données hors de votre appareil et de les protéger si celui-ci venait à être perdu. {{site.data.keyword.backup_full}} est un système de sauvegarde automatisé basé sur un agent qui est géré via l'utilitaire de gestion de portail {{site.data.keyword.backup_notm}} reposant sur un navigateur. {{site.data.keyword.backup_notm}} fournit aux utilisateurs une méthode de sauvegarde des données entre les serveurs d'un ou de plusieurs centres de données sur le réseau {{site.data.keyword.BluSoftlayer_full}}. Les administrateurs peuvent faire en sorte que des sauvegardes soient effectuées tous les jours, toutes les semaines ou définir des sauvegardes personnalisées qui ciblent des systèmes complets, des répertoires spécifiques ou même des fichiers individuels. Des plug-ins supplémentaires permettent la compatibilité avec des logiciels tels que Microsoft Exchange et Microsoft SQL, ainsi qu'avec d'autres types de logiciels tiers. Ils permettent également aux utilisateurs d'effectuer une restauration physique, en cas de besoin.
+Les sauvegardes permettent de stocker en toute sécurité vos données hors de votre appareil et de les protéger si celui-ci venait à être perdu. {{site.data.keyword.backup_full}} est un système de sauvegarde automatisé basé sur un agent qui est géré via l'utilitaire de gestion de portail {{site.data.keyword.backup_notm}} reposant sur un navigateur. {{site.data.keyword.backup_notm}} fournit aux utilisateurs une méthode de sauvegarde des données entre les serveurs d'un ou de plusieurs centres de données sur le réseau {{site.data.keyword.BluSoftlayer_full}}. Les administrateurs peuvent faire en sorte que des sauvegardes soient effectuées tous les jours, toutes les semaines ou définir des sauvegardes personnalisées qui ciblent des systèmes complets, des répertoires spécifiques ou même des fichiers individuels. Des plug-in supplémentaires permettent la compatibilité avec des logiciels tels que [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) ou [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) et permettent aux utilisateurs d'effectuer une [restauration bare metal](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), si nécessaire.
 {:shortdesc}
 
 ## Avant de commencer
@@ -61,6 +61,7 @@ Suivez les instructions correspondant à votre système d'exploitation.
 - [Installation du client de sauvegarde sous Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accès au portail {{site.data.keyword.backup_notm}} (anciennement WebCC)
+{: #accessingWebCC}
 
 Le portail {{site.data.keyword.backup_notm}} est utilisé pour interagir avec un service {{site.data.keyword.backup_notm}} offert par {{site.data.keyword.BluSoftlayer_full}}. Le portail {{site.data.keyword.backup_notm}} est un client reposant sur un navigateur qui s'exécute sur le réseau privé {{site.data.keyword.BluSoftlayer_full}} et permet de contrôler totalement un service {{site.data.keyword.backup_notm}}, notamment pour la configuration et les restaurations.
 
@@ -68,8 +69,10 @@ Le portail {{site.data.keyword.backup_notm}} est utilisé pour interagir avec un
 
    Le portail {{site.data.keyword.backup_notm}} n'est pas accessible via le réseau public. Une connexion VPN doit d'abord être établie.
    {:important}
-2. Accédez à l'écran de stockage de sauvegarde sur le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
-3. Cliquez n'importe où sur la ligne du service {{site.data.keyword.backup_notm}} que vous voulez afficher pour développer la vue.
+2. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
+3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
 ## Configuration de l'agent de sauvegarde et du planning de sauvegarde
@@ -110,7 +113,7 @@ Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau 
 
 ## Accès et examen des détails du stockage du service de stockage {{site.data.keyword.backup_notm}} dans la console
 
-Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} et le portail {{site.data.keyword.slportal}}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
+Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la console [{{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} et le portail {{site.data.keyword.slportal}}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
 
 1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.

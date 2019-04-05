@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-28"
 
-keywords: EVault, Carbonite, IBM Cloud Backup, Enterprise Backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
 subcollection: Backup
 
@@ -29,8 +29,8 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 ## {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 {: #purchasingwithserver}
 
-1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
-2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){:new_window}.
+1. Melden Sie sich beim [IBM Cloud-Katalog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]https://{DomainName}/catalog){:new_window} oder beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} an.
+2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 
       Der {{site.data.keyword.backup_notm}}-Service ist nicht verfügbar, wenn Sie einen Server bestellen, der auf Stundenbasis abgerechnet wird. Der Service kann jedoch später als Upgrade hinzugefügt werden.
@@ -49,7 +49,7 @@ Weitere Informationen zur Preisgestaltung finden Sie unter [{{site.data.keyword.
 An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestätigung der Bereitstellungsbestellung, zur Genehmigung und Verarbeitung der Bereitstellungsbestellung sowie zur Fertigstellung der Bereitstellung. Die E-Mail zur Fertigstellung der Bereitstellung enthält einen Link zu Ihrer Seite *Gerätedetails*, auf die Sie zugreifen können, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 ### {{site.data.keyword.backup_notm}}-Einkauf bestätigen
-1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}){:new_window} oben links auf das **Menüssymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
+1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")]https://{DomainName}){:new_window} oben links auf das **Menüssymbol**. Wählen Sie **Klassische Infrastruktur** aus.</br>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Gerät** > **Geräteliste**.
 2. Suchen Sie nach dem neuen Server, den Sie bestellt haben.
@@ -84,3 +84,5 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
    Falls für die Größe des Speichers weiterhin die Kapazität 0 angezeigt wird, müssen Sie die Seite möglicherweise ein zweites Mal aktualisieren.
    {:tip}
+
+Wenn Sie bereit sind, installieren Sie den Softwareagenten auf dem Server und richten den Sicherungszeitplan im {{site.data.keyword.backup_notm}}-Portal ein. Weitere Informationen finden Sie im [Lernprogramm zur Einführung](/docs/infrastructure/Backup?topic=Backup-gettingstarted). 

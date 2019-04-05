@@ -96,7 +96,7 @@ subcollection: Backup
    4. 单击**确定**。
    5. 单击**保存**。
 
-              有关“保留方案”的更多信息，请参阅[常见问题](faqs.html)。
+              有关“保留方案”的更多信息，请参阅[常见问题](/docs/infrastructure/Backup?topic=Backup-faqs#faqs)。
         {:tip}
 
 ## 运行第一个备份作业

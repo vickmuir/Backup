@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
 subcollection: Backup
 
@@ -13,7 +13,7 @@ subcollection: Backup
 # Job aus anderem Computer unter Windows 2016 wiederherstellen
 {: #restorefromother2016}
 
-Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control unter Windows 2016 durchzuführen.
+Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control durchzuführen. 
 
 1. Aktivieren Sie die Fernsteuerung Ihres Windows 2016-Servers über RDP.
 2. Öffnen Sie Central Control.

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-03-26"
 
-keywords:
+keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
 subcollection: Backup
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Plug-in für Bare-Metal-Wiederherstellung installieren
 {: #BMRplugin}
 
-Die Bare-Metal-Wiederherstellung (BMR, Bare Metal Restore) ist eine Disaster-Recovery-Lösung für Microsoft Windows. Mit BMR können Sie Ihren Server aus einem Bare-Metal-Status nach einem schwerwiegenden Zwischenfall wiederherstellen. Dieser Fall kann beispielsweise eintreten, wenn das Betriebssystem oder eine Hardwarekomponente ausfällt. Mit BMR können Sie das Systemimage schnell von einer sicheren, geschützten Position wiederherstellen, die von {{site.data.keyword.BluSoftlayer_full}} verwaltet wird.
+Die Bare-Metal-Wiederherstellung (BMR, Bare Metal Restore) ist eine Disaster-Recovery-Lösung. Mit BMR können Sie Ihren Server aus einem Bare-Metal-Status nach einem schwerwiegenden Zwischenfall wiederherstellen. Dieser Fall kann beispielsweise eintreten, wenn das Betriebssystem oder eine Hardwarekomponente ausfällt. Mit BMR können Sie das Systemimage schnell von einer sicheren, geschützten Position wiederherstellen, die von {{site.data.keyword.BluSoftlayer_full}} verwaltet wird.
 
 BMR ist ein Produkt, das nur für Microsoft Windows auf physischen Servern geeignet ist. Für virtuelle Server ist es nicht verfügbar. Bare-Metal-Wiederherstellungen für Linux-Distributionen werden nicht unterstützt. BMR wird nur vom Sicherungsagenten (Backup Agent) 8.30 oder früheren Versionen unterstützt. (Stand: 30. Juni 2018)
 {:important}

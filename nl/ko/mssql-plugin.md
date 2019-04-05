@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-02-05"
 
-keywords:
+keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
 subcollection: Backup
 
@@ -28,12 +28,12 @@ SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이
 - 동일한 SQL 인스턴스로 또는 다른 SQL 인스턴스로 SQL 데이터베이스를 복원할 수 있습니다.
 - 원래 데이터베이스 이름으로 데이터베이스를 복원하고 기존 데이터베이스를 겹쳐쓰며 복구 없음 옵션을 사용하여 복원할 수 있습니다.
 
-자세한 정보는 [기본 기능](#main-features) 섹션을 참조하십시오.
+자세한 정보는 [기본 기능](#main-featues) 섹션을 참조하십시오.
 
 ## 플러그인 주문
 {: #orderingSQLPlugin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.<br/>
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")]https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.<br/>
  또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
@@ -73,7 +73,7 @@ Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.
 
 - 와일드카드 문자(별표 및 물음표)를 사용하여 SQL Server 백업 작업에서 포함하고 제외할 데이터베이스의 이름을 지정하는 기능. 백업 작업의 필터와 이름이 일치하는 새 데이터베이스는 작업이 실행될 때 자동으로 포함 또는 제외됩니다.
 - 64비트 에이전트 및 SQL Server 플러그인을 사용하여 AlwaysOn 가용성 그룹에서 보조 데이터베이스를 보호하는 기능.
-- Granular Restore for Microsoft SharePoint 애플리케이션에서 사용할 SharePoint 2010/2013 컨텐츠 데이터베이스가 포함된 SQL safeset를 공유하는 기능. safeset가 공유되면 Granular Restore 애플리케이션을 사용하여 사이트 콜렉션, 웹 사이트, 목록, 라이브러리, 폴더, 목록 항목 또는 문서를 복원할 수 있습니다.
+- Granular Restore for Microsoft SharePoint 애플리케이션에서 사용할 SharePoint 2010/2013 컨텐츠 데이터베이스가 포함된 SQL safe-set를 공유하는 기능. safe-set가 공유되면 Granular Restore 애플리케이션을 사용하여 사이트 콜렉션, 웹 사이트, 목록, 라이브러리, 폴더, 목록 항목 또는 문서를 복원할 수 있습니다.
 - 여러 볼륨에 걸쳐 있는 데이터베이스의 델타 친화적 백업 지원.
 - 단일 스케줄 항목의 전체 복구 모델에서 데이터베이스를 보호하는 기능. 이 옵션을 사용하여 단일 스케줄 항목에서 트랜잭션 로그의 절삭을 관리하고 데이터베이스를 보호할 수 있습니다.
 - SQL Server 플러그인은 전체, 트랜잭션 로그를 포함한 전체 및 트랜잭션 로그 백업을 지원합니다(SQL Server 용어와 맞추기 위해 용어가 업데이트됨). 애플리케이션은 고객이 특정 시점 “트랜잭션 로그” 백업을 선택할 수 있도록 허용하는 단일 패스 복원 기능을 계속해서 지원합니다. {{site.data.keyword.backup_notm}}은 선택된 특정 시점으로 데이터베이스를 복원하는 데 필요한 전체 데이터베이스와 모든 트랜잭션 로그를 복원합니다.
