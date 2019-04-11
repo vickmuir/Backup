@@ -28,7 +28,7 @@ Il plug-in SQL Server viene installato con l'agent Windows sull'host del databas
 - Puoi ripristinare i database SQL nella stessa istanza SQL o in un'istanza SQL diversa.
 - Puoi ripristinare i database con i nomi database originali, sovrascrivere i database esistenti e ripristinare utilizzando l'opzione No Recovery.
 
-Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-featues).
+Per ulteriori informazioni, vedi la sezione [Funzioni principali](#main-features).
 
 ## Ordinazione del plug-in
 {: #orderingSQLPlugin}

@@ -31,7 +31,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 - [サーバーの注文時におけるバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)
 
-ご注文と価格について詳しくは、 [プロビジョニング{{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering) を参照してください。
+ご注文と価格について詳しくは、 [{{site.data.keyword.backup_notm}} のプロビジョニング](/docs/infrastructure/Backup?topic=Backup-ordering) を参照してください。
 
 ## {{site.data.keyword.backup_notm}} エージェントのインストール
 

@@ -20,7 +20,7 @@ IBM Cloud Storage - IBM Cloud バックアップ
         mssql-plugin.md
         oracle-plugin.md
         vmware-plugin.md
-        
+
     {: .topicgroup}
     構成
         install-backup-client-linux.md

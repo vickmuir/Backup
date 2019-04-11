@@ -62,4 +62,4 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 
 ## 백업 에이전트 구성
 
-{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-getting-started)을 참조하십시오.
+{{site.data.keyword.backup_notm}} 포털에 로그인하여 백업 에이전트를 구성하고 관리하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)을 참조하십시오.

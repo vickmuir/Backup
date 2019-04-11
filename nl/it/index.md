@@ -85,4 +85,4 @@ Al tuo amministratore viene inviata una serie di e-mail relative alla conferma d
    Se la dimensione dell'archiviazione di backup continua a mostrare una capacità pari a zero, potrebbe essere necessario un secondo aggiornamento della pagina.
    {:tip}
 
-Quando sei pronto, vai avanti e installa l'agent software sul server e configura la tua pianificazione del backup nel portale {{site.data.keyword.backup_notm}}. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-getting-started).
+Quando sei pronto, vai avanti e installa l'agent software sul server e configura la tua pianificazione del backup nel portale {{site.data.keyword.backup_notm}}. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).

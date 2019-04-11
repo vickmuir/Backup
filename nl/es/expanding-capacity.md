@@ -24,7 +24,7 @@ Los usuarios actuales de {{site.data.keyword.BluSoftlayer_full}} pueden ampliar 
 
 ## Solicitud de un aumento
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/){:new_window} y pulse el icono de **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.<br/>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la caja fuerte que desea ampliar.

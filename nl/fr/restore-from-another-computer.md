@@ -27,7 +27,7 @@ Cette procédure inclut le réenregistrement de l'agent de sauvegarde sur le sec
 **Conditions prérequises**
 
 - Serveur1 et Serveur2 doivent avoir le même système d'exploitation. Les restaurations inter-plateformes ne sont pas prises en charge.
-- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir [Configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-getting-started).
+- Serveur1 et Serveur2 doivent être dotés d'agents de sauvegarde déjà configurés. Pour plus d'informations sur la configuration des agents de sauvegarde, voir [Configuration de l'agent de sauvegarde dans le portail {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - Un travail de sauvegarde pour Serveur1 doit avoir généré une sauvegarde sur l'emplacement de coffre de Serveur1.
 
 Pour éviter tout conflit, désactivez tous les tâches planifiées sur les deux serveurs.

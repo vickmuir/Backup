@@ -29,7 +29,7 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 ## Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 {: #purchasingwithserver}
 
-1. Inicie la sesión en el [catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog/){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
+1. Inicie la sesión en el [catálogo de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog){:new_window} o el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
 2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
@@ -49,7 +49,7 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
 Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 ### Confirmación de la compra de {{site.data.keyword.backup_notm}}
-1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/){:new_window}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
+1. En la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.</br>
    También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
@@ -85,4 +85,4 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
    Si el tamaño de almacenamiento de copia de seguridad sigue mostrando la capacidad cero, es posible que tenga que volver a renovar la página.
    {:tip}
 
-Cuando esté listo, continúe e instale el agente de software en el servidor y configure la planificación de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}. Para obtener más información, consulte [Guía de aprendizaje de iniciación](/docs/infrastructure/Backup?topic=Backup-getting-started).
+Cuando esté listo, continúe e instale el agente de software en el servidor y configure la planificación de copia de seguridad en el portal de {{site.data.keyword.backup_notm}}. Para obtener más información, consulte [Guía de aprendizaje de iniciación](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
