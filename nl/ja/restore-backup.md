@@ -19,7 +19,7 @@ subcollection: Backup
 # バックアップからのリストア
 {: #simplerestore}
 
-{{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) の手順に従ってください。
+{{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) の手順に従ってください。
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始
 {: #startWebCCsimple}

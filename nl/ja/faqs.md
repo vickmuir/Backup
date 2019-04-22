@@ -30,7 +30,7 @@ subcollection: Backup
 - [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-ここにリストされているプラグインは Windows サーバーでのみ互換性があります (Oracle または VMware プラグインは除く)。各エージェントは、ご使用のバックアップ・サービスに対するアドオンとして無料で使用可能です。
+ここにリストされているプラグインは Windows サーバーでのみ互換性があります (Oracle または VMware プラグインは除く)。 各エージェントは、ご使用のバックアップ・サービスに対するアドオンとして無料で使用可能です。
 
 <hr>
 
@@ -111,7 +111,7 @@ subcollection: Backup
 
 <hr>
 
-## バックアップが失敗したかどうかについての通知を {{site.data.keyword.backup_notm}} ポータルで受け取る場合、どのように設定できますか?
+## バックアップが失敗した場合に警告する通知を {{site.data.keyword.backup_notm}} ポータルで受け取る場合、どのように設定できますか?
 {: faq}
 
 通知は「拡張 (Advanced)」タブで設定できます。 {{site.data.keyword.backup_notm}} ポータルの**クイック・リンク**に示されている指示に従ってください。

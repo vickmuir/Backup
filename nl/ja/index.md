@@ -85,4 +85,4 @@ subcollection: Backup
    バックアップ・ストレージ・サイズとして引き続き容量ゼロが表示される場合は、ページの 2 回目のリフレッシュが必要になることがあります。
    {:tip}
 
-準備ができたら、続いて当該ソフトウェア・エージェントをサーバーにインストールし、{{site.data.keyword.backup_notm}} ポータルでバックアップ・スケジュールを設定することができます。詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)を参照してください。
+準備ができたら、続いて当該ソフトウェア・エージェントをサーバーにインストールし、{{site.data.keyword.backup_notm}} ポータルでバックアップ・スケジュールを設定することができます。 詳しくは、[入門チュートリアル](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)を参照してください。
