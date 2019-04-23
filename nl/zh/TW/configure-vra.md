@@ -31,7 +31,7 @@ subcollection: Backup
 {:important}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
@@ -50,7 +50,7 @@ subcollection: Backup
    * 在**目的地**清單中，選取您要在其中儲存備份資料的儲存庫。
    * 在**密碼**和**確認密碼**欄位中，鍵入加密密碼。您也可以在「密碼提示」欄位中鍵入密碼提示。
    只有在儲存庫已指派給使用者，或是使用者已將它新增至電腦的「儲存庫設定」中時，儲存庫才會出現在清單中。<br/>
-   對於新的備份工作，加密方法是 AES 256 位元。現有工作可能使用其他加密方法。
+      對於新的備份工作，加密方法是 AES 256 位元。現有工作可能使用其他加密方法。
    {:note}
 
 5.	在**包括在備份中**欄位中，執行下列一個以上步驟，直到「備份集」欄位顯示您要包括在備份工作中的 VM 為止。

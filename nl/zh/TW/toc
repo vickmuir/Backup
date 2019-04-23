@@ -6,13 +6,14 @@ IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
     getting-started.md
+    network-diagram.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     佈建
         index.md
-
+        
     {: .topicgroup}
     外掛程式
         bmr-plugin.md
@@ -20,7 +21,7 @@ IBM Cloud Storage - IBM Cloud Backup
         mssql-plugin.md
         oracle-plugin.md
         vmware-plugin.md
-        
+
     {: .topicgroup}
     配置
         install-backup-client-linux.md

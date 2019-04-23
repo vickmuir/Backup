@@ -50,7 +50,7 @@ subcollection: Backup
 
 ### 確認 {{site.data.keyword.backup_notm}} 購買
 1. 在 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window} 中，按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**裝置** > **裝置清單**。
 2. 找出您已訂購的新伺服器。
   - 如果您看到 URL 旁邊有時鐘圖示，則您需要等待，以繼續進行 {{site.data.keyword.backup_notm}} 購買確認。您可以重新整理頁面，以查看新伺服器的更新狀態。不再出現時鐘圖示時，您便可以繼續進行接下來的步驟，以確認 {{site.data.keyword.backup_notm}} 服務購買。

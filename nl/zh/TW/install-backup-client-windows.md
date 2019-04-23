@@ -29,7 +29,7 @@ subcollection: Backup
 {: #logintargetWin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/catalog){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 從主功能表選取**裝置** > **裝置清單**，以查看可用伺服器裝置的清單。
 3. 找出您已為其購買 {{site.data.keyword.backup_notm}} 服務的裝置，並記下其公用 IP 位址。
 4. 按一下指向右方的箭頭來展開並顯示裝置的相關資訊，包括使用者名稱和密碼。如果未顯示密碼，則按一下**顯示密碼**即會顯示密碼。

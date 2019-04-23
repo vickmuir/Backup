@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-04-01"
 
-keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
+keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
 subcollection: Backup
 
@@ -71,7 +71,7 @@ subcollection: Backup
   * 若要從較舊的安全集中還原，請按一下「瀏覽安全集」按鈕。在出現的行事曆中，按一下您要從中還原的安全集的日期。在行事曆右側，按一下您要從中還原的特定安全集。
 7. 在**要還原的項目**畫面中，選取含有您要還原之檔案或資料夾的 VM。
 8. 在**加密密碼**欄位中，輸入資料加密密碼。
-9. 在**閒置時間**欄位中，輸入閒置的分鐘數，在此期間之後，共用磁碟機會自動解除共用。閒置時間的範圍可以從 2 - 180 分鐘不等。
+9. 在**閒置時間**欄位中，輸入閒置的分鐘數，在此期間之後，共用磁碟機會自動解除共用。閒置時間的範圍從 2 - 180 分鐘不等。
 
     只要複製新資料，磁碟機就不會解除共用。如果您多次從共用磁碟機複製相同的資料，則系統可能逾時，因為未讀取到新資料。
     {:note}

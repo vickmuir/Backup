@@ -111,7 +111,7 @@ subcollection: Backup
 
 <hr>
 
-## 如何在 {{site.data.keyword.backup_notm}} 入口網站中設定通知，讓我知道備份是否失敗？
+## 如何在 {{site.data.keyword.backup_notm}} 入口網站中設定通知，警告我備份是否失敗？
 {: faq}
 
 您可以在「進階」標籤上設定通知。請在 {{site.data.keyword.backup_notm}} 入口網站的**快速鏈結**中尋找相關指示。

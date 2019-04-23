@@ -29,7 +29,7 @@ subcollection: Backup
 {:important}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
@@ -62,4 +62,4 @@ subcollection: Backup
 ## 執行 BMR 備份工作
 
   - 如果已排定時間型備份工作，則不需要執行其他任何作業。您的工作會依排程自動執行。
-  - 如果您設定手動工作（不含時間型排程），則可以在工作清單中選取其列，然後按一下**執行備份**來執行它。<br/> 如同時間型工作，您可以選擇**保留方法**和**進階備份選項**。在您完成配置選擇之後，請按一下**啟動備份**來啟動工作。
+  - 如果您設定手動工作（不含時間型排程），則可以在工作清單中選取其列，然後按一下**執行備份**。<br/> 如同時間型工作，您可以選擇**保留方法**和**進階備份選項**。在您完成配置選擇之後，請按一下**啟動備份**來啟動工作。
