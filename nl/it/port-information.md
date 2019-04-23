@@ -19,7 +19,7 @@ subcollection: Backup
 # Configurazione delle porte per consentire le comunicazioni tra l'agent backup e il portale {{site.data.keyword.backup_notm}}
 {: #portinfo}
 
-L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host Director per un account utente {{site.data.keyword.backup_notm}} sono disponibili nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window} e nella console [{{site.data.keyword.cloud_notm}}![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]https://{DomainName}){:new_window}.
+L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host Directory per un account utente {{site.data.keyword.backup_notm}} sono disponibili nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window} e nella [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window}.
 
 Registra sempre gli agent sul portale {{site.data.keyword.backup_notm}} e sui director utilizzando il nome di dominio completo (FQDN, Full Qualified Domain Name) perché gli indirizzi IP di questi servizi potrebbero cambiare.
 

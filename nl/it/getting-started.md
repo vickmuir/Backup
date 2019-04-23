@@ -26,7 +26,7 @@ I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'ester
 ## Prima di iniziare
 {: #prereqs}
 
-Devi avere una licenza valida per utilizzare il backup di IBM Cloud. Puoi acquistare il servizio {{site.data.keyword.backup_notm}} in due modi.
+Devi avere una licenza valida per utilizzare IBM Cloud Backup. Puoi acquistare il servizio {{site.data.keyword.backup_notm}} in due modi.
 
 - [Acquisto di backup quando ordini un server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Acquisto di backup come un upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
@@ -69,7 +69,7 @@ Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con
 
    Non è possibile accedere al portale {{site.data.keyword.backup_notm}} sulla rete pubblica. Per prima cosa deve essere stabilita una connessione VPN.
    {:important}
-2. Accedi alla [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
+2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
@@ -113,7 +113,7 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 
 ## Accesso e visualizzazione dei dettagli dell'archiviazione di {{site.data.keyword.backup_notm}} nella console
 
-I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
+I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.

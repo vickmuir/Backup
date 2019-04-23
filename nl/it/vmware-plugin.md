@@ -93,7 +93,7 @@ Una volta registrato correttamente l'archivio, è necessario configurare le impo
 
 3. Disabilita la funzione CBT (Change Block Tracking) rimuovendo il segno di spunta. CBT è una funzione VMware abilitata automaticamente dall'agent vSphere che tiene traccia dei settori di dischi modificati e migliora le prestazioni dei backup delle VM.
 4. Fai clic su **Test vCenter Connection**. Una nuova finestra visualizza i risultati. Se le informazioni di accesso fornite sono corrette, viene visualizzato il messaggio “The vCenter credentials have been validated successfully”.
-5. Fai clic su **Save** per salvare le impostazioni. 
+5. Fai clic su **Save** per salvare le impostazioni.
 
 ## Passi successivi
 {: #VRAnextteps}

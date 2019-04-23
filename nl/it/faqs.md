@@ -112,7 +112,7 @@ Puoi ancora salvare e richiamare i tuoi backup anche se hai raggiunto il limite 
 
 <hr>
 
-## Come posso configurare le notifiche nel portale {{site.data.keyword.backup_notm}} che mi consentono di sapere se i miei backup non riescono?
+## Come posso configurare le notifiche nel portale {{site.data.keyword.backup_notm}} che possono segnalarmi se un backup non riesce?
 {: faq}
 
 Le notifiche possono essere configurate nella scheda Advanced. Attieniti alle istruzioni che puoi trovare in **Quick Links** nel portale {{site.data.keyword.backup_notm}}.

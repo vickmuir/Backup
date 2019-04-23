@@ -1,18 +1,19 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-getting-started" path="infrastructure/Backup"}
+{: .toc subcollection="Backup" audience="services" href="/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started" path="infrastructure/Backup"}
 IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
     getting-started.md
+    network-diagram.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
         index.md
-
+        
     {: .topicgroup}
     Plug-in
         bmr-plugin.md
@@ -20,7 +21,7 @@ IBM Cloud Storage - IBM Cloud Backup
         mssql-plugin.md
         oracle-plugin.md
         vmware-plugin.md
-        
+
     {: .topicgroup}
     Configurazione
         install-backup-client-linux.md

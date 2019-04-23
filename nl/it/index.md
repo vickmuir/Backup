@@ -29,7 +29,7 @@ Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} s
 ## Acquisto {{site.data.keyword.backup_notm}} quando ordini un server
 {: #purchasingwithserver}
 
-1. Accedi al [catalogo IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]https://{DomainName}/catalog){:new_window} oppure al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}
+1. Accedi al [catalogo IBM Cloud ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog){:new_window} oppure al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}
 2. Ordina un server bare metal mensile. Per ulteriori informazioni sull'ordinazione di server bare metal, vedi [Creazione di un server bare metal personalizzato](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
    1. Seleziona la quantità e l'opzione di fatturazione. Immetti i nomi di host e dominio. Puoi scegliere il nome host e dominio che preferisci.
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} s
 Al tuo amministratore viene inviata una serie di e-mail relative alla conferma di ricezione dell'ordine di provisioning, all'approvazione ed elaborazione dell'ordine di Provisioning e al completamento del Provisioning. L'e-mail sul completamento del Provisioning include un collegamento alla tua pagina *Device Details* a cui puoi accedere dopo l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
 
 ### Conferma dell'acquisto di {{site.data.keyword.backup_notm}}
-1. Nella [console {{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")]https://{DomainName}){:new_window}, fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
+1. Nella [console {{site.data.keyword.cloud_notm}}![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window}, fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
    In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Fai clic su **Device** > **Device List**.
 2. Individua il nuovo server che hai ordinato.
