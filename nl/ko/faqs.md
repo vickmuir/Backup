@@ -111,7 +111,7 @@ subcollection: Backup
 
 <hr>
 
-## 내 백업이 실패하는 경우 알림을 받으려면 {{site.data.keyword.backup_notm}} 포털에서 알림을 어떻게 설정할 수 있습니까?
+## 백업이 실패하는 경우에 경고를 받을 수 있도록 {{site.data.keyword.backup_notm}} 포털에서 알림을 설정하려면 어떻게 해야 합니까?
 {: faq}
 
 고급 탭에서 알림을 설정할 수 있습니다. {{site.data.keyword.backup_notm}} 포털의 **빠른 링크**에 있는 지시사항을 따르십시오.

@@ -50,7 +50,7 @@ subcollection: Backup
 
 ### 确认 {{site.data.keyword.backup_notm}} 购买
 1. 在 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。
   - 如果 URL 旁边有“时钟”图标，那么您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买信息。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
@@ -64,7 +64,7 @@ subcollection: Backup
 ### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**。找到要添加备份服务的设备。
 3. 单击设备名以转至**设备详细信息**页面。
 

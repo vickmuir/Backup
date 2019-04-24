@@ -19,7 +19,7 @@ subcollection: Backup
 # 使用备份进行复原
 {: #simplerestore}
 
-使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示信息。
+使用以下步骤来通过 {{site.data.keyword.backup_full}} 完成文件复原。要复原系统映像，请遵循 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示信息。
 
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
 {: #startWebCCsimple}
@@ -28,7 +28,7 @@ subcollection: Backup
 {:important}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要复原的文件所在的服务器。单击箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站**，以在浏览器中启动 {{site.data.keyword.backup_notm}} 门户网站客户机。

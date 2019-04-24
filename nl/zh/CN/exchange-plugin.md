@@ -29,7 +29,7 @@ Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.
 {: #orderingExchangePlugin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - Exchange**，然后单击**继续**。
@@ -47,8 +47,8 @@ Exchange 插件在 Windows 代理程序 64 位安装期间进行安装。该插�
 {:tip}
 
 1. 浏览至 `c:\installs\{{site.data.keyword.backup_notm}}` 文件夹，然后运行具有更高修订版号的 .exe 文件。
-2. 在语言屏幕上，单击**确定**。
-3. 在欢迎屏幕上，单击**下一步**。
+2. 在语言屏幕上，单击**确定**
+3. 在欢迎屏幕上，单击**下一步**
 4. 选择**修改安装**，然后单击**下一步**。
 5. 选择**保留不变**，然后单击**下一步**。
 6. 在定制安装屏幕上，选择已购买的每个插件。

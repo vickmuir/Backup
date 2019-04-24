@@ -58,7 +58,7 @@ VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 �
 2. 컴퓨터 탭에서 백업할 서버를 선택하십시오.
 3. 저장소 정보를 구성하십시오.
 
-   저장소 정보는 두 가지 방법, 즉, **자동** 또는 **수동**으로 구성할 수 있습니다.<br/>에이전트를 처음으로 구성하는 경우, [자동 구성](#VRAautoconfig) 옵션을 사용하여 구성할 수 있습니다.<br/>컴퓨터가 이전에 저장소에 등록된 경우, 자동 구성이 작동하지 않으며 저장소를 [수동으로 구성](#VRAmanualconfig)해야 합니다.
+   저장소 정보는 **자동** 또는 **수동**으로 구성할 수 있습니다.<br/>에이전트를 처음에 구성하는 경우 [자동 구성](#VRAautoconfig) 옵션을 사용하여 구성 가능합니다.<br/>컴퓨터가 이전에 저장소에 등록된 경우 자동 구성이 작동하지 않으며 저장소를 [수동으로 구성](#VRAmanualconfig)해야 합니다.
    {: tip}
 
 4. [vCenter 설정](#vCenterSettingsconfig) 구성   
@@ -92,7 +92,7 @@ VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 �
 
 3. 체크 표시를 제거하여 CBT(Change Block Tracking)를 사용 안함으로 설정하십시오. CBT는 변경된 디스크 섹터를 추적하고 VM 백업의 성능을 개선하는 VMware 기능이며 vSphere Agent에 의해 자동으로 사용 가능으로 설정되어 있습니다.
 4. **vCenter 연결 테스트**를 클릭하십시오. 새 창에 결과가 표시됩니다. 제공된 로그인 정보가 올바르면 “The vCenter credentials have been validated successfully” 메시지가 표시됩니다.
-5. **저장**을 클릭하여 설정을 저장하십시오. 
+5. **저장**을 클릭하여 설정을 저장하십시오.
 
 ## 다음 단계
 {: #VRAnextteps}

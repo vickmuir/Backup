@@ -29,7 +29,7 @@ subcollection: Backup
 ## 서버 주문 시 {{site.data.keyword.backup_notm}} 구매
 {: #purchasingwithserver}
 
-1. [IBM Cloud 카탈로그 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")]https://{DomainName}/catalog){:new_window} 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인하십시오.
+1. [IBM Cloud 카탈로그 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog){:new_window} 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인하십시오.
 2. 월별 베어메탈 서버를 주문하십시오. 베어메탈 서버 주문에 대한 자세한 정보는 [사용자 정의 Bare Metal Server 빌드](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}를 참조하십시오.
    1. 수량, 청구 옵션을 선택하십시오. 호스트 및 도메인 이름을 입력하십시오. 원하는 호스트 이름과 도메인을 선택할 수 있습니다.
 
@@ -49,8 +49,8 @@ subcollection: Backup
 일련의 이메일이 관리자에게 발송됩니다(프로비저닝 주문의 수신확인, 프로비저닝 주문 승인 및 처리, 프로비저닝 완료). 프로비저닝 완료 이메일에는 {{site.data.keyword.cloud_notm}}에 로그인한 후에 액세스할 수 있는 *디바이스 세부사항* 페이지에 대한 링크가 포함됩니다. {{site.data.keyword.slportal}}에 직접 로그인할 수도 있습니다.
 
 ### {{site.data.keyword.backup_notm}} 구매 확인
-1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")]https://{DomainName}){:new_window}의 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.</br>
- 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}의 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. </br>
+    또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **디바이스** > **디바이스 목록**을 클릭하십시오.
 2. 주문한 새 서버를 찾으십시오.
   - url 옆에 시계 아이콘이 표시되면 잠시 대기한 후에 {{site.data.keyword.backup_notm}} 구매 확인을 진행해야 합니다. 페이지를 새로 고쳐서 새 서버에서 업데이트된 상태를 볼 수 있습니다. 시계 아이콘이 사라지면 다음 단계를 진행하여 {{site.data.keyword.backup_notm}} 서비스 구매를 확인할 수 있습니다.
@@ -63,8 +63,8 @@ subcollection: Backup
 
 ### {{site.data.keyword.backup_notm}}이 설치될 서버 선택
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.</br>
- 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. </br>
+    또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. 기본 메뉴에서 **디바이스** > **디바이스 목록**을 선택하십시오. 백업 서비스를 추가하려는 디바이스를 찾으십시오.
 3. 디바이스 이름을 클릭하여 **디바이스 세부사항** 페이지로 이동하십시오.
 

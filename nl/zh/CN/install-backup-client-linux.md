@@ -38,12 +38,12 @@ subcollection: Backup
 {: #logintargetLin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
   - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 5 所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
 4. 单击向右箭头以显示有关设备的更多信息，包括用户名和密码。
-  - 如果未显示密码，可通过单击**显示密码**来显示密码。在下一步中，将使用该用户名和密码来登录到测试设备。在下面的命令中，将 `<user name>` 替换为实际的用户名。
+  - 如果未显示密码，可通过单击**显示密码**来显示密码。在下一步中，将使用该用户名和密码来登录到测试设备。将 `<user name>` 替换为实际的用户名。
 5. 通过在 Unix 或 Linux 命令行中输入以下命令，登录到目标设备。
    ```
   ssh <user name>@<publicIpAddress>

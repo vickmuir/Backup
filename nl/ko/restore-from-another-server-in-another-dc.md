@@ -39,8 +39,8 @@ subcollection: Backup
 반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면, {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔]https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+   또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. Server2를 선택하십시오. 오른쪽 화살표를 클릭하여 {{site.data.keyword.backup_notm}} 포털 링크를 표시하십시오.
 4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.
@@ -80,7 +80,7 @@ subcollection: Backup
 12. 복원할 파일을 선택하십시오.
 13. 더하기 부호를 클릭하여 파일 선택사항을 펼치십시오.
 14. server1에서 server2로 복원할 개별 파일 또는 폴더의 선택란을 클릭하십시오. 그런 다음 **포함**을 클릭하십시오.
-15. 파일이 오른쪽의 백업 설정 창을 채웁니다. **다음**을 클릭하십시오.
+15. 파일이 오른쪽의 백업 세트 창을 채웁니다. **다음**을 클릭하십시오.
 16. 데이터 선택을 완료한 후 옵션 선택을 진행하십시오.
     - **원래 위치로 복원**을 선택하십시오.
     - **기존 파일 겹쳐쓰기**를 선택하십시오.

@@ -29,7 +29,7 @@ subcollection: Backup
 {:important}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
@@ -62,4 +62,4 @@ subcollection: Backup
 ## 运行 BMR 备份作业
 
   - 如果安排了基于时间的备份作业，那么无需执行其他任何操作。您的作业将自动按安排运行。
-  - 如果设置的是手动作业（没有基于时间的安排），那么可以通过在作业列表中选择该作业所在行，然后单击**运行备份**来运行该作业。<br/> 对于基于时间的作业，可以选择**保留方案**和**高级备份选项**。完成配置选项后，单击**启动备份**以启动作业。
+  - 如果设置的是手动作业（没有基于时间的安排），那么可以通过在作业列表中选择该作业所在行，然后单击**运行备份**来运行该作业。<br/>对于基于时间的作业，可以选择**保留方案**和**高级备份选项**。完成配置选项后，单击**启动备份**以启动作业。

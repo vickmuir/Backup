@@ -112,7 +112,7 @@ subcollection: Backup
 
 <hr>
 
-## 如何在 {{site.data.keyword.backup_notm}} 门户网站中设置通知，以便了解我的备份是否失败？
+## 如何在 {{site.data.keyword.backup_notm}} 门户网站中设置通知，以便在备份失败时提醒我？
 {: faq}
 
 可以在“高级”选项卡上设置通知。请按照在 {{site.data.keyword.backup_notm}} 门户网站中的**快速链接**中找到的指示信息执行操作。
