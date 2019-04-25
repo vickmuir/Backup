@@ -41,7 +41,7 @@ Die Sicherung auf fernen Positionen von Rechenzentren kann mehr Zeit in Anspruch
 Sie müssen den neuen fernen Vault zum Konto hinzufügen, bevor eine neue Sicherungsposition im {{site.data.keyword.backup_notm}}-Portal hinzugefügt werden kann.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Geräte**.
 3. Suchen Sie den Link für den betreffenden Server und klicken Sie auf den Link.
@@ -57,7 +57,7 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
 
 ## Zusätzliche Vault zum {{site.data.keyword.backup_notm}}-Portal hinzufügen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.<br/>
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
    Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie den Server aus, für den Sicherungen mit mehreren Vaults möglich sein sollen. Klicken Sie auf den nach rechts zeigenden Pfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
@@ -70,7 +70,7 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
 7. Klicken Sie im Fenster **Vaulteinstellungen** auf **Hinzufügen**.
 8. Führen Sie im Fenster **Neue Vault** folgende Schritte aus.
   1. Wählen Sie im Menü 'Vaultprofil' die Option **Vaulteinstellungen eingeben** aus, um einen neuen Eintrag zu erstellen. Aktualisieren Sie den vorhandenen Eintrag nicht.
-  2. Der Vaultname darf nicht mit dem Namen des anderen Vaults identisch sein. Versuchen Sie, das Tag `-2` am Ende des Namens hinzuzufügen. <br/>
+  2. Der Vaultname darf nicht mit dem Namen des anderen Vaults identisch sein. Versuchen Sie, den Tag `-2` am Ende des Namens hinzuzufügen. <br/>
 
      Das Feld für den Vault-Namen hat eine Begrenzung von 15 Zeichen.
      {:important}

@@ -82,7 +82,7 @@ Diese Task erfolgt durch eine Reihe von Interaktionen, während Sie bei dem Serv
 
    Der Eintrag kann maximal 32 alphanumerische Zeichen lang sein. Die Verwendung von Leerzeichen ist nicht zulässig, Unterstreichungszeichen (`_`) und Gedankenstriche (`-`) dürfen jedoch benutzt werden.
    {:important}
-6. Geben Sie die Anzahl der Tage für die Onlineaufbewahrung und die Anzahl der Kopien für diesen Aufbewahrungstyp ein. Klicken Sie anschließend auf **Weiter**.<br/>
+6. Geben Sie die Anzahl der Tage für die Onlineaufbewahrung und die Anzahl der Kopien für diesen Aufbewahrungstyp ein. Klicken Sie dann auf **Weiter**.<br/>
 
    Die Kombination aus Aufbewahrungszeitraum und Kopien wird verwendet, um sicherzustellen, dass eine Mindestdauer und eine bestimmte Anzahl von Sicherungen aufbewahrt werden.
    {:tip}

@@ -13,7 +13,7 @@ subcollection: Backup
 # Job aus anderem Computer unter Windows 2016 wiederherstellen
 {: #restorefromother2016}
 
-Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control durchzuführen. 
+Verwenden Sie die nachfolgenden Schritte, um eine Dateiwiederherstellung aus einem anderen Computer mithilfe von Windows Central Control durchzuführen.
 
 1. Aktivieren Sie die Fernsteuerung Ihres Windows 2016-Servers über RDP.
 2. Öffnen Sie Central Control.

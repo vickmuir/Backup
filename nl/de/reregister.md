@@ -40,6 +40,6 @@ Diese Task wird am häufigsten nach dem erneuten Laden des Betriebssystems eines
 7. Klicken Sie auf **Computer laden** und wählen Sie aus, welche Computer geladen werden sollen.
 8. Klicken Sie auf **Änderungen speichern**.
 9. Aktualisieren Sie die Website, um vorherige Sicherungsjobs wiederherzustellen.
-10. Synchronisieren Sie jeden Sicherungsjob mit dem Protokoll der Sicherungsgruppe für die Wiederherstellung. 
+10. Synchronisieren Sie jeden Sicherungsjob mit dem Protokoll der Sicherungsgruppe für die Wiederherstellung.
 11. Falls die Sicherungsjobs unter Verwendung eines Verschlüsselungskennworts erstellt wurden, müssen Sie das Verschlüsselungskennwort eingeben, um die Daten wiederherzustellen oder weitere Sicherungen zu erstellen.
 12. Klicken Sie auf **Schließen**.

@@ -30,7 +30,7 @@ subcollection: Backup
 - [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Ausnahme des Oracle- oder VMware-Plug-ins. Jeder Agent ist als Add-on für Ihren Sicherungsservice kostenlos verfügbar. 
+Die hier aufgeführten Plug-ins sind nur mit Windows-Servern kompatibel, mit Ausnahme des Oracle- oder VMware-Plug-ins. Jeder Agent ist als Add-on für Ihren Sicherungsservice kostenlos verfügbar.
 
 <hr>
 
@@ -111,7 +111,7 @@ Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenz
 
 <hr>
 
-## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, die mich darüber informieren, ob meine Sicherungen fehlschlagen? 
+## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, die mich informieren, wenn eine Sicherung fehlschlägt? 
 {: faq}
 
 Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** im {{site.data.keyword.backup_notm}}-Portal entsprechend vor.
@@ -172,7 +172,7 @@ Die aktuelle Version des Plug-ins für SQL Server verwendet VSS (Volume Shadow C
 
 <hr>
 
-## Wird die 32-Bit-Version von EVault for Windows 8 noch unterstützt? 
+## Wird die 32-Bit-Version von EVault for Windows 8 noch unterstützt?
 {: faq}
 
-Nein. Die 32-Bit-Version des Backup-Software-Agenten wurde zusammen mit den Windows Server 2008 Standard und Datacenter Editions im März 2017 zurückgezogen. 
+Nein. Die 32-Bit-Version des Backup-Software-Agenten wurde zusammen mit den Windows Server 2008 Standard und Datacenter Editions im März 2017 zurückgezogen.
