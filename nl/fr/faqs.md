@@ -30,7 +30,7 @@ subcollection: Backup
 - [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)
 - [VMware VRA](/docs/infrastructure/Backup?topic=Backup-VRA#VRA)
 
-Les plug-in répertoriés ici ne sont compatibles qu'avec des serveurs Windows, à l'exception des plug-in Oracle et VMware. Chaque agent est disponible gratuitement en tant que module complémentaire de votre service de sauvegarde. 
+Les plug-in répertoriés ici ne sont compatibles qu'avec des serveurs Windows, à l'exception des plug-in Oracle et VMware. Chaque agent est disponible gratuitement en tant que module complémentaire de votre service de sauvegarde.
 
 <hr>
 
@@ -111,7 +111,7 @@ Vous pouvez toujours enregistrer et récupérer vos sauvegardes même si vous av
 
 <hr>
 
-## Comment configurer des notifications dans le portail {{site.data.keyword.backup_notm}} pour savoir si des sauvegardes échouent ?
+## Comment configurer des notifications dans le portail {{site.data.keyword.backup_notm}} pour être alerté lorsqu'une sauvegarde échoue ?
 {: faq}
 
 Vous pouvez configurer des notifications dans l'onglet Avancé. Suivez les instructions qui figurent dans les **Liens rapides** du portail {{site.data.keyword.backup_notm}}.

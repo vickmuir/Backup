@@ -24,7 +24,7 @@ Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site
 ## Initialisation du système BMR Rescue Kernel
 
 Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.keyword.slportal}}.
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}]https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez sur la **flèche** en regard du coffre.
@@ -39,7 +39,7 @@ Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.ke
   Les deux méthodes fonctionnent bien.
 2. Lorsque vous vous connectez pour la première fois à BMR Rescue Kernel, vous êtes accueilli par un écran de sélection de langue. Sélectionnez celle de votre choix, puis cliquez sur **Suivant**.
 <br/>![Figure 1 - Sélection de langue BMR](/images/bmr1.png)<br/> Le contrat de licence du logiciel s'affiche.
-3. Si vous acceptez les dispositions, cochez la case et cliquez sur **Suivant** pour continuer. <br/> Le menu de restauration système principal d'{{site.data.keyword.backup_notm}} s'affiche.
+3. Si vous acceptez les dispositions, cochez la case et cliquez sur **Suivant** pour continuer. <br/>Le menu de restauration système principal d'{{site.data.keyword.backup_notm}} s'affiche.
 4. Sélectionnez **Restaurer mon système**.
 <br/>![Figure 2 - Menu BMR principal](/images/bmr2.png)
 5. L'assistant de restauration système s'affiche. Sélectionnez **Suivant** pour continuer.

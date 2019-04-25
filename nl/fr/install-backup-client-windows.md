@@ -28,7 +28,7 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 ## Connexion au serveur de l'unité cible
 {: #logintargetWin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}]https://{DomainName}/catalog){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**. <br/>
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}/catalog){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des serveurs disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.

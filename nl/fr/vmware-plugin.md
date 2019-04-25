@@ -93,7 +93,7 @@ Une fois l'enregistrement du coffre réussi, vous devez configurer les paramètr
 
 3. Désactivez Change Block Tracking (CBT) en supprimant la coche. CBT est une fonctionnalité VMware qui détecte les secteurs de disque modifiés et améliore les performances des sauvegardes de machines virtuelles, qui est automatiquement activée par l'agent VSphere.
 4. Cliquez sur **Test vCenter Connection**. Une nouvelle fenêtre affiche les résultats. Si les informations de connexion fournies sont correctes, le message suivant s'affiche : “The vCenter credentials have been validated successfully”.
-5. Cliquez sur **Save** pour sauvegarder les paramètres. 
+5. Cliquez sur **Save** pour sauvegarder les paramètres.
 
 ## Etapes suivantes
 {: #VRAnextteps}

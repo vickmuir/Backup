@@ -78,7 +78,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'option relative à la configuration d'agent.
 4. Cliquez sur l'onglet **Conservation**. L'assistant de conservation s'affiche. Cliquez sur **Suivant**.
-5. Entrez le nom de la conservation. cliquez sur **Suivant**.<br/>
+5. Entrez le nom de la conservation. Cliquez sur **Suivant**.<br/>
 
    L'entrée peut contenir un maximum de 32 caractères alphanumériques. Les espaces ne sont pas autorisés, à l'inverse des traits de soulignement (`_`) et des tirets (`-`).
    {:important}
@@ -116,7 +116,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 2. Démarrez Central Control.
 3. Dans l'espace de travail, cliquez avec le bouton droit de la souris sur **My Agent** et sélectionnez l'agent que vous venez de créer.
 4. Sur l'écran d'accueil, cliquez sur **Suivant**.
-5. Sélectionnez la destination de sauvegarde ou un autre emplacement pour alimenter le travail de sauvegarde. cliquez sur **Suivant**.<br/>
+5. Sélectionnez la destination de sauvegarde ou un autre emplacement pour alimenter le travail de sauvegarde. Cliquez sur **Suivant**.<br/>
    Pour plus d'informations sur les coffres multiples, voir [Utilisation de coffres multiples](/docs/infrastructure/Backup?topic=Backup-multivault).
    {:tip}
 6. Sélectionnez l'option d'analyse de fichier rapide pour que les fichiers qui n'ont pas été modifiés ne soient pas lus. cliquez sur **Suivant**.

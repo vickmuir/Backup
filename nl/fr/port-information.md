@@ -19,7 +19,7 @@ subcollection: Backup
 # Configuration de ports afin d'autoriser la communication entre l'agent de sauvegarde et le portail {{site.data.keyword.backup_notm}}
 {: #portinfo}
 
-L'agent {{site.data.keyword.backup_full}} qui est installé sur votre serveur doit pouvoir communiquer avec le coffre dont vous avez fait l'acquisition. Les informations sur l'hôte Director pour un compte utilisateur {{site.data.keyword.backup_notm}} se trouvent dans le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window} et la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")]https://{DomainName}){:new_window}.
+L'agent {{site.data.keyword.backup_full}} qui est installé sur votre serveur doit pouvoir communiquer avec le coffre dont vous avez fait l'acquisition. Les informations sur l'hôte Director pour un compte utilisateur {{site.data.keyword.backup_notm}} se trouvent dans le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window} et la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window}.
 
 Enregistrez systématiquement les agents auprès du portail {{site.data.keyword.backup_notm}} et des directeurs en utilisant le nom de domaine complet puisque les adresses IP de ces services sont susceptibles de changer.
 
