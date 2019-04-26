@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-04-01"
 
-keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
+keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere, backups
 
 subcollection: Backup
 
@@ -71,14 +71,14 @@ Os arquivos e as pastas nos discos são acessíveis a qualquer pessoa no sistema
   * Para restaurar de um conjunto de segurança mais antigo, clique no botão Procurar conjuntos de segurança. No calendário que for exibido, clique na data do conjunto de segurança do qual deseja restaurar. À direita do calendário, clique no conjunto de segurança específico do qual deseja restaurar.
 7. No painel **Itens a serem restaurados**, selecione a VM com os arquivos ou pastas que você deseja restaurar.
 8. No campo **Senha de criptografia**, insira a senha de criptografia de dados.
-9. No campo **Tempo inativo**, insira o número de minutos de inatividade após o qual a unidade compartilhada deve cancelar o compartilhamento automaticamente. O Tempo inativo pode variar de 2 a 180 minutos.
+9. No campo **Tempo inativo**, insira o número de minutos de inatividade após o qual a unidade compartilhada deve cancelar o compartilhamento automaticamente. O tempo inativo pode variar de 2 a 180 minutos.
 
     A unidade não cancela o compartilhamento desde que os novos dados estejam sendo copiados. Se você copiar os mesmos dados de uma unidade compartilhada mais de uma vez, o sistema poderá atingir o tempo limite, porque nenhum dado novo está sendo lido.
     {:note}
 
 10.	Em **Opções de desempenho**, selecione Usar toda a largura da banda disponível.
 11.	Clique em **Executar restauração**.
-12. Os volumes restaurados da VM selecionada são mapeados como unidades na máquina em que o VRA está em execução e estão disponíveis em uma pasta Montagem de restauração. Execute uma das etapas a seguir.
+12. Os volumes restaurados da VM selecionada são mapeados como unidades na máquina em que o VRA está em execução e estão disponíveis em uma pasta Montagem de restauração.  Execute uma das etapas a seguir.
   * Copie arquivos e pastas que deseje restaurar das unidades mapeadas.
   * Compartilhe uma ou mais unidades mapeadas com outros usuários. Os usuários podem acessar o compartilhamento de UNC e copiar arquivos e pastas que desejam restaurar.
   * Compartilhe um ou mais diretórios da pasta Montagem de restauração na máquina do VRA. Os usuários podem acessar o compartilhamento de UNC e copiar arquivos e pastas que desejam restaurar.

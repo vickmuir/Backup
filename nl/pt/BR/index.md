@@ -24,7 +24,7 @@ subcollection: Backup
 - [Comprar backups ao solicitar um servidor](#purchasingwithserver).
 - [Comprar backups como um upgrade](#purchasingasupgrade).
 
-Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} on IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [{{site.data.keyword.backup_notm}} no IBM Cloud ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
 
 ## Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 {: #purchasingwithserver}
@@ -49,7 +49,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
 Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível registrar-se diretamente no {{site.data.keyword.slportal}}.
 
 ### Confirmando a compra do {{site.data.keyword.backup_notm}}
-1. No [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){:new_window}, clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.</br>
+1. No [console do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){:new_window}, clique no ícone de **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.</br>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em **Dispositivo** > **Lista de dispositivos**.
 2. Localize o novo servidor que você solicitou.

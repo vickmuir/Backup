@@ -30,7 +30,7 @@ Linux pode ser feita por meio de uma série de comandos no shell ou no terminal 
 
 Depois que você conclui o procedimento, o processo automatizado registra o serviço do Agente com o portal do {{site.data.keyword.backup_notm}} e, em seguida, faz download e instala os arquivos necessários para executar o serviço.
 
-Se você tiver comprado o {{site.data.keyword.backup_notm}} quando pediu um servidor por meio do [catálogo do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente para você. Não é necessário usar os procedimentos que estão descritos neste documento.
+Se você tiver comprado o {{site.data.keyword.backup_notm}} quando pediu um servidor por meio do [ catálogo do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){:new_window} ou do {{site.data.keyword.slportal}}, o software será instalado automaticamente. Não é necessário usar os procedimentos que estão descritos neste documento.
 {:tip}
 
 Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no

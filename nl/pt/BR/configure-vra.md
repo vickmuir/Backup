@@ -53,7 +53,7 @@ Deve-se definir as configurações da área segura e as informações do vCenter
    Para novas tarefas de backup, o método de criptografia é AES de 256 bits. As tarefas existentes podem ter outros métodos de criptografia.
    {:note}
 
-5.	No campo **Incluir no backup**, execute uma ou mais das etapas a seguir até que o campo Conjunto de backup mostre as VMs que você deseja incluir na tarefa de backup:
+5.	No campo **Incluir no backup**, execute uma ou mais das etapas a seguir até que o campo Conjunto de backup mostre as VMs que você deseja incluir na tarefa de backup.
 
    * Para incluir VMs específicas na tarefa de backup, selecione cada VM e, em seguida, clique em **Incluir**.
    * Para excluir VMs específicas da tarefa de backup, selecione cada VM e, em seguida, clique em **Excluir**.

@@ -129,7 +129,7 @@ Ainda é possível salvar e recuperar seus backups, mesmo que você tenha atingi
 
 <hr>
 
-## Como posso configurar notificações no portal do {{site.data.keyword.backup_notm}} que informam se meus backups falharem?
+## Como posso configurar notificações no portal do {{site.data.keyword.backup_notm}} que possam me alertar sobre a falha de um backup?
 {: faq}
 
 As notificações podem ser configuradas na guia Avançado. Siga as instruções que podem ser localizadas em **Links rápidos** no portal do {{site.data.keyword.backup_notm}}.

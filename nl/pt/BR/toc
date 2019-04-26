@@ -6,13 +6,14 @@ IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
     getting-started.md
+    network-diagram.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisionando
         index.md
-
+        
     {: .topicgroup}
     Plug-ins
         bmr-plugin.md
@@ -20,7 +21,7 @@ IBM Cloud Storage - IBM Cloud Backup
         mssql-plugin.md
         oracle-plugin.md
         vmware-plugin.md
-        
+
     {: .topicgroup}
     Configuração
         install-backup-client-linux.md
