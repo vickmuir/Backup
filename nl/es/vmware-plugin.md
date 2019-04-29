@@ -93,7 +93,7 @@ Una vez configurada satisfactoriamente la caja fuerte, es necesario configurar l
 
 3. Inhabilite Change Block Tracking (CBT) eliminando la marca de selección. CBT es una característica de VMware que realiza el seguimiento de los sectores de disco modificados y mejora el rendimiento de las copias de seguridad de VM, y que el Agente de vSphere habilita automáticamente.
 4. Pulse **Probar conexión de vCenter**. Los resultados se muestran en una ventana nueva. Si la información de inicio de sesión proporcionada es correcta, aparece el mensaje “Las credenciales de vCenter se han validado satisfactoriamente”.
-5. Pulse **Guardar** para guardar los valores. 
+5. Pulse **Guardar** para guardar los valores.
 
 ## Pasos siguientes
 {: #VRAnextteps}

@@ -111,7 +111,7 @@ Todavía puede guardar y recuperar sus copias de seguridad, aunque alcance el l�
 
 <hr>
 
-## ¿Cómo puedo configurar notificaciones en el portal de {{site.data.keyword.backup_notm}} que me permitan saber si fallan las copias de seguridad?
+## ¿Cómo puedo configurar notificaciones en el portal de {{site.data.keyword.backup_notm}} que me alerten si falla una copia de seguridad?
 {: faq}
 
 Las notificaciones se pueden configurar en el separador Avanzado. Siga las instrucciones que encontrará en **Enlaces rápidos** en el portal de {{site.data.keyword.backup_notm}}.
