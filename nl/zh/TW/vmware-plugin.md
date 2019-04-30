@@ -97,7 +97,7 @@ vSphere Recovery Agent (VRA) 是一個 Windows 應用程式，可以備份及還
 
 ## 後續步驟
 {: #VRAnextteps}
-1. [配置、排程及執行備份工作](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
+1. [配置、排程及執行備份工作](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [還原 vSphere 資料](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
 使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 存取及下載使用手冊。

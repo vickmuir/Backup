@@ -97,7 +97,7 @@ Une fois l'enregistrement du coffre réussi, vous devez configurer les paramètr
 
 ## Etapes suivantes
 {: #VRAnextteps}
-1. [Configurer, planifier et exécuter un travail de sauvegarde](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
+1. [Configurer, planifier et exécuter un travail de sauvegarde](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [Restaurer des données vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
 Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir accéder au guide d'utilisation et le télécharger depuis la documentation [{{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}.

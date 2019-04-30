@@ -97,7 +97,7 @@ Nach der erfolgreichen Vaultregistrierung müssen die vCenter-Einstellungen konf
 
 ## Nächste Schritte
 {: #VRAnextteps}
-1. [Sicherungsjob konfigurieren, planen und ausführen](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
+1. [Sicherungsjob konfigurieren, planen und ausführen](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [vSphere-Daten wiederherstellen](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
 Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können.
