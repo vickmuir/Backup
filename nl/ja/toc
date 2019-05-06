@@ -6,14 +6,13 @@ IBM Cloud Storage - IBM Cloud バックアップ
 
     {: .navgroup id="learn"}
     getting-started.md
-    network-diagram.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
         index.md
-        
+
     {: .topicgroup}
     プラグイン
         bmr-plugin.md

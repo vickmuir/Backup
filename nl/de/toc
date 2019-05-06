@@ -6,14 +6,13 @@ IBM Cloud Storage - IBM Cloud Backup
 
     {: .navgroup id="learn"}
     getting-started.md
-    network-diagram.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
     Bereitstellung
         index.md
-        
+
     {: .topicgroup}
     Plug-ins
         bmr-plugin.md
