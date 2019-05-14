@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -26,7 +26,7 @@ Backups ensure that your data is safely stored outside of your device and protec
 ## Before you begin
 {: #prereqs}
 
-You must have a valid licence to use IBM Cloud Backup. You can purchase {{site.data.keyword.backup_notm}} service in two ways.
+You must have a valid license to use IBM Cloud Backup. You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 
 - [Purchase backups when you Order a Server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Purchase backups as an Upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
@@ -34,6 +34,7 @@ You must have a valid licence to use IBM Cloud Backup. You can purchase {{site.d
 For more information about ordering and pricing, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
+{: #installagentgettingstarted}
 
 {{site.data.keyword.backup_notm}} Agent is supported on the following OS.
 
@@ -69,13 +70,14 @@ Follow the instructions appropriate for your OS,
 
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
 ## Configuring the Backup agent and the backup schedule
+{: #configureagentschedule}
 
 After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Follow these steps to configure your agent and retention schedule.
 
@@ -98,8 +100,12 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
       For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
+      
+      Archiving is not supported. When you create a retention scheme or modify an existing scheme, make sure that the Archiving option is **not** selected.
+      {:important}
 
 ## Running your first backup job
+{: #runfirstbackup}
 
 1. Log in to the {{site.data.keyword.backup_notm}} portal.
 2. Click **All Agents**, then select the agent that you configured.
@@ -112,8 +118,9 @@ For more information, see [Configuring simple file-level backup on Linux](/docs/
 {:tip}
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
+{: #viewingdetailsinconsole}
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
@@ -125,5 +132,6 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 {:important}
 
 ## Getting more online help
+{: #onlinehelp}
 
 {{site.data.keyword.backup_notm}} portal's systems are fully documented and support for the application is accessible within {{site.data.keyword.backup_notm}} portal. Click the white question mark in a blue circle that is located in the upper right for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
