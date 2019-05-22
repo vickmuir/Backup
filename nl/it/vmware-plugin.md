@@ -9,7 +9,7 @@ keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -100,5 +100,5 @@ Una volta registrato correttamente l'archivio, è necessario configurare le impo
 1. [Configura, pianifica ed esegui un lavoro di backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [Ripristina i dati vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile](http://downloads.service.softlayer.com/evault/Documentation/){: external}
 {:tip}

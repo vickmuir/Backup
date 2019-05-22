@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -29,7 +29,7 @@ L'installation du client {{site.data.keyword.backup_full}} sur un système d'exp
 
 A l'issue de la procédure, le processus automatisé enregistre l'agent du service auprès du portail {{site.data.keyword.backup_notm}} puis télécharge et installe les fichiers nécessaires à l'exécution du service.
 
-Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le catalogue [{{site.data.keyword.cloud_notm}} ](https://{DomainName}/catalog){:new_window} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
+Si vous avez acheté {{site.data.keyword.backup_notm}} lors de la commande d'un serveur depuis le catalogue [{{site.data.keyword.cloud_notm}} ](https://{DomainName}/catalog){: external} ou le portail {{site.data.keyword.slportal}}, le logiciel est automatiquement installé pour vous. Vous n'avez pas besoin de suivre les procédures décrites dans ce document.
 {:tip}
 
 Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que mise à niveau dans le portail {{site.data.keyword.slportal}}, procédez comme suit pour installer le logiciel.
@@ -37,8 +37,8 @@ Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que 
 ## Connexion au serveur de l'unité cible
 {: #logintargetLin}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des unités serveur disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
   - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 5.

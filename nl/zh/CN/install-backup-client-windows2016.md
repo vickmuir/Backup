@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ subcollection: Backup
 5. 选择**注册为新计算机**，然后单击**下一步**。
 6. 在“概要文件名称”字段中，输入保险库名称。
 
-   保险库名称可以在 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中获取。
+   保险库名称可以在 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 中获取。
    {:tip}
 6. 输入网络地址（分配的保险库的 IP 地址），然后单击**添加**。然后，单击**下一步**。
 7. 输入新的端口值，单击**添加**，然后单击**下一步**。

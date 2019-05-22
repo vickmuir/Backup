@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ subcollection: Backup
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
 {: #startWebCCconfigLin}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br>
-   或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br>
+   或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 2. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 3. 啟動您的 VPN 連線，以存取 IBM 專用網路。

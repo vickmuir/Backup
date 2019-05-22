@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -28,8 +28,8 @@ Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。
 ## 訂購外掛程式
 {: #orderingExchangePlugin}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}){:new_window}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
-      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。<br/>
+      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取您的帳戶，然後按一下**訂購外掛程式**。
 4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - Exchange**，然後按一下**繼續**。
@@ -61,4 +61,4 @@ Exchange 外掛程式是在「Windows 代理程式」64 位元安裝期間安裝
 ## 下載使用手冊
 {: #ExchangeUserGuide}
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 存取及下載使用手冊。本手冊說明如何使用 Exchange 外掛程式來備份及還原 Microsoft Exchange 資料庫。本手冊也會說明如何共用 DR 備份安全集。使用 DR 備份安全集，您可以使用 Granular Restore for Microsoft Exchange 應用程式，將特定信箱、訊息或其他物件還原至 .pst 檔案。
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} 存取及下載使用手冊。本手冊說明如何使用 Exchange 外掛程式來備份及還原 Microsoft Exchange 資料庫。本手冊也會說明如何共用 DR 備份安全集。使用 DR 備份安全集，您可以使用 Granular Restore for Microsoft Exchange 應用程式，將特定信箱、訊息或其他物件還原至 .pst 檔案。

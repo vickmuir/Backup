@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -29,7 +29,7 @@ subcollection: Backup
 
 完成此过程后，进程会自动向 {{site.data.keyword.backup_notm}} 门户网站注册代理程序服务，然后下载并安装运行该服务所需的文件。
 
-如果通过 [{{site.data.keyword.cloud_notm}} 目录](https://{DomainName}/catalog){:new_window}或 {{site.data.keyword.slportal}} 订购服务器时购买了 {{site.data.keyword.backup_notm}}，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
+如果通过 [{{site.data.keyword.cloud_notm}} 目录](https://{DomainName}/catalog){: external}或 {{site.data.keyword.slportal}} 订购服务器时购买了 {{site.data.keyword.backup_notm}}，那么会自动为您安装该软件。您不需要使用本文档中所述的过程。
 {:tip}
 
 如果您在 {{site.data.keyword.slportal}} 中购买了 {{site.data.keyword.backup_notm}}（作为升级选项），请执行以下步骤来安装该软件。
@@ -37,8 +37,8 @@ subcollection: Backup
 ## 登录到目标设备服务器
 {: #logintargetLin}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
   - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 5 所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Ca
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -34,8 +34,8 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 ## 订购插件
 {: #orderingBMR}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - BMR (Bare Metal Restore)**，然后单击**继续**。
@@ -47,4 +47,4 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 ## 下载用户指南
 {: #BMRUserGuide}
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中访问并下载用户指南
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external} 中访问并下载用户指南

@@ -9,7 +9,7 @@ keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -99,5 +99,5 @@ VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 �
 1. [백업 작업 구성, 스케줄 및 실행](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [vSphere 데이터 복원](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-[다운로드 가능 {{site.data.keyword.backup_notm}} 문서 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
+[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
 {:tip}

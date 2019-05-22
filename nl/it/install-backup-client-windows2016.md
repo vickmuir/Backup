@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 5. Seleziona **Register as a new computer** e fai clic su **Next**.
 6. Immettere il nome dell'archivio nel campo del nome profilo.
 
-   Il nome archivio può essere ottenuto dal [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
+   Il nome archivio può essere ottenuto dal [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Immetti l'indirizzo di rete (l'indirizzo IP dell'archivio assegnato) e fai clic su **Add**. Poi, fai clic su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.

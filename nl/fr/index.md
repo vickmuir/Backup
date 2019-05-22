@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise back
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,13 +24,13 @@ Vous pouvez acquérir le service {{site.data.keyword.backup_notm}} de deux mani�
 - [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasingwithserver).
 - [Acquisition de sauvegardes sous forme de mise à niveau](#purchasingasupgrade).
 
-Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup-and-restore){:new_window} et [{{site.data.keyword.backup_notm}} on IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){: external} et [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 ## Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 {: #purchasingwithserver}
 
-1. Connectez-vous au [catalogue IBM Cloud ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog){:new_window} ou au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}
-2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
+1. Connectez-vous au [catalogue IBM Cloud](https://{DomainName}/catalog){: external} ou au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){: external}.
    1. Sélectionnez l'option de facturation par quantité. Entrez les noms d'hôte et de domaine. Vous pouvez choisir n'importe quel nom d'hôte et de domaine.
 
       Le service {{site.data.keyword.backup_notm}} n'est pas disponible si vous commandez un serveur facturé sur une base horaire. Toutefois, vous pouvez ajouter ultérieurement le service sous forme de mise à niveau.
@@ -49,8 +49,8 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
 Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique de mise à disposition de votre commande inclut un lien vers votre page *Détails de l'unité* une fois que vous vous connectez à {{site.data.keyword.cloud_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
 
 ### Confirmation de l'acquisition d'{{site.data.keyword.backup_notm}}
-1. Dans la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window}, cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Dans la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Unité** > **Liste des unités**.
 2. Localisez le nouveau serveur vous avez commandé.
   - Si une icône en forme d'horloge est affichée en regard de l'URL, vous devez patienter avant de confirmer votre acquisition d'{{site.data.keyword.backup_notm}}. Vous pouvez actualiser la page pour voir un statut mis à jour sur votre nouveau serveur. Lorsque l'icône en forme d'horloge disparaît, vous pouvez passer aux étapes suivantes pour confirmer votre acquisition du service {{site.data.keyword.backup_notm}}.
@@ -63,8 +63,8 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 
 ### Sélection d'un serveur sur lequel installer {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal. Recherchez le périphérique pour lequel vous voulez ajouter le service de sauvegarde.
 3. Cliquez sur le nom de l'unité pour accéder à la page **Détails de l'unité**.
 

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -21,8 +21,8 @@ subcollection: Backup
 
 É possível cancelar o serviço de {{site.data.keyword.backup_full}} a qualquer momento. O cancelamento exclui sua área segura com os dados submetidos a backup e não é possível efetuar login no portal do {{site.data.keyword.backup_notm}} com as credenciais canceladas.
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione **Ações** > **Cancelar o {{site.data.keyword.backup_notm}}**.

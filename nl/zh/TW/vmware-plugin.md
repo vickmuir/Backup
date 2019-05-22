@@ -9,7 +9,7 @@ keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -100,5 +100,5 @@ vSphere Recovery Agent (VRA) 是一個 Windows 應用程式，可以備份及還
 1. [配置、排程及執行備份工作](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
 2. [還原 vSphere 資料](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 存取及下載使用手冊。
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} 存取及下載使用手冊。
 {:tip}

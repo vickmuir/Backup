@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ subcollection: Backup
 5. **「新規コンピューターとして登録 (Register as a new computer)」**を選択し、**「次へ」**をクリックします。
 6. 「プロファイル名 (Profile name)」フィールドにボールト名を入力します。
 
-   ボールト名は [{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} で確認できます。
+   ボールト名は [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} で確認できます。
    {:tip}
 6. ネットワーク・アドレス (割り当てられたボールトの IP アドレス) を入力し、**「追加」**をクリックします。 次に、**「次へ」**をクリックします。
 7. 新規ポート値を入力し、**「追加」**、**「次へ」**の順にクリックします。

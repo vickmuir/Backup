@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -28,8 +28,8 @@ El plugin Exchange se instala con el agente Windows en el host. Mediante el port
 ## Solicitud del plugin
 {: #orderingExchangePlugin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la cuenta y pulse **Solicitar plugins**.
 4. Seleccione **{{site.data.keyword.backup_notm}} Plugin - Exchange** y pulse **Continuar**.
@@ -61,4 +61,4 @@ Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos se
 ## Descarga de la guía del usuario
 {: #ExchangeUserGuide}
 
-Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}. En la guía se describe cómo hacer copia de seguridad y restaurar bases de datos de Microsoft Exchange mediante el plugin Exchange. En la guía también se describe cómo compartir un conjunto seguro de copia de seguridad de DR. Con un conjunto seguro de copia de seguridad de DR, puede restaurar buzones, mensajes u otros objetos específicos en un archivo .pst utilizando la aplicación Granular Restore para Microsoft Exchange.
+Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){: external}. En la guía se describe cómo hacer copia de seguridad y restaurar bases de datos de Microsoft Exchange mediante el plugin Exchange. En la guía también se describe cómo compartir un conjunto seguro de copia de seguridad de DR. Con un conjunto seguro de copia de seguridad de DR, puede restaurar buzones, mensajes u otros objetos específicos en un archivo .pst utilizando la aplicación Granular Restore para Microsoft Exchange.

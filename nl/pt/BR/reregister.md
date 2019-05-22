@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
   - Endereço da área segura
   - Conta
 
-    "Conta" é o equivalente do "Nome da conta" no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. Normalmente, é semelhante a "SLE[ID da conta]"
+    "Conta" é o equivalente do "Nome da conta" no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Normalmente, é semelhante a "SLE[ID da conta]"
     {:tip}
   - Nome do Usuário
   - Senha

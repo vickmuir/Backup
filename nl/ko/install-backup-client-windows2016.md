@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ subcollection: Backup
 5. **새 컴퓨터로 등록**을 선택하고 **다음**을 클릭하십시오.
 6. 프로파일 이름 필드에 저장소 이름을 입력하십시오.
 
-   저장소 이름은 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에서 얻을 수 있습니다.
+   저장소 이름은 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에서 얻을 수 있습니다.
    {:tip}
 6. 네트워크 주소(지정된 저장소의 IP 주소)를 입력하고 **추가**를 클릭하십시오. 그리고 **다음**을 클릭하십시오.
 7. 새 포트 값을 입력하고 **추가**를 클릭한 후에 **다음**을 클릭하십시오.

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ Ces étapes sont le plus souvent utilisées après le rechargement du système d
   - Adresse du coffre
   - Compte
 
-    "Compte" est équivalent au "Nom du compte" dans le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. Généralement, il est similaire à "SLE [ID compte]"
+    "Compte" est équivalent au "Nom du compte" dans le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Généralement, il est similaire à "SLE [ID compte]"
     {:tip}
   - Nom de l'utilisateur
   - Mot de passe

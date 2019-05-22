@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -28,8 +28,8 @@ Exchange プラグインは、Windows エージェントとともにホスト上
 ## プラグインの注文
 {: #orderingExchangePlugin}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
 4. **「{{site.data.keyword.backup_notm}} プラグイン - Exchange」**を選択し、**「続行」**をクリックします。
@@ -61,4 +61,4 @@ Microsoft Windows サーバー用のプラグインをインストールする�
 ## ユーザー・ガイドのダウンロード
 {: #ExchangeUserGuide}
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料 ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、または他のオブジェクトを .pst ファイルにリストアできます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。 このガイドでは、Exchange プラグインを使用して Microsoft Exchange データベースをバックアップおよびリストアする方法について説明しています。 また、このガイドでは DR バックアップ・セーフセットを共有する方法についても説明します。 DR バックアップ・セーフセットでは、Granular Restore for Microsoft Exchange アプリケーションを使用して、特定のメールボックス、メッセージ、または他のオブジェクトを .pst ファイルにリストアできます。

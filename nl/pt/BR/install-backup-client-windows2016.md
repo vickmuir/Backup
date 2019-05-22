@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -65,7 +65,7 @@ Esta tarefa é concluída por meio de uma série de interações enquanto você 
 **Avançar**.
 6. Insira o nome da área segura no campo Nome do perfil.
 
-   O nome da área segura pode ser obtido do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
+   O nome da área segura pode ser obtido do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Insira o endereço de rede (o endereço IP da área segura designada) e clique em **Incluir**. Em seguida, clique em **Avançar**.
 7. Insira os novos valores de porta e clique em **Incluir** e, em seguida, em **Avançar**.

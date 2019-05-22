@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbon
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,8 +33,8 @@ Pour plus d'informations, voir la section [Principales caractéristiques](#main-
 ## Commande du plug-in
 {: #orderingSQLPlugin}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
 4. Sélectionnez **Plug-in {{site.data.keyword.backup_notm}} - MSSQL**, puis cliquez sur **Continuer**.
@@ -66,7 +66,7 @@ Avant d'installer le plug-in MSSQL pour votre serveur Microsoft Windows, arrête
 ## Téléchargement du guide d'utilisation
 {: #SQLUserGuide}
 
-Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir télécharger le guide d'utilisation à partir de la [documentation {{site.data.keyword.backup_notm}} téléchargeable](http://downloads.service.softlayer.com/evault/Documentation/){: external}
 
 ## Principales caractéristiques
 {: #main-features}

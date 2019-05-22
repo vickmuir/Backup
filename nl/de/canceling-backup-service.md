@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -21,8 +21,8 @@ subcollection: Backup
 
 Sie können Ihren {{site.data.keyword.backup_full}}-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten Service beim {{site.data.keyword.backup_notm}}-Portal anmelden.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie **Aktionen** > **Abbrechen{{site.data.keyword.backup_notm}}** aus.
 4. Wählen Sie für die Stornierung die Einstellung **Sofortig** oder **Rechnungsstichtag** aus.

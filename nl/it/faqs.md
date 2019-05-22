@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -94,14 +94,14 @@ Per impostazione predefinita, il client di base ha una tecnologia all'avanguardi
 ## Dove posso trovare le informazioni sui prezzi?
 {: faq}
 
-Per ulteriori informazioni, vedi [Backup storage ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault on IBM Cloud: Pricing ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+Per ulteriori informazioni, vedi [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} e [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_notm}} senza compromettere i backup?
 {: faq}
 
-Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

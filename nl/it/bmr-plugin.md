@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Ca
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -34,8 +34,8 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 ## Ordinazione del plug-in
 {: #orderingBMR}
 
-1. Accedi alla console [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){:new_window} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
+1. Accedi alla console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
 4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - BMR (Bare Metal Restore)** e fai clic su **Continue**.
@@ -47,4 +47,4 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 ## Download della guida utente
 {: #BMRUserGuide}
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile](http://downloads.service.softlayer.com/evault/Documentation/){: external}

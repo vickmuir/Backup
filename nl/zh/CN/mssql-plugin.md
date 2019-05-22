@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbon
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,8 +33,8 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 ## 订购插件
 {: #orderingSQLPlugin}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
+      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - MSSQL**，然后单击**继续**。
@@ -66,7 +66,7 @@ SQL Server 插件随 Windows 代理程序一起安装在 SQL 数据库主机上�
 ## 下载用户指南
 {: #SQLUserGuide}
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} 中下载用户指南。
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external} 中下载用户指南。
 
 ## 主要功能
 {: #main-features}

@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -29,7 +29,7 @@ La instalación del cliente de {{site.data.keyword.backup_full}} en un sistema o
 
 Después de completar el procedimiento, el proceso automatizado registra el servicio del agente con el portal de {{site.data.keyword.backup_notm}} y luego descarga e instala los archivos necesarios para ejecutar el servicio.
 
-Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){:new_window} o el {{site.data.keyword.slportal}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
+Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} o el {{site.data.keyword.slportal}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
 {:tip}
 
 Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en el {{site.data.keyword.slportal}}, siga estos pasos para instalar el software.
@@ -37,8 +37,8 @@ Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en el 
 ## Inicie una sesión en el servidor del dispositivo de destino
 {: #logintargetLin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal para ver la lista de dispositivos de servidor disponibles.
 3. Busque el dispositivo para el que ha adquirido el servicio de {{site.data.keyword.backup_notm}} y anote su dirección IP pública.
   - Esta dirección IP se utilizará en los siguientes pasos cuando se inicie una sesión en el dispositivo desde una línea de mandatos de UNIX o Linux. Sustituya <direcciónIPPública> por la dirección IP pública real en el mandato del Paso 5.

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ subcollection: Backup
   - 저장소 주소
   - 계정
 
-    "계정"은 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
+    "계정"은 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
     {:tip}
   - 사용자 이름
   - 비밀번호

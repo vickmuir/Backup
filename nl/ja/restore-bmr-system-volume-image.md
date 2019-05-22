@@ -9,7 +9,7 @@ keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ subcollection: Backup
 ## BMR レスキュー・カーネル・システムの開始
 
 BMR レスキュー・カーネル・システムには、{{site.data.keyword.slportal}}経由でアクセスできます。
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. ボールトの横の**矢印**をクリックします。
 4. **「ベア・メタルの復元の開始」**をクリックします。 このアクションによってトランザクションが開始され、完了まで数分かかります。 この後、ここに示すステップに従うことで、サーバーにアクセスできるようになります。 ブート処理が完了すると、E メールを受信します。

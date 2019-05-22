@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -29,7 +29,7 @@ Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux
 
 Nachdem die Prozedur ausgeführt wurde, registriert der automatisierte Prozess den Agentenservice beim {{site.data.keyword.backup_notm}}-Portal. Anschließend werden die Dateien heruntergeladen und installiert, die zur Ausführung des Service benötigt werden.
 
-Wenn Sie {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers über den [{{site.data.keyword.cloud_notm}}-Katalog](https://{DomainName}/catalog){:new_window} oder das {{site.data.keyword.slportal}} gekauft haben, dann wird die Software automatisch für Sie installiert. Sie müssen die Prozeduren, die in diesem Dokument beschrieben werden, nicht verwenden.
+Wenn Sie {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers über den [{{site.data.keyword.cloud_notm}}-Katalog](https://{DomainName}/catalog){: external} oder das {{site.data.keyword.slportal}} gekauft haben, dann wird die Software automatisch für Sie installiert. Sie müssen die Prozeduren, die in diesem Dokument beschrieben werden, nicht verwenden.
 {:tip}
 
 Wenn Sie {{site.data.keyword.backup_notm}} als Upgrade im {{site.data.keyword.slportal}} gekauft haben, befolgen Sie diese Schritte, um die Software zu installieren.
@@ -37,8 +37,8 @@ Wenn Sie {{site.data.keyword.backup_notm}} als Upgrade im {{site.data.keyword.sl
 ## Beim Zielgeräteserver anmelden
 {: #logintargetLin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um die Liste der verfügbaren Servereinheiten anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
   - Sie verwenden diese IP-Adresse in den folgenden Schritten, wenn Sie sich über eine UNIX- oder Linux-Befehlszeile beim Gerät anmelden. Ersetzen Sie in dem in Schritt 5 dargestellten Befehl die Variable <publicIpAddress> durch die tatsächliche öffentliche IP-Adresse.

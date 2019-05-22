@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ subcollection: Backup
 5. 選取**登錄為新電腦**，然後按**下一步**。
 6. 在「設定檔名稱」欄位中，輸入儲存庫名稱。
 
-   您可以從 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 取得儲存庫名稱。
+   您可以從 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 取得儲存庫名稱。
 {:tip}
 6. 輸入網址（已指派儲存庫的 IP 位址），然後按一下**新增**。然後，按**下一步**。
 7. 輸入新埠值並按一下**新增**，然後按**下一步**。

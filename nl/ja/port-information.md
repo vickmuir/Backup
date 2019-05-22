@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -19,7 +19,7 @@ subcollection: Backup
 # バックアップ・エージェントと {{site.data.keyword.backup_notm}} ポータル間の通信を可能にするためのポートの構成
 {: #portinfo}
 
-サーバーにインストールされている {{site.data.keyword.backup_full}} エージェントが、購入したボールトと通信できる必要があります。 {{site.data.keyword.backup_notm}} ユーザー・アカウント用の Director のホスト情報は、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} と [{{site.data.keyword.cloud_notm}} コンソール ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}){:new_window} で参照できます。
+サーバーにインストールされている {{site.data.keyword.backup_full}} エージェントが、購入したボールトと通信できる必要があります。 {{site.data.keyword.backup_notm}} ユーザー・アカウント用の Director のホスト情報は、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} と [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external} で参照できます。
 
 {{site.data.keyword.backup_notm}} ポータルおよびディレクターにエージェントを登録する際には、必ず FQDN を使用します。これらのサービスの IP アドレスが変更される可能性があるためです。
 

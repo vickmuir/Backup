@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -28,8 +28,8 @@ Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert.
 ## Plug-in bestellen
 {: #orderingExchangePlugin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}){:new_window} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
+   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
 4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - Exchange** aus und klicken Sie auf **Weiter**.
@@ -61,4 +61,4 @@ Bevor Sie das Plug-in für Ihren Microsoft Windows-Server installieren, stoppen 
 ## Benutzerhandbuch herunterladen
 {: #ExchangeUserGuide}
 
-Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window} herunterladen können. In diesem Handbuch ist beschrieben, wie Sie Microsoft Exchange-Datenbanken mit dem Plug-in für Exchange sichern und wiederherstellen können. Im Handbuch wird außerdem beschrieben, wie eine Sicherungsgruppe für eine DR-Sicherung gemeinsam genutzt werden kann. Mit einer Sicherungsgruppe für eine DR-Sicherung können Sie bestimmte Mailboxen, Nachrichten oder andere Objekte mit der Anwendung zur differenzierten Wiederherstellung für Microsoft Exchange in einer PST-Datei (.pst) wiederherstellen.
+Stellen Sie eine Verbindung zum {{site.data.keyword.BluSoftlayer_full}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} herunterladen können. In diesem Handbuch ist beschrieben, wie Sie Microsoft Exchange-Datenbanken mit dem Plug-in für Exchange sichern und wiederherstellen können. Im Handbuch wird außerdem beschrieben, wie eine Sicherungsgruppe für eine DR-Sicherung gemeinsam genutzt werden kann. Mit einer Sicherungsgruppe für eine DR-Sicherung können Sie bestimmte Mailboxen, Nachrichten oder andere Objekte mit der Anwendung zur differenzierten Wiederherstellung für Microsoft Exchange in einer PST-Datei (.pst) wiederherstellen.

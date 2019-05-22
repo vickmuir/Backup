@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 5. Seleccione **Registrar como un sistema nuevo** y pulse **Siguiente**.
 6. Especifique el nombre de caja fuerte en el campo Nombre de perfil.
 
-   Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+   Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Escriba la dirección de red (la dirección IP de la caja fuerte asignada) y pulse **Añadir**. A continuación, pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.

@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 5. Sélectionnez **Enregistrer en tant que nouvel ordinateur** et cliquez sur **Suivant**.
 6. Entrez le nom du coffre dans la zone Nom de profil.
 
-   Le nom du coffre peut être obtenu à partir du portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+   Le nom du coffre peut être obtenu à partir du portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Entrez l'adresse réseau (adresse IP du coffre affecté) et cliquez sur **Ajouter**. Cliquez ensuite sur **Suivant**.
 7. Entrez les nouvelles valeurs de port et cliquez sur **Ajouter**, puis sur **Suivant**.

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -27,8 +27,8 @@ Siga estos pasos para completar una restauración de archivos con {{site.data.ke
 Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.BluSoftlayer_full}}. De lo contrario, el enlace del portal de {{site.data.keyword.backup_notm}} no funciona.
 {:important}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){:new_window} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
+   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione el servidor donde se encuentran los archivos que se van a restaurar. Pulse la flecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse **portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal de {{site.data.keyword.backup_notm}} en su navegador.

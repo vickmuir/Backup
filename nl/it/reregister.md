@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ Questa attività è la più comunemente utilizzata dopo che viene ricaricato il 
   - Indirizzo archivio
   - Account
 
-    "Account" è l'equivalente dell'"Account Name" nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. In genere, è simile a "SLE[ID account]"
+    "Account" è l'equivalente dell'"Account Name" nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. In genere, è simile a "SLE[ID account]"
     {:tip}
   - Nome utente
   - Password

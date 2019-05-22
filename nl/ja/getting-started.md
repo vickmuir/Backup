@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, c
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -69,8 +69,8 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
@@ -113,10 +113,10 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
 ## {{site.data.keyword.backup_notm}} のストレージの詳細へのコンソールでのアクセスと表示
 
-サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
+サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**をクリックし、リストから**「バックアップ」**を選択します。
 2. ストレージの詳細を確認するボールトの行の任意の位置をクリックします。 このビューでは「パスワード」は表示可能ではありません。
 3. **「パスワード」**フィールドの横にある**「表示」**チェック・ボックスをクリックし、選択した {{site.data.keyword.backup_notm}} サービスのパスワードを表示します。

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ subcollection: Backup
 ## BMR Rescue Kernel 시스템 시작
 
 {{site.data.keyword.slportal}}을 통해 BMR Rescue Kernel 시스템에 액세스할 수 있습니다.
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-   또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 저장소 옆의 **화살표**를 클릭하십시오.
 4. **Bare Metal Restore 시작**을 클릭하십시오. 이 조치는 완료하는 데 수 분이 걸리는 트랜잭션을 시작합니다. 이후에 여기서 자세히 설명한 단계에 따라 서버에 액세스할 수 있습니다. 시스템이 부트 프로세스를 완료하면 사용자에게 이메일이 발송됩니다.

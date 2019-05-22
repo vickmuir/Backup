@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -93,14 +93,14 @@ Par défaut, le client de base dispose d'une technologie de pointe lui permettan
 ## Où puis-je trouver des informations sur la tarification ?
 {: faq}
 
-Pour plus d'informations, voir [Stockage de sauvegarde ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/fr-fr/cloud/backup-and-restore){:new_window} et [EVault on IBM Cloud: Pricing ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+Pour plus d'informations, voir [Stockage de sauvegarde](https://www.ibm.com/fr-fr/cloud/backup-and-restore){: external} et [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## La capacité {{site.data.keyword.backup_notm}} peut-elle être augmentée/réduite sans compromettre les sauvegardes ?
 {: faq}
 
-Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Vous pouvez augmenter ou réduire la taille de votre coffre via le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. La modification de la capacité n'a aucun impact sur l'intégrité des données qui sont stockées dans le coffre. Pour plus d'informations, voir [Extension de la capacité](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

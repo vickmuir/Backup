@@ -9,7 +9,7 @@ keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ subcollection: Backup
 ## 起始 BMR Rescue Kernel 系統
 
 您可以透過 {{site.data.keyword.slportal}} 存取 BMR Rescue Kernel 系統。
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){:new_window}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-      或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
+      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 按一下儲存庫旁邊的**箭頭**。
 4. 按一下**起始 Bare Metal Restore**。這個動作會啟動需要幾分鐘才能完成的交易。之後您就可以遵循這裡詳述的步驟來存取伺服器。當系統完成開機處理程序時，將會傳送電子郵件給您。

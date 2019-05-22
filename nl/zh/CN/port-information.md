@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configu
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -19,7 +19,7 @@ subcollection: Backup
 # 配置端口以允许备份代理程序与 {{site.data.keyword.backup_notm}} 门户网站之间进行通信
 {: #portinfo}
 
-服务器上安装的 {{site.data.keyword.backup_full}} 代理程序需要能够与购买的保险库进行通信。{{site.data.keyword.backup_notm}} 用户帐户的导向器主机信息可以在 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 和 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}中找到。
+服务器上安装的 {{site.data.keyword.backup_full}} 代理程序需要能够与购买的保险库进行通信。{{site.data.keyword.backup_notm}} 用户帐户的导向器主机信息可以在 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 和 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}中找到。
 
 请始终使用 FQDN 向 {{site.data.keyword.backup_notm}} 门户网站和导向器注册代理程序，因为这些服务的 IP 地址可能会更改。
 

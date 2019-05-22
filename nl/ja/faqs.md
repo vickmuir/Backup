@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -93,14 +93,14 @@ subcollection: Backup
 ## 価格に関する情報はどこで確認できますか。
 {: faq}
 
-詳しくは、[Backup storage ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup-and-restore){:new_window} および [EVault on IBM Cloud: Pricing ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/backup/pricing){:new_window} を参照してください。
+詳しくは、[Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} および [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
 
 <hr>
 
 ## バックアップを危険にさらさずに {{site.data.keyword.backup_notm}} 容量を増減できますか?
 {: faq}
 
-[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
+[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
 
 <hr>
 

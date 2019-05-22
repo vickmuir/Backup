@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ subcollection: Backup
   - 儲存庫位址。
   - 帳戶。
 
-    「帳戶」等同於 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
+    「帳戶」等同於 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
     {:tip}
   - 使用者名稱。
   - 密碼

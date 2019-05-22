@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise back
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,13 +24,13 @@ subcollection: Backup
 - [订购服务器时购买备份](#purchasingwithserver)。
 - [作为升级购买备份](#purchasingasupgrade)。
 
-有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup-and-restore){:new_window} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/backup/pricing){:new_window}。
+有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}。
 
 ## 订购服务器时购买 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
 
-1. 登录到 [IBM Cloud 目录 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog){:new_window} 或 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}
-2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}。
+1. 登录到 [IBM Cloud 目录](https://{DomainName}/catalog){: external} 或 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){: external}。
    1. 选择数量和计费选项。输入主机和域名。您可以选择所需的任何主机名和域。
 
       订购按小时计费的服务器时，{{site.data.keyword.backup_notm}} 服务不可用。但是，日后可以作为升级添加该服务。
@@ -49,8 +49,8 @@ subcollection: Backup
 系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.slportal}}。
 
 ### 确认 {{site.data.keyword.backup_notm}} 购买
-1. 在 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external} 中，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。
   - 如果 URL 旁边有“时钟”图标，那么您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买信息。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
@@ -63,8 +63,8 @@ subcollection: Backup
 
 ### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){:new_window}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-      或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
+      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 从主菜单中选择**设备** > **设备列表**。找到要添加备份服务的设备。
 3. 单击设备名以转至**设备详细信息**页面。
 

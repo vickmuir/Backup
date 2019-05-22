@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -41,8 +41,8 @@ subcollection: Backup
 {{site.data.keyword.backup_notm}} ポータルに新しいバックアップの場所を追加できるようにするには、事前に、新規のリモート・ボールトをアカウントに追加する必要があります。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「デバイス」**をクリックします。
 3. 目的のサーバーのリンクを見つけてクリックします。
 4. **「デバイスの詳細」**で、**「ストレージ」**をクリックします。
@@ -57,8 +57,8 @@ subcollection: Backup
 
 ## {{site.data.keyword.backup_notm}} ポータルでのボールトの追加
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){:new_window}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){:new_window} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
+   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. マルチボールトにバックアップできるようにするサーバーを選択します。 右向き矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**リンクをクリックし、ブラウザーでポータル・クライアントを開始します。

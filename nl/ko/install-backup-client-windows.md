@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -28,8 +28,8 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 ## 대상 디바이스 서버에 로그인
 {: #logintargetWin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog){:new_window}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-    또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/catalog){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+    또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
 2. 기본 메뉴에서 **디바이스** > **디바이스 목록**을 선택하여 사용 가능한 서버의 목록을 보십시오.
 3. {{site.data.keyword.backup_notm}} 서비스가 구매된 대상 디바이스를 찾고 이의 공인 IP 주소를 기록하십시오.
 4. 오른쪽을 지시하는 화살표를 클릭하여 펼치고 사용자 이름과 비밀번호를 포함해 디바이스에 대한 자세한 정보를 표시하십시오. 비밀번호가 표시되지 않은 경우, **비밀번호 표시**를 클릭하면 비밀번호가 표시됩니다.

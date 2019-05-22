@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -109,7 +109,7 @@ Por padrão, o cliente de base tem uma tecnologia de última geração para mani
 ## Onde localizo as informações sobre precificação?
 {: faq}
 
-Para obter mais informações, consulte [Armazenamento de backup ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup-and-restore){:new_window} e [EVault no IBM Cloud: precificação ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){: external} e [EVault no IBM Cloud: precificação](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
@@ -117,7 +117,7 @@ Para obter mais informações, consulte [Armazenamento de backup ![Ícone de lin
 backups?
 {: faq}
 
-É possível aumentar ou diminuir o tamanho de sua área segura por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
+É possível aumentar ou diminuir o tamanho de sua área segura por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
 informações, consulte [Expandindo a capacidade](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>

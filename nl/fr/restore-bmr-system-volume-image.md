@@ -9,7 +9,7 @@ keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site
 ## Initialisation du système BMR Rescue Kernel
 
 Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.keyword.slportal}}.
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){:new_window} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez sur la **flèche** en regard du coffre.
 4. Cliquez sur **Lancer Bare Metal Restore**. Cette action déclenche une transaction dont l'exécution prend quelques minutes. Vous pouvez ensuite accéder au serveur en suivant la procédure décrite ici. Un message électronique vous est envoyé à l'issue du processus d'amorçage du système.
