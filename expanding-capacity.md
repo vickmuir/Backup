@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,8 +24,8 @@ Current {{site.data.keyword.BluSoftlayer_full}} users are able to expand the siz
 
 ## Ordering an increase
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **Menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select the vault that you want to extend.
 4. Click **Actions**, and select **Modify {{site.data.keyword.backup_notm}}**.

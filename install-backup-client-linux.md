@@ -11,7 +11,7 @@ subcollection: Backup
 ---
 {:codeblock: .codeblock}
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -29,7 +29,7 @@ Installing the {{site.data.keyword.backup_full}} client on a Linux-based operati
 
 After you completed the procedure, the automated process registers the Agent service with {{site.data.keyword.backup_notm}} portal, then downloads and installs the files that are needed to run the service.
 
-If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){:new_window} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
+If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: external} or the {{site.data.keyword.slportal}}, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {:tip}
 
 If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.data.keyword.slportal}}, follow these steps to install the software.
@@ -37,8 +37,8 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 ## Logging in to the target device server
 {: #logintargetLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
   - This IP address is to be used in following steps when you log in to the device from a UNIX or Linux command line. Replace <publicIpAddress> with the actual public IP address in the command that is shown in Step 5.

@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -39,8 +39,8 @@ Disable all Scheduled tasks on both servers to avoid any conflicts.
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network or the {{site.data.keyword.backup_notm}} portal link doesn't work.
 {:tip}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select Server2. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.

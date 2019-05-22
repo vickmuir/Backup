@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Ca
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -34,8 +34,8 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 ## Ordering the plug-in
 {: #orderingBMR}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/).
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select your account and click **Order plug-ins**.
 4. Select **{{site.data.keyword.backup_notm}} plug-in - BMR (Bare Metal Restore)** and click **Continue**.
@@ -47,4 +47,4 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 ## Downloading the user guide
 {: #BMRUserGuide}
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/evault/Documentation/){:new_window}
+Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can access and download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}

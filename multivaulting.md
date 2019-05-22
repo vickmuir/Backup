@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -41,8 +41,8 @@ Backing up to remote data center locations can take longer than backups to the s
 You must add the new remote vault to the account before a new backup location can be added in the {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window}, and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Devices**
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
@@ -57,8 +57,8 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 
 ## Adding an Extra Vault in {{site.data.keyword.backup_notm}} portal
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select the server that you want to be able to back up to multiple vaults. Click the right-pointing arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click the **{{site.data.keyword.backup_notm}} portal Login** link to start the portal client in your browser.

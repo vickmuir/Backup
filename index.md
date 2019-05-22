@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise back
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -24,13 +24,13 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 - [Purchase backups when you Order a Server](#purchasingwithserver).
 - [Purchase backups as an Upgrade](#purchasingasupgrade).
 
-For more information about pricing, see [{{site.data.keyword.backup_notm}} storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [{{site.data.keyword.backup_notm}} on IBM Cloud ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+For more information about pricing, see [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}
 
-1. Log in to the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){:new_window} or the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
-2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){:new_window}.
+1. Log in to the [IBM Cloud catalog](https://{DomainName}/catalog){: external} or the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+2. Order a monthly bare metal server. For more information about ordering bare metal servers, see [Building a custom Bare Metal Servers](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Select quantity, billing option. Enter host and domain names. You can choose any host name and domain that you like.
 
       {{site.data.keyword.backup_notm}} service isn't available when you're ordering an hourly billed server. However, the service can be added later as an upgrade.
@@ -49,8 +49,8 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}} stora
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ### Confirming the {{site.data.keyword.backup_notm}} purchase
-1. In the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window}, click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. In the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external}, click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Device** > **Device List**.
 2. Locate the new server that you ordered.
   - If you see a clock icon next to the url, you need to wait to continue with the {{site.data.keyword.backup_notm}} purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the {{site.data.keyword.backup_notm}} service purchase.
@@ -63,8 +63,8 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
 
 ### Select a server on which to install {{site.data.keyword.backup_notm}}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Select **Devices** > **Device List** from the main menu. Find the device for which you want to add the backup service.
 3. Click the Device name to go to the **Device Details** page.
 

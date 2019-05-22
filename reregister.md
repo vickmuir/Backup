@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -33,7 +33,7 @@ This task is most commonly used after the Operating System of a server is reload
   - Vault address
   - Account
 
-    "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. Typically, it looks like "SLE[account ID]"
+    "Account" is the equivalent of the "Account Name" in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Typically, it looks like "SLE[account ID]"
     {:tip}
   - User name
   - Password

@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -19,7 +19,7 @@ subcollection: Backup
 # Restoring from a backup
 {: #simplerestore}
 
-Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
+Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.
 
 ## Starting {{site.data.keyword.backup_notm}} portal
 {: #startWebCCsimple}
@@ -27,8 +27,8 @@ Use these steps to complete a File restore with {{site.data.keyword.backup_full}
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.BluSoftlayer_full}} private network. The {{site.data.keyword.backup_notm}} portal link doesn't work otherwise.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){:new_window} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
+   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select the server where the files to be restored are located. Click the arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal** to start the {{site.data.keyword.backup_notm}} portal client in your browser.

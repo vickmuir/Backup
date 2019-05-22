@@ -10,7 +10,7 @@ subcollection: Backup
 
 ---
 {:pre: .pre}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -62,7 +62,7 @@ This task is completed through a series of interactions while you are logged in 
 5. Select **Register as a new computer** and click **Next**.
 6. Enter the vault name in the Profile name field.
 
-   The vault name can be obtained from the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+   The vault name can be obtained from the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Enter network address (the IP address of the assigned vault) and click **Add**. Then, click **Next**.
 7. Enter the new port values and click **Add**, then **Next**.

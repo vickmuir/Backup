@@ -9,7 +9,7 @@ keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup 
 subcollection: Backup
 
 ---
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
@@ -93,14 +93,14 @@ By default, the base client has a state-of-the-art technology to handle most ope
 ## Where can I find information about pricing?
 {: faq}
 
-For more information, see [Backup storage ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore){:new_window} and [EVault on IBM Cloud: Pricing ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup/pricing){:new_window}.
+For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## Can the {{site.data.keyword.backup_notm}} capacity be increased or decreased without compromising the backups?
 {: faq}
 
-You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+You can increase or decrease the size of your vault through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. The modification to the capacity does not affect the integrity of the data that is stored in the vault. For more information, see [Expanding Capacity](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 
