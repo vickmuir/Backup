@@ -33,7 +33,7 @@ For more information, see the [Main features](#main-features) section.
 ## Ordering the plug-in
 {: #orderingSQLPlugin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select your account, and click **Order plug-ins**.
@@ -66,7 +66,7 @@ Before you install the MSSQL plug-in for your Microsoft Windows server, stop bot
 ## Downloading the user guide
 {: #SQLUserGuide}
 
-Connect to the {{site.data.keyword.BluSoftlayer_full}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connect to the {{site.data.keyword.cloud}} network with {{site.data.keyword.BluVPN}} so that you can download the user guide from the [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}
 
 ## Main features
 {: #main-features}

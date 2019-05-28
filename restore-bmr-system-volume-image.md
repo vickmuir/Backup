@@ -24,7 +24,7 @@ If you need to restore a Bare Metal image backup from {{site.data.keyword.backup
 ## Initiating the BMR Rescue Kernel system
 
 You can access the BMR Rescue Kernel system through the {{site.data.keyword.slportal}}.
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Click the **Arrow** next to the vault.

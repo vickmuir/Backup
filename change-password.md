@@ -21,7 +21,7 @@ subcollection: Backup
 
 Each {{site.data.keyword.backup_full}} service has an associated password that is used to access the vault within the {{site.data.keyword.backup_notm}} portal.
 
-For many {{site.data.keyword.BluSoftlayer_full}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for the tracking of the password. For those products and services, the changes that are made to the password within the {{site.data.keyword.slportal}} aren't applied to the product or service. It's **not** the case for {{site.data.keyword.backup_notm}}.
+For many {{site.data.keyword.cloud}} products and services, the password storage feature within the {{site.data.keyword.slportal}} is used solely for the tracking of the password. For those products and services, the changes that are made to the password within the {{site.data.keyword.slportal}} aren't applied to the product or service. It's **not** the case for {{site.data.keyword.backup_notm}}.
 
 Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. When you change your password, keep in mind that it impacts your service directly.
 {:important}

@@ -37,7 +37,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 ## Logging in to the target device server
 {: #logintargetLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
    Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.

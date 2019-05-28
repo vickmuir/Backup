@@ -22,7 +22,7 @@ subcollection: Backup
 ## What kind of applications can be backed up?
 {: faq}
 
-{{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.BluSoftlayer_full}} also offers software agents for some of the more common software systems that are backed up, which include
+{{site.data.keyword.backup_full}} can be used to back up various applications. {{site.data.keyword.cloud}} also offers software agents for some of the more common software systems that are backed up, which include
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,7 +93,7 @@ By default, the base client has a state-of-the-art technology to handle most ope
 ## Where can I find information about pricing?
 {: faq}
 
-For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
