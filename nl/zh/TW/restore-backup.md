@@ -19,16 +19,16 @@ subcollection: Backup
 # 從備份還原
 {: #simplerestore}
 
-請使用這些步驟，以 {{site.data.keyword.backup_full}} 來完成「檔案」還原。若要還原系統映像檔，請遵循 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示。
+請使用這些步驟，以 {{site.data.keyword.backup_full}} 來完成「檔案」還原。若要還原系統映像檔，請遵循 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 指示。
 
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
 {: #startWebCCsimple}
 
-請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.BluSoftlayer_full}} 專用網路。否則，{{site.data.keyword.backup_notm}} 入口網站鏈結將無法運作。
+請記得啟動您的 {{site.data.keyword.BluVPN}} 連線來存取 {{site.data.keyword.cloud}} 專用網路。否則，{{site.data.keyword.backup_notm}} 入口網站鏈結將無法運作。
 {:important}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 選取要還原之檔案所在的伺服器。按一下箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站**，以在瀏覽器中啟動 {{site.data.keyword.backup_notm}} 入口網站用戶端。

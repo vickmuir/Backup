@@ -24,13 +24,13 @@ subcollection: Backup
 - [訂購伺服器時購買備份](#purchasingwithserver)。
 - [以升級方式購買備份](#purchasingasupgrade)。
 
-如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} 儲存空間](https://www.ibm.com/cloud/backup-and-restore){: external} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}。
+如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} 及 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}。
 
 ## 訂購伺服器時購買 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
 
-1. 登入 [IBM Cloud 型錄](https://{DomainName}/catalog){: external} 或 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
-2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){: external}。
+1. 登入 [IBM Cloud 型錄](https://{DomainName}/catalog){: external}或 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+2. 訂購每月裸機伺服器。如需訂購裸機伺服器的相關資訊，請參閱[建置自訂裸機伺服器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}。
    1. 選取數量、計費選項。輸入主機及網域名稱。您可以選擇喜歡的任何主機名稱及網域。
 
       訂購按小時計費的伺服器時，無法使用 {{site.data.keyword.backup_notm}} 服務。不過，稍後可用升級方式新增此服務。
@@ -49,8 +49,8 @@ subcollection: Backup
 一系列電子郵件會傳送給您的管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結，而您可以在登入 {{site.data.keyword.cloud_notm}} 之後存取該頁面。您也可以直接登入 {{site.data.keyword.slportal}}。
 
 ### 確認 {{site.data.keyword.backup_notm}} 購買
-1. 在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external} 中，按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
-      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}中，按一下左上角的**功能表**圖示。選取**標準基礎架構**。</br>
+   或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**裝置** > **裝置清單**。
 2. 找出您已訂購的新伺服器。
   - 如果您看到 URL 旁邊有時鐘圖示，則您需要等待，以繼續進行 {{site.data.keyword.backup_notm}} 購買確認。您可以重新整理頁面，以查看新伺服器的更新狀態。不再出現時鐘圖示時，您便可以繼續進行接下來的步驟，以確認 {{site.data.keyword.backup_notm}} 服務購買。
@@ -63,7 +63,7 @@ subcollection: Backup
 
 ### 選取要安裝 {{site.data.keyword.backup_notm}} 的伺服器
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上方的**功能表**圖示。選取**標準基礎架構**。</br>
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。</br>
    或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 從主功能表中選取**裝置** > **裝置清單**。尋找您要為其新增備份服務的裝置。
 3. 按一下「裝置」名稱，以移至**裝置詳細資料**頁面。

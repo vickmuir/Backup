@@ -38,7 +38,7 @@ subcollection: Backup
 {: #logintargetLin}
 
 1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 從主功能表選取**裝置** > **裝置清單**，以查看可用伺服器裝置的清單。
 3. 找出您已為其購買 {{site.data.keyword.backup_notm}} 服務的裝置，並記下其公用 IP 位址。
   - 從 UNIX 或 Linux 指令行登入裝置時，會在接下來的步驟使用此 IP 位址。在步驟 5 所顯示的指令中，將 <publicIpAddress> 取代為實際公用 IP 位址。

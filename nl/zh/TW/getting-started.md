@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # 入門指導教學
 {: #getting-started}
 
-備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.BluSoftlayer_full}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 這類軟體相容，並在必要時讓使用者完成 [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
+備份可確保您的資料安全地儲存在裝置外部，而且在遺失的情況也受到保護。{{site.data.keyword.backup_full}} 是一種以代理程式為基礎的自動化備份系統，可透過 {{site.data.keyword.backup_notm}} 入口網站的瀏覽器型管理公用程式進行管理。{{site.data.keyword.backup_notm}} 提供方法讓使用者在 {{site.data.keyword.cloud}} 網路的一個以上資料中心內的伺服器之間備份資料。管理者可以將備份設定為遵循每日、每週或自訂排程，且排程是以完整系統、特定目錄或甚至個別檔案為目標。額外的外掛程式確保與 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 這類軟體相容，並在必要時讓使用者完成 [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
 {:shortdesc}
 
 ## 開始之前
@@ -34,6 +34,7 @@ subcollection: Backup
 如需訂購及定價的相關資訊，請參閱[佈建 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering)。
 
 ## 安裝 {{site.data.keyword.backup_notm}} 代理程式
+{: #installagentgettingstarted}
 
 下列作業系統可支援「{{site.data.keyword.backup_notm}} 代理程式」。
 
@@ -63,19 +64,20 @@ subcollection: Backup
 ## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
 {: #accessingWebCC}
 
-{{site.data.keyword.backup_notm}} 入口網站可用來與 {{site.data.keyword.BluSoftlayer_full}} 所提供之任何 {{site.data.keyword.backup_notm}} 服務互動。{{site.data.keyword.backup_notm}} 入口網站是一種瀏覽器型用戶端，其執行於 {{site.data.keyword.BluSoftlayer_full}} 專用網路，可供完全控制任何 {{site.data.keyword.backup_notm}} 服務，包括配置和還原。
+{{site.data.keyword.backup_notm}} 入口網站可用來與 {{site.data.keyword.cloud}} 所提供之任何 {{site.data.keyword.backup_notm}} 服務互動。{{site.data.keyword.backup_notm}} 入口網站是一種瀏覽器型用戶端，其執行於 {{site.data.keyword.cloud}} 專用網路，可供完全控制任何 {{site.data.keyword.backup_notm}} 服務，包括配置和還原。
 
 1. 透過 VPN 存取「專用網路」。
 
    無法透過公用網路存取 {{site.data.keyword.backup_notm}} 入口網站。必須先建立 VPN 連線。
    {:important}
 2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-      或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 配置備份代理程式和備份排程
+{: #configureagentschedule}
 
 在您訂購 {{site.data.keyword.backup_notm}} 並在伺服器上安裝代理程式之後，即可開始建立資料備份。請遵循下列步驟來配置代理程式及保留排程。
 
@@ -99,7 +101,11 @@ subcollection: Backup
       如需「保留方案」的相關資訊，請參閱[常見問題](/docs/infrastructure/Backup?topic=Backup-faqs#faqs)。
         {:tip}
 
+      不支援保存。當您建立保留方案或修改現有方案時，請確定**未**選取「保存」選項。
+      {:important}
+
 ## 執行第一個備份工作
+{: #runfirstbackup}
 
 1. 登入 {{site.data.keyword.backup_notm}} 入口網站。
 2. 按一下**所有代理程式**，然後選取您已配置的代理程式。
@@ -112,6 +118,7 @@ subcollection: Backup
 {:tip}
 
 ## 在主控台中存取及檢視 {{site.data.keyword.backup_notm}} 儲存空間詳細資料
+{: #viewingdetailsinconsole}
 
 您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}和 {{site.data.keyword.slportal}} 上檢視服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
 
@@ -125,5 +132,6 @@ subcollection: Backup
 {:important}
 
 ## 取得更多線上說明
+{: #onlinehelp}
 
 {{site.data.keyword.backup_notm}} 入口網站的系統有完整的文件說明，並且可在  {{site.data.keyword.backup_notm}} 入口網站中存取應用程式的支援。按一下位在**說明**右上角之藍色圓圈中的白色問號。按一下左側導覽列中的任何文章或主題，以檢視相關資訊。

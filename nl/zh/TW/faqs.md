@@ -22,7 +22,7 @@ subcollection: Backup
 ## 可以備份哪些類型的應用程式？
 {: faq}
 
-{{site.data.keyword.backup_full}} 可以用來備份各種應用程式。{{site.data.keyword.BluSoftlayer_full}} 也有針對所備份的一些較常見軟體系統提供軟體代理程式，包括：
+{{site.data.keyword.backup_full}} 可以用來備份各種應用程式。{{site.data.keyword.cloud}} 也有針對所備份的一些較常見軟體系統提供軟體代理程式，包括：
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,7 +93,7 @@ subcollection: Backup
 ## 我可以在何處找到定價資訊？
 {: faq}
 
-如需相關資訊，請參閱 [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} 及 [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}。
+如需相關資訊，請參閱[備份儲存空間](https://www.ibm.com/cloud/backup-and-restore){: external}及 [IBM Cloud Backup：定價](https://www.ibm.com/cloud/backup/pricing){: external}。
 
 <hr>
 

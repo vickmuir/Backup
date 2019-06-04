@@ -58,7 +58,7 @@ vSphere Recovery Agent (VRA) 是一個 Windows 應用程式，可以備份及還
 2. 在「電腦」標籤上，選取您要備份的伺服器。
 3. 配置您的儲存庫資訊。
 
-   可以透過兩種方式配置「儲存庫」資訊：**自動**或**手動**。<br/>如果代理程式是第一次進行配置，則可以使用[自動配置](#VRAautoconfig)選項予以配置。<br/>如果電腦先前已登錄「儲存庫」，則自動配置無法運作，儲存庫需要[手動配置](#VRAmanualconfig)。
+   可以利用以下兩種方式配置儲存庫資訊：**自動**或**手動**。<br/>如果代理程式是第一次進行配置，則可以使用[自動配置](#VRAautoconfig)選項予以配置。<br/>如果電腦先前已登錄「儲存庫」，則自動配置無法運作，儲存庫需要[手動配置](#VRAmanualconfig)。
    {: tip}
 
 4. 配置 [vCenter 設定](#vCenterSettingsconfig)   
@@ -97,8 +97,7 @@ vSphere Recovery Agent (VRA) 是一個 Windows 應用程式，可以備份及還
 
 ## 後續步驟
 {: #VRAnextteps}
-1. [配置、排程及執行備份工作](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [配置、排程及執行備份工作](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [還原 vSphere 資料](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.BluSoftlayer_full}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} 存取及下載使用手冊。
-{:tip}
+使用 {{site.data.keyword.BluVPN}} 連接至 {{site.data.keyword.cloud}} 網路，以便您可以從 [Downloadable {{site.data.keyword.backup_notm}} Documentation ](http://downloads.service.softlayer.com/evault/Documentation/){: external} 存取及下載使用手冊。{:tip}
