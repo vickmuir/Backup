@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Guía de aprendizaje de iniciación
 {: #getting-started}
 
-Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador del portal de {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.BluSoftlayer_full}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) y permiten a los usuarios completar una [Restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), cuando sea necesario.
+Las copias de seguridad garantizan que los datos se almacenan de forma segura fuera de su dispositivo y están protegidos si se pierden. {{site.data.keyword.backup_full}} es un sistema de copia de seguridad automático basado en agente que se gestiona mediante el programa de utilidad de gestión basado en navegador del portal de {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} proporciona a los usuarios un método de hacer copia de seguridad de los datos entre servidores de uno o varios centros de datos de la red de {{site.data.keyword.cloud}}. Los administradores pueden establecer que las copias de seguridad sigan una planificación diaria, semanal o personalizada que abarque sistemas completos, directorios específicos o incluso archivos individuales. Los plugins adicionales garantizan la compatibilidad con software como [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) y permiten a los usuarios completar una [Restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), cuando sea necesario.
 {:shortdesc}
 
 ## Antes de empezar
@@ -34,6 +34,7 @@ Debe tener una licencia válida para utilizar IBM Cloud Backup. Puede adquirir e
 Para obtener más información sobre cómo solicitarlo y los precios, consulte [Suministro de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
 
 ## Instalación del agente de {{site.data.keyword.backup_notm}}
+{: #installagentgettingstarted}
 
 El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas operativos siguientes:
 
@@ -63,7 +64,7 @@ Siga las instrucciones adecuadas para su sistema operativo,
 ## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
 {: #accessingWebCC}
 
-El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.BluSoftlayer_full}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.BluSoftlayer_full}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración.
+El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con todos los servicios de {{site.data.keyword.backup_notm}} que ofrece {{site.data.keyword.cloud}}. El portal de {{site.data.keyword.backup_notm}} es un cliente basado en navegador que se ejecuta en la red privada de {{site.data.keyword.cloud}} y que permite el control completo de cualquier servicio de {{site.data.keyword.backup_notm}}, incluidas operaciones de configuración y de restauración.
 
 1. Acceda a la red privada a través de VPN.
 
@@ -76,6 +77,7 @@ El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con t
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
 ## Configuración del agente de copia de seguridad y de la planificación de copias de seguridad
+{: #configureagentschedule}
 
 Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber instalado el agente en el servidor, puede empezar a crear copias de seguridad de los datos. Siga estos pasos para configurar el agente y la planificación de la retención.
 
@@ -99,7 +101,11 @@ Después de haber solicitado el {{site.data.keyword.backup_notm}} y de haber ins
       Para obtener más información sobre los esquemas de retención, consulte las [Preguntas frecuentes](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
+      El archivado no está soportado. Al crear un esquema de retención o modificar un esquema existente, asegúrese de que la opción Archivado **no** esté seleccionada.
+      {:important}
+
 ## Ejecución del primer trabajo de copia de seguridad
+{: #runfirstbackup}
 
 1. Inicie la sesión en el portal de {{site.data.keyword.backup_notm}}.
 2. Pulse **Todos los agentes** y seleccione el agente que ha configurado.
@@ -112,6 +118,7 @@ Para obtener más información, consulte la sección [Configuración de una copi
 {:tip}
 
 ## Acceso y visualización de los detalles de almacenamiento de {{site.data.keyword.backup_notm}} en la consola
+{: #viewingdetailsinconsole}
 
 Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y en el {{site.data.keyword.slportal}} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
@@ -125,5 +132,6 @@ Los cambios realizados en la contraseña de la copia de seguridad de {{site.data
 {:important}
 
 ## Obtención de más ayuda en línea
+{: #onlinehelp}
 
 Los sistemas del portal de {{site.data.keyword.backup_notm}} están plenamente documentados y se puede acceder a soporte para la aplicación dentro del propio portal de {{site.data.keyword.backup_notm}}. Pulse el signo de interrogación blanco dentro de un círculo azul que se encuentra en la parte superior derecha para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación de la parte izquierda para ver más información.

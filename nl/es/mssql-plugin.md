@@ -66,7 +66,7 @@ Antes de instalar el plugin de MSSQL para el servidor Microsoft Windows, detenga
 ## Descarga de la guía del usuario
 {: #SQLUserGuide}
 
-Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Conéctese a la red de {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} para poder descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}
 
 ## Características principales
 {: #main-features}

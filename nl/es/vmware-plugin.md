@@ -97,8 +97,8 @@ Una vez configurada satisfactoriamente la caja fuerte, es necesario configurar l
 
 ## Pasos siguientes
 {: #VRAnextteps}
-1. [Configurar, planificar y ejecutar un trabajo de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [Configurar, planificar y ejecutar un trabajo de copia de seguridad](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [Restaurar los datos de vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-Conéctese a la red de {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+Conéctese a la red de {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 {:tip}

@@ -97,8 +97,7 @@ VRA をインストールした後、{{site.data.keyword.backup_notm}} ポータ
 
 ## 次のステップ
 {: #VRAnextteps}
-1. [バックアップ・ジョブを構成し、スケジュールし、実行します](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [バックアップ・ジョブを構成し、スケジュールし、実行します](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [vSphere データをリストアします](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external} からユーザーズ・ガイドにアクセスしてダウンロードすることができます。
-{:tip}
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.cloud}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external}からユーザーズ・ガイドにアクセスしてダウンロードすることができます。{:tip}

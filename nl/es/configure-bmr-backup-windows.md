@@ -25,7 +25,7 @@ Tiene que adquirir el plug-in de BMR para crear una copia de seguridad BMR. BMR 
 ## Inicio del portal de {{site.data.keyword.backup_notm}}
 {: #startWebCCBMR}
 
-Debe estar conectado a la red privada de {{site.data.keyword.BluSoftlayer_full}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
+Debe estar conectado a la red privada de {{site.data.keyword.cloud}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
 {:important}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>

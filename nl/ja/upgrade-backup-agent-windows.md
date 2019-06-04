@@ -20,7 +20,7 @@ subcollection: Backup
 最新のバックアップ・エージェントを、{{site.data.keyword.backup_notm}}・ポータルの「ダッシュボード」クイック・リンク・セクションからダウンロードできます。
 {:tip}
 
-1. {{site.data.keyword.backup_notm}} のアップグレードが必要な {{site.data.keyword.BluSoftlayer_full}} サーバーをリモート制御します。
+1. {{site.data.keyword.backup_notm}} のアップグレードが必要な {{site.data.keyword.cloud}} サーバーをリモート制御します。
 2. ブラウザーを開き、次のアドレスに移動します。
    ```
    http://downloads.service.softlayer.com/evault/
@@ -28,7 +28,7 @@ subcollection: Backup
    {:pre}
 3. 必要なファイルをクリックします。 (例: Agent-Windows-x64-6-72-1072a.exe)
 
-   バージョン番号はファイル名に含まれます。 最新のものを選択してください。 <br/>{{site.data.keyword.BluSoftlayer_full}} には、32 ビットと 64 ビットのそれぞれ別個のインストーラーがあります。 64 ビット・オペレーティング・システムをご使用の場合は、名前に x64 が含まれるファイルをダウンロードしてください。
+   バージョン番号はファイル名に含まれます。 最新のものを選択してください。 <br/>{{site.data.keyword.cloud}} には、32 ビットと 64 ビットのそれぞれ別個のインストーラーがあります。 64 ビット・オペレーティング・システムをご使用の場合は、名前に x64 が含まれるファイルをダウンロードしてください。
    {:tip}
 4. ダウンロード画面で**「実行 (Run)」**をクリックし、ダウンロードした後もう一度「実行 (Run)」をクリックします。
 5. **「はい」**をクリックして、**{{site.data.keyword.backup_notm}}ソフトウェア・エージェント**をアップグレードします。

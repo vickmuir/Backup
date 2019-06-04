@@ -22,7 +22,7 @@ subcollection: Backup
 ## ¿De qué tipo de aplicaciones se puede hacer copia de seguridad?
 {: faq}
 
-Se puede utilizar {{site.data.keyword.backup_full}} para realizar una copia de seguridad de varias aplicaciones. {{site.data.keyword.BluSoftlayer_full}} ofrece agentes de software para algunos de los sistemas de software más comunes de los que se hace copia de seguridad, que incluyen:
+Se puede utilizar {{site.data.keyword.backup_full}} para realizar una copia de seguridad de varias aplicaciones. {{site.data.keyword.cloud}} ofrece agentes de software para algunos de los sistemas de software más comunes de los que se hace copia de seguridad, que incluyen:
 
 - [Restauración desde cero](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,14 +93,14 @@ De forma predeterminada, el cliente base dispone de la tecnología más innovado
 ## ¿Dónde puedo encontrar información sobre los precios?
 {: faq}
 
-Para obtener más información, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){: external} y [EVault en IBM Cloud: precios](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obtener más información, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){: external} y [IBM Cloud Backup: precios](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_notm}} sin poner en riesgo las copias de seguridad?
 {: faq}
 
-Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: external}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

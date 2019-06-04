@@ -21,7 +21,7 @@ subcollection: Backup
 
 Cada servicio de {{site.data.keyword.backup_full}} tiene una contraseña asociada que se utiliza para acceder a la caja fuerte dentro del portal de {{site.data.keyword.backup_notm}}.
 
-Para muchos productos y servicios de {{site.data.keyword.BluSoftlayer_full}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para realizar el seguimiento de las contraseñas. Para dichos productos y servicios, los cambios que se realizan en la contraseña dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio. **No** es el caso de {{site.data.keyword.backup_notm}}.
+Para muchos productos y servicios de {{site.data.keyword.cloud}}, la característica de almacenamiento de contraseñas dentro del {{site.data.keyword.slportal}} solo se utiliza para realizar el seguimiento de las contraseñas. Para dichos productos y servicios, los cambios que se realizan en la contraseña dentro del {{site.data.keyword.slportal}} no se aplican al producto o servicio. **No** es el caso de {{site.data.keyword.backup_notm}}.
 
 Los cambios realizados en la contraseña de la copia de seguridad de {{site.data.keyword.backup_notm}} en el {{site.data.keyword.slportal}} se realizan en el propio servicio. Cuando cambie la contraseña, tenga en cuenta que afecta directamente a su servicio.
 {:important}

@@ -22,7 +22,7 @@ subcollection: Backup
 ## どのような種類のアプリケーションをバックアップできますか。
 {: faq}
 
-{{site.data.keyword.backup_full}} では、さまざまなアプリケーションをバックアップできます。 さらに {{site.data.keyword.BluSoftlayer_full}} では、バックアップ対象となる頻度が高い次のようなソフトウェア・システム用に、ソフトウェア・エージェントを提供しています。
+{{site.data.keyword.backup_full}} では、さまざまなアプリケーションをバックアップできます。 さらに {{site.data.keyword.cloud}} では、バックアップ対象となる頻度が高い次のようなソフトウェア・システム用に、ソフトウェア・エージェントを提供しています。
 
 - [ベアメタルのリストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,14 +93,14 @@ subcollection: Backup
 ## 価格に関する情報はどこで確認できますか。
 {: faq}
 
-詳しくは、[Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} および [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
+詳しくは、[Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} および [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
 
 <hr>
 
 ## バックアップを危険にさらさずに {{site.data.keyword.backup_notm}} 容量を増減できますか?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
+[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} でボールトのサイズを増減できます。容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
 
 <hr>
 

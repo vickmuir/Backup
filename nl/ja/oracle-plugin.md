@@ -39,8 +39,8 @@ Oracle プラグインはアドオンで、Windows エージェントまたは L
 ## プラグインの注文
 {: #orderingOraclePlugin}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external} にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
-   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
+あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. アカウントを選択して、**「プラグインの注文」**をクリックします。
 4. **「{{site.data.keyword.backup_notm}} プラグイン - Oracle」**を選択し、**「続行」**をクリックします。
@@ -109,4 +109,4 @@ Oracle プラグインはデータベース全体のバックアップを不整�
 ## ユーザー・ガイドのダウンロード
 {: #OracleUserGuide}
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.BluSoftlayer_full}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external} からユーザーズ・ガイドをダウンロードすることができます。
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.cloud}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external}からユーザーズ・ガイドをダウンロードすることができます。

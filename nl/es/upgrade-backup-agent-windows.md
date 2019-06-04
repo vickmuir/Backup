@@ -20,7 +20,7 @@ subcollection: Backup
 La versión más reciente del agente de copia de seguridad se puede descargar desde la sección de enlaces rápidos del panel de control del portal de {{site.data.keyword.backup_notm}}.
 {:tip}
 
-1. Controle de forma remota el servidor {{site.data.keyword.BluSoftlayer_full}} que requiere una actualización de {{site.data.keyword.backup_notm}}.
+1. Controle de forma remota el servidor {{site.data.keyword.cloud}} que requiere una actualización de {{site.data.keyword.backup_notm}}.
 2. Abra un navegador y vaya a la siguiente dirección.
    ```
    http://downloads.service.softlayer.com/evault/
@@ -28,7 +28,7 @@ La versión más reciente del agente de copia de seguridad se puede descargar de
    {:pre}
 3. Pulse el archivo que desee. (Por ejemplo, Agent-Windows-x64-6-72-1072a.exe)
 
-   El número de versión está en el nombre del archivo. Elija el más reciente. <br/>{{site.data.keyword.BluSoftlayer_full}} ofrece distintos instaladores de 32 bits y de 64 bits. Si tiene un sistema operativo de 64 bits, descargue el archivo que contiene x64 en su nombre.
+   El número de versión está en el nombre del archivo. Elija el más reciente. <br/>{{site.data.keyword.cloud}} ofrece distintos instaladores de 32 bits y de 64 bits. Si tiene un sistema operativo de 64 bits, descargue el archivo que contiene x64 en su nombre.
    {:tip}
 4. Pulse **Ejecutar** en la pantalla de descarga y pulse otra vez después de que se descargue.
 5. Pulse **Sí** para actualizar **{{site.data.keyword.backup_notm}} Software Agent**.

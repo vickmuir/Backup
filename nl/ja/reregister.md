@@ -33,7 +33,7 @@ subcollection: Backup
   - ボールト・アドレス (Vault address)
   - アカウント
 
-    「アカウント」は [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} の「アカウント名」と同等です。 通常、「SLE[account ID]」のようになります。
+3    「アカウント」は [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} の「アカウント名」と同等です。通常、「SLE[account ID]」のようになります。
     {:tip}
   - ユーザー名
   - パスワード

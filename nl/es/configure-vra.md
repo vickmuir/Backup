@@ -27,7 +27,7 @@ Debe configurar los Valores de caja fuerte y la información del vCenter para po
 ## Inicio del portal de {{site.data.keyword.backup_notm}}
 {: #startWebCCVRA}
 
-Debe estar conectado a la red privada de {{site.data.keyword.BluSoftlayer_full}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
+Debe estar conectado a la red privada de {{site.data.keyword.cloud}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
 {:important}
 
 1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>

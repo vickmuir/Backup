@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,13 +20,13 @@ subcollection: Backup
 # 入門チュートリアル
 {: #getting-started}
 
-バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.BluSoftlayer_full}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインを使用すると、[Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) などのソフトウェアとの互換性を確保でき、ユーザーは必要に応じて[ベアメタル・リストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を実行できるようになります。
+バックアップにより、デバイスの外部でデータを確実かつ安全に保存でき、紛失した場合にも保護できます。 {{site.data.keyword.backup_full}} は、{{site.data.keyword.backup_notm}} ポータル・ブラウザー・ベースの管理ユーティリティーにより管理される、エージェント・ベースの自動化されたバックアップ・システムです。 {{site.data.keyword.backup_notm}} は、{{site.data.keyword.cloud}} ネットワーク上の 1 つ以上のデータ・センターにあるサーバー間でデータをバックアップするための手段を提供します。 管理者は、フル・システムや特定のディレクトリー、あるいは個別のファイルを対象とした日次スケジュール、週次スケジュール、またはカスタム・スケジュールに従うバックアップを設定できます。 追加のプラグインを使用すると、[Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin)、[VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) などのソフトウェアとの互換性を確保でき、ユーザーは必要に応じて[ベアメタル・リストア](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を実行できるようになります。
 {:shortdesc}
 
 ## 依頼する前に
 {: #prereqs}
 
-IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
+IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
 
 - [サーバーの注文時におけるバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)
@@ -34,6 +34,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 ご注文と価格について詳しくは、 [{{site.data.keyword.backup_notm}} のプロビジョニング](/docs/infrastructure/Backup?topic=Backup-ordering) を参照してください。
 
 ## {{site.data.keyword.backup_notm}} エージェントのインストール
+{: #installagentgettingstarted}
 
 {{site.data.keyword.backup_notm}} エージェントは以下の OS でサポートされています。
 
@@ -63,19 +64,20 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 ## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
 {: #accessingWebCC}
 
-{{site.data.keyword.backup_notm}}・ポータルは、{{site.data.keyword.BluSoftlayer_full}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。 {{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.BluSoftlayer_full}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
+{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
 
 1. VPN 経由でプライベート・ネットワークにアクセスします。
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
 2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## バックアップ・エージェントとバックアップ・スケジュールの構成
+{: #configureagentschedule}
 
 {{site.data.keyword.backup_notm}} を注文し、エージェントがサーバーにインストールされた後、データのバックアップの作成を開始できます。 エージェントと保存スケジュールを構成するには、以下のステップに従ってください。
 
@@ -99,7 +101,10 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
       保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs) を参照してください。
       {:tip}
 
+      アーカイブはサポートされていません。保存スキームを作成したり既存のスキームを変更したりするには、「アーカイブ (Archiving)」オプションが選択されて**いない**ことを確認してください。{:important}
+
 ## 最初のバックアップ・ジョブの実行
+{: #runfirstbackup}
 
 1. {{site.data.keyword.backup_notm}} ポータルにログインします。
 2. **「すべてのエージェント」**をクリックしてから、構成したエージェントを選択します。
@@ -112,11 +117,11 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 {:tip}
 
 ## {{site.data.keyword.backup_notm}} のストレージの詳細へのコンソールでのアクセスと表示
+{: #viewingdetailsinconsole}
 
 サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>
-   あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
 2. **「ストレージ」**をクリックし、リストから**「バックアップ」**を選択します。
 2. ストレージの詳細を確認するボールトの行の任意の位置をクリックします。 このビューでは「パスワード」は表示可能ではありません。
 3. **「パスワード」**フィールドの横にある**「表示」**チェック・ボックスをクリックし、選択した {{site.data.keyword.backup_notm}} サービスのパスワードを表示します。
@@ -125,5 +130,6 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 {:important}
 
 ## その他のオンライン・ヘルプの表示
+{: #onlinehelp}
 
 {{site.data.keyword.backup_notm}} ポータルのシステムは完全に文書化されており、アプリケーションのサポートには {{site.data.keyword.backup_notm}} ポータル内からアクセス可能です。 **「ヘルプ」**を表示するには、右上にある青い円の中の白い疑問符をクリックします。 左側にあるナビゲーション・バーで任意の記事やトピックをクリックすると、詳細情報が表示されます。

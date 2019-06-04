@@ -24,13 +24,13 @@ Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 - [Adquisición de copias de seguridad cuando se solicita un servidor](#purchasingwithserver).
 - [Adquisición de copias de seguridad como actualización](#purchasingasupgrade).
 
-Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){: external} y [{{site.data.keyword.backup_notm}} en IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ](https://www.ibm.com/cloud/backup-and-restore){: external} y [{{site.data.keyword.backup_notm}} en IBM Cloud ](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 ## Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 {: #purchasingwithserver}
 
-1. Inicie la sesión en el [catálogo de IBM Cloud](https://{DomainName}/catalog){: external} o el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
-2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){: external}.
+1. Inicie la sesión en el [catálogo de IBM Cloud](https://{DomainName}/catalog){: external} o el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
       El servicio {{site.data.keyword.backup_notm}} no está disponible cuando se solicita un servidor de facturación por horas. Sin embargo, el servicio se puede añadir posteriormente como una actualización.

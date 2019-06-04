@@ -20,7 +20,7 @@ subcollection: Backup
 # Ampliación de la capacidad de la caja fuerte
 {: #expandcapacity}
 
-Los usuarios actuales de {{site.data.keyword.BluSoftlayer_full}} pueden ampliar el tamaño de su caja fuerte hasta un máximo de 4000 GB. No es necesario que creen un duplicado ni que migren los datos manualmente a un volumen más grande. El proceso de aumento del límite no causa ninguna parada ni falta de acceso.
+Los usuarios actuales de {{site.data.keyword.cloud}} pueden ampliar el tamaño de su caja fuerte hasta un máximo de 4000 GB. No es necesario que creen un duplicado ni que migren los datos manualmente a un volumen más grande. El proceso de aumento del límite no causa ninguna parada ni falta de acceso.
 
 ## Solicitud de un aumento
 
