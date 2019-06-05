@@ -36,11 +36,11 @@ subcollection: Backup
 ## 启动 Server2 的 {{site.data.keyword.backup_notm}} 门户网站
 {: #startWebCC}
 
-请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.BluSoftlayer_full}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
+请务必启动 {{site.data.keyword.BluVPN}} 连接来访问 {{site.data.keyword.cloud}} 专用网络，否则 {{site.data.keyword.backup_notm}} 门户网站链接是不好用的。
 {:tip}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择 Server2。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # 入门教程
 {: #getting-started}
 
-通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.BluSoftlayer_full}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) 和 [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 等软件兼容，并允许用户在必要时完成[裸机复原](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
+通过备份，可确保数据安全地存储在设备外部，以防数据丢失情况发生。{{site.data.keyword.backup_full}} 是一种基于代理程序的自动备份系统，可通过基于浏览器的 {{site.data.keyword.backup_notm}} 门户网站的管理实用程序进行管理。{{site.data.keyword.backup_notm}} 为用户提供在 {{site.data.keyword.cloud}} 网络上一个或多个数据中心的服务器之间备份数据的方法。管理员可以将备份设置为按每日、每周或定制的时间表进行备份，备份目标可为完整系统、特定目录或个别文件。通过额外的插件，可确保与 [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)、[Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin)、[Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) 和 [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) 等软件兼容，并允许用户在必要时完成[裸机复原](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
 {:shortdesc}
 
 ## 开始之前
@@ -34,6 +34,7 @@ subcollection: Backup
 有关订购和定价的更多信息，请参阅[供应 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering)。
 
 ## 安装 {{site.data.keyword.backup_notm}} 代理程序
+{: #installagentgettingstarted}
 
 以下操作系统上支持 {{site.data.keyword.backup_notm}} 代理程序。
 
@@ -63,7 +64,7 @@ subcollection: Backup
 ## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
 {: #accessingWebCC}
 
-{{site.data.keyword.backup_notm}} 门户网站用于与由 {{site.data.keyword.BluSoftlayer_full}} 提供的任何 {{site.data.keyword.backup_notm}} 服务进行交互。{{site.data.keyword.backup_notm}} 门户网站是一种基于浏览器的客户机，在 {{site.data.keyword.BluSoftlayer_full}} 专用网络上运行，支持对任何 {{site.data.keyword.backup_notm}} 服务进行完全控制，包括配置和复原。
+{{site.data.keyword.backup_notm}} 门户网站用于与由 {{site.data.keyword.cloud}} 提供的任何 {{site.data.keyword.backup_notm}} 服务进行交互。{{site.data.keyword.backup_notm}} 门户网站是一种基于浏览器的客户机，在 {{site.data.keyword.cloud}} 专用网络上运行，支持对任何 {{site.data.keyword.backup_notm}} 服务进行完全控制，包括配置和复原。
 
 1. 通过 VPN 访问专用网络。
 
@@ -76,6 +77,7 @@ subcollection: Backup
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
 ## 配置备份代理程序和备份调度
+{: #configureagentschedule}
 
 订购了 {{site.data.keyword.backup_notm}} 并且在服务器上安装了代理程序之后，即可以开始创建数据备份。执行以下步骤来配置代理程序和保留安排。
 
@@ -99,7 +101,12 @@ subcollection: Backup
       有关“保留方案”的更多信息，请参阅[常见问题](/docs/infrastructure/Backup?topic=Backup-faqs#faqs)。
         {:tip}
 
+      不支持归档。
+创建保留方案或修改现有方案时，确保**未**选中“归档”选项。
+      {:important}
+
 ## 运行第一个备份作业
+{: #runfirstbackup}
 
 1. 登录到 {{site.data.keyword.backup_notm}} 门户网站。
 2. 单击**所有代理程序**，然后选择已配置的代理程序。
@@ -112,6 +119,7 @@ subcollection: Backup
 {:tip}
 
 ## 在控制台中访问并查看 {{site.data.keyword.backup_notm}} 存储器详细信息
+{: #viewingdetailsinconsole}
 
 可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}和 {{site.data.keyword.slportal}} 中查看服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
 
@@ -125,5 +133,6 @@ subcollection: Backup
 {:important}
 
 ## 获取更多联机帮助
+{: #onlinehelp}
 
 {{site.data.keyword.backup_notm}} 门户网站的系统已全部记录，并且可在 {{site.data.keyword.backup_notm}} 门户网站内访问对该应用程序的支持。单击右上角含有白色问号的蓝色圆圈以获取**帮助**。单击左侧导航栏中的任何文章或主题以查看更多信息。

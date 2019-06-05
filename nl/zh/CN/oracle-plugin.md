@@ -40,7 +40,7 @@ Oracle 插件是一个附加组件，它随 Windows 代理程序或 Linux 代理
 {: #orderingOraclePlugin}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - Oracle**，然后单击**继续**。
@@ -109,4 +109,4 @@ Oracle 插件会执行“不一致”的完整数据库备份，这要求数据�
 ## 下载用户指南
 {: #OracleUserGuide}
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external} 中下载用户指南
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.cloud}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external}中下载用户指南

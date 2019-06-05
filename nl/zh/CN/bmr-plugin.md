@@ -19,7 +19,7 @@ subcollection: Backup
 # 安装 Bare Metal Restore 插件
 {: #BMRplugin}
 
-BMR 是一种灾难恢复解决方案。可以使用 BMR 在发生灾难（例如，操作系统或硬件故障）后，从裸机状态复原服务器。通过 BMR，可以从由 {{site.data.keyword.BluSoftlayer_full}} 管理的安全位置快速复原系统映像。
+BMR 是一种灾难恢复解决方案。可以使用 BMR 在发生灾难（例如，操作系统或硬件故障）后，从裸机状态复原服务器。通过 BMR，可以从由 {{site.data.keyword.cloud}} 管理的安全位置快速复原系统映像。
 
 BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于虚拟服务器。不支持 Bare Metal Restores for Linux 分发版。仅 Backup Agent 8.30 或更低版本支持 BMR。（2018 年 6 月 30 日）。
 {:important}
@@ -35,7 +35,7 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 {: #orderingBMR}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-      或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择帐户，然后单击**订购插件**。
 4. 选择 **{{site.data.keyword.backup_notm}} 插件 - BMR (Bare Metal Restore)**，然后单击**继续**。
@@ -47,4 +47,4 @@ BMR 是物理服务器上仅适用于 Microsoft Windows 的产品。不可用于
 ## 下载用户指南
 {: #BMRUserGuide}
 
-使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.BluSoftlayer_full}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external} 中访问并下载用户指南
+使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.cloud}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external}中访问并下载用户指南

@@ -27,7 +27,7 @@ subcollection: Backup
 ## 启动 {{site.data.keyword.backup_notm}} 门户网站
 {: #startWebCCVRA}
 
-您需要连接到 {{site.data.keyword.BluSoftlayer_full}} 专用网络才能启动 {{site.data.keyword.backup_notm}} 门户网站。
+您需要连接到 {{site.data.keyword.cloud}} 专用网络才能启动 {{site.data.keyword.backup_notm}} 门户网站。
 {:important}
 
 1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
