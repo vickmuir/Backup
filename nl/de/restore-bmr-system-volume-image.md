@@ -25,7 +25,7 @@ Wenn Sie eine Bare-Metal-Imagesicherung von {{site.data.keyword.backup_full}} wi
 
 Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-System zugreifen.
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Klicken Sie auf den **Pfeil** neben der Vault.
 4. Klicken Sie auf **Bare-Metal-Wiederherstellung starten**. Diese Aktion startet eine Transaktion, deren Ausführung einige Minuten dauert. Anschließend können Sie mit den hier beschriebenen Schritten auf den Server zugreifen. Sobald das System den Bootprozess abgeschlossen hat, werden Sie per E-Mail benachrichtigt.
@@ -38,7 +38,7 @@ Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-S
   - Sie können die KVM-Konsole Ihrer IPMI-Karte verwenden.
   Beide Verfahren funktionieren gut.
 2. Wenn Sie sich zum ersten Mal beim BMR-Rescue-Kernel anmelden, werden Sie mit einer Anzeige für die Sprachauswahl begrüßt. Wählen Sie die gewünschte Sprache aus und klicken Sie auf **Weiter**.
-<br/>![Abbildung 1 - BMR-Sprachauswahl](/images/bmr1.png)<br/> Die Lizenzvereinbarung für die Software wird angezeigt. 
+<br/>![Abbildung 1 - BMR-Sprachauswahl](/images/bmr1.png)<br/> Die Lizenzvereinbarung für die Software wird angezeigt.
 3. Wenn Sie den Bedingungen zustimmen, wählen Sie das Kontrollkästchen aus und klicken Sie auf **Weiter**, um fortzufahren. <br/> Das Hauptmenü der {{site.data.keyword.backup_notm}}-Systemwiederherstellung wird angezeigt.
 4. Wählen Sie **Eigenes System wiederherstellen** aus.
 <br/>![Abbildung 2 - BMR-Hauptmenü](/images/bmr2.png)

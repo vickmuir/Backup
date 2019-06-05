@@ -25,11 +25,11 @@ Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellu
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
 {: #startWebCCBMR}
 
-Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
+Sie müssen mit dem privaten {{site.data.keyword.cloud}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.

@@ -20,12 +20,12 @@ subcollection: Backup
 # Vault-Kapazität erhöhen
 {: #expandcapacity}
 
-Die aktuellen Benutzer von {{site.data.keyword.BluSoftlayer_full}} können ihre Vault auf bis zu 4000 GB vergrößern. Dazu müssen sie keine Duplikate erstellen und die Daten auch nicht manuell auf einen größeren Datenträger migrieren. Der Prozess zur Erhöhung des Grenzwerts verursacht keinen Ausfall oder keinen Verlust des Zugriffs.
+Die aktuellen Benutzer von {{site.data.keyword.cloud}} können ihre Vault auf bis zu 4000 GB vergrößern. Dazu müssen sie keine Duplikate erstellen und die Daten auch nicht manuell auf einen größeren Datenträger migrieren. Der Prozess zur Erhöhung des Grenzwerts verursacht keinen Ausfall oder keinen Verlust des Zugriffs.
 
 ## Erhöhung anfordern
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie auf das **Menüsymbol** links oben. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie die Vault aus, die Sie erweitern möchten.
 4. Klicken Sie auf **Aktionen** und wählen Sie **{{site.data.keyword.backup_notm}} ändern** aus.

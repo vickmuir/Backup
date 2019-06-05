@@ -71,7 +71,7 @@ Die Dateien und Ordner auf den Platten sind für jeden Benutzer auf dem VRA-Syst
   * Um Daten aus einer älteren Sicherungsgruppe wiederherzustellen, klicken Sie auf die Schaltfläche zum Durchsuchen von Sicherungsgruppen. Klicken Sie im angezeigten Kalender auf das Datum der Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten. Klicken Sie rechts neben dem Kalender auf die Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten.
 7. Wählen Sie in der Anzeige **Wiederherzustellende Elemente** die VM mit den wiederherzustellenden Dateien oder Ordnern aus.
 8. Geben Sie im Feld **Verschlüsselungskennwort** das Datenverschlüsselungskennwort ein.
-9. Geben Sie im Feld **Leerlaufzeit** die Anzahl der Minuten der Inaktivität ein, nach denen die Freigabe des Laufwerks automatisch aufgehoben werden soll. Die Leerlaufzeit kann im Bereich von 2 bis 180 Minuten liegen. 
+9. Geben Sie im Feld **Leerlaufzeit** die Anzahl der Minuten der Inaktivität ein, nach denen die Freigabe des Laufwerks automatisch aufgehoben werden soll. Die Leerlaufzeit kann im Bereich von 2 bis 180 Minuten liegen.
 
     Die Freigabe des Laufwerks wird nicht aufgehoben, solange neue Daten kopiert werden. Wenn Sie dieselben Daten mehrfach von einem gemeinsam genutzten Laufwerk kopieren, kann eine Zeitlimitüberschreitung bei dem System auftreten, da keine neuen Daten gelesen werden.
     {:note}

@@ -22,7 +22,7 @@ subcollection: Backup
 ## Welche Art von Anwendungen können gesichert werden?
 {: faq}
 
-{{site.data.keyword.backup_full}} kann zum Sichern verschiedener Anwendungen verwendet werden. {{site.data.keyword.BluSoftlayer_full}} bietet auch Softwareagenten zur Sicherung für einige der gängigeren Softwaresysteme, wie beispielsweise folgende:
+{{site.data.keyword.backup_full}} kann zum Sichern verschiedener Anwendungen verwendet werden. {{site.data.keyword.cloud}} bietet auch Softwareagenten zur Sicherung für einige der gängigeren Softwaresysteme, wie beispielsweise folgende:
 
 - [Bare-Metal-Wiederherstellung](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,14 +93,14 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen finden Sie in [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){: external} und in [EVault on IBM Cloud: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}.
+Weitere Informationen finden Sie in [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){: external} und [IBM Cloud Backup: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}. 
 
 <hr>
 
 ## Kann die Kapazität von {{site.data.keyword.backup_notm}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
-Sie können die Vault-Größe im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} erhöhen oder verringern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Sie können die Vault-Größe im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} erhöhen oder verringern.  Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 
@@ -111,7 +111,7 @@ Sie können Ihre Sicherungen auch dann speichern und abrufen, wenn Sie den Grenz
 
 <hr>
 
-## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, die mich informieren, wenn eine Sicherung fehlschlägt? 
+## Wie kann ich Benachrichtigungen im {{site.data.keyword.backup_notm}}-Portal einrichten, die mich informieren, wenn eine Sicherung fehlschlägt?
 {: faq}
 
 Benachrichtigungen können auf der Registerkarte 'Erweitert' eingerichtet werden. Gehen Sie den Anweisungen unter **Quick Links** im {{site.data.keyword.backup_notm}}-Portal entsprechend vor.

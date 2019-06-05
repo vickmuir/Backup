@@ -22,7 +22,7 @@ subcollection: Backup
 Sie können Ihren {{site.data.keyword.backup_full}}-Service jederzeit stornieren. Bei der Stornierung wird Ihre Vault mit den gesicherten Daten gelöscht und Sie können sich nicht mehr mit den Berechtigungsnachweisen für den stornierten Service beim {{site.data.keyword.backup_notm}}-Portal anmelden.
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie **Aktionen** > **Abbrechen{{site.data.keyword.backup_notm}}** aus.
 4. Wählen Sie für die Stornierung die Einstellung **Sofortig** oder **Rechnungsstichtag** aus.

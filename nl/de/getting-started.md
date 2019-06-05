@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Lernprogramm zur Einführung
 {: #getting-started}
 
-Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte {{site.data.keyword.backup_notm}}-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.BluSoftlayer_full}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Zusätzliche Plug-ins sorgen für Kompatibilität mit Software wie [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) und [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) und ermöglichen Benutzern die Ausführung einer [Bare-Metal-Wiederherstellung](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), falls erforderlich.
+Sicherungen gewährleisten, dass Ihre Daten außerhalb Ihrer eigenen Einheit sicher gespeichert werden und im Verlustfall geschützt sind. {{site.data.keyword.backup_full}} ist ein automatisiertes agentenbasiertes Sicherungssystem, das über das browserbasierte {{site.data.keyword.backup_notm}}-Verwaltungsdienstprogramm verwaltet wird. {{site.data.keyword.backup_notm}} bietet Benutzern ein Verfahren zur Sicherung von Daten zwischen Servern in einzelnen oder mehreren Rechenzentren im {{site.data.keyword.cloud}}-Netz. Administratoren können für Sicherungen einen täglichen, wöchentlichen oder angepassten Zeitplan erstellen, der ganze Systeme, bestimmte Verzeichnisse oder sogar einzelne Dateien abdeckt. Zusätzliche Plug-ins sorgen für Kompatibilität mit Software wie [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin) und [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) und ermöglichen Benutzern die Ausführung einer [Bare-Metal-Wiederherstellung](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), falls erforderlich.
 {:shortdesc}
 
 ## Vorbereitungen
@@ -34,6 +34,7 @@ Für die Verwendung von IBM Cloud Backup ist eine gültige Lizenz erforderlich. 
 Weitere Informationen zu Bestellverfahren und Preisstrukturen finden Sie in [Bereitstellung von {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
+{: #installagentgettingstarted}
 
 Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt:
 
@@ -63,7 +64,7 @@ Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
 ## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 {: #accessingWebCC}
 
-Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet, der von {{site.data.keyword.BluSoftlayer_full}} angeboten wird. Das {{site.data.keyword.backup_notm}}-Portal ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.BluSoftlayer_full}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht.
+Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem {{site.data.keyword.backup_notm}}-Service verwendet, der von {{site.data.keyword.cloud}} angeboten wird. Das {{site.data.keyword.backup_notm}}-Portal ist ein browserbasierter Client, der im privaten Netz von {{site.data.keyword.cloud}} ausgeführt wird und die uneingeschränkte Steuerung eines beliebigen {{site.data.keyword.backup_notm}}-Service (einschließlich Konfiguration und Wiederherstellungen) ermöglicht.
 
 1. Greifen Sie über ein VPN auf das private Netz zu.
 
@@ -76,6 +77,7 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Backup-Client und Sicherungszeitplan konfigurieren
+{: #configureagentschedule}
 
 Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent auf dem Server installiert ist, können Sie mit der Sicherung Ihrer Daten beginnen. Führen Sie diese Schritte aus, um den Agenten und den Aufbewahrungszeitplan zu konfigurieren.
 
@@ -99,7 +101,11 @@ Nachdem Sie Ihren {{site.data.keyword.backup_notm}} bestellt haben und der Agent
       Weitere Informationen zu Aufbewahrungsschemas finden Sie in den [FAQs](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
+      Das Archivieren wird nicht unterstützt. Wenn Sie ein Aufbewahrungsschema erstellen oder ein vorhandenes Aufbewahrungsschema ändern, müssen Sie sicherstellen, dass die Archivierungsoption **nicht** ausgewählt ist.
+      {:important}
+
 ## Ersten Sicherungsjob ausführen
+{: #runfirstbackup}
 
 1. Melden Sie sich beim {{site.data.keyword.backup_notm}}-Portal an.
 2. Klicken Sie auf **Alle Agenten** und wählen Sie dann den soeben konfigurierten Agenten aus.
@@ -112,11 +118,12 @@ Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Lin
 {:tip}
 
 ## Über die Konsole auf Speicherdetails von {{site.data.keyword.backup_notm}} zugreifen und diese anzeigen
+{: #viewingdetailsinconsole}
 
 Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. </br>
-   Alternativ können Sie sich am [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
@@ -125,5 +132,6 @@ Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.
 {:important}
 
 ## Weitere Onlinehilfe anfordern
+{: #onlinehelp}
 
 Die Systeme des {{site.data.keyword.backup_notm}}-Portals sind vollständig dokumentiert und die Unterstützung für die Anwendung ist im {{site.data.keyword.backup_notm}}-Portal zugänglich. Klicken Sie auf das weiße Fragezeichen in dem blauen Kreis, das sich in der oberen rechten Ecke befindet, wenn Sie **Hilfe** benötigen. Klicken Sie in der Navigationsleiste auf der linken Seite auf einen beliebigen Artikel oder Abschnitt, um weitere Informationen anzuzeigen.

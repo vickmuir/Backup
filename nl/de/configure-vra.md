@@ -27,7 +27,7 @@ Sie müssen die Vaulteinstellungen und vCenter-Informationen konfigurieren, bevo
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
 {: #startWebCCVRA}
 
-Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
+Sie müssen mit dem privaten {{site.data.keyword.cloud}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}
 
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
@@ -53,7 +53,7 @@ Sie müssen mit dem privaten {{site.data.keyword.BluSoftlayer_full}}-Netz verbun
    Für neue Sicherungsjobs ist die Verschlüsselungsmethode AES 256 Bit. Vorhandene Jobs können andere Verschlüsselungsmethoden haben.
    {:note}
 
-5.	Führen Sie im Feld **In Sicherung einschließen** einen oder mehrere der folgenden Schritte aus, bis im Feld für die Sicherungsgruppe die VMs angezeigt werden, die Sie in den Sicherungsjob aufnehmen möchten. 
+5.	Führen Sie im Feld **In Sicherung einschließen** einen oder mehrere der folgenden Schritte aus, bis im Feld für die Sicherungsgruppe die VMs angezeigt werden, die Sie in den Sicherungsjob aufnehmen möchten.
 
    * Wenn Sie dem Sicherungsjob bestimmte VMs hinzufügen möchten, wählen Sie jede VM aus und klicken Sie dann auf **Einschließen**.
    * Wenn Sie bestimmte VMs aus dem Sicherungsjob ausschließen möchten, wählen Sie jede VM aus und klicken Sie dann auf **Ausschließen**.

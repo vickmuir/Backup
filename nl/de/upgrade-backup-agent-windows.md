@@ -20,7 +20,7 @@ subcollection: Backup
 Der aktuelle Sicherungsagent kann von Ihrem {{site.data.keyword.backup_notm}}-Portal-Dashboard-Abschnitt "Quick Links" heruntergeladen werden.
 {:tip}
 
-1. Nutzen Sie die Fernsteuerung für den {{site.data.keyword.BluSoftlayer_full}}-Server, für den ein {{site.data.keyword.backup_notm}}-Upgrade erforderlich ist.
+1. Nutzen Sie die Fernsteuerung für den {{site.data.keyword.cloud}}-Server, für den ein {{site.data.keyword.backup_notm}}-Upgrade erforderlich ist.
 2. Öffnen Sie einen Browser und rufen Sie die folgenden Adresse auf.
    ```
    http://downloads.service.softlayer.com/evault/
@@ -28,7 +28,7 @@ Der aktuelle Sicherungsagent kann von Ihrem {{site.data.keyword.backup_notm}}-Po
    {:pre}
 3. Klicken Sie auf die gewünschte Datei (z. B. Agent-Windows-x64-6-72-1072a.exe).
 
-   Die Versionsnummer ist der Dateiname. Wählen Sie die neueste Version aus. <br/>{{site.data.keyword.BluSoftlayer_full}} bietet separate 32-Bit-und 64-Bit-Installationsprogramme. Falls Sie ein 64-Bit-Betriebssystem verwenden, laden Sie eine Datei herunter, deren Name die Angabe 'x64' enthält.
+   Die Versionsnummer ist der Dateiname. Wählen Sie die neueste Version aus. <br/>{{site.data.keyword.cloud}} bietet separate 32-Bit-und 64-Bit-Installationsprogramme. Falls Sie ein 64-Bit-Betriebssystem verwenden, laden Sie eine Datei herunter, deren Name die Angabe 'x64' enthält.
    {:tip}
 4. Klicken Sie in der Downloadanzeige auf **Ausführen**. Wiederholen Sie dies nach Abschluss des Downloads.
 5. Klicken Sie auf **Ja**, um ein Upgrade für den **{{site.data.keyword.backup_notm}}-Softwareagenten** durchzuführen.
