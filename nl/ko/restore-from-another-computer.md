@@ -36,11 +36,11 @@ subcollection: Backup
 ## Server2의 {{site.data.keyword.backup_notm}} 포털 시작
 {: #startWebCC}
 
-반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면, {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
+반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.cloud}} 사설 네트워크에 액세스하십시오. 그렇지 않으면, {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
 {:tip}
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-      또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
+   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. Server2를 선택하십시오. 오른쪽 화살표를 클릭하여 {{site.data.keyword.backup_notm}} 포털 링크를 표시하십시오.
 4. **{{site.data.keyword.backup_notm}} 포털 로그인**을 클릭하여 브라우저에서 포털 클라이언트를 시작하십시오.

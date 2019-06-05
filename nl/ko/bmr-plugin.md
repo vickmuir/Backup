@@ -19,7 +19,7 @@ subcollection: Backup
 # BMR(Bare Metal Restore) 플러그인 설치
 {: #BMRplugin}
 
-BMR은 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 하드웨어 장애 등의 재해가 발생한 후에 베어메탈 상태에서 서버를 복원할 수 있습니다. BMR을 사용하면 {{site.data.keyword.BluSoftlayer_full}}에서 관리하는 안전한 보안 위치에서 시스템 이미지를 빠르게 복원할 수 있습니다.
+BMR은 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 하드웨어 장애 등의 재해가 발생한 후에 베어메탈 상태에서 서버를 복원할 수 있습니다. BMR을 사용하면 {{site.data.keyword.cloud}}에서 관리하는 안전한 보안 위치에서 시스템 이미지를 빠르게 복원할 수 있습니다.
 
 BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 서버에는 사용할 수 없습니다. Linux용 BMR(Bare Metal Restore) 배포는 지원되지 않습니다. 백업 에이전트 8.30 이하 버전에서만 BMR을 지원합니다. (2018년 6월 30일).
 {:important}
@@ -34,8 +34,8 @@ BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 
 ## 플러그인 주문
 {: #orderingBMR}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-    또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
 4. **{{site.data.keyword.backup_notm}} 플러그인 - BMR(Bare Metal Restore)**을 선택하고 **계속**을 클릭하십시오.
@@ -47,4 +47,4 @@ BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 
 ## 사용자 안내서 다운로드
 {: #BMRUserGuide}
 
-[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
+[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.cloud}} 네트워크에 연결하십시오.

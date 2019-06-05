@@ -19,7 +19,7 @@ subcollection: Backup
 # 백업 에이전트와 {{site.data.keyword.backup_notm}} 포털 간의 통신을 허용하도록 포트 구성
 {: #portinfo}
 
-서버에 설치된 {{site.data.keyword.backup_full}} 에이전트는 사용자가 구매한 저장소와 통신할 수 있어야 합니다. {{site.data.keyword.backup_notm}} 사용자 계정을 위한 Director 호스트 정보는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 및 [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에서 찾을 수 있습니다.
+서버에 설치된 {{site.data.keyword.backup_full}} 에이전트는 사용자가 구매한 저장소와 통신할 수 있어야 합니다. {{site.data.keyword.backup_notm}} 사용자 계정을 위한 Director 호스트 정보는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 및 [{{site.data.keyword.cloud_notm}} 콘솔에서 찾을 수 있습니다](https://{DomainName}){: external}.
 
 이러한 서비스의 IP 주소가 변경될 수 있으므로, 항상 FQDN을 사용하여 에이전트를 {{site.data.keyword.backup_notm}} 포털 및 Director에 등록하십시오.
 

@@ -19,12 +19,12 @@ subcollection: Backup
 # 백업에서 복원
 {: #simplerestore}
 
-다음 단계를 사용하여 {{site.data.keyword.backup_full}}의 파일 복원을 완료하십시오. 시스템 이미지를 복원하려면 [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 지시사항을 따르십시오.
+다음 단계를 사용하여 {{site.data.keyword.backup_full}}의 파일 복원을 완료하십시오. 시스템 이미지를 복원하려면 [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) 지시사항을 따르십시오.
 
 ## {{site.data.keyword.backup_notm}} 포털 시작
 {: #startWebCCsimple}
 
-반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 액세스하십시오. 그렇지 않으면 {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
+반드시 {{site.data.keyword.BluVPN}} 연결을 시작하여 {{site.data.keyword.cloud}} 사설 네트워크에 액세스하십시오. 그렇지 않으면 {{site.data.keyword.backup_notm}} 포털 링크가 작동하지 않습니다.
 {:important}
 
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>

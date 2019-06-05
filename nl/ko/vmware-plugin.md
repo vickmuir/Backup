@@ -96,8 +96,8 @@ VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 �
 
 ## 다음 단계
 {: #VRAnextteps}
-1. [백업 작업 구성, 스케줄 및 실행](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [백업 작업 구성, 스케줄 및 실행](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [vSphere 데이터 복원](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
+[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.cloud}} 네트워크에 연결하십시오.
 {:tip}

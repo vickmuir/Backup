@@ -33,8 +33,8 @@ SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이
 ## 플러그인 주문
 {: #orderingSQLPlugin}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단에서 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-    또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
+   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
 4. **{{site.data.keyword.backup_notm}} 플러그인 - MSSQL**을 선택하고 **계속**을 클릭하십시오.
@@ -66,7 +66,7 @@ Microsoft Windows 서버용 MSSQL 플러그인을 설치하기 전에 `services.
 ## 사용자 안내서 다운로드
 {: #SQLUserGuide}
 
-[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.BluSoftlayer_full}} 네트워크에 연결하십시오.
+[다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서를 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.cloud}} 네트워크에 연결하십시오.
 
 ## 기본 기능
 {: #main-features}

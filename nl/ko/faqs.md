@@ -22,7 +22,7 @@ subcollection: Backup
 ## 백업할 수 있는 애플리케이션의 유형은 무엇입니까?
 {: faq}
 
-{{site.data.keyword.backup_full}}을 사용하여 다양한 애플리케이션을 백업할 수 있습니다. {{site.data.keyword.BluSoftlayer_full}}에서는 다음을 포함하여 백업된 추가 공통 소프트웨어 시스템 중 일부에 대한 소프트웨어 에이전트도 제공합니다.
+{{site.data.keyword.backup_full}}을 사용하여 다양한 애플리케이션을 백업할 수 있습니다. {{site.data.keyword.cloud}}에서는 다음을 포함하여 백업된 추가 공통 소프트웨어 시스템 중 일부에 대한 소프트웨어 에이전트도 제공합니다.
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,7 +93,7 @@ subcollection: Backup
 ## 가격에 대한 정보를 어디서 찾을 수 있습니까?
 {: faq}
 
-자세한 정보는 [백업 스토리지](https://www.ibm.com/cloud/backup-and-restore){: external} 및 [EVault on IBM Cloud: 가격](https://www.ibm.com/cloud/backup/pricing){: external}을 참조하십시오.
+자세한 정보는 [백업 스토리지](https://www.ibm.com/cloud/backup-and-restore){: external} 및 [IBM Cloud Backup: 가격](https://www.ibm.com/cloud/backup/pricing){: external}을 참조하십시오.
 
 <hr>
 
