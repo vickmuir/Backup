@@ -25,10 +25,10 @@ Vous devez acquérir le plug-in BMR pour créer une sauvegarde BMR. BMR est disp
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
 {: #startWebCCBMR}
 
-Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_full}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
+Vous devez être connecté au réseau privé {{site.data.keyword.cloud}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
 3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
@@ -62,4 +62,4 @@ Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_fu
 ## Exécution d'un travail de sauvegarde BMR
 
   - Si vous avez planifié un travail de sauvegarde basé calendrier, vous n'avez rien d'autre à faire. Votre travail s'exécute automatiquement comme planifié.
-  - Si vous avez configuré un travail manuel (sans planning basé calendrier), vous pouvez le lancer en sélectionnant sa ligne dans la liste des travaux et en cliquant sur **Effectuer la sauvegarde**. <br/>Comme pour les travaux basés calendrier, vous pouvez choisir le **Schéma de conservation**, ainsi que des **options de sauvegarde avancées**. Après avoir procédé à vos choix de configuration, cliquez sur **Lancer la sauvegarde** pour déclencher le travail.
+  - Si vous avez configuré un travail manuel (sans planning basé calendrier), vous pouvez le lancer en sélectionnant sa ligne dans la liste des travaux et en cliquant sur **Effectuer la sauvegarde**. <br/> Comme pour les travaux basés calendrier, vous pouvez choisir le **Schéma de conservation**, ainsi que des **options de sauvegarde avancées**. Après avoir procédé à vos choix de configuration, cliquez sur **Lancer la sauvegarde** pour déclencher le travail.

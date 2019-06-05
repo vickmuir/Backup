@@ -22,7 +22,7 @@ subcollection: Backup
 ## Quel type d'applications peut être sauvegardé ?
 {: faq}
 
-{{site.data.keyword.backup_full}} peut être utilisé pour sauvegarder diverses applications. {{site.data.keyword.BluSoftlayer_full}} propose également des agents de logiciel pour certains des systèmes logiciels les plus courants qui sont sauvegardés, notamment :
+{{site.data.keyword.backup_full}} peut être utilisé pour sauvegarder diverses applications. {{site.data.keyword.cloud}} propose également des agents de logiciel pour certains des systèmes logiciels les plus courants qui sont sauvegardés, notamment :
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -93,7 +93,7 @@ Par défaut, le client de base dispose d'une technologie de pointe lui permettan
 ## Où puis-je trouver des informations sur la tarification ?
 {: faq}
 
-Pour plus d'informations, voir [Stockage de sauvegarde](https://www.ibm.com/fr-fr/cloud/backup-and-restore){: external} et [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+Pour plus d'informations, voir [Stockage de sauvegarde](https://www.ibm.com/cloud/backup-and-restore){: external} et [Sauvegarde IBM Cloud : tarification](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 

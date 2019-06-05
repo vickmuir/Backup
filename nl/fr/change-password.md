@@ -21,14 +21,14 @@ subcollection: Backup
 
 A chaque service {{site.data.keyword.backup_full}} est associé un mot de passe qui est utilisé pour accéder au coffre dans le portail {{site.data.keyword.backup_notm}}.
 
-Dans de nombreux produits et services {{site.data.keyword.BluSoftlayer_full}}, la fonction de stockage du mot de passe dans le portail {{site.data.keyword.slportal}} est utilisée uniquement à des fins de suivi du mot de passe. Pour ces produits et services, les modifications qui sont apportées au mot de passe dans le portail {{site.data.keyword.slportal}} ne sont pas appliquées au produit ou au service. Ceci n'est **pas** le cas pour la sauvegarde {{site.data.keyword.backup_notm}}.
+Dans de nombreux produits et services {{site.data.keyword.cloud}}, la fonction de stockage du mot de passe dans le portail {{site.data.keyword.slportal}} est utilisée uniquement à des fins de suivi du mot de passe. Pour ces produits et services, les modifications qui sont apportées au mot de passe dans le portail {{site.data.keyword.slportal}} ne sont pas appliquées au produit ou au service. Ceci n'est **pas** le cas pour la sauvegarde {{site.data.keyword.backup_notm}}.
 
 Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Lorsque vous modifiez votre mot de passe, n'oubliez pas que cela impacte directement votre service.
 {:important}
 
 ## Modification du mot de passe
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}/catalog){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez n'importe où sur la ligne du coffre concernée pour développer la vue.

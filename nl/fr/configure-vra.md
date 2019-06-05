@@ -27,10 +27,10 @@ Avant d'ajouter un travail de sauvegarde, vous devez configurer les paramètres 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
 {: #startWebCCVRA}
 
-Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_full}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
+Vous devez être connecté au réseau privé {{site.data.keyword.cloud}} pour pouvoir lancer le portail {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
 3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
@@ -49,7 +49,8 @@ Vous devez être connecté au réseau privé {{site.data.keyword.BluSoftlayer_fu
    * Dans la zone **Description**, entrez une description du travail de sauvegarde (facultatif).
    * Dans la liste **Destination**, sélectionnez le coffre dans lequel vous souhaitez sauvegarder les données de sauvegarde.
    * Dans les zones **Password** et **Confirm Password**, entrez un mot de passe de chiffrement. Vous pouvez également entrer une indication de mot de passe dans la zone Password Hint.
-   Un coffre apparaît uniquement dans la liste s'il a été affecté à l'utilisateur ou si l'utilisateur l'a ajouté sous Vault Settings, sur l'ordinateur. <br/>Pour les nouveaux travaux de sauvegarde, la méthode de chiffrement est AES 256 bits. Les travaux existants peuvent avoir d'autres méthodes de chiffrement.
+   Un coffre apparaît uniquement dans la liste s'il a été affecté à l'utilisateur ou si l'utilisateur l'a ajouté sous Vault Settings, sur l'ordinateur. <br/>
+   Pour les nouveaux travaux de sauvegarde, la méthode de chiffrement est AES 256 bits. Les travaux existants peuvent avoir d'autres méthodes de chiffrement.
    {:note}
 
 5.	Dans la zone **Include in Backup**, effectuez une ou plusieurs des étapes suivantes jusqu'à ce que la zone Backup Set affiche les machines virtuelles que vous souhaitez inclure dans le travail de sauvegarde .

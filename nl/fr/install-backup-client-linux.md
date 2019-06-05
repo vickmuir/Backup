@@ -37,7 +37,7 @@ Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que 
 ## Connexion au serveur de l'unité cible
 {: #logintargetLin}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des unités serveur disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.

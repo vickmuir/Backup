@@ -21,7 +21,7 @@ subcollection: Backup
 
 Vous pouvez annuler votre service {{site.data.keyword.backup_full}} à tout moment. L'annulation supprime votre coffre avec les données sauvegardées et vous ne pouvez plus vous connecter au portail {{site.data.keyword.backup_notm}} avec les données d'identification annulées.
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez **Actions** > **Annuler {{site.data.keyword.backup_notm}}**.

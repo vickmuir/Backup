@@ -19,7 +19,7 @@ subcollection: Backup
 # Installation du plug-in Bare Metal Restore
 {: #BMRplugin}
 
-BMR est une solution de reprise après incident. Vous pouvez utiliser BMR pour restaurer votre serveur à partir d'un état bare metal après un sinistre, par exemple, une panne de matériel ou de système d'exploitation. BMR vous permet de restaurer rapidement l'image système à partir d'un emplacement sécurisé qui est géré par {{site.data.keyword.BluSoftlayer_full}}.
+BMR est une solution de reprise après incident. Vous pouvez utiliser BMR pour restaurer votre serveur à partir d'un état bare metal après un sinistre, par exemple, une panne de matériel ou de système d'exploitation. BMR vous permet de restaurer rapidement l'image système à partir d'un emplacement sécurisé qui est géré par {{site.data.keyword.cloud}}.
 
 BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Windows. Il n'est pas disponible pour les serveurs virtuels. Les restaurations Bare Metal pour les distributions Linux ne sont pas prises en charge. BMR n'est pris en charge que par Backup Agent 8.30 ou des versions antérieures (30 juin 2018).
 {:important}
@@ -34,7 +34,7 @@ BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Wind
 ## Commande du plug-in
 {: #orderingBMR}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
@@ -47,4 +47,4 @@ BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Wind
 ## Téléchargement du guide d'utilisation
 {: #BMRUserGuide}
 
-Connectez-vous au réseau {{site.data.keyword.BluSoftlayer_full}} avec {{site.data.keyword.BluVPN}} pour pouvoir accéder au guide d'utilisation et le télécharger depuis la [documentation {{site.data.keyword.backup_notm}} téléchargeable](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connectez-vous au réseau {{site.data.keyword.cloud}} avec {{site.data.keyword.BluVPN}} pour pouvoir accéder au guide d'utilisation et le télécharger depuis la [documentation {{site.data.keyword.backup_notm}} téléchargeable](http://downloads.service.softlayer.com/evault/Documentation/){: external}

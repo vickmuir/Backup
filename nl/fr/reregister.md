@@ -33,7 +33,7 @@ Ces étapes sont le plus souvent utilisées après le rechargement du système d
   - Adresse du coffre
   - Compte
 
-    "Compte" est équivalent au "Nom du compte" dans le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Généralement, il est similaire à "SLE [ID compte]"
+    "Compte" est équivalent au "Nom du compte" sur le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Généralement, il est similaire à "SLE [ID compte]"
     {:tip}
   - Nom de l'utilisateur
   - Mot de passe

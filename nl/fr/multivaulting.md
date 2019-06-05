@@ -57,7 +57,7 @@ Une fois le processus de commande terminé, accédez à **Stockage** > **Sauvega
 
 ## Ajout d'un coffre supplémentaire dans le portail {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
    Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
