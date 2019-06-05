@@ -22,7 +22,7 @@ subcollection: Backup
 ## Pode-se fazer backup de que tipo de aplicativos?
 {: faq}
 
-O {{site.data.keyword.backup_full}} pode ser usado para fazer backup de vários aplicativos. O {{site.data.keyword.BluSoftlayer_full}} também oferece agentes de software para alguns dos sistemas de software mais comuns submetidos a backup, que incluem
+O {{site.data.keyword.backup_full}} pode ser usado para fazer backup de vários aplicativos. O {{site.data.keyword.cloud}} também oferece agentes de software para alguns dos sistemas de software mais comuns submetidos a backup, que incluem
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -109,7 +109,7 @@ Por padrão, o cliente de base tem uma tecnologia de última geração para mani
 ## Onde localizo as informações sobre precificação?
 {: faq}
 
-Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){: external} e [EVault no IBM Cloud: precificação](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){: external} e [IBM Cloud Backup: precificação](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
@@ -117,7 +117,7 @@ Para obter mais informações, consulte [Armazenamento de backup](https://www.ib
 backups?
 {: faq}
 
-É possível aumentar ou diminuir o tamanho de sua área segura por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
+É possível aumentar ou diminuir o tamanho da área segura por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
 informações, consulte [Expandindo a capacidade](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>

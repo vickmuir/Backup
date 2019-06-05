@@ -58,7 +58,7 @@ Após o VRA ser instalado, é necessário configurá-lo no portal do {{site.data
 2. Na guia Computadores, selecione o servidor que deseja fazer backup.
 3. Configure suas informações da área segura.
 
-   As informações da área segura podem ser configuradas de duas maneiras: **Automaticamente** ou **Manualmente**.<br/>Se o agente estiver sendo configurado pela primeira vez, ele poderá ser configurado usando a opção [Configuração automática](#VRAautoconfig).<br/>Se o computador foi registrado anteriormente com uma Área segura, a configuração automática não funcionará e a área segura precisará ser [configurada manualmente](#VRAmanualconfig).
+   As informações da área segura podem ser configuradas de duas maneiras: **Automaticamente** ou **Manualmente**.<br/>Se o agente estiver sendo configurado pela primeira vez, a opção [Configuração automática](#VRAautoconfig) poderá ser usada.<br/>Se o computador foi registrado anteriormente com uma área segura, a configuração automática não funcionará e a área segura precisará ser [configurada manualmente](#VRAmanualconfig).
    {: tip}
 
 4. Defina as [Configurações do vCenter](#vCenterSettingsconfig)   
@@ -95,10 +95,10 @@ Após o registro bem-sucedido da área segura, as Configurações do vCenter pre
 4. Clique em **Testar conexão do vCenter**. Uma nova janela exibe os resultados. Se as informações de login fornecidas estiverem corretas, a mensagem “As credenciais do vCenter foram validadas com sucesso” será exibida.
 5. Clique em  ** Salvar **  para salvar as configurações.
 
-## Etapas Seguintes
+## Etapas seguintes
 {: #VRAnextteps}
-1. [Configurar, planejar e executar uma tarefa de backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [Configurar, planejar e executar uma tarefa de backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [Restaurar dados do vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
+Conecte-se à rede do {{site.data.keyword.cloud}} com a {{site.data.keyword.BluVPN}} para que seja possível acessar e transferir por download o guia do usuário por meio da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 {:tip}

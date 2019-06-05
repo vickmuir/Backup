@@ -37,7 +37,7 @@ Desative todas as tarefas planejadas em ambos os servidores para evitar quaisque
 ## Iniciando o portal do {{site.data.keyword.backup_notm}} do Server2
 {: #startWebCC}
 
-Lembre-se de iniciar a sua conexão do {{site.data.keyword.BluVPN}} para obter acesso à rede privada do {{site.data.keyword.BluSoftlayer_full}}, ou o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
+Lembre-se de iniciar a sua conexão do {{site.data.keyword.BluVPN}} para obter acesso à rede privada do {{site.data.keyword.cloud}}, ou o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
 {:tip}
 
 1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>

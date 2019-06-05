@@ -27,10 +27,10 @@ Deve-se definir as configurações da área segura e as informações do vCenter
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
 {: #startWebCCVRA}
 
-É necessário estar conectado à rede privada do {{site.data.keyword.BluSoftlayer_full}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
+É necessário estar conectado à rede privada do {{site.data.keyword.cloud}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
 3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
@@ -49,7 +49,7 @@ Deve-se definir as configurações da área segura e as informações do vCenter
    * No campo **Descrição**, digite opcionalmente uma descrição para a tarefa de backup.
    * Na lista **Destino**, selecione a área segura em que deseja salvar os dados de backup.
    * Nos campos **Senha** e **Confirmar senha**, digite uma senha de criptografia. Também é possível digitar uma sugestão de senha no campo Sugestão de senha.
-   Uma área segura será exibida na lista somente se estiver designada ao usuário ou se o usuário a incluiu nas Configurações de área segura do computador.<br/>
+   Uma área segura será exibida na lista somente se estiver designada ao usuário ou se tiver sido incluída pelo usuário nas Configurações de área segura do computador.<br/>
    Para novas tarefas de backup, o método de criptografia é AES de 256 bits. As tarefas existentes podem ter outros métodos de criptografia.
    {:note}
 

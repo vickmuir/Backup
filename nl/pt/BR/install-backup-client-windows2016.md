@@ -65,7 +65,7 @@ Esta tarefa é concluída por meio de uma série de interações enquanto você 
 **Avançar**.
 6. Insira o nome da área segura no campo Nome do perfil.
 
-   O nome da área segura pode ser obtido do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   O nome da área segura pode ser obtido no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Insira o endereço de rede (o endereço IP da área segura designada) e clique em **Incluir**. Em seguida, clique em **Avançar**.
 7. Insira os novos valores de porta e clique em **Incluir** e, em seguida, em **Avançar**.
@@ -107,7 +107,7 @@ backups sejam retidos.
 
    O nome deve ter de 1 a 30 caracteres de comprimento. O nome pode conter letras, números, sublinhados (`_`), hifens (`-`) e símbolos de dólar (`$`).
    {:important}
-9. Selecione as origens de dados. Clique em **Incluir**.
+9. Selecione as origens de dados. Clique em  ** Incluir **.
 10. Especifique as opções de tempo de processamento e de backup. Marque **Varredura rápida de arquivo** e insira as horas ou minutos que você deseja como o espaço de tempo de backup. Em seguida, clique em **Avançar**.
 11. Selecione o tipo de criptografia (a configuração padrão é AES de 256 bits) e insira sua senha de criptografia. Clique em **Avançar**
 12. Selecione as opções de log para sua tarefa. Marque **Criar arquivo de log** e selecione **Limpar somente arquivos de log expirados automaticamente**. Em seguida, clique em **Avançar**

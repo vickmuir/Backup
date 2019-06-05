@@ -24,13 +24,13 @@ subcollection: Backup
 - [Comprar backups ao solicitar um servidor](#purchasingwithserver).
 - [Comprar backups como um upgrade](#purchasingasupgrade).
 
-Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){: external} e [{{site.data.keyword.backup_notm}} no IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ](https://www.ibm.com/cloud/backup-and-restore){: external} e [{{site.data.keyword.backup_notm}} no IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 ## Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 {: #purchasingwithserver}
 
 1. Efetue login no [catálogo do IBM Cloud](https://{DomainName}/catalog){: external} ou no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
-2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server#ordering-baremetal-server){: external}.
+2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Selecione a opção Quantidade, Faturamento. Insira os nomes do host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
 
       O serviço do {{site.data.keyword.backup_notm}} não está disponível quando você solicita um servidor faturado por hora. No entanto, o serviço pode ser incluído posteriormente como um upgrade.
@@ -49,7 +49,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
 Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível registrar-se diretamente no {{site.data.keyword.slportal}}.
 
 ### Confirmando a compra do {{site.data.keyword.backup_notm}}
-1. No [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, clique no ícone de **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.</br>
+1. No [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. </br>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Clique em **Dispositivo** > **Lista de dispositivos**.
 2. Localize o novo servidor que você solicitou.
@@ -63,7 +63,7 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
 
 ### Selecione um servidor no qual instalar o {{site.data.keyword.backup_notm}}
 
-1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.</br>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. </br>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal. Localize o dispositivo no qual você deseja incluir o serviço de backup.
 3. Clique em Nome do dispositivo para acessar a página **Detalhes do dispositivo**.

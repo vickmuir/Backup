@@ -20,12 +20,12 @@ subcollection: Backup
 # Expandindo a capacidade da área segura
 {: #expandcapacity}
 
-Os usuários do {{site.data.keyword.BluSoftlayer_full}} atuais são capazes de expandir o
+Os usuários do {{site.data.keyword.cloud}} atuais são capazes de expandir o
 tamanho da área segura até 4.000 GB. Eles não precisam criar uma duplicata ou migrar dados manualmente para um volume maior. O processo de aumento de limite não causa indisponibilidade nem falta de acesso.
 
 ## Solicitando um aumento
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **Menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.

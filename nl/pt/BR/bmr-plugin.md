@@ -20,7 +20,7 @@ subcollection: Backup
 {: #BMRplugin}
 
 O BMR é uma solução de recuperação de desastre. É possível usar o BMR para restaurar seu servidor de um estado bare metal após a ocorrência de um desastre, como uma falha de sistema operacional ou de hardware. Com a BMR, é possível restaurar rapidamente a imagem do sistema de uma localização segura e
-protegida gerenciada pelo {{site.data.keyword.BluSoftlayer_full}}.
+protegida gerenciada pelo {{site.data.keyword.cloud}}.
 
 A BMR é um produto apenas para Microsoft Windows em servidores físicos. Ele
 não está disponível para servidores virtuais. Distribuições de Bare Metal Restores para Linux não
@@ -51,4 +51,4 @@ servidores com o serviço de backup.
 ## Fazendo download do guia do usuário
 {: #BMRUserGuide}
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Conecte-se à rede do {{site.data.keyword.cloud}} com a {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário por meio da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ](http://downloads.service.softlayer.com/evault/Documentation/){: external}

@@ -28,7 +28,7 @@ O plug-in do Exchange é instalado com o Windows Agent no host. Por meio do port
 ## Pedindo o plug-in
 {: #orderingExchangePlugin}
 
-1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.<br/>
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
    Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
@@ -65,4 +65,4 @@ com o número de revisão mais alto.
 ## Fazendo download do guia do usuário
 {: #ExchangeUserGuide}
 
-Conecte-se à rede do {{site.data.keyword.BluSoftlayer_full}} com o {{site.data.keyword.BluVPN}} para que seja possível acessar e fazer download do guia do usuário da [Documentação transferível por download do {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}. O guia descreve como fazer backup e restaurar bancos de dados do Microsoft Exchange usando o plug-in do Exchange. O guia também descreve como compartilhar um conjunto de segurança de backup de DR. Com um conjunto de segurança de backup de DR, é possível restaurar caixas de correio, mensagens ou outros objetos específicos para um arquivo .pst usando o aplicativo Granular Restore for Microsoft Exchange.
+Conecte-se à rede do {{site.data.keyword.cloud}} com a {{site.data.keyword.BluVPN}} para que seja possível acessar e transferir por download o guia do usuário por meio da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ](http://downloads.service.softlayer.com/evault/Documentation/){: external}. O guia descreve como fazer backup e restaurar bancos de dados do Microsoft Exchange usando o plug-in do Exchange. O guia também descreve como compartilhar um conjunto de segurança de backup de DR. Com um conjunto de segurança de backup de DR, é possível restaurar caixas de correio, mensagens ou outros objetos específicos para um arquivo .pst usando o aplicativo Granular Restore for Microsoft Exchange.

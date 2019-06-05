@@ -33,7 +33,7 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
   - Endereço da área segura
   - Conta
 
-    "Conta" é o equivalente do "Nome da conta" no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Normalmente, é semelhante a "SLE[ID da conta]"
+    "Conta" é o equivalente a "Nome da conta" no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Normalmente, é semelhante a "SLE[ID da conta]"
     {:tip}
   - Nome do Usuário
   - Senha

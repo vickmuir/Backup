@@ -19,13 +19,13 @@ subcollection: Backup
 # Restaurando de um backup
 {: #simplerestore}
 
-Use essas etapas para concluir uma restauração de arquivo com o {{site.data.keyword.backup_full}}. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
+Use essas etapas para concluir uma restauração de arquivo com o {{site.data.keyword.backup_full}}. Para restaurar uma imagem do sistema, siga as instruções de [Recuperação bare-metal do Windows](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
 {: #startWebCCsimple}
 
 Lembre-se de iniciar a conexão do {{site.data.keyword.BluVPN}} para obter acesso à rede privada
-do {{site.data.keyword.BluSoftlayer_full}}. Caso contrário, o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
+do {{site.data.keyword.cloud}}. Caso contrário, o link do portal do {{site.data.keyword.backup_notm}} não funcionará.
 {:important}
 
 1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>

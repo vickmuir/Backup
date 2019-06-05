@@ -20,7 +20,7 @@ subcollection: Backup
 {: #portinfo}
 
 O agente do {{site.data.keyword.backup_full}} que está instalado no servidor precisa ser capaz de se
-comunicar com a área segura que você comprou. As informações do host do Director para uma conta de usuário do {{site.data.keyword.backup_notm}} podem ser localizadas no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} e no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+comunicar com a área segura que você comprou. As informações do host do Director para uma conta do usuário do {{site.data.keyword.backup_notm}} podem ser localizadas no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} e no [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}.
 
 Sempre registre agentes para o portal e os diretores do {{site.data.keyword.backup_notm}} usando o FQDN porque os endereços IP desses serviços podem mudar.
 

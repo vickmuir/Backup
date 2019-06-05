@@ -46,7 +46,7 @@ seu endereço IP público.
   {:pre}
 
 2. Dê um clique duplo no arquivo transferido por download.
-3. Clique em **Executar**.
+3. Clique em  ** Executar **.
 
 
 ## Instalando e registrando o agente de backup
