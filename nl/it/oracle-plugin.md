@@ -39,8 +39,8 @@ Il plug-in Oracle è un componente aggiuntivo e viene installato con l'agent Win
 ## Ordinazione del plug-in
 {: #orderingOraclePlugin}
 
-1. Accedi alla console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
 4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - Oracle**, e fai clic su **Continue**.
@@ -109,4 +109,4 @@ Il plug-in Oracle esegue un backup dell'intero database "incongruente" che richi
 ## Download della guida utente
 {: #OracleUserGuide}
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter scaricare le guide utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter scaricare le guide utente da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}

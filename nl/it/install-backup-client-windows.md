@@ -29,7 +29,7 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 {: #logintargetWin}
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Seleziona **Devices** > **Device List** dal menu principale per visualizzare l'elenco di server disponibili.
 3. Trova il dispositivo per cui hai acquistato il servizio {{site.data.keyword.backup_notm}} e prendi nota del suo indirizzo IP pubblico.
 4. Fai clic sulla freccia rivolta verso destra per espandere ulteriori informazioni sul dispositivo, incluso il nome utente e la password. Se la password non viene visualizzata, fai clic su **Show Password**.
@@ -37,7 +37,7 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 
 ## Download del client backup
 
-1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile per il client {{site.data.keyword.backup_notm}}. <br/>
+1. Sul server di destinazione, apri una sessione del browser e immetti il seguente l'URL per scaricare il file eseguibile per il client {{site.data.keyword.backup_notm}}. <br/> 
   ```
   http://downloads.service.softlayer.com/evault/
   ```

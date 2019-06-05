@@ -19,7 +19,7 @@ subcollection: Backup
 # Installazione del plug-in Bare Metal Restore
 {: #BMRplugin}
 
-BMR è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per ripristinare il server da uno stato bare metal quando si verifica un'emergenza, ad esempio quando si verifica un malfunzionamento del sistema operativo o hardware. Con BMR, puoi ripristinare rapidamente l'immagine del sistema da un'ubicazione sicura e protetta gestita da {{site.data.keyword.BluSoftlayer_full}}.
+BMR è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per ripristinare il server da uno stato bare metal quando si verifica un'emergenza, ad esempio quando si verifica un malfunzionamento del sistema operativo o hardware. Con BMR, puoi ripristinare rapidamente l'immagine del sistema da un'ubicazione sicura e protetta gestita da {{site.data.keyword.cloud}}.
 
 BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponibile per i server virtuali. I ripristini bare metal per le distribuzioni Linux non sono supportati. BMR è supportato solo da agent Backup 8.30 o versioni precedenti. (30 giungo 2018).
 {:important}
@@ -34,8 +34,8 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 ## Ordinazione del plug-in
 {: #orderingBMR}
 
-1. Accedi alla console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il tuo account e fai clic su **Order plug-ins**.
 4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - BMR (Bare Metal Restore)** e fai clic su **Continue**.
@@ -47,4 +47,4 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 ## Download della guida utente
 {: #BMRUserGuide}
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} 

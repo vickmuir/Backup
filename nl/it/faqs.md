@@ -22,7 +22,7 @@ subcollection: Backup
 ## Di quali tipi di applicazioni posso eseguire il backup?
 {: faq}
 
-{{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. {{site.data.keyword.BluSoftlayer_full}} offre anche agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono
+{{site.data.keyword.backup_full}} può essere utilizzato per eseguire il backup di diverse applicazioni. {{site.data.keyword.cloud}} offre anche agent software per alcuni dei più comuni sistemi software che vengono sottoposti a backup, che includono
 
 - [Bare Metal Restore](/docs/infrastructure/Backup?topic=Backup-BMRplugin)
 - [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin)
@@ -94,7 +94,7 @@ Per impostazione predefinita, il client di base ha una tecnologia all'avanguardi
 ## Dove posso trovare le informazioni sui prezzi?
 {: faq}
 
-Per ulteriori informazioni, vedi [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} e [EVault on IBM Cloud: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+Per ulteriori informazioni, vedi [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} e [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 

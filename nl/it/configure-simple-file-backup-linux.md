@@ -25,11 +25,11 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 {: #startWebCCconfigLin}
 
 1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 2. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 3. Avvia la tua connessione VPN per ottenere l'accesso alla rete privata IBM.
-4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>
+4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>  
 
   Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
   {:tip}
@@ -66,7 +66,7 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
   - Seleziona il tuo schema di conservazione. Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Fai clic su **Advanced Schedule Options** per ulteriori opzioni di configurazione. Puoi selezionare **Use Deferring** per impedire l'esecuzione di backup di grandi dimensioni nei momenti di picco della rete.
 
-    Quando l'opzione di differimento è abilitata, il lavoro di backup non esegue il backup di nuovi dati dopo il periodo di tempo specificato. Esegue il commit del set sicuro nell'archivio, anche se alcuni dati nel lavoro non vengono sottoposti a backup. Le modifiche ai dati di cui è stato eseguito il backup in precedenza vengono sottoposte a backup, indipendentemente dal periodo di tempo specificato. <br/> Quando il lavoro viene eseguito nuovamente, l'agent verifica la presenza di modifiche nei dati di cui è già stato eseguito il backup, esegue il backup di tali modifiche e quindi esegue il backup dei dati rimanenti. Se un lavoro di backup viene rinviato mentre viene eseguito il backup di un elemento, il backup per quell'elemento è incompleto e i dati dell'elemento non possono essere ripristinati. Tuttavia, puoi ripristinare gli elementi di cui è stato eseguito il backup prima che il lavoro fosse rinviato.
+    Quando l'opzione di differimento è abilitata, il lavoro di backup non esegue il backup di nuovi dati dopo il periodo di tempo specificato. Esegue il commit del set sicuro nell'archivio, anche se alcuni dati nel lavoro non vengono sottoposti a backup. Le modifiche ai dati che sono state salvate in precedenza vengono sottoposte a backup, indipendentemente dal periodo di tempo specificato. <br/> Quando il lavoro viene eseguito nuovamente, l'agent verifica la presenza di modifiche nei dati di cui è già stato eseguito il backup, esegue il backup di tali modifiche e quindi esegue il backup dei dati rimanenti. Se un lavoro di backup viene rinviato mentre viene eseguito il backup di un elemento, il backup per quell'elemento è incompleto e i dati dell'elemento non possono essere ripristinati. Tuttavia, puoi ripristinare gli elementi di cui è stato eseguito il backup prima che il lavoro fosse rinviato.
     {:note}
 13. Dopo aver configurato la tua pianificazione di backup, fai clic su **Ok** per salvarla. Il tuo lavoro pianificato viene aggiunto all'elenco di lavori pianificati.
   - Puoi ripetere il passo 12 per pianificare ulteriori backup.

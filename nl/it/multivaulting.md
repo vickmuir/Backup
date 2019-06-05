@@ -41,8 +41,8 @@ Il backup nelle ubicazioni di data center remoti potrebbe richiedere più tempo 
 Devi aggiungere il nuovo archivio remoto all'account prima che sia possibile aggiungere una nuova ubicazione di backup nel portale {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Devices**
 3. Individua e fai clic sul collegamento per il server in questione.
 4. In **Device Details**, fai clic su **Storage**.
@@ -57,8 +57,8 @@ Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere i
 
 ## Aggiunta di un archivio supplementare nel portale {{site.data.keyword.backup_notm}}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il server per cui vuoi essere in grado di eseguire il backup in più archivi. Fai clic sulla freccia che punta verso destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic sul link **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
@@ -70,7 +70,7 @@ Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere i
 7. Nella finestra **Vault Settings**, fai clic su **Add**.
 8. Nella finestra **New Vault** ,
   1. Nel menu Vault Profile, scegli **Enter Vault Settings** per creare una nuova voce. Non aggiornare la voce esistente, non funziona.
-  2. Il nome dell'archivio non può essere uguale a quello di un altro archivio. Prova ad aggiungere una tag `-2` alla fine del nome. <br/>
+  2. Il nome dell'archivio non può essere uguale a quello di un altro archivio. Prova ad aggiungere una tag `-2` alla fine del nome. <br/> 
 
      Il campo del nome dell'archivio ha un limite di 15 caratteri.
      {:important}

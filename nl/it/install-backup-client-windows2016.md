@@ -62,7 +62,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 5. Seleziona **Register as a new computer** e fai clic su **Next**.
 6. Immettere il nome dell'archivio nel campo del nome profilo.
 
-   Il nome archivio può essere ottenuto dal [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   Il nome dell'archivio può essere ottenuto da [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
    {:tip}
 6. Immetti l'indirizzo di rete (l'indirizzo IP dell'archivio assegnato) e fai clic su **Add**. Poi, fai clic su **Next**.
 7. Immetti i nuovi valori di porta, fai clic su **Add** e quindi su **Next**.
@@ -78,11 +78,11 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 2. Avvia Central Control.
 3. Nello spazio di lavoro, fai clic con il tasto destro del mouse su **My Agent** e seleziona **Agent Configuration**.
 4. Fai clic sulla scheda **Retentions**. Viene visualizzata la procedura guidata di conservazione, fai clic su **Next**.
-5. Immetti il nome della conservazione. Fai clic su **Next**.<br/>
+5. Immetti il nome della conservazione. Fai clic su **Next**.<br/> 
 
    La voce può avere una lunghezza massima di 32 caratteri alfanumerici. Gli spazi non sono consentiti, ma possono essere utilizzati caratteri di sottolineatura (`_`) e trattini (`-`).
    {:important}
-6. Immettere le copie e i giorni di conservazione online per questo tipo di conservazione. Poi, fai clic su **Next**.<br/>
+6. Immettere le copie e i giorni di conservazione online per questo tipo di conservazione. Poi, fai clic su **Next**.<br/>  
 
    La combinazione delle copie e dei giorni di conservazione viene utilizzata per garantire che vengano mantenuti una durata minima e un certo numero di backup.
    {:tip}
@@ -99,7 +99,7 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
 5. Seleziona il tipo di origine di backup.
 6. Seleziona **Unicode** per la codifica. Fai clic su **Next**.
 7. Seleziona la destinazione di questo lavoro. Fai clic su **Next**.
-8. Immetti il nome per il lavoro e la relativa descrizione.<br/>
+8. Immetti il nome per il lavoro e la relativa descrizione.<br/>  
 
    Il nome deve avere una lunghezza compresa tra 1 e 30 caratteri. Il nome può contenere lettere, numeri, caratteri di sottolineatura (`_`), trattini (`-`) e simboli dollaro (`$`).
    {:important}
@@ -120,4 +120,4 @@ Questa attività viene completata attraverso una serie di interazioni mentre sei
    Per ulteriori informazioni sugli archivi multipli, consulta [Multiarchivio](/docs/infrastructure/Backup?topic=Backup-multivault)
    {:tip}
 6. Seleziona l'opzione di scansione file rapida per evitare la lettura dei file che non sono stati modificati. Fai clic su **Next**.
-7. Fai clic su **Finish** per completare la configurazione e avviare il backup. Viene visualizzata una finestra con le informazioni sul processo che mostra lo stato del lavoro di backup. Al termine del lavoro di backup, fai clic su **Close**.
+7. Fai clic su **Finish** per completare la configurazione e avviare il backup. Viene visualizzata una finestra con le informazioni sul processo che mostra lo stato del lavoro di backup. Al termine del backup, fai clic su **Close**.

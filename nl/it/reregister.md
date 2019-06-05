@@ -33,7 +33,7 @@ Questa attività è la più comunemente utilizzata dopo che viene ricaricato il 
   - Indirizzo archivio
   - Account
 
-    "Account" è l'equivalente dell'"Account Name" nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. In genere, è simile a "SLE[ID account]"
+    "Account" è l'equivalente di "Account Name" nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. In genere, è simile a "SLE[ID account]"
     {:tip}
   - Nome utente
   - Password

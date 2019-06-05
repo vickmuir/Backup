@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-05-14"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -20,7 +20,7 @@ subcollection: Backup
 # Esercitazione introduttiva
 {: #getting-started}
 
-I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. {{site.data.keyword.backup_full}} è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser del portale {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.BluSoftlayer_full}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi garantiscono la compatibilità con software come [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) e consentono agli utenti di completare un [Ripristino bare metal](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), laddove necessario.
+I backup assicurano che i tuoi dati vengano memorizzati in modo sicuro all'esterno del tuo dispositivo e protetti in caso di perdita. {{site.data.keyword.backup_full}} è un sistema di backup automatizzato basato su agent che viene gestito tramite l'utilità di gestione basata su browser del portale {{site.data.keyword.backup_notm}}. {{site.data.keyword.backup_notm}} fornisce agli utenti un metodo per eseguire il backup dei dati tra server in uno o più data center sulla rete {{site.data.keyword.cloud}}. Gli amministratori possono impostare i backup in modo che seguano una pianificazione giornaliera, settimanale o personalizzata rivolta a sistemi completi, directory specifiche o persino singoli file. I plug-in aggiuntivi garantiscono la compatibilità con software come [Microsoft Exchange](/docs/infrastructure/Backup?topic=Backup-Exchangeplugin), [Microsoft SQL](/docs/infrastructure/Backup?topic=Backup-MSSQLplugin), [Oracle](/docs/infrastructure/Backup?topic=Backup-Oracleplugin#Oracleplugin), [VMware vSphere](/docs/infrastructure/Backup?topic=Backup-VRA) e consentono agli utenti di completare un [Ripristino bare metal](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin), laddove necessario.
 {:shortdesc}
 
 ## Prima di iniziare
@@ -34,6 +34,7 @@ Devi avere una licenza valida per utilizzare IBM Cloud Backup. Puoi acquistare i
 Per ulteriori informazioni sull'ordinazione e i prezzi, consulta [Provisioning di {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
 
 ## Installazione dell'agent {{site.data.keyword.backup_notm}}
+{: #installagentgettingstarted}
 
 L'agent {{site.data.keyword.backup_notm}} è supportato sul seguente sistema operativo:
 
@@ -63,19 +64,20 @@ Segui le istruzioni appropriate per il tuo sistema operativo,
 ## Accesso al portale {{site.data.keyword.backup_notm}} (in precedenza WebCC)
 {: #accessingWebCC}
 
-Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con qualsiasi servizio {{site.data.keyword.backup_notm}} offerto da {{site.data.keyword.BluSoftlayer_full}}. Il portale {{site.data.keyword.backup_notm}} è un client basato su browser eseguito sulla rete privata {{site.data.keyword.BluSoftlayer_full}} e consente il pieno controllo di qualsiasi servizio {{site.data.keyword.backup_notm}}, inclusi la configurazione e i ripristini.
+Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con qualsiasi servizio {{site.data.keyword.backup_notm}} offerto da {{site.data.keyword.cloud}}. Il portale {{site.data.keyword.backup_notm}} è un client basato su browser eseguito sulla rete privata {{site.data.keyword.cloud}} e consente il pieno controllo di qualsiasi servizio {{site.data.keyword.backup_notm}}, inclusi la configurazione e i ripristini.
 
 1. Accedi alla rete privata tramite VPN.
 
    Non è possibile accedere al portale {{site.data.keyword.backup_notm}} sulla rete pubblica. Per prima cosa deve essere stabilita una connessione VPN.
    {:important}
-2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
 ## Configurazione dell'agent Backup e della pianificazione del backup
+{: #configureagentschedule}
 
 Una volta che hai ordinato {{site.data.keyword.backup_notm}} e che l'agent è installato sul server, puoi iniziare a creare i backup dei tuoi dati. Segui questa procedura per configurare l'agent e la pianificazione della conservazione.
 
@@ -99,7 +101,11 @@ Una volta che hai ordinato {{site.data.keyword.backup_notm}} e che l'agent è in
       Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
+      L'archiviazione non è supportata. Quando crei uno schema di conservazione o modifichi uno schema esistente, assicurati che l'opzione di archiviazione (Archiving) **non** sia selezionata.
+      {:important}
+
 ## Esecuzione del tuo primo lavoro di backup
+{: #runfirstbackup}
 
 1. Accedi al portale {{site.data.keyword.backup_notm}}.
 2. Fai clic su **All Agents**, quindi seleziona l'agent che hai configurato.
@@ -112,11 +118,12 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 {:tip}
 
 ## Accesso e visualizzazione dei dettagli dell'archiviazione di {{site.data.keyword.backup_notm}} nella console
+{: #viewingdetailsinconsole}
 
 I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.</br>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. </br>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** e seleziona **Backup** dall'elenco.
 2. Fai clic in qualsiasi punto della riga dell'archivio per visualizzare i suoi dettagli di archiviazione. Da questa vista, la password non è visibile.
 3. Fai clic sulla casella di spunta **Show** accanto al campo **Password** per visualizzare la password per il servizio {{site.data.keyword.backup_notm}} selezionato.
@@ -125,5 +132,6 @@ Le modifiche apportate alla password di {{site.data.keyword.backup_notm}} all'in
 {:important}
 
 ## Come ottenere ulteriore aiuto online
+{: #onlinehelp}
 
 I sistemi del portale {{site.data.keyword.backup_notm}} sono completamente documentati e il supporto per l'applicazione è accessibile nel portale {{site.data.keyword.backup_notm}}. Fai clic sul punto interrogativo bianco in un cerchio blu che si trova in alto a destra per **Help**. Fai clic su qualsiasi articolo o argomento nella barra di navigazione sul lato sinistro per visualizzare ulteriori informazioni.

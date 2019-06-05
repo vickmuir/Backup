@@ -97,8 +97,8 @@ Una volta registrato correttamente l'archivio, è necessario configurare le impo
 
 ## Passi successivi
 {: #VRAnextteps}
-1. [Configura, pianifica ed esegui un lavoro di backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA)
+1. [Configura, pianifica ed esegui un lavoro di backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
 2. [Ripristina i dati vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
 
-Connettiti alla rete {{site.data.keyword.BluSoftlayer_full}} con {{site.data.keyword.BluVPN}} in modo da poter accedere e scaricare la guida utente dalla [documentazione di {{site.data.keyword.backup_notm}} scaricabile](http://downloads.service.softlayer.com/evault/Documentation/){: external}
+Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 {:tip}

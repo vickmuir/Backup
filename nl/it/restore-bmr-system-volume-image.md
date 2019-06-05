@@ -24,8 +24,8 @@ Se hai bisogno di ripristinare un backup dell'immagine Bare Metal da {{site.data
 ## Avvio del sistema BMR Rescue Kernel
 
 Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slportal}}.
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.<br/>
-   In alternativa, puoi accedere al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
+   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Fai clic sulla **freccia** accanto all'archivio.
 4. Fai clic su **Initiate Bare Metal Restore**. Questa azione avvia una transazione che verrà completata in pochi minuti. Successivamente puoi accedere al server seguendo i passi descritti qui. Ricevi un'email quando il sistema completa il processo di avvio.
@@ -38,7 +38,7 @@ Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slp
   - La console KVM della tua scheda IPMI.
   Entrambi questi modi funzionano correttamente.
 2. Dopo aver effettuato l'accesso a BMR Rescue Kernel per la prima volta, verrà visualizzata la schermata iniziale per la selezione della lingua. Seleziona la lingua che preferisci e fai clic su **Next**.
-<br/>![Figura 1: selezione della lingua BMR](/images/bmr1.png)<br/> Viene visualizzato l'accordo di licenza per il software.
+<br/>![Figura 1 - Selezione della lingua BMR](/images/bmr1.png)<br/> Viene visualizzato l'accordo di licenza per il software.
 3. Se accetti i termini, seleziona la casella di spunta e fai clic su **Next** per continuare. <br/> Viene visualizzo il menu principale di ripristino del sistema {{site.data.keyword.backup_notm}}.
 4. Seleziona **Restore My System**.
 <br/>![Figura 2: menu principale BMR](/images/bmr2.png)
@@ -65,7 +65,7 @@ Puoi accedere al sistema BMR Rescue Kernel attraverso il {{site.data.keyword.slp
 16. Al termine, viene visualizzata una finestra di notifica in cui viene indicato che il ripristino è stato completato correttamente. Fai clic su **OK**.
 17. Nella schermata di avanzamento del ripristino. Fai clic su **Next**.
 18. Nella schermata finale, seleziona la casella per riavviare il sistema, quindi seleziona **Finish** e il server carica la tua immagine del volume ripristinata.
-  Il ripristino è ora completo. <br/>
+  Il ripristino è ora completo. <br/> 
 
   La prima volta che il server viene riavviato, potresti vedere il messaggio di arresto imprevisto. È normale con questo tipo di backup e va via dopo il primo avvio.
   {:tip}
