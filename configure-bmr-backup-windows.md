@@ -16,10 +16,10 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Configuring BMR backup job on Windows
+# Configuring BMR backup job
 {: #configureBMR}
 
-You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Installing the Bare Metal Restore plug-in](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
+You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Learn about the Bare Metal Restore plug-in](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
 ## Starting {{site.data.keyword.backup_notm}} portal
