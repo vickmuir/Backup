@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -27,8 +27,7 @@ Use these steps to complete a File restore with {{site.data.keyword.backup_full}
 Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network. The {{site.data.keyword.backup_notm}} portal link doesn't work otherwise.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**. <br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Select the server where the files to be restored are located. Click the arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal** to start the {{site.data.keyword.backup_notm}} portal client in your browser.

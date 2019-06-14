@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ This task is completed through a series of interactions while you are logged in 
 5. Select **Register as a new computer** and click **Next**.
 6. Enter the vault name in the Profile name field.
 
-   The vault name can be obtained from the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   The vault name can be obtained from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}.
    {:tip}
 6. Enter network address (the IP address of the assigned vault) and click **Add**. Then, click **Next**.
 7. Enter the new port values and click **Add**, then **Next**.

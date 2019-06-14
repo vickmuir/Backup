@@ -70,8 +70,7 @@ Follow the instructions appropriate for your OS,
 
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
 2. Click **Storage** > **Backup** to display the servers with backup services.
 3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
@@ -120,15 +119,14 @@ For more information, see [Configuring simple file-level backup on Linux](/docs/
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
 {: #viewingdetailsinconsole}
 
-The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and the {{site.data.keyword.slportal}} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
+The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.</br>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
 
-Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.slportal}} are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/infrastructure/Backup?topic=Backup-changePassword).
+Changes that are made to the {{site.data.keyword.backup_notm}} password within the {{site.data.keyword.cloud_notm}} console are made to the service itself. To reset your password, follow the steps in [Changing the password for the backup service](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Getting more online help

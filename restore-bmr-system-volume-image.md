@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ If you need to restore a Bare Metal image backup from {{site.data.keyword.backup
 
 ## Initiating the BMR Rescue Kernel system
 
-You can access the BMR Rescue Kernel system through the {{site.data.keyword.slportal}}.
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.<br/>
-   Alternatively, you can log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+You can access the BMR Rescue Kernel system through the {{site.data.keyword.cloud_notm}} console.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
 2. Click **Storage** > **Backup** to display the servers with backup service.
 3. Click the **Arrow** next to the vault.
 4. Click **Initiate Bare Metal Restore**. This action starts a transaction that takes a few minutes to complete. Afterward you can access the server by following the steps that are detailed here. You're going to be emailed when the system completes the boot process.
@@ -34,7 +33,7 @@ You can access the BMR Rescue Kernel system through the {{site.data.keyword.slpo
 ## Restoring from the BMR Rescue Kernel
 
 1. When the BMR Rescue Kernel transaction loads, you can choose to access it in two different ways.
-  - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.slportal}}
+  - A VNC client and the private or public IP address of your server and the password that is listed in the {{site.data.keyword.cloud_notm}} console
   - The KVM console of your IPMI card.
   Both of these ways work well.
 2. Upon logging in to the BMR Rescue Kernel for the first time, you're greeted with the language selection screen. Select the language of your choice and click **Next**.
