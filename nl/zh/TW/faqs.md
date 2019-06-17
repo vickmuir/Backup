@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -100,7 +100,7 @@ subcollection: Backup
 ## 可以增加或減少 {{site.data.keyword.backup_notm}} 容量，而不危及備份嗎？
 {: faq}
 
-您可以透過 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 來增加或減少儲存庫的大小。對容量的修改不會影響儲存庫中所儲存資料的完整性。如需相關資訊，請參閱[擴充容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
+您可以透過 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}來增加或減少儲存庫的大小。對容量的修改不會影響儲存庫中所儲存資料的完整性。如需相關資訊，請參閱[擴充容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
 
 <hr>
 

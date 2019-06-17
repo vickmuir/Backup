@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ subcollection: Backup
 5. 選取**登錄為新電腦**，然後按**下一步**。
 6. 在「設定檔名稱」欄位中，輸入儲存庫名稱。
 
-   您可以從 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 取得儲存庫名稱。
+   您可以從 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/classic/storage/backup){: external}取得儲存庫名稱。
    {:tip}
 6. 輸入網址（已指派儲存庫的 IP 位址），然後按一下**新增**。然後，按**下一步**。
 7. 輸入新埠值並按一下**新增**，然後按**下一步**。

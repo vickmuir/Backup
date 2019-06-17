@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -17,37 +17,26 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 安裝 Oracle 外掛程式
+# 瞭解 Oracle 外掛程式
 {: #Oracleplugin}
 
 Oracle 外掛程式是一種附加程式，並與「Windows 代理程式」或「Linux 代理程式」一起安裝在 Oracle 資料庫主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 Oracle 資料庫備份至安全的遠端儲存庫，以及還原 Oracle 資料庫。Oracle 外掛程式會整合至現有的架構。
 
-**提供的功能**
+## 提供的功能
+{: #Oraclecapabilities}
 
 - 支援 Oracle 資料庫備份及回復。
 - Oracle 外掛程式對整個線上資料庫實例，提供以 ARCHIVELOG 為基礎的非 RMAN 備份。系統會自動備份所有非暫存的表格空間及實例參數檔案。Oracle Corporation 建議在低資料庫活動的時段進行備份。
 - 完整和局部資料庫是透過使用者管理的一般 Oracle 回復機制來還原。
 
-**限制**
+## 限制
+{: #Oraclelimitations}
 - 只會備份本端、單一實例、以磁碟為基礎的資料庫。
 - 不會備份資料庫叢集。
 - 不會備份原始裝置。
 - 不會備份遠端資料庫。
 - 資料庫必須在 ARCHIVELOG 模式下執行，且以其身分配置備份的使用者必須具有 SYSDBA 專用權。
 - 資料庫密碼會透過以 Script 為基礎的方法來加密，以加強安全。
-
-## 訂購外掛程式
-{: #orderingOraclePlugin}
-
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
-2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
-3. 選取您的帳戶，然後按一下**訂購外掛程式**。
-4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - Oracle**，然後按一下**繼續**。
-5. 如果您有「促銷代碼」，請輸入它，然後按一下**重新計算**。
-6. 即會顯示更新的費用。請檢閱您的訂單。
-7. 勾選此方框，指出您已閱讀並接受「協力廠商服務合約」。
-8. 按一下**下訂單**。
 
 ## 安裝適用於 Windows 的外掛程式
 {: #installOracleWin}

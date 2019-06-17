@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 安裝 Exchange 外掛程式
+# 瞭解 Exchange 外掛程式
 {: #Exchangeplugin}
 
 Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。透過 {{site.data.keyword.backup_notm}} 入口網站，您可以配置工作、將 Exchange 資料庫備份至安全的遠端儲存庫，以及還原 Exchange 資料庫。外掛程式會整合至現有的架構。
@@ -24,19 +24,6 @@ Exchange 外掛程式會與「Windows 代理程式」一起安裝在主機上。
 **提供的功能**
 
 - 備份及還原 Microsoft Exchange 資料庫的能力。
-
-## 訂購外掛程式
-{: #orderingExchangePlugin}
-
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
-2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
-3. 選取您的帳戶，然後按一下**訂購外掛程式**。
-4. 選取 **{{site.data.keyword.backup_notm}} 外掛程式 - Exchange**，然後按一下**繼續**。
-5. 如果您有「促銷代碼」，請輸入它，然後按一下**重新計算**。
-6. 即會顯示更新的費用。請檢閱您的訂單。
-7. 勾選此方框，指出您已閱讀並接受「協力廠商服務合約」。
-8. 按一下**下訂單**。
 
 ## 安裝外掛程式
 {: #installExchangePlugin}

@@ -70,8 +70,7 @@ subcollection: Backup
 
    無法透過公用網路存取 {{site.data.keyword.backup_notm}} 入口網站。必須先建立 VPN 連線。
    {:important}
-2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
 3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
@@ -120,15 +119,14 @@ subcollection: Backup
 ## 在主控台中存取及檢視 {{site.data.keyword.backup_notm}} 儲存空間詳細資料
 {: #viewingdetailsinconsole}
 
-您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}和 {{site.data.keyword.slportal}} 上檢視服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
+您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/classic/storage/backup){: external}上檢視服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。</br>
-   或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 2. 按一下**儲存空間**，然後從清單中選取**備份**。
 2. 按一下您要檢視其儲存空間詳細資料的儲存庫列的任何位置。從這個視圖中，看不到「密碼」。
 3. 按一下**密碼**欄位旁邊的**顯示**勾選框，以檢視所選取 {{site.data.keyword.backup_notm}} 服務的密碼。
 
-在 {{site.data.keyword.slportal}} 內對 {{site.data.keyword.backup_notm}} 密碼所做的變更，會對服務本身進行。若要重設密碼，請遵循[變更備份服務的密碼](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步驟。
+在 {{site.data.keyword.cloud_notm}} 主控台內對 {{site.data.keyword.backup_notm}} 密碼所做的變更，會對服務本身進行。若要重設密碼，請遵循[變更備份服務的密碼](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步驟。
 {:important}
 
 ## 取得更多線上說明

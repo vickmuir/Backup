@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ subcollection: Backup
   - 儲存庫位址。
   - 帳戶。
 
-「帳戶」等同於 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
+    「帳戶」等同於 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/classic/storage/backup){: external}中的「帳戶名稱」。通常，它看起來像是 "SLE[account ID]"
     {:tip}
   - 使用者名稱。
   - 密碼

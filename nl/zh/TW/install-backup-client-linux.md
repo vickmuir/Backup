@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -29,16 +29,15 @@ subcollection: Backup
 
 在完成此程序之後，自動化處理程序會向 {{site.data.keyword.backup_notm}} 入口網站登錄「代理程式」服務，然後下載並安裝執行該服務所需的檔案。
 
-當您透過 [{{site.data.keyword.cloud_notm}} 型錄](https://{DomainName}/catalog){: external}或 {{site.data.keyword.slportal}} 訂購伺服器時，如果您已購買 {{site.data.keyword.backup_notm}}，則會自動為您安裝軟體。您不需要使用本文件所述的程序。
+當您透過 [{{site.data.keyword.cloud_notm}} 型錄](https://{DomainName}/catalog){: external}或 {{site.data.keyword.cloud_notm}} 主控台訂購伺服器時，如果您已購買 {{site.data.keyword.backup_notm}}，則會自動為您安裝軟體。您不需要使用本文件所述的程序。
 {:tip}
 
-如果已在 {{site.data.keyword.slportal}} 以升級方式購買了 {{site.data.keyword.backup_notm}}，請遵循下列步驟來安裝軟體。
+如果已在 {{site.data.keyword.cloud_notm}} 主控台以升級方式購買了 {{site.data.keyword.backup_notm}}，請遵循下列步驟來安裝軟體。
 
 ## 登入目標裝置伺服器
 {: #logintargetLin}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 2. 從主功能表選取**裝置** > **裝置清單**，以查看可用伺服器裝置的清單。
 3. 找出您已為其購買 {{site.data.keyword.backup_notm}} 服務的裝置，並記下其公用 IP 位址。
   - 從 UNIX 或 Linux 指令行登入裝置時，會在接下來的步驟使用此 IP 位址。在步驟 5 所顯示的指令中，將 <publicIpAddress> 取代為實際公用 IP 位址。

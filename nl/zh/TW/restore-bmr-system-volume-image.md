@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ subcollection: Backup
 
 ## 起始 BMR Rescue Kernel 系統
 
-您可以透過 {{site.data.keyword.slportal}} 存取 BMR Rescue Kernel 系統。
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。<br/>
-或者，您也可以登入 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+您可以透過 {{site.data.keyword.cloud_notm}} 主控台存取 BMR Rescue Kernel 系統。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
 2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
 3. 按一下儲存庫旁邊的**箭頭**。
 4. 按一下**起始 Bare Metal Restore**。這個動作會啟動需要幾分鐘才能完成的交易。之後您就可以遵循這裡詳述的步驟來存取伺服器。當系統完成開機處理程序時，將會傳送電子郵件給您。
@@ -34,7 +33,7 @@ subcollection: Backup
 ## 從 BMR Rescue Kernel 還原
 
 1. 載入 BMR Rescue Kernel 交易時，您可以選擇以兩種不同的方式來存取它。
-  - VNC 用戶端及伺服器的專用或公用 IP 位址，以及 {{site.data.keyword.slportal}} 中列出的密碼
+  - VNC 用戶端及伺服器的專用或公用 IP 位址，以及 {{site.data.keyword.cloud_notm}} 主控台中列出的密碼。
   - IPMI 卡的 KVM 主控台。
   這兩種方式都可正常運作。
 2. 第一次登入 BMR Rescue Kernel 時，會為您顯示語言選取畫面。選取您選擇的語言，然後按**下一步**。
