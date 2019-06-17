@@ -51,7 +51,7 @@ Per ulteriori informazioni sui backup per i server Windows 2016, vedi [Configura
 
 1. Immetti l'indirizzo di rete: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

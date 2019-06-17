@@ -50,7 +50,7 @@ Windows 2016 サーバーでのバックアップについて詳しくは、[Win
 
 1. ネットワーク・アドレスを入力します。 <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

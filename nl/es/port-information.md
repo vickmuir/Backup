@@ -40,7 +40,7 @@ Si necesita utilizar reglas de cortafuegos más restrictivas, es posible que pie
 
 *Servidores proxy AMP y de portal de {{site.data.keyword.backup_notm}}*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Servidores proxy AMP comerciales*

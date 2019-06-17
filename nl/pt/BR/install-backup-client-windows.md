@@ -53,7 +53,7 @@ seu endereço IP público.
 
 1. Insira o endereço de rede: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

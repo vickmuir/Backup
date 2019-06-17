@@ -40,7 +40,7 @@ TCP Port 8086、8087 から 10.0.0.0/8 にアクセスできる必要があり�
 
 *{{site.data.keyword.backup_notm}} ポータルおよび AMP プロキシー・サーバー*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商用 AMP プロキシー・サーバー*

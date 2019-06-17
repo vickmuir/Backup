@@ -40,7 +40,7 @@ Si vous avez besoin d'utiliser des règles de pare-feu plus contraignantes, vous
 
 Portail *{{site.data.keyword.backup_notm}} et serveurs proxy AMP*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Serveurs proxy AMP à usage commercial*

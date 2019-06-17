@@ -40,7 +40,7 @@ Se hai bisogno di utilizzare regole firewall più restrittive, potresti perdere 
 
 *Portale {{site.data.keyword.backup_notm}} e server proxy AMP*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Server proxy AMP commerciali*

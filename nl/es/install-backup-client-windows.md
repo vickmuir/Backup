@@ -51,7 +51,7 @@ Para obtener más información sobre las copias de seguridad para servidores Win
 
 1. Escriba la dirección de red: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

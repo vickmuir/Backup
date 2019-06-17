@@ -40,7 +40,7 @@ TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。
 
 *{{site.data.keyword.backup_notm}} 门户网站和 AMP 代理服务器*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商用 AMP 代理服务器*

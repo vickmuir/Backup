@@ -51,7 +51,7 @@ subcollection: Backup
 
 1. 输入网络地址：<br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

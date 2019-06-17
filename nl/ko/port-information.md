@@ -40,7 +40,7 @@ TCP 포트 8086, 8087은 10.0.0.0/8에 액세스할 수 있어야 합니다.
 
 *{{site.data.keyword.backup_notm}} 포털 및 AMP 프록시 서버*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *상용 AMP 프록시 서버*

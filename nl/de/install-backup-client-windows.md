@@ -51,7 +51,7 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 
 1. Geben Sie die Netzadresse ein: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

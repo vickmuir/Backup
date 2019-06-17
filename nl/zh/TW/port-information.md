@@ -40,7 +40,7 @@ TCP 埠 8086、8087 必須有權存取 10.0.0.0/8。
 
 *{{site.data.keyword.backup_notm}} 入口網站和 AMP Proxy 伺服器*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商務 AMP Proxy 伺服器*

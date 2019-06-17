@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -26,7 +26,7 @@ Always register agents to the {{site.data.keyword.backup_notm}} portal and the d
 Your servers must communicate with the {{site.data.keyword.backup_notm}} portal and all AMP proxy servers for {{site.data.keyword.backup_notm}} portal to work correctly, regardless of the data center location.
 
 ```
-https://evregister.service.softlayer.com TCP 8086,8087
+evregister.service.softlayer.com TCP 8086,8087
 ```
 
 Extra AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the {{site.data.keyword.backup_notm}} portal.
@@ -40,8 +40,8 @@ If you need to use more restrictive firewall rules, you might lose access to the
 
 *{{site.data.keyword.backup_notm}} portal and AMP proxy servers*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
-- `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Commercial AMP proxy servers*
 

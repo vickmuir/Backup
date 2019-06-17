@@ -40,7 +40,7 @@ Falls Sie restriktivere Firewallregeln verwenden müssen, verlieren Sie möglich
 
 *{{site.data.keyword.backup_notm}}-Portal und AMP-Proxy-Server*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Kostenpflichtige AMP-Proxy-Server*
