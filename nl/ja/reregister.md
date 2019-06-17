@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ subcollection: Backup
   - ボールト・アドレス (Vault address)
   - アカウント
 
-3    「アカウント」は [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} の「アカウント名」と同等です。通常、「SLE[account ID]」のようになります。
+    「アカウント」は [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/classic/storage/backup){: external}の「アカウント名」と同等です。 通常、「SLE[account ID]」のようになります。
     {:tip}
   - ユーザー名
   - パスワード

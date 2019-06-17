@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -100,7 +100,7 @@ subcollection: Backup
 ## バックアップを危険にさらさずに {{site.data.keyword.backup_notm}} 容量を増減できますか?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} でボールトのサイズを増減できます。容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
+[{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}でボールトのサイズを増減できます。 容量を変更しても、ボールトに保管されているデータの整合性には影響しません。 詳しくは、「[容量の拡大](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)」を参照してください。
 
 <hr>
 

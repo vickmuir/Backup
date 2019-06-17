@@ -26,7 +26,7 @@ subcollection: Backup
 ## 依頼する前に
 {: #prereqs}
 
-IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
+IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.data.keyword.backup_notm}} サービスは 2 とおりの方法で購入できます。
 
 - [サーバーの注文時におけるバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)
@@ -64,14 +64,13 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
 ## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
 {: #accessingWebCC}
 
-{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
+{{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。 {{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
 
 1. VPN 経由でプライベート・ネットワークにアクセスします。
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
 2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
@@ -101,7 +100,8 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
       保存スキームについて詳しくは、[FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs) を参照してください。
       {:tip}
 
-      アーカイブはサポートされていません。保存スキームを作成したり既存のスキームを変更したりするには、「アーカイブ (Archiving)」オプションが選択されて**いない**ことを確認してください。{:important}
+      アーカイブはサポートされていません。 保存スキームを作成したり既存のスキームを変更したりするには、「アーカイブ (Archiving)」オプションが選択されて**いない**ことを確認してください。
+      {:important}
 
 ## 最初のバックアップ・ジョブの実行
 {: #runfirstbackup}
@@ -119,14 +119,14 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。{{site.da
 ## {{site.data.keyword.backup_notm}} のストレージの詳細へのコンソールでのアクセスと表示
 {: #viewingdetailsinconsole}
 
-サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}と {{site.data.keyword.slportal}}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
+サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/classic/storage/backup){: external}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。</br>あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
 2. **「ストレージ」**をクリックし、リストから**「バックアップ」**を選択します。
 2. ストレージの詳細を確認するボールトの行の任意の位置をクリックします。 このビューでは「パスワード」は表示可能ではありません。
 3. **「パスワード」**フィールドの横にある**「表示」**チェック・ボックスをクリックし、選択した {{site.data.keyword.backup_notm}} サービスのパスワードを表示します。
 
-{{site.data.keyword.slportal}}内で {{site.data.keyword.backup_notm}} のパスワードに加える変更は、サービス自体に対して加えられます。 パスワードをリセットするには、[バックアップ・サービスのパスワードの変更](/docs/infrastructure/Backup?topic=Backup-changePassword)のステップに従ってください。
+{{site.data.keyword.cloud_notm}} コンソール内で {{site.data.keyword.backup_notm}} のパスワードに加える変更は、サービス自体に対して加えられます。 パスワードをリセットするには、[バックアップ・サービスのパスワードの変更](/docs/infrastructure/Backup?topic=Backup-changePassword)のステップに従ってください。
 {:important}
 
 ## その他のオンライン・ヘルプの表示

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -28,8 +28,7 @@ Windows 2016 サーバーでのバックアップについて詳しくは、[Win
 ## ターゲット・デバイス・サーバーへのログイン
 {: #logintargetWin}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
-あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
 2. メインメニューから**「デバイス」**>**「デバイス・リスト」**を選択して使用可能なサーバーのリストを表示します。
 3. {{site.data.keyword.backup_notm}} サービスの購入対象であるデバイスを検索し、そのパブリック IP アドレスをメモします。
 4. 右向き矢印をクリックし、展開してデバイスに関する詳細情報 (ユーザー名、パスワードなど) を表示します。 パスワードが表示されない場合は、**「パスワードの表示 (Show Password)」**をクリックすると表示されます。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,8 @@ subcollection: Backup
 5. **「新規コンピューターとして登録 (Register as a new computer)」**を選択し、**「次へ」**をクリックします。
 6. 「プロファイル名 (Profile name)」フィールドにボールト名を入力します。
 
-   ボールト名は [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}で確認できます。{:tip}
+   ボールト名は [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/classic/storage/backup){: external}で確認できます。
+   {:tip}
 6. ネットワーク・アドレス (割り当てられたボールトの IP アドレス) を入力し、**「追加」**をクリックします。 次に、**「次へ」**をクリックします。
 7. 新規ポート値を入力し、**「追加」**、**「次へ」**の順にクリックします。
 8. 「接続設定 (Connection Settings)」画面で、目的の秒数または分数を入力します。 **「ボールトとの間での送信に有線暗号化を使用して有効にする (Enable over the wire encryption for transmissions to and from the vault)」**ボックスにチェック・マークが付いたままにします。 **「次へ」**をクリックします。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -16,18 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# vSphere Recovery Agent のインストール
+# vSphere Recovery Agent について
 {: #VRA}
 
 vSphere Recovery Agent (VRA) は、最大 10 TB の VMDK のバックアップとリストアを実行できる Windows アプリケーションです。 vSphere Recovery Agent は、保護する対象の vCenter へのローカル・ネットワーク・アクセスがある、物理マシンまたは仮想マシンにインストールできます。 最高のパフォーマンスを得るには、vCenter と同じサブネットにあるマシンに VRA をインストールしてください。 ワークロードを分散するため、最大 5 つの VRA を使用して、単一の vCenter に接続されている複数の VM を保護できます。
 
 vSAN 拡張クラスターでは、VM ごとに優先サイトがあります。 サイトごとに 1 つのローカル VRA をインストールし、各サイトの優先 VM がバックアップされるようにするのが理想的です。 VM が (保守または障害のために) 別のサイトに移動されると、バックアップのパフォーマンスが低下する可能性がありますが、許容レベルの低下にとどまります。
-
-
-## プラグインの注文
-{: #orderingVRAPlugin}
-
-{{site.data.keyword.cloud_notm}} は、vSphere Recovery Agent (VRA) を無料で提供しています。 現行の {{site.data.keyword.backup_notm}} サブスクリプションをお持ちの場合、このプラグインを {{site.data.keyword.backup_notm}} ポータルからダウンロードできます。
 
 ## プラグインのインストール
 {: #installVRAPlugin}
@@ -95,9 +89,16 @@ VRA をインストールした後、{{site.data.keyword.backup_notm}} ポータ
 4. **「vCenter 接続のテスト (Test vCenter Connection)」**をクリックします。 新規ウィンドウに結果が表示されます。 指定されたログイン情報が正しければ、「vCenter 資格情報が正常に検証されました (The vCenter credentials have been validated successfully)」というメッセージが表示されます。
 5. **「保存」**をクリックして、設定を保存します。
 
-## 次のステップ
-{: #VRAnextteps}
-1. [バックアップ・ジョブを構成し、スケジュールし、実行します](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
-2. [vSphere データをリストアします](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
+## vSphere バックアップ・ジョブの構成
+{: #configvmwarebackup}
 
-{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.cloud}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external}からユーザーズ・ガイドにアクセスしてダウンロードすることができます。{:tip}
+詳しくは、[バックアップ・ジョブの構成、スケジュール、および実行](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA) を参照してください。
+
+## vSphere データのリストア
+{: #restoringvSphereData}
+
+詳しくは、「[vSphere データのリストア](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)」を参照してください。
+
+
+{{site.data.keyword.BluVPN}} を使用して {{site.data.keyword.cloud}} ネットワークに接続すると、[ダウンロード可能な {{site.data.keyword.backup_notm}} 資料](http://downloads.service.softlayer.com/evault/Documentation/){: external}からユーザーズ・ガイドにアクセスしてダウンロードすることができます。
+{:tip}

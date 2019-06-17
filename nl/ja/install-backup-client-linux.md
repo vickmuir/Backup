@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -29,16 +29,15 @@ subcollection: Backup
 
 手順を完了すると、自動化されたプロセスによりエージェント・サービスが {{site.data.keyword.backup_notm}} ポータルに登録され、サービスの実行に必要なファイルがダウンロードおよびインストールされます。
 
-[{{site.data.keyword.cloud_notm}} カタログ](https://{DomainName}/catalog){: external}または {{site.data.keyword.slportal}}でサーバーを注文した時に {{site.data.keyword.backup_notm}} を購入した場合、ソフトウェアは自動的にインストールされます。 本書で説明する手順を使用する必要はありません。
+[{{site.data.keyword.cloud_notm}} カタログ](https://{DomainName}/catalog){: external}または {{site.data.keyword.cloud_notm}} コンソールでサーバーを注文した時に {{site.data.keyword.backup_notm}} を購入した場合、ソフトウェアは自動的にインストールされます。 本書で説明する手順を使用する必要はありません。
 {:tip}
 
-{{site.data.keyword.slportal}}でアップグレードとして {{site.data.keyword.backup_notm}} を購入した場合は、以下のステップに従ってソフトウェアをインストールしてください。
+{{site.data.keyword.cloud_notm}} コンソールでアップグレードとして {{site.data.keyword.backup_notm}} を購入した場合は、以下のステップに従ってソフトウェアをインストールしてください。
 
 ## ターゲット・デバイス・サーバーへのログイン
 {: #logintargetLin}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。<br/>
-あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
 2. メインメニューから**「デバイス」**>**「デバイス・リスト」**を選択して使用可能なサーバー・デバイスのリストを表示します。
 3. {{site.data.keyword.backup_notm}} サービスの購入対象であるデバイスを検索し、そのパブリック IP アドレスをメモします。
   - この IP アドレスは、UNIX または Linux のコマンド・ラインからデバイスにログインするときに使用します。 ステップ 5 に示すコマンドでは、<publicIpAddress> を実際のパブリック IP アドレスに置き換えてください。

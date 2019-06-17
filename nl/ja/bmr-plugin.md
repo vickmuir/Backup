@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# ベアメタル・リストア・プラグインのインストール
+# ベアメタル・リストア・プラグインについて
 {: #BMRplugin}
 
 BMR は災害復旧ソリューションです。 BMR では、オペレーティング・システムやハードウェアの障害などの災害が発生した場合に、ベアメタル状態からサーバーをリストアできます。 BMR により、{{site.data.keyword.cloud}} で管理される安全で保護された場所からシステム・イメージを迅速にリストアできます。
@@ -24,25 +24,28 @@ BMR は災害復旧ソリューションです。 BMR では、オペレーテ�
 BMR は、物理サーバー上の Microsoft Windows 専用の製品です。 仮想サーバーには使用できません。 Linux ディストリビューション用のベアメタルのリストアはサポートされていません。 BMR はバックアップ・エージェント 8.30 以前のバージョンでのみサポートされます。 (2018 年 6 月 30 日)。
 {:important}
 
-**提供されている機能**
+## 提供されている機能
+{: #BMRcapabilities}
 
 - 選択したポイント・イン・タイムにシステムをリストアします。
 - イメージまたはファイル・ベース・バックアップからシステムをリストアします。
 - {{site.data.keyword.backup_notm}} 上に保管されたバックアップからシステムをリストアします。
 - ブート可能システムなしでデータをリストアするために使用できる、起動可能なリカバリー・トランザクションです。
 
-## プラグインの注文
-{: #orderingBMR}
+## BMR プラグインのインストール
+{: #installingBMR}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。 <br/>
-あるいは、[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} にログインします。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
-3. アカウントを選択して、**「プラグインの注文」**をクリックします。
-4. **{{site.data.keyword.backup_notm}}「プラグイン - BMR (ベアメタルのリストア) (EVault plug-in - BMR (Bare Metal Restore))」**を選択して、**「続行」**をクリックします。
-5. 割引コードがある場合は入力し、**「再計算」**をクリックします。
-6. 更新された料金が表示されます。 注文を確認します。
-7. サード・パーティー・サービス契約を読んで同意したことを示すため、このボックスにチェック・マークを付けます。
-8. **「注文」**をクリックします。
+プラグインは、Windows エージェントのインストール時にインストールされます。 プラグインは、エージェントのインストール時にインストールすることも、あるいは後で**「変更」**を選択してインストールを再実行することでインストールすることもできます。
+
+## BMR バックアップ・ジョブの構成
+{: #configBMRplugin}
+
+詳しくは、[BMR バックアップ・ジョブの構成](/docs/infrastructure/Backup?topic=Backup-configureBMR)を参照してください。
+
+
+## BMR システム・ボリューム・イメージのリストア
+{: #restoringBMimage}
+詳細については、[BMR システム・ボリューム・イメージのリストア](/docs/infrastructure/Backup?topic=Backup-restoreBMR) を参照してください。
 
 ## ユーザー・ガイドのダウンロード
 {: #BMRUserGuide}
