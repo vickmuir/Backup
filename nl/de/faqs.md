@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -93,14 +93,14 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 ## Wo finde ich Informationen zur Preisstruktur?
 {: faq}
 
-Weitere Informationen finden Sie in [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){: external} und [IBM Cloud Backup: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}. 
+Weitere Informationen finden Sie in [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){: external} und [IBM Cloud Backup: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## Kann die Kapazität von {{site.data.keyword.backup_notm}} erhöht oder verringert wird, ohne die Sicherungen zu beeinträchtigen?
 {: faq}
 
-Sie können die Vault-Größe im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} erhöhen oder verringern.  Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Über die [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} können Sie eine Vault vergrößern oder verkleinern. Die Änderung der Kapazität wirkt sich nicht auf die Integrität der Daten aus, die in der Vault gespeichert sind. Weitere Informationen finden Sie im Abschnitt zum Thema [Kapazität erhöhen](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

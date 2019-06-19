@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,13 +33,13 @@ Diese Task wird am häufigsten nach dem erneuten Laden des Betriebssystems eines
   - Vaultadresse
   - Konto
 
-    "Konto" ist gleichbedeutend mit dem "Kontonamen" im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Normalerweise sieht der Wert etwa so aus: SLE[konto-id].
+    "Konto" ist gleichbedeutend mit dem "Kontonamen" in der [{{site.data.keyword.cloud_notm}}-Konsole. Normalerweise sieht der Wert etwa so aus: SLE[konto-id].
     {:tip}
   - Benutzername
   - Kennwort
-7. Klicken Sie auf **Computer laden** und wählen Sie aus, welche Computer geladen werden sollen.
-8. Klicken Sie auf **Änderungen speichern**.
+7. Klicken Sie auf Computer laden und wählen Sie aus, welche Computer geladen werden sollen.
+8. Klicken Sie auf Änderungen speichern.
 9. Aktualisieren Sie die Website, um vorherige Sicherungsjobs wiederherzustellen.
 10. Synchronisieren Sie jeden Sicherungsjob mit dem Protokoll der Sicherungsgruppe für die Wiederherstellung.
 11. Falls die Sicherungsjobs unter Verwendung eines Verschlüsselungskennworts erstellt wurden, müssen Sie das Verschlüsselungskennwort eingeben, um die Daten wiederherzustellen oder weitere Sicherungen zu erstellen.
-12. Klicken Sie auf **Schließen**.
+12. Klicken Sie auf Schließen.

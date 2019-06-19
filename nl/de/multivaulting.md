@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,8 +41,7 @@ Die Sicherung auf fernen Positionen von Rechenzentren kann mehr Zeit in Anspruch
 Sie müssen den neuen fernen Vault zum Konto hinzufügen, bevor eine neue Sicherungsposition im {{site.data.keyword.backup_notm}}-Portal hinzugefügt werden kann.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Geräte**.
 3. Suchen Sie den Link für den betreffenden Server und klicken Sie auf den Link.
 4. Klicken Sie unter **Gerätedetails** auf **Speicher**.
@@ -57,8 +56,7 @@ Nachdem Sie den Bestellprozess abgeschlossen haben, navigieren Sie zu **Speicher
 
 ## Zusätzliche Vault zum {{site.data.keyword.backup_notm}}-Portal hinzufügen
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie den Server aus, für den Sicherungen mit mehreren Vaults möglich sein sollen. Klicken Sie auf den nach rechts zeigenden Pfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf den Link zur **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Exchange-Plug-in installieren
+# Informationen zum Exchange-Plug-in
 {: #Exchangeplugin}
 
 Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, Exchange-Datenbanken in einer sicheren, fernen Vault sichern und Exchange-Datenbanken wiederherstellen. Das Plug-in wird in die vorhandene Architektur integriert.
@@ -24,19 +24,6 @@ Das Plug-in für Exchange wird mit dem Windows-Agenten auf dem Host installiert.
 **Bereitgestelltes Leistungsspektrum**
 
 - Möglichkeit zur Sicherung und Wiederherstellung von Microsoft Exchange-Datenbanken.
-
-## Plug-in bestellen
-{: #orderingExchangePlugin}
-
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
-4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - Exchange** aus und klicken Sie auf **Weiter**.
-5. Geben Sie einen gegebenenfalls verfügbaren Werbeaktionscode ein und klicken Sie auf **Neu berechnen**.
-6. Die aktualisierten Gebühren werden angezeigt. Prüfen Sie Ihre Bestellung.
-7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren.
-8. Klicken Sie auf **Bestellung aufgeben**.
 
 ## Plug-in installieren
 {: #installExchangePlugin}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -17,37 +17,26 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Plug-in für Oracle installieren
+# Informationen zum Plug-in für Oracle
 {: #Oracleplugin}
 
 Beim Plug-in für Oracle handelt es sich um ein Add-on, das mit dem Windows-Agenten oder dem Linux-Agenten auf dem Oracle-Datenbankhost installiert wird. Mit dem {{site.data.keyword.backup_notm}}-Portal können Sie Jobs konfigurieren, Oracle-Datenbanken in einer sicheren, fernen Vault sichern und Oracle-Datenbanken wiederherstellen. Das Plug-in für Oracle wird in die vorhandene Architektur integriert.
 
-**Bereitgestelltes Leistungsspektrum**
+## Bereitgestelltes Leistungsspektrum
+{: #Oraclecapabilities}
 
 - Unterstützung für die Sicherung und Wiederherstellung von Oracle-Datenbanken.
 - Das Plug-in für Oracle stellt auf ARCHIVELOG basierende Sicherungen ohne Recovery Manager (RMAN) von vollständigen Online-Datenbankinstanzen bereit. Alle nicht temporären Tabellenbereiche und Instanzparameterdateien werden automatisch gesichert. Die Oracle Corporation empfiehlt, Sicherungen in Zeiten mit geringer Datenbankaktivität auszuführen.
 - Datenbanken werden mit den üblichen vom Benutzer verwalteten Oracle-Wiederherstellungsmechanismen ganz und teilweise wiederhergestellt.
 
-**Einschränkungen**
+## Einschränkungen
+{: #Oraclelimitations}
 - Es werden nur einzelne Instanzen von lokalen, datenträgerbasierten Datenbanken gesichert.
 - Datenbankcluster werden nicht gesichert.
 - Roheinheiten werden nicht gesichert.
 - Ferne Datenbanken werden nicht gesichert.
 - Die Datenbank muss sich im Modus ARCHIVELOG befinden und der Benutzer, unter dem die Sicherung konfiguriert ist, muss die Berechtigung SYSDBA besitzen.
 - Datenbankkennwörter werden zur verstärkten Sicherheit über scriptbasierte Methoden verschlüsselt.
-
-## Plug-in bestellen
-{: #orderingOraclePlugin}
-
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-3. Wählen Sie Ihr Konto aus und klicken Sie auf **Plug-ins bestellen**.
-4. Wählen Sie **{{site.data.keyword.backup_notm}}-Plug-in - Oracle** aus und klicken Sie auf **Weiter**.
-5. Geben Sie einen gegebenenfalls verfügbaren Werbeaktionscode ein und klicken Sie auf **Neu berechnen**.
-6. Die aktualisierten Gebühren werden angezeigt. Prüfen Sie Ihre Bestellung.
-7. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie die Servicevereinbarung eines anderen Anbieters gelesen haben und akzeptieren.
-8. Klicken Sie auf **Bestellung aufgeben**.
 
 ## Plug-in für Windows installieren
 {: #installOracleWin}
@@ -109,4 +98,4 @@ Das Oracle-Plug-in führt eine "inkonsistente" Datenbankgesamtsicherung durch, d
 ## Benutzerhandbuch herunterladen
 {: #OracleUserGuide}
 
-Stellen Sie eine Verbindung zum {{site.data.keyword.cloud}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie die Benutzerhandbücher über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} herunterladen können. 
+Stellen Sie eine Verbindung zum {{site.data.keyword.cloud}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie die Benutzerhandbücher über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} herunterladen können.

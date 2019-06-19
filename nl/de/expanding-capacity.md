@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -24,8 +24,7 @@ Die aktuellen Benutzer von {{site.data.keyword.cloud}} können ihre Vault auf bi
 
 ## Erhöhung anfordern
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie auf das **Menüsymbol** links oben. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie auf das **Menüsymbol** links oben. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie die Vault aus, die Sie erweitern möchten.
 4. Klicken Sie auf **Aktionen** und wählen Sie **{{site.data.keyword.backup_notm}} ändern** aus.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -28,8 +28,7 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 ## Beim Zielgeräteserver anmelden
 {: #logintargetWin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/catalog){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um eine Liste verfügbarer Server anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
 4. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen. Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird.
@@ -51,7 +50,7 @@ Weitere Informationen zu Sicherungen für Windows 2016-Server finden Sie in [{{s
 
 1. Geben Sie die Netzadresse ein: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

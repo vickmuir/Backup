@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ Wenn Sie eine Bare-Metal-Imagesicherung von {{site.data.keyword.backup_full}} wi
 
 ## BMR-Rescue-Kernel-System aufrufen
 
-Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-System zugreifen.
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+Sie können über die {{site.data.keyword.cloud_notm}}-Konsole auf das BMR Rescue-Kernel-System zugreifen. 
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Klicken Sie auf den **Pfeil** neben der Vault.
 4. Klicken Sie auf **Bare-Metal-Wiederherstellung starten**. Diese Aktion startet eine Transaktion, deren Ausführung einige Minuten dauert. Anschließend können Sie mit den hier beschriebenen Schritten auf den Server zugreifen. Sobald das System den Bootprozess abgeschlossen hat, werden Sie per E-Mail benachrichtigt.
@@ -34,7 +33,7 @@ Sie können über das {{site.data.keyword.slportal}} auf das BMR Rescue-Kernel-S
 ## Wiederherstellung vom BMR-Rescue-Kernel durchführen
 
 1. Wenn die Transaktion für den BMR-Rescue-Kernel geladen wird, haben Sie für den Zugriff zwei verschiedene Möglichkeiten.
-  - Sie können einen VNC-Client und die private oder öffentliche IP-Adresse Ihres Servers sowie das im {{site.data.keyword.slportal}} aufgelistete Kennwort verwenden.
+  - Sie können einen VNC-Client und die private oder öffentliche IP-Adresse Ihres Servers sowie das in der {{site.data.keyword.cloud_notm}}-Konsole aufgelistete Kennwort verwenden.
   - Sie können die KVM-Konsole Ihrer IPMI-Karte verwenden.
   Beide Verfahren funktionieren gut.
 2. Wenn Sie sich zum ersten Mal beim BMR-Rescue-Kernel anmelden, werden Sie mit einer Anzeige für die Sprachauswahl begrüßt. Wählen Sie die gewünschte Sprache aus und klicken Sie auf **Weiter**.

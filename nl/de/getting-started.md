@@ -70,8 +70,7 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
 
    Das {{site.data.keyword.backup_notm}}-Portal kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
    {:important}
-2. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. <br/>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+2. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
@@ -120,15 +119,14 @@ Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Lin
 ## Über die Konsole auf Speicherdetails von {{site.data.keyword.backup_notm}} zugreifen und diese anzeigen
 {: #viewingdetailsinconsole}
 
-Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} und im {{site.data.keyword.slportal}} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
+Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/classic/storage/backup){: external} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus. </br>
-   Alternativ können Sie sich beim [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} anmelden.
+1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
 
-Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} im {{site.data.keyword.slportal}} vornehmen, werden auf den Service selbst angewendet. Zum Zurücksetzen des Kennworts führen Sie die Schritte aus, die in [Kennwort für den Sicherungsservice ändern](/docs/infrastructure/Backup?topic=Backup-changePassword) beschrieben sind.
+Änderungen, die Sie am Kennwort für {{site.data.keyword.backup_notm}} in der {{site.data.keyword.cloud_notm}}-Konsole vornehmen, werden auf den Service selbst angewendet. Zum Zurücksetzen des Kennworts führen Sie die Schritte aus, die in [Kennwort für den Sicherungsservice ändern](/docs/infrastructure/Backup?topic=Backup-changePassword) beschrieben sind.
 {:important}
 
 ## Weitere Onlinehilfe anfordern

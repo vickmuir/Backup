@@ -19,7 +19,7 @@ subcollection: Backup
 # Ports für Kommunikation zwischen dem Backup-Agenten und {{site.data.keyword.backup_notm}}-Portal konfigurieren
 {: #portinfo}
 
-Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} und in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} zur Verfügung. 
+Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/classic/storage/backup){: external} zur Verfügung. 
 
 Registrieren Sie Agenten beim {{site.data.keyword.backup_notm}}-Portal und den Director-Instanzen immer mit FQDN, weil die IP-Adresse für diese Services sich möglicherweise ändern.
 
@@ -40,7 +40,7 @@ Falls Sie restriktivere Firewallregeln verwenden müssen, verlieren Sie möglich
 
 *{{site.data.keyword.backup_notm}}-Portal und AMP-Proxy-Server*
 
-- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Kostenpflichtige AMP-Proxy-Server*

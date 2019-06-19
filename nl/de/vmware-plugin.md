@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -16,18 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# vSphere Recovery Agent installieren
+# Informationen zu vSphere Recovery Agent
 {: #VRA}
 
 Die Windows-Anwendung vSphere Recovery Agent (VRA) kann VMDKs bis zu 10 TB sichern und wiederherstellen. Sie können vSphere Recovery Agent auf einer physischen oder virtuellen Maschine installieren, die über lokalen Netzzugriff auf das vCenter verfügt, das geschützt werden soll. Installieren Sie VRA auf einer Maschine, die sich im selben Teilnetz wie das vCenter befindet, um die Leistung zu optimieren. Zum Verteilen der Workload können bis zu fünf VRA-Instanzen die VMs schützen, die an ein einzelnes vCenter angeschlossen sind.
 
 In einem standortübergreifenden vSAN-Cluster hat jede VM einen bevorzugten Standort. Im Idealfall ist eine lokale VRA-Instanz an jedem Standort installiert, die die bevorzugten VMs dieses Standorts sichert. Wenn eine VM (aufgrund von Wartungen oder Ausfällen) an einen anderen Standort verschoben wird, kann die Sicherungsleistung vermindert werden, bleibt aber akzeptabel.
-
-
-## Plug-in bestellen
-{: #orderingVRAPlugin}
-
-Mit {{site.data.keyword.cloud_notm}} wird vSphere Recovery Agent (VRA) kostenlos zur Verfügung gestellt. Wenn Sie über ein aktuelles {{site.data.keyword.backup_notm}}-Abonnement verfügen, können Sie das Plug-in aus dem {{site.data.keyword.backup_notm}}-Portal herunterladen.
 
 ## Plug-in installieren
 {: #installVRAPlugin}
@@ -95,10 +89,16 @@ Nach der erfolgreichen Vaultregistrierung müssen die vCenter-Einstellungen konf
 4. Klicken Sie auf **vCenter-Verbindung testen**. In einem neuen Fenster werden die Ergebnisse angezeigt. Wenn die bereitgestellten Anmeldeinformationen korrekt sind, wird eine Nachricht wie "Die vCenter-Berechtigungsnachweise wurden erfolgreich validiert" angezeigt.
 5. Klicken Sie auf **Speichern**, um die Einstellungen zu speichern.
 
-## Nächste Schritte
-{: #VRAnextteps}
-1. [Sicherungsjob konfigurieren, planen und ausführen](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
-2. [vSphere-Daten wiederherstellen](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
+## vSphere-Sicherungsjob konfigurieren
+{: #configvmwarebackup}
+
+Weitere Informationen finden Sie in [Sicherungsjob konfigurieren, planen und ausführen](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA). 
+
+## vSphere-Daten wiederherstellen
+{: #restoringvSphereData}
+
+Weiere Informationen finden Sie in [vSphere-Daten wiederherstellen](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore). 
+
 
 Stellen Sie eine Verbindung zum {{site.data.keyword.cloud}}-Netz mit {{site.data.keyword.BluVPN}} her, damit Sie auf das Benutzerhandbuch zugreifen und es über die [für den Download verfügbare {{site.data.keyword.backup_notm}}-Dokumentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} herunterladen können.
 {:tip}
