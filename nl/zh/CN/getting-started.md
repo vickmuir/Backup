@@ -70,8 +70,7 @@ subcollection: Backup
 
    {{site.data.keyword.backup_notm}} 门户网站无法通过公用网络进行访问。必须先建立 VPN 连接。
    {:important}
-2. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+2. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
@@ -121,15 +120,14 @@ subcollection: Backup
 ## 在控制台中访问并查看 {{site.data.keyword.backup_notm}} 存储器详细信息
 {: #viewingdetailsinconsole}
 
-可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}和 {{site.data.keyword.slportal}} 中查看服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
+可随时在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/classic/storage/backup){: external}中查看服务的存储器详细信息。可查看的详细信息包括与所选 {{site.data.keyword.backup_notm}} 服务关联的密码、存储地址和使用情况。
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 单击**存储**，然后从列表中选择**备份**。
 2. 单击保险库所在行上的任意位置以查看其存储器详细信息。在此视图中，无法查看“密码”。
 3. 单击**密码**字段旁边的**显示**复选框，以查看所选 {{site.data.keyword.backup_notm}} 服务的密码。
 
-对 {{site.data.keyword.slportal}} 内的 {{site.data.keyword.backup_notm}} 密码进行的更改将应用于该服务本身。要重置密码，请执行[更改备份服务的密码](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步骤。
+对 {{site.data.keyword.cloud_notm}} 控制台内的 {{site.data.keyword.backup_notm}} 密码进行的更改将应用于该服务本身。要重置密码，请执行[更改备份服务的密码](/docs/infrastructure/Backup?topic=Backup-changePassword)中的步骤。
 {:important}
 
 ## 获取更多联机帮助

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
@@ -29,7 +29,7 @@ subcollection: Backup
 ## 订购服务器时购买 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
 
-1. 登录到 [IBM Cloud 目录](https://{DomainName}/catalog){: external}或 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+1. 登录到 [IBM Cloud 目录](https://{DomainName}/catalog){: external}
 2. 订购按月计费的裸机服务器。有关订购裸机服务器的更多信息，请参阅[构建定制裸机服务器](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}。
    1. 选择数量和计费选项。输入主机和域名。您可以选择所需的任何主机名和域。
 
@@ -46,11 +46,10 @@ subcollection: Backup
    您还可以通过单击**另存为报价**来保存此订单而不购买。
    {:tip}
 
-系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.slportal}}。
+系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.cloud_notm}} 控制台。
 
 ### 确认 {{site.data.keyword.backup_notm}} 购买
-1. 在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}上，单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}上，单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。
   - 如果 URL 旁边有“时钟”图标，那么您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买信息。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
@@ -63,8 +62,7 @@ subcollection: Backup
 
 ### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。</br>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 从主菜单中选择**设备** > **设备列表**。找到要添加备份服务的设备。
 3. 单击设备名以转至**设备详细信息**页面。
 

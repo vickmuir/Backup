@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ subcollection: Backup
 5. 选择**注册为新计算机**，然后单击**下一步**。
 6. 在“概要文件名称”字段中，输入保险库名称。
 
-   保险库名称可以在 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 中获取。
+   保险库名称可以在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/classic/storage/backup){: external}中获取。
    {:tip}
 6. 输入网络地址（分配的保险库的 IP 地址），然后单击**添加**。然后，单击**下一步**。
 7. 输入新的端口值，单击**添加**，然后单击**下一步**。

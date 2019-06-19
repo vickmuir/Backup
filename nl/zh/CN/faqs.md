@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -101,7 +101,7 @@ subcollection: Backup
 ## 是否可以在不影响备份的情况下增大或减小 {{site.data.keyword.backup_notm}} 容量？
 {: faq}
 
-可以通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
+可以通过 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}来增大或减小保险库的大小。对容量的修改不会影响保险库中存储的数据的完整性。有关更多信息，请参阅[扩展容量](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)。
 
 <hr>
 

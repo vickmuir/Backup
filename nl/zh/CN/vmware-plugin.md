@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -16,18 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 安装 vSphere Recovery Agent
+# 了解 vSphere Recovery Agent
 {: #VRA}
 
 vSphere Recovery Agent (VRA) 是 Windows 应用程序，可以备份和复原最高 10 TB 的 VMDK。可以将 vSphere Recovery Agent 安装在对您希望保护的 vCenter 具备本地网络访问权的物理机器或虚拟机上。要获得最佳性能，请将 VRA 安装在与 vCenter 位于相同子网的机器上。要分发工作负载，最多可以有 5 个 VRA 来保护连接到单个 vCenter 的 VM。
 
 在 vSAN 延伸集群中，每个 VM 都有首选站点。理想情况下，会在备份该站点的首选 VM 的每个站点中安装一个本地 VRA。如果 VM 移至其他站点（由于维护或故障），备份性能可能会降低，但仍处于可接受的水平。
-
-
-## 订购插件
-{: #orderingVRAPlugin}
-
-{{site.data.keyword.cloud_notm}} 免费提供 vSphere Recovery Agent (VRA)。如果您有当前 {{site.data.keyword.backup_notm}} 预订，可以从 {{site.data.keyword.backup_notm}} 门户网站下载该插件。
 
 ## 安装插件
 {: #installVRAPlugin}
@@ -95,10 +89,16 @@ vSphere Recovery Agent (VRA) 是 Windows 应用程序，可以备份和复原最
 4. 单击**测试 vCenter 连接**。将在新的窗口中显示结果。如果提供了正确的登录信息，将显示消息“已成功验证 vCenter 凭证”。
 5. 单击**保存**以保存设置。
 
-## 后续步骤
-{: #VRAnextteps}
-1. [配置、安排和运行备份作业](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
-2. [复原 vSphere 数据](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
+## 配置 vSphere 备份作业
+{: #configvmwarebackup}
+
+有关更多信息，请参阅[配置、安排和运行备份作业](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)。
+
+## 复原 vSphere 数据
+{: #restoringvSphereData}
+
+有关更多信息，请参阅[复原 vSphere 数据](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)。
+
 
 使用 {{site.data.keyword.BluVPN}} 连接到 {{site.data.keyword.cloud}} 网络，以便可以从[可下载的 {{site.data.keyword.backup_notm}} 文档](http://downloads.service.softlayer.com/evault/Documentation/){: external}中访问并下载用户指南。
 {:tip}

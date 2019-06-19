@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ subcollection: Backup
 
 ## 启动 BMR 急救内核系统
 
-可通过 {{site.data.keyword.slportal}} 访问 BMR 急救内核系统。
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+可通过 {{site.data.keyword.cloud_notm}} 控制台访问 BMR 急救内核系统。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 单击**存储** > **备份**以显示具有备份服务的服务器。
 3. 单击保险库旁边的**箭头**。
 4. 单击**启动裸机复原**。此操作会启动一个事务，其需要几分钟时间来完成。之后，您可以通过执行此处详细描述的步骤来访问服务器。系统完成引导过程时，会向您发送电子邮件。
@@ -34,7 +33,7 @@ subcollection: Backup
 ## 从 BMR 急救内核复原
 
 1. BMR 急救内核事务装入后，您可以选择通过两种不同的方式对其进行访问。
-  - VNC 客户机、您的服务器的专用或公共 IP 地址，以及 {{site.data.keyword.slportal}} 中列出的密码
+  - VNC 客户机、您的服务器的专用或公共 IP 地址，以及 {{site.data.keyword.cloud_notm}} 控制台中列出的密码
   - 您的 IPMI 卡的 KVM 控制台。这两种方式都很好用。
 2. 首次登录到 BMR 急救内核时，您会看到语言选择屏幕。选择您的首选语言，然后单击**下一步**。
 <br/>![图 1 - BMR 语言选择](/images/bmr1.png)<br/> 这将显示软件的许可协议。

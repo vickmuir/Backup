@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -28,8 +28,7 @@ subcollection: Backup
 ## 登录到目标设备服务器
 {: #logintargetWin}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
 4. 单击向右箭头以展开并显示有关设备的更多信息，包括用户名和密码。如果未显示密码，可单击**显示密码**来显示密码。
@@ -51,7 +50,7 @@ subcollection: Backup
 
 1. 输入网络地址：<br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

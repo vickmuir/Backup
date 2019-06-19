@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ subcollection: Backup
   - 保险库地址
   - 帐户
 
-    “帐户”相当于 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 中的“帐户名称”。通常，这类似于“SLE[account ID]”。
+    “帐户”相当于 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/classic/storage/backup){: external}中的“帐户名称”。通常，它看起来像这样“SLE[account ID]”。
     {:tip}
   - 用户名
   - 密码

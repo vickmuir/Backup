@@ -19,7 +19,7 @@ subcollection: Backup
 # 配置端口以允许备份代理程序与 {{site.data.keyword.backup_notm}} 门户网站之间进行通信
 {: #portinfo}
 
-服务器上安装的 {{site.data.keyword.backup_full}} 代理程序需要能够与购买的保险库进行通信。{{site.data.keyword.backup_notm}} 用户帐户的导向器主机信息可以在 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} 和 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}中找到。
+在服务器上安装的 {{site.data.keyword.backup_full}} 代理程序需要能够与购买的保险库进行通信。在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/classic/storage/backup){: external}中可找到 {{site.data.keyword.backup_notm}} 用户帐户的导向器主机信息。
 
 请始终使用 FQDN 向 {{site.data.keyword.backup_notm}} 门户网站和导向器注册代理程序，因为这些服务的 IP 地址可能会更改。
 
@@ -40,7 +40,7 @@ TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。
 
 *{{site.data.keyword.backup_notm}} 门户网站和 AMP 代理服务器*
 
-- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商用 AMP 代理服务器*

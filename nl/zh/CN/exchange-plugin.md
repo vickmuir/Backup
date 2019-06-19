@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 安装 Exchange 插件
+# 了解 Exchange 插件
 {: #Exchangeplugin}
 
 Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.data.keyword.backup_notm}} 门户网站，可以配置作业，将 Exchange 数据库备份到安全的远程保险库，以及复原 Exchange 数据库。该插件集成到现有体系结构中。
@@ -24,19 +24,6 @@ Exchange 插件随 Windows 代理程序一起安装在主机上。通过 {{site.
 **提供的功能**
 
 - 能够备份和复原 Microsoft Exchange 数据库。
-
-## 订购插件
-{: #orderingExchangePlugin}
-
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。<br/>
-   或者，可以登录到 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}。
-2. 单击**存储** > **备份**以显示具有备份服务的服务器。
-3. 选择帐户，然后单击**订购插件**。
-4. 选择 **{{site.data.keyword.backup_notm}} 插件 - Exchange**，然后单击**继续**。
-5. 如果您有促销代码，请输入促销代码，然后单击**重新计算**。
-6. 这将显示更新后的费用。复查订单。
-7. 选中此框以指示您已阅读并接受第三方服务协议。
-8. 单击**下订单**。
 
 ## 安装插件
 {: #installExchangePlugin}
