@@ -70,8 +70,7 @@ O portal do {{site.data.keyword.backup_notm}} é usado para interagir com qualqu
 
    O portal do {{site.data.keyword.backup_notm}} não pode ser acessado por meio da rede pública. Uma conexão VPN deve ser estabelecida primeiro.
    {:important}
-2. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
 3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
@@ -94,7 +93,7 @@ Depois de ter solicitado o {{site.data.keyword.backup_notm}} e o agente estiver 
    7. Clique em  ** Salvar **.
 4. Crie um planejamento de retenção.
    1. Selecione **Editar** > **Configurações do Agente**.
-   2. Clique em  ** Incluir **.
+   2. Clique em **Incluir**.
    3. Conclua os detalhes de retenção.
    4. Clique em **OK**.
    5. Clique em  ** Salvar **.
@@ -123,15 +122,14 @@ Para obter mais informações, consulte [Configurando o backup em nível de arqu
 ## Acessando e visualizando detalhes de armazenamento do {{site.data.keyword.backup_notm}} no Console
 {: #viewingdetailsinconsole}
 
-Os detalhes de armazenamento de seu serviço podem ser visualizados no [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} e no {{site.data.keyword.slportal}} a qualquer momento. Os detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que estão associados ao serviço do {{site.data.keyword.backup_notm}} selecionado.
+Os detalhes de armazenamento do seu serviço podem ser visualizados no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external} a qualquer momento. Os detalhes que podem ser visualizados incluem a senha, o endereço de armazenamento e o uso que estão associados ao serviço do {{site.data.keyword.backup_notm}} selecionado.
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. </br>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Armazenamento** e selecione **Backup** na lista.
 2. Clique em qualquer lugar na linha da área segura da qual deseja visualizar os detalhes de armazenamento. Nessa visualização, a Senha não está visível.
 3. Clique na caixa de seleção **Mostrar** ao lado do campo **Senha** para visualizar a senha para o serviço do {{site.data.keyword.backup_notm}} selecionado.
 
-As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentro do {{site.data.keyword.slportal}} são feitas no próprio serviço. Para reconfigurar sua senha, siga as etapas em [Mudando a senha do serviço de backup](/docs/infrastructure/Backup?topic=Backup-changePassword).
+As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentro do console {{site.data.keyword.cloud_notm}} são feitas no próprio serviço. Para reconfigurar sua senha, siga as etapas em [Mudando a senha do serviço de backup](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Obtendo mais ajuda on-line

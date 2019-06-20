@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, mssql, sql database, plug-in, plugin, EVault, Carbonite, restore SQL
 
@@ -16,12 +16,13 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Instalando o plug-in SQL Server
+# Saiba mais sobre o plug-in do SQL Server
 {: #MSSQLplugin}
 
 O plug-in SQL Server é instalado com o Windows Agent no host do banco de dados SQL. Por meio do portal do {{site.data.keyword.backup_notm}}, é possível configurar tarefas, fazer backup de bancos de dados SQL para uma área segura remota e restaurar bancos de dados SQL.
 
-**Recursos fornecidos**
+## Recursos fornecidos
+{: #sqlcapabilities}
 
 - É possível executar backups de banco de dados completos, backups de banco de dados completos com
 logs de transações ou backup somente de logs de transação.
@@ -29,49 +30,6 @@ logs de transações ou backup somente de logs de transação.
 - É possível restaurar bancos de dados SQL para a mesma instância SQL ou para uma instância SQL
 diferente,
 - É possível restaurar bancos de dados com os nomes de banco de dados originais, sobrescrever bancos de dados existentes e restaurar usando a opção Sem recuperação.
-
-Para obter mais informações, consulte a seção [Principais recursos](#main-features).
-
-## Pedindo o plug-in
-{: #orderingSQLPlugin}
-
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Clique em **Armazenamento** > **Backup** para exibir os
-servidores com o serviço de backup.
-3. Selecione a conta e clique em **Solicitar plug-ins**.
-4. Selecione o **Plug-in do {{site.data.keyword.backup_notm}} - MSSQL** e clique em
-**Continuar**.
-5. Insira seu Código promocional, se você tiver um, e clique em **Recalcular**.
-6. Os encargos atualizados são exibidos. Revise seu pedido.
-7. Marque a caixa para indicar que você leu e aceitou os Contratos de Prestação de Serviços de Terceiros.
-8. Clique em **Fazer pedido**.
-
-## Instalando o plug-in MSSQL
-{: #installSQLPlugin}
-
-Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
-como uma opção na página **Configuração customizada**.
-
-Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare ambos os serviços do {{site.data.keyword.backup_notm}} em `services.msc`.
-{:tip}
-
-1. Navegue para a pasta `c:\installs\evault` e execute o arquivo .exe com o número de revisão maior.
-2. Na tela de idioma, clique em **OK**.
-3. Na tela de boas-vindas, clique em **Avançar**.
-4. Selecione **Modificar instalação** e clique em **Avançar**.
-5. Selecione **Deixar sem mudança** e clique em **Avançar**.
-6. Na tela de configuração customizada, selecione cada plug-in que você comprou.
-7. Selecione **Este recurso será instalado em...** e, em seguida, clique em **Avançar**.
-8. Selecione **Manter meu registro atual** e clique em **Avançar**.
-9. Clique em **Instalar**.
-10. Quando instalado, verifique para assegurar que ambos os serviços estejam ativados e em execução.
-11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de visualizar e acessar o banco de dados, a instalação terá sido bem-sucedida.
-
-## Fazendo download do guia do usuário
-{: #SQLUserGuide}
-
-Conecte-se à rede do {{site.data.keyword.cloud}} com a {{site.data.keyword.BluVPN}} para que seja possível fazer download do guia do usuário por meio da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ](http://downloads.service.softlayer.com/evault/Documentation/){: external}
 
 ## Principais recursos
 {: #main-features}
@@ -100,3 +58,29 @@ outro, mesmo quando os nomes do banco de dados lógico não são correspondentes
 - Quando o backup é iniciado, ele ocorre com ou sem a execução de serviços de banco de dados.
 - As restaurações são suportadas para os nomes de banco de dados originais (sobrescrevendo ou não os bancos de
 dados existentes), para a restauração sobre um banco de dados existente ou para os arquivos no disco.
+
+## Instalando o plug-in MSSQL
+{: #installSQLPlugin}
+
+Para instalar o plug-in, execute o kit de instalação do Agente. O plug-in aparece
+como uma opção na página **Configuração customizada**.
+
+Antes de instalar o plug-in MSSQL para o servidor do Microsoft Windows, pare ambos os serviços do {{site.data.keyword.backup_notm}} em `services.msc`.
+{:tip}
+
+1. Navegue para a pasta `c:\installs\evault` e execute o arquivo .exe com o número de revisão maior.
+2. Na tela de idioma, clique em **OK**.
+3. Na tela de boas-vindas, clique em **Avançar**.
+4. Selecione **Modificar instalação** e clique em **Avançar**.
+5. Selecione **Deixar sem mudança** e clique em **Avançar**.
+6. Na tela de configuração customizada, selecione cada plug-in que você comprou.
+7. Selecione **Este recurso será instalado em...** e, em seguida, clique em **Avançar**.
+8. Selecione **Manter meu registro atual** e clique em **Avançar**.
+9. Clique em **Instalar**.
+10. Quando instalado, verifique para assegurar que ambos os serviços estejam ativados e em execução.
+11. Se o portal do {{site.data.keyword.backup_notm}} for capaz de visualizar e acessar o banco de dados, a instalação terá sido bem-sucedida.
+
+## Fazendo download do guia do usuário
+{: #SQLUserGuide}
+
+Conecte-se à rede do {{site.data.keyword.cloud}} com a {{site.data.keyword.BluVPN}} para que seja possível fazer download do guia do usuário por meio da [Documentação transferível por download do {{site.data.keyword.backup_notm}} ](http://downloads.service.softlayer.com/evault/Documentation/){: external}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -43,8 +43,7 @@ data center no qual o servidor está localizado.
 Deve-se incluir a nova área segura remota na conta antes que um novo local de backup possa ser incluído no portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Dispositivos**
 3. Localize e clique no link para o servidor em questão.
 4. Sob **Detalhes do dispositivo**, clique em **Armazenamento**.
@@ -62,8 +61,7 @@ Quando o processo de solicitação estiver concluído, acesse o **Armazenamento*
 
 ## Incluindo uma Área segura extra no portal do {{site.data.keyword.backup_notm}}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Selecione o servidor do qual deseja poder fazer backup em múltiplas áreas seguras. Clique na seta para a direita para exibir o link do portal do {{site.data.keyword.backup_notm}}.

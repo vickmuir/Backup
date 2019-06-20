@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -24,9 +24,8 @@ o sistema sem a necessidade de um sistema operacional inicializável. Isso é ú
 
 ## Iniciando o sistema kernel de resgate de BMR
 
-É possível acessar o sistema kernel de resgate de BMR por meio do {{site.data.keyword.slportal}}.
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+É possível acessar o sistema BMR Rescue Kernel por meio do console do {{site.data.keyword.cloud_notm}}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Armazenamento** > **Backup** para exibir os
 servidores com o serviço de backup.
 3. Clique na **Seta** ao lado da área segura.
@@ -38,7 +37,7 @@ que leva alguns minutos para ser concluída. Em seguida, é possível acessar o 
 
 1. Quando a transação do kernel de resgate de BMR é carregada, é possível optar por
 acessá-la de duas maneiras diferentes.
-  - Um cliente VNC e o endereço IP privado ou público de seu servidor, além da senha listada no {{site.data.keyword.slportal}}
+  - Um cliente VNC e o endereço IP privado ou público do seu servidor e a senha que está listada no console do {{site.data.keyword.cloud_notm}}
   - O console KVM do seu cartão de IPMI.
   Ambas as formas funcionam bem.
 2. Ao efetuar login no kernel de resgate de BMR pela primeira vez, você é recebido com a tela

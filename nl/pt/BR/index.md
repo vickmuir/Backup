@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
@@ -29,7 +29,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
 ## Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 {: #purchasingwithserver}
 
-1. Efetue login no [catálogo do IBM Cloud](https://{DomainName}/catalog){: external} ou no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+1. Efetue login no [catálogo do IBM Cloud](https://{DomainName}/catalog){: external}
 2. Solicite um servidor bare metal mensal. Para obter mais informações sobre a solicitação de servidores bare metal, consulte [Construindo servidores bare metal customizados](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Selecione a opção Quantidade, Faturamento. Insira os nomes do host e de domínio. É possível escolher qualquer nome de host e domínio que desejar.
 
@@ -46,11 +46,10 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
    Também é possível salvar esse pedido sem comprar clicando em **Salvar como cotação**.
    {:tip}
 
-Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível registrar-se diretamente no {{site.data.keyword.slportal}}.
+Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível efetuar login diretamente no console do {{site.data.keyword.cloud_notm}}.
 
 ### Confirmando a compra do {{site.data.keyword.backup_notm}}
-1. No [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. </br>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. No [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Clique em **Dispositivo** > **Lista de dispositivos**.
 2. Localize o novo servidor que você solicitou.
   - Se você vir um ícone de relógio ao lado da URL, será necessário aguardar para continuar com a confirmação de compra do {{site.data.keyword.backup_notm}}. É possível atualizar a página para ver um status atualizado em seu novo servidor. Quando o ícone de relógio não estiver mais presente, será possível continuar com as próximas etapas para confirmar a compra do serviço do {{site.data.keyword.backup_notm}}
@@ -63,8 +62,7 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
 
 ### Selecione um servidor no qual instalar o {{site.data.keyword.backup_notm}}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. </br>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal. Localize o dispositivo no qual você deseja incluir o serviço de backup.
 3. Clique em Nome do dispositivo para acessar a página **Detalhes do dispositivo**.
 

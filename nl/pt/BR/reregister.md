@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
   - Endereço da área segura
   - Conta
 
-    "Conta" é o equivalente a "Nome da conta" no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Normalmente, é semelhante a "SLE[ID da conta]"
+    "Conta" é o equivalente ao "Nome da conta" no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}. Normalmente, é semelhante a "SLE[ID da conta]"
     {:tip}
   - Nome do Usuário
   - Senha

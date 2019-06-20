@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -29,8 +29,7 @@ Para obter mais informações sobre os backups para servidores Windows 2016, con
 ## Efetuando login no servidor de dispositivo de destino
 {: #logintargetWin}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**. <br/>
-   Como alternativa, é possível efetuar login no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de servidores disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote
 seu endereço IP público.
@@ -53,7 +52,7 @@ seu endereço IP público.
 
 1. Insira o endereço de rede: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

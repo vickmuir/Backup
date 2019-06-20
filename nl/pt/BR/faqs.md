@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -117,7 +117,7 @@ Para obter mais informações, consulte [Armazenamento de backup](https://www.ib
 backups?
 {: faq}
 
-É possível aumentar ou diminuir o tamanho da área segura por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
+É possível aumentar ou diminuir o tamanho da sua área segura por meio do [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. A modificação da capacidade não afeta a integridade dos dados que estão armazenados na área segura. Para obter mais
 informações, consulte [Expandindo a capacidade](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
