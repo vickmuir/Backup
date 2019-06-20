@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
@@ -29,7 +29,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
 ## Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 {: #purchasingwithserver}
 
-1. Connectez-vous au [catalogue IBM Cloud](https://{DomainName}/catalog){: external} ou au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+1. Connectez-vous au [catalogue IBM Cloud ](https://{DomainName}/catalog){: external}.
 2. Commandez un serveur "bare metal" facturé au mois. Pour plus d'informations sur la commande de serveurs bare metal, voir [Construction de serveurs Bare Metal personnalisés](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Sélectionnez l'option de facturation par quantité. Entrez les noms d'hôte et de domaine. Vous pouvez choisir n'importe quel nom d'hôte et de domaine.
 
@@ -46,11 +46,10 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
    Vous pouvez également sauvegarder la commande sans effectuer d'achat en cliquant sur **Enregistrer sous devis**.
    {:tip}
 
-Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique de mise à disposition de votre commande inclut un lien vers votre page *Détails de l'unité* une fois que vous vous connectez à {{site.data.keyword.cloud_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
+Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique de mise à disposition de votre commande inclut un lien vers votre page *Détails de l'unité* une fois que vous vous connectez à {{site.data.keyword.cloud_notm}}. Vous pouvez également vous connecter directement à la console {{site.data.keyword.cloud_notm}}.
 
 ### Confirmation de l'acquisition d'{{site.data.keyword.backup_notm}}
-1. Sur la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, cliquez sur l'icône de **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Sur la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, cliquez sur l'icône de **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Unité** > **Liste des unités**.
 2. Localisez le nouveau serveur vous avez commandé.
   - Si une icône en forme d'horloge est affichée en regard de l'URL, vous devez patienter avant de confirmer votre acquisition d'{{site.data.keyword.backup_notm}}. Vous pouvez actualiser la page pour voir un statut mis à jour sur votre nouveau serveur. Lorsque l'icône en forme d'horloge disparaît, vous pouvez passer aux étapes suivantes pour confirmer votre acquisition du service {{site.data.keyword.backup_notm}}.
@@ -63,8 +62,7 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 
 ### Sélection d'un serveur sur lequel installer {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal. Recherchez le périphérique pour lequel vous voulez ajouter le service de sauvegarde.
 3. Cliquez sur le nom de l'unité pour accéder à la page **Détails de l'unité**.
 

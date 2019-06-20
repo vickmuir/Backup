@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ Ces étapes sont le plus souvent utilisées après le rechargement du système d
   - Adresse du coffre
   - Compte
 
-    "Compte" est équivalent au "Nom du compte" sur le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. Généralement, il est similaire à "SLE [ID compte]"
+    "Compte" est équivalent au "Nom du compte" sur la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}. Généralement, il est similaire à "SLE [ID compte]"
     {:tip}
   - Nom de l'utilisateur
   - Mot de passe

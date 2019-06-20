@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ Si vous avez besoin de restaurer une sauvegarde d'image bare metal depuis {{site
 
 ## Initialisation du système BMR Rescue Kernel
 
-Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.keyword.slportal}}.
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+Vous pouvez accéder au système BMR Rescue Kernel via la console {{site.data.keyword.cloud_notm}}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Cliquez sur la **flèche** en regard du coffre.
 4. Cliquez sur **Lancer Bare Metal Restore**. Cette action déclenche une transaction dont l'exécution prend quelques minutes. Vous pouvez ensuite accéder au serveur en suivant la procédure décrite ici. Un message électronique vous est envoyé à l'issue du processus d'amorçage du système.
@@ -34,7 +33,7 @@ Vous pouvez accéder au système BMR Rescue Kernel via le portail {{site.data.ke
 ## Restauration depuis le noyau BMR Rescue Kernel
 
 1. Une fois la transaction BMR Rescue Kernel chargée, vous pouvez y accéder de deux manières différentes.
-  - Via un client VNC et l'adresse IP privée ou publique de votre serveur et le mot de passe répertorié dans le portail {{site.data.keyword.slportal}}
+  - Via un client VNC et l'adresse IP privée ou publique de votre serveur et le mot de passe répertorié dans la console {{site.data.keyword.cloud_notm}}.
   - Via la console KVM de votre carte IPMI.
   Les deux méthodes fonctionnent bien.
 2. Lorsque vous vous connectez pour la première fois à BMR Rescue Kernel, vous êtes accueilli par un écran de sélection de langue. Sélectionnez celle de votre choix, puis cliquez sur **Suivant**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ Cette tâche est réalisée par le biais d'une série d'interactions alors que v
 5. Sélectionnez **Enregistrer en tant que nouvel ordinateur** et cliquez sur **Suivant**.
 6. Entrez le nom du coffre dans la zone Nom de profil.
 
-   Le nom du coffre peut être obtenu à partir du portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   Le nom du coffre peut être obtenu à partir de la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}.
    {:tip}
 6. Entrez l'adresse réseau (adresse IP du coffre affecté) et cliquez sur **Ajouter**. Cliquez ensuite sur **Suivant**.
 7. Entrez les nouvelles valeurs de port et cliquez sur **Ajouter**, puis sur **Suivant**.

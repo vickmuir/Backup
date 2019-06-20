@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installation du plug-in Exchange
+# En savoir plus sur le plug-in Exchange
 {: #Exchangeplugin}
 
 Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du portail {{site.data.keyword.backup_notm}}, vous pouvez configurer des travaux, sauvegarder des bases de données Exchange dans un coffre distant sécurisé et restaurer des bases de données Exchange. Le plug-in s'intègre dans l'architecture existante.
@@ -24,19 +24,6 @@ Le plug-in Exchange est installé avec l'agent Windows sur l'hôte. A l'aide du 
 **Fonctions fournies**
 
 - Possibilité de sauvegarde et de restauration de bases de données Microsoft Exchange.
-
-## Commande du plug-in
-{: #orderingExchangePlugin}
-
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez votre compte, puis cliquez sur **Commander plug-ins**.
-4. Sélectionnez **Plug-in {{site.data.keyword.backup_notm}} - Exchange**, puis cliquez sur **Continuer**.
-5. Entrez votre code promotionnel si vous en avez un et cliquez sur **Recalculer**.
-6. Les frais mis à jour sont affichés. Passez en revue votre commande.
-7. Cochez la case indiquant que vous avez lu et accepté les contrats de service tiers.
-8. Cliquez sur **Valider la commande**.
 
 ## Installation du plug-in
 {: #installExchangePlugin}

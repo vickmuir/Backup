@@ -70,8 +70,7 @@ Le portail {{site.data.keyword.backup_notm}} est utilisé pour interagir avec un
 
    Le portail {{site.data.keyword.backup_notm}} n'est pas accessible via le réseau public. Une connexion VPN doit d'abord être établie.
    {:important}
-2. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
 3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
@@ -101,7 +100,8 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_notm}} et que 
       Pour plus d'informations sur les schémas de conservation, voir la [Foire aux questions](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
 
-      L'archivage n'est pas pris en charge. Quand vous créez un schéma de conservation ou que vous modifiez un schéma existant, assurez-vous que l'option d'archivage n'est **pas** cochée. {:important}
+      L'archivage n'est pas pris en charge. Quand vous créez un schéma de conservation ou que vous modifiez un schéma existant, assurez-vous que l'option d'archivage n'est **pas** cochée.
+      {:important}
 
 ## Exécution de votre premier travail de sauvegarde
 {: #runfirstbackup}
@@ -119,15 +119,14 @@ Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau 
 ## Accès et examen des détails du stockage du service de stockage {{site.data.keyword.backup_notm}} dans la console
 {: #viewingdetailsinconsole}
 
-Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external} et le portail {{site.data.keyword.slportal}}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
+Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la [console {{site.data.keyword.cloud_notm}} ](https://{DomainName}/classic/storage/backup){: external}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.</br>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Stockage** et sélectionnez **Sauvegarde** dans la liste.
 2. Cliquez n'importe où sur la ligne du coffre dont vous souhaitez examiner les informations de stockage. Dans cette vue, le mot de passe n'est pas visible.
 3. Cochez la case **Afficher** en regard de la zone **Mot de passe** pour examiner le mot de passe du service {{site.data.keyword.backup_notm}} sélectionné.
 
-Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans le portail {{site.data.keyword.slportal}} sont appliquées au service proprement dit. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification du mot de passe d'un service de sauvegarde](/docs/infrastructure/Backup?topic=Backup-changePassword).
+Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} dans la console {{site.data.keyword.cloud_notm}} sont appliquées au service proprement dit. Pour réinitialiser votre mot de passe, suivez la procédure décrite dans [Modification du mot de passe d'un service de sauvegarde](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Obtention d'aide supplémentaire en ligne

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, cancel, cancellation, EVault, Carbonite, backup
 
@@ -21,8 +21,7 @@ subcollection: Backup
 
 Vous pouvez annuler votre service {{site.data.keyword.backup_full}} à tout moment. L'annulation supprime votre coffre avec les données sauvegardées et vous ne pouvez plus vous connecter au portail {{site.data.keyword.backup_notm}} avec les données d'identification annulées.
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.<br/>
-   Sinon, vous pouvez vous connecter au portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
 3. Sélectionnez **Actions** > **Annuler {{site.data.keyword.backup_notm}}**.
 4. Choisissez d'annuler **Immédiatement** où à la **Date anniversaire**.
