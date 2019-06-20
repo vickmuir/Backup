@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ subcollection: Backup
 
 ## BMR Rescue Kernel 시스템 시작
 
-{{site.data.keyword.slportal}}을 통해 BMR Rescue Kernel 시스템에 액세스할 수 있습니다.
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
+{{site.data.keyword.cloud_notm}} 콘솔을 통해 BMR Rescue Kernel 시스템에 액세스할 수 있습니다.
+1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.
 2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
 3. 저장소 옆의 **화살표**를 클릭하십시오.
 4. **Bare Metal Restore 시작**을 클릭하십시오. 이 조치는 완료하는 데 수 분이 걸리는 트랜잭션을 시작합니다. 이후에 여기서 자세히 설명한 단계에 따라 서버에 액세스할 수 있습니다. 시스템이 부트 프로세스를 완료하면 사용자에게 이메일이 발송됩니다.
@@ -34,7 +33,7 @@ subcollection: Backup
 ## BMR Rescue Kernel에서 복원
 
 1. BMR Rescue Kernel 트랜잭션 로드 시에 두 가지 상이한 방법으로 이에 액세스하도록 선택할 수 있습니다.
-  - {{site.data.keyword.slportal}}에 나열된 비밀번호 및 서버의 사설 또는 공인 IP 주소 및 VNC 클라이언트
+  - VNC 클라이언트와 사용자 서버의 사설 또는 공인 IP 주소 및 {{site.data.keyword.cloud_notm}} 콘솔에 나열된 비밀번호.
   - IPMI 카드의 KVM 콘솔.
   이러한 방법은 둘 다 잘 작동됩니다.
 2. 처음으로 BMR Rescue Kernel에 로그인하면 언어 선택 화면이 나타납니다. 원하는 언어를 선택하고 **다음**을 클릭하십시오.
@@ -44,7 +43,7 @@ subcollection: Backup
 <br/>![그림 2 - BMR 기본 메뉴](/images/bmr2.png)
 5. 시스템 복원 마법사가 나타납니다. **다음**을 선택하여 계속하십시오.
 <br/>![그림 3 - BMR 마법사](/images/bmr3.png)
-6. 복원되는 백업 유형을 선택하십시오. **EVault 소프트웨어**를 선택한 후에 **다음**을 클릭하여 계속하십시오.
+6. 복원할 백업 유형을 선택하십시오. **EVault 소프트웨어**를 선택한 후에 **다음**을 클릭하여 계속하십시오.
 7. **백업 위치** 화면에서 저장소를 선택하고 저장소 주소, 계정 번호, 사용자 이름과 비밀번호를 입력하십시오. 그리고 **다음**을 클릭하여 계속하십시오.
 <br/>![그림 4 - 백업 위치 선택](/images/bmr4.png)
 8. 다음 화면에서는 목록에 시스템이 표시됩니다. 시스템이 강조표시되어 있는지 확인하고 **다음**을 클릭하십시오.

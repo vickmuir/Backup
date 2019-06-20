@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Exchange 플러그인 설치
+# Exchange 플러그인에 대해 알아보기
 {: #Exchangeplugin}
 
 Exchange 플러그인은 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Exchange 데이터베이스를 백업하며 Exchange 데이터베이스를 복원할 수 있습니다. 플러그인은 기존 아키텍처에 통합됩니다.
@@ -24,19 +24,6 @@ Exchange 플러그인은 호스트에서 Windows 에이전트로 설치됩니다
 **제공되는 기능**
 
 - Microsoft Exchange 데이터베이스를 백업하고 복원하는 기능.
-
-## 플러그인 주문
-{: #orderingExchangePlugin}
-
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
-3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
-4. **{{site.data.keyword.backup_notm}} 플러그인 - Exchange**를 선택하고 **계속**을 클릭하십시오.
-5. 프로모션 코드가 있으면 이를 입력하고 **재계산**을 클릭하십시오.
-6. 업데이트된 비용이 표시됩니다. 주문을 검토하십시오.
-7. 서드파티 서비스 계약을 읽고 동의한다고 표시하려면 상자를 선택하십시오.
-8. **주문하기**를 클릭하십시오.
 
 ## 플러그인 설치
 {: #installExchangePlugin}

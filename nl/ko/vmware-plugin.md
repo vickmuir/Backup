@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -16,18 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# vSphere 복구 에이전트 설치
+# vSphere Recovery Agent에 대해 알아보기
 {: #VRA}
 
 VRA(vSphere Recovery Agent)는 Windows 애플리케이션이며 10TB까지 VMDK를 백업하고 복원할 수 있습니다. 보호할 vCenter에 대한 로컬 네트워크 액세스가 있는 실제 또는 가상 머신에 vSphere Recovery Agent를 설치할 수 있습니다. 최고의 성능을 위해 vCenter와 동일한 서브넷에 있는 머신에 VRA를 설치하십시오. 워크로드를 분배하기 위해 최대 다섯 개의 VRA가 단일 vCenter에 연결된 VM을 보호할 수 있습니다.
 
 vSAN 확장 클러스터에서 각 VM이 선호하는 사이트가 있습니다. 하나의 로컬 VRA가 해당 사이트의 선호하는 VM을 백업하는 각 사이트에 설치되는 것이 이상적입니다. 유지보수 또는 장애로 인해 VM이 다른 사이트로 이동되는 경우, 백업 성능이 저하될 수 있으나 허용 가능한 정도입니다.
-
-
-## 플러그인 주문
-{: #orderingVRAPlugin}
-
-{{site.data.keyword.cloud_notm}}에서는 무료로 VRA(vSphere Recovery Agent)를 제공합니다. 현재 {{site.data.keyword.backup_notm}} 구독이 있으면 {{site.data.keyword.backup_notm}} 포털에서 플러그인을 다운로드할 수 있습니다.
 
 ## 플러그인 설치
 {: #installVRAPlugin}
@@ -94,10 +88,16 @@ VRA가 설치된 후에 {{site.data.keyword.backup_notm}} 포털에서 이를 �
 4. **vCenter 연결 테스트**를 클릭하십시오. 새 창에 결과가 표시됩니다. 제공된 로그인 정보가 올바르면 “The vCenter credentials have been validated successfully” 메시지가 표시됩니다.
 5. **저장**을 클릭하여 설정을 저장하십시오.
 
-## 다음 단계
-{: #VRAnextteps}
-1. [백업 작업 구성, 스케줄 및 실행](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
-2. [vSphere 데이터 복원](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
+## vSphere 백업 작업 구성
+{: #configvmwarebackup}
+
+자세한 정보는 [백업 작업 구성, 스케줄 및 실행](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)을 참조하십시오.
+
+## vSphere 데이터 복원
+{: #restoringvSphereData}
+
+자세한 정보는 [vSphere 데이터 복원](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)을 참조하십시오.
+
 
 [다운로드 가능 {{site.data.keyword.backup_notm}} 문서](http://downloads.service.softlayer.com/evault/Documentation/){: external}에서 사용자 안내서에 액세스하여 다운로드할 수 있도록 {{site.data.keyword.BluVPN}}을 사용하여 {{site.data.keyword.cloud}} 네트워크에 연결하십시오.
 {:tip}

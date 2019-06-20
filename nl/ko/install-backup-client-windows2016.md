@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ subcollection: Backup
 5. **새 컴퓨터로 등록**을 선택하고 **다음**을 클릭하십시오.
 6. 프로파일 이름 필드에 저장소 이름을 입력하십시오.
 
-   저장소 이름은 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에서 얻을 수 있습니다.
+   저장소 이름은 [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/classic/storage/backup){: external}에서 얻을 수 있습니다.
    {:tip}
 6. 네트워크 주소(지정된 저장소의 IP 주소)를 입력하고 **추가**를 클릭하십시오. 그리고 **다음**을 클릭하십시오.
 7. 새 포트 값을 입력하고 **추가**를 클릭한 후에 **다음**을 클릭하십시오.

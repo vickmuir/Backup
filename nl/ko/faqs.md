@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -100,7 +100,7 @@ subcollection: Backup
 ## 백업을 조정하지 않고 {{site.data.keyword.backup_notm}} 용량을 늘리거나 줄일 수 있습니까?
 {: faq}
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)을 참조하십시오.
+[{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}을 통해 저장소의 크기를 늘리거나 줄일 수 있습니다. 용량 수정은 저장소에 저장된 데이터의 무결성에 영향을 주지 않습니다. 자세한 정보는 [용량 확장](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity)을 참조하십시오.
 
 <hr>
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# BMR(Bare Metal Restore) 플러그인 설치
+# BMR(Bare Metal Restore) 플러그인에 대해 알아보기
 {: #BMRplugin}
 
 BMR은 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 하드웨어 장애 등의 재해가 발생한 후에 베어메탈 상태에서 서버를 복원할 수 있습니다. BMR을 사용하면 {{site.data.keyword.cloud}}에서 관리하는 안전한 보안 위치에서 시스템 이미지를 빠르게 복원할 수 있습니다.
@@ -24,25 +24,27 @@ BMR은 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 �
 BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 서버에는 사용할 수 없습니다. Linux용 BMR(Bare Metal Restore) 배포는 지원되지 않습니다. 백업 에이전트 8.30 이하 버전에서만 BMR을 지원합니다. (2018년 6월 30일).
 {:important}
 
-**제공되는 기능**
+## 제공되는 기능
+{: #BMRcapabilities}
 
 - 선택된 특정 시점으로 시스템을 복원합니다.
 - 이미지 또는 파일 기반 백업에서 시스템을 복원합니다.
 - {{site.data.keyword.backup_notm}}에 저장된 백업에서 시스템을 복원합니다.
 - 부트 가능한 시스템이 없는 경우 데이터를 복원하는 데 사용할 수 있는 실행 가능한 복구 트랜잭션.
 
-## 플러그인 주문
-{: #orderingBMR}
+## BMR 플러그인 설치
+{: #installingBMR}
 
-1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오. <br/>
-   또는 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}에 로그인할 수 있습니다.
-2. **스토리지** > **백업**을 클릭하여 백업 서비스의 서버를 표시하십시오.
-3. 계정을 선택하고 **플러그인 주문**을 클릭하십시오.
-4. **{{site.data.keyword.backup_notm}} 플러그인 - BMR(Bare Metal Restore)**을 선택하고 **계속**을 클릭하십시오.
-5. 프로모션 코드가 있으면 이를 입력하고 **재계산**을 클릭하십시오.
-6. 업데이트된 비용이 표시됩니다. 주문을 검토하십시오.
-7. 서드파티 서비스 계약을 읽고 동의한다고 표시하려면 상자를 선택하십시오.
-8. **주문하기**를 클릭하십시오.
+플러그인은 Windows 에이전트 설치 중에 설치됩니다. 플러그인은 에이전트와 동시에 설치되거나, **수정**을 선택하여 설치를 재실행함으로써 나중에 설치될 수 있습니다.
+
+## BMR 백업 작업 구성
+{: #configBMRplugin}
+
+자세한 정보는 [BMR 백업 작업 구성](/docs/infrastructure/Backup?topic=Backup-configureBMR)을 참조하십시오.
+
+## BMR 시스템 볼륨 이미지 복원
+{: #restoringBMimage}
+자세한 정보는 [BMR 시스템 볼륨 이미지 복원](/docs/infrastructure/Backup?topic=Backup-restoreBMR)을 참조하십시오.
 
 ## 사용자 안내서 다운로드
 {: #BMRUserGuide}

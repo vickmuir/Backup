@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ subcollection: Backup
   - 저장소 주소
   - 계정
 
-    "계정"은 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
+    "계정"은 [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}/classic/storage/backup){: external}의 "계정 이름"과 동일합니다. 일반적으로 이는 "SLE[account ID]"와 유사합니다.
     {:tip}
   - 사용자 이름
   - 비밀번호
