@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,8 +41,7 @@ Las copias de seguridad en ubicaciones de centros de datos remotos puede tardar 
 Debe añadir la nueva caja fuerte remota a la cuenta para que la nueva ubicación de copia de seguridad se pueda añadir en el portal de {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** menú de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** menú de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Pulse **Dispositivos**.
 3. Localice y pulse el enlace correspondiente al servidor en cuestión.
 4. En **Detalles del dispositivo**, pulse **Almacenamiento**.
@@ -57,8 +56,7 @@ Cuando finalice el proceso de solicitud, vaya a **Almacenamiento** > **Copia de 
 
 ## Adición de una caja fuerte adicional en el portal de {{site.data.keyword.backup_notm}}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione el servidor que desea que pueda realizar la copia de seguridad en varias cajas fuertes. Pulse la flecha hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el enlace de **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.

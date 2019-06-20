@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -93,14 +93,14 @@ De forma predeterminada, el cliente base dispone de la tecnología más innovado
 ## ¿Dónde puedo encontrar información sobre los precios?
 {: faq}
 
-Para obtener más información, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){: external} y [IBM Cloud Backup: precios](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obtener más información, consulte [Almacenamiento de copia de seguridad](https://www.ibm.com/cloud/backup-and-restore){: external} e [IBM Cloud Backup: precios](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 <hr>
 
 ## ¿Se puede aumentar o reducir la capacidad de {{site.data.keyword.backup_notm}} sin poner en riesgo las copias de seguridad?
 {: faq}
 
-Puede aumentar o reducir el tamaño de su caja fuerte a través del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Puede aumentar o reducir el tamaño de su caja fuerte a través de la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. La modificación de la capacidad no afecta a la integridad de los datos que se almacenan en la caja fuerte. Para obtener más información, consulte [Ampliación de la capacidad](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -30,8 +30,7 @@ Debe configurar los Valores de caja fuerte y la información del vCenter para po
 Debe estar conectado a la red privada de {{site.data.keyword.cloud}} para poder iniciar el portal de {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Pulse en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicios de copia de seguridad.
 3. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.

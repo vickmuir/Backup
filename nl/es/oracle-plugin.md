@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -17,18 +17,20 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Instalación del plugin Oracle
+# Información sobre el plugin de Oracle
 {: #Oracleplugin}
 
-El plugin Oracle es un complemento y se instala con el agente Windows o el agente Linux en el host de la base de datos Oracle. Mediante el portal de {{site.data.keyword.backup_notm}}, puede configurar trabajos, hacer copia de seguridad de bases de datos Oracle en una caja fuerte remota segura y restaurar bases de datos Oracle. El plugin Oracle se integra en la arquitectura existente.
+El plugin de Oracle es un complemento y se instala con el agente Windows o el agente Linux en el host de la base de datos Oracle. Mediante el portal de {{site.data.keyword.backup_notm}}, puede configurar trabajos, hacer copia de seguridad de bases de datos Oracle en una caja fuerte remota segura y restaurar bases de datos Oracle. El plugin de Oracle se integra en la arquitectura existente.
 
-**Funciones que se proporcionan**
+## Funciones proporcionadas
+{: #Oraclecapabilities}
 
 - Soporte para copia de seguridad y recuperación de bases de datos Oracle.
-- El plugin Oracle ofrece copias de seguridad no RMAN basadas en ARCHIVELOG de instancias completas de bases de datos en línea. Se hace una copia de seguridad automática de todos los espacios de tablas y archivos de parámetros de instancias que no son temporales. Oracle Corporation recomienda realizar las copias de seguridad en periodos de baja actividad de bases de datos.
+- El plugin de Oracle ofrece copias de seguridad no RMAN basadas en ARCHIVELOG de instancias completas de bases de datos en línea. Se hace una copia de seguridad automática de todos los espacios de tablas y archivos de parámetros de instancias que no son temporales. Oracle Corporation recomienda realizar las copias de seguridad en periodos de baja actividad de bases de datos.
 - Las bases de datos completas y parciales se restauran mediante los mecanismos normales de recuperación de Oracle gestionados por el usuario.
 
-**Limitaciones**
+## Limitaciones
+{: #Oraclelimitations}
 - Solo se hace copia de seguridad de las bases de datos locales, de una sola instancia y basadas en disco.
 - No se hace copia de seguridad de los clústeres de bases de datos.
 - No se hace copia de seguridad de los dispositivos en bruto.
@@ -36,23 +38,10 @@ El plugin Oracle es un complemento y se instala con el agente Windows o el agent
 - La base de datos se debe ejecutar en modalidad ARCHIVELOG y el usuario bajo el que se ha configurado la copia de seguridad debe tener privilegios SYSDBA.
 - Las contraseñas de las bases de datos se cifran para mejorar la seguridad sobre los métodos basados en script.
 
-## Solicitud del plugin
-{: #orderingOraclePlugin}
-
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-3. Seleccione la cuenta y pulse **Solicitar plugins**.
-4. Seleccione **Plugin de {{site.data.keyword.backup_notm}} - Oracle** y pulse **Continuar**.
-5. Escriba su código de promoción, si lo tiene, y pulse **Recalcular**.
-6. Se muestran los cargos actualizados. Revise el pedido.
-7. Marque el recuadro para indicar que ha leído y que acepta los acuerdos de servicio de terceros.
-8. Pulse **Realizar pedido**.
-
 ## Instalación del plugin para Windows
 {: #installOracleWin}
 
-El plugin Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
+El plugin de Oracle para Windows se instala con el agente Windows de 32 o de 64 bits. Para instalar el plugin, ejecute el kit de instalación del agente. El plugin aparece como una opción en la página **Configuración personalizada**. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows).
 
 Antes de instalar el plugin, detenga los dos servicios en {{site.data.keyword.backup_notm}} `services.msc`.
 {:tip}
@@ -71,9 +60,9 @@ Antes de instalar el plugin, detenga los dos servicios en {{site.data.keyword.ba
 ## Instalación del plugin para Linux
 {: #installOracleLin}
 
-El plugin Oracle es un complemento del agente Linux y se instala con el agente en el host de la base de datos. La aplicación de agente Linux debe estar instalada para poder instalar el plugin. El agente está disponible como una aplicación de 32 bits y de 64 bits. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
+El plugin de Oracle es un complemento del agente Linux y se instala con el agente en el host de la base de datos. La aplicación de agente Linux debe estar instalada para poder instalar el plugin. El agente está disponible como una aplicación de 32 bits y de 64 bits. Para obtener más información, consulte [Instalación del cliente de copia de seguridad de {{site.data.keyword.backup_notm}} en Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux).
 
-El kit de instalación del plugin Oracle está disponible en un archivo tar.gz.
+El kit de instalación del plugin de Oracle está disponible en un archivo tar.gz.
 
 1. En el host, descargue el paquete de instalación.
    ```

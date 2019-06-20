@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -23,9 +23,8 @@ Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.d
 
 ## Inicio del sistema BMR Rescue Kernel
 
-Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slportal}}.
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+Puede acceder al sistema BMR Rescue Kernel a través de la consola de {{site.data.keyword.cloud_notm}}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse la **Flecha** que hay junto a la caja fuerte.
 4. Pulse **Iniciar restauración desde cero**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.
@@ -34,7 +33,7 @@ Puede acceder al sistema BMR Rescue Kernel a través del {{site.data.keyword.slp
 ## Restauración desde BMR Rescue Kernel
 
 1. Cuando se cargue la transacción de BMR Rescue Kernel, podrá acceder de dos formas diferentes.
-  - Un cliente VNC y la dirección IP privada o pública del servidor y la contraseña que aparece en el {{site.data.keyword.slportal}}
+  - Un cliente VNC y la dirección IP privada o pública del servidor y la contraseña que aparece en la consola de {{site.data.keyword.cloud_notm}}
   - La consola KVM de su tarjeta IPMI.
   Ambos métodos funcionan bien.
 2. Después de iniciar una sesión en BMR Rescue Kernel por primera vez, verá la pantalla de selección de idioma. Seleccione el idioma que desee y pulse **Siguiente**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -28,8 +28,7 @@ Para obtener más información sobre las copias de seguridad para servidores Win
 ## Inicie una sesión en el servidor del dispositivo de destino
 {: #logintargetWin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal para ver la lista de servidores disponibles.
 3. Busque el dispositivo para el que ha adquirido el servicio de {{site.data.keyword.backup_notm}} y anote su dirección IP pública.
 4. Pulse la flecha que apunta a la derecha para ampliar y ver más información sobre el dispositivo, incluido el nombre de usuario y la contraseña. Si no se muestra la contraseña, pulse **Mostrar contraseña** para verla.
@@ -51,7 +50,7 @@ Para obtener más información sobre las copias de seguridad para servidores Win
 
 1. Escriba la dirección de red: <br />
   ```
-  ev-webcc01.service.softlayer.com
+  https://ev-webcc01.service.softlayer.com
   ```
   {: pre}
 

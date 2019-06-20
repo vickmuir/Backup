@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
@@ -24,12 +24,12 @@ Puede adquirir el servicio {{site.data.keyword.backup_notm}} de dos maneras.
 - [Adquisición de copias de seguridad cuando se solicita un servidor](#purchasingwithserver).
 - [Adquisición de copias de seguridad como actualización](#purchasingasupgrade).
 
-Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}} ](https://www.ibm.com/cloud/backup-and-restore){: external} y [{{site.data.keyword.backup_notm}} en IBM Cloud ](https://www.ibm.com/cloud/backup/pricing){: external}.
+Para obtener más información sobre los precios, consulte [Almacenamiento de {{site.data.keyword.backup_notm}}](https://www.ibm.com/cloud/backup-and-restore){: external} y [{{site.data.keyword.backup_notm}} en IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
 
 ## Adquisición de {{site.data.keyword.backup_notm}} cuando se solicita un servidor
 {: #purchasingwithserver}
 
-1. Inicie la sesión en el [catálogo de IBM Cloud](https://{DomainName}/catalog){: external} o el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en el [catálogo de IBM Cloud](https://{DomainName}/catalog){: external}.
 2. Solicite un servidor nativo mensual. Para obtener más información sobre el pedido de servidores nativos, consulte [Creación de un servidor nativo personalizado](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Seleccione la cantidad y la opción de facturación. Especifique los nombres de host y de dominio. Puede elegir el nombre de host y de dominio que desee.
 
@@ -46,11 +46,10 @@ Para obtener más información sobre los precios, consulte [Almacenamiento de {{
    También puede guardar este pedido sin adquirirlo pulsando **Guardar como presupuesto**.
    {:tip}
 
-Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
+Se enviarán una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluye un enlace a la página *Detalles del dispositivo*, a la que puede acceder después de iniciar una sesión en {{site.data.keyword.cloud_notm}}. También puede iniciar la sesión directamente en la consola de {{site.data.keyword.cloud_notm}}.
 
 ### Confirmación de la compra de {{site.data.keyword.backup_notm}}
-1. En la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. </br>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. En la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Pulse **Dispositivo** > **Lista de dispositivos**.
 2. Localice el nuevo servidor que ha solicitado.
   - Si ve un icono de reloj junto al url, tiene que esperar para continuar con la confirmación de compra de {{site.data.keyword.backup_notm}}. Puede renovar la página para ver el estado actualizado en el nuevo servidor. Cuando deje de aparecer el icono del reloj, puede continuar con los pasos siguientes para confirmar la compra del servicio de {{site.data.keyword.backup_notm}}.
@@ -63,8 +62,7 @@ Se enviarán una serie de correos electrónicos al administrador: acuse de recib
 
 ### Seleccione el servidor en el que desea instalar {{site.data.keyword.backup_notm}}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. </br>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal. Busque el dispositivo al que desea añadir el servicio de copia de seguridad.
 3. Pulse el nombre del dispositivo para ir a la página **Detalles del dispositivo**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -29,16 +29,15 @@ La instalación del cliente de {{site.data.keyword.backup_full}} en un sistema o
 
 Después de completar el procedimiento, el proceso automatizado registra el servicio del agente con el portal de {{site.data.keyword.backup_notm}} y luego descarga e instala los archivos necesarios para ejecutar el servicio.
 
-Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} o el {{site.data.keyword.slportal}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
+Si ha adquirido {{site.data.keyword.backup_notm}} cuando ha solicitado un servidor a través del [catálogo de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} o la consola de {{site.data.keyword.cloud_notm}}, el software se instala automáticamente. No es necesario que siga los procedimientos que se describen en este documento.
 {:tip}
 
-Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en el {{site.data.keyword.slportal}}, siga estos pasos para instalar el software.
+Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en la consola de {{site.data.keyword.cloud_notm}}, siga estos pasos para instalar el software.
 
 ## Inicie una sesión en el servidor del dispositivo de destino
 {: #logintargetLin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal para ver la lista de dispositivos de servidor disponibles.
 3. Busque el dispositivo para el que ha adquirido el servicio de {{site.data.keyword.backup_notm}} y anote su dirección IP pública.
   - Esta dirección IP se utilizará en los siguientes pasos cuando se inicie una sesión en el dispositivo desde una línea de mandatos de UNIX o Linux. Sustituya <direcciónIPPública> por la dirección IP pública real en el mandato del Paso 5.

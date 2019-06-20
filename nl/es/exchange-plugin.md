@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, Exchange, plug-in, plugin, EVault, Carbonite
 
@@ -16,32 +16,19 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Instalación del plugin Exchange
+# Información sobre el plugin de Exchange
 {: #Exchangeplugin}
 
-El plugin Exchange se instala con el agente Windows en el host. Mediante el portal de {{site.data.keyword.backup_notm}} puede configurar trabajos, hacer copia de seguridad de bases de datos Exchange en una caja fuerte remota segura y restaurar bases de datos Exchange. El plugin se integra en la arquitectura existente.
+El plugin de Exchange se instala con el agente Windows en el host. Mediante el portal de {{site.data.keyword.backup_notm}} puede configurar trabajos, hacer copia de seguridad de bases de datos Exchange en una caja fuerte remota segura y restaurar bases de datos Exchange. El plugin se integra en la arquitectura existente.
 
-**Funciones que se proporcionan**
+**Funciones proporcionadas**
 
 - Capacidad de hacer copia de seguridad y de restaurar bases de datos de Microsoft Exchange.
-
-## Solicitud del plugin
-{: #orderingExchangePlugin}
-
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**. <br/>
-   También puede iniciar la sesión en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
-3. Seleccione la cuenta y pulse **Solicitar plugins**.
-4. Seleccione **{{site.data.keyword.backup_notm}} Plugin - Exchange** y pulse **Continuar**.
-5. Escriba su código de promoción, si lo tiene, y pulse **Recalcular**.
-6. Se muestran los cargos actualizados. Revise el pedido.
-7. Marque el recuadro para indicar que ha leído y que acepta los acuerdos de servicio de terceros.
-8. Pulse **Realizar pedido**.
 
 ## Instalación del plugin
 {: #installExchangePlugin}
 
-El plugin Exchange se instala durante la instalación del agente Windows de 64 bits. El plugin se puede instalar al mismo tiempo que el agente o bien se puede instalar más adelante, volviendo a ejecutar la instalación con la selección **Modificar**.
+El plugin de Exchange se instala durante la instalación del agente Windows de 64 bits. El plugin se puede instalar al mismo tiempo que el agente o bien se puede instalar más adelante, volviendo a ejecutar la instalación con la selección **Modificar**.
 
 Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos servicios de {{site.data.keyword.backup_notm}} en `services.msc`.
 {:tip}
@@ -61,4 +48,4 @@ Antes de instalar el plugin para el servidor Microsoft Windows, detenga ambos se
 ## Descarga de la guía del usuario
 {: #ExchangeUserGuide}
 
-Conéctese a la red de {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}. En la guía se describe cómo hacer copia de seguridad y restaurar bases de datos de Microsoft Exchange mediante el plugin Exchange. En la guía también se describe cómo compartir un conjunto seguro de copia de seguridad de DR. Con un conjunto seguro de copia de seguridad de DR, puede restaurar buzones, mensajes u otros objetos específicos en un archivo .pst utilizando la aplicación Granular Restore para Microsoft Exchange.
+Conéctese a la red de {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} para poder acceder y descargar la guía del usuario desde la [Documentación descargable de {{site.data.keyword.backup_notm}}](http://downloads.service.softlayer.com/evault/Documentation/){: external}. En la guía se describe cómo hacer copia de seguridad y restaurar bases de datos de Microsoft Exchange mediante el plugin de Exchange. En la guía también se describe cómo compartir un conjunto seguro de copia de seguridad de DR. Con un conjunto seguro de copia de seguridad de DR, puede restaurar buzones, mensajes u otros objetos específicos en un archivo .pst utilizando la aplicación Granular Restore para Microsoft Exchange.

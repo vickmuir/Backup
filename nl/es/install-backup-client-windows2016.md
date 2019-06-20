@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -62,7 +62,7 @@ Esta tarea se lleva a cabo mediante una serie de interacciones con un usuario co
 5. Seleccione **Registrar como un sistema nuevo** y pulse **Siguiente**.
 6. Especifique el nombre de caja fuerte en el campo Nombre de perfil.
 
-   Puede obtener el nombre de caja fuerte del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+   Puede obtener el nombre de caja fuerte de la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}.
    {:tip}
 6. Escriba la dirección de red (la dirección IP de la caja fuerte asignada) y pulse **Añadir**. A continuación, pulse **Siguiente**.
 7. Escriba los nuevos valores de puerto y pulse **Añadir** y luego **Siguiente**.

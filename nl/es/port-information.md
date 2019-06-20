@@ -19,7 +19,7 @@ subcollection: Backup
 # Configuración de puertos para permitir la comunicación entre el agente de copia de seguridad y el portal de {{site.data.keyword.backup_notm}}
 {: #portinfo}
 
-El agente de {{site.data.keyword.backup_full}} instalado en el servidor debe ser capaz de comunicarse con la caja fuerte que ha adquirido. Encontrará información sobre el host de Director para una cuenta de usuario de {{site.data.keyword.backup_notm}} en el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} y en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+El agente de {{site.data.keyword.backup_full}} instalado en el servidor debe ser capaz de comunicarse con la caja fuerte que ha adquirido. Encontrará información sobre el host de Director para una cuenta de usuario de {{site.data.keyword.backup_notm}} en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}.
 
 Registre siempre los agentes en el portal de {{site.data.keyword.backup_notm}} y en los directores utilizando el nombre de dominio totalmente calificado, ya que las direcciones IP correspondientes a estos servicios pueden cambiar.
 
@@ -40,7 +40,7 @@ Si necesita utilizar reglas de cortafuegos más restrictivas, es posible que pie
 
 *Servidores proxy AMP y de portal de {{site.data.keyword.backup_notm}}*
 
-- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Servidores proxy AMP comerciales*
