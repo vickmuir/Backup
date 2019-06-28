@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-05-14"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -59,7 +59,6 @@ For more information about ordering and pricing, see [Provisioning {{site.data.k
 Follow the instructions appropriate for your OS,
 - [Installing the Backup Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installing the Backup Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Installing the Backup Client in Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accessing {{site.data.keyword.backup_notm}} portal (formerly WebCC)
 {: #accessingWebCC}

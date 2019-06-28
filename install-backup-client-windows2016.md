@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -14,8 +14,12 @@ subcollection: Backup
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:deprecated: .deprecated}
 
-# Configuring {{site.data.keyword.backup_notm}} on Windows 2016
+This article is deprecated because the content applies to our Federal environment only, all commercial customers can follow the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) for initial installation and configuration.
+{:deprecated}
+
+# Configuring {{site.data.keyword.backup_notm}} on Windows 2016 in the Federal Environment
 {: #InstallinWindows2016}
 
 ## Installing the backup agent
