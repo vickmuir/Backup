@@ -59,7 +59,6 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 ご使用の OS に適切な説明に従ってください。
 - [Linux でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Windows でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Windows 2016 でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
 {: #accessingWebCC}

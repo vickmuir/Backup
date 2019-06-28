@@ -59,7 +59,6 @@ IBM Cloud Backup을 사용하려면 유효한 라이센스가 있어야 합니�
 자신의 OS에 해당되는 지시사항을 따르십시오.
 - [Linux에서 백업 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Windows에서 백업 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Windows 2016에서 백업 클라이언트 설치](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## {{site.data.keyword.backup_notm}} 포털(이전에는 WebCC)에 액세스
 {: #accessingWebCC}
@@ -124,7 +123,7 @@ IBM Cloud Backup을 사용하려면 유효한 라이센스가 있어야 합니�
 1. [{{site.data.keyword.cloud_notm}} 콘솔](https://{DomainName}){: external}에 로그인하여 왼쪽 상단의 **메뉴** 아이콘을 클릭하십시오. **클래식 인프라**를 선택하십시오.
 2. **스토리지**를 클릭하고 목록에서 **백업**을 선택하십시오.
 2. 해당 스토리지 세부사항을 보고자 하는 저장소의 행에서 임의의 위치를 클릭하십시오. 이 보기에서는 비밀번호를 볼 수 없습니다.
-3. 선택된 {{site.data.keyword.backup_notm}} 서비스에 대한 비밀번호를 보려면 **비밀번호** 필드 옆의 **표시** 선택란을 클릭하십시오. 
+3. 선택된 {{site.data.keyword.backup_notm}} 서비스에 대한 비밀번호를 보려면 **비밀번호** 필드 옆의 **표시** 선택란을 클릭하십시오.
 
 {{site.data.keyword.cloud_notm}} 콘솔 내에서 {{site.data.keyword.backup_notm}} 비밀번호를 변경하면 서비스 자체에 적용됩니다. 비밀번호를 재설정하려면 [백업 서비스의 비밀번호 변경](/docs/infrastructure/Backup?topic=Backup-changePassword)의 단계를 따르십시오.
 {:important}

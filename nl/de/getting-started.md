@@ -59,7 +59,6 @@ Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssyste
 Führen Sie die entsprechenden Anweisungen für Ihr Betriebssystem aus:
 - [Backup-Client unter Linux installieren](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Backup-Client unter Windows installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Backup-Client unter Windows 2016 installieren](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Auf das {{site.data.keyword.backup_notm}}-Portal (vorher WebCC) zugreifen
 {: #accessingWebCC}

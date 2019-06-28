@@ -59,7 +59,6 @@ El agente de {{site.data.keyword.backup_notm}} está soportado en los sistemas o
 Siga las instrucciones adecuadas para su sistema operativo,
 - [Instalación del cliente de copia de seguridad en Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Instalación del cliente de copia de seguridad en Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Instalación del cliente de copia de seguridad en Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Acceso al portal de {{site.data.keyword.backup_notm}} (anteriormente conocido como WebCC)
 {: #accessingWebCC}

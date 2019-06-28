@@ -59,7 +59,6 @@ subcollection: Backup
 遵循适用于您操作系统的指示信息：
 - [在 Linux 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [在 Windows 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [在 Windows 2016 中安装备份客户机](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 访问 {{site.data.keyword.backup_notm}} 门户网站（以前称为 WebCC）
 {: #accessingWebCC}

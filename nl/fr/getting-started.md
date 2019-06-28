@@ -59,7 +59,6 @@ L'agent {{site.data.keyword.backup_notm}} est pris en charge sur les systèmes d
 Suivez les instructions correspondant à votre système d'exploitation.
 - [Installation du client de sauvegarde sous Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installation du client de sauvegarde sous Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Installation du client de sauvegarde sous Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accès au portail {{site.data.keyword.backup_notm}} (anciennement WebCC)
 {: #accessingWebCC}

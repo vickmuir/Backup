@@ -59,7 +59,6 @@ subcollection: Backup
 請遵循適合您作業系統的指示：
 - [在 Linux 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [在 Windows 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [在 Windows 2016 中安裝備份用戶端](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## 存取 {{site.data.keyword.backup_notm}} 入口網站（先前稱為 WebCC）
 {: #accessingWebCC}

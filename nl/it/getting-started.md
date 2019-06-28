@@ -59,7 +59,6 @@ L'agent {{site.data.keyword.backup_notm}} è supportato sul seguente sistema ope
 Segui le istruzioni appropriate per il tuo sistema operativo,
 - [Installazione del client Backup in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installazione del client Backup in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
-- [Installazione del client Backup in Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016)
 
 ## Accesso al portale {{site.data.keyword.backup_notm}} (in precedenza WebCC)
 {: #accessingWebCC}
