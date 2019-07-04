@@ -16,10 +16,10 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Windows での BMR バックアップ・ジョブの構成
+# BMR バックアップ・ジョブの構成
 {: #configureBMR}
 
-BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。 詳しくは、[ベアメタル・リストア・プラグインのインストール](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を参照してください。
+BMR バックアップを作成するには、BMR プラグインを購入する必要があります。 BMR は Windows ベアメタル・サーバー用のみがあります。 VSI には BMR オプションはありません。 詳しくは、[ベアメタル・リストア・プラグインについて](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)を参照してください。
 {:important}
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始

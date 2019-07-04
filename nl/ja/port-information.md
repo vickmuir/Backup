@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -26,7 +26,7 @@ subcollection: Backup
 {{site.data.keyword.backup_notm}} ポータルが適切に動作するためには、データ・センターの場所に関係なく、サーバーが {{site.data.keyword.backup_notm}} ポータルおよびすべての AMP プロキシー・サーバーと通信する必要があります。
 
 ```
-https://evregister.service.softlayer.com TCP 8086,8087
+evregister.service.softlayer.com TCP 8086,8087
 ```
 
 {{site.data.keyword.backup_notm}} ポータルに登録されているより多くの {{site.data.keyword.backup_notm}} エージェントを処理するために、必要に応じて、AMP プロキシー・サーバーをさらに追加できます。
@@ -41,7 +41,7 @@ TCP Port 8086、8087 から 10.0.0.0/8 にアクセスできる必要があり�
 *{{site.data.keyword.backup_notm}} ポータルおよび AMP プロキシー・サーバー*
 
 - `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
-- `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商用 AMP プロキシー・サーバー*
 
