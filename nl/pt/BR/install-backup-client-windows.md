@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -52,7 +52,7 @@ seu endereço IP público.
 
 1. Insira o endereço de rede: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  Ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
