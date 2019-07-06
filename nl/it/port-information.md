@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -19,14 +19,14 @@ subcollection: Backup
 # Configurazione delle porte per consentire le comunicazioni tra l'agent backup e il portale {{site.data.keyword.backup_notm}}
 {: #portinfo}
 
-L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host Director per un account utente {{site.data.keyword.backup_notm}} possono essere trovare nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} e nella [Console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}.
+L'agent {{site.data.keyword.backup_full}} installato sul tuo server deve essere in grado di comunicare con l'archivio che hai acquistato. Le informazioni sull'host del selettore per un account utente {{site.data.keyword.backup_notm}} sono disponibili nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}.
 
 Registra sempre gli agent sul portale {{site.data.keyword.backup_notm}} e sui director utilizzando il nome di dominio completo (FQDN, Full Qualified Domain Name) perché gli indirizzi IP di questi servizi potrebbero cambiare.
 
 Affinché il portale {{site.data.keyword.backup_notm}} funzioni correttamente, i tuoi server devono comunicare con il portale {{site.data.keyword.backup_notm}} e con tutti i server proxy AMP, indipendentemente dall'ubicazione del data center.
 
 ```
-https://evregister.service.softlayer.com TCP 8086,8087
+evregister.service.softlayer.com TCP 8086,8087
 ```
 
 È possibile aggiungere ulteriori server proxy AMP in base alle esigenze per gestire più agent {{site.data.keyword.backup_notm}} registrati nel portale {{site.data.keyword.backup_notm}}.
@@ -41,7 +41,7 @@ Se hai bisogno di utilizzare regole firewall più restrittive, potresti perdere 
 *Portale {{site.data.keyword.backup_notm}} e server proxy AMP*
 
 - `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
-- `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Server proxy AMP commerciali*
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -24,8 +24,7 @@ Gli utenti {{site.data.keyword.cloud}} correnti sono in grado di espandere la di
 
 ## Ordine di un incremento
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **Menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona l'archivio che vuoi estendere.
 4. Fai clic su **Actions** e seleziona **Modify {{site.data.keyword.backup_notm}}**.

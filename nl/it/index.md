@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
 
@@ -29,7 +29,7 @@ Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} s
 ## Acquisto {{site.data.keyword.backup_notm}} quando ordini un server
 {: #purchasingwithserver}
 
-1. Accedi al [catalogo IBM Cloud](https://{DomainName}/catalog){: external} oppure al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}
+1. Accedi al [catalogo IBM Cloud](https://{DomainName}/catalog){: external}
 2. Ordina un server bare metal mensile. Per ulteriori informazioni sull'ordinazione di server bare metal, vedi [Creazione di un server bare metal personalizzato](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Seleziona la quantità e l'opzione di fatturazione. Immetti i nomi di host e dominio. Puoi scegliere il nome host e dominio che preferisci.
 
@@ -46,11 +46,10 @@ Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}} s
    Puoi anche salvare questo ordine senza acquistare facendo clic su **Salva come preventivo**.
    {:tip}
 
-Al tuo amministratore viene inviata una serie di e-mail relative alla conferma di ricezione dell'ordine di provisioning, all'approvazione ed elaborazione dell'ordine di Provisioning e al completamento del Provisioning. L'e-mail sul completamento del Provisioning include un collegamento alla tua pagina *Device Details* a cui puoi accedere dopo l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
+Al tuo amministratore viene inviata una serie di e-mail relative alla conferma di ricezione dell'ordine di provisioning, all'approvazione ed elaborazione dell'ordine di Provisioning e al completamento del Provisioning. L'e-mail sul completamento del Provisioning include un collegamento alla tua pagina *Device Details* a cui puoi accedere dopo l'accesso a {{site.data.keyword.cloud_notm}}. Puoi anche accedere direttamente alla console {{site.data.keyword.cloud_notm}}.
 
 ### Conferma dell'acquisto di {{site.data.keyword.backup_notm}}
-1. Nella [console di {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, fai clic sull'icona **menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**. </br>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, fai clic sull'icona **menu** nella parte superiore sinistra. Seleziona **Infrastruttura classica**.
 2. Fai clic su **Device** > **Device List**.
 2. Individua il nuovo server che hai ordinato.
   - Se accanto all'URL vedi un'icona di orologio, devi aspettare per continuare con la conferma dell'acquisto di {{site.data.keyword.backup_notm}}. Puoi aggiornare la pagina per vedere uno stato aggiornato sul nuovo server. Quando l'icona di orologio non è più presente, puoi procedere con i passi successivi per confermare l'acquisto del servizio {{site.data.keyword.backup_notm}}.
@@ -63,8 +62,7 @@ Al tuo amministratore viene inviata una serie di e-mail relative alla conferma d
 
 ### Seleziona un server su cui installare {{site.data.keyword.backup_notm}}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. </br>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Seleziona **Devices** > **Device List** dal menu principale. Trova il dispositivo per il quale desideri aggiungere il servizio di backup.
 3. Fai clic sul nome dispositivo per andare alla pagina **Device Details**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-03-26"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -16,7 +16,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installazione del plug-in Bare Metal Restore
+# Informazioni sul plug-in Bare Metal Restore
 {: #BMRplugin}
 
 BMR è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per ripristinare il server da uno stato bare metal quando si verifica un'emergenza, ad esempio quando si verifica un malfunzionamento del sistema operativo o hardware. Con BMR, puoi ripristinare rapidamente l'immagine del sistema da un'ubicazione sicura e protetta gestita da {{site.data.keyword.cloud}}.
@@ -24,27 +24,29 @@ BMR è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per riprist
 BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponibile per i server virtuali. I ripristini bare metal per le distribuzioni Linux non sono supportati. BMR è supportato solo da agent Backup 8.30 o versioni precedenti. (30 giungo 2018).
 {:important}
 
-**Capacità fornite**
+## Capacità fornite
+{: #BMRcapabilities}
 
 - Ripristina il tuo sistema in un momento specifico.
 - Ripristina il tuo sistema da backup di immagini o file.
 - Ripristina il tuo sistema dai backup che sono memorizzati su {{site.data.keyword.backup_notm}}.
 - Una transazione di ripristino avviabile che puoi utilizzare per ripristinare i tuoi dati senza un sistema di avvio.
 
-## Ordinazione del plug-in
-{: #orderingBMR}
+## Installazione del plug-in BMR
+{: #installingBMR}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-3. Seleziona il tuo account e fai clic su **Order plug-ins**.
-4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - BMR (Bare Metal Restore)** e fai clic su **Continue**.
-5. Se ne hai uno, immetti il tuo codice promozionale e fai clic su **Recalculate**.
-6. Vengono visualizzati i costi aggiornati. Riesamina l'ordine.
-7. Seleziona la casella per indicare che hai letto e accettato gli accordi di servizio di terze parti.
-8. Fai clic su **Place Order**.
+Il plug-in viene installato durante l'installazione dell'agent Windows. Il plug-in può essere installato contemporaneamente all'agent oppure può essere installato successivamente, rieseguendo l'installazione con la selezione **Modify** .
+
+## Configurazione del lavoro di backup BMR
+{: #configBMRplugin}
+
+Per ulteriori informazioni, vedi [Configurazione dei lavori di backup BMR](/docs/infrastructure/Backup?topic=Backup-configureBMR).
+
+## Ripristino di un'immagine del volume di sistema BMR
+{: #restoringBMimage}
+Per ulteriori informazioni, vedi [Ripristino di un'immagine del volume di sistema BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR).
 
 ## Download della guida utente
 {: #BMRUserGuide}
 
-Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external} 
+Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -16,18 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installazione di vSphere Recovery Agent
+# Informazioni su vSphere Recovery Agent
 {: #VRA}
 
 vSphere Recovery Agent (VRA) è un'applicazione Windows che può eseguire il backup e il ripristino di VMDK fino a 10 TB. Puoi installare vSphere Recovery Agent su una macchina fisica o virtuale che dispone dell'accesso tramite rete locale al vCenter che vuoi proteggere. Per prestazioni ottimali, installa VRA su una macchina che si trova nella stessa sottorete di vCenter. Per distribuire il carico di lavoro, fino a cinque VRA possono proteggere le VM collegate a un singolo vCenter.
 
 In un cluster esteso vSAN, ogni VM ha un sito preferito. Idealmente, un VRA locale viene installato in ogni sito che esegue il backup delle VM preferite di quel sito. Se una VM viene spostata su un sito diverso (a causa di manutenzione o guasti), le prestazioni di backup possono risultare ridotte ma rimangono accettabili.
-
-
-## Ordinazione del plug-in
-{: #orderingVRAPlugin}
-
-{{site.data.keyword.cloud_notm}} fornisce gratuitamente VRA (vSphere Recovery Agent). Se disponi di una sottoscrizione corrente di {{site.data.keyword.backup_notm}}, puoi scaricare il plug-in dal portale {{site.data.keyword.backup_notm}}.
 
 ## Installazione del plug-in
 {: #installVRAPlugin}
@@ -95,10 +89,16 @@ Una volta registrato correttamente l'archivio, è necessario configurare le impo
 4. Fai clic su **Test vCenter Connection**. Una nuova finestra visualizza i risultati. Se le informazioni di accesso fornite sono corrette, viene visualizzato il messaggio “The vCenter credentials have been validated successfully”.
 5. Fai clic su **Save** per salvare le impostazioni.
 
-## Passi successivi
-{: #VRAnextteps}
-1. [Configura, pianifica ed esegui un lavoro di backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA)
-2. [Ripristina i dati vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore)
+## Configurazione di un lavoro di backup vSphere
+{: #configvmwarebackup}
+
+Per ulteriori informazioni, vedi [Configura, pianifica ed esegui un lavoro di backup](/docs/infrastructure/Backup?topic=Backup-ConfigureVRA#VConfigureVRA).
+
+## Ripristino dei dati vSphere
+{: #restoringvSphereData}
+
+Per ulteriori informazioni, vedi [Ripristina i dati vSphere](/docs/infrastructure/Backup?topic=Backup-VRARestore#VRARestore).
+
 
 Connettiti alla rete {{site.data.keyword.cloud}} con {{site.data.keyword.BluVPN}} in modo da poter accedere alla guida utente e scaricarla da [Downloadable {{site.data.keyword.backup_notm}} Documentation](http://downloads.service.softlayer.com/evault/Documentation/){: external}.
 {:tip}

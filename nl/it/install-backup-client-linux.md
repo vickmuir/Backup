@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -29,16 +29,15 @@ L'installazione del client {{site.data.keyword.backup_full}} su un sistema opera
 
 Dopo aver completato la procedura, il processo automatizzato registra il servizio Agent con il portale {{site.data.keyword.backup_notm}}, quindi scarica e installa i file necessari per eseguire il servizio.
 
-Se hai acquistato {{site.data.keyword.backup_notm}} quando hai ordinato un server tramite il [catalogo {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} o il {{site.data.keyword.slportal}}, il software viene installato automaticamente per tuo conto. Non hai bisogno di utilizzare le procedure descritte in questo documento.
+Se hai acquistato {{site.data.keyword.backup_notm}} quando hai ordinato un server tramite il [catalogo {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} o la console {{site.data.keyword.cloud_notm}}, il software viene installato automaticamente per tuo conto. Non hai bisogno di utilizzare le procedure descritte in questo documento.
 {:tip}
 
-Se hai acquistato {{site.data.keyword.backup_notm}} come un upgrade nel {{site.data.keyword.slportal}}, attieniti alla seguente procedura per installare il software.
+Se hai acquistato {{site.data.keyword.backup_notm}} come un upgrade nella console {{site.data.keyword.cloud_notm}}, attieniti alla seguente procedura per installare il software.
 
 ## Accesso al server del dispositivo di destinazione
 {: #logintargetLin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Seleziona **Devices** > **Device List** dal menu principale per visualizzare l'elenco di dispositivi server disponibili.
 3. Trova il dispositivo per il quale hai acquistato il servizio {{site.data.keyword.backup_notm}} e prendi nota del suo indirizzo IP pubblico.
   - Questo indirizzo IP deve essere utilizzato nei seguenti passi quando si accede al dispositivo da una riga di comando UNIX o Linux. Sostituisci <publicIpAddress> con l'indirizzo IP pubblico reale nel comando illustrato nel passo 5.

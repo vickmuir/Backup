@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-13"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -17,37 +17,26 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Installazione del plug-in Oracle
+# Informazioni sul plug-in Oracle
 {: #Oracleplugin}
 
 Il plug-in Oracle è un componente aggiuntivo e viene installato con l'agent Windows o l'agent Linux sull'host del database Oracle. Tramite il portale {{site.data.keyword.backup_notm}}, puoi configurare i lavori, eseguire il backup dei database Oracle in un archivio remoto protetto e ripristinare i database Oracle. Il plug-in Oracle si integra nell'architettura esistente.
 
-**Capacità fornite**
+## Capacità fornite
+{: #Oraclecapabilities}
 
 - Supporto per il backup e il ripristino del database Oracle.
 - Il plug-in Oracle fornisce backup basati su ARCHIVELOG e non RMAN di tutte le istanze di database online. Tutti i file dei parametri di istanza e spazi tabella non temporanei vengono automaticamente sottoposti a backup. Oracle Corporation consiglia che i backup vengano eseguiti in periodi di scarsa attività del database.
 - I database completi e parziali vengono ripristinati tramite i normali meccanismi di ripristino Oracle gestiti dall'utente.
 
-**Limitazioni**
+## Limitazioni
+{: #Oraclelimitations}
 - Viene eseguito solo il backup dei database locali basati su disco a istanza singola.
 - I cluster di database non vengono sottoposti a backup.
 - I dispositivi non formattati non vengono sottoposti a backup.
 - I database remoti non vengono sottoposti a backup.
 - Il database deve essere eseguito in modalità ARCHIVELOG e l'utente con il quale è configurato il backup deve disporre dei privilegi SYSDBA.
 - Le password del database sono crittografate per una maggiore sicurezza rispetto ai metodi basati su script.
-
-## Ordinazione del plug-in
-{: #orderingOraclePlugin}
-
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-3. Seleziona il tuo account e fai clic su **Order plug-ins**.
-4. Seleziona **{{site.data.keyword.backup_notm}} plug-in - Oracle**, e fai clic su **Continue**.
-5. Se ne hai uno, immetti il tuo codice promozionale e fai clic su **Recalculate**.
-6. Vengono visualizzati i costi aggiornati. Riesamina l'ordine.
-7. Seleziona la casella per indicare che hai letto e accettato gli accordi di servizio di terze parti.
-8. Fai clic su **Place Order**.
 
 ## Installazione del plug-in per Windows
 {: #installOracleWin}

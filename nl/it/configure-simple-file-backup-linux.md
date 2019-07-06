@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,12 +24,11 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 ## Avvio del portale {{site.data.keyword.backup_notm}}
 {: #startWebCCconfigLin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
 2. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 3. Avvia la tua connessione VPN per ottenere l'accesso alla rete privata IBM.
-4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>  
+4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>
 
   Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
   {:tip}

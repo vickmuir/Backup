@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-05-14"
+lastupdated: "2019-06-28"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
 
@@ -69,8 +69,7 @@ Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con
 
    Non è possibile accedere al portale {{site.data.keyword.backup_notm}} sulla rete pubblica. Per prima cosa deve essere stabilita una connessione VPN.
    {:important}
-2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. <br/>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
@@ -119,15 +118,14 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 ## Accesso e visualizzazione dei dettagli dell'archiviazione di {{site.data.keyword.backup_notm}} nella console
 {: #viewingdetailsinconsole}
 
-I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e nel {{site.data.keyword.slportal}} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
+I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**. </br>
-   In alternativa, puoi eseguire l'accesso al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
 2. Fai clic su **Storage** e seleziona **Backup** dall'elenco.
 2. Fai clic in qualsiasi punto della riga dell'archivio per visualizzare i suoi dettagli di archiviazione. Da questa vista, la password non è visibile.
 3. Fai clic sulla casella di spunta **Show** accanto al campo **Password** per visualizzare la password per il servizio {{site.data.keyword.backup_notm}} selezionato.
 
-Le modifiche apportate alla password di {{site.data.keyword.backup_notm}} all'interno del {{site.data.keyword.slportal}} vengono apportate al servizio stesso. Per reimpostare la tua password, attieniti alla procedura in [Modifica della password per il servizio di backup](/docs/infrastructure/Backup?topic=Backup-changePassword).
+Le modifiche apportate alla password di {{site.data.keyword.backup_notm}} all'interno della console {{site.data.keyword.cloud_notm}} vengono apportate al servizio stesso. Per reimpostare la tua password, attieniti alla procedura in [Modifica della password per il servizio di backup](/docs/infrastructure/Backup?topic=Backup-changePassword).
 {:important}
 
 ## Come ottenere ulteriore aiuto online

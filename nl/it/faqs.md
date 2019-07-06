@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-04-01"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -101,7 +101,7 @@ Per ulteriori informazioni, vedi [Backup storage](https://www.ibm.com/cloud/back
 ## È possibile incrementare/decrementare la capacità di {{site.data.keyword.backup_notm}} senza compromettere i backup?
 {: faq}
 
-Puoi aumentare o diminuire la dimensione del tuo archivio tramite il [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
+Puoi aumentare o diminuire la dimensione del tuo archivio tramite la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. La modifica della capacità non influisce sull'integrità dei dati memorizzati nell'archivio. Per ulteriori informazioni, vedi [Espansione della capacità](/docs/infrastructure/Backup?topic=Backup-expandcapacity#expandcapacity).
 
 <hr>
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-10"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -33,7 +33,7 @@ Questa attività è la più comunemente utilizzata dopo che viene ricaricato il 
   - Indirizzo archivio
   - Account
 
-    "Account" è l'equivalente di "Account Name" nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. In genere, è simile a "SLE[ID account]"
+    "Account" è l'equivalente di "Account Name" nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external}. In genere, è simile a "SLE[ID account]"
     {:tip}
   - Nome utente
   - Password
