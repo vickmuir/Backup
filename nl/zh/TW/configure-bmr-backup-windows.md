@@ -16,10 +16,10 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# 在 Windows 上配置 BMR 備份工作
+# 配置 BMR 備份工作
 {: #configureBMR}
 
-您需要購買 BMR 外掛程式，才能建立 BMR 備份。BMR 只適用於 Windows Bare Metal Server。VSI 沒有任何可用的 BMR 選項。如需相關資訊，請參閱[安裝 Bare Metal Restore 外掛程式](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
+您需要購買 BMR 外掛程式，才能建立 BMR 備份。BMR 只適用於 Windows Bare Metal Server。VSI 沒有任何可用的 BMR 選項。如需相關資訊，請參閱[瞭解 Bare Metal Restore 外掛程式](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)。
 {:important}
 
 ## 啟動 {{site.data.keyword.backup_notm}} 入口網站
