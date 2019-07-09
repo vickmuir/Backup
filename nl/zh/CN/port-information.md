@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -26,7 +26,7 @@ subcollection: Backup
 不管数据中心位置，服务器都必须与 {{site.data.keyword.backup_notm}} 门户网站以及 {{site.data.keyword.backup_notm}} 门户网站的所有 AMP 代理服务器进行通信，才能正确运行。
 
 ```
-https://evregister.service.softlayer.com TCP 8086,8087
+evregister.service.softlayer.com TCP 8086,8087
 ```
 
 可以根据需要添加额外的 AMP 代理服务器，用于处理向 {{site.data.keyword.backup_notm}} 门户网站注册的更多 {{site.data.keyword.backup_notm}} 代理程序。
@@ -40,8 +40,8 @@ TCP 端口 8086 和 8087 必须有权访问 10.0.0.0/8。
 
 *{{site.data.keyword.backup_notm}} 门户网站和 AMP 代理服务器*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
-- `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *商用 AMP 代理服务器*
 
