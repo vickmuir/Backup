@@ -40,7 +40,7 @@ Das Plug-in wird während der Installation des Windows-Agenten installiert. Das 
 ## BMR-Sicherungsjob konfigurieren
 {: #configBMRplugin}
 
-Weitere Informationen finden Sie in [BMR-Sicherungsjobs konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureBMR). 
+Weitere Informationen finden Sie in [BMR-Sicherungsjobs konfigurieren](/docs/infrastructure/Backup?topic=Backup-configureBMR).
 
 ## BMR-Systemdatenträgerimage wiederherstellen
 {: #restoringBMimage}

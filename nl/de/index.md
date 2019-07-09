@@ -29,7 +29,7 @@ Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.backu
 ## {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 {: #purchasingwithserver}
 
-1. Melden Sie sich beim [IBM Cloud-Katalog](https://{DomainName}/catalog){: external} an. 
+1. Melden Sie sich beim [IBM Cloud-Katalog](https://{DomainName}/catalog){: external} an.
 2. Bestellen Sie ein Bare Metal Server-System pro Monat. Weitere Informationen zum Bestellen von Bare-Metal-Servern finden Sie im Abschnitt zum Thema [Angepasste Bare-Metal-Server erstellen](https://{DomainName}/docs/bare-metal/baremetal-provision.html){: external}.
    1. Wählen Sie die Menge und die Abrechnungsoption aus. Geben Sie den Host- und Domänenname ein. Sie können jeden gewünschten Host- und Domänennamen auswählen.
 

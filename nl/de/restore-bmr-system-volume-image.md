@@ -23,7 +23,7 @@ Wenn Sie eine Bare-Metal-Imagesicherung von {{site.data.keyword.backup_full}} wi
 
 ## BMR-Rescue-Kernel-System aufrufen
 
-Sie können über die {{site.data.keyword.cloud_notm}}-Konsole auf das BMR Rescue-Kernel-System zugreifen. 
+Sie können über die {{site.data.keyword.cloud_notm}}-Konsole auf das BMR Rescue-Kernel-System zugreifen.
 1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Klicken Sie auf den **Pfeil** neben der Vault.

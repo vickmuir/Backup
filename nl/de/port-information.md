@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -19,14 +19,14 @@ subcollection: Backup
 # Ports für Kommunikation zwischen dem Backup-Agenten und {{site.data.keyword.backup_notm}}-Portal konfigurieren
 {: #portinfo}
 
-Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/classic/storage/backup){: external} zur Verfügung. 
+Der {{site.data.keyword.backup_full}}-Agent, der auf Ihrem Server installiert ist, muss in der Lage sein, mit dem von Ihnen erworbenen Vault zu kommunizieren. Die Hostinformationen zu Director für ein {{site.data.keyword.backup_notm}}-Benutzerkonto stehen in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/classic/storage/backup){: external} zur Verfügung.
 
 Registrieren Sie Agenten beim {{site.data.keyword.backup_notm}}-Portal und den Director-Instanzen immer mit FQDN, weil die IP-Adresse für diese Services sich möglicherweise ändern.
 
 Ihre Server müssen mit dem {{site.data.keyword.backup_notm}}-Portal und allen AMP-Proxy-Servern kommunizieren, damit das {{site.data.keyword.backup_notm}}-Portal ordnungsgemäß funktioniert, und zwar ungeachtet des Rechenzentrumsstandorts.
 
 ```
-https://evregister.service.softlayer.com TCP 8086,8087
+evregister.service.softlayer.com TCP 8086,8087
 ```
 
 Weitere AMP-Proxy-Server können bei Bedarf hinzugefügt werden, um mehr {{site.data.keyword.backup_notm}}-Agenten auszuführen, die beim {{site.data.keyword.backup_notm}}-Portal registriert sind.
@@ -40,8 +40,8 @@ Falls Sie restriktivere Firewallregeln verwenden müssen, verlieren Sie möglich
 
 *{{site.data.keyword.backup_notm}}-Portal und AMP-Proxy-Server*
 
-- `https://ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
-- `https://evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
+- `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
 
 *Kostenpflichtige AMP-Proxy-Server*
 
