@@ -16,10 +16,10 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Windows에서 BMR 백업 구성
+# BMR 백업 작업 구성
 {: #configureBMR}
 
-BMR 백업을 작성하려면 BMR 플러그인을 구매해야 합니다. BMR은 Windows Bare Metal Server에만 사용 가능합니다. VSI에는 BMR 옵션을 사용할 수 없습니다. 자세한 정보는 [Bare Metal Restore 플러그인 설치](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)를 참조하십시오.
+BMR 백업을 작성하려면 BMR 플러그인을 구매해야 합니다. BMR은 Windows Bare Metal Server에만 사용 가능합니다. VSI에는 BMR 옵션을 사용할 수 없습니다. 자세한 정보는 [BMR(Bare Metal Restore) 플러그인에 대해 알아보기](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)를 참조하십시오.
 {:important}
 
 ## {{site.data.keyword.backup_notm}} 포털 시작

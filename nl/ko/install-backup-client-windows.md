@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -50,7 +50,7 @@ Windows 2016 서버의 백업에 대한 자세한 정보는 [Windows 2016에서 
 
 1. 네트워크 주소를 입력하십시오. <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
