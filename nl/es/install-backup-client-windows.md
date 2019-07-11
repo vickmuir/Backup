@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-17"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -50,7 +50,7 @@ Para obtener más información sobre las copias de seguridad para servidores Win
 
 1. Escriba la dirección de red: <br />
   ```
-  https://ev-webcc01.service.softlayer.com
+  ev-webcc01.service.softlayer.com
   ```
   {: pre}
 
