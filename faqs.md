@@ -91,6 +91,7 @@ By default, the base client has a state-of-the-art technology to handle most ope
 <hr>
 
 ## Where can I find information about pricing?
+{: #pricing}
 {: faq}
 
 For more information, see [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.

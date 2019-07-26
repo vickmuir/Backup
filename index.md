@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-07-26"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,8 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 - [Purchase backups when you Order a Server](#purchasingwithserver).
 - [Purchase backups as an Upgrade](#purchasingasupgrade).
 
-For more information about pricing, see [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+{{site.data.keyword.backup_notm}} usage is billed based on the vault size on a monthly basis. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+{:important}
 
 ## Purchasing {{site.data.keyword.backup_notm}} when you order a server
 {: #purchasingwithserver}

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-07-26"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,7 +31,9 @@ You must have a valid license to use IBM Cloud Backup. You can purchase {{site.d
 - [Purchase backups when you Order a Server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Purchase backups as an Upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-For more information about ordering and pricing, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+For more information about ordering, see [Provisioning {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+
 
 ## Installing the {{site.data.keyword.backup_notm}} agent
 {: #installagentgettingstarted}
