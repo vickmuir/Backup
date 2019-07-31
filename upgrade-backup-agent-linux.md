@@ -36,7 +36,7 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
    ```
 4. Go to the recent installation directory.
    ```
-   cd Agent-Linux-x64-8.50.7245/4
+   cd Agent-Linux-x64-8.50.7245/
    ```
 
 5. Run installation script.
