@@ -74,12 +74,12 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
   - Job - Select the backup job from Server1.
 8. Click **Next** start the restore process to the server2 in another data center.
 9. At the prompt, enter the backup password and click **Next**.
-10. Confirm that the right backup job is selected, and click **Next**. The restore job is now configured on server2.
+10. Confirm that the correct backup job is selected, and click **Next**. The restore job is now configured on server2.
 11. Select the newly configured job, and click **Run Restore**.
 12. Select the files that you want to restore.
 13. Click the plus sign to expand file selection.
 14. Click the check box of the individual files or folders to be restored from server1 to server2. Then, click **Include**.
-15. The files populate the Backup Set window on the right. Click **Next**.
+15. The files populate the Backup Set window. Click **Next**.
 16. After you completed the data selection, proceed to select your options.
     - Select **Restore to the original location**.
     - Select **Overwrite existing files**.
