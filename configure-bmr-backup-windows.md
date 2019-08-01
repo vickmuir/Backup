@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -28,9 +28,9 @@ You need to purchase the BMR plug-in to create a BMR backup. BMR is available on
 You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
-2. Click **Storage** > **Backup** to display the servers with backup services.
-3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
+3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
    If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
@@ -45,7 +45,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore**, and click **Next** to continue.
 6. Click **Yes** on the Confirmation windows.
 7. The screen shows that the new job is now in the backup set. Click **Next**.
-8. The screen displays encryption options and advanced backup options. Normally these options aren't needed. Click **Next**.   
+8. The screen displays encryption options and advanced backup options. Normally these options aren't needed. Click **Next**.
 9. On the **Create a schedule** page, you have two choices.
    - Click **Next** to create a manual job, and proceed to running your new job.
    - Click **Add** to schedule a time-based backup job.

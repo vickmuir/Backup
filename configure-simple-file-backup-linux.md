@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,9 +24,9 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 ## Starting {{site.data.keyword.backup_notm}} portal
 {: #startWebCCconfigLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
-2. Click **Storage** > **Backup** to display the servers with backup service.
-2. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
+2. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 3. Start your VPN connection to get access to the IBM private network.
 4. Click the {{site.data.keyword.backup_notm}} portal Login link to start the portal client in your browser.<br/>
 

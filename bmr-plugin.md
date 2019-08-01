@@ -19,7 +19,7 @@ subcollection: Backup
 # Learn about the Bare Metal Restore plug-in
 {: #BMRplugin}
 
-BMR is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
+Bare Metal Restore is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
 
 BMR is a Microsoft Windows only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux distributions aren't supported. BMR is only supported by Backup Agent 8.30 or earlier versions. (30 June 2018).
 {:important}
@@ -30,7 +30,7 @@ BMR is a Microsoft Windows only product on physical servers. It is not available
 - Restore your system to a select point-in-time.
 - Restore your system from image or file-based backups.
 - Restore your system from backups that are stored on the {{site.data.keyword.backup_notm}}.
-- A launchable recovery transaction that you can use to restore your data without a bootable system.
+- Start a recovery transaction that you can use to restore your data without a bootable system.
 
 ## Installing the BMR plug-in
 {: #installingBMR}

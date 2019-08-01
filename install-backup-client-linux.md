@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -37,7 +37,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 ## Logging in to the target device server
 {: #logintargetLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
   - This IP address is to be used in following steps when you log in to the device from a UNIX or Linux command line. Replace <publicIpAddress> with the actual public IP address in the command that is shown in Step 5.
@@ -96,8 +96,8 @@ This step is required for RHEL, but optional for other Linux distributions.
 4. The installation is complete when the following messages appear.
 
    ```
-   Starting VVAgent: [  OK  ]
-   Starting buagent: [  OK  ]
+   Starting VVAgent: [ OK ]
+   Starting buagent: [ OK ]
    ```
    {: codeblock}
 
@@ -105,7 +105,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 1. Verify that the message "Registered to The Portal" appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
    ```
-   grep 'Registered'  /opt/BUAgent/Install.log
+   grep 'Registered' /opt/BUAgent/Install.log
    ```
    {: pre}
 

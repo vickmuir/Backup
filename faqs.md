@@ -135,7 +135,7 @@ If you restore the image to a larger disk than the original volume, the left ove
 ## Can BMR be used for regular backup?
 {: faq}
 
-BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.  
+BMR backup isn't a disk image, but a system volume image backup system. The system isn't intended to be used for regular backups, but along with them.
 
 <hr>
 

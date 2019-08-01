@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-07-26"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -38,7 +38,7 @@ For more information about pricing, see [{{site.data.keyword.backup_notm}}: Pric
 ## Installing the {{site.data.keyword.backup_notm}} agent
 {: #installagentgettingstarted}
 
-{{site.data.keyword.backup_notm}} Agent is supported on the following OS.
+{{site.data.keyword.backup_notm}} Agent is supported on the following Operating Systems.
 
 **Windows**
  - Windows Server 2016
@@ -71,9 +71,9 @@ Follow the instructions appropriate for your OS,
 
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
-2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
-2. Click **Storage** > **Backup** to display the servers with backup services.
-3. Select the server where the files to be backed up are located. Click the right-pointing expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
+3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
 
 ## Configuring the Backup agent and the backup schedule
@@ -122,7 +122,7 @@ For more information, see [Configuring simple file-level backup on Linux](/docs/
 
 The storage details of your service can be viewed in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external} at any time. Details that can be viewed include the password, storage address, and usage that is associated with the selected {{site.data.keyword.backup_notm}} service.
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage**, and select **Backup** from the list.
 2. Click anywhere on the row of the vault you want to view its storage details. From this view, the Password is not visible.
 3. Click the **Show** check box next to the **Password** field to view the password for the selected {{site.data.keyword.backup_notm}} service.
