@@ -34,7 +34,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 ## Restoring your data
 
-1. In the navigational pane on the left, click **All Agents**.
+1. In the navigation, click **All Agents**.
 2. Click the Agent to display the Jobs.
 3. Click the Job that contains the data that you want.
 4. Click **Run Restore**.

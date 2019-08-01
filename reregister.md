@@ -24,7 +24,7 @@ This task is most commonly used after the Operating System of a server is reload
 
    Remember, {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
-2. On the left, click **All Agents**.
+2. Click **All Agents**.
 3. Mouse-over **Edit**.
 4. Select **Vault Settings**.
 5. Click **Reregister**.

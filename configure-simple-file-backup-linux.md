@@ -35,7 +35,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 
 ## Configuring a backup job
 
-1. In the navigation pane, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents
+1. In the navigation, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents.
 2. Click **This is a new Agent I would like to configure**.
 3. Enter a Job Name and a Job Description for the job that you're creating.
 4. For **Backup Source Type**, select the file system type that you want to back up.
