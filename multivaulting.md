@@ -41,7 +41,7 @@ Backing up to remote data center locations can take longer than backups to the s
 You must add the new remote vault to the account before a new backup location can be added in the {{site.data.keyword.backup_notm}} portal.
 {:important}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Devices**
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
@@ -58,13 +58,13 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select the server that you want to be able to back up to multiple vaults. Click the right-pointing arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
+3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
 4. Click the **{{site.data.keyword.backup_notm}} portal Login** link to start the portal client in your browser.
 
    {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
-5. In the left navigational pane, click **All Agents**.
-6. In the upper right, click **Edit** and select **Vault Settings**.
+5. In the navigational pane, click **All Agents**.
+6. Click **Edit** and select **Vault Settings**.
 7. In the **Vault Settings** window, click **Add**.
 8. In the **New Vault** window,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.

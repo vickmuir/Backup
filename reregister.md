@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -25,7 +25,7 @@ This task is most commonly used after the Operating System of a server is reload
    Remember, {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
 2. On the left, click **All Agents**.
-3. In the upper right, mouse-over **Edit**.
+3. Mouse-over **Edit**.
 4. Select **Vault Settings**.
 5. Click **Reregister**.
 6. Complete the form.

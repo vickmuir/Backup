@@ -133,4 +133,4 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 ## Getting more online help
 {: #onlinehelp}
 
-{{site.data.keyword.backup_notm}} portal's systems are fully documented and support for the application is accessible within {{site.data.keyword.backup_notm}} portal. Click the white question mark in a blue circle that is located in the upper right for **Help**. Click any article or topic in the navigation bar on the left side to view more information.
+{{site.data.keyword.backup_notm}} portal's systems are fully documented and support for the application is accessible within {{site.data.keyword.backup_notm}} portal. Click the white question mark in a blue circle for **Help**. Click any article or topic in the navigation bar to view more information.

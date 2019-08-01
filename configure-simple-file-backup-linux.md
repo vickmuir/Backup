@@ -42,7 +42,7 @@ After you ordered your {{site.data.keyword.backup_full}} and the agent is instal
 5. Click **Next** to continue.
 6. In the data files pane, go to the files and directories that you want to include in your backup by clicking the **+** and **-** symbols next to the folder icons.
 7. Select the check boxes next to the files and directories that you want to include, then click **Include** to save your choices.
-8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. After you included your file and directory choices, your chosen files, and directories are displayed in the backup set pane on the right-hand-side of the screen. Click **Next** to continue.
+8. You can further filter your selections by using the pop-up screen that appears, or click **OK** to use the selections you made as-is. After you included your file and directory choices, your chosen files, and directories are displayed in the backup set pane. Click **Next** to continue.
 
    You can repeat steps 6 - 8 to add more files or to remove files you previously added (by using the **Exclude**). You can also use **Remove** to delete any line item from the backup set pane. After your backup set is configured the way that you want it,
    {:tip}

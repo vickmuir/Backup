@@ -21,7 +21,7 @@ subcollection: Backup
 # Installing the backup client in Linux
 {: #InstallinLinux}
 
-Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the client on any of the following Linux-based operating systems:
+Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the client on any of the following operating systems:
 
 - RHEL
 - CentOS
@@ -40,10 +40,10 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Select **Devices** > **Device List** from the main menu to see the list of available server devices.
 3. Find the device for which you purchased the {{site.data.keyword.backup_notm}} service, and make a note of its public IP address.
-  - This IP address is to be used in following steps when you log in to the device from a UNIX or Linux command line. Replace <publicIpAddress> with the actual public IP address in the command that is shown in Step 5.
-4. Click the right-pointing arrow to display more information about the device, including the user name and password.
-  - If the password is not displayed, you can reveal it by clicking the **Show Password**. The user name and password are used in the next step to log in to the test device. Replace `<user name>` with the actual user name.
-5. Log in to the target device by entering the following command from a UNIX or Linux command line.
+  - This IP address is to be used when you log in to the device from the command line. In the command that is shown in Step 5, replace <publicIpAddress> with the actual public IP address.
+4. Click the arrow to display more information about the device, including the user name and the password.
+  - If the password is not displayed, you can reveal it by clicking **Show Password**. The user name and password are used in the next step to log in to the test device. Replace `<user name>` with the actual user name.
+5. Log in to the target device by entering the following command from the command line.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -56,7 +56,7 @@ If you purchased {{site.data.keyword.backup_notm}} as an upgrade in the {{site.d
 
 ## Updating the OS to prepare for the installation (RHEL only)
 
-This step is required for RHEL, but optional for other Linux distributions.
+This step is required for RHEL, but optional for other distributions.
 {:tip}
 
 - Run the following command at the server prompt.
@@ -103,7 +103,7 @@ This step is required for RHEL, but optional for other Linux distributions.
 
 ## Verifying that the installation succeeded
 
-1. Verify that the message "Registered to The Portal" appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
+1. Verify that the message `Registered to The Portal` appears in the installation output. The verification can be done by looking for the message on screen or by inspecting the output of the following command.
    ```
    grep 'Registered' /opt/BUAgent/Install.log
    ```

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -28,7 +28,7 @@ Changes that are made to the {{site.data.keyword.backup_notm}} password within t
 
 ## Changing the password
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/catalog){: external} and click the **menu** icon on the upper left. Select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
 3. Click anywhere on the row of the vault to expand the view.
 4. Click **Show** to view the current password.

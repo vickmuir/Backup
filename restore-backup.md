@@ -44,7 +44,7 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 8. Click **Next** to continue.
 9. Select the check boxes next to the files and directories that you want to include. Then, click **Include** to save your choices.
 10. You can further filter your selections by using the window that appears, or click **OK** to use the selections you made as-is.
-After you included your file and directory choices, the files can no longer be selected in the data files pane. They are displayed in the backup set pane on the right.
+After you included your file and directory choices, the files can no longer be selected in the data files pane. They are displayed in the backup set pane.
 
    You can repeat step 10 to add more files or to remove files you added previously (by using **Exclude**). You can also use **Remove** to delete any line item from the **Backup Set** pane.
    {:tip}

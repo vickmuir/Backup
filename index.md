@@ -40,7 +40,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
    3. Select Server configuration and OS Image type. You can also choose multiple add-ons.
    4. Under the **Storage Disks** section, click **Add-ons** and select **{{site.data.keyword.backup_notm}}**. Choose the option that matches what you need.
    5. Under **Network Interface**, select the Uplink Port Speed and any add-ons that you want.
-3. On the right, review your order summary.
+3. Next, review your order summary.
 4. After you reviewed the terms and conditions, check the **I have read and agree to the Third-Party Service Agreements** box.
 5. Click **Provision**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
@@ -50,7 +50,7 @@ You can purchase {{site.data.keyword.backup_notm}} service in two ways.
 A series of emails is sent to your administrator: Acknowledgment of the provisioning order, Provisioning order approval and processing, and Provisioning complete. The Provisioning complete email includes a link to your *Device Details* page, that you can access after you log in to {{site.data.keyword.cloud_notm}}. You can also log directly in to the {{site.data.keyword.cloud_notm}} console.
 
 ### Confirming the {{site.data.keyword.backup_notm}} purchase
-1. In the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}, click the **menu** icon on the upper left. Select **Classic Infrastructure**.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Device** > **Device List**.
 2. Locate the new server that you ordered.
   - If you see a clock icon next to the url, you need to wait to continue with the {{site.data.keyword.backup_notm}} purchase confirmation. You can refresh the page to see an updated status on your new server. When the clock icon is no longer present, you can proceed with the next steps to confirm the {{site.data.keyword.backup_notm}} service purchase.
