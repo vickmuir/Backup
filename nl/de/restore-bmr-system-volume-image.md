@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -24,8 +24,8 @@ Wenn Sie eine Bare-Metal-Imagesicherung von {{site.data.keyword.backup_full}} wi
 ## BMR-Rescue-Kernel-System aufrufen
 
 Sie können über die {{site.data.keyword.cloud_notm}}-Konsole auf das BMR Rescue-Kernel-System zugreifen.
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Klicken Sie auf den **Pfeil** neben der Vault.
 4. Klicken Sie auf **Bare-Metal-Wiederherstellung starten**. Diese Aktion startet eine Transaktion, deren Ausführung einige Minuten dauert. Anschließend können Sie mit den hier beschriebenen Schritten auf den Server zugreifen. Sobald das System den Bootprozess abgeschlossen hat, werden Sie per E-Mail benachrichtigt.
 

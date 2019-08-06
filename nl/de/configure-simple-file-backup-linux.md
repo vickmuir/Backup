@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,9 +24,9 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
 {: #startWebCCconfigLin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-2. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Service anzuzeigen.
+2. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 3. Starten Sie Ihre VPN-Verbindung, um Zugang zum privaten IBM Netz zu erhalten.
 4. Klicken Sie auf den Link zur {{site.data.keyword.backup_notm}}-Portalanmeldung, um den Portalclient in Ihrem Browser zu starten.<br/>
 
@@ -42,7 +42,7 @@ Nachdem Sie Ihren {{site.data.keyword.backup_full}} bestellt haben und der Agent
 5. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 6. Navigieren Sie im Fensterbereich der Datendateien zu den Dateien und Verzeichnissen, die Sie in Ihre Sicherung einbeziehen wollen, indem Sie auf die Zeichen **+** und **-** neben den Ordnersymbolen klicken.
 7. Wählen Sie die Kontrollkästchen neben den Dateien und Verzeichnissen aus, die Sie einbeziehen wollen, und klicken Sie anschließend auf **Einschließen**, um Ihre Auswahl zu speichern.
-8. Sie können Ihre Auswahl mit dem aufgerufenen Popup-Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden. Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, werden Ihre ausgewählten Dateien und Verzeichnisse im Fenster der Sicherungsgruppe rechts in der Anzeige angezeigt. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+8. Sie können Ihre Auswahl mit dem aufgerufenen Popup-Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden. Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, werden Ihre ausgewählten Dateien und Verzeichnisse im Fenster der Sicherungsgruppe angezeigt. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
    Sie können die Schritte 6 bis 8 wiederholen, um weitere Dateien hinzuzufügen oder um bereits hinzugefügte Dateien (mithilfe von **Ausschließen**) zu entfernen. Mit der Schaltfläche **Entfernen** können Sie außerdem jede Position im Fenster der Sicherungsgruppe löschen. Sobald Ihre Sicherungsgruppe wie von Ihnen gewünscht konfiguriert ist, führen Sie folgende Schritte aus:
    {:tip}

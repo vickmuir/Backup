@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -28,9 +28,9 @@ Sie müssen das Plug-in für BMR (Bare Metal Restore, Bare-Metal-Wiederherstellu
 Sie müssen mit dem privaten {{site.data.keyword.cloud}}-Netz verbunden sein, um das {{site.data.keyword.backup_notm}}-Portal starten zu können.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
-3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Services anzuzeigen.
+3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
    Falls das {{site.data.keyword.backup_notm}}-Portal nicht gestartet wird, liegt möglicherweise ein Problem mit Ihrer VPN-Verbindung vor. Außerdem wird möglicherweise die Nachricht ausgegeben, dass das Formular, das Sie senden, nicht sicher ist. Dies entspricht dem erwarteten Verhalten; fahren Sie mit dem Senden des Formulars fort.
@@ -38,14 +38,14 @@ Sie müssen mit dem privaten {{site.data.keyword.cloud}}-Netz verbunden sein, um
 
 ## BMR-Sicherungsjob konfigurieren
 
-1. Klicken Sie im linken Navigationsbereich auf **Alle Agenten**, um die aktuellen {{site.data.keyword.backup_notm}}-Agenten anzuzeigen.
+1. Klicken Sie im Navigationsbereich auf **Alle Agenten**, um die aktuellen {{site.data.keyword.backup_notm}}-Agenten anzuzeigen.
 2. Klicken Sie auf **Neuer Agent, der konfiguriert werden soll**.
 3. Geben Sie einen Jobnamen und eine Jobbeschreibung für den Job ein, den Sie erstellen.
 4. Wählen Sie bei **Sicherungsquellentyp** in der Liste den Typ des Dateisystems aus und klicken Sie dann auf **Weiter**.
 5. Das Menü **Jobtypauswahl** wird angezeigt. Wählen Sie das Feld neben **Bare-Metal-Wiederherstellung** aus und klicken Sie auf **Weiter**, um fortzufahren.
 6. Klicken Sie im Bestätigungsfenster auf **Ja**.
 7. In der Anzeige ist angegeben, dass der neue Job jetzt in der Sicherungsgruppe enthalten ist. Klicken Sie auf **Weiter**.
-8. In der Anzeige werden Verschlüsselungsoptionen und erweiterte Sicherungsoptionen angezeigt. Normalerweise werden diese Optionen nicht benötigt. Klicken Sie auf **Weiter**.   
+8. In der Anzeige werden Verschlüsselungsoptionen und erweiterte Sicherungsoptionen angezeigt. Normalerweise werden diese Optionen nicht benötigt. Klicken Sie auf **Weiter**.
 9. Auf der Seite **Zeitplan erstellen** stehen Ihnen zwei Optionen zur Verfügung.
    - Klicken Sie auf **Weiter**, um einen manuellen Job zu erstellen, und fahren Sie mit der Ausführung Ihres neuen Jobs fort.
    - Klicken Sie auf **Hinzufügen**, um einen zeitbasierten Sicherungsjob zu planen.

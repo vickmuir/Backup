@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -39,9 +39,9 @@ Inaktivieren Sie auf beiden Servern alle geplanten Tasks, um Konflikte zu vermei
 Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit Sie Zugang zum privaten {{site.data.keyword.cloud}}-Netz erhalten, da der Link zum {{site.data.keyword.backup_notm}}-Portal andernfalls nicht funktioniert.
 {:tip}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
-3. Wählen Sie Server 2 aus. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Service anzuzeigen.
+3. Wählen Sie Server 2 aus. Klicken Sie auf den Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Vault erneut registrieren
@@ -74,12 +74,12 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, damit
   - Job - Wählen Sie den Sicherungsjob aus Server 1 aus.
 8. Klicken Sie auf **Weiter**, um den Wiederherstellungsprozess auf Server 2 in einem anderen Rechenzentrum zu starten.
 9. Geben Sie an der entsprechenden Eingabeaufforderung das Sicherungskennwort ein und klicken Sie dann auf **Weiter**.
-10. Vergewissern Sie sich, dass der richtige Sicherungsjob ausgewählt wurde, und klicken Sie dann auf **Weiter**. Der Wiederherstellungsjob ist nun auf Server 2 konfiguriert.
+10. Vergewissern Sie sich, dass der korrekte Sicherungsjob ausgewählt wurde, und klicken Sie dann auf **Weiter**. Der Wiederherstellungsjob ist nun auf Server 2 konfiguriert.
 11. Wählen Sie den neu konfigurierten Job aus und klicken Sie dann auf **Wiederherstellung durchführen**.
 12. Wählen Sie die Dateien aus, die wiederhergestellt werden sollen.
 13. Klicken Sie auf das Pluszeichen, um die Dateiauswahl zu erweitern.
 14. Klicken Sie auf das Kontrollkästchen der einzelnen Dateien oder Ordner, die von Server 1 auf Server 2 wiederhergestellt werden sollen. Klicken Sie anschließend auf **Einschließen**.
-15. Das Fenster 'Sicherungsgruppe' auf der rechten Seite wird mit den Dateien gefüllt. Klicken Sie auf **Weiter**.
+15. Das Fenster 'Sicherungsgruppe' wird mit den Dateien gefüllt. Klicken Sie auf **Weiter**.
 16. Nachdem Sie die Datenauswahl abgeschlossen haben, wählen Sie die gewünschten Optionen aus.
     - Wählen Sie **An ursprünglicher Position wiederherstellen** aus.
     - Wählen Sie **Vorhandene Dateien überschreiben** aus.

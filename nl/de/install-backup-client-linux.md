@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # Sicherungsclient unter Linux installieren
 {: #InstallinLinux}
 
-Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux-basierten Betriebssystem kann über eine Reihe von Befehlen in der Shell oder einem Terminalfenster im Betriebssystem erfolgen. Die Prozedur umreißt die Schritte, die erforderlich sind, um den Client auf einem beliebigen der folgenden Linux-basierten Betriebssysteme zu installieren:
+Die Installation des {{site.data.keyword.backup_full}}-Clients unter einem Linux-basierten Betriebssystem kann über eine Reihe von Befehlen in der Shell oder einem Terminalfenster im Betriebssystem erfolgen. Die Prozedur umreißt die Schritte, die erforderlich sind, um den Client auf einem beliebigen der folgenden Betriebssysteme zu installieren:
 
 - RHEL
 - CentOS
@@ -37,13 +37,13 @@ Wenn Sie {{site.data.keyword.backup_notm}} als Upgrade in der {{site.data.keywor
 ## Beim Zielgeräteserver anmelden
 {: #logintargetLin}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
 2. Wählen Sie im Hauptmenü **Geräte** > **Geräteliste** aus, um die Liste der verfügbaren Servereinheiten anzuzeigen.
 3. Suchen Sie das Gerät, für das Sie den {{site.data.keyword.backup_notm}}-Service gekauft haben, und notieren Sie die zugehörige öffentliche IP-Adresse.
-  - Sie verwenden diese IP-Adresse in den folgenden Schritten, wenn Sie sich über eine UNIX- oder Linux-Befehlszeile beim Gerät anmelden. Ersetzen Sie in dem in Schritt 5 dargestellten Befehl die Variable <publicIpAddress> durch die tatsächliche öffentliche IP-Adresse.
-4. Klicken Sie auf den nach rechts zeigenden Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen.
+  - Diese IP-Adresse muss für die Anmeldung beim Gerät über die Befehlszeile verwendet werden. Ersetzen Sie in dem in Schritt 5 dargestellten Befehl die Variable <publicIpAddress> durch die tatsächliche öffentliche IP-Adresse.
+4. Klicken Sie auf den Pfeil, um zusätzliche Informationen zum Gerät (einschließlich Benutzername und Kennwort) anzuzeigen.
   - Falls das Kennwort nicht angezeigt wird, klicken Sie auf **Kennwort anzeigen**, damit das Kennwort sichtbar wird. Der Benutzername und das Kennwort werden im nächsten Schritt zur Anmeldung beim Testgerät verwendet. Ersetzen Sie `<user name>` durch den tatsächlichen Benutzernamen.
-5. Melden Sie sich beim Zielgerät an, indem Sie den folgenden Befehl in einer UNIX oder Linux-Befehlszeile eingeben.
+5. Melden Sie sich beim Zielgerät an, indem Sie den folgenden Befehl in der Befehlszeile eingeben.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -56,7 +56,7 @@ Wenn Sie {{site.data.keyword.backup_notm}} als Upgrade in der {{site.data.keywor
 
 ## Betriebssystem für die Vorbereitung auf die Installation aktualisieren (nur RHEL)
 
-Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen optional.
+Dieser Schritt ist für RHEL erforderlich, aber für andere Distributionen optional.
 {:tip}
 
 - Führen Sie den folgenden Befehl an der Eingabeaufforderung des Servers aus.
@@ -103,7 +103,7 @@ Dieser Schritt ist für RHEL erforderlich, aber für andere Linux-Distributionen
 
 ## Erfolg der Installation prüfen
 
-1. Überprüfen Sie, ob die Nachricht 'Registered to The Portal' in der Ausgabe für die Installation enthalten ist. Zur Überprüfung können Sie in der Anzeige nach der Nachricht suchen oder die Ausgabe des folgenden Befehls untersuchen.
+1. Überprüfen Sie, ob die Nachricht `Registered to The Portal` in der Ausgabe für die Installation enthalten ist. Zur Überprüfung können Sie in der Anzeige nach der Nachricht suchen oder die Ausgabe des folgenden Befehls untersuchen.
    ```
    grep 'Registered'  /opt/BUAgent/Install.log
    ```

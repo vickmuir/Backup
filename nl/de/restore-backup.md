@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Wiederherstellung anhand einer Sicherung durchführen
 {: #simplerestore}
 
-Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full}} eine Dateiwiederherstellung durchzuführen. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
+Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full}} eine Dateiwiederherstellung durchzuführen. Anweisungen zum Wiederherstellen eines Systemimages enthält der Abschnitt zu [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Das {{site.data.keyword.backup_notm}}-Portal starten
 {: #startWebCCsimple}
@@ -27,14 +27,14 @@ Verwenden Sie die nachfolgenden Schritte, um mit {{site.data.keyword.backup_full
 Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, um Zugriff auf das private {{site.data.keyword.cloud}}-Netz zu erhalten. Andernfalls funktioniert der Link zum {{site.data.keyword.backup_notm}}-Portal nicht.
 {:important}
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Service anzuzeigen.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Service anzuzeigen.
 3. Wählen Sie den Server aus, auf dem sich die wiederherzustellenden Dateien befinden. Klicken Sie auf den Pfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf das **{{site.data.keyword.backup_notm}}-Portal**, um den {{site.data.keyword.backup_notm}}-Portal-Client in Ihrem Browser zu starten.
 
 ## Daten wiederherstellen
 
-1. Klicken Sie auf der linken Seite im Navigationsbereich auf **Alle Agenten**.
+1. Klicken Sie im Navigationsbereich auf **Alle Agenten**.
 2. Klicken Sie auf den Agenten, um die Jobs anzuzeigen.
 3. Klicken Sie auf den Job, der die gewünschten Daten enthält.
 4. Klicken Sie auf **Wiederherstellung durchführen**.
@@ -44,7 +44,7 @@ Denken Sie daran, Ihre {{site.data.keyword.BluVPN}}-Verbindung zu starten, um Zu
 8. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 9. Wählen Sie die Kontrollkästchen neben den Dateien und Verzeichnissen aus, die Sie einbeziehen wollen. Klicken Sie anschließend auf **Einschließen**, um Ihre Auswahl zu speichern.
 10. Sie können Ihre Auswahl mit dem aufgerufenen Fenster weiter filtern oder auf **OK** klicken, um die getroffene Auswahl unverändert zu verwenden.
-Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, können die Dateien nicht mehr im Fensterbereich der Datendateien ausgewählt werden. Sie werden im Fensterbereich der Sicherungsgruppe auf der rechten Seite angezeigt.
+Nachdem Sie Ihre Datei- und Verzeichnisauswahl einbezogen haben, können die Dateien nicht mehr im Fensterbereich der Datendateien ausgewählt werden. Sie werden im Fensterbereich der Sicherungsgruppe angezeigt.
 
    Sie können Schritt 10 wiederholen, um weitere Dateien hinzuzufügen oder Dateien zu entfernen, die Sie zuvor hinzugefügt haben (mit **Exclude**). Mit der Schaltfläche **Entfernen** können Sie außerdem jede Position im Fenster **Sicherungsgruppe** löschen.
    {:tip}

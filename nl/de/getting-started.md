@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,12 +31,14 @@ Für die Verwendung von IBM Cloud Backup ist eine gültige Lizenz erforderlich. 
 - [Sicherungen bei der Bestellung eines Servers kaufen](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Sicherungen als Upgrade kaufen](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-Weitere Informationen zu Bestellverfahren und Preisstrukturen finden Sie in [Bereitstellung von {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Weitere Informationen zu Bestellverfahren finden Sie in [Bereitstellung von {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.backup_notm}}: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}. 
+
 
 ## {{site.data.keyword.backup_notm}}-Agenten installieren
 {: #installagentgettingstarted}
 
-Der {{site.data.keyword.backup_notm}}-Agent wird von den folgenden Betriebssystemen unterstützt:
+Der {{site.data.keyword.backup_notm}}-Agent wird von den nachfolgend aufgeführten Betriebssystemen unterstützt. 
 
 **Windows**
  - Windows Server 2016
@@ -69,9 +71,9 @@ Das {{site.data.keyword.backup_notm}}-Portal wird für die Interaktion mit jedem
 
    Das {{site.data.keyword.backup_notm}}-Portal kann nicht über das öffentliche Netz aufgerufen werden. Es muss zuerst eine VPN-Verbindung eingerichtet werden.
    {:important}
-2. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
-2. Klicken Sie auf **Speicher** > **Sicherung**, um die Server mit Backup-Services anzuzeigen.
-3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den nach rechts zeigenden Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
+2. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
+2. Klicken Sie auf **Speicher** > **Cloud-Sicherung**, um die Server mit Backup-Services anzuzeigen.
+3. Wählen Sie den Server aus, auf dem sich die zu sichernden Dateien befinden. Klicken Sie auf den Erweiterungspfeil, um den Link zum {{site.data.keyword.backup_notm}}-Portal sichtbar zu machen.
 4. Klicken Sie auf **{{site.data.keyword.backup_notm}}-Portalanmeldung**, um den Portalclient in Ihrem Browser zu starten.
 
 ## Backup-Client und Sicherungszeitplan konfigurieren
@@ -120,7 +122,7 @@ Weitere Informationen finden Sie in [Einfache Sicherung auf Dateiebene unter Lin
 
 Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}/classic/storage/backup){: external} angezeigt werden. Zu den anzeigbaren Details gehören das Kennwort, die Speicheradresse und die Nutzung, die dem ausgewählten {{site.data.keyword.backup_notm}}-Service zugeordnet sind.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Speicher** und wählen Sie in der Liste den Eintrag **Sicherung** aus.
 2. Klicken Sie in der Zeile für die gewünschte Vault auf eine beliebige Stelle, um die zugehörigen Speicherdetails anzuzeigen. Das Kennwort ist in dieser Ansicht nicht zu sehen.
 3. Klicken Sie auf das Kontrollkästchen **Anzeigen** neben dem Feld **Kennwort**, um das Kennwort für den ausgewählten {{site.data.keyword.backup_notm}}-Service anzuzeigen.
@@ -131,4 +133,4 @@ Die Speicherdetails Ihres Service können jederzeit in der [{{site.data.keyword.
 ## Weitere Onlinehilfe anfordern
 {: #onlinehelp}
 
-Die Systeme des {{site.data.keyword.backup_notm}}-Portals sind vollständig dokumentiert und die Unterstützung für die Anwendung ist im {{site.data.keyword.backup_notm}}-Portal zugänglich. Klicken Sie auf das weiße Fragezeichen in dem blauen Kreis, das sich in der oberen rechten Ecke befindet, wenn Sie **Hilfe** benötigen. Klicken Sie in der Navigationsleiste auf der linken Seite auf einen beliebigen Artikel oder Abschnitt, um weitere Informationen anzuzeigen.
+Die Systeme des {{site.data.keyword.backup_notm}}-Portals sind vollständig dokumentiert und die Unterstützung für die Anwendung ist im {{site.data.keyword.backup_notm}}-Portal zugänglich. Klicken Sie auf das weiße Fragezeichen im blauen Kreis, um **Hilfe** aufzurufen. Klicken Sie auf einen beliebigen Artikel oder Abschnitt in der Navigationsleiste, um weitere Informationen anzuzeigen. 

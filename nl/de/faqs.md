@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -91,6 +91,7 @@ Der Basisclient ist standardmäßig mit ausgereifter Technologie ausgestattet, u
 <hr>
 
 ## Wo finde ich Informationen zur Preisstruktur?
+{: #pricing}
 {: faq}
 
 Weitere Informationen finden Sie in [Sicherungsspeicher](https://www.ibm.com/cloud/backup-and-restore){: external} und [IBM Cloud Backup: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}.
@@ -134,7 +135,7 @@ Falls Sie das Image auf einem größeren Datenträger als dem ursprünglichen Da
 ## Kann BMR für reguläre Sicherungen verwendet werden?
 {: faq}
 
-Bei einer BMR-Sicherung handelt es sich nicht um ein Plattenimage, sondern um ein Sicherungssystem für Systemdatenträgerimages. Das System ist nicht zur Erstellung regulärer Sicherungen gedacht, sondern dient als Ergänzung zu Systemen für solche Sicherungen.  
+Bei einer BMR-Sicherung handelt es sich nicht um ein Plattenimage, sondern um ein Sicherungssystem für Systemdatenträgerimages. Das System ist nicht zur Erstellung regulärer Sicherungen gedacht, sondern dient als Ergänzung zu Systemen für solche Sicherungen.
 
 <hr>
 

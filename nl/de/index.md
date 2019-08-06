@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,8 @@ Sie können den {{site.data.keyword.backup_notm}}-Service auf zwei Arten erwerbe
 - [Sicherungen bei der Bestellung eines Servers kaufen](#purchasingwithserver).
 - [Sicherungen als Upgrade kaufen](#purchasingasupgrade).
 
-Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.backup_notm}}-Speicher](https://www.ibm.com/cloud/backup-and-restore){: external} und [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+Die Gebühren für die Nutzung von {{site.data.keyword.backup_notm}} werden monatlich auf der Basis der Vaultgröße berechnet. Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.cloud}}-Sicherungslösungen](https://www.ibm.com/cloud/backup-and-restore){: external} und [{{site.data.keyword.backup_notm}}: Preisstruktur](https://www.ibm.com/cloud/backup/pricing){: external}.
+{:important}
 
 ## {{site.data.keyword.backup_notm}} bei der Bestellung eines Servers kaufen
 {: #purchasingwithserver}
@@ -39,7 +40,7 @@ Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.backu
    3. Wählen Sie die Serverkonfiguration und einen Betriebssystemimagetyp aus. Sie können auch mehrere Add-ons auswählen.
    4. Klicken Sie im Abschnitt **Speicherplatten** auf **Add-ons** und wählen Sie **{{site.data.keyword.backup_notm}}** aus. Wählen Sie die Option aus, die Ihren Anforderungen am besten entspricht.
    5. Wählen Sie unter **Netzschnittstelle** die Uplink-Port-Geschwindigkeit und alle gewünschten Add-ons aus.
-3. Überprüfen Sie auf der rechten Seite Ihre Bestellübersicht.
+3. Überprüfen Sie als nächsten Schritt Ihre Bestellübersicht.
 4. Danach markieren Sie das Kontrollkästchen **Die im Folgenden aufgeführten Servicevereinbarungen anderer Anbieter habe ich gelesen und stimme ihnen zu:**.
 5. Klicken Sie auf **Bereitstellung**. Sie werden zu einer Anzeige geführt, der Sie die Bestellnummer für Ihre Bereitstellung entnehmen können. Sie können die Anzeige ausdrucken, weil es sich hierbei auch um die Bestätigung des Bestelleingangs für Ihre Bereitstellung handelt.
 
@@ -49,7 +50,7 @@ Weitere Informationen zur Preisstruktur finden Sie in [{{site.data.keyword.backu
 An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestätigung der Bereitstellungsbestellung, zur Genehmigung und Verarbeitung der Bereitstellungsbestellung sowie zur Fertigstellung der Bereitstellung. Die E-Mail zur Fertigstellung der Bereitstellung enthält einen Link zu Ihrer Seite *Gerätedetails*, auf die Sie zugreifen können, nachdem Sie sich bei {{site.data.keyword.cloud_notm}} angemeldet haben. Sie können sich auch direkt bei der {{site.data.keyword.cloud_notm}}-Konsole anmelden.
 
 ### {{site.data.keyword.backup_notm}}-Einkauf bestätigen
-1. Klicken Sie in der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} auf das **Menüsymbol** links oben. Wählen Sie **Klassische Infrastruktur** aus.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
 2. Klicken Sie auf **Gerät** > **Geräteliste**.
 2. Suchen Sie nach dem neuen Server, den Sie bestellt haben.
   - Wenn das Uhrsymbol neben der URL angezeigt wird, müssen Sie warten, bevor Sie mit der Kaufbestätigung für {{site.data.keyword.backup_notm}} fortfahren können. Sie können die Seite aktualisieren und so einen aktualisierten Status Ihres neuen Servers anzeigen. Wenn das Uhrsymbol nicht mehr angezeigt wird, können Sie mit den nächsten Schritten fortfahren, um den Kauf des {{site.data.keyword.backup_notm}}-Service zu bestätigen.
@@ -62,7 +63,7 @@ An Ihren Administrator wird eine Reihe von E-Mails gesendet, nämlich zur Bestä
 
 ### Wählen Sie einen Server aus, auf dem Sie {{site.data.keyword.backup_notm}} installieren möchten.
 
-1. Melden Sie sich an der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an und klicken Sie oben links auf das **Menüsymbol**. Wählen Sie **Klassische Infrastruktur** aus.
+1. Melden Sie sich bei der [{{site.data.keyword.cloud_notm}}-Konsole](https://{DomainName}){: external} an. Wählen Sie im Navigationsmenü **Klassische Infrastruktur** aus.
 2. Wählen Sie im Hauptmenü die Optionen **Geräte** > **Geräteliste** aus. Suchen Sie nach dem Gerät, für das Sie den Sicherungsservice hinzufügen möchten.
 3. Klicken Sie auf den Gerätenamen, um zu der Seite **Gerätedetails** zu gelangen.
 

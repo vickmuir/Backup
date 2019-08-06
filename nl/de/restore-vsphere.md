@@ -68,7 +68,7 @@ Die Dateien und Ordner auf den Platten sind für jeden Benutzer auf dem VRA-Syst
 5. Im Dialog für die Auswahl der wiederherzustellenden Elemente**** wählen Sie **Dateien und Ordner** aus.
 6. Klicken Sie auf **Weiter**. Im Dialog für Wiederherstellen wird die neueste Sicherungsgruppe für den Job angezeigt.
   * Wenn Sie Daten aus einer anderen Ressource wiederherstellen möchten, klicken Sie in der Liste für die Quelleneinheit (Vault) auf eine Quelle.
-  * Um Daten aus einer älteren Sicherungsgruppe wiederherzustellen, klicken Sie auf die Schaltfläche zum Durchsuchen von Sicherungsgruppen. Klicken Sie im angezeigten Kalender auf das Datum der Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten. Klicken Sie rechts neben dem Kalender auf die Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten.
+  * Um Daten aus einer älteren Sicherungsgruppe wiederherzustellen, klicken Sie auf die Schaltfläche zum Durchsuchen von Sicherungsgruppen. Klicken Sie im angezeigten Kalender auf das Datum der Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten. Klicken Sie dann auf die Sicherungsgruppe, aus der Sie Daten wiederherstellen möchten. 
 7. Wählen Sie in der Anzeige **Wiederherzustellende Elemente** die VM mit den wiederherzustellenden Dateien oder Ordnern aus.
 8. Geben Sie im Feld **Verschlüsselungskennwort** das Datenverschlüsselungskennwort ein.
 9. Geben Sie im Feld **Leerlaufzeit** die Anzahl der Minuten der Inaktivität ein, nach denen die Freigabe des Laufwerks automatisch aufgehoben werden soll. Die Leerlaufzeit kann im Bereich von 2 bis 180 Minuten liegen.
