@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # Installazione del client backup in Linux
 {: #InstallinLinux}
 
-L'installazione del client {{site.data.keyword.backup_full}} su un sistema operativo basato su Linux può essere eseguita tramite una serie di comandi nella shell o nel terminale all'interno del sistema operativo. Questa procedura descrive i passi necessari per installare il client sui seguenti sistemi operativi basati su Linux:
+L'installazione del client {{site.data.keyword.backup_full}} su un sistema operativo basato su Linux può essere eseguita tramite una serie di comandi nella shell o nel terminale all'interno del sistema operativo. Questa procedura descrive i passi necessari per installare il client sui seguenti sistemi operativi basati:
 
 - RHEL
 - CentOS
@@ -37,13 +37,13 @@ Se hai acquistato {{site.data.keyword.backup_notm}} come un upgrade nella consol
 ## Accesso al server del dispositivo di destinazione
 {: #logintargetLin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
 2. Seleziona **Devices** > **Device List** dal menu principale per visualizzare l'elenco di dispositivi server disponibili.
 3. Trova il dispositivo per il quale hai acquistato il servizio {{site.data.keyword.backup_notm}} e prendi nota del suo indirizzo IP pubblico.
-  - Questo indirizzo IP deve essere utilizzato nei seguenti passi quando si accede al dispositivo da una riga di comando UNIX o Linux. Sostituisci <publicIpAddress> con l'indirizzo IP pubblico reale nel comando illustrato nel passo 5.
-4. Fai clic sulla freccia rivolta verso destra per visualizzare ulteriori informazioni sul dispositivo, incluso il nome utente e la password.
-  - Se la password non viene visualizzata, fai clic su **Show Password**. Il nome utente e la password vengono utilizzati nel passo successivo per accedere al dispositivo di test. Sostituisci `<user name>` con il nome utente effettivo.
-5. Accedi al dispositivo di destinazione immettendo il seguente comando da una riga di comando UNIX o Linux.
+  - Questo indirizzo IP deve essere utilizzato quando accedi al dispositivo dalla riga di comando. Nella riga di comando mostrata nel passo 5, sostituisci <publicIpAddress> con il reale indirizzo IP pubblico.
+4. Fai clic sulla freccia per visualizzare ulteriori informazioni sul dispositivo, incluso il nome utente e la password.
+  - Se la password non viene visualizzata, puoi rivelarla facendo clic su **Show Password**. Il nome utente e la password vengono utilizzati nel passo successivo per accedere al dispositivo di test. Sostituisci `<user name>` con il nome utente effettivo.
+5. Accedi al dispositivo di destinazione immettendo il seguente comando dalla riga di comando.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -56,7 +56,7 @@ Se hai acquistato {{site.data.keyword.backup_notm}} come un upgrade nella consol
 
 ## Aggiornamento del sistema operativo per la preparazione all'installazione (solo RHEL)
 
-Questo passo è obbligatorio per RHEL ma facoltativo per le altre distribuzioni Linux.
+Questo passo è obbligatorio per RHEL ma facoltativo per le altre distribuzioni.
 {:tip}
 
 - Esegui questo comando nel prompt del server.
@@ -103,7 +103,7 @@ Questo passo è obbligatorio per RHEL ma facoltativo per le altre distribuzioni 
 
 ## Verifica che l'installazione sia riuscita
 
-1. Verifica che il messaggio "Registered to The Portal" sia visualizzato nell'output di installazione. La verifica può essere fatta cercando il messaggio sulla schermata o controllando l'output del seguente comando.
+1. Verifica che il messaggio `Registered to The Portal` sia visualizzato nell'output di installazione. La verifica può essere fatta cercando il messaggio sulla schermata o controllando l'output del seguente comando.
    ```
    grep 'Registered'  /opt/BUAgent/Install.log
    ```

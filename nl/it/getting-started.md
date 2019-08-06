@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,12 +31,14 @@ Devi avere una licenza valida per utilizzare IBM Cloud Backup. Puoi acquistare i
 - [Acquisto di backup quando ordini un server](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Acquisto di backup come un upgrade](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-Per ulteriori informazioni sull'ordinazione e i prezzi, consulta [Provisioning di {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Per ulteriori informazioni sull'ordinazione, consulta [Provisioning di {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Per ulteriori informazioni sui prezzi, vedi [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+
 
 ## Installazione dell'agent {{site.data.keyword.backup_notm}}
 {: #installagentgettingstarted}
 
-L'agent {{site.data.keyword.backup_notm}} è supportato sul seguente sistema operativo:
+L'agent {{site.data.keyword.backup_notm}} è supportato sui seguenti sistemi operativi:
 
 **Windows**
  - Windows Server 2016
@@ -69,9 +71,9 @@ Il portale {{site.data.keyword.backup_notm}} viene utilizzato per interagire con
 
    Non è possibile accedere al portale {{site.data.keyword.backup_notm}} sulla rete pubblica. Per prima cosa deve essere stabilita una connessione VPN.
    {:important}
-2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
-3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+2. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
+2. Fai clic su **Storage** > **Cloud Backup** per visualizzare i server con i servizi di backup.
+3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
 ## Configurazione dell'agent Backup e della pianificazione del backup
@@ -120,7 +122,7 @@ Per ulteriori informazioni, vedi [Configurazione di un semplice backup a livello
 
 I dettagli dell'archiviazione del tuo servizio possono essere visualizzati nella [console {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external} in qualsiasi momento. I dettagli che possono essere visualizzati includono la password, l'indirizzo di archiviazione e l'utilizzo associati al servizio {{site.data.keyword.backup_notm}} selezionato.
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
 2. Fai clic su **Storage** e seleziona **Backup** dall'elenco.
 2. Fai clic in qualsiasi punto della riga dell'archivio per visualizzare i suoi dettagli di archiviazione. Da questa vista, la password non è visibile.
 3. Fai clic sulla casella di spunta **Show** accanto al campo **Password** per visualizzare la password per il servizio {{site.data.keyword.backup_notm}} selezionato.
@@ -131,4 +133,4 @@ Le modifiche apportate alla password di {{site.data.keyword.backup_notm}} all'in
 ## Come ottenere ulteriore aiuto online
 {: #onlinehelp}
 
-I sistemi del portale {{site.data.keyword.backup_notm}} sono completamente documentati e il supporto per l'applicazione è accessibile nel portale {{site.data.keyword.backup_notm}}. Fai clic sul punto interrogativo bianco in un cerchio blu che si trova in alto a destra per **Help**. Fai clic su qualsiasi articolo o argomento nella barra di navigazione sul lato sinistro per visualizzare ulteriori informazioni.
+I sistemi del portale {{site.data.keyword.backup_notm}} sono completamente documentati e il supporto per l'applicazione è accessibile nel portale {{site.data.keyword.backup_notm}}. Fai clic sul punto interrogativo bianco in un cerchio blu per **Help**. Fai clic su qualsiasi articolo o argomento nella barra di navigazione per visualizzare ulteriori informazioni.

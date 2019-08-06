@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # Ripristino da un backup
 {: #simplerestore}
 
-Utilizza questa procedura per completare un ripristino di file con {{site.data.keyword.backup_full}}. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
+Utilizza questa procedura per completare un ripristino di file con {{site.data.keyword.backup_full}}. Per ripristinare un'immagine del sistema, segui le istruzioni di [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR).
 
 ## Avvio del portale {{site.data.keyword.backup_notm}}
 {: #startWebCCsimple}
@@ -27,14 +27,14 @@ Utilizza questa procedura per completare un ripristino di file con {{site.data.k
 Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottenere l'accesso alla rete privata {{site.data.keyword.cloud}}. In caso contrario, il link del portale {{site.data.keyword.backup_notm}} non funziona.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
+2. Fai clic su **Storage** > **Cloud Backup** per visualizzare i server con un servizio di backup.
 3. Seleziona il server in cui si trovano i file di cui eseguire il ripristino. Fai clic sulla freccia per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal** per avviare il client del portale {{site.data.keyword.backup_notm}} nel tuo browser.
 
 ## Ripristino dei tuoi dati
 
-1. Nel riquadro di navigazione a sinistra, fai clic su **All Agents**.
+1. Nel menu di navigazione, fai clic su **All Agents**.
 2. Fai clic sull'agent per visualizzare i lavori.
 3. Fai clic sul lavoro che contiene i dati desiderati.
 4. Fai clic su **Run Restore**.
@@ -44,7 +44,7 @@ Ricordati di avviare la tua connessione {{site.data.keyword.BluVPN}} per ottener
 8. Fai clic su **Next** per continuare.
 9. Seleziona le caselle di spunta accanto ai file e alle directory che vuoi includere. Fai quindi clic su **Include** per salvare le tue scelte.
 10. Puoi filtrare ulteriormente le tue selezioni utilizzando la finestra che appare o fare clic su **OK** per utilizzare le selezioni effettuate così come sono.
-Dopo aver incluso le tue scelte di file e directory, i file non possono più essere selezionati nel riquadro dei file di dati. Vengono visualizzati nel riquadro dell'insieme di backup sul lato destro.
+Dopo aver incluso le tue scelte di file e directory, i file non possono più essere selezionati nel riquadro dei file di dati. Vengono visualizzati nel riquadro dell'insieme di backup.
 
    Puoi ripetere il passo 10 per aggiungere altri file o per rimuovere i file che hai aggiunto precedentemente (utilizzando il pulsante **Exclude**). Puoi anche utilizzare **Remove** per eliminare qualsiasi voce dal riquadro **Backup Set**.
    {:tip}

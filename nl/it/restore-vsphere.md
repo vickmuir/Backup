@@ -68,7 +68,7 @@ I file e le cartelle sui dischi sono accessibili a chiunque nel sistema VRA, com
 5. Nella finestra di dialogo **Choose What You Want to Restore**, seleziona **Files and Folders**.
 6. Fai clic su **Continue**. La finestra di dialogo per il ripristino mostra il set sicuro più recente per il lavoro.
   * Per ripristinare i dati da un'altra risorsa, fai clic sull'origine nell'elenco Source Device (archivio).
-  * Per ripristinare da un set sicuro meno recente, fai clic sul pulsante Browse Safesets. Nel calendario che viene visualizzato, fai clic sulla data del set sicuro da cui desideri eseguire il ripristino. A destra del calendario, fai clic sullo specifico set sicuro da cui eseguire il ripristino.
+  * Per ripristinare da un set sicuro meno recente, fai clic sul pulsante Browse Safesets. Nel calendario che viene visualizzato, fai clic sulla data del set sicuro da cui desideri eseguire il ripristino. Successivamente, fai clic sullo specifico set sicuro da cui eseguire il ripristino.
 7. Nel pannello **Items to Restore**, seleziona la VM con i file e le cartelle che vuoi ripristinare.
 8. Nel campo **Encryption Password**, immetti la password di crittografia dei dati.
 9. Nel **campo Idle Time**, immetti il numero di minuti di inattività dopo i quali l'unità di condivisione deve rimuovere automaticamente la condivisione. Il tempo di inattività può andare da 2 a 180 minuti.

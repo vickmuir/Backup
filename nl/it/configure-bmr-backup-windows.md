@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -28,9 +28,9 @@ Per creare un backup BMR devi acquistare il plugin BMR. BMR è disponibile solo 
 Devi essere connesso alla rete privata {{site.data.keyword.cloud}} per poter avviare il portale {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con i servizi di backup.
-3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
+2. Fai clic su **Storage** > **Cloud Backup** per visualizzare i server con i servizi di backup.
+3. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic su **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
    Se il portale {{site.data.keyword.backup_notm}} non si avvia, potresti avere un problema con la tua connessione VPN. Potresti anche vedere un messaggio che indica che il modulo che stai inviando non è sicuro. Questo messaggio è previsto e puoi procedere con l'invio del modulo.
@@ -38,14 +38,14 @@ Devi essere connesso alla rete privata {{site.data.keyword.cloud}} per poter avv
 
 ## Configurazione di un lavoro di backup BMR
 
-1. Nel riquadro di navigazione a sinistra, fai clic su **All Agents** per visualizzare gli agent {{site.data.keyword.backup_notm}} correnti.
+1. Nel menu di navigazione, fai clic su **All Agents** per visualizzare gli agent {{site.data.keyword.backup_notm}} correnti.
 2. Fai clic su **This is a new Agent I would like to configure**.
 3. Immetti un nome e una descrizione per il lavoro che stai creando.
 4. Per **Backup Source Type**, seleziona il tipo di file system e fai quindi clic su **Next**
 5. Viene visualizzato il menu **Job Type Selection**. Seleziona la casella accanto a **Bare Metal Restore** e fai clic su **Next** per continuare.
 6. Fai clic su **Yes** nelle finestre di conferma.
 7. La schermata mostra che il nuovo lavoro è ora nell'insieme di backup. Fai clic su **Next**.
-8. La schermata visualizza le opzioni di crittografia e le opzioni di backup avanzate. Normalmente queste opzioni non sono necessarie. Fai clic su **Next**.   
+8. La schermata visualizza le opzioni di crittografia e le opzioni di backup avanzate. Normalmente queste opzioni non sono necessarie. Fai clic su **Next**.
 9. Nella pagina **Create a schedule**, hai due scelte.
    - Fai clic su **Next** per creare un lavoro manuale e procedi all'esecuzione del nuovo lavoro.
    - Fai clic su **Add** per pianificare un lavoro di backup basato sul tempo.

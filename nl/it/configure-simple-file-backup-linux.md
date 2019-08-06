@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,9 +24,9 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 ## Avvio del portale {{site.data.keyword.backup_notm}}
 {: #startWebCCconfigLin}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-2. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione che punta a destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
+2. Fai clic su **Storage** > **Cloud Backup** per visualizzare i server con un servizio di backup.
+2. Seleziona il server in cui si trovano i file di cui eseguire il backup. Fai clic sulla freccia di espansione per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 3. Avvia la tua connessione VPN per ottenere l'accesso alla rete privata IBM.
 4. Fai clic sul link {{site.data.keyword.backup_notm}} portal Login per avviare il client del portale nel tuo browser.<br/>
 
@@ -35,14 +35,14 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
 
 ## Configurazione di un lavoro di backup
 
-1. Nel riquadro di navigazione, fai clic su **All Agents** per visualizzare gli agent {{site.data.keyword.backup_notm}} correnti
+1. Nel menu di navigazione, fai clic su **All Agents** per visualizzare gli agent {{site.data.keyword.backup_notm}} correnti.
 2. Fai clic su **This is a new Agent I would like to configure**.
 3. Immetti un nome e una descrizione per il lavoro che stai creando.
 4. Per **Backup Source Type**, seleziona il tipo di file system di cui vuoi eseguire il backup.
 5. Fai clic su **Next** per continuare.
 6. Nel riquadro dei file di dati, vai ai file e alle directory che vuoi includere nel tuo backup facendo clic sui simboli **+** e **-** accanto alle icone cartella.
 7. Seleziona le caselle di spunta accanto ai file e alle directory che vuoi includere, quindi fai clic su **Include** per salvare le tue scelte.
-8. Puoi filtrare ulteriormente le tue selezioni utilizzando la schermata a comparsa che appare o fare clic su **OK** per utilizzare le selezioni effettuate così come sono. Dopo aver incluso le tue scelte di file e directory, i file e le directory selezionati vengono visualizzati nel riquadro dell'insieme di backup sul lato destro della schermata. Fai clic su **Next** per continuare.
+8. Puoi filtrare ulteriormente le tue selezioni utilizzando la schermata a comparsa che appare o fare clic su **OK** per utilizzare le selezioni effettuate così come sono. Dopo aver incluso le tue scelte di file e directory, i file e le directory selezionati vengono visualizzati nel riquadro dell'insieme di backup. Fai clic su **Next** per continuare.
 
    Puoi ripetere i passi da 6 a 8 per aggiungere altri file o per rimuovere i file che hai precedentemente aggiunto (utilizzando **Exclude**). Puoi anche utilizzare **Remove** per eliminare qualsiasi voce dal riquadro dell'insieme di backup. Dopo aver configurato il tuo insieme di backup nel modo desiderato,
    {:tip}
@@ -65,7 +65,7 @@ Una volta che hai ordinato {{site.data.keyword.backup_full}} e che l'agent è in
   - Seleziona il tuo schema di conservazione. Per ulteriori informazioni sugli schemi di conservazione, vedi le [Domande frequenti (FAQ)](/docs/infrastructure/Backup?topic=Backup-faqs).
   - Fai clic su **Advanced Schedule Options** per ulteriori opzioni di configurazione. Puoi selezionare **Use Deferring** per impedire l'esecuzione di backup di grandi dimensioni nei momenti di picco della rete.
 
-    Quando l'opzione di differimento è abilitata, il lavoro di backup non esegue il backup di nuovi dati dopo il periodo di tempo specificato. Esegue il commit del set sicuro nell'archivio, anche se alcuni dati nel lavoro non vengono sottoposti a backup. Le modifiche ai dati che sono state salvate in precedenza vengono sottoposte a backup, indipendentemente dal periodo di tempo specificato. <br/> Quando il lavoro viene eseguito nuovamente, l'agent verifica la presenza di modifiche nei dati di cui è già stato eseguito il backup, esegue il backup di tali modifiche e quindi esegue il backup dei dati rimanenti. Se un lavoro di backup viene rinviato mentre viene eseguito il backup di un elemento, il backup per quell'elemento è incompleto e i dati dell'elemento non possono essere ripristinati. Tuttavia, puoi ripristinare gli elementi di cui è stato eseguito il backup prima che il lavoro fosse rinviato.
+    Quando l'opzione di differimento è abilitata, il lavoro di backup non esegue il backup di nuovi dati dopo il periodo di tempo specificato. Esegue il commit del set sicuro nell'archivio, anche se alcuni dati nel lavoro non vengono sottoposti a backup. Le modifiche ai dati di cui è stato eseguito il backup in precedenza vengono sottoposte a backup, indipendentemente dal periodo di tempo specificato. <br/> Quando il lavoro viene eseguito nuovamente, l'agent verifica la presenza di modifiche nei dati di cui è già stato eseguito il backup, esegue il backup di tali modifiche e quindi esegue il backup dei dati rimanenti. Se un lavoro di backup viene rinviato mentre viene eseguito il backup di un elemento, il backup per quell'elemento è incompleto e i dati dell'elemento non possono essere ripristinati. Tuttavia, puoi ripristinare gli elementi di cui è stato eseguito il backup prima che il lavoro fosse rinviato.
     {:note}
 13. Dopo aver configurato la tua pianificazione di backup, fai clic su **Ok** per salvarla. Il tuo lavoro pianificato viene aggiunto all'elenco di lavori pianificati.
   - Puoi ripetere il passo 12 per pianificare ulteriori backup.

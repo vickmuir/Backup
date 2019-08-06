@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -19,9 +19,9 @@ subcollection: Backup
 # Informazioni sul plug-in Bare Metal Restore
 {: #BMRplugin}
 
-BMR è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per ripristinare il server da uno stato bare metal quando si verifica un'emergenza, ad esempio quando si verifica un malfunzionamento del sistema operativo o hardware. Con BMR, puoi ripristinare rapidamente l'immagine del sistema da un'ubicazione sicura e protetta gestita da {{site.data.keyword.cloud}}.
+Bare Metal Restore è una soluzione di ripristino di emergenza. Puoi utilizzare BMR per ripristinare il server da uno stato bare metal quando si verifica un'emergenza, ad esempio quando si verifica un malfunzionamento del sistema operativo o hardware. Con BMR, puoi ripristinare rapidamente l'immagine del sistema da un'ubicazione sicura e protetta gestita da {{site.data.keyword.cloud}}.
 
-BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponibile per i server virtuali. I ripristini bare metal per le distribuzioni Linux non sono supportati. BMR è supportato solo da agent Backup 8.30 o versioni precedenti. (30 giungo 2018).
+BMR è un prodotto solo per Windows sui server fisici. Non è disponibile per i server virtuali. I ripristini bare metal per le distribuzioni Linux non sono supportati.
 {:important}
 
 ## Capacità fornite
@@ -30,7 +30,7 @@ BMR è un prodotto solo per Microsoft Windows sui server fisici. Non è disponib
 - Ripristina il tuo sistema in un momento specifico.
 - Ripristina il tuo sistema da backup di immagini o file.
 - Ripristina il tuo sistema dai backup che sono memorizzati su {{site.data.keyword.backup_notm}}.
-- Una transazione di ripristino avviabile che puoi utilizzare per ripristinare i tuoi dati senza un sistema di avvio.
+- Avvia una transazione di ripristino che puoi utilizzare per ripristinare i tuoi dati senza un sistema di avvio.
 
 ## Installazione del plug-in BMR
 {: #installingBMR}

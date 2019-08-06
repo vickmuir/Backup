@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,7 +41,7 @@ Il backup nelle ubicazioni di data center remoti potrebbe richiedere più tempo 
 Devi aggiungere il nuovo archivio remoto all'account prima che sia possibile aggiungere una nuova ubicazione di backup nel portale {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
 2. Fai clic su **Devices**
 3. Individua e fai clic sul collegamento per il server in questione.
 4. In **Device Details**, fai clic su **Storage**.
@@ -56,15 +56,15 @@ Al termine del processo di ordine, passa a **Storage** > **Backup** per vedere i
 
 ## Aggiunta di un archivio supplementare nel portale {{site.data.keyword.backup_notm}}
 
-1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e fai clic sull'icona **menu** nell'angolo superiore sinistro. Seleziona **Infrastruttura classica**.
-2. Fai clic su **Storage** > **Backup** per visualizzare i server con un servizio di backup.
-3. Seleziona il server per cui vuoi essere in grado di eseguire il backup in più archivi. Fai clic sulla freccia che punta verso destra per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
+1. Accedi alla [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dal menu di navigazione, seleziona **Classic Infrastructure**.
+2. Fai clic su **Storage** > **Cloud Backup** per visualizzare i server con un servizio di backup.
+3. Seleziona il server per cui vuoi essere in grado di eseguire il backup in più archivi. Fai clic sulla freccia per visualizzare il link del portale {{site.data.keyword.backup_notm}}.
 4. Fai clic sul link **{{site.data.keyword.backup_notm}} portal Login** per avviare il client del portale nel tuo browser.
 
    Il portale {{site.data.keyword.backup_notm}} è accessibile solo tramite {{site.data.keyword.BluVPN}}.
    {:tip}
-5. Nel riquadro di navigazione a sinistra, fai clic su **All Agents**.
-6. In alto a destra, fai clic su **Edit** e seleziona **Vault Settings**.
+5. Nel riquadro di navigazione, fai clic su **All Agents**.
+6. Fai clic su **Edit** e seleziona **Vault Settings**.
 7. Nella finestra **Vault Settings**, fai clic su **Add**.
 8. Nella finestra **New Vault** ,
   1. Nel menu Vault Profile, scegli **Enter Vault Settings** per creare una nuova voce. Non aggiornare la voce esistente, non funziona.
