@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,7 @@ subcollection: Backup
 - [サーバーの注文時におけるバックアップの購入](#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](#purchasingasupgrade)
 
-価格設定について詳しくは、[{{site.data.keyword.backup_notm}} ストレージ](https://www.ibm.com/cloud/backup-and-restore){: external} および [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
+{{site.data.keyword.backup_notm}} の使用量は、ボールト・サイズに基づいて月単位で請求されます。価格設定について詳しくは、[{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} および [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。{:important}
 
 ## サーバーの注文時における {{site.data.keyword.backup_notm}} の購入
 {: #purchasingwithserver}
@@ -39,7 +39,7 @@ subcollection: Backup
    3. サーバー構成と OS イメージのタイプを選択します。 複数のアドオンを選択することもできます。
    4. **「ストレージ・ディスク」**セクションで**「アドオン」**をクリックし、**「{{site.data.keyword.backup_notm}}」**を選択します。 必要な条件に一致するオプションを選択します。
    5. **「ネットワーク・インターフェース」**の下から、必要なアップリンク・ポート速度とアドオンを選択します。
-3. 右側で、注文の要約を確認します。
+3. 次に、注文の要約を確認します。
 4. ご使用条件を確認した後、**「サード・パーティー・サービス契約を読み、同意します」**ボックスにチェック・マークを付けます。
 5. **「プロビジョン」**をクリックします。 プロビジョニング注文番号が表示された画面にリダイレクトされます。 これはプロビジョニング注文の受信も兼ねているので、画面を印刷することができます。
 
@@ -49,7 +49,7 @@ subcollection: Backup
 プロビジョニング注文の受領確認、プロビジョニング注文の承認と処理、およびプロビジョニングの完了といった一連の E メールが管理者に送信されます。 プロビジョニングの完了 E メールには、*[デバイスの詳細」*ページへのリンクが記載されています。このページには、{{site.data.keyword.cloud_notm}} にログインした後にアクセスできます。 また、{{site.data.keyword.cloud_notm}} コンソールに直接ログインすることもできます。
 
 ### {{site.data.keyword.backup_notm}} 購入の確認
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external} で、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
 2. **「デバイス」**>**「デバイス・リスト」**をクリックします。
 2. 注文した新規サーバーを見つけます。
   - URL の横に時計アイコンがある場合は、{{site.data.keyword.backup_notm}} の購入確認に進む前に待つ必要があります。 ページを最新表示して、新規サーバーに関する状況が更新されるか確認します。 時計アイコンが表示されなくなったら、{{site.data.keyword.backup_notm}} サービスの購入を確認する以降のステップに進むことができます。
@@ -62,7 +62,7 @@ subcollection: Backup
 
 ### {{site.data.keyword.backup_notm}} をインストールするサーバーの選択
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
 2. メインメニューから**「デバイス」** > **「デバイス・リスト」**を選択します。 バックアップ・サービスを追加するデバイスを検索します。
 3. デバイス名をクリックして、**「デバイスの詳細」**ページに進みます。
 

@@ -57,7 +57,7 @@ subcollection: Backup
 
 ## Central Control の構成
 
-このタスクは、{{site.data.keyword.backup_notm}}・サービス用に指定されているサーバーにログインしている間に一連の対話式作業を行うことによって完了します。
+このタスクは、{{site.data.keyword.backup_notm}} サービス用に指定されているサーバーにログインしている間に一連の対話式作業を行うことによって完了します。
 
 1. RDP を介してサーバーをリモート制御します。
 2. Central Control を開始します。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ subcollection: Backup
 
    {{site.data.keyword.backup_notm}} ポータルには、{{site.data.keyword.BluVPN}} を介してのみアクセスできることを忘れないでください。
    {:tip}
-2. 左側にある**「すべてのエージェント」**をクリックします。
-3. 右上で、**「編集」**をマウスオーバーします。
+2. **「すべてのエージェント」**をクリックします。
+3. **「編集」**をマウスオーバーします。
 4. **「ボールト設定 (Vault Settings)」**を選択します。
 5. **「再登録 (Reregister)」**をクリックします。
 6. フォームに入力します。

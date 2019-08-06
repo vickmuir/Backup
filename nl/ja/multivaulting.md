@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,7 +41,7 @@ subcollection: Backup
 {{site.data.keyword.backup_notm}} ポータルに新しいバックアップの場所を追加できるようにするには、事前に、新規のリモート・ボールトをアカウントに追加する必要があります。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
 2. **「デバイス」**をクリックします。
 3. 目的のサーバーのリンクを見つけてクリックします。
 4. **「デバイスの詳細」**で、**「ストレージ」**をクリックします。
@@ -56,15 +56,15 @@ subcollection: Backup
 
 ## {{site.data.keyword.backup_notm}} ポータルでのボールトの追加
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
-3. マルチボールトにバックアップできるようにするサーバーを選択します。 右向き矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
+2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+3. マルチボールトにバックアップできるようにするサーバーを選択します。 矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**リンクをクリックし、ブラウザーでポータル・クライアントを開始します。
 
    {{site.data.keyword.backup_notm}} ポータルには {{site.data.keyword.BluVPN}} を介してのみアクセス可能です。
    {:tip}
-5. 左のナビゲーション・ペインで**「すべてのエージェント」**をクリックします。
-6. 右上にある **「編集」**をクリックし。**「ボールト設定 (Vault Settings)」**を選択します。
+5. ナビゲーション・ペインで**「すべてのエージェント」**をクリックします。
+6. **「編集」**をクリックし、**「ボールト設定 (Vault Settings)」**を選択します。
 7. **「ボールト設定 (Vault Settings)」**ウィンドウで**「追加」**をクリックします。
 8. **「新規ボールト (New Vault)」**ウィンドウで以下のようにします。
   1. 「ボールト・プロファイル (Vault Profile)」メニューで、**「ボールト設定の入力 (Enter Vault Settings)」**を選択して新規エントリーを作成します。 既存のエントリーを更新しないでください。更新すると正常に機能しません。

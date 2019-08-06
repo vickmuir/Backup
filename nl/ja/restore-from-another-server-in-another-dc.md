@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -26,7 +26,7 @@ subcollection: Backup
 
 **前提条件**
 
-- Server1 と Server2 が同じ OS を搭載していること。 クロスプラットフォーム・リストアはサポートされていません。
+- Server1 と Server2 が同じオペレーティング・システムを搭載していること。クロスプラットフォーム・リストアはサポートされていません。
 - Server1 と Server2 でバックアップ・エージェントが構成済みであること。 バックアップ・エージェントの構成について詳しくは、[{{site.data.keyword.backup_notm}} ポータルでのバックアップ・エージェントの構成](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started)を参照してください。
 - Server1 のバックアップ・ジョブにより、Server1 のボールトの場所にバックアップが作成されていること。
 
@@ -39,9 +39,9 @@ subcollection: Backup
 {{site.data.keyword.cloud}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。このようにしないと {{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:tip}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
-3. Server2 を選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
+2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+3. Server2 を選択します。 展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## ボールトの再登録
@@ -74,12 +74,12 @@ subcollection: Backup
   - ジョブ - Server1 のバックアップ・ジョブを選択します。
 8. **「次へ」**をクリックし、別のデータ・センターにある Server2 へのリストア・プロセスを開始します。
 9. プロンプトでバックアップ・パスワードを入力し、**「次へ」**をクリックします。
-10. 正しいバックアップ・ジョブが選択されていることを確認し、**「次へ」**をクリックします。 これで、Server2 でリストア・ジョブが構成されました。
+10. 正しいバックアップ・ジョブが選択されていることを確認し、**「次へ」**をクリックします。これで、Server2 でリストア・ジョブが構成されました。
 11. 新たに構成したジョブを選択し、**「リストアの実行 (Run Restore)」**をクリックします。
 12. リストアするファイルを選択します。
 13. 正符号をクリックして、ファイル選択を展開します。
 14. Server1 から Server2 にリストアする個々のファイルまたはフォルダーのチェック・ボックスをクリックします。 次に**「追加 (Include)」**をクリックします。
-15. 右側の「バックアップ・セット (Backup Set)」ウィンドウにファイルが取り込まれます。 **「次へ」**をクリックします。
+15. 「バックアップ・セット (Backup Set)」ウィンドウにファイルが取り込まれます。**「次へ」**をクリックします。
 16. データの選択が完了したら、オプションの選択に進みます。
     - **「元の場所にリストアする (Restore to the original location)」**を選択します。
     - **「既存のファイルを上書きする (Overwrite existing files)」**を選択します。

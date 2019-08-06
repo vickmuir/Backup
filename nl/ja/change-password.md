@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -28,7 +28,7 @@ subcollection: Backup
 
 ## パスワードの変更
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/catalog){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
 2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. ボールトの行の任意の場所をクリックし、ビューを展開します。
 4. **「表示」**をクリックして、現在のパスワードを表示します。

@@ -17,7 +17,7 @@ subcollection: Backup
 # Windows 版バックアップ・ソフトウェア・エージェントのアップグレード
 {: #UpgradeinWindows}
 
-最新のバックアップ・エージェントを、{{site.data.keyword.backup_notm}}・ポータルの「ダッシュボード」クイック・リンク・セクションからダウンロードできます。
+最新のバックアップ・エージェントを、{{site.data.keyword.backup_notm}} ポータルの「ダッシュボード」クイック・リンク・セクションからダウンロードできます。
 {:tip}
 
 1. {{site.data.keyword.backup_notm}} のアップグレードが必要な {{site.data.keyword.cloud}} サーバーをリモート制御します。

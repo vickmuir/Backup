@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -24,8 +24,8 @@ subcollection: Backup
 
 ## 増量の注文
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
+2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. 拡大するボールトを選択します。
 4. **「アクション」**をクリックし、**「{{site.data.keyword.backup_notm}} の変更」**を選択します。
 5. 次の画面で新しいサイズを選択し、**「アップグレード (Upgrade)」**をクリックします。

@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,12 +31,13 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 - [サーバーの注文時におけるバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)
 - [アップグレードとしてのバックアップの購入](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)
 
-ご注文と価格について詳しくは、 [{{site.data.keyword.backup_notm}} のプロビジョニング](/docs/infrastructure/Backup?topic=Backup-ordering) を参照してください。
+ご注文について詳しくは、 [{{site.data.keyword.backup_notm}} のプロビジョニング](/docs/infrastructure/Backup?topic=Backup-ordering) を参照してください。価格設定について詳しくは、[{{site.data.keyword.backup_notm}}: Pricing ](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
+
 
 ## {{site.data.keyword.backup_notm}} エージェントのインストール
 {: #installagentgettingstarted}
 
-{{site.data.keyword.backup_notm}} エージェントは以下の OS でサポートされています。
+{{site.data.keyword.backup_notm}} エージェントは以下のオペレーティング・システムでサポートされています。
 
 **Windows**
  - Windows Server 2016
@@ -60,7 +61,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 - [Linux でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Windows でのバックアップ・クライアントのインストール](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-## {{site.data.keyword.backup_notm}}・ポータル (旧称 WebCC) へのアクセス
+## {{site.data.keyword.backup_notm}} ポータル (旧称 WebCC) へのアクセス
 {: #accessingWebCC}
 
 {{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} が提供する {{site.data.keyword.backup_notm}} サービスとの対話式操作に使用されます。 {{site.data.keyword.backup_notm}} ポータルは、{{site.data.keyword.cloud}} プライベート・ネットワークで実行されるブラウザー・ベースのクライアントであり、これによって、構成やリストアなどすべての {{site.data.keyword.backup_notm}} サービスを完全に制御することができます。
@@ -69,9 +70,9 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
    パブリック・ネットワーク上で {{site.data.keyword.backup_notm}} ポータルにアクセスすることはできません。 VPN 接続を最初に確立する必要があります。
    {:important}
-2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
-3. バックアップ対象のファイルが存在するサーバーを選択します。 右向きの展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
+2. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
+2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+3. バックアップ対象のファイルが存在するサーバーを選択します。 展開矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
 4. **「{{site.data.keyword.backup_notm}} ポータル・ログイン」**をクリックし、ブラウザーでポータル・クライアントを開始します。
 
 ## バックアップ・エージェントとバックアップ・スケジュールの構成
@@ -120,7 +121,7 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 
 サービスのストレージに関する詳細は、いつでも [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}/classic/storage/backup){: external}で確認できます。 確認できる詳細には、選択されている {{site.data.keyword.backup_notm}} サービスに関連付けられているパスワード、ストレージ・アドレス、および使用状況などがあります。
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
 2. **「ストレージ」**をクリックし、リストから**「バックアップ」**を選択します。
 2. ストレージの詳細を確認するボールトの行の任意の位置をクリックします。 このビューでは「パスワード」は表示可能ではありません。
 3. **「パスワード」**フィールドの横にある**「表示」**チェック・ボックスをクリックし、選択した {{site.data.keyword.backup_notm}} サービスのパスワードを表示します。
@@ -131,4 +132,4 @@ IBM Cloud Backup の利用は有効なライセンスが必要です。 {{site.d
 ## その他のオンライン・ヘルプの表示
 {: #onlinehelp}
 
-{{site.data.keyword.backup_notm}} ポータルのシステムは完全に文書化されており、アプリケーションのサポートには {{site.data.keyword.backup_notm}} ポータル内からアクセス可能です。 **「ヘルプ」**を表示するには、右上にある青い円の中の白い疑問符をクリックします。 左側にあるナビゲーション・バーで任意の記事やトピックをクリックすると、詳細情報が表示されます。
+{{site.data.keyword.backup_notm}} ポータルのシステムは完全に文書化されており、アプリケーションのサポートには {{site.data.keyword.backup_notm}} ポータル内からアクセス可能です。 **「ヘルプ」**を表示するには、青い円の中の白い疑問符をクリックします。 ナビゲーション・バーで任意の記事やトピックをクリックすると、詳細情報が表示されます。

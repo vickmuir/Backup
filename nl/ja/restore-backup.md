@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, restore
 
@@ -19,7 +19,7 @@ subcollection: Backup
 # バックアップからのリストア
 {: #simplerestore}
 
-{{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](https://cloud.ibm.com/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) の手順に従ってください。
+{{site.data.keyword.backup_full}} でファイル・リストアを実行するには、以下の手順に従います。 システム・イメージをリストアするには、[Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) の手順に従ってください。
 
 ## {{site.data.keyword.backup_notm}} ポータルの開始
 {: #startWebCCsimple}
@@ -27,14 +27,14 @@ subcollection: Backup
 {{site.data.keyword.cloud}} プライベート・ネットワークにアクセスするには、{{site.data.keyword.BluVPN}} 接続を開始してください。 開始しないと、{{site.data.keyword.backup_notm}} ポータル・リンクが機能しません。
 {:important}
 
-1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインして、左上にある**「メニュー」**アイコンをクリックします。 **「クラシック・インフラストラクチャー」**を選択します。
-2. **「ストレージ」**>**「バックアップ」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
+1. [{{site.data.keyword.cloud_notm}} コンソール](https://{DomainName}){: external}にログインします。ナビゲーション・メニューから、**「クラシック・インフラストラクチャー」**を選択します。
+2. **「ストレージ」**>**「クラウド・バックアップ (Cloud Backup)」**をクリックして、バックアップ・サービスを備えたサーバーを表示します。
 3. リストア対象のファイルが存在するサーバーを選択します。 矢印をクリックし、{{site.data.keyword.backup_notm}} ポータル・リンクを表示します。
-4. **「IBM Cloud バックアップ・ポータル ({{site.data.keyword.backup_notm}} portal)」**をクリックし、ブラウザーで {{site.data.keyword.backup_notm}}・ポータル・クライアントを開始します。
+4. **「IBM Cloud Backup ポータル ({{site.data.keyword.backup_notm}} portal)」**をクリックし、ブラウザーで {{site.data.keyword.backup_notm}} ポータル・クライアントを開始します。
 
 ## データのリストア
 
-1. 左のナビゲーション・ペインで**「すべてのエージェント」**をクリックします。
+1. ナビゲーションで、**「すべてのエージェント」**をクリックします。
 2. 「エージェント」をクリックし、ジョブを表示します。
 3. 必要なデータが格納されているジョブをクリックします。
 4. **「リストアの実行 (Run Restore)」**をクリックします。
@@ -44,7 +44,7 @@ subcollection: Backup
 8. **「次へ」**をクリックして先に進みます。
 9. 含めるファイルとディレクトリーの横にあるチェック・ボックスを選択します。 次に、**「含める (Include)」**をクリックして選択項目を保存します。
 10. 表示されるウィンドウを使用して、選択内容をさらにフィルタリングできます。選択内容をそのまま使用する場合は**「OK」**をクリックします。
-ファイルとディレクトリーを選択して含めた後は、データ・ファイル・ペインでそれ以上ファイルを選択できなくなります。 それらは、右側のバックアップ・セット・ペインに表示されます。
+ファイルとディレクトリーを選択して含めた後は、データ・ファイル・ペインでそれ以上ファイルを選択できなくなります。 それらは、バックアップ・セット・ペインに表示されます。
 
    ステップ 10 を繰り返して、ファイルを追加するか、以前に追加したファイルを (**「除外 (Exclude)」**を使用して) 削除することができます。 また、**「削除」**を使用して**「バックアップ・セット (Backup Set)」**ペインから任意の行アイテムを削除することもできます。
    {:tip}

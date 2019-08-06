@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -91,6 +91,7 @@ subcollection: Backup
 <hr>
 
 ## 価格に関する情報はどこで確認できますか。
+{: #pricing}
 {: faq}
 
 詳しくは、[Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} および [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external} を参照してください。
@@ -127,14 +128,14 @@ subcollection: Backup
 ## BMR プラグインを使用する場合、元のボリュームより大きいディスクにイメージをリストアすると、どうなりますか?
 {: faq}
 
-元のボリュームより大きいディスクにイメージをリストアする場合、残りのスペースの割り振りが解除されます。 このため、例えばドライブが 500 GB の場合にそのデータを 1 TB のディスクにリストアすると、500 GB のディスク・スペースが未割り振りになることになります。 Windows 2008 では、組み込みのディスク・ユーティリティーを使用して 1 次区画を拡大できます。 ただし Windows 2003 には類似した組み込み機能がないため、スペースを別の方法で割り振る必要があります。
+元のボリュームより大きいディスクにイメージをリストアする場合、残りのスペースの割り振りが解除されます。このため、例えばドライブが 500 GB の場合にそのデータを 1 TB のディスクにリストアすると、500 GB のディスク・スペースが未割り振りになることになります。 Windows 2008 では、組み込みのディスク・ユーティリティーを使用して 1 次区画を拡大できます。 ただし Windows 2003 には類似した組み込み機能がないため、スペースを別の方法で割り振る必要があります。
 
 <hr>
 
 ## 定期的なバックアップに BMR を使用できますか。
 {: faq}
 
-BMR バックアップはディスク・イメージではなく、システム・ボリューム・イメージのバックアップ・システムです。 このシステムは定期的なバックアップのために使用するのではなく、定期的なバックアップと連携して使用することを意図しています。  
+BMR バックアップはディスク・イメージではなく、システム・ボリューム・イメージのバックアップ・システムです。 このシステムは定期的なバックアップのために使用するのではなく、定期的なバックアップと連携して使用することを意図しています。
 
 <hr>
 
