@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -28,9 +28,9 @@ subcollection: Backup
 您需要连接到 {{site.data.keyword.cloud}} 专用网络才能启动 {{site.data.keyword.backup_notm}} 门户网站。
 {:important}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-2. 单击**存储** > **备份**以显示具有备份服务的服务器。
-3. 选择要备份的文件所在的服务器。单击指向右方的展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
+2. 单击**存储** > **Cloud Backup** 以显示具有备份服务的服务器。
+3. 选择要备份的文件所在的服务器。单击展开箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**，以在浏览器中启动门户网站客户机。
 
    如果 {{site.data.keyword.backup_notm}} 门户网站未启动，那么可能是 VPN 连接存在问题。您还可能会看到一条消息，指示您要发送的表单不安全。这是预期行为 - 请通过发送表单以继续。
@@ -38,14 +38,14 @@ subcollection: Backup
 
 ## 配置 BMR 备份作业
 
-1. 在左侧导航窗格中，单击**所有代理程序**以显示当前的 {{site.data.keyword.backup_notm}} 代理程序。
+1. 在导航中，单击**所有代理程序**以显示当前的 {{site.data.keyword.backup_notm}} 代理程序。
 2. 单击**这是我要配置的新代理程序**。
 3. 输入您正在创建的作业的“作业名”和“作业描述”。
 4. 对于**备份源类型**，请选择文件系统类型，然后单击**下一步**
 5. 这将显示**作业类型选择**菜单。选中**裸机复原**旁边的框，然后单击**下一步**以继续。
 6. 在“确认”窗口上单击**是**。
 7. 屏幕将显示新作业现在位于备份集内。单击**下一步**。
-8. 屏幕将显示加密选项和高级备份选项。通常情况下，不需要这些选项。单击**下一步**。   
+8. 屏幕将显示加密选项和高级备份选项。通常情况下，不需要这些选项。单击**下一步**。
 9. 在**创建安排**页面上，您有两个选项。
    - 单击**下一步**以创建手动作业，然后继续运行新作业。
    - 单击**添加**以安排基于时间的备份作业。

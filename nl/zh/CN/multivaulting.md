@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,7 +41,7 @@ subcollection: Backup
 在 {{site.data.keyword.backup_notm}} 门户网站中添加新的备份位置之前，必须先将新的远程保险库添加到帐户中。
 {:important}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
 2. 单击**设备**
 3. 找到并单击相关服务器的链接。
 4. 在**设备详细信息**下，单击**存储**。
@@ -56,15 +56,15 @@ subcollection: Backup
 
 ## 在 {{site.data.keyword.backup_notm}} 门户网站中添加其他保险库
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-2. 单击**存储** > **备份**以显示具有备份服务的服务器。
-3. 选择您希望能够备份到多个保险库的服务器。单击向右箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
+2. 单击**存储** > **Cloud 备份** 以显示具有备份服务的服务器。
+3. 选择您希望能够备份到多个保险库的服务器。单击箭头以显示 {{site.data.keyword.backup_notm}} 门户网站链接。
 4. 单击 **{{site.data.keyword.backup_notm}} 门户网站登录**链接，以在浏览器中启动门户网站客户机。
 
    {{site.data.keyword.backup_notm}} 门户网站只能通过 {{site.data.keyword.BluVPN}} 进行访问。
    {:tip}
-5. 在左侧导航窗格中，单击**所有代理程序**。
-6. 单击右上角的**编辑**，然后选择**保险库设置**。
+5. 在导航窗格中，单击**所有代理程序**。
+6. 单击**编辑**，然后选择**保险库设置**。
 7. 在**保险库设置**窗口中，单击**添加**。
 8. 在**新建保险库**窗口中：
   1. 在“保险库概要文件”菜单中，选择**输入保险库设置**来创建新条目。不要更新现有条目，这样做是没用的。

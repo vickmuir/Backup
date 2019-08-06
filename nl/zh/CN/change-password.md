@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -28,7 +28,7 @@ subcollection: Backup
 
 ## 更改密码
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}/catalog){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
 2. 单击**存储** > **Cloud 备份** 以显示具有备份服务的服务器。
 3. 单击保险库所在行上的任意位置以展开视图。
 4. 单击**显示**以查看当前密码。

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # 在 Linux 中安装备份客户机
 {: #InstallinLinux}
 
-要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何基于 Linux 的操作系统上安装客户机所需的步骤：
+要在基于 Linux 的操作系统上安装 {{site.data.keyword.backup_full}} 客户机，可通过在操作系统的 shell 或终端中运行一系列命令来完成。此过程概述了在以下任何操作系统上安装客户机所需的步骤：
 
 - RHEL
 - CentOS
@@ -37,13 +37,13 @@ subcollection: Backup
 ## 登录到目标设备服务器
 {: #logintargetLin}
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
 2. 从主菜单中选择**设备** > **设备列表**以查看可用服务器设备的列表。
 3. 找到为其购买 {{site.data.keyword.backup_notm}} 服务的设备，并记下其公共 IP 地址。
-  - 在以下步骤中，从 Unix 或 Linux 命令行登录到设备时要使用此 IP 地址。在步骤 5 所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
-4. 单击向右箭头以显示有关设备的更多信息，包括用户名和密码。
+  - 从命令行登录到该设备时要使用此 IP 地址。在步骤 5 所示的命令中，将 <publicIpAddress> 替换为实际的公共 IP 地址。
+4. 单击箭头以显示有关设备的更多信息，包括用户名和密码。
   - 如果未显示密码，可通过单击**显示密码**来显示密码。在下一步中，将使用该用户名和密码来登录到测试设备。将 `<user name>` 替换为实际的用户名。
-5. 通过在 Unix 或 Linux 命令行中输入以下命令，登录到目标设备。
+5. 通过在命令行中输入以下命令，登录到目标设备。
    ```
   ssh <user name>@<publicIpAddress>
   ```
@@ -56,7 +56,7 @@ subcollection: Backup
 
 ## 更新操作系统以准备安装（仅针对 RHEL）
 
-此步骤对于 RHEL 是必需的，但是对于其他 Linux 分发版是可选的。
+此步骤对于 RHEL 是必需的，但是对于其他分发版是可选的。
 {:tip}
 
 - 在服务器提示符处运行以下命令。
@@ -103,7 +103,7 @@ subcollection: Backup
 
 ## 验证安装是否成功
 
-1. 验证安装输出中是否显示“已注册到门户网站”的消息。可通过在屏幕上查找该消息或通过检查以下命令的输出来完成验证。
+1. 验证安装输出中是否显示 `Registered to The Portal` 消息。可通过在屏幕上查找该消息或通过检查以下命令的输出来完成验证。
    ```
   grep 'Registered'  /opt/BUAgent/Install.log
   ```

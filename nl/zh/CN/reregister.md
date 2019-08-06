@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ subcollection: Backup
 
    请记住，{{site.data.keyword.backup_notm}} 门户网站只能通过 {{site.data.keyword.BluVPN}} 进行访问。
    {:tip}
-2. 单击左侧的**所有代理程序**。
-3. 将鼠标悬停在右上角的**编辑**。
+2. 单击**所有代理程序**。
+3. 将鼠标悬停在**编辑**上。
 4. 选择**保险库设置**。
 5. 单击**重新注册**。
 6. 填写表单。

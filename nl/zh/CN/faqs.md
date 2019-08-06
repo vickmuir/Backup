@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -92,6 +92,7 @@ subcollection: Backup
 <hr>
 
 ## 何处可找到有关定价的信息？
+{: #pricing}
 {: faq}
 
 有关更多信息，请参阅 [Backup storage](https://www.ibm.com/cloud/backup-and-restore){: external} 和 [IBM Cloud Backup: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}。
@@ -135,7 +136,7 @@ subcollection: Backup
 ## 可以将 BMR 用于定期备份吗？
 {: faq}
 
-BMR 备份不是磁盘映像备份系统，而是系统卷映像备份系统。此系统的目的不是用于定期备份，但是可以与定期备份一起使用。  
+BMR 备份不是磁盘映像备份系统，而是系统卷映像备份系统。此系统的目的不是用于定期备份，但是可以与定期备份一起使用。
 
 <hr>
 

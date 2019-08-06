@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -24,8 +24,8 @@ subcollection: Backup
 
 ## 订购增加量
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
-2. 单击**存储** > **备份**以显示具有备份服务的服务器。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
+2. 单击**存储** > **Cloud 备份** 以显示具有备份服务的服务器。
 3. 选择要扩展的保险库。
 4. 单击**操作**，然后选择**修改 {{site.data.keyword.backup_notm}}**。
 5. 在下一个屏幕上，选择新的大小，然后单击**升级**。

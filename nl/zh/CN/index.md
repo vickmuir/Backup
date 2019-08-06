@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,8 @@ subcollection: Backup
 - [订购服务器时购买备份](#purchasingwithserver)。
 - [作为升级购买备份](#purchasingasupgrade)。
 
-有关定价的更多信息，请参阅 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} 和 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}。
+根据保险库大小按月对 {{site.data.keyword.backup_notm}} 用量进行计费。有关定价的更多信息，请参阅 [{{site.data.keyword.cloud}} Backup 解决方案](https://www.ibm.com/cloud/backup-and-restore){: external} 和 [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}。
+{:important}
 
 ## 订购服务器时购买 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
@@ -39,7 +40,7 @@ subcollection: Backup
    3. 选择服务器配置和操作系统映像类型。您还可以选择多个附加组件。
    4. 在**存储磁盘**部分下，单击**附加组件**，然后选择 **{{site.data.keyword.backup_notm}}**。请选择与您的需要匹配的选项。
    5. 在**网络接口**下，选择上行端口速度以及需要的任何附加组件。
-3. 在右侧，复查订单摘要。
+3. 接着，复查订单摘要。
 4. 复查条款和条件之后，选中**我已阅读并同意第三方服务协议**框。
 5. 单击**供应**。这会将您重定向到具有供应订单号的屏幕。您可以打印此屏幕，因为这也是您的供应订单收据。
 
@@ -49,7 +50,7 @@ subcollection: Backup
 系统将向管理员发送一系列电子邮件：确认供应订单、供应订单核准和处理以及供应完成。供应完成电子邮件包含登录到 {{site.data.keyword.cloud_notm}} 后可以访问的*设备详细信息*页面的链接。您还可以直接登录到 {{site.data.keyword.cloud_notm}} 控制台。
 
 ### 确认 {{site.data.keyword.backup_notm}} 购买
-1. 在 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}上，单击左上角的**菜单**图标。选择**经典基础架构**。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
 2. 单击**设备** > **设备列表**。
 2. 找到您订购的新服务器。
   - 如果 URL 旁边有“时钟”图标，那么您需要稍候才能继续确认 {{site.data.keyword.backup_notm}} 购买信息。您可以刷新此页面，以查看新服务器的更新状态。“时钟”图标不再显示时，您可以继续执行后续步骤以确认 {{site.data.keyword.backup_notm}} 服务购买。
@@ -62,7 +63,7 @@ subcollection: Backup
 
 ### 选择要安装 {{site.data.keyword.backup_notm}} 的服务器
 
-1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}，然后单击左上角的**菜单**图标。选择**经典基础架构**。
+1. 登录到 [{{site.data.keyword.cloud_notm}} 控制台](https://{DomainName}){: external}。在导航菜单中选择**经典基础架构**。
 2. 从主菜单中选择**设备** > **设备列表**。找到要添加备份服务的设备。
 3. 单击设备名以转至**设备详细信息**页面。
 
