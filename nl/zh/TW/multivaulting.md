@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,7 +41,7 @@ subcollection: Backup
 您必須先將新的遠端儲存庫新增至帳戶，才能在 {{site.data.keyword.backup_notm}} 入口網站中新增備份位置。
 {:important}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
 2. 按一下**裝置**
 3. 找出並按一下討論中之伺服器的鏈結。
 4. 在**裝置詳細資料**下，按一下**儲存空間**。
@@ -56,15 +56,15 @@ subcollection: Backup
 
 ## 在 {{site.data.keyword.backup_notm}} 入口網站中新增額外儲存庫
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
-3. 選取您要可以備份至多個儲存庫的伺服器。按一下向右箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
+2. 按一下**儲存空間** > **Cloud Backup** 以顯示具有備份服務的伺服器。
+3. 選取您要可以備份至多個儲存庫的伺服器。按一下箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**鏈結，以在瀏覽器中啟動入口網站用戶端。
 
    只能透過 {{site.data.keyword.BluVPN}} 來存取 {{site.data.keyword.backup_notm}} 入口網站。
 {:tip}
-5. 在左導覽窗格中，按一下**所有代理程式**。
-6. 在右上角，按一下**編輯**，然後選取**儲存庫設定**。
+5. 在導覽窗格中，按一下**所有代理程式**。
+6. 按一下**編輯**，然後選取**儲存庫設定**。
 7. 在**儲存庫設定**視窗中，按一下**新增**。
 8. 在**新建儲存庫**視窗中，
   1. 在「儲存庫設定檔」功能表中，選擇**輸入儲存庫設定**來建立新項目。請不要更新現有項目，這樣沒有效果。

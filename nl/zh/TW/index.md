@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,8 @@ subcollection: Backup
 - [訂購伺服器時購買備份](#purchasingwithserver)。
 - [以升級方式購買備份](#purchasingasupgrade)。
 
-如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}} storage](https://www.ibm.com/cloud/backup-and-restore){: external} 及 [{{site.data.keyword.backup_notm}} on IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}。
+根據儲存庫大小，每月會收取 {{site.data.keyword.backup_notm}} 用量的費用。如需定價的相關資訊，請參閱 [{{site.data.keyword.cloud}} Backup 解決方案](https://www.ibm.com/cloud/backup-and-restore){: external}及 [{{site.data.keyword.backup_notm}}：定價](https://www.ibm.com/cloud/backup/pricing){: external}。
+{:important}
 
 ## 訂購伺服器時購買 {{site.data.keyword.backup_notm}}
 {: #purchasingwithserver}
@@ -39,7 +40,7 @@ subcollection: Backup
    3. 選取伺服器配置及 OS 映像檔類型。您也可以選擇多個附加程式。
    4. 在**儲存空間磁碟**區段下，按一下**附加程式**，然後選取 **{{site.data.keyword.backup_notm}}**。選擇符合您需要的選項。
    5. 在**網路介面**下，選取上行鏈路速度，及您要的任何附加程式。
-3. 在右邊，檢閱您的訂單摘要。
+3. 接下來，檢閱訂單摘要。
 4. 檢閱條款之後，勾選**我已閱讀並同意協力廠商服務合約**方框。
 5. 按一下**佈建**。系統會將您重新導向至具有佈建訂單號碼的畫面。您可以列印此畫面，因為它也是您的佈建訂單收據。
 
@@ -49,7 +50,7 @@ subcollection: Backup
 一系列電子郵件會傳送給您的管理者：確認佈建訂單、佈建訂單核准和處理，以及佈建完成。佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結，而您可以在登入 {{site.data.keyword.cloud_notm}} 之後存取該頁面。您也可以直接登入 {{site.data.keyword.cloud_notm}} 主控台。
 
 ### 確認 {{site.data.keyword.backup_notm}} 購買
-1. 在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}中，按一下左上角的**功能表**圖示。選取**標準基礎架構**。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
 2. 按一下**裝置** > **裝置清單**。
 2. 找出您已訂購的新伺服器。
   - 如果您看到 URL 旁邊有時鐘圖示，則您需要等待，以繼續進行 {{site.data.keyword.backup_notm}} 購買確認。您可以重新整理頁面，以查看新伺服器的更新狀態。不再出現時鐘圖示時，您便可以繼續進行接下來的步驟，以確認 {{site.data.keyword.backup_notm}} 服務購買。
@@ -62,7 +63,7 @@ subcollection: Backup
 
 ### 選取要安裝 {{site.data.keyword.backup_notm}} 的伺服器
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
 2. 從主功能表中選取**裝置** > **裝置清單**。尋找您要為其新增備份服務的裝置。
 3. 按一下「裝置」名稱，以移至**裝置詳細資料**頁面。
 

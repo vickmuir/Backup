@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -28,9 +28,9 @@ subcollection: Backup
 您需要連接至 {{site.data.keyword.cloud}} 專用網路，才能啟動 {{site.data.keyword.backup_notm}} 入口網站。
 {:important}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
-3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
+2. 按一下**儲存空間** > **Cloud Backup** 以顯示具有備份服務的伺服器。
+3. 選取要備份之檔案所在的伺服器。按一下展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
    如果 {{site.data.keyword.backup_notm}} 入口網站未啟動，可能是 VPN 連線有問題。您可能也會看到一則訊息，指出您傳送的表單不安全。這是預期的情況 - 請傳送表單來繼續進行。
@@ -38,14 +38,14 @@ subcollection: Backup
 
 ## 配置 BMR 備份工作
 
-1. 在左導覽窗格中，按一下**所有代理程式**，以顯示現行的「{{site.data.keyword.backup_notm}} 代理程式」。
+1. 在導覽中，按一下**所有代理程式**，以顯示現行的「{{site.data.keyword.backup_notm}} 代理程式」。
 2. 按一下**這是我想要配置的新代理程式**。
 3. 為您要建立的工作輸入「工作名稱」及「工作說明」。
 4. 針對**備份來源類型**，選取檔案系統類型，然後按**下一步**。
 5. 即會顯示**工作類型選取**功能表。請勾選 **Bare Metal Restore** 旁邊的勾選框，然後按**下一步**以繼續。
 6. 在「確認」視窗上，按一下**是**。
 7. 畫面會顯示新工作現在位於備份集。按**下一步**。
-8. 畫面會顯示加密選項及進階備份選項。通常不需要這些選項。按**下一步**。   
+8. 畫面會顯示加密選項及進階備份選項。通常不需要這些選項。按**下一步**。
 9. 在**建立排程**頁面上，您有兩個選擇。
    - 按**下一步**以建立手動工作，並繼續執行新工作。
    - 按一下**新增**來排程時間型備份工作。

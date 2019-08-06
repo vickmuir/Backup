@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,12 +31,13 @@ subcollection: Backup
 - [訂購伺服器時購買備份](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver)。
 - [以升級方式購買備份](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade)。
 
-如需訂購及定價的相關資訊，請參閱[佈建 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering)。
+如需訂購的相關資訊，請參閱[佈建 {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering)。如需定價的相關資訊，請參閱 [{{site.data.keyword.backup_notm}}：定價](https://www.ibm.com/cloud/backup/pricing){: external}。
+
 
 ## 安裝 {{site.data.keyword.backup_notm}} 代理程式
 {: #installagentgettingstarted}
 
-下列作業系統可支援「{{site.data.keyword.backup_notm}} 代理程式」。
+下列作業系統支援「{{site.data.keyword.backup_notm}} 代理程式」。
 
 **Windows**
  - Windows Server 2016
@@ -69,9 +70,9 @@ subcollection: Backup
 
    無法透過公用網路存取 {{site.data.keyword.backup_notm}} 入口網站。必須先建立 VPN 連線。
    {:important}
-2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-2. 按一下**儲存空間** > **備份**，以顯示具有備份服務的伺服器。
-3. 選取要備份之檔案所在的伺服器。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
+2. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
+2. 按一下**儲存空間** > **Cloud Backup** 以顯示具有備份服務的伺服器。
+3. 選取要備份之檔案所在的伺服器。按一下展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 配置備份代理程式和備份排程
@@ -120,7 +121,7 @@ subcollection: Backup
 
 您隨時可以在 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}/classic/storage/backup){: external}上檢視服務的儲存空間詳細資料。可檢視的詳細資料包括與所選取 {{site.data.keyword.backup_notm}} 服務相關聯的密碼、儲存空間位址及用量。
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
 2. 按一下**儲存空間**，然後從清單中選取**備份**。
 2. 按一下您要檢視其儲存空間詳細資料的儲存庫列的任何位置。從這個視圖中，看不到「密碼」。
 3. 按一下**密碼**欄位旁邊的**顯示**勾選框，以檢視所選取 {{site.data.keyword.backup_notm}} 服務的密碼。
@@ -131,4 +132,4 @@ subcollection: Backup
 ## 取得更多線上說明
 {: #onlinehelp}
 
-{{site.data.keyword.backup_notm}} 入口網站的系統有完整的文件說明，並且可在  {{site.data.keyword.backup_notm}} 入口網站中存取應用程式的支援。按一下位在**說明**右上角之藍色圓圈中的白色問號。按一下左側導覽列中的任何文章或主題，以檢視相關資訊。
+{{site.data.keyword.backup_notm}} 入口網站的系統有完整的文件說明，並且可在  {{site.data.keyword.backup_notm}} 入口網站中存取應用程式的支援。按一下藍色圓圈中的白色問號，以取得**說明**。按一下導覽列中的任何文章或主題，以檢視相關資訊。

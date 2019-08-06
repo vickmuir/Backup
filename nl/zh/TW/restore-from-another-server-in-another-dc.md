@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -39,9 +39,9 @@ subcollection: Backup
 請記得啟動您的 {{site.data.keyword.BluVPN}} 連線，以存取 {{site.data.keyword.cloud}} 專用網路，否則 {{site.data.keyword.backup_notm}} 入口網站鏈結無法運作。
 {:tip}
 
-1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}，然後按一下左上角的**功能表**圖示。選取**標準基礎架構**。
-2. 按一下**儲存空間** > **備份**以顯示具有備份服務的伺服器。
-3. 選取 Server2。按一下指向右方的展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
+1. 登入 [{{site.data.keyword.cloud_notm}} 主控台](https://{DomainName}){: external}。從「導覽功能表」中，選取**標準基礎架構**。
+2. 按一下**儲存空間** > **Cloud Backup** 以顯示具有備份服務的伺服器。
+3. 選取 Server2。按一下展開箭頭，以顯示 {{site.data.keyword.backup_notm}} 入口網站鏈結。
 4. 按一下 **{{site.data.keyword.backup_notm}} 入口網站登入**，以在瀏覽器中啟動入口網站用戶端。
 
 ## 重新登錄儲存庫
@@ -79,7 +79,7 @@ subcollection: Backup
 12. 選取您要還原的檔案。
 13. 按一下加號以展開檔案選擇。
 14. 按一下要從 server1 還原到 server2 之個別檔案或資料夾的勾選框。然後，按一下**包含**。
-15. 檔案會移入右側的「備份集」視窗。按**下一步**。
+15. 檔案會移入「備份集」視窗。按**下一步**。
 16. 完成資料選擇之後，請繼續選取您的選項。
     - 選取**還原至原始位置**。
     - 選取**改寫現有檔案**。

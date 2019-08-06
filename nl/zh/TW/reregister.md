@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ subcollection: Backup
 
    請記得，只能透過 {{site.data.keyword.BluVPN}} 來存取 {{site.data.keyword.backup_notm}} 入口網站。
    {:tip}
-2. 在左邊，按一下**所有代理程式**。
-3. 在右上角，將滑鼠移至**編輯**上方。
+2. 按一下**所有代理程式**。
+3. 將滑鼠移至**編輯**上方。
 4. 選取**儲存庫設定**。
 5. 按一下**重新登錄**。
 6. 完成表單。
