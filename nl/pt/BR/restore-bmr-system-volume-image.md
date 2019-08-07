@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -25,9 +25,8 @@ o sistema sem a necessidade de um sistema operacional inicializável. Isso é ú
 ## Iniciando o sistema kernel de resgate de BMR
 
 É possível acessar o sistema BMR Rescue Kernel por meio do console do {{site.data.keyword.cloud_notm}}.
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-2. Clique em **Armazenamento** > **Backup** para exibir os
-servidores com o serviço de backup.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
+2. Clique em **Armazenamento** > **Backup em nuvem** para exibir os servidores com serviço de backup.
 3. Clique na **Seta** ao lado da área segura.
 4. Clique em **Iniciar Restauração de Bare Metal**. Essa ação inicia uma transação
 que leva alguns minutos para ser concluída. Em seguida, é possível acessar o servidor seguindo as etapas que estão detalhadas aqui. Será enviado um e-mail para você quando o sistema concluir o processo de inicialização.
@@ -42,7 +41,7 @@ acessá-la de duas maneiras diferentes.
   Ambas as formas funcionam bem.
 2. Ao efetuar login no kernel de resgate de BMR pela primeira vez, você é recebido com a tela
 de seleção de idioma. Selecione o idioma de sua escolha e clique em **Avançar**.
-<br/>![Figura 1 - Seleção de idioma de BMR](/images/bmr1.png)<br/> O contrato de licença para o software é exibido.
+<br/>![Figura 1 - Seleção de idioma do BMR](/images/bmr1.png)<br/> O contrato de licença para o software é exibido.
 3. Se você aceitar os termos, marque a caixa de seleção e clique em **Avançar** para continuar. <br/> O menu principal de restauração do sistema do {{site.data.keyword.backup_notm}} é apresentado.
 4. Selecione **Restaurar meu sistema**.
 <br/>![Figura 2 - Menu principal do BMR](/images/bmr2.png)
@@ -75,7 +74,7 @@ mesclar os dados no volume de destino, selecione **Mesclar**.
 concluída com sucesso. Clique em **OK**.
 17. Na tela de progresso de restauração. Clique em **Avançar**.
 18. Na tela final, marque a caixa para reiniciar o sistema e selecione **Concluir** e o servidor carregará a imagem do volume restaurado.
-  Agora, a restauração está concluída. <br/>
+  A restauração está agora concluída. <br/>
 
   Na primeira vez em que o servidor é reiniciado, é possível ver a mensagem de encerramento inesperada. É normal com esse tipo de backup e desaparece após a primeira inicialização.
   {:tip}

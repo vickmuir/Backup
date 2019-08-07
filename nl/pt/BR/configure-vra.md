@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin, EVault, Carbonite, vSphere
 
@@ -30,9 +30,10 @@ Deve-se definir as configurações da área segura e as informações do vCenter
 É necessário estar conectado à rede privada do {{site.data.keyword.cloud}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
-3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
+2. Clique em **Armazenamento** > **Backup em nuvem** para exibir os servidores com serviços de backup.
+3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique
+na seta de expansão para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
    Se o portal do {{site.data.keyword.backup_notm}} não for iniciado, talvez você tenha um problema com a sua conexão de VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
@@ -48,7 +49,7 @@ Deve-se definir as configurações da área segura e as informações do vCenter
    * No campo **Descrição**, digite opcionalmente uma descrição para a tarefa de backup.
    * Na lista **Destino**, selecione a área segura em que deseja salvar os dados de backup.
    * Nos campos **Senha** e **Confirmar senha**, digite uma senha de criptografia. Também é possível digitar uma sugestão de senha no campo Sugestão de senha.
-   Uma área segura será exibida na lista somente se estiver designada ao usuário ou se tiver sido incluída pelo usuário nas Configurações de área segura do computador.<br/>
+   Uma área segura será exibida na lista somente se estiver designada ao usuário ou se o usuário a incluiu nas Configurações de área segura do computador.<br/>
    Para novas tarefas de backup, o método de criptografia é AES de 256 bits. As tarefas existentes podem ter outros métodos de criptografia.
    {:note}
 

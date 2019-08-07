@@ -68,7 +68,7 @@ Os arquivos e as pastas nos discos são acessíveis a qualquer pessoa no sistema
 5. No diálogo **Escolher o que deseja restaurar**, selecione **Arquivos e pastas**.
 6. Clique em **Continuar**. O diálogo Restauração mostra o conjunto de segurança mais recente para a tarefa.
   * Para restaurar dados de outro recurso, clique na origem na lista Dispositivo de origem (Área segura).
-  * Para restaurar de um conjunto de segurança mais antigo, clique no botão Procurar conjuntos de segurança. No calendário que for exibido, clique na data do conjunto de segurança do qual deseja restaurar. À direita do calendário, clique no conjunto de segurança específico do qual deseja restaurar.
+  * Para restaurar de um conjunto de segurança mais antigo, clique no botão Procurar conjuntos de segurança. No calendário que for exibido, clique na data do conjunto de segurança do qual deseja restaurar. Em seguida, clique no conjunto de segurança específico do qual você deseja restaurar.
 7. No painel **Itens a serem restaurados**, selecione a VM com os arquivos ou pastas que você deseja restaurar.
 8. No campo **Senha de criptografia**, insira a senha de criptografia de dados.
 9. No campo **Tempo inativo**, insira o número de minutos de inatividade após o qual a unidade compartilhada deve cancelar o compartilhamento automaticamente. O tempo inativo pode variar de 2 a 180 minutos.

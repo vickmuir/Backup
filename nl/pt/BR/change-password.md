@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -28,7 +28,7 @@ As mudanças que são feitas na senha do {{site.data.keyword.backup_notm}} dentr
 
 ## Mudando a senha
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
 2. Clique em **Armazenamento** > **Backup em nuvem** para exibir os servidores com serviço de backup.
 3. Clique em qualquer lugar na linha da área segura para expandir a visualização.
 4. Clique em **Mostrar** para visualizar a senha atual.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -29,11 +29,12 @@ Para obter mais informações sobre os backups para servidores Windows 2016, con
 ## Efetuando login no servidor de dispositivo de destino
 {: #logintargetWin}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de servidores disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote
 seu endereço IP público.
-4. Clique na seta que aponta para a direita para expandir e mostrar mais informações sobre o dispositivo, incluindo o nome do usuário e a senha. Se a senha não for exibida, clicar em **Mostrar senha** a revelará.
+4. Clique na seta para expandir e mostrar mais informações sobre o dispositivo, incluindo o
+nome do usuário e a senha. Se a senha não for exibida, clicar em **Mostrar senha** a revelará.
 5. Efetue login no dispositivo de destino usando a Conexão de Área de Trabalho Remota.
 
 ## Fazendo download do cliente de backup

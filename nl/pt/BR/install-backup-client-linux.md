@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -22,7 +22,7 @@ subcollection: Backup
 {: #InstallinLinux}
 
 A instalação do cliente do {{site.data.keyword.backup_full}} em um sistema operacional baseado em
-Linux pode ser feita por meio de uma série de comandos no shell ou no terminal dentro do S.O. Esse procedimento descreve as etapas necessárias para instalar o cliente em qualquer um dos sistemas operacionais baseados em Linux a seguir:
+Linux pode ser feita por meio de uma série de comandos no shell ou no terminal dentro do S.O. Este procedimento descreve as etapas que são requeridas para instalar o cliente em qualquer um dos sistemas operacionais a seguir:
 
 - RHEL
 - CentOS
@@ -38,13 +38,14 @@ Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no console 
 ## Efetuando login no servidor de dispositivo de destino
 {: #logintargetLin}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal para ver a lista de dispositivos do servidor disponíveis.
 3. Localize o dispositivo para o qual você comprou o serviço do {{site.data.keyword.backup_notm}} e anote seu endereço IP público.
-  - Esse endereço IP deve ser usado nas etapas a seguir quando você efetuar login no dispositivo em uma linha de comandos do UNIX ou Linux. Substitua <publicIpAddress> pelo endereço IP público real no comando que é mostrado na Etapa 5.
-4. Clique na seta que aponta para a direita para exibir mais informações sobre o dispositivo, incluindo o nome do usuário e a senha.
-  - Se a senha não for exibida, ela poderá ser revelada clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste. Substitua `<user name>` pelo nome do usuário real.
-5. Efetue login no dispositivo de destino inserindo o comando a seguir em uma linha de comandos UNIX ou Linux.
+  - Esse endereço IP deve ser usado quando você efetua login no dispositivo na linha de comandos. No comando que é mostrado na Etapa 5, substitua < publicIpAddress > pelo endereço IP público real.
+4. Clique na seta para exibir mais informações sobre o dispositivo, incluindo o nome do usuário
+e a senha.
+  - Se a senha não for exibida, será possível revelá-la clicando em **Mostrar senha**. O nome do usuário e a senha são usados na próxima etapa para efetuar login no dispositivo de teste. Substitua `<user name>` pelo nome do usuário real.
+5. Efetue login no dispositivo de destino inserindo o comando a seguir na linha de comandos.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -57,7 +58,7 @@ Se você comprou o {{site.data.keyword.backup_notm}} como um upgrade no console 
 
 ## Atualizando o S.O. para se preparar para a instalação (somente RHEL)
 
-Esta etapa é necessária para o RHEL, mas opcional para outras distribuições Linux.
+Essa etapa é requerida para RHEL, mas opcional para outras distribuições.
 {:tip}
 
 - Execute o comando a seguir no prompt do servidor.
@@ -105,9 +106,10 @@ script `evault_manual.sh` fornece a entrada para esses prompts.
 
 ## Verificando se a instalação foi bem-sucedida
 
-1. Verifique se a mensagem "Registrado no portal" aparece na saída de instalação. A verificação pode ser feita procurando a mensagem na tela ou inspecionando a saída do comando a seguir.
+1. Verifique se a mensagem `Registrado no Portal` aparece na saída de
+instalação. A verificação pode ser feita procurando a mensagem na tela ou inspecionando a saída do comando a seguir.
    ```
-   grep 'Registered'  /opt/BUAgent/Install.log
+   Grep 'Registrado' /opt/BUAgent/Install.log
    ```
    {: pre}
 

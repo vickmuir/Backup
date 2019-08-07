@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ Esta tarefa será usada mais comumente depois que o Sistema Operacional de um se
 
    Lembre-se, o portal do {{site.data.keyword.backup_notm}} é acessível apenas por meio do {{site.data.keyword.BluVPN}}.
    {:tip}
-2. À esquerda, clique em **Todos os Agentes**.
-3. No canto superior direito, passe o mouse sobre **Editar**.
+2. Clique em **Todos os Agentes**.
+3. Passe o mouse sobre **Editar**.
 4. Selecione **Configurações de Segurança**.
 5. Clique em **Registrar**.
 6. Preencha o formulário.

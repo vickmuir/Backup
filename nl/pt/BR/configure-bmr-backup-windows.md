@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -29,9 +29,10 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 É necessário estar conectado à rede privada do {{site.data.keyword.cloud}} para poder iniciar o portal do {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-2. Clique em **Armazenamento** > **Backup** para exibir os servidores com serviços de backup.
-3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
+2. Clique em **Armazenamento** > **Backup em nuvem** para exibir os servidores com serviços de backup.
+3. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique
+na seta de expansão para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 4. Clique em **Login do portal do {{site.data.keyword.backup_notm}}** para iniciar o cliente do portal em seu navegador.
 
    Se o portal do {{site.data.keyword.backup_notm}} não for iniciado, talvez você tenha um problema com a sua conexão de VPN. Também é possível ver uma mensagem informando que o formulário que você está enviando não é seguro. É esperado - continue enviando o formulário.
@@ -39,14 +40,14 @@ Bare Metal Servers do Windows. Nenhuma opção de BMR está disponível para o V
 
 ## Configurando uma tarefa de backup BMR
 
-1. Na área de janela de navegação esquerda, clique em **Todos os agentes** para exibir os Agentes atuais do {{site.data.keyword.backup_notm}}.
+1. Na navegação, clique em **Todos os agentes** para exibir os Agentes {{site.data.keyword.backup_notm}} atuais.
 2. Clique em **Este é um novo Agente que eu gostaria de configurar**.
 3. Insira um Nome da tarefa e uma Descrição da tarefa para a tarefa que você estiver criando.
 4. Para **Tipo de origem de backup**, selecione o tipo de sistema de arquivos e, em seguida, clique em **Avançar**
 5. O menu **Seleção de tipo de tarefa** é exibido. Marque a caixa próxima a **Restauração do Bare Metal** e clique em **Avançar** para continuar.
 6. Clique em **Sim** na janela de confirmação.
 7. A tela mostra que a nova tarefa está agora no conjunto de backup. Clique em **Avançar**.
-8. A tela exibe opções de criptografia e opções de backup avançadas. Normalmente essas opções não são necessárias. Clique em **Avançar**.   
+8. A tela exibe opções de criptografia e opções de backup avançadas. Normalmente essas opções não são necessárias. Clique em **Avançar**.
 9. Na página **Criar um planejamento**, você tem duas opções.
    - Clique em **Avançar** para criar uma tarefa manual e continue a executar sua nova tarefa.
    - Clique em **Incluir** para planejar uma tarefa de backup baseada em tempo.

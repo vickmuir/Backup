@@ -28,7 +28,7 @@ subcollection: Backup
    {:pre}
 3. Clique no arquivo que você deseja. (Por exemplo, Agente-Windows-x64-6-72-1072a.exe)
 
-   O número da versão está no nome do arquivo. Escolha o mais recente. O <br/>{{site.data.keyword.cloud}} oferece instaladores separados de 32 e de 64 bits. Se você tiver um sistema operacional de 64 bits,
+   O número da versão está no nome do arquivo. Escolha o mais recente. <br/>O {{site.data.keyword.cloud}} oferece instaladores separados de 32 e de 64 bits. Se você tiver um sistema operacional de 64 bits,
 faça download do arquivo com x64 em seu nome.
    {:tip}
 4. Clique em **Executar** na tela de download e, novamente, após ele ser transferido por download.

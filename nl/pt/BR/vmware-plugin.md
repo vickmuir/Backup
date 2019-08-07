@@ -52,7 +52,7 @@ Após o VRA ser instalado, é necessário configurá-lo no portal do {{site.data
 2. Na guia Computadores, selecione o servidor que deseja fazer backup.
 3. Configure suas informações da área segura.
 
-   As informações da área segura podem ser configuradas de duas maneiras: **Automaticamente** ou **Manualmente**.<br/>Se o agente estiver sendo configurado pela primeira vez, a opção [Configuração automática](#VRAautoconfig) poderá ser usada.<br/>Se o computador foi registrado anteriormente com uma área segura, a configuração automática não funcionará e a área segura precisará ser [configurada manualmente](#VRAmanualconfig).
+   As informações da área segura podem ser configuradas de duas maneiras: **Automaticamente** ou **Manualmente**.<br/>Se o agente estiver sendo configurado pela primeira vez, ele poderá ser configurado usando a opção [Configuração automática](#VRAautoconfig).<br/>Se o computador foi registrado anteriormente com uma Área segura, a configuração automática não funcionará e a área segura precisará ser [configurada manualmente](#VRAmanualconfig).
    {: tip}
 
 4. Defina as [Configurações do vCenter](#vCenterSettingsconfig)   

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -107,6 +107,7 @@ Por padrão, o cliente de base tem uma tecnologia de última geração para mani
 <hr>
 
 ## Onde localizo as informações sobre precificação?
+{: #pricing}
 {: faq}
 
 Para obter mais informações, consulte [Armazenamento de backup](https://www.ibm.com/cloud/backup-and-restore){: external} e [IBM Cloud Backup: precificação](https://www.ibm.com/cloud/backup/pricing){: external}.
@@ -145,8 +146,8 @@ Sim, isso funciona. No entanto, é necessário selecionar um dispositivo de gran
 ## Ao usarmos o plug-in BMR, o que acontece quando a imagem é restaurada para um disco maior do que o volume original?
 {: faq}
 
-Se você restaurar a imagem para um disco maior que o volume original, o espaço restante será
-desalocado. Por exemplo, quando você tiver uma unidade de 500 GB e restaurar seus dados para um disco de 1 TB,
+Se você restaurar a imagem para um disco maior do que o volume original, o espaço restante
+será desalocado. Por exemplo, quando você tiver uma unidade de 500 GB e restaurar seus dados para um disco de 1 TB,
 você ficará com 500 GB de espaço em disco desalocado. Com o Windows 2008, é possível usar o utilitário de disco integrado para aumentar a partição primária. No entanto, o Windows 2003 não tem um recurso integrado semelhante, portanto, deve-se alocar o espaço de outra maneira.
 
 <hr>
@@ -154,7 +155,7 @@ você ficará com 500 GB de espaço em disco desalocado. Com o Windows 2008, é 
 ## O BMR pode ser usado para backup regular?
 {: faq}
 
-O backup de BMR não é uma imagem de disco, mas um sistema de backup de imagem de volume do sistema. O sistema não se destina a ser usado para backups regulares, mas em conjunto com eles.  
+O backup de BMR não é uma imagem de disco, mas um sistema de backup de imagem de volume do sistema. O sistema não se destina a ser usado para backups regulares, mas em conjunto com eles.
 
 <hr>
 

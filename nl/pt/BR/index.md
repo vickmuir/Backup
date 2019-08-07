@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,9 @@ subcollection: Backup
 - [Comprar backups ao solicitar um servidor](#purchasingwithserver).
 - [Comprar backups como um upgrade](#purchasingasupgrade).
 
-Para obter mais informações sobre precificação, consulte [Armazenamento do {{site.data.keyword.backup_notm}} ](https://www.ibm.com/cloud/backup-and-restore){: external} e [{{site.data.keyword.backup_notm}} no IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+O uso do {{site.data.keyword.backup_notm}} é faturado com base no tamanho da
+área segura em uma base mensal. Para obter mais informações sobre precificação, veja [Soluções de backup do {{site.data.keyword.cloud}}](https://www.ibm.com/cloud/backup-and-restore){: external} e [{{site.data.keyword.backup_notm}}: Precificação](https://www.ibm.com/cloud/backup/pricing){: external}.
+{:important}
 
 ## Comprando o {{site.data.keyword.backup_notm}} ao solicitar um servidor
 {: #purchasingwithserver}
@@ -39,7 +41,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
    3. Selecione Configuração do servidor e Tipo de imagem do S.O. Também é possível escolher múltiplos complementos.
    4. Na seção **Discos de armazenamento**, clique em **Complementos** e selecione **{{site.data.keyword.backup_notm}}**. Escolha a opção que corresponde ao que você precisa.
    5. Em **Interface de rede**, selecione a Velocidade da porta de uplink e quaisquer complementos que desejar.
-3. À direita, revise o resumo do pedido.
+3. A seguir, revise o resumo do seu pedido.
 4. Depois de ter revisado os termos e as condições, marque a caixa **Eu li e concordo com os Contratos de Prestação de Serviços de terceiro**.
 5. Clique em  ** Provisão **. Você é redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
 
@@ -49,7 +51,7 @@ Para obter mais informações sobre precificação, consulte [Armazenamento do {
 Uma série de e-mails é enviada para seu administrador: confirmação da ordem de fornecimento, aprovação e processamento da ordem de fornecimento e Fornecimento concluído. O e-mail de Fornecimento concluído inclui um link para a página *Detalhes do dispositivo*, que é possível acessar depois de efetuar login no {{site.data.keyword.cloud_notm}}. Também é possível efetuar login diretamente no console do {{site.data.keyword.cloud_notm}}.
 
 ### Confirmando a compra do {{site.data.keyword.backup_notm}}
-1. No [console do {{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
 2. Clique em **Dispositivo** > **Lista de dispositivos**.
 2. Localize o novo servidor que você solicitou.
   - Se você vir um ícone de relógio ao lado da URL, será necessário aguardar para continuar com a confirmação de compra do {{site.data.keyword.backup_notm}}. É possível atualizar a página para ver um status atualizado em seu novo servidor. Quando o ícone de relógio não estiver mais presente, será possível continuar com as próximas etapas para confirmar a compra do serviço do {{site.data.keyword.backup_notm}}
@@ -62,7 +64,7 @@ Uma série de e-mails é enviada para seu administrador: confirmação da ordem 
 
 ### Selecione um servidor no qual instalar o {{site.data.keyword.backup_notm}}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
 2. Selecione **Dispositivos** > **Lista de dispositivos** no menu principal. Localize o dispositivo no qual você deseja incluir o serviço de backup.
 3. Clique em Nome do dispositivo para acessar a página **Detalhes do dispositivo**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -26,10 +26,10 @@ e o planejamento de retenção e iniciar sua primeira tarefa de backup.
 ## Iniciando o portal do {{site.data.keyword.backup_notm}}
 {: #startWebCCconfigLin}
 
-1. Efetue login no [console do {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} e clique no ícone de **menu** na parte superior esquerda. Selecione **Infraestrutura clássica**.
-2. Clique em **Armazenamento** > **Backup** para exibir os
-servidores com o serviço de backup.
-2. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique na seta de expansão que aponta para a direita para revelar o link do portal do {{site.data.keyword.backup_notm}}.
+1. Efetue login no console do [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. No menu de navegação, selecione **Infraestrutura clássica**.
+2. Clique em **Armazenamento** > **Backup em nuvem** para exibir os servidores com serviço de backup.
+2. Selecione o servidor no qual os arquivos a serem submetidos a backup estão localizados. Clique
+na seta de expansão para revelar o link do portal do {{site.data.keyword.backup_notm}}.
 3. Inicie sua conexão VPN para obter acesso à rede privada IBM.
 4. Clique no link Login do portal do {{site.data.keyword.backup_notm}} para iniciar o cliente do portal em seu navegador.<br/>
 
@@ -38,14 +38,16 @@ servidores com o serviço de backup.
 
 ## Configurando uma tarefa de backup
 
-1. Na área de janela de navegação, clique em **Todos os agentes** para exibir os Agentes atuais do {{site.data.keyword.backup_notm}}
+1. Na navegação, clique em **Todos os agentes** para exibir os Agentes {{site.data.keyword.backup_notm}} atuais.
 2. Clique em **Este é um novo Agente que eu gostaria de configurar**.
 3. Insira um Nome da tarefa e uma Descrição da tarefa para a tarefa que você estiver criando.
 4. Para **Tipo de origem de backup**, selecione o tipo de sistema de arquivos que você deseja submeter a backup.
 5. Clique em **Avançar** para continuar.
 6. Na área de janela de arquivos de dados, acesse os arquivos e os diretórios que você deseja incluir no backup clicando nos símbolos **+** e **-** próximos aos ícones de pasta.
 7. Selecione as caixas de seleção próximas aos arquivos e diretórios que você deseja incluir, em seguida, clique em **Incluir** para salvar suas opções.
-8. Filtre ainda mais suas seleções usando a tela pop-up que aparece ou clique em **OK** para usar as seleções feitas no estado em que se encontram. Depois de incluir suas opções de arquivo e diretório, os arquivos e os diretórios escolhidos serão exibidos na área de janela do conjunto de backup no lado direito da tela. Clique em **Avançar** para continuar.
+8. Filtre ainda mais suas seleções usando a tela pop-up que aparece ou clique em **OK** para usar as seleções feitas no estado em que se encontram. Depois de ter
+incluído suas opções de arquivo e diretório, seus arquivos e diretórios escolhidos serão exibidos na
+área de janela do conjunto de backup. Clique em **Avançar** para continuar.
 
    É possível repetir as etapas de 6 a 8 para incluir mais arquivos ou para remover arquivos que você incluiu anteriormente (usando **Excluir**). Também é possível usar **Remover** para excluir qualquer item de linha da área de janela do conjunto de backup. Depois que seu conjunto de backup estiver configurado da maneira desejada,
    {:tip}
