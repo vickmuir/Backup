@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,8 +24,8 @@ Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber ins
 ## Inicio del portal de {{site.data.keyword.backup_notm}}
 {: #startWebCCconfigLin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
+2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicio de copia de seguridad.
 2. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 3. Inicie la conexión VPN para acceder a la red privada de IBM.
 4. Pulse el enlace de inicio de sesión en el portal de {{site.data.keyword.backup_notm}} para iniciar el cliente del portal en su navegador.<br/>
@@ -35,14 +35,14 @@ Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber ins
 
 ## Configuración de un trabajo de copia de seguridad
 
-1. En el panel de navegación, pulse **Todos los agentes** para visualizar los agentes actuales de {{site.data.keyword.backup_notm}}.
+1. En la navegación, pulse **Todos los agentes** para visualizar los agentes actuales de {{site.data.keyword.backup_notm}}.
 2. Pulse **Este es un nuevo agente que me gustaría configurar**.
 3. Escriba un nombre de trabajo y una descripción de trabajo para el trabajo que va a crear.
 4. Para **Tipo de origen de copia de seguridad**, seleccione el tipo de sistema de archivos del que desea realizar la copia de seguridad.
 5. Pulse **Siguiente** para continuar.
 6. En el panel de archivos de datos, vaya a los archivos y directorios que desea incluir en la copia de seguridad pulsando los símbolos **+** y **-** que hay junto a los iconos de carpeta.
 7. Marque los recuadros de selección que hay junto a los archivos y directorios que desea incluir y luego pulse **Incluir** para guardar las selecciones.
-8. Puede filtrar más sus selecciones utilizando la pantalla emergente que aparece o puede pulsar **Aceptar** para utilizar las selecciones que ha realizado tal como están. Después de haber incluido sus selecciones de archivos y directorios, los archivos y directorios seleccionados se muestran en el panel del conjunto de copia de seguridad en la parte derecha de la pantalla. Pulse **Siguiente** para continuar.
+8. Puede filtrar más sus selecciones utilizando la pantalla emergente que aparece o puede pulsar **Aceptar** para utilizar las selecciones que ha realizado tal como están. Después de haber incluido sus selecciones de archivos y directorios, los archivos y directorios seleccionados se muestran en el panel del conjunto de copia de seguridad. Pulse **Siguiente** para continuar.
 
    Puede repetir los pasos 6 - 8 para añadir más archivos o para eliminar archivos que haya incluido (mediante el botón **Excluir**). También puede utilizar la opción **Eliminar** para suprimir cualquier elemento de línea del panel del conjunto de copia de seguridad. Después de configurar el conjunto de copia de seguridad de la forma en que lo desea,
    {:tip}
@@ -55,7 +55,7 @@ Después de haber solicitado el {{site.data.keyword.backup_full}} y de haber ins
 10. Puede utilizar cualquiera de las **Opciones avanzadas**.
   - **Retención**: puede gestionar el uso de datos con esta opción. El periodo de retención determina el tiempo que se conserva una copia de seguridad. Una vez que se ha alcanzado el periodo de retención, la copia de seguridad se elimina automáticamente. Las opciones integradas son diaria, semanal o mensual.
   - **Compresión**: puede utilizar esta opción para reducir la capacidad que se utiliza para guardar copias de seguridad.
-  - **Archivos de copia de seguridad abiertos para grabación**: esta opción permite que se realice una copia de seguridad de los archivos, incluso si están abiertos por una aplicación cuando se ejecuta el trabajo de copia de seguridad.
+  - **Archivos de copia de seguridad abiertos para escritura**: esta opción permite que se realice una copia de seguridad de los archivos, incluso si están abiertos por una aplicación cuando se ejecuta el trabajo de copia de seguridad.
   - **Crear archivo de registro**: con esta opción puede crear y gestionar el contenido y la retención de los archivos de registro que se generan durante el proceso de copia de seguridad.
   - **Copia de seguridad de una sola instancia de todos los archivos con enlace fijo seleccionados**. Esta opción solo se aplica a los sistemas de tipo UNIX. Si utiliza enlaces fijos para crear varios nombres de archivos para cierto contenido, esta opción genera una sola copia del contenido que se va a guardar. Tras la restauración, se restauran todos los enlaces fijos. Esta opción requiere una exploración previa de la selección de archivos, lo que puede ocupar una cantidad significativa de tiempo y de memoria.
 11. Después de realizar su selección de cifrado, pulse **Siguiente** para continuar en la pantalla **Crear una planificación**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -25,18 +25,18 @@ Seguir el proceso de actualización asegura que se puede actualizar el agente de
 1. Inicie sesión en el host a nivel raíz.
 2. Descargue la versión más reciente del agente.
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
+   wget -N downloads.softlayer.local/evault/Agent-Linux-x64-8.50.7245.tar.gz
    ```
    {:pre}
 
 3. Extraiga el contenido del archivo descargado.
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
+   tar -xzvf Agent-Linux-x64-8.50.7245.tar.gz3
    ```
 4. Vaya al directorio de instalación reciente.
    ```
-   cd Agent-Linux-x64-8.11.5251/4
+   cd Agent-Linux-x64-8.50.7245/
    ```
 
 5. Ejecute el script de instalación.

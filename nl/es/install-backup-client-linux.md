@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # Instalación del cliente de copia de seguridad en Linux
 {: #InstallinLinux}
 
-La instalación del cliente de {{site.data.keyword.backup_full}} en un sistema operativo basado en Linux se puede realizar a través de una serie de mandatos en el shell o en el terminal dentro del sistema operativo. En este procedimiento se indican los pasos necesarios para instalar el cliente en cualquiera de los siguientes sistemas operativos basados en Linux:
+La instalación del cliente de {{site.data.keyword.backup_full}} en un sistema operativo basado en Linux se puede realizar a través de una serie de mandatos en el shell o en el terminal dentro del sistema operativo. En este procedimiento se indican los pasos necesarios para instalar el cliente en cualquiera de los siguientes sistemas operativos:
 
 - RHEL
 - CentOS
@@ -37,13 +37,13 @@ Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en la 
 ## Inicie una sesión en el servidor del dispositivo de destino
 {: #logintargetLin}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
 2. Seleccione **Dispositivos** > **Lista de dispositivos** en el menú principal para ver la lista de dispositivos de servidor disponibles.
 3. Busque el dispositivo para el que ha adquirido el servicio de {{site.data.keyword.backup_notm}} y anote su dirección IP pública.
-  - Esta dirección IP se utilizará en los siguientes pasos cuando se inicie una sesión en el dispositivo desde una línea de mandatos de UNIX o Linux. Sustituya <direcciónIPPública> por la dirección IP pública real en el mandato del Paso 5.
-4. Pulse la flecha que apunta a la derecha para visualizar más información sobre el dispositivo, incluido el nombre de usuario y la contraseña.
+  - Esta dirección IP se utilizará al iniciar la sesión en el dispositivo desde la línea de mandatos. En el mandato del Paso 5, sustituya <direcciónIPPública> por la dirección IP pública real.
+4. Pulse la flecha para visualizar más información sobre el dispositivo, incluido el nombre de usuario y la contraseña.
   - Si no se muestra la contraseña, pulse **Mostrar contraseña** para verla. El nombre de usuario y la contraseña se utilizan en el paso siguiente para iniciar una sesión en el dispositivo de prueba. Sustituya `<user name>` por el nombre de usuario real.
-5. Inicie una sesión en el dispositivo de destino el siguiente mandato desde una línea de mandatos de UNIX o Linux.
+5. Inicie una sesión en el dispositivo de destino mediante el siguiente mandato desde la línea de mandatos.
    ```
    ssh <nombre usuario>@<direcciónIPPública>
    ```
@@ -56,7 +56,7 @@ Si ha adquirido {{site.data.keyword.backup_notm}} como una actualización en la 
 
 ## Actualización del sistema operativo para preparar la instalación (sólo RHEL)
 
-Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de Linux.
+Este paso es obligatorio para RHEL, pero opcional para otras distribuciones.
 {:tip}
 
 - Ejecute el mandato siguiente en el indicador del servidor.
@@ -103,7 +103,7 @@ Este paso es obligatorio para RHEL, pero opcional para otras distribuciones de L
 
 ## Verificación de que la instalación se ha realizado correctamente
 
-1. Verifique que aparece el mensaje "Registrado en el portal" en la información de salida de la instalación. Para ello, busque el mensaje en la pantalla o examine la información de salida del siguiente mandato:
+1. Verifique que aparece el mensaje `Registrado en el portal` en la información de salida de la instalación. Para ello, busque el mensaje en la pantalla o examine la información de salida del siguiente mandato:
    ```
    grep 'Registered'  /opt/BUAgent/Install.log
    ```

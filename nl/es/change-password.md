@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, password, password reset
 
@@ -28,7 +28,7 @@ Los cambios realizados en la contraseña de la copia de seguridad de {{site.data
 
 ## Cambio de la contraseña
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/catalog){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
 2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse en cualquier lugar de la fila de la caja fuerte para ampliar la vista.
 4. Pulse **Mostrar** para ver la contraseña actual.

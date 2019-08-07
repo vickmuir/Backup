@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -19,13 +19,13 @@ subcollection: Backup
 # Restauración de una imagen de volumen del sistema BMR
 {: #restoreBMR}
 
-Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.data.keyword.backup_full}}, puede restaurarla rápidamente desde el sistema BMR Rescue Kernel. Con BMR puede restaurar el sistema sin necesidad de disponer de un sistema operativo de arranque. Resulta útil si el sistema operativo ya no se puede utilizar o si se han sustituido las unidades del sistema.
+Si necesita restaurar una copia de seguridad de una imagen nativa desde {{site.data.keyword.backup_full}}, puede restaurarla rápidamente desde el sistema BMR Rescue Kernel. Con BMR puede restaurar el sistema sin necesidad de disponer de un sistema operativo arrancable. Resulta útil si el sistema operativo ya no se puede utilizar o si se han sustituido las unidades del sistema.
 
 ## Inicio del sistema BMR Rescue Kernel
 
 Puede acceder al sistema BMR Rescue Kernel a través de la consola de {{site.data.keyword.cloud_notm}}.
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
+2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicio de copia de seguridad.
 3. Pulse la **Flecha** que hay junto a la caja fuerte.
 4. Pulse **Iniciar restauración desde cero**. Esta acción inicia una transacción que dura unos pocos minutos. Después podrá acceder al servidor si sigue los pasos que se detallan a continuación. Recibirá un correo electrónico cuando el sistema finalice el proceso de arranque.
 

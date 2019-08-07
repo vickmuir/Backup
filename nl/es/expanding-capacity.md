@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, expanding vault
 
@@ -24,8 +24,8 @@ Los usuarios actuales de {{site.data.keyword.cloud}} pueden ampliar el tamaño d
 
 ## Solicitud de un aumento
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **Menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
+2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione la caja fuerte que desea ampliar.
 4. Pulse **Acciones** y seleccione **Modificar {{site.data.keyword.backup_notm}}**.
 5. En la pantalla siguiente, seleccione el nuevo tamaño y pulse **Actualizar**.

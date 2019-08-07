@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,7 +31,9 @@ Debe tener una licencia válida para utilizar IBM Cloud Backup. Puede adquirir e
 - [Adquisición de copias de seguridad cuando se solicita un servidor](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Adquisición de copias de seguridad como actualización](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-Para obtener más información sobre cómo solicitarlo y los precios, consulte [Suministro de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Para obtener más información sobre cómo solicitarlo, consulte [Suministro de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Para obtener más información sobre los precios, consulte [{{site.data.keyword.backup_notm}}: Precios](https://www.ibm.com/cloud/backup/pricing){: external}.
+
 
 ## Instalación del agente de {{site.data.keyword.backup_notm}}
 {: #installagentgettingstarted}
@@ -69,8 +71,8 @@ El portal de {{site.data.keyword.backup_notm}} se utiliza para interactuar con t
 
    No se puede acceder al portal de {{site.data.keyword.backup_notm}} a través de la red pública. En primer lugar se debe establecer una conexión VPN.
    {:important}
-2. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-2. Pulse en **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicios de copia de seguridad.
+2. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
+2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicios de copia de seguridad.
 3. Seleccione el servidor donde se encuentran los archivos de los que va a hacer copia de seguridad. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
@@ -120,7 +122,7 @@ Para obtener más información, consulte la sección [Configuración de una copi
 
 Puede ver los detalles de almacenamiento del servicio en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}/classic/storage/backup){: external} siempre que lo desee. Los detalles que se pueden ver incluyen contraseña, dirección de almacenamiento y uso asociado con el servicio de {{site.data.keyword.backup_notm}} seleccionado.
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
 2. Pulse **Almacenamiento** y seleccione **Copia de seguridad** en la lista.
 2. Pulse en cualquier lugar de la fila correspondiente a la caja fuerte cuyos detalles de almacenamiento desea ver. En esta vista la contraseña no resulta visible.
 3. Pulse el recuadro de selección **Mostrar** junto al campo **Contraseña** para ver la contraseña correspondiente al servicio de {{site.data.keyword.backup_notm}} seleccionado.
@@ -131,4 +133,4 @@ Los cambios realizados en la contraseña de la copia de seguridad de {{site.data
 ## Obtención de más ayuda en línea
 {: #onlinehelp}
 
-Los sistemas del portal de {{site.data.keyword.backup_notm}} están plenamente documentados y se puede acceder a soporte para la aplicación dentro del propio portal de {{site.data.keyword.backup_notm}}. Pulse el signo de interrogación blanco dentro de un círculo azul que se encuentra en la parte superior derecha para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación de la parte izquierda para ver más información.
+Los sistemas del portal de {{site.data.keyword.backup_notm}} están plenamente documentados y se puede acceder a soporte para la aplicación dentro del propio portal de {{site.data.keyword.backup_notm}}. Pulse el signo de interrogación blanco dentro de un círculo azul para obtener **Ayuda**. Pulse cualquier artículo o tema en la barra de navegación para ver más información.

@@ -68,7 +68,7 @@ Los archivos y carpetas de los discos están accesibles para cualquiera en el si
 5. En el diálogo **Seleccione lo que desea restaurar**, seleccione **Archivos y carpetas**.
 6. Pulse **Continuar**. El diálogo Restaurar muestra el conjunto seguro más reciente del trabajo.
   * Para restaurar datos desde otro recurso, pulse origen en la lista Dispositivo de origen (caja fuerte).
-  * Para restaurar desde un conjunto seguro anterior, pulse el botón Examinar conjuntos seguros. En el calendario que aparece, pulse la fecha del conjunto seguro desde el que desee restaurar. A la derecha del calendario, pulse el conjunto seguro desde el que desee restaurar.
+  * Para restaurar desde un conjunto seguro anterior, pulse el botón Examinar conjuntos seguros. En el calendario que aparece, pulse la fecha del conjunto seguro desde el que desee restaurar. A continuación, pulse el conjunto seguro desde el que desee restaurar.
 7. En el panel **Elementos a restaurar**, seleccione la VM con los archivos y carpetas que desee restaurar.
 8. En el campo **Contraseña de cifrado**, especifique la contraseña de cifrado de datos.
 9. En el **campo Tiempo de inactividad**, especifique el número de minutos de inactividad tras los cuales la unidad compartida pasa automáticamente a dejar de estar compartida. El tiempo de inactividad puede ir de 2 a 180 minutos.

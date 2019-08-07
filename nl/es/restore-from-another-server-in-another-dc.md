@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -39,8 +39,8 @@ Inhabilite todas las tareas planificadas en ambos servidores para evitar conflic
 Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a la red privada de {{site.data.keyword.cloud}}; de lo contrario, el enlace del portal de {{site.data.keyword.backup_notm}} no funciona.
 {:tip}
 
-1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} y pulse el icono de **menú** de la parte superior izquierda. Seleccione **Infraestructura clásica**.
-2. Pulse **Almacenamiento** > **Copia de seguridad** para visualizar los servidores con servicio de copia de seguridad.
+1. Inicie la sesión en la [consola de {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. En el menú de navegación, seleccione **Infraestructura clásica**.
+2. Pulse **Almacenamiento** > **Copia de seguridad en cloud** para visualizar los servidores con servicio de copia de seguridad.
 3. Seleccione Servidor2. Pulse la flecha de expansión hacia la derecha para revelar el enlace del portal de {{site.data.keyword.backup_notm}}.
 4. Pulse el **inicio de sesión en el portal de {{site.data.keyword.backup_notm}}** para iniciar el cliente del portal en su navegador.
 
@@ -74,12 +74,12 @@ Recuerde iniciar la conexión {{site.data.keyword.BluVPN}} para obtener acceso a
   - Trabajo: seleccione el trabajo de copia de seguridad de Servidor1.
 8. Pulse **Siguiente** para iniciar el proceso de restauración en el Servidor2 en otro centro de datos.
 9. En la solicitud, especifique la contraseña de copia de seguridad y pulse **Siguiente**.
-10. Confirme que se ha seleccionado el trabajo de copia de seguridad adecuado y pulse **Siguiente**. Ahora el trabajo de restauración está configurado en Servidor2.
+10. Confirme que se ha seleccionado el trabajo de copia de seguridad correcto y pulse **Siguiente**. Ahora el trabajo de restauración está configurado en Servidor2.
 11. Seleccione el trabajo que acaba de configurar y pulse **Ejecutar restauración**.
 12. Seleccione los archivos que desea restaurar.
 13. Pulse el signo más para ampliar la selección de archivos.
 14. Marque el recuadro de selección de los archivos o carpetas individuales que desea restaurar de Servidor1 y de Servidor2. A continuación, pulse **Incluir**.
-15. Los archivos aparecen en la ventana Conjunto de copia de seguridad de la derecha. Pulse **Siguiente**.
+15. Los archivos aparecen en la ventana Conjunto de copia de seguridad. Pulse **Siguiente**.
 16. Cuando haya completado la selección de datos, continúe para seleccionar las opciones.
     - Seleccione **Restaurar en la ubicación original**.
     - Seleccione **Sobrescribir archivos existentes**.

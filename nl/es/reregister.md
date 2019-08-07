@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ Esta tarea se suele realizar después de volver a cargar el sistema operativo de
 
    Recuerde que el portal de {{site.data.keyword.backup_notm}} solamente es accesible a través de {{site.data.keyword.BluVPN}}.
    {:tip}
-2. En la parte izquierda, pulse **Todos los agentes**.
-3. En la parte superior derecha, mueva el ratón sobre **Editar**.
+2. Pulse **Todos los agentes**.
+3. Mueva el ratón sobre **Editar**.
 4. Seleccione **Valores de caja fuerte**.
 5. Pulse **Volver a registrar**.
 6. Complete el formulario.

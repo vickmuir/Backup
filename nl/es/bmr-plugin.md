@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -19,9 +19,9 @@ subcollection: Backup
 # Información sobre el plugin de restauración desde cero
 {: #BMRplugin}
 
-BMR es una solución de recuperación tras desastre. Puede utilizar BMR para restaurar el servidor desde cero después de que se produzca un desastre, como un error del sistema operativo o del hardware. Con BMR puede restaurar rápidamente la imagen del sistema desde una ubicación segura, gestionada por {{site.data.keyword.cloud}}.
+BMR (Bare Metal Restore, restauración desde cero) es una solución de recuperación tras desastre. Puede utilizar BMR para restaurar el servidor desde cero después de que se produzca un desastre, como un error del sistema operativo o del hardware. Con BMR puede restaurar rápidamente la imagen del sistema desde una ubicación segura, gestionada por {{site.data.keyword.cloud}}.
 
-BMR es un producto de Microsoft Windows solo para servidores físicos. No está disponible para servidores virtuales. No se da soporte a las restauraciones desde cero para distribuciones Linux. BMR sólo está soportado por el agente de copia de seguridad 8.30 o versiones anteriores. (30 de junio de 2018).
+BMR es un producto solo para Windows en servidores físicos. No está disponible para servidores virtuales. No se da soporte a las restauraciones desde cero para distribuciones Linux.
 {:important}
 
 ## Funciones proporcionadas
@@ -30,7 +30,7 @@ BMR es un producto de Microsoft Windows solo para servidores físicos. No está 
 - Restaurar el sistema a un punto en el tiempo seleccionado.
 - Restaurar el sistema a partir de copias de seguridad basadas en imagen o en archivo.
 - Restaurar el sistema a partir de copias de seguridad guardadas en {{site.data.keyword.backup_notm}}.
-- Una transacción de recuperación que se puede iniciar y que pueda utilizar para restaurar los datos sin un sistema de arranque.
+- Iniciar una transacción de recuperación que puede utilizar para restaurar los datos sin un sistema arrancable.
 
 ## Instalación del plugin de BMR
 {: #installingBMR}
