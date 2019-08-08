@@ -20,7 +20,7 @@ subcollection: Backup
 # Oracle 플러그인에 대해 알아보기
 {: #Oracleplugin}
 
-Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트의 Linux 에이전트 또는 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 Oracle 데이터베이스를 백업하며 Oracle 데이터베이스를 복원할 수 있습니다. Oracle 플러그인은 기존 아키텍처로 통합됩니다.
+Oracle 플러그인은 추가 기능이며 Oracle 데이터베이스 호스트의 Linux 에이전트 또는 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 볼트(vault)에 Oracle 데이터베이스를 백업하며 Oracle 데이터베이스를 복원할 수 있습니다. Oracle 플러그인은 기존 아키텍처로 통합됩니다.
 
 ## 제공되는 기능
 {: #Oraclecapabilities}

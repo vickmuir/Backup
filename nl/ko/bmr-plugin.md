@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -16,12 +16,12 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# BMR(Bare Metal Restore) 플러그인에 대해 알아보기
+# Bare Metal Restore(BMR) 플러그인에 대해 알아보기
 {: #BMRplugin}
 
-BMR은 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 하드웨어 장애 등의 재해가 발생한 후에 베어메탈 상태에서 서버를 복원할 수 있습니다. BMR을 사용하면 {{site.data.keyword.cloud}}에서 관리하는 안전한 보안 위치에서 시스템 이미지를 빠르게 복원할 수 있습니다.
+Bare Metal Restore(BMR)는 재해 복구 솔루션입니다. BMR을 사용하여 운영 체제나 하드웨어 장애 등의 재해가 발생한 후에 베어메탈 상태에서 서버를 복원할 수 있습니다. BMR을 사용하면 {{site.data.keyword.cloud}}에서 관리하는 안전한 보안 위치에서 시스템 이미지를 빠르게 복원할 수 있습니다.
 
-BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 서버에는 사용할 수 없습니다. Linux용 BMR(Bare Metal Restore) 배포는 지원되지 않습니다. 백업 에이전트 8.30 이하 버전에서만 BMR을 지원합니다. (2018년 6월 30일).
+BMR은 실제 서버의 Windows 전용 제품입니다. 이는 가상 서버에는 사용할 수 없습니다. Linux 배포판용 Bare Metal Restore는 지원되지 않습니다.
 {:important}
 
 ## 제공되는 기능
@@ -30,7 +30,7 @@ BMR은 실제 서버의 Microsoft Windows 전용 제품입니다. 이는 가상 
 - 선택된 특정 시점으로 시스템을 복원합니다.
 - 이미지 또는 파일 기반 백업에서 시스템을 복원합니다.
 - {{site.data.keyword.backup_notm}}에 저장된 백업에서 시스템을 복원합니다.
-- 부트 가능한 시스템이 없는 경우 데이터를 복원하는 데 사용할 수 있는 실행 가능한 복구 트랜잭션.
+- 부트 가능한 시스템이 없는 경우 데이터를 복원하는 데 사용할 수 있는 복구 트랜잭션을 시작하십시오.
 
 ## BMR 플러그인 설치
 {: #installingBMR}

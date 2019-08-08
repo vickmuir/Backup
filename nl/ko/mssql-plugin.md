@@ -19,7 +19,7 @@ subcollection: Backup
 # SQL Server 플러그인에 대해 알아보기
 {: #MSSQLplugin}
 
-SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 저장소에 SQL 데이터베이스를 백업하며 SQL 데이터베이스를 복원할 수 있습니다.
+SQL Server 플러그인은 SQL 데이터베이스 호스트에서 Windows 에이전트로 설치됩니다. {{site.data.keyword.backup_notm}} 포털을 통해 작업을 구성하고 안전한 원격 볼트(vault)에 SQL 데이터베이스를 백업하며 SQL 데이터베이스를 복원할 수 있습니다.
 
 ## 제공되는 기능
 {: #sqlcapabilities}

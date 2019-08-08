@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-07-31"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -23,20 +23,20 @@ subcollection: Backup
 업그레이드 프로세스 다음에 등록을 잃지 않고 {{site.data.keyword.backup_notm}} 에이전트를 업그레이드할 수 있는지 확인하십시오.
 
 1. 루트 레벨에서 호스트에 로그인하십시오.
-2. 에이전트의 최신 버전을 다운로드하십시오.
+2. 최신 버전의 에이전트를 다운로드하십시오.
    ```
-   wget -N downloads.service.softlayer.com/evault/Agent-Linux-x64-8.11.5251.tar.gz2
+   wget -N downloads.softlayer.local/evault/Agent-Linux-x64-8.50.7245.tar.gz
    ```
    {:pre}
 
 3. 다운로드한 파일의 컨텐츠를 추출하십시오.
 
    ```
-   tar -xzvf Agent-Linux-x64-8.11.5251.tar.gz3
+   tar -xzvf Agent-Linux-x64-8.50.7245.tar.gz3
    ```
 4. 최근 설치 디렉토리로 이동하십시오.
    ```
-   cd Agent-Linux-x64-8.11.5251/4
+   cd Agent-Linux-x64-8.50.7245/
    ```
 
 5. 설치 스크립트를 실행하십시오.
