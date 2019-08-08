@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -39,9 +39,9 @@ Pour éviter tout conflit, désactivez tous les tâches planifiées sur les deux
 Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir accéder au réseau privé {{site.data.keyword.cloud}}, sinon le lien du portail {{site.data.keyword.backup_notm}} ne fonctionnera pas.
 {:tip}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez Serveur2. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
+2. Cliquez sur **Stockage** > **Sauvegarde cloud** pour afficher les serveurs avec service de sauvegarde.
+3. Sélectionnez Serveur2. Cliquez sur la flèche d'expansion pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
 ## Réenregistrement du coffre
@@ -79,7 +79,7 @@ Prenez soin de lancer votre connexion {{site.data.keyword.BluVPN}} pour pouvoir 
 12. Sélectionnez les fichiers que vous souhaitez restaurer.
 13. Cliquez sur le signe Plus pour développer la sélection de fichiers.
 14. Cochez la case en regard de chacun des fichiers ou dossiers que vous souhaitez restaurer depuis Serveur1 sur Serveur2. Cliquez ensuite sur **Inclure**.
-15. Les fichiers apparaissent dans la fenêtre Groupe de sauvegarde sur la droite. Cliquez sur **Suivant**.
+15. Les fichiers apparaissent dans la fenêtre Groupe de sauvegarde. Cliquez sur **Suivant**.
 16. Après avoir sélectionné vos données, passez à la sélection de vos options.
     - Sélectionnez **Restaurer vers l'emplacement d'origine**.
     - Sélectionnez **Remplacer les fichiers existants**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -24,8 +24,8 @@ Ces étapes sont le plus souvent utilisées après le rechargement du système d
 
    N'oubliez pas que le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}
-2. Sur la gauche, cliquez sur **Tous les agents**.
-3. Dans l'angle supérieur droit, survolez l'option **Editer**.
+2. Cliquez sur **Tous les agents**.
+3. Survolez l'option **Editer**.
 4. Sélectionnez **Paramètres du coffre**.
 5. Cliquez sur **Réenregistrer**.
 6. Renseignez le formulaire.

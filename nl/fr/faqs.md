@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, backup frequency, backup types, backup retention scheme, plugins, delta technology, open files, pricing
 
@@ -91,6 +91,7 @@ Par défaut, le client de base dispose d'une technologie de pointe lui permettan
 <hr>
 
 ## Où puis-je trouver des informations sur la tarification ?
+{: #pricing}
 {: faq}
 
 Pour plus d'informations, voir [Stockage de sauvegarde](https://www.ibm.com/cloud/backup-and-restore){: external} et [Sauvegarde IBM Cloud : tarification](https://www.ibm.com/cloud/backup/pricing){: external}.
@@ -134,7 +135,7 @@ Si vous restaurez l'image sur un disque de plus grande capacité que le volume d
 ## BMR peut-il être utilisé pour une sauvegarde régulière ?
 {: faq}
 
-La sauvegarde BMR n'est pas une image disque mais un système de sauvegarde d'image sur un volume système. Le système n'est pas destiné à être utilisé pour des sauvegardes régulières mais conjointement à celles-ci.  
+La sauvegarde BMR n'est pas une image disque mais un système de sauvegarde d'image sur un volume système. Le système n'est pas destiné à être utilisé pour des sauvegardes régulières mais conjointement à celles-ci.
 
 <hr>
 

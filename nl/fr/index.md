@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup
+keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
 subcollection: Backup
 
@@ -24,7 +24,8 @@ Vous pouvez acquérir le service {{site.data.keyword.backup_notm}} de deux mani�
 - [Acquisition de sauvegardes lors de la commande d'un serveur](#purchasingwithserver).
 - [Acquisition de sauvegardes sous forme de mise à niveau](#purchasingasupgrade).
 
-Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword.backup_notm}} ](https://www.ibm.com/cloud/backup-and-restore){: external} et [{{site.data.keyword.backup_notm}} dans IBM Cloud](https://www.ibm.com/cloud/backup/pricing){: external}.
+L'utilisation de {{site.data.keyword.backup_notm}} est facturée en fonction de la taille du coffre sur une base mensuelle. Pour plus d'informations sur la tarification, voir [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
+{:important}
 
 ## Acquisition d'{{site.data.keyword.backup_notm}} lors de la commande d'un serveur
 {: #purchasingwithserver}
@@ -39,7 +40,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
    3. Sélectionnez la configuration de serveur et le type d'image de système d'exploitation. Vous pouvez également choisir plusieurs modules complémentaires.
    4. Sous la section **Disques de stockage**, cliquez sur **Modules complémentaires** et sélectionnez **{{site.data.keyword.backup_notm}}**. Choisissez l'option correspondant à vos besoins.
    5. Sous **Interface réseau**, sélectionnez la vitesse de port de liaison montante et les modules complémentaires souhaités.
-3. Sur la droite, passez en revue le récapitulatif de votre commande.
+3. Passez ensuite en revue le récapitulatif de votre commande.
 4. Après avoir lu les dispositions, cochez la case **J'ai lu et j'accepte les contrats de service tiers**.
 5. Cliquez sur **Mettre à disposition**. Un écran incluant votre numéro de commande de mise à disposition s'affiche. Vous pouvez imprimer cette page car il s'agit de votre reçu de commande de mise à disposition.
 
@@ -49,7 +50,7 @@ Pour plus d'informations sur la tarification, voir [Stockage {{site.data.keyword
 Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique de mise à disposition de votre commande inclut un lien vers votre page *Détails de l'unité* une fois que vous vous connectez à {{site.data.keyword.cloud_notm}}. Vous pouvez également vous connecter directement à la console {{site.data.keyword.cloud_notm}}.
 
 ### Confirmation de l'acquisition d'{{site.data.keyword.backup_notm}}
-1. Sur la console [{{site.data.keyword.cloud_notm}} ](https://{DomainName}){: external}, cliquez sur l'icône de **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Unité** > **Liste des unités**.
 2. Localisez le nouveau serveur vous avez commandé.
   - Si une icône en forme d'horloge est affichée en regard de l'URL, vous devez patienter avant de confirmer votre acquisition d'{{site.data.keyword.backup_notm}}. Vous pouvez actualiser la page pour voir un statut mis à jour sur votre nouveau serveur. Lorsque l'icône en forme d'horloge disparaît, vous pouvez passer aux étapes suivantes pour confirmer votre acquisition du service {{site.data.keyword.backup_notm}}.
@@ -62,7 +63,7 @@ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé
 
 ### Sélection d'un serveur sur lequel installer {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal. Recherchez le périphérique pour lequel vous voulez ajouter le service de sauvegarde.
 3. Cliquez sur le nom de l'unité pour accéder à la page **Détails de l'unité**.
 

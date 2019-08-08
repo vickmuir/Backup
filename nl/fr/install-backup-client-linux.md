@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -21,7 +21,7 @@ subcollection: Backup
 # Installation du client de sauvegarde sous Linux
 {: #InstallinLinux}
 
-L'installation du client {{site.data.keyword.backup_full}} sur un système d'exploitation Linux peut être réalisée via une série de commandes de shell ou de terminal dans le système d'exploitation. Cette procédure décrit les étapes requises pour l'installation du client sur l'un des systèmes d'exploitation Linux suivants :
+L'installation du client {{site.data.keyword.backup_full}} sur un système d'exploitation Linux peut être réalisée via une série de commandes de shell ou de terminal dans le système d'exploitation. Cette procédure décrit les étapes requises pour l'installation du client sur l'un des systèmes d'exploitation suivants :
 
 - RHEL
 - CentOS
@@ -37,13 +37,13 @@ Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que 
 ## Connexion au serveur de l'unité cible
 {: #logintargetLin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des unités serveur disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
-  - Celle-ci sera utilisée dans les étapes suivantes lorsque vous vous connecterez à l'unité depuis une invite de commande UNIX ou Linux. Remplacez <publicIpAddress> par l'adresse IP publique réelle dans la commande présentée à l'étape 5.
-4. Cliquez sur la flèche pointant vers la droite pour afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe.
+  - Celle-ci sera utilisée lorsque vous vous connecterez à l'unité depuis l'invite de commande. Dans la commande présentée à l'étape 5, remplacez <publicIpAddress> par l'adresse IP publique réelle.
+4. Cliquez sur la flèche pour afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe.
   - Si le mot de passe n'est pas affiché, cochez la case **Afficher mot de passe** pour l'afficher. Le nom d'utilisateur et le mot de passe seront utilisés à l'étape suivante pour la connexion au dispositif de test. Remplacez `<user name>` par le nom de l'utilisateur réel.
-5. Connectez-vous à l'unité cible en exécutant la commande suivante à partir d'une ligne de commande UNIX ou Linux :
+5. Connectez-vous à l'unité cible en exécutant la commande suivante à partir de la ligne de commande.
    ```
    ssh <user name>@<publicIpAddress>
    ```
@@ -56,7 +56,7 @@ Si vous avez fait l'acquisition d'{{site.data.keyword.backup_notm}} en tant que 
 
 ## Mise à jour du système d'exploitation pour préparer l'installation (RHEL uniquement)
 
-Cette étape est obligatoire pour RHEL, mais facultative pour les autres distributions Linux.
+Cette étape est obligatoire pour RHEL, mais facultative pour les autres distributions.
 {:tip}
 
 - Exécutez la commande suivante à l'invite du serveur :
@@ -103,7 +103,7 @@ Cette étape est obligatoire pour RHEL, mais facultative pour les autres distrib
 
 ## Vérification de l'aboutissement de l'installation
 
-1. Vérifiez que le message "Registered to The Portal" figure dans la sortie de l'installation. Pour ce faire, vous pouvez rechercher le message sur l'écran ou inspecter la sortie de la commande suivante.
+1. Vérifiez que le message `Registered to The Portal` figure dans la sortie de l'installation. Pour ce faire, vous pouvez rechercher le message sur l'écran ou inspecter la sortie de la commande suivante.
    ```
    grep 'Registered'  /opt/BUAgent/Install.log
    ```

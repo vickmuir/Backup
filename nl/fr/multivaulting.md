@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -41,7 +41,7 @@ Une sauvegarde vers des emplacements de centres de données distants peut prendr
 Vous devez ajouter le nouveau coffre distant au compte avant de pouvoir ajouter un nouvel emplacement de sauvegarde dans le portail {{site.data.keyword.backup_notm}}.
 {:important}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}, puis cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Unités**
 3. Localisez et cliquez sur le lien du serveur concerné.
 4. Sous **Détails de l'unité**, cliquez sur **Stockage**.
@@ -56,15 +56,15 @@ Une fois le processus de commande terminé, accédez à **Stockage** > **Sauvega
 
 ## Ajout d'un coffre supplémentaire dans le portail {{site.data.keyword.backup_notm}}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
+2. Cliquez sur **Stockage** > **Sauvegarde cloud** pour afficher les serveurs avec service de sauvegarde.
+3. Sélectionnez le serveur qui doit être capable de sauvegarder plusieurs coffres. Cliquez sur la flèche pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur le lien de connexion au portail **{{site.data.keyword.backup_notm}} ** pour démarrer le client de portail dans votre navigateur.
 
    Le portail {{site.data.keyword.backup_notm}} est accessible uniquement via {{site.data.keyword.BluVPN}}.
    {:tip}
-5. Dans le panneau de navigation de gauche, cliquez sur **Tous les agents**.
-6. Dans l'angle supérieur droit, cliquez sur **Modifier** et sélectionnez **Paramètres du coffre**.
+5. Dans le panneau de navigation, cliquez sur **Tous les agents**.
+6. Cliquez sur **Editer** et sélectionnez **Paramètres du coffre**.
 7. Dans la fenêtre **Paramètres du coffre**, cliquez sur **Ajouter**.
 8. Dans la fenêtre **Nouveau coffre** :
   1. Dans le menu Profil du coffre, sélectionnez **Entrer les paramètres du coffre** pour créer une nouvelle entrée. Ne mettez pas à jour l'entrée existante, cela ne fonctionnera pas.

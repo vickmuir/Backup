@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Windows
 
@@ -28,10 +28,10 @@ Pour plus d'informations sur les sauvegardes pour les serveurs Windows 2016, voi
 ## Connexion au serveur de l'unité cible
 {: #logintargetWin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Sélectionnez **Unités** > **Liste des unités** dans le menu principal pour afficher la liste des serveurs disponibles.
 3. Recherchez l'unité pour laquelle vous avez fait l'acquisition du service {{site.data.keyword.backup_notm}} et notez son adresse IP publique.
-4. Cliquez sur la flèche pointant vers la droite pour développer l'arborescence et afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe. Si le mot de passe n'est pas affiché, cliquez sur **Afficher mot de passe** pour l'afficher.
+4. Cliquez sur la flèche pour développer l'arborescence et afficher plus d'informations sur l'unité, notamment le nom d'utilisateur et le mot de passe. Si le mot de passe n'est pas affiché, cliquez sur **Afficher mot de passe** pour l'afficher.
 5. Connectez-vous à l'unité cible à l'aide d'une connexion de bureau à distance.
 
 ## Téléchargement du client de sauvegarde

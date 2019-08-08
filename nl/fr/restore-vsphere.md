@@ -68,7 +68,7 @@ Les fichiers et les dossiers des disques sont accessibles à toute personne sur 
 5. Dans la boîte de dialogue **Choose What You Want to Restore**, sélectionnez **Files and Folders**.
 6. Cliquez sur **Continue**. La boîte de dialogue Restore affiche le jeu sécurisé le plus récent du travail.
   * Pour restaurer des données d'une autre ressource, cliquez sur Source dans la liste Source Device (coffre).
-  * Pour restaurer des données d'un jeu sécurisé plus ancien, cliquez sur le bouton Browse Safesets. Dans le calendrier qui s'affiche, cliquez sur la date du jeu sécurisé à partir de laquelle vous souhaitez effectuer la restauration. A droite du calendrier, cliquez sur le jeu sécurisé spécifique depuis lequel vous souhaitez effectuer la restauration.
+  * Pour restaurer des données d'un jeu sécurisé plus ancien, cliquez sur le bouton Browse Safesets. Dans le calendrier qui s'affiche, cliquez sur la date du jeu sécurisé à partir de laquelle vous souhaitez effectuer la restauration. Cliquez ensuite sur le jeu sécurisé spécifique depuis lequel vous souhaitez effectuer la restauration.
 7. Dans le panneau **Items to Restore**, sélectionnez la machine virtuelle contenant les fichiers ou les dossiers que vous souhaitez restaurer.
 8. Dans la zone **Encryption Password**, entrez le mot de passe de chiffrement des données.
 9. Dans la zone **Idle Time**, entrez le nombre de minutes d'inactivités après lequel l'unité partagée doit annuler automatiquement le partage. Le délai d'inactivité peut être compris entre 2 et 180 minutes.

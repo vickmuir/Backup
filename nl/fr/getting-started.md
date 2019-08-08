@@ -2,9 +2,9 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-01"
 
-keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup
+keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
 subcollection: Backup
 
@@ -31,7 +31,8 @@ Vous devez disposer d'une licence valide pour utiliser IBM Cloud Backup. Vous po
 - [Acquisition de sauvegardes lors de la commande d'un serveur](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingwithserver).
 - [Acquisition de sauvegardes sous forme de mise à niveau](/docs/infrastructure/Backup?topic=Backup-ordering#purchasingasupgrade).
 
-Pour plus d'informations sur la commande et la tarification, voir [Mise à disposition de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering).
+Pour plus d'informations sur la commande, voir [Mise à disposition de {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-ordering). Pour plus d'informations sur la tarification, voir [{{site.data.keyword.backup_notm}} : tarification](https://www.ibm.com/cloud/backup/pricing){: external}.
+
 
 ## Installation de l'agent {{site.data.keyword.backup_notm}}
 {: #installagentgettingstarted}
@@ -69,9 +70,9 @@ Le portail {{site.data.keyword.backup_notm}} est utilisé pour interagir avec un
 
    Le portail {{site.data.keyword.backup_notm}} n'est pas accessible via le réseau public. Une connexion VPN doit d'abord être établie.
    {:important}
-2. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec services de sauvegarde.
-3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+2. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
+2. Cliquez sur **Stockage** > **Sauvegarde cloud** pour afficher les serveurs avec services de sauvegarde.
+3. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 4. Cliquez sur **Connexion au portail {{site.data.keyword.backup_notm}}** pour lancer le client de portail dans votre navigateur.
 
 ## Configuration de l'agent de sauvegarde et du planning de sauvegarde
@@ -120,7 +121,7 @@ Pour plus d'informations, voir [Configuration d'une sauvegarde simple au niveau 
 
 Vous pouvez à tout moment accéder aux détails du stockage de votre service dans la [console {{site.data.keyword.cloud_notm}} ](https://{DomainName}/classic/storage/backup){: external}. Les détails que vous pouvez consulter comprennent le mot de passe, l'adresse de stockage et l'utilisation qui sont associés au service {{site.data.keyword.backup_notm}} sélectionné.
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
 2. Cliquez sur **Stockage** et sélectionnez **Sauvegarde** dans la liste.
 2. Cliquez n'importe où sur la ligne du coffre dont vous souhaitez examiner les informations de stockage. Dans cette vue, le mot de passe n'est pas visible.
 3. Cochez la case **Afficher** en regard de la zone **Mot de passe** pour examiner le mot de passe du service {{site.data.keyword.backup_notm}} sélectionné.
@@ -131,4 +132,4 @@ Les modifications apportées au mot de passe {{site.data.keyword.backup_notm}} d
 ## Obtention d'aide supplémentaire en ligne
 {: #onlinehelp}
 
-Les systèmes de portail {{site.data.keyword.backup_notm}} disposent d'une documentation complète et le support de l'application est accessible depuis le portail {{site.data.keyword.backup_notm}}. Cliquez sur le point interrogation blanc dans un cercle bleu situé dans l'angle supérieur droit pour obtenir de l'**aide**. Cliquez sur un article ou une rubrique dans la barre de navigation sur le côté gauche pour afficher davantage d'informations.
+Les systèmes de portail {{site.data.keyword.backup_notm}} disposent d'une documentation complète et le support de l'application est accessible depuis le portail {{site.data.keyword.backup_notm}}. Cliquez sur le point interrogation blanc dans un cercle bleu pour obtenir de l'**aide**. Cliquez sur un article ou une rubrique dans la barre de navigation pour afficher davantage d'informations.

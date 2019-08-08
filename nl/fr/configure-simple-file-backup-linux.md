@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -24,9 +24,9 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que 
 ## Démarrage du portail {{site.data.keyword.backup_notm}}
 {: #startWebCCconfigLin}
 
-1. Connectez-vous à la [console {{site.data.keyword.cloud_notm}}](https://{DomainName}){: external} et cliquez sur l'icône **menu** dans l'angle supérieur gauche. Sélectionnez **Infrastructure classique**.
-2. Cliquez sur **Stockage** > **Sauvegarde** pour afficher les serveurs avec service de sauvegarde.
-2. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pointant vers la droite pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
+1. Connectez-vous à la console [{{site.data.keyword.cloud_notm}}](https://{DomainName}){: external}. Dans le menu de navigation, sélectionnez **Infrastructure classique**.
+2. Cliquez sur **Stockage** > **Sauvegarde cloud** pour afficher les serveurs avec service de sauvegarde.
+2. Sélectionnez le serveur sur lequel se trouvent les fichiers à sauvegarder. Cliquez sur la flèche d'expansion pour afficher le lien du portail {{site.data.keyword.backup_notm}}.
 3. Démarrez votre connexion VPN pour pouvoir accéder au réseau privé IBM.
 4. Cliquez sur le lien de connexion au portail {{site.data.keyword.backup_notm}} pour démarrer le client de portail dans votre navigateur.<br/>
 
@@ -42,7 +42,7 @@ Une fois que vous avez commandé votre {{site.data.keyword.backup_full}} et que 
 5. Cliquez sur **Suivant** pour continuer.
 6. Dans le panneau des fichiers de données, accédez aux fichiers et aux répertoires que vous voulez inclure dans votre sauvegarde en cliquant sur les signes **+** et **-** en regard des icônes de dossier.
 7. Cochez les cases en regard des fichiers et des répertoires que vous désirez inclure, puis cliquez sur **Inclure** pour enregistrer vos sélections.
-8. Vous pouvez filtrer davantage vos sélections à l'aide de l'écran en incrustation qui apparaît, ou cliquer sur **OK** pour utiliser en l'état les sélections que vous avez effectuées. Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, ceux-ci s'affichent dans le panneau de groupe de sauvegarde sur le côté droit de l'écran. Cliquez sur **Suivant** pour continuer.
+8. Vous pouvez filtrer davantage vos sélections à l'aide de l'écran en incrustation qui apparaît, ou cliquer sur **OK** pour utiliser en l'état les sélections que vous avez effectuées. Une fois que vous avez ajouté vos choix en matière de fichiers et de répertoires, ceux-ci s'affichent dans le panneau de groupe de sauvegarde. Cliquez sur **Suivant** pour continuer.
 
    Vous pouvez répéter les étapes 6 à 8 pour ajouter d'autres fichiers ou supprimer (à l'aide du bouton **Exclure**) des fichiers que vous aviez déjà ajoutés. Vous pouvez également utiliser l'option **Retirer** pour supprimer une ligne d'article du panneau de groupe de sauvegarde. Une fois ce groupe de sauvegarde configuré comme vous le souhaitez,
    {:tip}

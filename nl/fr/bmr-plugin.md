@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-08-01"
 
 keywords: IBM Cloud backup, bare metal restore, bmr, plug-in, plugin, EVault, Carbonite, baremetal, point-in-time restore
 
@@ -19,9 +19,9 @@ subcollection: Backup
 # En savoir plus sur le plug-in Bare Metal Restore
 {: #BMRplugin}
 
-BMR est une solution de reprise après incident. Vous pouvez utiliser BMR pour restaurer votre serveur à partir d'un état bare metal après un sinistre, par exemple, une panne de matériel ou de système d'exploitation. BMR vous permet de restaurer rapidement l'image système à partir d'un emplacement sécurisé qui est géré par {{site.data.keyword.cloud}}.
+Bare Metal Restore est une solution de reprise après incident. Vous pouvez utiliser BMR pour restaurer votre serveur à partir d'un état bare metal après un sinistre, par exemple, une panne de matériel ou de système d'exploitation. BMR vous permet de restaurer rapidement l'image système à partir d'un emplacement sécurisé qui est géré par {{site.data.keyword.cloud}}.
 
-BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Windows. Il n'est pas disponible pour les serveurs virtuels. Les restaurations Bare Metal pour les distributions Linux ne sont pas prises en charge. BMR n'est pris en charge que par Backup Agent 8.30 ou des versions antérieures (30 juin 2018).
+BMR est un produit fonctionnant uniquement sur des serveurs physiques sous Windows. Il n'est pas disponible pour les serveurs virtuels. Les restaurations Bare Metal pour les distributions Linux ne sont pas prises en charge.
 {:important}
 
 ## Fonctions fournies
@@ -30,7 +30,7 @@ BMR est un produit opérant uniquement sur des serveurs physiques Microsoft Wind
 - Restauration de votre système à un point de cohérence sélectionné.
 - Restauration de votre système depuis des sauvegardes basées image ou fichiers.
 - Restauration de votre système depuis des sauvegardes hébergées {{site.data.keyword.backup_notm}}.
-- Transaction de reprise déclenchable permettant de restaurer vos données sans système amorçable.
+- Démarrage d'une transaction de reprise pouvant être utilisée pour restaurer vos données sans système amorçable.
 
 ## Installation du plug-in BMR
 {: #installingBMR}
