@@ -16,11 +16,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Learn about the Oracle plug-in
 {: #Oracleplugin}
 
 The Oracle plug-in is an add-on and is installed with the Windows Agent or the Linux Agent on the Oracle database host. Through the {{site.data.keyword.backup_notm}} portal, you can configure jobs, back up Oracle databases to a secure, remote vault, and restore Oracle databases. The Oracle plug-in integrates into the existing architecture.
+{:shortdesc}
 
 ## Capabilities provided
 {: #Oraclecapabilities}

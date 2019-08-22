@@ -13,6 +13,7 @@ subcollection: Backup
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:shortdesc: .shortdesc}
 
 # Upgrading backup software agent for Linux
 {: #UpgradeinLinux}
@@ -20,7 +21,8 @@ subcollection: Backup
 The most recent backup agent can be downloaded from your {{site.data.keyword.backup_notm}} portal Dashboard quick links section.
 {:tip}
 
-Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration
+Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+{:shortdesc}
 
 1. Log in to your host at root level.
 2. Download the latest version of the agent.

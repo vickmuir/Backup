@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Canceling an {{site.data.keyword.backup_notm}} service
 {: #cancelBackup}
 
 You can cancel your {{site.data.keyword.backup_full}} service at any time. The cancellation deletes your vault with the backed-up data and you can't log in to {{site.data.keyword.backup_notm}} portal with the canceled credentials.
+{:shortdesc}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.

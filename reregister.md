@@ -13,12 +13,13 @@ subcollection: Backup
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:shortdesc: .shortdesc}
 
 # Reregistering a vault
 {: #reregister}
 
-This task is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
-{:tip}
+Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
+{:shortdesc}
 
 1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 

@@ -17,15 +17,18 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Installing the backup client in Linux
 {: #InstallinLinux}
 
-Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS. This procedure outlines the steps that are required to install the client on any of the following operating systems:
+Installing the {{site.data.keyword.backup_full}} client on a Linux-based operating system can be done through a series of commands in the shell or the terminal within the OS.
+{:shortdesc}
 
-- RHEL
-- CentOS
-- CloudLinux
+This procedure outlines the steps that are required to install the client on any of the following operating systems:
+* RHEL
+* CentOS
+* CloudLinux
 
 After you completed the procedure, the automated process registers the Agent service with {{site.data.keyword.backup_notm}} portal, then downloads and installs the files that are needed to run the service.
 

@@ -16,11 +16,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Installing the backup client in Windows
 {: #InstallinWindows}
 
 Installing the {{site.data.keyword.backup_full}} client in Windows is completed through a series of interactions on the server that is designated for the {{site.data.keyword.backup_notm}} service.
+{:shortdesc}
 
 For more information about backups for Windows 2016 servers, see [Configuring {{site.data.keyword.backup_notm}} on Windows 2016](/docs/infrastructure/Backup?topic=Backup-InstallinWindows2016).
 {:tip}

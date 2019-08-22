@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-08-22"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Windows
 
@@ -19,6 +19,9 @@ subcollection: Backup
 
 The most recent backup agent can be downloaded from your {{site.data.keyword.backup_notm}} portal Dashboard quick links section.
 {:tip}
+
+Following the upgrade process ensures that you can upgrade your {{site.data.keyword.backup_notm}} agent without losing the registration.
+{:shortdesc}
 
 1. Remote control your {{site.data.keyword.cloud}} server that is in need of an {{site.data.keyword.backup_notm}} upgrade.
 2. Open a browser, and go to the following address.

@@ -15,14 +15,15 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Provisioning {{site.data.keyword.backup_notm}}
 {: #ordering}
 
 You can purchase {{site.data.keyword.backup_notm}} service in two ways.
-
-- [Purchase backups when you Order a Server](#purchasingwithserver).
-- [Purchase backups as an Upgrade](#purchasingasupgrade).
+* [Purchase backups when you Order a Server](#purchasingwithserver).
+* [Purchase backups as an Upgrade](#purchasingasupgrade).
+{:shortdesc}
 
 {{site.data.keyword.backup_notm}} usage is billed based on the vault size on a monthly basis. For more information about pricing, see [{{site.data.keyword.cloud}} Backup solutions](https://www.ibm.com/cloud/backup-and-restore){: external} and [{{site.data.keyword.backup_notm}}: Pricing](https://www.ibm.com/cloud/backup/pricing){: external}.
 {:important}

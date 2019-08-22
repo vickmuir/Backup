@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Learn about the SQL Server plug-in
 {: #MSSQLplugin}
 
 The SQL Server plug-in is installed with the Windows Agent on the SQL database host. Through the {{site.data.keyword.backup_notm}} portal, you can configure jobs, back up SQL databases to a secure, remote vault, and restore SQL databases.
+{:shortdesc}
 
 ## Capabilities provided
 {: #sqlcapabilities}

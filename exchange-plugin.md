@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Learn about the Exchange plug-in
 {: #Exchangeplugin}
 
 The Exchange plug-in is installed with the Windows Agent on the host. Through the {{site.data.keyword.backup_notm}} portal, you can configure jobs, back up Exchange databases to a secure, remote vault, and restore Exchange databases. The plug-in integrates into the existing architecture.
+{:shortdesc}
 
 **Capabilities provided**
 

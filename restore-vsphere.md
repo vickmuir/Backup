@@ -9,17 +9,18 @@ keywords: IBM Cloud Backup, VMware, VRA, vSphere Recovery Agent, plug-in, plugin
 subcollection: Backup
 
 ---
-{:external: target="_blank" .external}
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Restoring vSphere data
 {: #VRARestore}
 
 When VMs are protected in vSphere environment, you can restore [vSphere VMs](#restoreVMs) and [restore files and folders](#restoreFFVRA)  with the vSphere Recovery Agent.
+{:shortdesc}
 
 ## Restoring vSphere VMs
 {: #restoreVMs}

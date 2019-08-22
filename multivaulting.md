@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Multi-vaulting
 {: #multivault}
 
 Multi-vaulting is the ability for a client to connect a server to more than one vault location. It provides redundancy and peace of mind because backups are available even if one site fails.
+{:shortdesc}
 
 **Key points**
 

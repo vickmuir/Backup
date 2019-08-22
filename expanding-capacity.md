@@ -15,12 +15,14 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 
 # Expanding vault capacity
 {: #expandcapacity}
 
 Current {{site.data.keyword.cloud}} users are able to expand the size of their vault up to 4000 GB. They don't need to create a duplicate or manually migrate data to a larger volume. The limit increase process does not cause any outage or lack of access.
+{:shortdesc}
 
 ## Ordering an increase
 

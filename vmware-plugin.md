@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Learn about the vSphere Recovery Agent
 {: #VRA}
 
 The vSphere Recovery Agent (VRA) is a Windows application, which can back up and restore VMDKs up to 10 TB. You can install the vSphere Recovery Agent on a physical or virtual machine that has local network access to the vCenter that you want to protect. For best performance, install the VRA on a machine that is in the same subnet as the vCenter. To distribute the workload, up to five VRAs can protect VMs that are attached to a single vCenter.
+{:shortdesc}
 
 In a vSAN stretched cluster, each VM has a preferred site. Ideally, one local VRA is installed in each site that backs up preferred VMs of that site. If a VM is moved to a different site (due to maintenance or failures), backup performance can be degraded but remain acceptable.
 

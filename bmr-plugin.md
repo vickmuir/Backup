@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Learn about the Bare Metal Restore plug-in
 {: #BMRplugin}
 
 Bare Metal Restore is a disaster recovery solution. You can use BMR to restore your server from a bare metal state after a disaster, such as an operating system or hardware failure, occurred. With BMR, you can quickly restore the system image from a safe, secure location that is managed by {{site.data.keyword.cloud}}.
+{:shortdesc}
 
 BMR is a Windows-only product on physical servers. It is not available for virtual servers. Bare Metal Restores for Linux distributions aren't supported.
 {:important}

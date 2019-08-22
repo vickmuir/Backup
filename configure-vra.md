@@ -15,11 +15,13 @@ subcollection: Backup
 {:important: .important}
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
 
 # Configuring VRA backup jobs
 {: #ConfigureVRA}
 
 After the VMware vSphere environment is added in the {{site.data.keyword.backup_notm}} Portal, you can create a backup job that specifies which virtual machines (VMs) to back up, and where to save the backup data. To back up the data, you can run the backup job manually or schedule the backup job to run.
+{:shortdesc}
 
 You must configure vault settings and vCenter information before you can add a backup job.
 {:important}
