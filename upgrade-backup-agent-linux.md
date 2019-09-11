@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-07-31"
+lastupdated: "2019-09-11"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, upgrade agent, Linux
 
@@ -34,7 +34,7 @@ Following the upgrade process ensures that you can upgrade your {{site.data.keyw
 3. Extract the contents of the downloaded file.
 
    ```
-   tar -xzvf Agent-Linux-x64-8.50.7245.tar.gz3
+   tar -xzvf Agent-Linux-x64-8.50.7245.tar.gz
    ```
 4. Go to the recent installation directory.
    ```
