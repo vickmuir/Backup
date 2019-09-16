@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, port information, configure, configuring,
 
@@ -16,29 +16,29 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="APPDomain"}
 {:DomainName: data-hd-keyref="DomainName"}
 
-# Configuring Ports to allow communication between the backup agent and {{site.data.keyword.backup_notm}} portal
+# Configuring Ports to allow communication between the backup agent and WebCC
 {: #portinfo}
 
 The {{site.data.keyword.backup_full}} agent that is installed on your server needs to be able to communicate with the vault that you purchased. The Director host information for an {{site.data.keyword.backup_notm}} user account can be found in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/classic/storage/backup){: external}.
 
-Always register agents to the {{site.data.keyword.backup_notm}} portal and the directors by using the FQDN because the IP addresses for these services might change.
+Always register agents to the WebCC and the directors by using the FQDN because the IP addresses for these services might change.
 
-Your servers must communicate with the {{site.data.keyword.backup_notm}} portal and all AMP proxy servers for {{site.data.keyword.backup_notm}} portal to work correctly, regardless of the data center location.
+Your servers must communicate with the WebCC and all AMP proxy servers for WebCC to work correctly, regardless of the data center location.
 
 ```
 evregister.service.softlayer.com TCP 8086,8087
 ```
 
-Extra AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the {{site.data.keyword.backup_notm}} portal.
+Extra AMP proxy servers can be added as needed to handle more {{site.data.keyword.backup_notm}} agents that are registered to the WebCC.
 
 TCP Port 8086, 8087 must have access to 10.0.0.0/8.
 {:important}
 
-If you need to use more restrictive firewall rules, you might lose access to the {{site.data.keyword.backup_notm}} portal as the infrastructure is expanded. Currently, at minimum, your servers must allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086, 8087. Other subnets might be used in the future as needed.
+If you need to use more restrictive firewall rules, you might lose access to the WebCC as the infrastructure is expanded. Currently, at minimum, your servers must allow access to the 10.0.82.0/24 and 10.2.118.0/24 subnets for TCP ports 8086, 8087. Other subnets might be used in the future as needed.
 
 ## Commercial
 
-*{{site.data.keyword.backup_notm}} portal and AMP proxy servers*
+*WebCC and AMP proxy servers*
 
 - `ev-webcc01.service.softlayer.com` [10.0.82.12] 8086, 8087
 - `evregister.service.softlayer.com` [10.0.82.12] 8086, 8087
@@ -56,11 +56,11 @@ If you need to use more restrictive firewall rules, you might lose access to the
 
 ## Federal
 
-*{{site.data.keyword.backup_notm}} portal and AMP proxy*
+*WebCC and AMP proxy*
 
 - webcc.service.usgov.softlayer.com [100.100.6.20] 8086, 8087
 
-The agent must allow the TCP port 2548 inbound on the private network. This setting allows Central Control and {{site.data.keyword.backup_notm}} portal to connect into the agent to manage it. Older versions of EVault used port 808.
+The agent must allow the TCP port 2548 inbound on the private network. This setting allows Central Control and WebCC to connect into the agent to manage it. Older versions of EVault used port 808.
 
 The {{site.data.keyword.backup_notm}} management port (2548) can be changed by updating the registry key at: `HKLM\SOFTWARE\EVault\InfoStage\Agent\AgentPortNumber` (which is a `dword`) in Windows operating systems.
 

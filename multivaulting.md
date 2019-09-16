@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -25,9 +25,9 @@ Multi-vaulting is the ability for a client to connect a server to more than one 
 
 **Key points**
 
-1. Multiple vaults can be managed through the same {{site.data.keyword.backup_notm}} portal and they are handled the same way. The only difference is that you have different vault choices.
+1. Multiple vaults can be managed through the same WebCC and they are handled the same way. The only difference is that you have different vault choices.
 2. Plug-in licensing is on a per vault basis - for example, if you purchased the MSSQL plug-in for a vault in Washington DC, it doesn't work on the Seattle vault.
-3. The new vault needs to be manually added to the {{site.data.keyword.backup_notm}} portal after each purchase.
+3. The new vault needs to be manually added to the WebCC after each purchase.
 
 
 
@@ -40,7 +40,7 @@ Backing up to remote data center locations can take longer than backups to the s
 
 ## Adding a Remote Vault to an Account
 
-You must add the new remote vault to the account before a new backup location can be added in the {{site.data.keyword.backup_notm}} portal.
+You must add the new remote vault to the account before a new backup location can be added in the WebCC.
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
@@ -56,14 +56,14 @@ The newly ordered vault is automatically added to the account. If not, contact S
 
 When the ordering process is complete, go to the **Storage** > **Backup** to see the new vault that is listed.
 
-## Adding an Extra Vault in {{site.data.keyword.backup_notm}} portal
+## Adding an Extra Vault in WebCC
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click the **{{site.data.keyword.backup_notm}} portal Login** link to start the portal client in your browser.
+3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the WebCC link.
+4. Click the **WebCC Login** link to start the portal client in your browser.
 
-   {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
+   WebCC is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
 5. In the navigational pane, click **All Agents**.
 6. Click **Edit** and select **Vault Settings**.

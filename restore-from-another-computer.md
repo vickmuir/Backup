@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -29,22 +29,22 @@ The process includes reregistering the backup agent on the second server to acce
 **Pre-requisites**
 
 - Server1 and Server2 must have the same Operating System. Cross-platform restores aren't supported.
-- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in {{site.data.keyword.backup_notm}} portal](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+- Server1 and Server2 must have backup agents that were configured previously. For more information about configuring the backup agents, see [Configuring the backup agent in WebCC](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 - A backup job for Server1 that produced a backup to Server1's vault location.
 
 Disable all Scheduled tasks on both servers to avoid any conflicts.
 {:important}
 
-## Starting {{site.data.keyword.backup_notm}} portal of Server2
+## Starting WebCC of Server2
 {: #startWebCC}
 
-Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the {{site.data.keyword.backup_notm}} portal link doesn't work.
+Remember to start your {{site.data.keyword.BluVPN}} connection to get access to the {{site.data.keyword.cloud}} private network or the WebCC link doesn't work.
 {:tip}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-3. Select Server2. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
+3. Select Server2. Click the expansion arrow to reveal the WebCC link.
+4. Click **WebCC Login** to start the portal client in your browser.
 
 ## Reregistering the vault
 {: #reregistervault}

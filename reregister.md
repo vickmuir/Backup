@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, reregister
 
@@ -21,9 +21,9 @@ subcollection: Backup
 Reregistering a vault is a task that is most commonly used after the Operating System of a server is reloaded. You can also use these steps to [use backups of one server to restore data on another server](/docs/infrastructure/Backup?topic=Backup-restorefromotherVSI).
 {:shortdesc}
 
-1. Start {{site.data.keyword.backup_notm}} portal and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+1. Start WebCC and log in. For more information, see the [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
 
-   Remember, {{site.data.keyword.backup_notm}} portal is only accessible through {{site.data.keyword.BluVPN}}.
+   Remember, WebCC is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
 2. Click **All Agents**.
 3. Mouse-over **Edit**.
