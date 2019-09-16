@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -22,18 +22,18 @@ subcollection: Backup
 You need to purchase the BMR plug-in to create a BMR backup. BMR is available only for Windows Bare Metal Servers. No BMR option is available for VSI. For more information, see [Learn about the Bare Metal Restore plug-in](/docs/infrastructure/Backup?topic=Backup-BMRplugin#BMRplugin)
 {:important}
 
-## Starting {{site.data.keyword.backup_notm}} portal
+## Starting WebCC
 {: #startWebCCBMR}
 
-You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start {{site.data.keyword.backup_notm}} portal.
+You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the WebCC portal.
 {:important}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
 2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
-3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
+3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the WebCC link.
+4. Click **WebCC** to start the portal client in your browser.
 
-   If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you’re sending isn’t secure. It is expected - proceed by sending the form.
+   If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
    {:tip}
 
 ## Configuring a BMR backup job

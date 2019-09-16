@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration, linux
 
@@ -21,17 +21,19 @@ subcollection: Backup
 
 After you ordered your {{site.data.keyword.backup_full}} and the agent is installed on the server, you can start creating backups of your data. The article provides the steps to configure your agent, retention schedule and start your first backup job.
 
-## Starting {{site.data.keyword.backup_notm}} portal
+## Starting WebCC
 {: #startWebCCconfigLin}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
-2. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-3. Start your VPN connection to get access to the IBM private network.
-4. Click the {{site.data.keyword.backup_notm}} portal Login link to start the portal client in your browser.<br/>
+You need to be connected to the {{site.data.keyword.cloud}} private network to be able to start the WebCC portal.
+{:important}
 
-  If {{site.data.keyword.backup_notm}} portal doesn't start, you might have a problem with your VPN connection. You might also see a message that says the form you're sending isn't secure. It is expected - proceed by sending the form.
-  {:tip}
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
+2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
+3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the WebCC link.
+4. Click **WebCC** to start the portal client in your browser.
+
+   If WebCC doesn't start, you might have a problem with your VPN connection. You might also see a message that says that the form you’re sending isn’t secure. It is expected - proceed by sending the form.
+   {:tip}
 
 ## Configuring a backup job
 

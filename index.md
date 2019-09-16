@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, IBM Cloud backup, Enterprise backup, billing, pricing,
 
@@ -85,4 +85,4 @@ A series of emails is sent to your administrator: Acknowledgment of the provisio
    If the backup storage size continues to show a capacity of zero, a second page refresh might be needed.
    {:tip}
 
-When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the {{site.data.keyword.backup_notm}} portal. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
+When you're ready, go ahead and install the software agent on the server and set up your backup schedule in the WebCC. For more information, see [Getting started tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-01"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, install agent, Linux
 
@@ -30,7 +30,7 @@ This procedure outlines the steps that are required to install the client on any
 * CentOS
 * CloudLinux
 
-After you completed the procedure, the automated process registers the Agent service with {{site.data.keyword.backup_notm}} portal, then downloads and installs the files that are needed to run the service.
+After you completed the procedure, the automated process registers the Agent service with WebCC, then downloads and installs the files that are needed to run the service.
 
 If you purchased {{site.data.keyword.backup_notm}} when you ordered a server through the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: external} or the {{site.data.keyword.cloud_notm}} console, then the software is automatically installed for you. You don't need to use the procedures that are described in this document.
 {:tip}
@@ -86,7 +86,7 @@ This step is required for RHEL, but optional for other distributions.
    ```
    {: pre}
 
-2. Enter your {{site.data.keyword.backup_notm}} portal user name and password.
+2. Enter your WebCC user name and password.
 
    For more information about viewing the {{site.data.keyword.backup_notm}} user name and password, see [Getting started with backup services](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).
    {:tip}
@@ -130,4 +130,4 @@ This step is required for RHEL, but optional for other distributions.
 
 **Next steps**
 
-Log in to {{site.data.keyword.backup_notm}} portal to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+Log in to WebCC to configure and manage your backup agents. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started) and [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
