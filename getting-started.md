@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-08-22"
+lastupdated: "2019-09-16"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -62,19 +62,19 @@ Follow the instructions appropriate for your OS,
 - [Installing the Backup Client in Linux](/docs/infrastructure/Backup?topic=Backup-InstallinLinux)
 - [Installing the Backup Client in Windows](/docs/infrastructure/Backup?topic=Backup-InstallinWindows)
 
-## Accessing {{site.data.keyword.backup_notm}} portal (formerly WebCC)
+## Accessing the WebCC portal
 {: #accessingWebCC}
 
-{{site.data.keyword.backup_notm}} portal is used to interact with any {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. {{site.data.keyword.backup_notm}} portal is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
+WebCC is used to interact with the {{site.data.keyword.backup_notm}} service that is offered by {{site.data.keyword.cloud}}. WebCC is a browser-based client that runs on the {{site.data.keyword.cloud}} private network and allows full control of any {{site.data.keyword.backup_notm}} service, including configuration and restores.
 
 1. Access the Private Network over VPN.
 
    {{site.data.keyword.backup_notm}} portal can't be accessed over the public network. A VPN connection must be established first.
    {:important}
 2. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
-3. Select the server where the files to be backed up are located. Click the expansion arrow to reveal the {{site.data.keyword.backup_notm}} portal link.
-4. Click **{{site.data.keyword.backup_notm}} portal Login** to start the portal client in your browser.
+2. Click **Storage** > **Cloud Backup** to display the backup services.
+3. Select the username of the {{site.data.keyword.cloud_notm}} account. Click the expansion arrow to reveal the WebCC portal link.
+4. Click **WebCC** to start the portal client in your browser.
 
 ## Configuring the Backup agent and the backup schedule
 {: #configureagentschedule}
