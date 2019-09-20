@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-20"
 
 keywords: IBM Cloud backup, oracle, plug-in, plugin, EVault, Carbonite
 
@@ -48,7 +48,7 @@ The Oracle plug-in for Windows is installed with the 32-bit or 64-bit Windows Ag
 Before you install the plug-in, stop both {{site.data.keyword.backup_notm}} services in `services.msc`.
 {:tip}
 
-1. Browse to `c:\installs\evault` folder and run the .exe file with the higher revision number.
+1. Run the Agent installation package.
 2. At the language screen, click **OK**
 3. At the welcome screen, click **Next**
 4. Select the **Modify installation**, and click **Next**.
