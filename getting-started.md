@@ -101,8 +101,6 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action** and choose **History/Logs**.
 
-For more information, see [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
-{:tip}
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
 {: #viewingdetailsinconsole}
