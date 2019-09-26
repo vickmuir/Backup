@@ -57,7 +57,7 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 9. Select the files and folders you want to include in the backup.
 10. Enter the encyption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-    You need this password to restore files from the backup. Without the password, you can't restore an encrypted back and there's no way to recover a lost password.
+    You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
     {:important}
 11. Click **Apply now** to confirm the backup sets before creating the job.
 12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
