@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -79,24 +79,14 @@ WebCC is used to interact with the {{site.data.keyword.backup_notm}} service tha
 ## Configuring the Backup agent and the backup schedule
 {: #configureagentschedule}
 
-After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Follow these steps to configure your agent and retention schedule.
+After you ordered your {{site.data.keyword.backup_notm}} and the agent is installed on the server, you can start creating backups of your data. Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-1. Log in to the WebCC.
-2. Click **All Agents**> **Unconfigured Agents**.
-3. Click **This is a new Agent I would like to configure** link. Step through the process and enter the following information:
-   1. Agent configuration - provide agent description, click **Next**.
-   2. Job type selection - enter job name, job description, and backup source type, click **Next**.
-   3. Selection - select directories and click **Include...**
-   4. Options - provide passwords
-   5. Schedule - click **Add** to create a schedule, click **Next**.
-   6. Select the default vault, click **OK**.
-   7. Click **Save**.
-4. Create a retention schedule.
-   1. Select **Edit** > **Agent Settings**.
-   2. Click **Add**.
-   3. Complete your retention details.
-   4. Click **OK**.
-   5. Click **Save**.
+  - The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
+
+    This job can be modified after it was configured.
+    {:note}
+
+  - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
 
       For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
       {:tip}
@@ -107,14 +97,11 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 ## Running your first backup job
 {: #runfirstbackup}
 
-1. Log in to the WebCC.
-2. Click **All Agents**, then select the agent that you configured.
-3. Click **Run Backup**.
-4. Confirm Destination and select a retention scheme.
-5. Click **Start Backup**. You can view the backup details while the process is running.
-6. When the backup is complete, click **Close**.
+1. The new job is displayed on the Computers tab. To start the job, click **Select Actions** and click **Run Job**.
+2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
+3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action** and choose **History/Logs**.
 
-For more information, see [Configuring simple file-level backup on Linux](/docs/infrastructure/Backup?topic=Backup-configureLinuxBackup).
+For more information, see [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
 {:tip}
 
 ## Accessing and viewing {{site.data.keyword.backup_notm}} storage details in the Console
