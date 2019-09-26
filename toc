@@ -25,15 +25,15 @@ IBM Cloud Storage - IBM Cloud Backup
     Configuration
         install-backup-client-linux.md
         upgrade-backup-agent-linux.md
-        configure-simple-file-backup.md
         install-backup-client-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
-        configure-bmr-backup-windows.md
-        configure-vra.md
         port-information.md
         reregister.md
         multivaulting.md
+        configure-simple-file-backup.md
+        configure-bmr-backup-windows.md
+        configure-vra.md
 
     {: .topicgroup}
     Restores
