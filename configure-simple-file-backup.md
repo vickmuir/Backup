@@ -39,12 +39,12 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor your backups. You can choose between manual or automatic backup agent configuration methods.
 
-* The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
+  - The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
 
   This job can be modified after it was configured.
   {:note}
 
-* If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
+  - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
 
 1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
 2. Click **Configure Manually**. This loads the vault settings page.
@@ -59,10 +59,10 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 
     You need this password to restore files from the backup. Without the password, you can't restore an encrypted back and there's no way to recover a lost password.
     {:important}
-10. Click **Apply now** to confirm the backup sets before creating the job.
-11. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
-11. Click **Create Job**. The View/Add Schedule window is loaded.
-12. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
+11. Click **Apply now** to confirm the backup sets before creating the job.
+12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
+13. Click **Create Job**. The View/Add Schedule window is loaded.
+14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
 
    Multiple retention schedules can be setup for same job but it’s important to note that they SHOULD NOT execute at same time.
    {:note}
