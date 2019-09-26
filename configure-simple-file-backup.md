@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-09-26"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -41,8 +41,8 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 
   - The automatic agent configuration creates a backup job of the complete C Drive (Windows OS) or ./ <root> directory (Linux OS) with Monthly and Daily Retention schemes.
 
-  This job can be modified after it was configured.
-  {:note}
+    This job can be modified after it was configured.
+    {:note}
 
   - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
 
@@ -70,5 +70,5 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
 ## Executing a backup job
 
 1. The new job is displayed on the Computers tab. To start the job, click **Select Actions** and click **Run Job**.
-2. Verify the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed and backup job will keep running in background.
+2. Verify that the destination and retention scheme appear correctly and click **Start Backup**. The Progress Detail page shows the job progress. This window can be closed if needed, the backup job keeps running in background.
 3. When the backup job is complete, the Process ID Status shows "Finished". You can view the job history and logs of existing backup jobs on the Computer tab. Select the job that you want to view, click **Select Action** and choose **History/Logs**.
