@@ -25,7 +25,7 @@ IBM Cloud Storage - IBM Cloud Backup
     Configuration
         install-backup-client-linux.md
         upgrade-backup-agent-linux.md
-        configure-simple-file-backup-linux.md
+        configure-simple-file-backup.md
         install-backup-client-windows.md
         upgrade-backup-agent-windows.md
         install-backup-client-windows2016.md
