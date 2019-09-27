@@ -46,31 +46,25 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
 
-If Server2 has a current backup vault registration of its own and backup jobs, those must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
 
- Deleting job in Portal does not delete job from Backup Vaults. Jobs can be recovered by re-registering the agent to its own vault location after recovering the file from another computer.
- {:note}
+## Editting the vault information
+{: #changhingvault}
 
- If Server2 has a current vault registered, this can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
-
-## Reregistering the vault
-{: #reregistervault}
-
-1. When the Vault Settings tab is blank, click **Re-register**. On the **Re-register Vault** screen for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
-2. Enter the Vault Name, which is the same as the vault name of Server1.
+1. Click **Computers**, and click the server name to display its information.
+2. Click **Vault Settings** and from the Action menu, select **Edit**.
+2. Enter the Vault Name, which is the same as the unique vault name of Server1.
 3. Enter credentials for Server1 to log in to the vault for Server1.
-4. Click **Load Computers**, this action displays the servers that are attached to the vault location.
-5. Click **Save**.
-6. When prompted, click **Yes** to confirm the reregistration of the vault.
+4. Click **Save**.
 
 ## Running the backup job from Server1 as the restore job on Server2
 {: #runbackuprestore}
 
-1. Click **Jobs**.
+1. On the **Computer** tab, click **Jobs**.
 
    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {:tip}
-2. From the Action menu, select **Restore**.
+2. From the Action menu, select **Restore from Another Computer**.
+3. Select the Vault, Computer, and Job from the drop-down menus.
 3. Enter the encryption password.
 4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
@@ -80,8 +74,6 @@ If Server2 has a current backup vault registration of its own and backup jobs, t
 10. When your restore set is configured the way that you want it, click **Apply Now**.
 12. Then, click **Run Restore**.
 13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main WebCC screen.
-
-When the restore is complete, remove the remote Backup Vault information of Server1 and re-register the vault of Server2. All backup jobs of Server2 are restored afterward.
 
 
 ## Verifying the restore
