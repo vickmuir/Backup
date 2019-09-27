@@ -17,7 +17,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
 
-# Restoring from a backup
+# Restoring data from a backup
 {: #simplerestore}
 
 Use these steps to complete a File restore with {{site.data.keyword.backup_full}}. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR#restoreBMR) instructions.

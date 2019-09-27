@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-26"
+lastupdated: "2019-09-27"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -18,7 +18,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
 
-# Restoring data from one VSI to another within the same data center
+# Restoring data from one server to another
 {: #restorefromotherVSI}
 
 Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
