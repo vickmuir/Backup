@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-26"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -46,44 +46,42 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
 
+If Server2 has a current backup vault registration of its own and backup jobs, those must be removed. You can delete existing jobs on the Computers > Jobs page by simply selecting the **Delete Job** action. Then, you're prompted to confirm the deletion. Type **CONFIRM** and click **Confirm Deletion**.
+
+ Deleting job in Portal does not delete job from Backup Vaults. Jobs can be recovered by re-registering the agent to its own vault location after recovering the file from another computer.
+ {:note}
+
+ If Server2 has a current vault registered, this can be deleted on the **Computers** > **Vault Settings** tab by selecting **Remove** from the Action menu.
+
 ## Reregistering the vault
 {: #reregistervault}
 
-1. Click **All Agents** and open the specific agent that you want to modify.
-2. Click **Edit** and select **Vault Settings**.
-3. Click **Reregister** to connect Server1 to Server2.
-4. On the **Re-register Vault** screen for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
-5. Enter the Vault Name, which is the same as the vault name of Server1.
-6. Enter credentials for Server1 to log in to the vault for Server1.
-7. Click **Load Computers**, this action displays the servers that are attached to the vault location.
-8. Click **Save Changes**.
-9. When prompted, click **Yes** to confirm the reregistration of the vault.
+1. When the Vault Settings tab is blank, click **Re-register**. On the **Re-register Vault** screen for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
+2. Enter the Vault Name, which is the same as the vault name of Server1.
+3. Enter credentials for Server1 to log in to the vault for Server1.
+4. Click **Load Computers**, this action displays the servers that are attached to the vault location.
+5. Click **Save**.
+6. When prompted, click **Yes** to confirm the reregistration of the vault.
 
 ## Running the backup job from Server1 as the restore job on Server2
 {: #runbackuprestore}
 
-1. Click **All Agents**.
+1. Click **Jobs**.
 
    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {:tip}
-2. Hover over **Advanced** and select **Restore from another Computer**.
-3. On the **Restore From Another Computer** screen, make the following selections.
-  - Vault - This entry defaults to Server1's vault.
-  - Computer - Select Server1 as the backup computer to restore from.
-  - Job - Select the backup job from Server1.
-4. Click **Next**
-5. Confirm Source information
-  - **Safeset location** is the Vault location for Server1.
-  - In the **Select a Backup Version** section, specify your backup from Server1 as the backup version.
-  - The encryption password is the password that you used when you created the backup of Server1.
-6. Click **Next**
-7. Select which files need to be restored from the Server1 backup. Check the boxes next to the files, and directories that you want to restore, then click **Include** to save your choices.
-8. Click **Next** to move to the restore options.
-9. In Options
-  - Destination - Select **Restore to original location**
-  - File Overwrite - Select **Overwrite existing files**
-10. Click **Run Restore**.
-11. The Process Detail screen displays the status of the restore job.
+2. From the Action menu, select **Restore**.
+3. Enter the encryption password.
+4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
+9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+
+   Default restore options place the files in their original location, and if files exists in the destination folder with the same name folder, the incoming file is re-named. These options can be changed and alternate restore location can be selected from Restore Destination options.
+   {:note}
+10. When your restore set is configured the way that you want it, click **Apply Now**.
+12. Then, click **Run Restore**.
+13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main WebCC screen.
+
+When the restore is complete, remove the remote Backup Vault information of Server1 and re-register the vault of Server2. All backup jobs of Server2 are restored afterward.
 
 
 ## Verifying the restore

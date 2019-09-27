@@ -38,10 +38,10 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 1. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the server that you want to restore to a previous state.
 2. Click **Jobs** to load the job options.
-3. lick **Select job Task** and click **Restore from Another Computer**.
+3. Click **Select job Task** and select **Restore*.
 4. Confirm the vault, computer and job information and click **Okay**.
 5. Enter the encryption password of the previous backup.
-6. The Restore Options window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar Tab and view other safesets.
+6. The Restore Options window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon and view other safesets.
 9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
 
    Default restore options place the files in their original location, and if files exists in the destination folder with the same name folder, the incoming file is re-named. These options can be changed and alternate restore location can be selected from Restore Destination options.
