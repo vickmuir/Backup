@@ -38,37 +38,26 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 ## Configuring a BMR backup job
 
-1. On the navigation, click **Computers**. The computers page shows the registered computers and environments.
-2. Click **Jobs**.
-3. In the Select job Task menu, click **Create New VMware vCenter Job**.
-4. Specify the following information.
-   * In the **Name** field, type a name for the backup job.
-   * In the **Description** field, optionally type a description for the backup job.
-   * In the **Destination** list, select the vault where you want to save the backup data.
-   * In the **Password** and **Confirm Password** fields, type an encryption password. You can also type a password hint in the Password Hint field.
-   A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.<br/>
-   For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
-   {:note}
+1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
+2. Click **Configure Manually**. This loads the vault settings page.
+3. Click **Add Vault**.
+4. Expand the Vault Profile menu and select the vault. All values auto-populate.
+5. Click **Save**.
+6. Click the **Jobs** tab.
+7. From the Select Job Task menu, select **Create Bare Metal Restore Job**.
+8. In the Create New Job window, enter a Job Name and a Job Description.
+9. Select the files and folders you want to include in the backup.
+10. Enter the encyption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the VMs that you want to include in the backup job.1. In the navigation, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents.
+  You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+  {:important}
+11. Click **Apply now** to confirm the backup sets before creating the job.
+12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
+13. Click **Create Job**. The View/Add Schedule window is loaded.
+14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
 
-2. Click **This is a new Agent I would like to configure**.
-3. Enter a Job Name and a Job Description for the job that you're creating.
-4. For **Backup Source Type**, select the file system type, then click **Next**
-5. The **Job Type Selection** menu is displayed. Check the box next to **Bare Metal Restore**, and click **Next** to continue.
-6. Click **Yes** on the Confirmation windows.
-7. The screen shows that the new job is now in the backup set. Click **Next**.
-8. The screen displays encryption options and advanced backup options. Normally these options aren't needed. Click **Next**.
-9. On the **Create a schedule** page, you have two choices.
-   - Click **Next** to create a manual job, and proceed to running your new job.
-   - Click **Add** to schedule a time-based backup job.
-     1. Select the days and the time of day to run your backups.
-     2. Select your Retention Scheme.
-
-        For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs).
-        {:tip}
-     3. After you configured your backup schedule, click **Ok** to save it. Your scheduled job is added to the list of scheduled jobs.
-10. Select a vault for your backup job, and click **Save Changes**.
+   For more information about Retention Schemes, see the [FAQ](/docs/infrastructure/Backup?topic=Backup-faqs#faqs).
+   {:tip}
 
 
 ## Running a BMR backup job
