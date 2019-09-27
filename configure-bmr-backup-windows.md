@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configure BMR, bmr plug-in, bmr plugin, configuration
 
@@ -38,7 +38,20 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
 
 ## Configuring a BMR backup job
 
-1. In the navigation, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents.
+1. On the navigation, click **Computers**. The computers page shows the registered computers and environments.
+2. Click **Jobs**.
+3. In the Select job Task menu, click **Create New VMware vCenter Job**.
+4. Specify the following information.
+   * In the **Name** field, type a name for the backup job.
+   * In the **Description** field, optionally type a description for the backup job.
+   * In the **Destination** list, select the vault where you want to save the backup data.
+   * In the **Password** and **Confirm Password** fields, type an encryption password. You can also type a password hint in the Password Hint field.
+   A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.<br/>
+   For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
+   {:note}
+
+5.	In the **Include in Backup** field, take one or more of the following steps until the Backup Set field shows the VMs that you want to include in the backup job.1. In the navigation, click **All Agents** to display current {{site.data.keyword.backup_notm}} Agents.
+
 2. Click **This is a new Agent I would like to configure**.
 3. Enter a Job Name and a Job Description for the job that you're creating.
 4. For **Backup Source Type**, select the file system type, then click **Next**
