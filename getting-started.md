@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-26"
+lastupdated: "2019-09-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, getting started, setup, configure, run backup, billing, pricing,
 
@@ -85,6 +85,11 @@ After you ordered your {{site.data.keyword.backup_notm}} and the agent is instal
 
     This job can be modified after it was configured.
     {:note}
+
+    1. Create a password.
+    2. Confirm the password.
+    3. Add a password hint.
+    4. Click **Configure automatically**.
 
   - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice. For more information, see [Configuring simple file-level backup](/docs/infrastructure/Backup?topic=Backup-configureFileBackup).
 

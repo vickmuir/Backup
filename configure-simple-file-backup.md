@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-26"
+lastupdated: "2019-09-27"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, configuration,
 
@@ -44,28 +44,33 @@ Through the {{site.data.keyword.backup_notm}} portal, you can manage and monitor
     This job can be modified after it was configured.
     {:note}
 
+    1. Create a password.
+    2. Confirm the password.
+    3. Add a password hint.
+    4. Click **Configure automatically**.
+
   - If you choose to configure the {{site.data.keyword.backup_notm}} agent manually, the automatic settings are ignored and you can specify the folders and files to be retained with a retention scheme of your choice.
 
-1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
-2. Click **Configure Manually**. This loads the vault settings page.
-3. Click **Add Vault**.
-4. Expand the Vault Profile menu and select the vault. All values auto-populate.
-5. Click **Save**.
-6. Click the **Jobs** tab.
-7. From the Select Job Task menu, select **Create New Local System Job**.
-8. In the Create New Job window, enter a Job Name and a Job Description.
-9. Select the files and folders you want to include in the backup.
-10. Enter the encyption password into the Password and Confirm Password fields. You can also add a Password Hint.
+    1. In the navigation, click **Computers**, then the expansion arrow to display the information of the selected server.
+    2. Click **Configure Manually**. This loads the vault settings page.
+    3. Click **Add Vault**.
+    4. Expand the Vault Profile menu and select the vault. All values auto-populate.
+    5. Click **Save**.
+    6. Click the **Jobs** tab.
+    7. From the Select Job Task menu, select **Create New Local System Job**.
+    8. In the Create New Job window, enter a Job Name and a Job Description.
+    9. Select the files and folders you want to include in the backup.
+    10. Enter the encyption password into the Password and Confirm Password fields. You can also add a Password Hint.
 
-    You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+      You need this password to restore files from the backup. Without the password, you can't restore an encrypted backup and there's no way to recover a lost password.
+      {:important}
+    11. Click **Apply now** to confirm the backup sets before creating the job.
+    12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
+    13. Click **Create Job**. The View/Add Schedule window is loaded.
+    14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
+
+    Multiple retention schedules can be setup for same job but it’s important they are NOT be run at same time.
     {:important}
-11. Click **Apply now** to confirm the backup sets before creating the job.
-12. You can leave the Advanced Backup Options with their default settings. If you want detailed log files for the backup job, you can enable them by expanding the *Log Detail Level* menu and selecting **File**.
-13. Click **Create Job**. The View/Add Schedule window is loaded.
-14. {{site.data.keyword.backup_notm}} offers 3 job retention schemes: Daily , Weekly , Monthly. Select the appropriate retention period and click **Save**.
-
-   Multiple retention schedules can be setup for same job but it’s important to note that they SHOULD NOT be run at same time.
-   {:note}
 
 ## Executing a backup job
 

@@ -36,14 +36,9 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 
 ## Restoring your data
 
-1. In the navigation, click **All Agents**.
-2. Click the Agent to display the Jobs.
-3. Click the Job that contains the data that you want.
-4. Click **Run Restore**.
-5. Select the restore source.
-6. Select the backup version.
-7. Enter the encryption password.
-8. Click **Next** to continue.
+1. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the server that you want to restore to a previous state.
+2. To start the job, click **Select Actions** and click **Restore**.
+3. 
 9. Select the check boxes next to the files and directories that you want to include. Then, click **Include** to save your choices.
 10. You can further filter your selections by using the window that appears, or click **OK** to use the selections you made as-is.
 After you included your file and directory choices, the files can no longer be selected in the data files pane. They are displayed in the backup set pane.
