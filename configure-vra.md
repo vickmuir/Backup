@@ -50,6 +50,7 @@ You need to be connected to the {{site.data.keyword.cloud}} private network to b
    * In the **Description** field, optionally type a description for the backup job.
    * In the **Destination** list, select the vault where you want to save the backup data.
    * In the **Password** and **Confirm Password** fields, type an encryption password. You can also type a password hint in the Password Hint field.
+
    A vault appears in the list only if it is assigned to the user, or if the user added it to the computer’s Vault Settings.<br/>
    For new backup jobs, the encryption method is AES 256 bit. Existing jobs can have other encryption methods.
    {:note}

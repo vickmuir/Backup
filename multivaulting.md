@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-01"
 
 keywords: IBM Cloud backup, EVault, Carbonite, backup, multiple vaults, mulitple locations, disaster recovery
 
@@ -48,26 +48,26 @@ You must add the new remote vault to the account before a new backup location ca
 3. Locate and click the link for the server in question.
 4. Under **Device Details**, click **Storage**.
 5. When the Storage section opens up, scroll down to **{{site.data.keyword.backup_notm}}**, and click **Add**.
-6. In the **Order {{site.data.keyword.backup_notm}}** window, select the remote vault location by clicking its entry in the pull-down list.
+6. In the **Order {{site.data.keyword.backup_notm}}** window, select the remote vault location.
 7. Select the size of the storage, then click **Continue**
-8. Check the **I have read the Master...** box and click **Place Order**.
+8. Check the **I have read the Master...** box, and click **Place Order**.
 
 The newly ordered vault is automatically added to the account. If not, contact Sales for help.
 
-When the ordering process is complete, go to the **Storage** > **Backup** to see the new vault that is listed.
+When the ordering process is complete, go to the **Storage** > **Backup** page to see the new vault.
 
 ## Adding an Extra Vault in WebCC
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}. From the Navigational Menu, select **Classic Infrastructure**.
-2. Click **Storage** > **Cloud Backup** to display the servers with backup service.
+2. Click **Storage** > **Cloud Backup** to display the servers with backup services.
 3. Select the server that you want to be able to back up to multiple vaults. Click the arrow to reveal the WebCC link.
 4. Click the **WebCC Login** link to start the portal client in your browser.
 
    WebCC is only accessible through {{site.data.keyword.BluVPN}}.
    {:tip}
-5. In the navigational pane, click **All Agents**.
-6. Click **Edit** and select **Vault Settings**.
-7. In the **Vault Settings** window, click **Add**.
+5. On the navigation, click **Computers**. The computers page shows the registered computers and environments. Expand the computer you want to back up to a second vault.
+6. Click **Vault Settings**.
+7. In the **Vault Settings** window, click **Add Vault**.
 8. In the **New Vault** window,
   1. In the Vault Profile menu, choose **Enter Vault Settings** to create a new entry. Don't update the existing entry, it doesn't work.
   2. The vault name can't be the same as the other vault name. Try adding a `-2` tag to the end of it. <br/>
@@ -76,6 +76,6 @@ When the ordering process is complete, go to the **Storage** > **Backup** to see
      {:important}
   3. The IP address field is populated with the {{site.data.keyword.backup_notm}} director location information. For example, `ev-director301.service.softlayer.com` has the IP address 10.1.114.46 and is located in WDC.
   4. In the credentials field, enter the account ID, the {{site.data.keyword.backup_notm}} user name for the selected vault, and the password for the selected vault.
-  5. Click **Save Changes**.
+  5. Click **Save**.
 
 In a few seconds, the new vault is usable. If you get a connection failure, check your settings, and try again. Keep in mind that adding an extra vault presents you with an extra destination to choose for a job. It doesn't automatically run jobs against both vaults. You need to set up jobs to use the extra vault. For more information, see the [Getting Started Tutorial](/docs/infrastructure/Backup?topic=Backup-getting-started#getting-started).

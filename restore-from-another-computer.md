@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-01"
 
 keywords: IBM Cloud backup,  EVault, Carbonite, backup, restore
 
@@ -18,7 +18,7 @@ subcollection: Backup
 {:DomainName: data-hd-keyref="DomainName"}
 {:shortdesc: .shortdesc}
 
-# Restoring data from one VSI to another within the same data center
+# Restoring data from one server to another
 {: #restorefromotherVSI}
 
 Sometimes you want to restore data to a different server in the same data center. This procedure applies to file-level restores of non-OS files only. To restore a system image, follow the [Windows BMR](/docs/infrastructure/Backup?topic=Backup-restoreBMR) instructions.
@@ -46,44 +46,34 @@ Remember to start your {{site.data.keyword.BluVPN}} connection to get access to 
 3. Select Server2. Click the expansion arrow to reveal the WebCC link.
 4. Click **WebCC Login** to start the portal client in your browser.
 
-## Reregistering the vault
-{: #reregistervault}
 
-1. Click **All Agents** and open the specific agent that you want to modify.
-2. Click **Edit** and select **Vault Settings**.
-3. Click **Reregister** to connect Server1 to Server2.
-4. On the **Re-register Vault** screen for the **Use a Vault Profile** entry, select **Enter Vault Settings**.
-5. Enter the Vault Name, which is the same as the vault name of Server1.
-6. Enter credentials for Server1 to log in to the vault for Server1.
-7. Click **Load Computers**, this action displays the servers that are attached to the vault location.
-8. Click **Save Changes**.
-9. When prompted, click **Yes** to confirm the reregistration of the vault.
+## Editing the vault information
+{: #changhingvault}
+
+1. Click **Computers**, and click the server name to display its information.
+2. Click **Vault Settings** and from the Action menu, select **Edit**.
+2. Enter the Vault Name, which is the same as the unique vault name of Server1.
+3. Enter credentials for Server1 to log in to the vault for Server1.
+4. Click **Save**.
 
 ## Running the backup job from Server1 as the restore job on Server2
 {: #runbackuprestore}
 
-1. Click **All Agents**.
+1. On the **Computer** tab, click **Jobs**.
 
    You might need to refresh the page to see the jobs that are defined on Server1 as accessible and synchronized under the Server2 **Jobs** tab.
    {:tip}
-2. Hover over **Advanced** and select **Restore from another Computer**.
-3. On the **Restore From Another Computer** screen, make the following selections.
-  - Vault - This entry defaults to Server1's vault.
-  - Computer - Select Server1 as the backup computer to restore from.
-  - Job - Select the backup job from Server1.
-4. Click **Next**
-5. Confirm Source information
-  - **Safeset location** is the Vault location for Server1.
-  - In the **Select a Backup Version** section, specify your backup from Server1 as the backup version.
-  - The encryption password is the password that you used when you created the backup of Server1.
-6. Click **Next**
-7. Select which files need to be restored from the Server1 backup. Check the boxes next to the files, and directories that you want to restore, then click **Include** to save your choices.
-8. Click **Next** to move to the restore options.
-9. In Options
-  - Destination - Select **Restore to original location**
-  - File Overwrite - Select **Overwrite existing files**
-10. Click **Run Restore**.
-11. The Process Detail screen displays the status of the restore job.
+2. From the Action menu, select **Restore from Another Computer**.
+3. Select the Vault, Computer, and Job from the drop-down menus.
+3. Enter the encryption password.
+4. The Restore window appears. By default, it displays the most recent safeset. To choose a different date, click the Calendar icon, and view other safesets.
+9. Select the files and directories that you want to include. Then, click **Include** to save your choices.
+
+   Default restore options place the files in their original location, and if files exists in the destination folder with the same name folder, the incoming file is re-named. These options can be changed and alternate restore location can be selected from Restore Destination options.
+   {:note}
+10. When your restore set is configured the way that you want it, click **Apply Now**.
+12. Then, click **Run Restore**.
+13. The files are restored when the Status displays **Restore completed** on the **Process Details** screen. Click **Close** to close the window and return to the main WebCC screen.
 
 
 ## Verifying the restore
